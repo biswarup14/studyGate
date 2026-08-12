@@ -12,6 +12,7 @@ export default function SubjectDetailPage() {
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(1);
+  const [subtopic, setSubtopic] = useState("");
 
   // decode slug back to subject name
   const subjectName = subject
@@ -37,9 +38,26 @@ export default function SubjectDetailPage() {
     );
   }, [allQuestions, subject]);
 
-  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
-  const paginated = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+  const subtopics = useMemo(() => {
+    const counts = new Map<string, number>();
+    filtered.forEach((q) => {
+      if (q.subtopic) counts.set(q.subtopic, (counts.get(q.subtopic) || 0) + 1);
+    });
+    return [...counts.entries()].sort((a, b) => b[1] - a[1]);
+  }, [filtered]);
+
+  const shown = useMemo(() => {
+    return subtopic ? filtered.filter((q) => q.subtopic === subtopic) : filtered;
+  }, [filtered, subtopic]);
+
+  const totalPages = Math.ceil(shown.length / PAGE_SIZE);
+  const paginated = shown.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
   const actualSubject = filtered[0]?.subject || subjectName;
+
+  const selectSubtopic = (value: string) => {
+    setSubtopic(value);
+    setPage(1);
+  };
 
   if (loading) {
     return (
@@ -56,14 +74,42 @@ export default function SubjectDetailPage() {
           {SUBJECT_ICONS[actualSubject]} {actualSubject}
         </span>
         <span className="text-sm text-muted-foreground">
-          {filtered.length.toLocaleString()} question{filtered.length !== 1 ? "s" : ""}
+          {shown.length.toLocaleString()} question{shown.length !== 1 ? "s" : ""}
         </span>
       </div>
 
-      <div className="flex items-center gap-3 mb-6">
+      <div className="flex items-center gap-3 mb-4">
         <Link href="/subjects" className="text-sm text-primary hover:underline">← All Subjects</Link>
         <Link href={`/quiz`} className="text-sm text-primary hover:underline">Quiz this subject →</Link>
       </div>
+
+      {/* Subtopic chips */}
+      {subtopics.length > 0 && (
+        <div className="flex flex-wrap gap-2 mb-6">
+          <button
+            onClick={() => selectSubtopic("")}
+            className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-colors ${
+              subtopic === "" ? "bg-primary text-primary-foreground border-primary" : "border-border hover:bg-muted"
+            }`}
+          >
+            All
+          </button>
+          {subtopics.map(([name, count]) => (
+            <button
+              key={name}
+              onClick={() => selectSubtopic(name)}
+              className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-colors ${
+                subtopic === name ? "bg-primary text-primary-foreground border-primary" : "border-border hover:bg-muted"
+              }`}
+            >
+              {name}
+              <span className={`ml-1 text-xs ${subtopic === name ? "text-primary-foreground/70" : "text-muted-foreground"}`}>
+                {count}
+              </span>
+            </button>
+          ))}
+        </div>
+      )}
 
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {paginated.map((q) => (
@@ -71,7 +117,7 @@ export default function SubjectDetailPage() {
         ))}
       </div>
 
-      {filtered.length === 0 && (
+      {shown.length === 0 && (
         <div className="text-center py-12 text-muted-foreground">
           No questions found for this subject.
         </div>

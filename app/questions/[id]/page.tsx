@@ -2,7 +2,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
-import { Question, SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/types";
+import { Question, SUBJECT_COLORS, SUBJECT_ICONS, SUBTOPIC_COLORS } from "@/lib/types";
 import { MathBlock } from "@/components/MathBlock";
 import { useProgress } from "@/components/useProgress";
 
@@ -79,6 +79,11 @@ export default function QuestionDetailPage() {
         <span className={`inline-flex items-center px-2.5 py-1 rounded-lg bg-gradient-to-r ${SUBJECT_COLORS[question.subject] || "from-gray-500 to-gray-600"} text-white text-xs font-bold`}>
           {SUBJECT_ICONS[question.subject]} {question.subject}
         </span>
+        {question.subtopic && (
+          <span className={`text-xs px-2 py-0.5 rounded-lg font-medium ${SUBTOPIC_COLORS[question.subtopic] || "bg-muted text-muted-foreground"}`}>
+            {question.subtopic}
+          </span>
+        )}
         <span className="text-sm text-muted-foreground">
           {question.year}{question.set ? ` Set ${question.set}` : ""}
         </span>

@@ -87,6 +87,22 @@
    "count": 11
   }
  ],
+ "subtopics": {
+  "Engineering Mathematics": [
+   {
+    "name": "Probability & Statistics",
+    "count": 72
+   },
+   {
+    "name": "Linear Algebra",
+    "count": 64
+   },
+   {
+    "name": "Calculus",
+    "count": 36
+   }
+  ]
+ },
  "types": {
   "mcq": 1836,
   "nat": 456,

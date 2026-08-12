@@ -14,6 +14,7 @@ export interface Question {
   section: string;
   type: QuestionType;
   subject: string;
+  subtopic: string | null;
   difficulty: Difficulty;
   marks: number | null;
   text: string;
@@ -30,10 +31,16 @@ export interface SubjectInfo {
   count: number;
 }
 
+export interface SubtopicInfo {
+  name: string;
+  count: number;
+}
+
 export interface IndexData {
   total: number;
   years: Record<string, number>;
   subjects: SubjectInfo[];
+  subtopics: Record<string, SubtopicInfo[]>;
   types: Record<string, number>;
   updatedAt: string;
 }
@@ -91,4 +98,11 @@ export const SUBJECT_ICONS: Record<string, string> = {
   "Operating Systems": "OS",
   "Databases (DBMS)": "DBMS",
   "Computer Networks": "CN",
+};
+
+export const SUBTOPIC_COLORS: Record<string, string> = {
+  "Linear Algebra": "bg-sky-500/15 text-sky-700 dark:text-sky-300",
+  "Calculus": "bg-fuchsia-500/15 text-fuchsia-700 dark:text-fuchsia-300",
+  "Probability & Statistics": "bg-emerald-500/15 text-emerald-700 dark:text-emerald-300",
+  "Numerical Methods": "bg-slate-500/15 text-slate-700 dark:text-slate-300",
 };

@@ -18,6 +18,7 @@ DATA = os.path.join(ROOT, "data")
 IMG_DIR = os.path.join(ROOT, "public", "images", "legacy")
 
 from subject_map import subject_from_tags as _subject_from_tags, subject_from_keywords
+from subtopic_map import em_subtopic_from_tags, em_subtopic_from_keywords
 
 YEAR_TAG = re.compile(r"^gatecse(?:-(\d{4})|-set\d|-(\d{4})-set\d)?|^gatecse(\d{4})-set\d")
 OLD_YEAR_TAG = re.compile(r"^gate(\d{4})$")
@@ -54,6 +55,15 @@ def subject_from_tags_with_fallback(tags, text=""):
     if subj == "Unclassified" and text:
         subj = subject_from_keywords(text)
     return subj
+
+
+def subtopic_for(subject, tags, text=""):
+    if subject != "Engineering Mathematics":
+        return None
+    sub = em_subtopic_from_tags(tags)
+    if sub is None:
+        sub = em_subtopic_from_keywords(text)
+    return sub
 
 
 def difficulty_from_tags(tags):
@@ -176,6 +186,8 @@ def main():
         )
         marks = 2 if "two-marks" in tags else (1 if "one-mark" in tags else None)
 
+        subject = subject_from_tags_with_fallback(tags, text)
+
         item = {
             "id": qid,
             "year": year,
@@ -183,7 +195,8 @@ def main():
             "number": number,
             "section": section,
             "type": qtype,
-            "subject": subject_from_tags_with_fallback(tags, text),
+            "subject": subject,
+            "subtopic": subtopic_for(subject, tags, text),
             "difficulty": difficulty_from_tags(tags),
             "marks": marks,
             "text": text,
@@ -212,6 +225,7 @@ def main():
     from collections import Counter
 
     subjects = Counter()
+    subtopics = Counter()
     types = Counter()
     years = {}
     total = 0
@@ -221,11 +235,18 @@ def main():
         for it in items:
             subjects[it["subject"]] += 1
             types[it["type"]] += 1
+            if it["subtopic"]:
+                subtopics[(it["subject"], it["subtopic"])] += 1
+
+    subtopic_groups = {}
+    for (subj, sub), v in subtopics.most_common():
+        subtopic_groups.setdefault(subj, []).append({"name": sub, "count": v})
 
     index = {
         "total": total,
         "years": years,
         "subjects": [{"name": k, "count": v} for k, v in subjects.most_common()],
+        "subtopics": subtopic_groups,
         "types": dict(types),
         "updatedAt": "2026-08-13",
     }

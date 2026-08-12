@@ -31,6 +31,7 @@ export function QuestionsContent() {
 
   const [search, setSearch] = useState(searchParams.get("q") || "");
   const [subject, setSubject] = useState(searchParams.get("subject") || "");
+  const [subtopic, setSubtopic] = useState(searchParams.get("subtopic") || "");
   const [year, setYear] = useState(searchParams.get("year") || "");
   const [type, setType] = useState(searchParams.get("type") || "");
   const [hasAnswer, setHasAnswer] = useState(searchParams.get("answered") || "");
@@ -61,15 +62,31 @@ export function QuestionsContent() {
       );
     }
     if (subject) q = q.filter((item) => item.subject === subject);
+    if (subtopic) q = q.filter((item) => item.subtopic === subtopic);
     if (year) q = q.filter((item) => item.year === parseInt(year));
     if (type) q = q.filter((item) => item.type === type);
     if (hasAnswer === "yes") q = q.filter((item) => item.correctAnswer && item.correctAnswer.length > 0);
     if (hasAnswer === "no") q = q.filter((item) => !item.correctAnswer || item.correctAnswer.length === 0);
     return q;
-  }, [allQuestions, search, subject, year, type, hasAnswer]);
+  }, [allQuestions, search, subject, subtopic, year, type, hasAnswer]);
+
+  const availableSubtopics = useMemo(() => {
+    if (!subject) return [];
+    const set = new Set<string>();
+    allQuestions.forEach((q) => {
+      if (q.subject === subject && q.subtopic) set.add(q.subtopic);
+    });
+    return [...set].sort();
+  }, [allQuestions, subject]);
 
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
   const paginated = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+
+  const changeSubject = (value: string) => {
+    setSubject(value);
+    setSubtopic("");
+    setPage(1);
+  };
 
   if (loading) {
     return (
@@ -96,7 +113,7 @@ export function QuestionsContent() {
       <div className="flex flex-wrap gap-2 mb-6">
         <select
           value={subject}
-          onChange={(e) => { setSubject(e.target.value); setPage(1); }}
+          onChange={(e) => changeSubject(e.target.value)}
           className="px-3 py-1.5 rounded-lg border border-border bg-card text-sm"
         >
           <option value="">All Subjects</option>
@@ -104,6 +121,19 @@ export function QuestionsContent() {
             <option key={s} value={s}>{s}</option>
           ))}
         </select>
+
+        {availableSubtopics.length > 0 && (
+          <select
+            value={subtopic}
+            onChange={(e) => { setSubtopic(e.target.value); setPage(1); }}
+            className="px-3 py-1.5 rounded-lg border border-border bg-card text-sm"
+          >
+            <option value="">All Topics</option>
+            {availableSubtopics.map((s) => (
+              <option key={s} value={s}>{s}</option>
+            ))}
+          </select>
+        )}
 
         <select
           value={year}
@@ -137,9 +167,9 @@ export function QuestionsContent() {
           <option value="no">Missing Answer</option>
         </select>
 
-        {(subject || year || type || hasAnswer) && (
+        {(subject || subtopic || year || type || hasAnswer) && (
           <button
-            onClick={() => { setSubject(""); setYear(""); setType(""); setHasAnswer(""); setPage(1); }}
+            onClick={() => { changeSubject(""); setYear(""); setType(""); setHasAnswer(""); setPage(1); }}
             className="px-3 py-1.5 rounded-lg text-sm text-primary hover:underline"
           >
             Clear filters

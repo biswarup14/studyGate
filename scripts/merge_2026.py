@@ -17,6 +17,7 @@ IMG_DIR = os.path.join(ROOT, "public", "images", "2026")
 
 sys.path.insert(0, HERE)
 from subject_map import subject_from_keywords
+from subtopic_map import em_subtopic_from_keywords
 
 
 def build_answer_map(key_pdf_path):
@@ -55,6 +56,7 @@ def merge(paper, key_path, parsed_path):
         answer = key.get("answer", q.get("answer"))
 
         subject = subject_from_keywords(q.get("text", ""))
+        subtopic = em_subtopic_from_keywords(q.get("text", "")) if subject == "Engineering Mathematics" else None
 
         correct_answer = None
         if qtype == "mcq":
@@ -77,6 +79,7 @@ def merge(paper, key_path, parsed_path):
             "section": q.get("section", "CS"),
             "type": qtype,
             "subject": subject,
+            "subtopic": subtopic,
             "difficulty": "medium",
             "marks": marks,
             "text": q.get("text", ""),
@@ -118,6 +121,13 @@ def main():
         else:
             index["subjects"].append({"name": q["subject"], "count": 1})
         index["types"][q["type"]] = index["types"].get(q["type"], 0) + 1
+        if q["subtopic"]:
+            group = index["subtopics"].setdefault(q["subject"], [])
+            entry = next((s for s in group if s["name"] == q["subtopic"]), None)
+            if entry:
+                entry["count"] += 1
+            else:
+                group.append({"name": q["subtopic"], "count": 1})
     index["subjects"].sort(key=lambda s: s["count"], reverse=True)
     with open(os.path.join(DATA, "index.json"), "w") as f:
         json.dump(index, f, ensure_ascii=False, indent=1)

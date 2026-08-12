@@ -12,6 +12,7 @@ export default function QuizPage() {
 
   // config
   const [subject, setSubject] = useState("");
+  const [subtopic, setSubtopic] = useState("");
   const [year, setYear] = useState("");
   const [count, setCount] = useState(10);
   const [started, setStarted] = useState(false);
@@ -35,6 +36,7 @@ export default function QuizPage() {
   const startQuiz = () => {
     let pool = allQuestions.filter((q) => q.correctAnswer && q.correctAnswer.length > 0);
     if (subject) pool = pool.filter((q) => q.subject === subject);
+    if (subtopic) pool = pool.filter((q) => q.subtopic === subtopic);
     if (year) pool = pool.filter((q) => q.year === parseInt(year));
 
     const shuffled = pool.sort(() => Math.random() - 0.5).slice(0, count);
@@ -43,6 +45,8 @@ export default function QuizPage() {
       setStarted(true);
     }
   };
+
+  const availableSubtopics = index?.subtopics[subject] || [];
 
   if (loading || !index) {
     return (
@@ -75,7 +79,7 @@ export default function QuizPage() {
           <label className="block text-sm font-medium mb-2">Subject</label>
           <select
             value={subject}
-            onChange={(e) => setSubject(e.target.value)}
+            onChange={(e) => { setSubject(e.target.value); setSubtopic(""); }}
             className="w-full px-3 py-2 rounded-lg border border-border bg-background text-sm"
           >
             <option value="">All Subjects</option>
@@ -86,6 +90,25 @@ export default function QuizPage() {
             ))}
           </select>
         </div>
+
+        {/* Subtopic */}
+        {availableSubtopics.length > 0 && (
+          <div>
+            <label className="block text-sm font-medium mb-2">Topic</label>
+            <select
+              value={subtopic}
+              onChange={(e) => setSubtopic(e.target.value)}
+              className="w-full px-3 py-2 rounded-lg border border-border bg-background text-sm"
+            >
+              <option value="">All Topics</option>
+              {availableSubtopics.map((s) => (
+                <option key={s.name} value={s.name}>
+                  {s.name} ({s.count})
+                </option>
+              ))}
+            </select>
+          </div>
+        )}
 
         {/* Year */}
         <div>

@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { Question, SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/types";
+import { Question, SUBJECT_COLORS, SUBJECT_ICONS, SUBTOPIC_COLORS } from "@/lib/types";
 import { MathBlock } from "./MathBlock";
 
 export function QuestionCard({ question }: { question: Question }) {
@@ -30,6 +30,11 @@ export function QuestionCard({ question }: { question: Question }) {
           <span className={`text-xs px-1.5 py-0.5 rounded font-medium ${typeColor}`}>
             {typeBadge}
           </span>
+          {question.subtopic && (
+            <span className={`text-xs px-1.5 py-0.5 rounded font-medium ${SUBTOPIC_COLORS[question.subtopic] || "bg-muted text-muted-foreground"}`}>
+              {question.subtopic}
+            </span>
+          )}
           {question.marks && (
             <span className="text-xs text-muted-foreground">
               {question.marks} mark{question.marks > 1 ? "s" : ""}
