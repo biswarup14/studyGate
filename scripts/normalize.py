@@ -17,34 +17,7 @@ CACHE = os.path.join(HERE, "cache")
 DATA = os.path.join(ROOT, "data")
 IMG_DIR = os.path.join(ROOT, "public", "images", "legacy")
 
-SUBJECT_TAGS = [
-    ("theory-of-computation", "Theory of Computation"),
-    ("compiler-design", "Compiler Design"),
-    ("operating-system", "Operating Systems"),
-    ("databases", "Databases (DBMS)"),
-    ("computer-networks", "Computer Networks"),
-    ("co-and-architecture", "Computer Organization"),
-    ("digital-logic", "Digital Logic"),
-    ("algorithms", "Algorithms"),
-    ("data-structures", "Data Structures"),
-    ("programming-in-c", "Programming in C"),
-    ("programming", "Programming in C"),
-    ("discrete-mathematics", "Discrete Mathematics"),
-    ("set-theory&algebra", "Discrete Mathematics"),
-    ("graph-theory", "Discrete Mathematics"),
-    ("mathematical-logic", "Discrete Mathematics"),
-    ("combinatory", "Discrete Mathematics"),
-    ("first-order-logic", "Discrete Mathematics"),
-    ("engineering-mathematics", "Engineering Mathematics"),
-    ("linear-algebra", "Engineering Mathematics"),
-    ("calculus", "Engineering Mathematics"),
-    ("probability", "Engineering Mathematics"),
-    ("general-aptitude", "General Aptitude"),
-    ("verbal-aptitude", "General Aptitude"),
-    ("quantitative-aptitude", "General Aptitude"),
-    ("analytical-aptitude", "General Aptitude"),
-]
-SUBJECT_PRIORITY = [s for s, _ in SUBJECT_TAGS]
+from subject_map import subject_from_tags as _subject_from_tags, subject_from_keywords
 
 YEAR_TAG = re.compile(r"^gatecse(?:-(\d{4})|-set\d|-(\d{4})-set\d)?|^gatecse(\d{4})-set\d")
 OLD_YEAR_TAG = re.compile(r"^gate(\d{4})$")
@@ -76,11 +49,11 @@ def gate_set(tags):
     return None
 
 
-def subject_from_tags(tags):
-    for prio in SUBJECT_PRIORITY:
-        if prio in tags:
-            return dict(SUBJECT_TAGS)[prio]
-    return "Unclassified"
+def subject_from_tags_with_fallback(tags, text=""):
+    subj = _subject_from_tags(tags)
+    if subj == "Unclassified" and text:
+        subj = subject_from_keywords(text)
+    return subj
 
 
 def difficulty_from_tags(tags):
@@ -210,7 +183,7 @@ def main():
             "number": number,
             "section": section,
             "type": qtype,
-            "subject": subject_from_tags(tags),
+            "subject": subject_from_tags_with_fallback(tags, text),
             "difficulty": difficulty_from_tags(tags),
             "marks": marks,
             "text": text,
@@ -260,7 +233,11 @@ def main():
         json.dump(index, f, ensure_ascii=False, indent=1)
     print("index written:", json.dumps(index, ensure_ascii=False)[:300])
 
-    download_images(image_manifest)
+    existing = len([f for f in os.listdir(IMG_DIR) if os.path.isfile(os.path.join(IMG_DIR, f))]) if os.path.exists(IMG_DIR) else 0
+    if existing < 100:
+        download_images(image_manifest)
+    else:
+        print(f"skipping image download ({existing} images already exist)")
 
 
 def download_images(manifest, concurrency=8):
