@@ -7,7 +7,6 @@ import { Question, SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/types";
 export function RecentActivity() {
   const { progress, mounted } = useProgress();
   const [questions, setQuestions] = useState<Question[]>([]);
-  const [loading, setLoading] = useState(true);
 
   const recentIds = useMemo(() => {
     if (!mounted) return [];
@@ -19,10 +18,8 @@ export function RecentActivity() {
   }, [progress, mounted]);
 
   useEffect(() => {
-    if (recentIds.length === 0) {
-      setLoading(false);
-      return;
-    }
+    if (recentIds.length === 0) return;
+    let cancelled = false;
     Promise.all(
       Array.from({ length: 27 }, (_, i) =>
         fetch(`/data/questions-${2000 + i}.json`)
@@ -30,11 +27,14 @@ export function RecentActivity() {
           .catch(() => [])
       )
     ).then((results) => {
+      if (cancelled) return;
       const all = results.flat();
       setQuestions(all.filter((q: Question) => recentIds.includes(q.id)));
-      setLoading(false);
     });
+    return () => { cancelled = true; };
   }, [recentIds]);
+
+  const loading = recentIds.length > 0 && questions.length === 0;
 
   const stats = useMemo(() => {
     if (!mounted) return { attempted: 0, correct: 0, streak: 0 };
