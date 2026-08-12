@@ -24,8 +24,8 @@ export function useProgress() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
     setProgress(loadProgress());
+    setMounted(true);
   }, []);
 
   const recordAttempt = useCallback(

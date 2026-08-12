@@ -88,26 +88,3 @@ export async function getRandomQuestions(
   return shuffled.slice(0, Math.min(count, shuffled.length));
 }
 
-// Server-side data loading for static generation
-export function loadYearData(year: number): Question[] {
-  try {
-    const fs = require("fs");
-    const path = require("path");
-    const filePath = path.join(process.cwd(), "data", `questions-${year}.json`);
-    if (!fs.existsSync(filePath)) return [];
-    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  } catch {
-    return [];
-  }
-}
-
-export function loadIndex(): IndexData {
-  try {
-    const fs = require("fs");
-    const path = require("path");
-    const filePath = path.join(process.cwd(), "data", "index.json");
-    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  } catch {
-    return { total: 0, years: {}, subjects: [], types: {}, updatedAt: "" };
-  }
-}
