@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { SubjectCard } from "@/components/SubjectCard";
+import { RecentActivity } from "@/components/RecentActivity";
 import { IndexData } from "@/lib/types";
 
 export default function HomePage() {
@@ -67,6 +68,11 @@ export default function HomePage() {
             <div className="text-xs text-muted-foreground mt-1">{stat.label}</div>
           </div>
         ))}
+      </section>
+
+      {/* Recent Activity */}
+      <section className="mb-12">
+        <RecentActivity />
       </section>
 
       {/* Subjects */}
