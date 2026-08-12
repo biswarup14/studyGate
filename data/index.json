@@ -1,0 +1,95 @@
+{
+ "total": 2325,
+ "years": {
+  "2004": 87,
+  "2003": 86,
+  "2010": 60,
+  "2005": 87,
+  "2017": 128,
+  "2007": 81,
+  "2006": 81,
+  "2009": 54,
+  "2013": 59,
+  "2012": 63,
+  "2014": 183,
+  "2008": 82,
+  "2001": 68,
+  "2018": 65,
+  "2002": 66,
+  "2011": 59,
+  "2019": 64,
+  "2020": 65,
+  "2021": 130,
+  "2022": 65,
+  "2016": 127,
+  "2023": 65,
+  "2000": 61,
+  "2024": 130,
+  "2025": 130,
+  "2015": 179
+ },
+ "subjects": [
+  {
+   "name": "Discrete Mathematics",
+   "count": 233
+  },
+  {
+   "name": "Algorithms",
+   "count": 227
+  },
+  {
+   "name": "General Aptitude",
+   "count": 214
+  },
+  {
+   "name": "Operating Systems",
+   "count": 207
+  },
+  {
+   "name": "Databases (DBMS)",
+   "count": 187
+  },
+  {
+   "name": "Theory of Computation",
+   "count": 186
+  },
+  {
+   "name": "Digital Logic",
+   "count": 178
+  },
+  {
+   "name": "Engineering Mathematics",
+   "count": 169
+  },
+  {
+   "name": "Computer Organization",
+   "count": 163
+  },
+  {
+   "name": "Computer Networks",
+   "count": 157
+  },
+  {
+   "name": "Compiler Design",
+   "count": 146
+  },
+  {
+   "name": "Data Structures",
+   "count": 127
+  },
+  {
+   "name": "Programming in C",
+   "count": 93
+  },
+  {
+   "name": "Unclassified",
+   "count": 38
+  }
+ ],
+ "types": {
+  "mcq": 1773,
+  "nat": 424,
+  "msq": 128
+ },
+ "updatedAt": "2026-08-13"
+}

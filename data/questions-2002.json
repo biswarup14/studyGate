@@ -1,0 +1,1804 @@
+[
+ {
+  "id": "805",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Engineering Mathematics",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "The rank of the matrix $\\begin{bmatrix} 1 & 1 \\\\ 0 & 0 \\end{bmatrix}$ is",
+  "options": [
+   "$4$",
+   "$2$",
+   "$1$",
+   "$0$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Rank of this matrix is 1 as the determint of 2nd order matrix is 0 and 1st order matrix is non zero so rank is $1$.\n  Correct Answer: $C$\nEigen Value of a upper triangular matrix = Principal diagonal elements.\n   \n\n   The above matrix is a upper triangular matrix, thus the Eigen Value of the above matrix is 1 and 0 (diagnal elemnts).\n  \n\n    Number of non zero Eigen values of a matrix = Rank of that matrix.\n   \n\n   Therefore the rank of above matrix=1.\nRank Of A Matrix Can be easily calculated by Calculating Order of Submatrix Having Determinant Not Equal to zero in the above submatrix of size 2*2 determinant turns out to be zero hence rank cannot be One but if we see for 1*1 submatrix we have [1] as submatrix whose determinant is not equal to zero hence Rank is 1 .",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/805/gate-cse-2002-question-1-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "807",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Algorithms",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The solution to the recurrence equation $T(2^k) = 3T(2^{k-1})+1, T(1) =1$ is",
+  "options": [
+   "$2^k$",
+   "$\\frac{(3^{k+1}-1)}{2}$",
+   "$3^{\\log_2 k}$",
+   "$2^{\\log_3 k}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Let $x = 2^k$\n   $T(x) = 3T\\left(\\frac{x}{2}\\right) + 1$\n   We can apply Master's theorem case 1 with $a = 3$ and $b = 2$ as $f(x) = 1 = O\\left(x^{\\log_2 3 - \\epsilon} \\right), \\epsilon > 0 $\n   So, $T(x) = \\Theta \\left(x^{\\log_2 3}\\right)  \\\\= \\Theta \\left( {2^k}^{\\log_2 3} \\right)\\\\= \\Theta \\left({2^{\\log_2 3}}^k \\right)\\\\ = \\Theta \\left(3^k \\right)$\n   So, only option possible is\n   \n    B\n   \n   .\n  \n\n   We can also directly solve as follows:\n   $T(x) = 3T\\left(\\frac{x}{2}\\right) + 1$\n   $\\\\\\quad= 9T \\left (\\frac{x}{4}\\right) + 1 + 3$\n   $ \\\\\\quad \\vdots$\n   $ \\\\\\quad= 3^{\\log_2 2^k} + \\left( 1 + 3 + 9 + \\dots + 3^{\\log_2 {2^k-1}}\\right)$\n   $\\\\\\quad \\left(\\text{recursion depth is }\\log_2 x \\text{ and } x = 2^k\\right)$\n   $ \\\\\\quad= 3^{k} + \\frac{3^{\\log_2 {2^k}} - 1}{3-1}$\n   $ \\\\\\quad \\left(\\text{Sum to n terms of GP with } a = 1 \\text{ and } r = 3 \\right)$\n   $\\\\\\quad =3^k + \\frac{3^k - 1}{2}$\n   $\\\\\\quad=\\frac{3. 3^k - 1}{2}$\n   $\\\\\\quad=\\frac{3^{k+1} -1}{2} $\n  \n\n   OR\n   $T\\left(2^k\\right) = 3T\\left(2^{k-1}\\right) + 1$\n   $ \\\\\\quad= 3^2T\\left(2^{k-2}\\right) + 1 +3$\n   $ \\quad\\vdots$\n   $ \\\\\\quad= 3^k T\\left(2^{k-k}\\right) + \\left( 1 + 3 + 9 + \\dots + 3^{k-1}\\right)$\n   $ \\\\\\quad \\left(\\text{recursion depth is }k\\right)$\n   $\\\\\\quad= 3^k + \\frac{3^{k -1}} {3-1}$\n   $\\\\\\quad\\left(\\text{Sum to n terms of GP with } a = 1 \\text{ and } r = 3 \\right)$\n   $\\\\\\quad=3^k + \\frac{3^k -1}{2}$\n   $\\\\\\quad=\\frac{3. 3^k - 1}{2}$\n   $\\\\=\\frac{3^{k+1} -1}{2}  $\nAs other than the recursion function , any function of K is not added , this equation is equivalent to  T(k) = 3T(k-1) + 1  , T(0) = 1\n  \n\n    Using repeated substitution we can observe that    T(k) = 1 + 3^1 + 3^2 ... + 3^k .\n    \n\n      Using geometric series summation   T(n)  = (3^(k+1) - 1)/2\nSolving by Substitution-\n  \n\n   $T(2^k)=3T(2^{k-1})+1$\n  \n\n   $=3[3T(2^{k-2})+1]+1$\n  \n\n   $=3^2T(2^{k-2})+3+1$\n  \n\n   .\n  \n\n   .\n  \n\n   .\n  \n\n   $=3^xT(2^{k-x})+3^{x-1}+3^{x-2}+3^{x-3}.......+3^2+3^1+3^0$\n  \n\n   now base condition is $T(1)=1$,\n  \n\n   Therefore, $T(2^0)=1$ and we have $T(2^{k-x})$\n   Thus, comparing the powers, we get\n  \n\n   $k-x=0$\n  \n\n   $k=x$\n  \n\n   Substituting it again in the recurrence we get-\n  \n\n   $=3^k+3^{k-1}+3^{k-2}.......+3^2+3^1+3^0$\n  \n\n   Now this is GP. Common ratio = 3, first term =1, total terms =k+1\n  \n\n   Thus, $\\frac{3^{k+1}-1}{2}$ --\n   \n    ANSWER.\nYou can take K values like K=1 and substitute in equation as well as options.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/807/gate-cse-2002-question-1-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "808",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The minimum number of colours required to colour the vertices of a cycle with $n$ nodes in such a way that no two adjacent nodes have the same colour is",
+  "options": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$n-2 \\left \\lfloor \\frac{n}{2} \\right \\rfloor+2$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Chromatic number will be $3$ for when $n$ is odd and will be $2$ when $n$ is even. Option (\n   \n    D\n   \n   ) is a representation for this, hence the correct answer\n[IMAGE:100]\n\n   A graph is said to be ‘n’ colorable if there exist a vertex coloring that used maximum ‘n’ color.\nDont u think option D is giving answer 2 only!! Bcoz 2(n/2) will give n as ans only..so n-n+2 =2??\nchromatic no=2 , n=even\n  \n\n    chromatic no=3,n=odd\n    \n\n      n-2 floor n/2 will always give 0 when n=even +2=2\n      similarly n-2 floor n/2 will give 1 when n=odd +2=3\nIf we consider a\n   \n    C3\n   \n   , we need min 3 colors to color it as per mentioned criteria.\n  \n\n   Similarly for\n   \n    C4\n   \n   we need min 2 colors to color it and as we changes with that of  the value of n in Cn the chromatic or coloring number increase so it can’t be constant.Clearly options 1,2 and 3 are ruled out.\n  \n\n   2*floor(n/2)= n if\n   \n    n is even\n   \n   and = n-1  if\n   \n    n is odd\n   \n   [Place n=3 → 2*floor(n/2)=2*floor (1.5)=2*1=2]\n  \n\n    If n is even\n   \n   n-2*floor(n/2)+2 = n-n+2 = 2 which implies for any cycle graph with even no of vertices we need only two colors to color them properly(\n   \n    minimally\n   \n   ).We start with a any color say Red and alternatively color the vertices and finally we will reach the start vertex,the remaining ones are filled with the other color.\n  \n\n    If n is odd\n   \n   n-2ceil(m/2)+2= n-(n-1)+2= n-n+1+2=3 which implies we need\n   \n    minimum\n   \n   three colors to color a cycle graph with odd no of vertices.This can be validated like the even one.There will be one vertex which\n   \n    cannot\n   \n   be given any of the two colors we used in the even case as both will be adjacent.\n  \n\n   So we need a new color to color it.\n  \n\n   Correct answer is option D.\n[IMAGE:500]\n\n[IMAGE:501]\n   .",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3682844257135646370",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=6099251626898601143",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=7597033959312787845",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/808/gate-cse-2002-question-1-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "809",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Data Structures",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "In the worst case, the number of comparisons needed to search a single linked list of length $n$ for a given element is",
+  "options": [
+   "$\\log n$",
+   "$\\frac{n}{2}$",
+   "$\\log_2 {n} - 1$",
+   "$n$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "A & C\n   \n   are not correct as we can not do binary search\n   \n    efficiently {it takes O(n)}\n   \n   in Linked list.\n   \n    B\n   \n   seems like average case, be we are asked for worst case.\n   Worst case is we do not find the element in list. We might end up searching entire list & comparing with each element. So, answer -> (\n   \n    D\n   \n   ). $n$\nBinary search algorithm is based on the logic of reducing your input size by half in every step until your search succeeds or input  gets exhausted. Important point here is\n   \n    \"the step to reduce input size should take constant time\".\n   \n   In case of an array, it's always a simple comparison based on array indexes that takes O(1) time.\n   But in case of Linked list you don't have indexes to access items. To perform any operation on a list item, you first have to reach it by traversing all items before it. So to divide list by half you first have to reach middle of the list then perform a comparison. Getting to middle of list takes O(n/2)[you have to traverse half of the list items] and comparison takes O(1).\n   Total = O(n/2) + O(1) = O(n/2)\n   So the input reduction step does not take constant time. It depends on list size. hence violates the essential requirement of Binary search.\n   thts why d is the answer only in worst case\nSince, It is not possible to do a Binary search in Linked List, the Only solution is linear search so its O(n).\nThere are n elements so Log\n   \n    2\n   \n   n is not the case in single linked list because binary search not possible so option A and C is wrong\n  \n\n   In worst case there are n comparisons so option D is right\nIn the worst case scenario,either we will find the element in the last node of otherwise we will not find the node after traversal to whole linked list .so to find a node in the worst case we have to traverse all the linked list till the last node ..that's why no. Of comparisons will also be 'n' .and we don't do binary search in Linked list so log n  base 2 can never be the our answer.\nHere is the answer :\n   [IMAGE:500]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=14317485418823244252",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/809/gate-cse-2002-question-1-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "810",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which of the following is true?",
+  "options": [
+   "The set of all rational negative numbers forms a group under multiplication.",
+   "The set of all non-singular matrices forms a group under multiplication.",
+   "The set of all matrices forms a group under multiplication.",
+   "Both B and C are true."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Answer: B\n  \n\n    False. Multiplication of two negative rational numbers give positive number. So, closure property is not satisfied.\n   \n\n    True. Matrices have to be non-singular (determinant $\\neq0$) for the inverse to exist.\n   \n\n    False. Singular matrices do not form a group under multiplication.\n   \n\n    False as C is false.\nOption b\nIf a relation is group then it must be\n   \n\n   1)Closed\n  \n\n   2)Associative\n  \n\n   3)Identity\n  \n\n   4)Inverse\n  \n\n   if a matrix is non-singular then inverse dose not exist. So option c is wrong.\n  \n\n[IMAGE:200]\n(a) False, because 0 does not have an inverse\n  (b) True, Non-singular means Determinant!=0 So it is a group\n  (C) False, Determinant of the matrix can be zero which does not have an identity so not a group\n  (D) False",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=18231753558618304616",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/810/gate-cse-2002-question-1-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "811",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Theory of Computation",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "The language accepted by a Pushdown Automaton in which the stack is limited to $10$ items is best described as",
+  "options": [
+   "Context free",
+   "Regular",
+   "Deterministic Context free",
+   "Recursive"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Correct Option:\n   \n    B\n   \n   With only finite positions in stack, we can have only finite configurations and these can also be modeled as states in a finite automata.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/811/gate-cse-2002-question-1-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "812",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "\"If $X$ then $Y$ unless $Z$\" is represented by which of the following formulas in propositional logic? (\"$\\neg$\" is negation, \"$\\land$\" is conjunction, and \"$\\rightarrow$\" is implication)",
+  "options": [
+   "$(X\\land \\neg Z) \\rightarrow Y$",
+   "$(X \\land Y) \\rightarrow \\neg Z$",
+   "$X \\rightarrow(Y\\land \\neg Z)$",
+   "$(X \\rightarrow Y)\\land \\neg Z$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer is a) $(X \\land \\lnot Z)\\to Y$\n   (refer page 6,7 Discrete Math,ed 7, Kenneth H Rosen)\n   Implication \"$P$ implies $Q$\" i.e., $(p \\to Q)$, where $P$ is Premise and $Q$ is Conclusion, can be equivalently expressed in many ways. And the two equivalent expression relevant to the question are as follows:\n  \n\n    \"If $P$ then $Q$\"\n   \n\n    \"$Q$ unless $\\lnot P$\"\n   \n\n   Both of these are equivalent to the propositional formula $(P \\to Q)$,\n   Now compare \"If $X$ then $Y$ unless $Z$\" with  \"$Q$ unless $\\lnot P$\" , here $(\\lnot P = Z)$ so $(P = \\lnot Z)$ and $(Q = Y)$\n   Compare with \"if $P$ then $Q$\", here $(P = X) , (Q= Y)$\n   So we get premise $P= X \\text{ and } \\lnot Z,$ conclusion $Q = Y$\n   Equivalent propositional formula $(X \\land \\lnot Z) \\to Y$\n   PS: Someone messaged me that i have taken \"If $X$ then ($Y$ unless $Z$)\" in above explanation and how to know if we take \"(If $X$ then $Y$) unless $Z$\" or \"If $X$ then ($Y$ unless $Z$)\". So let me show that both way gives the same answer.\n   \"(If $X$ then $Y$) unless $Z$\"  $\\equiv (X\\to Y)$ unless $Z$\n   $$\\begin{align}\n   &\\equiv \\lnot Z \\to (X\\to Y) \\\\\n   &\\equiv \\lnot Z\\to (\\lnot X \\lor Y) \\\\\n   &\\equiv Z \\lor \\lnot X \\lor Y \\\\\n   &\\equiv \\lnot (X \\land \\lnot Z) \\lor Y \\\\\n   &\\equiv (X \\land \\lnot Z) \\to Y\n   \\end{align}$$\nwhile ( not z )\n{\nif (X) then\n    Y\n}\nor\nunless( z ) \n{\nif (X) then\n    Y\n}\n\n   this is what it means in programming. if you want to execute statement $Y$ then $X$ must be $\\text{True}$ and $Z \\text{False}$, which is equivalent to $(X\\wedge \\neg Z)Y.$\n  \n\n    option (A).\nThe statement \"If X then Y unless Z\" means, if Z doesn't occur, X implies Y\n  \n\n   i.e. ¬ Z→ (X→ Y), which is equivalent to Z∨ (X→ Y) (since P→ Q ≡ ¬ P∨ Q),\n   \n\n    Which is then equivalent to Z∨ ( ¬X∨ Y). Now we can look into options which one matches with this.\n    \n\n     So option A is (X∧ ¬ Z)→ Y = ¬ ((X∧ ¬ Z))∨ Y = ( ¬X∨ Z)∨ Y, which matches our expression.\n     \n\n       So option A is correct.\nI just to tried to simplify it more\n  \n\n    Statement : IF X THEN Y UNLESS Z\n    \n\n      we can write it like this (IF X THEN Y) UNLESS Z\n      \n\n        whenever you see UNLESS  operator just keep in mind to replace it with \"IF NOT \" your work is half done\n        \n\n          => (IF X THEN Y) IF NOT Z\n          \n\n            => (IF X THEN Y) IF (NOT Z)\n            \n\n              now see it falls in the form of Q if P which is another form of P->Q\n              \n\n                => ~Z -> (IF X THEN Y )\n                \n\n                  => ~Z -> (X -> Y)\n                  \n\n                    => ~Z -> ( ~X ∨ Y)\n                    \n\n                      =>~(~Z) ∨ ( ~X ∨ Y)\n                      \n\n                       => Z ∨ ~X ∨ Y\n                       => (Z ∨ ~X ) ∨ Y\n                       => ~ (~Z ∧ X ) ∨ Y\n                       =>  (~Z ∧ X ) -> Y\nThe statement “If X then Y unless Z” means, if Z doesn’t occur, X implies Y i.e. ¬Z→(X→Y), which is equivalent to Z∨(X→Y) (since P→Q ≡ ¬P∨Q), which is then equivalent to Z∨(¬X∨Y). Now we can look into options which one matches with this.\n  So option (a) is (X∧¬Z)→Y = ¬((X∧¬Z))∨Y = (¬X∨Z)∨Y, which matches our expression. So option A is correct.\n[IMAGE:500]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=6520202228209101342",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/812/gate-cse-2002-question-1-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "813",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Computer Organization",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A device employing INTR line for device interrupt puts the CALL instruction on the data bus while:",
+  "options": [
+   "$\\overline{\\text{INTA}}$ is active",
+   "HOLD is active",
+   "READY is inactive",
+   "None of the above"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "INTR is a signal which if enabled then microprocessor has interrupt enabled it receives high INR signal & activates INTA signal, so another request can’t be accepted till CPU is busy in servicing interrupt. Hence (\n   \n    A\n   \n   ) is correct option.\nA device employing INTR line for device interrupt puts the CALL instruction on the data bus\n   \n\n   This line means when a interrupt request signal( INTR )  is enabled then microprocessor has to enable that interrupt  .\n  \n\n    It receives high INTR signal and activates INTA' signal\n   \n   , So another request can’t be accepted ( put on CALL )  till CPU is busy in servicing interrupt .\n  \n\n   INTR is an interrupt request signal it's full form is\n   \n    Interrupt Request\n   \n   .\n  \n\n   It has the lowest priority among the interrupts. INTR can be enabled or disabled by using software. Whenever INTR goes high the microprocessor completes the current instruction which is being executed and then acknowledges the INTR signal and processes it.\n  \n\n   The INTA' signal means\n   \n    interrupt acknowledge\n   \n   signal .\n  \n\n   Once an instruction is completed the processor sends an acknowledgement signal INTA'. ( which mean i have acknowledged your interrupt , wait till i will  provide you a service )\n  \n\n    Whenever the microprocessor receives interrupt signal. It has to be acknowledged. This acknowledgement is done by INTA’.\n   \n\n   So\n   \n    whenever the interrupt is received,  INTA’  goes high\n   \n   .\n  \n\n   Once the new instruction is received the processor saves the address of new instruction into the STACK and an interrupt service subroutine begins.\n  \n\n   CALL instruction saves procedure linking information on the stack and branches to the procedure (called procedure) specified with the destination (target) operand .\n  \n\n   All that means Option A is correct here .\nSome signals to be remembered:\n  \n\n    IO/M’:\n   \n\n   Consider we have an address to be processed. But how do the processors know whether the address is for memory or I/O functions? For this purpose a status signal called IO/M’ is used. This distinguishes whether the address is for memory or IO. When this pin goes high, the address is for an I/O device. While the pin goes low, the address is assigned for the memory.\n  \n\n    RD’:\n   \n\n   This is an active low signal. That is, an operation is performed when the signal goes low. This signal is used to control READ operation of the microprocessor. When this pin goes low the microprocessor reads the data from memory or I/O device.\n  \n\n    WR’:\n   \n\n   WR’ is also an active low signal which controls the write operations of the microprocessor. When this pin goes low, the data is written to the memory or I/O device.\n  \n\n    READY:\n   \n\n   READY is used by the microprocessor to check whether a peripheral is ready to accept or transfer data. A peripheral may be a LCD display or analog to digital converter or any other. These peripherals are connected to microprocessor using the READY pin. If READY is high then the periphery is ready for data transfer. If not the microprocessor waits until READY goes high.\n  \n\n    HOLD:\n   \n\n   This indicates if any other device is requesting the use of address and data bus. Consider two peripheral devices. One is the LCD and the other Analog to Digital converter. Suppose if analog to digital converter is using the address and data bus and if LCD requests the use of address and data bus by giving HOLD signal, then the microprocessor transfers the control to the LCD as soon as the current cycle is over. After the LCD process is over, the control is transferred back to analog and digital converter.\n  \n\n    HLDA:\n   \n\n   HLDA is the acknowledgment signal for HOLD. It indicates whether the HOLD signal is received or not. After the execution of HOLD request, HLDA goes low.\n  \n\n    INTR:\n   \n\n   INTR is an interrupt request signal. It has the lowest priority among the interrupts. INTR can be enabled or disabled by using software. Whenever INTR goes high the microprocessor completes the current instruction which is being executed and then acknowledges the INTR signal and processes it.\n  \n\n    INTA’:\n   \n\n   Whenever the microprocessor receives interrupt signal. It has to be acknowledged. This acknowledgement is done by INTA’. So whenever the interrupt is received INTA’ goes high.\nIn a daisy chaining method , all the device are connected to a single INTr and INTA line .\n  \n\n   No if anyone device has generated Interrupt or more than one they will raise INT signal .\n   But the CPU will repond to it after servicing the current instruction .\n   after that , it will  do polling from higher priority device to lower priority device ( not a fair sharing system ) to find out which device has generated inteerupt .\n   now as soon as it find the device it will enable INTA signal -- which mean i have acknowledged you , wait i iwll service you !\n   Now as soon as INTA is recived by interuupting device, it will pass it vector address ( CALL XXXX H ) so that CPU can service it with its ISR .\n   is this the correct  reaosn behind  this question @arjun sir ?\nWhen a device uses the INTR (Interrupt Request) line to request service from the processor, the following sequence of events occurs:\n  The device asserts the INTR line to signal an interrupt to the CPU.\n  The CPU finishes executing its current instruction and checks the INTR line if interrupts are enabled.\n  If the interrupt is acknowledged, the CPU sends an Interrupt Acknowledge (INTA) signal.\n  Upon receiving the INTA signal, the device places the CALL instruction on the data bus.\n  The CALL instruction contains the address of the interrupt service routine (ISR) for the device.\n  The CPU reads the CALL instruction from the data bus and pushes the address of the next instruction (Program Counter) onto the stack.\n  The CPU then jumps to the ISR by executing the CALL instruction.\n  The ISR handles the interrupt and executes the required operations for the device.\n  After the ISR completes, the CPU executes the RET (Return) instruction to return to the previously interrupted program.\n  The CPU resumes normal execution, and the device de-asserts the INTR line.\n  This ensures efficient handling of device interrupts and resumption of the main program.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/813/gate-cse-2002-question-1-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "816",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Minimum sum of product expression for $f(w,x,y,z)$ shown in Karnaugh-map below\n  \n\n[IMAGE:0]",
+  "options": [
+   "$xz + y'z$",
+   "$xz' + zx'$",
+   "$x'y + zx'$",
+   "None of the above"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "[IMAGE:0]\n\n   Two quads are getting formed $x\\bar z$  and  $z\\bar x$\n  \n\n    Ans is Option B\nm1,m3,m9,m11 form one quad xz'\n  m4,m6,m12,m14 form one quad x'z\n  So f=x'z+z'x\n  Ans is b\nOption B\n  we can group the minterms m1,m2,m9,m11 as a quad to get XZ'\n  we can group another quad of minterms m4,m6,m12,m14 to get X'Z\n  and hence we have, XZ'+X'Z",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2629978306346336146",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3134591475917911870",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/816/gate-cse-2002-question-1-12",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "817",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Computer Organization",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Which of the following is not a form of memory",
+  "options": [
+   "instruction cache",
+   "instruction register",
+   "instruction opcode",
+   "translation look-a-side buffer"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "The instruction opcode is a part of the instruction which tells the processor what operation is to be performed so it is not a form of memory while the others are\nAnswer :\n   \n   C) Instruction Opcode\n  \n\n      A) Instruction cache\n     \n\n      To cache the instructions separate from data\n      \n       (Form of memory)\n      \n\n      B) Instruction register\n     \n\n      To store the instructions to be executed next\n      \n       (Form of memory)\n      \n\n      C) Instruction opcode\n     \n\n      Operations to be carried out by the instruction\n      \n       (NOT a form of memory)\n      \n\n      D) Translation look-a-side buffer\n     \n\n      Address Translation from Virtual to Physical\n      \n       (Associated with memory)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/817/gate-cse-2002-question-1-13",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "818",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "The decimal value $0.25$",
+  "options": [
+   "is equivalent to the binary value $0.1$",
+   "is equivalent to the binary value $0.01$",
+   "is equivalent to the binary value $0.00111$",
+   "cannot be represented precisely in binary"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "First Multiplication Iteration\n    \n\n   Multiply $0.25$ by $2$\n  \n\n   $\\begin{array}{c c c}0.25 \\ast 2 = 0.50\\;\\text{(Product)} & \\text{Fractional part} = 0.50 & \\text{Carry} = 0 \\textbf{ (MSB)} \\end{array}$\n  \n\n     Second Multiplication Iteration\n    \n\n   Multiply $0.50$ by $2$\n  \n\n   $\\begin{array}{c c c}0.50 \\ast 2 = 1.00\\;\\text{(Product)} & \\text{Fractional part} = 1.00 & \\text{Carry} = 1 \\textbf{ (LSB)} \\end{array}$\n  \n\n   The fractional part in the $2$nd iteration becomes zero and hence we stop the multiplication iteration.\n  \n\n   Carry from the $1$st multiplication iteration becomes\n   \n    MSB\n   \n   and carry from $2$nd iteration becomes\n   \n    LSB\n   \n   .\n  \n\n   So the result is $0.01$\n  \n\n   Correct Answer: B.\nHere's the step-by-step conversion of 0.25 to binary: Multiply \\(0.25\\) by \\(2\\): \\[0.25 \\times 2 = 0.5 \\quad (\\text{quotient} = 0, \\text{remainder} = 0.5)\\] Multiply the remaining fractional part (\\(0.5\\)) by \\(2\\) again: \\[0.5 \\times 2 = 1.0 \\quad (\\text{quotient} = 1, \\text{remainder} = 0)\\] The quotient is \\(1\\), so we stop. The binary representation of \\(0.25\\) is: \\[0.01 \\quad (\\text{where} \\ 0 \\ \\text{is the whole number part and} \\ 01 \\ \\text{is the fractional part})\\]\n0.25 = 1/4\n  \n\n   we can represent 1/4 with\n   \n    2^(-2)  = 0.01\n   \n\n    So Option B\n   \n   is Answer",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/818/gate-cse-2002-question-1-14",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "819",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "The $2's$ complement representation of the decimal value $-15$ is",
+  "options": [
+   "$1111$",
+   "$11111$",
+   "$111111$",
+   "$10001$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "D) is the correct ans.In 2's complement representation, positive numbers are represented in simple binary form and negative numbers are represented in its 2's complement form. So, for -15, we have to complement its binary value - 01111 and add a 1 to it, which gives 10001. Option D.\nConvert the magnitude, -15 to binary.\n    \n\n     1111\n    \n\n     To make it 8 bits pad 4 extra bits to 1111 (Always Before)\n    \n\n     00001111\n    \n\n    Negate the number by inverting the bits and adding 1.In simple words\n   \n\n    Take the 2's complement of the no\n   \n\n    11110001 (from LSB when u see ist 1 leave it as it is and thereafter flip the all bits.)\n   \n\n   To match the answer  ignore most significant 3 bits ANS - 10001\nsteps:-\n  1.compliment of the bits  (0000)\n  2.add one to the result  (0001)\n  the answer is front of you  (10001)\nFor -15, we have to complement its binary value - 01111..\n  \n\n   actually 5 bits required to represent -15 in 2's compement\n  \n\n   because range of 2's complement no is -2\n   \n    n-1\n   \n   to +2\n   \n    n-1\n   \n   -1 .. therefore it will be 10001\n  \n\n   In 2's complement representation positive integers are represented in its normal binary form while negative numbers are represented in its 2's complement form.\nsince the given value is negative, the MSB gets a negative weight\n  \n\n   ​​​​​​​\n   [IMAGE:400]\n[IMAGE:401]\n\n   $\\therefore option~ \\large D $\nConvert the absolute value of the decimal number to binary: \\[15 \\text{ (decimal)} = 1111 \\text{ (binary)}\\] Invert all the bits (take the 1's complement): \\[1111 \\text{ (binary)} \\rightarrow 0000 \\text{ (1's complement)}\\] Add 1 to the 1's complement: \\[0000 + 1 = 10001 \\text{ (2's complement)}\\] Therefore, \\(10001\\) is the correct 2's complement representation of \\(-15\\).",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=13616667362942389448",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=4528611749861313734",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/819/gate-cse-2002-question-1-15",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "821",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Sign extension is a step in",
+  "options": [
+   "floating point multiplication",
+   "signed $16$ bit integer addition",
+   "arithmetic left shift",
+   "converting a signed integer from one size to another"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "(\n   \n    D\n   \n   ) is the answer. Sign extension (filling the upper bits using the sign bit) is needed while increasing the number of bits for representing a number. For positive numbers, $0$ is extended and for negative numbers $1$ is extended.\nIt is used if we want to store one register value into another register.\n  for example if we want to transfer a register value which can store 8 bits into register which can store 16 bits in that case we have\n  to fill the empty bits in 16 bits register with signed values\nD it is used to increment the number of bits of a number\nhttps://en.wikipedia.org/wiki/Sign_extension",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/821/gate-cse-2002-question-1-16",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "822",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Programming in C",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "In the C language:",
+  "options": [
+   "At most one activation record exists between the current activation record and the activation record for the main",
+   "The number of activation records between the current activation record and the activation records from the main depends on the actual function calling sequence.",
+   "The visibility of global variables depends on the actual function calling sequence",
+   "Recursion requires the activation record for the recursive function to be saved in a different stack before the recursive function can be called."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Each function call starts a new activation record and since C allows nested function calls more than one activation record can exist between the current activation record and main.\n   \n\n     TRUE\n    \n\n    Since, C uses static scoping, the actual function calling sequence has no impact on the visibility of global variables. If a variable is not found in the current activation record, it is looked in global address space and this is independent of the calling sequence.\n   \n\n    All function calls- whether recursive or not uses the same stack for saving the activation record. There is no need for a different stack as for C compiler a recursive function call and a normal function call make no difference.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/822/gate-cse-2002-question-1-17",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "824",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Databases (DBMS)",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Relation $R$ with an associated set of functional dependencies, $F$, is decomposed into $\\text{BCNF}$. The redundancy (arising out of functional dependencies) in the resulting set of relations is",
+  "options": [
+   "Zero",
+   "More than zero but less than that of an equivalent $3\\text{NF}$ decomposition",
+   "Proportional to the size of $F^+$",
+   "Indeterminate"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer is\n   \n    A\n   \n   .\n  \n\n   If a relation schema is in\n   \n    BCNF\n   \n   then all redundancy based on functional dependency has been removed, although other types of redundancy may still exist. A relational schema\n   \n    R\n   \n   is in Boyce–Codd normal form if and only\n   \n    if\n   \n   for every one of its dependencies\n   \n    X → Y\n   \n   , at least one of the following conditions hold:\n  \n\n     X → Y\n    \n    is a trivial functional dependency (Y ⊆ X)\n   \n\n     X\n    \n    is a super key for schema\n    \n     R\n    \n\n     http://en.wikipedia.org/wiki/Boyce%E2%80%\n    \n\n     93Codd\n    \n    _normal_form\nshould be zero..\n  \n\n   BCNF can have Multi valued dependency but no redundancy due to FDs..\nYes , the answer should be zero. There should not be any redundancy due to FD in BCNF.\nExplain please\n  \n\n     BCNF can have Multi valued dependency but no redundancy due to FDs\nIncreasing order of redundancy:\n  4NF < BCNF < 3NF < 2NF < 1NF < un-normalized\n  Answer is B.\nThe answer is\n   \n    A\n   \n   .\n  \n\n   If a relation schema is in\n   \n    BCNF\n   \n   then all redundancy based on functional dependency has been removed, although other types of redundancy may still exist. A relational schema\n   \n    R\n   \n   is in Boyce–Codd normal form iff for every one of its dependencies\n   \n    X → Y\n   \n   , at least one of the following conditions hold:\n  \n\n     X → Y\n    \n    is a trivial functional dependency (Y ⊆ X)\n   \n\n     X\n    \n    is a super key for schema\n    \n     R",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/824/gate-cse-2002-question-1-19",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "825",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Databases (DBMS)",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "With regards to the expressive power of the formal relational query languages, which of the following statements is true?",
+  "options": [
+   "Relational algebra is more powerful than relational calculus",
+   "Relational algebra has the same power as relational calculus",
+   "Relational algebra has the same power as safe relational calculus",
+   "None of the above"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Answer: C\n   Relational algebra has the same power as safe relational calculus as:\n  \n\n    A query can be formulated in safe Relational Calculus if and only if it can be formulated in Relational Algebra.\nOption \"B\" is also correct but option \"C\" is more appropriate because\n   \n    Relational calculus\n   \n   have some\n   \n    unsafe\n   \n   operations and because of those unsafe operations sometimes it may fall in ∞(infinite) loop.\n  \n\n   so relational algebra has the same power as\n   \n    safe\n   \n   relational calculus\nReference:\n  \n\n    http://www.cs.sfu.ca/CourseCentral/354/zaiane/material/notes/Chapter3/node15.html\nA query can be written in safe Relational Calculus if and only if it can be written in Relational Algebra means it can be written in Relational Calculus as well as Relational Algebra, but Relational calculus also have some unsafe operations and because of those unsafe operations sometimes create ∞(infinite) loop.\n  \n\n   So we can say that all safe relational calculus query can be translate into relational algebra",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/825/gate-cse-2002-question-1-20",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "826",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In $2's$ complement addition, overflow",
+  "options": [
+   "is flagged whenever there is carry from sign bit addition",
+   "cannot occur when a positive value is added to a negative value",
+   "is flagged when the carries from sign bit and previous bit match",
+   "None of the above"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "(B) is the answer. When a positive value and negative value are added overflow never happens.\n  \n\n    http://sandbox.mc.edu/~bennet/cs110/tc/orules.html\n1 0 1 0     = -6\n  \n\n   0 1 1 0     = +6\n  \n\n   1 0 0 0 0     =  0\n  \n\n   Here we add +ve and -ve no. which generate carry but it is not overflow i.e we can ignore it.\nIn 2′s complement addition,carry always doesn’t indicate overflow.\n    \n\n     When we will add a positive value (+a) with a negative value(-b). The result will be in between them means -b<= result <= +a. So overflow can not occur. As if we can represent -b and +a in some fixed number of bits then we can also represent any number between them.\n    \n\n   C. In 2′s complement addition, overflow is flagged when the carries from sign bit and previous bit did\n   \n    not\n   \n   match.                 i.e Cn⊕Cn−1=1.\n  \n\n   Answer: B",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/826/gate-cse-2002-question-1-21",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "827",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Operating Systems",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Which of the following scheduling algorithms is non-preemptive?",
+  "options": [
+   "Round Robin",
+   "First-In First-Out",
+   "Multilevel Queue Scheduling",
+   "Multilevel Queue Scheduling with Feedback"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Here we preempt when Time quantum is expired.\n   \n\n    We never preempt, so answer is (\n    \n     B\n    \n    ) FIFO\n   \n\n    Here we preempt when process of higher priority arrives.\n   \n\n    Here we preempt when process of higher priority arrives or when time slice of higher level finishes & we need to move process to lower priority.\nans is b\nFCFS - non-preemptive\n  Round robin -  preemptive\n  Multilevel Queue Scheduling - preemptive\n  Multilevel Queue Scheduling with Feedback - preemptive\n  SJF - non-preemptive\n  SRTF - preemptive\n  LRTF - preemptive\n  Highest Response ratio first - non-preemptive\nMulti level Queue Scheduling can be both Preemptive and non preemptive depending on whether FCFS like algo’s are on the top level or not.\n  Generally, we dont place FIFO/FCFS on top level, so saying 100% surely that MLQ scheduling is non preemptive wont be a fair thing\n  But FCFS or FIFO in process scheduling is definately non preemptive, and hence it causes starvation.\n  So definately FCFS/FIFO is the right answer.\n  PS: FCFS in disk scheduling, does not cause starvation.\nNON PREEMPTIVE  PROPERY FOLLOW ONLY FCFS\n  BCZ ONCE YOU GIVE CPU TO PROCEES WE DOES TAKE UNTIL IS FINISH THE WORK SO THAT WHY NON PREEMPTIVE IS ONLY OPTION IS FCFS",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/827/gate-cse-2002-question-1-22",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "828",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Operating Systems",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "The optimal page replacement algorithm will select the page that",
+  "options": [
+   "Has not been used for the longest time in the past",
+   "Will not be used for the longest time in the future",
+   "Has been used least number of times",
+   "Has been used most number of times"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Optimal page replacement algorithm will always select the page that will not be used for the longest time in the future for replacement, and that is why the it is called optimal page replacement algorithm. Hence, (\n   \n    B\n   \n   ) choice.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/828/gate-cse-2002-question-1-23",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "829",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Computer Organization",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "In the absolute addressing mode:",
+  "options": [
+   "the operand is inside the instruction",
+   "the address of the operand in inside the instruction",
+   "the register containing the address of the operand is specified inside the instruction",
+   "the location of the operand is implicit"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "(B)\n   \n   is the answer. Absolute addressing mode means address of operand is given in the instruction.\n   option (A), operand is inside the instruction $\\rightarrow $ immediate addressing\n   option (C), register containing the address in specified in operand $\\rightarrow $ register Indirect addressing\n   option (D), the location of operand is implicit $\\rightarrow $ implicit addressing\nStack /Implicit Addressing:\n  Stack is a linear array of locations referred to as last-in first out queue. The stack is a reserved block of location, appended or deleted only at the top of the stack. Stack pointer is a register which stores the address of top of stack location. This mode of addressing is also known as implicit addressing.\n  Immediate Addressing:\n  This is the simplest form of addressing. Here, the operand is given in the instruction itself. This mode is used to define a constant or set initial values of variables. The advantage of this mode is that no memory reference other than instruction fetch is required to obtain operand. The disadvantage is that the size of the number is limited to the size of the address field, which most instruction sets is small compared to word length.\n  Register Indirect Addressing:\n  This mode is similar to indirect addressing. The address field of the instruction refers to a register. The register contains the effective address of the operand. This mode uses one memory reference to obtain the operand. The address space is limited to the width of the registers available to store the effective address.\n  Absolute/Direct Addressing:\n  In direct addressing mode, effective address of the operand is given in the address field of the instruction. It requires one memory reference to read the operand from the given location and provides only a limited address space. Length of the address field is usually less than the word length.\n  (B) is the answer\nA)Immediate addressing mode\n  \n\n   B)Direct addressing mode\n   \n\n    C)Register Indirect addressing mode\n    D)Implied addressing mode\n    Correct answer will be option B.\noption b: In direct addressing mode, effective address of the operand is given in the address field of the instruction.\n   \n\n[IMAGE:300]\nAnswer is option B.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15490177705082069548",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/829/gate-cse-2002-question-1-24",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "830",
+  "year": 2002,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "The maximum number of edges in a $n$-node undirected graph without self loops is",
+  "options": [
+   "$n^2$",
+   "$\\frac{n(n-1)}{2}$",
+   "$n-1$",
+   "$\\frac{(n+1)(n)}{2}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "In a graph of $n$ vertices you can draw an edge from a vertex to $\\left(n-1\\right)$ vertex we will do it for n vertices so total number of edges is $n\\left(n-1\\right)$ now each edge is counted twice so the required maximum number of edges is $\\frac{n\\left(n-1\\right)}{2}.$\n  \n\n    Correct Answer: $B$\nFor maximum no of edges we must have one edge for each pair of vertices.\n  \n\n   We can select a pair out of N nodes in\n   \n\n     N\n    \n    C\n    \n     2\n    \n\n   ways = N(N-1)/2\nmaximum number of edges in a n-node undirected graph without self loops is   n(n-1)/2\nAnswer : B\n   \n\n   ''maximum number of edges in a n-node undirected graph without self loops''\n  \n\n   it means you have to make a complete graph , in complete graph there are edge between each node . you can't make two edge between between 2 edges , because in undirected graph it does't make sense.\n  \n\n   so, no. of edges in complete graph = nC2 = n(n-1)/2\nIf we consider edges between each vertex it will be $^nC_2 = \\frac{n(n-1)}{2}$. answer will be (B)\nmax no. of edegs without self loop and parallel edges are  n*(n-1)/2\n   but when we add self loop n vertices can have n self loop so add +n to above formula\n   and you will get\n  \n\n    Ans – D",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/830/gate-cse-2002-question-1-25-isro2008-30-isro2016-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "831",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the following logic circuit whose inputs are functions $f_1, f_2, f_3$ and output is $f$\n  \n\n[IMAGE:0]\n\n   Given that\n  \n\n    $f_1(x,y,z) = \\Sigma (0,1,3,5)$\n   \n\n    $f_2(x,y,z) = \\Sigma (6,7),$ and\n   \n\n    $f(x,y,z) = \\Sigma (1,4,5).$\n   \n\n   $f_3$ is",
+  "options": [
+   "$\\Sigma (1,4,5)$",
+   "$\\Sigma (6,7)$",
+   "$\\Sigma (0,1,3,5)$",
+   "None of the above"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "$f = ((f_1f_2)'f_3')' = f_1f_2 + f_3$\n  In minimum sum of products form, AND of two expressions will contain the common terms. Since $f_1$ and $f_2$ don't have any common term, $f_1f_2$ is $0$ and hence $f = f_3 =Σ(1, 4, 5).$\n  Correct Answer: $A$\nHere we have NAND - NAND Circuit, we can convert it to following AND - OR circuit. (As NAND is bubbled OR). Now it is easy to solve this question. F1 AND F2 = 0. SO whatever f3 is directly passed to output. So answer is A.\n  \n\n[IMAGE:100]\nAND of two minterm expression gives common terms.\n  \n\n   $f1\\ AND\\ f2\\equiv f1\\cap f2.$\n  \n\n   So, $f1\\ NAND\\ f2\\equiv$${(f1\\cap f2)'}$\n  \n\n   $f1\\cap f2=\\{0,1,3,5\\}\\cap\\{6,7\\}=\\phi$\n  \n\n   And, we have,\n  \n\n   $f=[(f1\\cap f2)' \\cap (f3)']'=f1 \\cap f2 \\bigcup f3 = \\{1,4,5\\}$\n  \n\n   But, $f1 \\cap f2 = \\phi$\n  \n\n   $\\Rightarrow \\phi\\ U  f3 = \\{1,4,5\\}$\n  \n\n   $ \\Rightarrow f3 =\\{1,4,5\\}$\n  \n\n   So, Correct Answer is (\n   \n    A\n   \n   ).\nANS ) A\n  \n\n[IMAGE:300]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1141434455209251543",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=17177565510164215795",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=4430467755437098936",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/831/gate-cse-2002-question-2-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "832",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the following multiplexer where $I0, I1, I2, I3$ are four data input lines selected by two address line combinations $A1A0=00,01,10,11$ respectively and $f$ is the output of the multiplexor. EN is the Enable input.\n  \n\n[IMAGE:0]\n\n   The function $f(x,y,z)$ implemented by the above circuit is",
+  "options": [
+   "$xyz'$",
+   "$xy + z$",
+   "$x + y$",
+   "None of the above"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "As $x$ is connected to $I0$  & $I1$, $y$ connected to $I2,$ $y'$ connected to $I3$ & $A1,$ $z$ connected to $A0$ and $z'$ connected to ENABLE $(EN),$\n  $f= ( {\\overline{A1}}.{\\overline{A0}}.I0+ {\\overline{A1}}.A0.I1 +A1.{\\overline{A0}}.I2 + A1.A0.I3 ).EN$\n  $\\implies f = (xyz' +xyz + y'z'y + zy')z'$\n  $\\qquad= (xyz' +xyz + zy')z' =xyz'$\n  Correct Answer: $A$\n[IMAGE:100]\n\n   Option A",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15680035907577050194",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5839452958162563916",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/832/gate-cse-2002-question-2-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "833",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Let $f(A,B) = A'+B$. Simplified expression for function $f(f(x+y, y), z)$ is",
+  "options": [
+   "$x' + z$",
+   "$xyz$",
+   "$xy' + z$",
+   "None of the above"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$f(f(x+y, y), z) = f((x+y)' +y), z)$\n  $=((x+y)' + y)' + z$\n  $= (x+y).y' + z (\\because (a+b)' = a'.b')$\n  $= xy' + z$\n  Correct Answer: $C$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/833/gate-cse-2002-question-2-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "835",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Theory of Computation",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The finite state machine described by the following state diagram with $A$ as starting state, where an arc label is $x/y,$ and $x$ stands for $1$-bit input and $y$ stands for $2$-bit output\n  \n\n[IMAGE:0]",
+  "options": [
+   "outputs the sum of the present and the previous bits of the input",
+   "outputs $01$ whenever the input sequence contains $11$",
+   "outputs $00$ whenever the input sequence contains $10$",
+   "none of the above"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer should be option (\n   \n    A\n   \n   ).\n  \n\n    Option (B)\n   \n   and\n   \n    (C)\n   \n   are clearly wrong. It says: $(\\text{input } 11 \\implies \\text{output }01)$ and $(\\text{input } 10 \\implies \\text{output }00)$, respectively, but, here for every single bit input the output is $2$ bit sequence.\n  \n\n   Now, for option (A) we can trace out. Suppose string is $0111$.\n  \n\n   at $A$---$0$---> $A$----$1$---> $B$--$1$-->$C$---$1$-->$C$\n  \n\n   $O/P$        $00$          $01$       $10$         $10$\n  \n\n   We can see here at $(A,0)$---> $(A,00)$ which sum of $0+0=00$, (previous $i/p$ bit $+$ present $i/p$ bit)\n  \n\n   $(A,1)$--->$(B,01)$ which is sum of $0+1= 1=01$,\n  \n\n   $(B.1)$--->$(C,10)$ which is sum of $1+1=$ (previous $i/p$ bit $+$ present $i/p$ bit)$=10$,\n  \n\n   $(C,1)$---> $(C,10)$ which is sum of $1+1=10$\n  \n\n   So, answer should be (\n   \n    A\n   \n   ).\nBy taking up a string we may able to figure out the pattern\n  \n\n    Let us consider a string 100111\n    \n\n     (A,1) = (B, 01)\n     \n\n      Previous input + Present input = 0+1 = 01\n      (B,0) = (A, 01)\n      Previous input + Present input = 1+0 = 01\n      (A,0) = (A, 00)\n      Previous input + Present input = 0+0 = 00\n      (A,1) = (B, 01)\n      Previous input + Present input = 0+1 = 01\n      (B,1) = (C, 10)\n      Previous input + Present input = 1+1 = 10\n      (C,1) = (C, 10)\n      Previous input + Present input = 1+1 = 10\n      option A is correct\n      option B and C are wrong where they don't produce a correct pattern.\nWhat is the output of (C,0)=(A,01)?",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15414905133934466426",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/835/gate-cse-2002-question-2-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "836",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Computer Organization",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "The performance of a pipelined processor suffers if:",
+  "options": [
+   "the pipeline stages have different delays",
+   "consecutive instructions are dependent on each other",
+   "the pipeline stages share hardware resources",
+   "All of the above"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Answer is\n   \n    D.\n   \n\n    A:\n   \n   Yes. Total delay = Max (All delays) + Register Delay.\n   \n    B:\n   \n   Yes, if data forwarding is not there.\n   \n    C:\n   \n   Yes, like ID and EX shares ID/EX register.\nOption D)All Of The Above.\n  \n\n    Pipeline suffer from options:-\n    \n\n      A) Yes, As pipeline need to work in SYNC all stage should operate in same time. If there are stages taking different time, if there is a slower stage, all faster stage will be bottlenecked by the cycles the slowest stage takes.\n      B)Yes, As there could be DATA HAZARDS.\n      eg: SUB R2,R4,R5\n      ADD R6,R2,R4 //here register r2 result will be dependent on first instruction.\n      C)Yes, IF(Instruction Fetch) and MEM(Main Memory) stage can cause STRUCTURAL HAZARDS and there may be a chance that both stages need Memory simultaneously, that's why many Arch. slipt the cache as INST cache and Data Cache.\n1. Pipelining is one way of improving the overall processing performance of a processor.\n  2. This architectural approach allows the simultaneous execution of several instructions.\n  3. Pipelining is transparent to the programmer; it exploits parallelism at the instruction level by overlapping the execution process of instructions.\n  4. It is analogous to an assembly line where workers perform a specific task and pass the partially completed product to the next worker.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/836/gate-cse-2002-question-2-6-isro2008-19",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "837",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Computer Organization",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Horizontal microprogramming:",
+  "options": [
+   "does not require use of signal decoders",
+   "results in larger sized microinstructions than vertical  microprogramming",
+   "uses one bit for each control signal",
+   "all of the above"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Option\n   \n    (D\n   \n   ). All statements are true.\n   Reference:\n   \n    https://web.archive.org/web/20180219000846/http://www.cs.virginia.edu/~cs333/notes/microprogramming.pdf\nHorizontal micro programming:\n   \n\n   1)  Each\n   \n    control signal itself  present in control word\n   \n   So no need of signal decoders, To represent one control  signal we need 1-bit\n   so\n   \n    A, C is true\n   \n\n   2)  In Vertical micro programming control word  contain\n   \n    log(no of control signals)\n   \n   bits to represent control signals.\n  \n\n    Ex:\n   \n   suppose 16 control signals are there, In HmP\n   \n    16 bits,\n   \n   in VmP\n   \n    log16 = 4 bits are required\n   \n\n   so\n   \n    B is true\n   \n\n    Finally Option D\n   \n   is Answer",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/837/gate-cse-2002-question-2-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "838",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Programming in C",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Consider the following declaration of a two-dimensional array in C:\n  \n\n   char $a[100][100]$;\n  \n\n   Assuming that the main memory is byte-addressable and that the array is stored starting from memory address $0$, the address of $a [40][50]$ is:",
+  "options": [
+   "$4040$",
+   "$4050$",
+   "$5040$",
+   "$5050$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "The answer is (\n   \n    B\n   \n   ).\n   In $\\mathbb{C},$\n   \n    arrays are always stored in the row-major form\n   \n   .\n   Formula to evaluate $2-D$ array's location is:\n  \n\n   $loc(a[i][j]) = BA + [(i-lb_1)\\times NC+(j-lb_2)]\\times c$\n   where,\n  \n\n    $\\text{BA}$ - Base Address\n   \n\n    $\\text{NC}$ - no. of columns\n   \n\n    $c$ - memory size allocated to data type of array $a[lb_1 \\ldots ub_1] [lb_2\\ldots ub_2]$\n   \n\n   Here, $\\text{BA} = 0,  \\text{NC}  = 100,    c=1,    a[0 \\ldots 99][0\\ldots 99]$, so $lb_1=0 , lb_2=0$\n   $loc(a[40][50])= 0+ [ (40-0)\\times 100 + (50-0)]\\times 1$\n  \n\n   $\\qquad \\qquad \\quad = 0+[4000+50]\\times 1 = 4050$.\n$a$        $\\underbrace{[100]}$            $\\underbrace{[100]}$\n  \n\n    $\\text{Streets}$       $\\text{Buildings}$\n    \n\n      Now you want to go and meet a friend who lives on $50^{th}$ building of $40^{th}$ street means $a[40][50]$\n      \n\n        So, firstly cross $39 (0-39)$ streets each consist of $100$ buildings: $40\\times 100=4000$\n        \n\n          Now cross $49(0-49)$ buildings in order to reach your destination: $50$\n          \n\n            $Ans: 4050$\nOPTION B\n   \n\n[IMAGE:200]\nyou can use the formula:\n  \n\n    Address\n   \n   = base address +(row index × number of columns + column index )× size of each element\n  \n\n   So, the address of a[40][50] would be:\n  \n\n   Address = 0 +(40×100+50)×1 = 4050",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2129623524911428128",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/838/gate-cse-2002-question-2-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "839",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Data Structures",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The number of leaf nodes in a rooted tree of n nodes, with each node having $0$ or $3$ children is:",
+  "options": [
+   "$\\frac{n}{2}$",
+   "$\\frac{(n-1)}{3}$",
+   "$\\frac{(n-1)}{2}$",
+   "$\\frac{(2n+1)}{3}$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "$L =$ leaf nodes\n  \n\n   $I =$ internal nodes\n  \n\n   $n =$ total nodes $= L + I$\n  \n\n   In a tree no. of edges  $= n - 1$\n  \n\n   All edges are produced by only internal nodes so,\n  \n\n   $k\\times I = n-1\\qquad \\to(1)$   (for $k-ary$ tree, in this question $k = 3$)\n  \n\n   $L + I = n\\qquad \\to (2)$\n  \n\n   Here, given options are in terms of \"n\". So, eliminating $I$ from $(1)$ and $(2)$,\n  \n\n   $L = ((k-1)n+1)/k$\n  \n\n   you get $L = (2n+1)/3$\n  \n\n   Answer is\n   \n    D.\nA Different way to solve the same Question\n    \n\n     Total no of nodes in rooted tree is n .And every node is going to have either 0 children or 3 children a/c to the question .\n    \n\n[IMAGE:100]\n\n      Total no of nodes\n     \n\n      Leaf Nodes\n     \n\n      n/2\n     \n\n      (n-1)/3\n     \n\n      (n-1)/2\n     \n\n      (2n+1)/3\n     \n\n      n = 4 (figure 1)\n     \n\n      3\n     \n\n      2\n     \n\n      1\n     \n\n      3/2\n     \n\n      3\n     \n\n      n = 7 (figure 2)\n     \n\n      5\n     \n\n      7/2\n     \n\n      2\n     \n\n      3\n     \n\n      5\n     \n\n      n = 10 (figure 3)\n     \n\n      7\n     \n\n      5\n     \n\n      3\n     \n\n      9/2\n     \n\n      7\n     \n\n      n = 13\n     \n\n      9\n     \n\n      13/2\n     \n\n      4\n     \n\n      6\n     \n\n      9\n     \n\n      n = 16\n     \n\n      11\n     \n\n      8\n     \n\n      5\n     \n\n      15/2\n     \n\n      11\n     \n\n     Option D satisfy all the condition of the question .So\n     \n      option D is the answer .\ntotal number of nodes (n)  = internal nodes(i )  +  leaf nodes(L)\n  \n\n   total number of nodes (n) =  3 * nodes with three children (x)  + 1\n  \n\n   n = 3*x + 1\n  \n\n   x = (\n   \n    n-1)/3\n   \n\n    n = i +L\n   \n\n    L = n-i\n   \n\n    L = n - (n-1)/3\n   \n\n    L = (2n+1)/3\nWe know no of leaf nodes(l) in a k-ary tree (l) = i(k-1)+1 (i represents internal nodes)\n   \n\n    here k=3 so l=i(3-1)+1==>l=2i+1==>l-2i=1----------(a).\n   \n\n    and we know total no of nodes in a tree (n) = Leaf nodes(l)+internal nodes(i)\n   \n\n    so n=l+i;==>(b).\n   \n\n    Add (a) & (b)\n   \n\n    (a)---->l-2i=1\n   \n\n    2*(b)---->2l+2i=2n\n   \n\n    _________________________\n   \n\n    3l=2n+1===> so l=(2n+1)/3;\nAny n-ary tree in which every node has either 0 or n children will take L=(n-1)*I +1\n  \n\n   Given data n=3.\n   \n\n    L=(3-1)I +1 =2I +1 -------> 1\n    \n\n      To find total number of nodes is nothing but sum of leaf nodes and internal nodes\n      \n\n       N=L+I -------> 2\n       \n\n        With the help of 1 and 2, we get L =(2n+1)/3.\nAnother Approach -\n  \n\n    $N$ = Total nodes\n    \n\n     $L$ = Leaf nodes\n     \n\n      $I$ = Internal nodes\n      \n\n        No. of leaves of full n-ary tree(0 or n children) = $I\\times(n-1)+1$\n        \n\n          here, n=3\n          \n\n            Also, $N=I+L$\n            \n\n              Thus, $I=N-L$\n              \n\n                $L=(N-L)\\times(3-1)+1$\n                \n\n                  $L=2N-2L+1$\n                  \n\n                    $3L=2N+1$\n                    $L=\\frac{2N+1}{3}$",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=9293895165679107670",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/839/gate-cse-2002-question-2-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "840",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Unclassified",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the following algorithm for searching for a given number $x$ in an unsorted array $A[1..n]$ having $n$ distinct values:\n  \n\n   Assuming that $x$ is present in $A$, what is the expected number of comparisons made by the algorithm before it terminates?\n  \n\n    $n$\n   \n\n    $n-1$\n   \n\n    $2n$\n   \n\n    $\\frac{n}{2}$",
+  "options": [
+   "Choose an $i$ at random from $1..n$",
+   "If $A[i] = x$, then Stop else Goto 1;"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Expected number of comparisons $(E) = 1 \\times $ Probability of find on first comparison $+ 2 \\times $Probability of find on second comparison $+ ... + i \\times $ Probability of find on ith comparison $+ ...$\n  \n\n   $= 1 \\times \\frac{1}{n} + 2 \\times \\frac{n-1}{n^2}  + 3 \\times \\frac{ (n-1)^2}{n^3} + \\dots $\n  \n\n   $ =  \\frac{(1).(1/n)} {1 - \\frac{n-1}{n} } + \\frac{(1).(1/n)((n-1)/n)}{\\left( {1- \\frac{n-1}{n} }\\right)^2} \\\\ \\left( \\text{Sum to infinity of aritmetico-geometric series with }\\\\a = d = 1, r = \\frac{n-1}{n} \\text{ and } b = \\frac{1}{n} \\right) \\\\= 1 + n - 1 = n$\n  \n\n   Reference:\n   \n    https://en.wikipedia.org/wiki/Arithmetico-geometric_sequence\n   \n\n   Or we can also do,\n  \n\n   $E= 1 \\times \\frac{1}{n} + 2 \\times \\frac{n-1}{n^2}  + 3 \\times \\frac{ (n-1)^2}{n^3} + \\dots $\n  \n\n   $E \\frac{n-1}{n}  = \\frac{n-1}{n^2} + 2 \\times \\frac{(n-1)^2}{n^3} + 3 \\times \\frac{(n-1)^3}{n^4}  + \\dots $\n  \n\n   $  E  -E\\frac{n-1}{n} =  \\frac{1}{n} +   \\frac{n-1}{n^2}  +   \\frac{ (n-1)^2}{n^3} + \\dots $\n  \n\n   $E. \\frac{1}{n} = \\frac{(1/n)}{1 - \\frac{n-1}{n}} = 1 \\left( \\text{Sum to infinity of GP with } a = \\frac{1}{n} \\text{ and } r = \\frac{n-1}{n} \\right) \\\\ \\implies E = n$\n  \n\n   Correct Answer: $A$\n[IMAGE:100]\n\n[IMAGE:101]\n\n   Answer Option A\nWhy is the second term not\n   [IMAGE:200]\n   , but\n   [IMAGE:201]\n   ?\n  \n\n   The way I see it, the probability of getting it in 2nd try is: Probability of failing at first trial times probability of succeeding in 2nd trial.\n  \n\n   It's not like we are removing one element from the list after the first trial.\n  \n\n   Here is my calculation and proof:\n  \n\n[IMAGE:202]\n\n[IMAGE:203]\nDo not know if it is a correct approach. Some one please verify.\n   Suppose array contains 10 elements.\n   'i' will be chosen at random, so probability that we will get our element in first try = 1/10.\n   Expected number of try for getting the element is  1/p  =   10\n   \n    https://gateoverflow.in/3561/gate2006-it-22\n   \n   Hence answer is   a) n .\nLet expected number of comparisons be E. Value of E is the sum of following expression for all the possible cases.\n  \n\n    case:\n   \n\n    1\n   \n\nIf A[i] is found in the first attempt \n  number of comparisons = 1\n  probability of the case  = 1/n\n\n    case: 2\n   \n\nIf A[i] is found in the second attempt \n  number of comparisons = 2\n  probability of the case  = (n-1)/n*1/n\n\n    case: 3\n   \n\nIf A[i] is found in the third attempt \n  number of comparisons = 3\n  probability of the case  = (n-1)/n*(n-1)/n*1/n\n\n   There are actually infinite such cases. So, we have following infinite series for E.\n  \n\nE  = 1/n + [(n-1)/n]*[1/n]*2 + [(n-1)/n]*[(n-1)/n]*[1/n]*3 + ….  (1)\n\n   After multiplying equation (1) with (n-1)/n, we get\n  \n\nE (n-1)/n = [(n-1)/n]*[1/n] + [(n-1)/n]*[(n-1)/n]*[1/n]*2 + \n                                 [(n-1)/n]*[(n-1)/n]*[(n-1)/n]*[1/n]*3 ……….(2)\n\n   Subtracting (2) from (1), we get\n  \n\nE/n = 1/n + (n-1)/n*1/n + (n-1)/n*(n-1)/n*1/n + …………\n\n   The expression on right side is a GP with infinite elements. Let us apply the sum formula (a/(1-r))\n  \n\n  E/n = [1/n]/[1-(n-1)/n]  = 1\n  E = n\nThis is a type of geometric distribution. Searching an element randomly in array is like tossing a coin(not necessarily fair) until first head comes. Probability of which is 1/n. I am assuming that element is actually in an array. Expected value of geometric random variable is 1/p where p is the probability of success, here 1/n. So answer is 1/(1/n) = n.\n  \n\n   Ref.\n   \n    https://en.wikipedia.org/wiki/Geometric_distribution",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=8882150923679969063",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2404923733153522342",
+    "kind": "remote"
+   },
+   {
+    "src": "http://latex.codecogs.com/gif.latex?2%20%5Ctimes%20%5Cfrac%7Bn-1%7D%7Bn%7D%20%5Ctimes%20%5Cfrac%7B1%7D%7Bn-1%7D",
+    "kind": "remote"
+   },
+   {
+    "src": "http://latex.codecogs.com/gif.latex?2%20%5Ctimes%20%5Cfrac%7Bn-1%7D%7Bn%7D%20%5Ctimes%20%5Cfrac%7B1%7D%7Bn%7D",
+    "kind": "remote"
+   },
+   {
+    "src": "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/1488043_10204478210549018_2048902595045081710_n.jpg?oh=6953f8d30632f531336fefd3835ee0f2&oe=5511CB2D&__gda__=1427853722_63e016a8f2e5e7b4b211722b1972e977",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=6629678996326250592",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/840/gate-cse-2002-question-2-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "841",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Algorithms",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The running time of the following algorithm\n  \n\n    Procedure\n   \n   $A(n)$\n  \n\n   If $n \\leqslant 2$ return ($1$) else return $(A( \\lceil  \\sqrt{n}  \\rceil))$;\n  \n\n   is best described by",
+  "options": [
+   "$O(n)$",
+   "$O(\\log n)$",
+   "$O(\\log \\log n)$",
+   "$O(1)$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "The complexity will be the number of times the recursion happens which is equal to the number of times we can take square root of n recursively, till n becomes $2$.\n   $T(n) = T\\left(\\lceil \\sqrt n \\rceil \\right) + 1$\n   $T(2) = 1$\n   $T\\left(2^2\\right) =  T(2) + 1 = 2$\n   $T\\left(2^{2^2}\\right) =  T(4) + 1 = 3$\n   $T\\left(2^{2^3}\\right) =  T(16) + 1 = 4$\n   So, $T(n) = \\lg\\lg n + 1 = O\\left(\\log \\log n\\right)$\n  \n\n    Answer\n   \n   :\n   \n    Option C\nT(n)=T(sqrt(n))+1\n  \n\n    We substitute n=2^m. Then T(2^m)=T(2^m/2) +1\n    \n\n      we substitute T(2^m)=S(m).\n      \n\n        S(m)=S(m/2)+1.\n        \n\n          Now applying masters theoram we get S(m)=O(log m). As m=logn.\n          \n\n           T(n)=O(log log n)\nAnother way to solve this is:\n  T(n) = T(n^1/2)+c\n  T(n) = T(n^1/4)+c+c\n  T(n) = T(n^1/8)+c+c+c\n  T(n) = T(n^1/16)+c+c+c+c\n  ................\n  .........\n  ...........\n  T(n) = T(n^(1/2^k))+k.c\n  So, n^(1/2^k) = 2\n  taking log will give us:-      log(n) = 2^k--------------futher taking log --------- k =loglogn\n  T(n) = T(2)+loglogn . c\n  so , ans will be C) O(loglogn)\nlog log n.\n  substitute root n = m then proceed.\n$Ans:C$\n  \n\n   $T(n) = T(\\sqrt n)  + c$\n  \n\n   Assume $n=2^k$\n  \n\n   $T(2^k)=T(2^{k/2})+c$\n  \n\n   Assume $T(2^k)=S(k)$\n  \n\n   $S(k)=S(k/2)+c$\n  \n\n   Apply Master Theorem\n  \n\n   $S(k)=\\Theta(1.\\log\\ k)$\n  \n\n   Now just do the reverse\n  \n\n   $T(2^k)=\\Theta(\\log\\ k)$\n  \n\n   Now replace with $k=\\log_{2}n$\n  \n\n   $T(2^{\\log_{2}n})=\\Theta(\\log(\\log_{2}n))$\n  \n\n   $T(n)=\\Theta(\\log(\\log_{2}n))$\nWe will solve this question using recursive tree method\n  \n\n[IMAGE:500]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12591695097441019511",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/841/gate-cse-2002-question-2-11",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "842",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Data Structures",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A weight-balanced tree is a binary tree in which for each node, the number of nodes in the left sub tree is at least half and at most twice the number of nodes in the right sub tree. The maximum possible height (number of nodes on the path from the root to the furthest leaf) of such a tree on n nodes is best described by which of the following?",
+  "options": [
+   "$\\log_2 n$",
+   "$\\log_{\\frac{4}{3}} n$",
+   "$\\log_3 n$",
+   "$\\log_{\\frac{3}{2}} n$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Let  $n_l$ and $n_r$ nodes be present in the left and right sub-trees respectively.\n   We have, $\\frac{n_r}{2}\\le n_l \\le 2n_r$. Without loss of generality, let the left sub-tree have greater number of nodes $(2n_r\\ nodes)$. Then, $n_r + 2n_r + 1 = n$. Thus we get, $n_l = {2(n-1) \\over 3}$ and $n_r = {n-1 \\over 3}$.\n   Total number of nodes can be described by the recurrence:\n   $T(n) = T\\left(\\frac{n-1}{3}\\right) + T\\left(\\frac{2(n-1)}{3}\\right) + 1 \\text{ and }  T(1) = 1$\n   As this makes maximum nodes go to one subtree and that is what we want to get the maximum height with a given number of nodes.\n   Now, the height of the tree will be: $H(n) = H(\\frac{2}{3}(n-1)) + 1$ and $H(1) = 1$\n   We can draw a recurrence tree and the cost at each level is 1, and the height will be $\\color{red}{\\log_{\\frac{3}{2}}(n)}$.\n   So,\n   \n    D\n   \n   option is the answer.\nAns: D\n   \n\n[IMAGE:100]\n\n[IMAGE:101]\n[IMAGE:200]\nAnswer is Option D we will see why\n  \n\n[IMAGE:300]\nThe number of nodes in the left sub tree is at least half and at most twice the number of nodes in the right sub tree.\n   Let assume number of nodes in right subtree is r and for left subtree number of nodes are l.\n  \n\n   then for left subtree number of nodes ranges from ..\n  \n\n   $r/2\\leqslant l\\leq 2r$\n  \n\n   and root contains 1 node.\n  \n\n   root node+ left subtree nodes+ right subtree nodes= n\n  \n\n   So,      1+r/2+r = n\n  \n\n   3r/2 = n-1\n  \n\n   r=  $2(n-1)/3$\n  \n\n   Now, why we use r/2 because we want our tree to be maximum possible height that can only possible when we take minimum number of nodes.\n  \n\n   LST = $(n-1)/3$\n  \n\n   RST = $2(n-1)/3$\n  \n\n   Now we can see that RST is multiplied by 2 means this part of the tree will cause the max height of the tree. which is\n   \n    log3/2(n)\n   \n   .\n   \n    Hence, answer is (D).\nAnswer is D\n     You can refer Here\n    \n\n    https://gateoverflow.in/842/gate2002_2-12",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=4378141878754409688",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5668993732147748989",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1746952217893006292",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=6517607238205633655",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/842/gate-cse-2002-question-2-12",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "843",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Theory of Computation",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The smallest finite automaton which accepts the language $\\{x \\mid$ length of $x$ is divisible by $3\\}$ has",
+  "options": [
+   "$2$ states",
+   "$3$ states",
+   "$4$ states",
+   "$5$ states"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Correct Option:\n   \n    B\n   \n\n   It is $3$ states as we need a state each for length mod $3 = 0, 1$ and $2$.\n[IMAGE:200]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1465915729878419931",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/843/gate-cse-2002-question-2-13",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "844",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Theory of Computation",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Which of the following is true?",
+  "options": [
+   "The complement of a recursive language is recursive",
+   "The complement of a recursively enumerable language is recursively enumerable",
+   "The complement of a recursive language is either recursive or recursively enumerable",
+   "The complement of a context-free language is context-free"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "[IMAGE:0]\n\n   When a language is Recursive then there is a Total Turing machine means a Turing machine which have only two options either accept or rejects so if we complement a recursive language it works according to second figures hence it is recursive too.\n  \n\n   For a recursively enumerable language there is Turing machine and so it has three options either accept, reject or loop. Hence its complement can be either recursively enumerable or not even recursively enumerable.\n  \n\n   Among the options A is the best one though C is also not wrong as it includes the statement of A in an either clause.\n  \n\n   Best Option: A\nComplement of recursive language is always recursive.\nIf a language L and L' are both recursively enumerable then both languages are recursive.\n  If L is recursive then L' is  also recursive and consequently bothe are Recursively enumerable.\nOption A) is true, The complement of a recursive language is recursive.\nOption A is correct\n  complement of recursive language is recursive.\nAnswer is option (A)\n    \n\n   Complement of REC (Recursive) is REC (\n   \n    REC is closed under complement operation\n   \n   )\n   Complement of RE (Recursively enumerable) is\n   \n\n     NOT\n    \n\n   RE (\n   \n    RE is not closed under complement operation\n   \n   )\n  \n\n   (A) TRUE, as per closure property.\n   (B) FALSE, Complement of RE is not RE.\n   (C) FALSE, Complement of REC is\n   \n    always\n   \n   REC and RE (all REC is RE).\n   (D) FALSE, Complement of CFL is not CFL. CFL is not closed under complement operation.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15606406763440229550",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/844/gate-cse-2002-question-2-14",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "846",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Engineering Mathematics",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Four fair coins are tossed simultaneously. The probability that at least one head and one tail turn up is",
+  "options": [
+   "$\\frac{1}{16}$",
+   "$\\frac{1}{8}$",
+   "$\\frac{7}{8}$",
+   "$\\frac{15}{16}$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Answer - C\n   \n   probability of getting all heads =$\\dfrac{1}{16}$\n   probability of getting all tails =$\\dfrac{1}{16}$\n   probability of getting at least one head and one tail $= 1 - \\dfrac{1}{16} - \\dfrac{1}{16} = \\dfrac{7}{8}.$\nTotal outcomes - 2\n   \n    4\n   \n   (Because 4 coins are tossed simultaneously and each coin has 2 outcomes-either head or tail)\n   Now out of this 16 outcomes, one will be all HHHH(all heads) and other will be all TTTT(all tails) rest 14 outcomes will have atleast one head and one tail.\n  \n\n   So, probability, favourable events/total outcome\n  \n\n   14/16 = 7/8\nAnother simple approach:\n   \n   Let p= P(heads) = 1/2\n   and q= P(tails) = 1/2\n   \n    Requirement:\n   \n   1 Heads 3 Tails\n   or 2 Heads 2 Tails\n   or 3 Heads 1 Tails\n   Using binomial distribution,\n   \n    Required probability\n   \n   = $_{}^{4}\\textrm{C}_{1} p^{1} q^{3} + {}^{4}\\textrm{C}_{2} p^{2} q^{2} + {}^{4}\\textrm{C}_{3} p^{3} q^{1}$\n   = $_{}^{4}\\textrm{C}_{1} (1/2)^{1} (1/2)^{3} + {}^{4}\\textrm{C}_{2} (1/2)^{2} (1/2)^{2} + {}^{4}\\textrm{C}_{3} (1/2)^{3} (1/2)^{1}$\n   \n    $= \\frac{7}{8}$\n1 head 3 tails =1/16 2 heads 2 tails =1/16 3 heads 1 tail =1/16 adding we get 3/16 where i am wrong anyone plz explain\nprobability of getting head=p=1/2;\n  \n\n    by the formula p(x)=nCx*P^xq^(n-x)\n    \n\n      p(atleast one tail)=p(x>=1)==1-p(x<1)=4C0*(1/2)^4=1-1/16=15/16\n      \n\n        p(atleast one head)=p(x>=1)==1-p(x<1)=4C0*(1/2)^4=1-1/16=15/16\n        \n\n          so\n          \n\n            P(head&tail)=15/16*15/16=7/8",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/846/gate-cse-2002-question-2-16",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "847",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The binary relation $S= \\phi \\text{(empty set)}$ on a set $A = \\left \\{ 1,2,3 \\right \\}$ is",
+  "options": [
+   "Neither reflexive nor symmetric",
+   "Symmetric and reflexive",
+   "Transitive and reflexive",
+   "Transitive and symmetric"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Answer is\n   \n    D.\n   \n\n   $S=\\emptyset$ (empty set) on a set $A = \\{1,2,3\\}$ is Irreflexive, Symmetric, Anti Symmetric, Asymmetric, Transitive.\n   But it is not Reflexive.\nRelation S is defined as a set in which no element of A is related to any element.\n  \n\n   This means that R is an empty relation.\n  \n\n    Empty relation with empty set\n   \n   holds Reflexivity, Transitivity, Symmetric, Anti-Symmetric\n   This empty relation would match all conditions vacuously because there are no conditions to check(no elements)\n  \n\n    Empty relation with non-empty set\n   \n   holds Transitivity, Symmetric, Anti-Symmetric but\n   \n    not reflexivity\n   \n   because set is non-empty and there are conditions to check for reflexive property.\n  \n\n   In this particular question set A is non empty hence answer is D)\n   \n    Transitive and symmetric\nA relation on a set A is by definition a subset R⊆(A×A). Then \"a is related to b\" means \"(a,b)∈R. The empty relation is then just the empty set, so that \"a is related to b\" is always false.\n  \n\n   Hence R= empty set implying it is symmetric,antisymmetric and transitive trivially but not reflexive since by definition any reflexive relation should contain all elements of the form (a,a) for all a in A\nThe answer is\n   \n    D\n   \n   .\n  \n\n   When it comes to working with ϕ, keep it in mind that there are two possibilities:\n  \n\n   1. The Relation R (or S in the question) is a relation on set A which itself is empty, i.e\n   \n    R on A = { }\n   \n   .\n  \n\n   2. The Relation R (or S in the question) is a relation on set A which is not empty, i.e.\n   \n    A have some element\n   \n   s.\n  \n\n    Case 1:\n   \n\n   Here the very set on which our relation is based, A,  is empty, so\n   \n\n     there is nothing to check\n    \n\n   , and if there is nothing to check, in mathematics and logic we take it to have all properties to be true for that. As it is, without any logical approval or explanation. And that is why we call it\n   \n    Vacuous Truth\n   \n   (wiki link), ( Vacuous means lack of intelligence! ).\n  \n\n   So, here if any\n   \n    R = { }  is defined on A = { }, all the properties i.e  Reflexivity, Transitivity, Symmetric, Anti-Symmetric, hold true.\n   \n\n    Case 2:\n   \n\n   But as is asked in the question, the set\n   \n    A is not empty\n   \n   . So,\n   \n\n     there are elements which need to be checked\n    \n\n   .\n  \n\n   So, lets take one by one...\n  \n\n   a.\n   \n    Reflexivity\n   \n   : The only way Reflexivity is deemed true, is if the all the elements of must be related to each other and that is not the case here, so it is\n   \n    NOT reflexive\n   \n   .\n  \n\n   b.\n   \n    Transitivity and Symmetry\n   \n   : These two properties are automatically implied True until and unless there is some reason for rejection. Here we have no elements at all, so there is no chance that someone can conjure up a reason to reject these. Hence, it is Symmetrical and Transitive.\n  \n\n   Go to this\n   \n    link\n   \n   to have a detailed understanding.\nThere is another way of looking at this problem which uses first-order logic concepts. Recall the truth table of A implies B, or A => B.\n  \n\n   The definition of\n   \n    reflexivity\n   \n   is that if element \"a\" belongs to A, then (a, a) must belong to S. This is an implication whose left side is true and right side is false, for all elements in A. Therefore the result is false.\n  \n\n   For\n   \n    symmetry\n   \n   , for a pair of elements a,b in A, if (a, b) belongs to S, then (b, a) must also belong to S. The left side of this implication is false, so it does not matter if the right side is true or false, the result will always be true. Thus S is symmetric.\n  \n\n   Similarly, for\n   \n    transitivity\n   \n   , given elements a,b,c in A, if (a, b) belongs to S and (b, c) belongs to S, then (a, c) must belong to S. The left side is once again false, so the result of the implication is true. S is transitive.\n  \n\n   The same reasoning can be extended to anti-symmetry although it is not required here. Therefore the answer is (D).\nEmpty relation with empty set holds\n   \n\n    Reflexivity,\n   \n\n    Transitivity,\n   \n\n    Symmetric,\n   \n\n    Anti-Symmetric\n   \n\n    ------------------------------------\n   \n\n    Empty relation with non-empty set holds\n   \n\n    Transitivity,\n   \n\n    Symmetric,\n   \n\n    Anti-Symmetric\n   \n\n    but not reflexivity\n   \n\n     hence answer is D) Transitive and symmetric",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/847/gate-cse-2002-question-2-17",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "848",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Programming in C",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The C language is:",
+  "options": [
+   "context free language",
+   "context sensitive language",
+   "regular language",
+   "Parsable fully only by a Turing machine"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Answer is (\n   \n    B\n   \n   ).\n   All modern programming languages are CSL. Because they contain two features which cannot be handled by PDA.\n   The features are:\n  \n\n    variable declared before use and\n   \n\n    matching formal and actual parameters of functions.\nAnswer: (B)\n  \n\n    Ref:\n    \n     http://trevorjim.com/c-and-cplusplus-are-not-context-free/\nans b)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/848/gate-cse-2002-question-2-18",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "849",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Compiler Design",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "To evaluate an expression without any embedded function calls",
+  "options": [
+   "One stack is enough",
+   "Two stacks are needed",
+   "As many stacks as the height of the expression tree are needed",
+   "Turing machine is needed in the general case"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Expression without any calls in it $\\implies 1+2\\ast3-4$\n  Expression with embedded calls $\\implies 1 + \\text{fun}1(a,b,c) \\ast  \\text{fun}2(3.4,58) - \\text{fun}3(x,yz)$;\n  First we can convert Infix to Postfix using single stack (Using it as operator stack)\n  Then we can evaluate that expression using Single stack.\n  Correct Answer: A.\nwe need only one stack....(here input to stack is POSTFIX expression)\n  \n\n   the process is like this ....when we see the operands then we simply push them into stack.... and when operator comes/read by algorithm we simply pop operands from stack....evaluate them and again push the result into stack..\n  \n\n   if current operator needs 2 operands like +,/,-....we pop 2 operand from stack evaluate them and push result back into stack....\n  \n\n   like\n  \n\n   532*+\n  \n\n   here we read 5,3,2 we push it into stack...now we read * hence pop 2 operands ...we pop 2,3 ...now perform the operation\n  \n\n   2*3=6....now 6 is push into stack..\n  \n\n   now we read +..so pop 2 operands that is 6,5..and do addition we get the result =11...\n  \n\n     SO WE NEED ALWAYS 1 STACK TO SOLVE IT..\nGenerally infix expressions are harder to evaluate in computers\n   So, one way is to convert into postfix expression and evaluate it.\n   So, we can convert into and evaluate a postfix expression by using 2 stacks\n   one is operator stack and other is operand stack. (algorithm is given below)\n   So, I think option B (2 stacks)\n  \n\n1. While there are still tokens to be read in,\n   1.1 Get the next token.\n   1.2 If the token is:\n       1.2.1 A number: push it onto the value stack.\n       1.2.2 A variable: get its value, and push onto the value stack.\n       1.2.3 A left parenthesis: push it onto the operator stack.\n       1.2.4 A right parenthesis:\n         1 While the thing on top of the operator stack is not a \n           left parenthesis,\n             1 Pop the operator from the operator stack.\n             2 Pop the value stack twice, getting two operands.\n             3 Apply the operator to the operands, in the correct order.\n             4 Push the result onto the value stack.\n         2 Pop the left parenthesis from the operator stack, and discard it.\n       1.2.5 An operator (call it thisOp):\n         1 While the operator stack is not empty, and the top thing on the\n           operator stack has the same or greater precedence as thisOp,\n           1 Pop the operator from the operator stack.\n           2 Pop the value stack twice, getting two operands.\n           3 Apply the operator to the operands, in the correct order.\n           4 Push the result onto the value stack.\n         2 Push thisOp onto the operator stack.\n2. While the operator stack is not empty,\n    1 Pop the operator from the operator stack.\n    2 Pop the value stack twice, getting two operands.\n    3 Apply the operator to the operands, in the correct order.\n    4 Push the result onto the value stack.\n3. At this point the operator stack should be empty, and the value\n   stack should have only one value in it, which is the final result.\nTo evaluate an expression without any embedded function calls we just need one stack if expression is infix stack will be used to convert it into post fix and then same stack can be used in its evaluation.\n  \n\n    To evaluate an expression with any embedded function calls we need atleast two stack 1 to evaluate expression and other to keep record of function calls and related stuff.\n    \n\n      Option (A)\n      \n\n        correct me if I am wrong.\nTo evaluate an expression without any embedded function calls,\n   \n    one stack is enough.\n   \n\n   Explanation:\n  \n\n    In an expression evaluation, a single stack is typically used to keep track of operands and operators.\n   \n\n    The stack helps maintain the correct order of operations and ensures that the expression is evaluated according to the rules of precedence and associativity.\nans a)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/849/gate-cse-2002-question-2-19",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "850",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Compiler Design",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Dynamic linking can cause security concerns because",
+  "options": [
+   "Security is dynamic",
+   "The path for searching dynamic libraries is not known till runtime",
+   "Linking is insecure",
+   "Cryptographic procedures are not available for dynamic linking"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Nonsense option, No idea why it is here.\n   \n\n    The path for searching dynamic libraries is not known till runtime -> This seems most correct answer.\n   \n\n    This is not true. Linking in itself not insecure.\n   \n\n    There is no relation between Cryptographic procedures & Dynamic linking.\nDynamic linking is type of linking in which libraries required by the program are linked during run time.\n  And evaluating all options B seems correct one.\nb.   path is not  not  known  so it's  not  easy to intruder to place malicious program.\nPeople finding explanation on option B may go to the following link:\n  \n\n    https://gateoverflow.in/209810/why-is-dynamic-linking-less-secure\n   \n\n   Specially see\n   \n\n     @smsubham\n    \n    answer. May read my short answer as well.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/850/gate-cse-2002-question-2-20",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "851",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Operating Systems",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which combination of the following features will suffice to characterize an OS as a multi-programmed OS?\n  \n\n    (a)\n   \n\n    (a) and (b)\n   \n\n    (a) and (c)\n   \n\n    (a), (b) and (c)",
+  "options": [
+   "More than one program may be loaded into main memory at the same time for execution",
+   "If a program waits for certain events such as I/O, another program is immediately scheduled for execution",
+   "If the execution of a program terminates, another program is immediately scheduled for execution."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "(A) and  (B) suffice multi-programming concepts. For multi-programming, more than one program should be in memory and if any program goes for IO another can be scheduled to use CPU .\n  \n\n   So the answer is\n   \n    (B)\n   \n   .\n(a) More than one program may be loaded into main memory \n   at the same time for execution. \nTrue: Only done in a multiprogrammed OS, not in single\n       programmed OS\n\n(b) If a program waits for certain events such as I/O, \n   another program is immediately scheduled for execution.\nTrue: Only done in a multiprogrammed OS, not in single\n       programmed OS\n \n(c) If the execution of program terminates, another program \n   is immediately scheduled for execution. \nFalse: Done in both Multiprogrammed and single\n       programmed OSs\n\n   ref:\n   \n    http://www.geeksforgeeks.org/gate-gate-cs-2002-question-46/\nBased on\n  \n\n    The primary reason multiprogramming operating system was developed and the reason they are popular, is that they enable the CPU to be utilized more efficiently. If the operating system can quickly switch the CPU to another task whenever the being worked in requires relatively slow input, output or storage operations, then CPU is not allowed to stand idle.\n   \n\n    This mean that more can be accomplished a given amount of time. For example, if a disk drive that task can be delegated to channel and the CPU can be put to work in another program while the data are being read in multiprogramming is thus an effective way the fast-working CPU most\n   \n\n    busy\n   \n\n    with computations while slower input, output and storage operation are being carried out.\n   \n\n   D will be correct choice\nThe questions asks for sufficient conditions only\n  \n\n    so A & B are sufficient\n    and C is done by every other type of OS if other processes are ready for execution.\nOnly A suffice for multiprogramming OS. B and C are wrong because if there is no process present inside the ready queue then no process will go for execution immediately after I/O performed or process gets terminates by another program.\n  \n\n   So the answer is\n   \n    (B)\n   \n   .\nIn batch processing processes halt in between executions and and there is no preemptive scheduling.So option d.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/851/gate-cse-2002-question-2-21",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "852",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Operating Systems",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In the index allocation scheme of blocks to a file, the maximum possible size of the file depends on",
+  "options": [
+   "the size of the blocks, and the size of the address of the blocks.",
+   "the number of blocks used for the index, and the size of the blocks.",
+   "the size of the blocks, the number of blocks used for the index, and the size of the address of the blocks.",
+   "None of the above"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "In Index allocation size of maximum file can be derived like following:\n   No of addressable blocks using one Index block $(A)=$ Size of block / Size of block address\n   No of block addresses available for addressing one file $(B)=$\n  \n\n   No of Maximum blocks we can use for the Index *  No of addressable blocks using one Index block $(A)$\n   Size of File = $B$ * Size of Block\n   So, it is clear that:\n   Answer is\n   \n    (C).\n   \n\n    A & B\n   \n   are incomplete.\nAs the size of the block increases, file size increases\n   \n    (Keeping number of blocks constant)\n   \n   .\n  \n\n   As the number of blocks for index increases, number of index entries increases\n   \n    (keeping size of block contstant)\n   \n   and so file size increases (we cannot have an index record without it's corresponding file record so as i keep on increasing index records even file records increases)\n  \n\n   As the block address size increases,  number of index entries decreases\n   \n    (keeping block size and number of blocks constant)\n   \n   and so file number of file records decreases and so file size decreases.\n  \n\n   So option C)\nsomeone please verify.  answer answer is C.\n  \n\n    First some background on indexing.\n   \n\n   File is stored in form of blocks in hard disk. File is made up of records, each record has some key field on which indexes are created(for faster access of file). suppose record is of 64 byte and key field is of 14 byte. hence we create index  on this 14 byte key field(not necessary as you can index on non key field also). Apart from 14 bytes of key field it must also include block address in which record with this key value is present . lets say block address is 2 byte.\n  \n\n    Now come to question\n   \n\n   size of the index file directly proportional to\n   \n    number of blocks used for the index\n   \n   .\n  \n\n   if we have 1000 records. there will be 1000(14+2) Bytes for index. If we store all of them in single block(provided it fits in single block) there will not be multilevel indexing, hence no memory needed to store secondary indexes.\n  \n\n   I still have doubt in this .\n  \n\n    size of block\n   \n\n   If size of block is large we can accommodate  more indexes per block hence number of levels in indexing is less hence file size is lesser.\n  \n\n    siz of address of block\n   \n\n   If block size becomes 1 byte instead of 2 byte , we need less number of block hence file size is less\n  \n\n   please correct me if my answer is wrong.\nThe question simply means \"The size of the file(data+ index)depends upon which factor\"\n  \n\n    1) Size of the Block=\n   \n   True if the block size is more, it can accommodate more no of row or tuples or data, and indexing could be done of 1st row in a block(SPARSE INDEXING). Hence index size will be decreased.\n  \n\n    2) No. of block used for Indexing =\n   \n   Although it looks true but it is false because we can not decide, how many blocks needed to store database in memory. It will store the complete database in memory and moreover we can not decide on which block there should be indexing is done & which block not to be. So \"no of Block\" is fine but \"no of blocks used for indexing \" is the wrong statement.\n  \n\n    3) Size of the address of block=\n   \n   True, because record pointer in index file stores key and corresponding address of block where it is stored.\n  \n\n   So in my opinion the answer should be\n   \n    A\nThe word 'file', if it is 'the record' i.e. 'Database file' then ans is 'd'\n  \n\n   The word 'file' means 'index file' the answer is 'c'\n   I don't know why they are so lazy to add one word to remove confusion, could have asked about 'index file' than 'file' anyone may confuse it to the main file/record\nMax. possible file size = (# blocks)*(size of each block)\n  # blocks = size of index block/s /entry size\n  option c",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/852/gate-cse-2002-question-2-22",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "853",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Databases (DBMS)",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A $B^+$ - tree index is to be built on the\n   \n    Name\n   \n   attribute of the relation\n   \n    STUDENT.\n   \n   Assume that all the student names are of length $8$ bytes, disk blocks are of size $512$ bytes, and index pointers are of size $4$ bytes. Given the scenario, what would be the best choice of the degree (i.e. number of pointers per node) of the $B^+$ - tree?",
+  "options": [
+   "$16$",
+   "$42$",
+   "$43$",
+   "$44$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Answer: C\n   In a $B^+$ tree we want en entire node content to be in a disk block. A node can contain up to $p$ pointers to child nodes and up to $p-1$ key values for a $B^+$ tree of order $p$. Here, key size is 8 bytes and index pointer size is 4 bytes. Now a $ B^+$  tree has different structure for internal node and leaf nodes. While internal nodes can have upto $p-1$ key values and $p$ child pointers, leaf node will have one sibling pointer in addition to maximum $p-1$ keys and $p-1$ record pointers. Since our key is Name attribute which is not assumed to be unique it must be a secondary index and hence the  record pointer must be an  index pointer to primary index. This will ensure size of a leaf node is same as the size of a non-leaf node. Hence for a maximum sized node we can write\n   $(8+4)(p-1) + 4  \\leq 512 \\\\ \\implies 12p \\leq 520 \\\\\\implies p = 43.$\n  \n\n    http://www.cburch.com/cs/340/reading/btree/index.html\nAns : C\n   \n\n   Here we have to calculate P(non-leaf) not P(leaf) bcz in order to calculate P(leaf) we require\n   \n    record pointer\n   \n   which is not given in the question.\n  \n\n   P(leaf)= n(K+Rp) + Bp <= Block size\n  \n\n   where,\n  \n\n   K= key field\n  \n\n   Rp= Record pointer\n  \n\n   Bp= Block pointer\n(p-1)K+p*Bp<=Block Size\n  \n\n    (p-1)8+ P*4=512\n    \n\n      12p=520\n      \n\n        p=43\nI think the straightforward way to answer this question is as follows:\n  \n\n   The first thing to notice is that they have mentioned the degree as = number of any kind of pointer.\n   In a B+ tree we always have $number\\: of \\: pointers = number\\: of \\: keys\\: +1$\n   i.e. in case of internal nodes, we know that we have one more pointer than keys. And in leaf nodes we have equal number of key-record pointer pairs and one extra pointer for next block pointer is also present.\n   Since they have mentioned the size of index pointer, i am taking internal nodes. We’ll have\n   $(n*Pointer)+(n-1)*key = 512$\n   $\\Rightarrow (4n)+(n-1)*8 = 512$\n   $\\Rightarrow n = \\frac{520}{12}$\n   Obviously we’ll take floor, since we can’t exceed block size and hence the answer is 43.\nSize of 1 record = 8 + 4 = 12\n\nLet the order be N.\n\nNo. of index values per block = N - 1\n\n(N - 1) 12 + 4 = 512\n\n12N - 12 + 4 = 512\n\n16N = 1009\n\nN = 43.3333\n\n   Based on\n   \n    Geeksofgeeks\n   \n   solution.\nInternal node order\n     \n\n       m * P + ((m-1) *V) ≤B\n      \n\n       m=?\n      \n\n       P=4\n      \n\n       V=8\n      \n\n       B=512\n      \n\n       m*4+(m-1)*8 ≤ 512\n      \n\n       12m\n      \n\n       ≤ 520\n      \n\n       m≤ 43.33\n      \n\n       =43",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/853/gate-cse-2002-question-2-23-ugcnet-june2012-ii-26",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "854",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Databases (DBMS)",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Relation $R$ is decomposed using a set of functional dependencies, $F$, and relation $S$ is decomposed using another set of functional dependencies, $G$. One decomposition is definitely $\\text{BCNF}$, the other is definitely $3NF$, but it is not known which is which. To make a guaranteed identification, which one of the following tests should be used on the decompositions? (Assume that the closures of $F$ and $G$ are available).",
+  "options": [
+   "Dependency-preservation",
+   "Lossless-join",
+   "$\\text{BCNF}$ definition",
+   "$3NF$ definition"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$\\text{False}$.  $\\text{BCNF}$ may or may not satisfy Dependency preservation, $3NF$ always does. But we can't make any guaranteed decision, regarding $\\text{BCNF}$ if it satisfies Dependency preservation\n   \n\n    $\\text{False}$. Both are lossless.\n   \n\n    $\\text{True}$. Using this we can always decide between $\\text{BCNF}$ & $3NF$.\n   \n\n    $\\text{False}$. Every $\\text{BCNF}$ relation is also $3NF$ trivially.\n   \n\n   Answer -> $C$ ( & Only $C$).\nA. dependency preservation.\n  in 3NF Dependency always preserved but in BCNF it  may or may not be preserved.\n  For a particular set of FDs it may not differentiate BCNF and 3NF.\n  B.Lossless  join always possible in both BCNF as well as 3NF.\n  D. 3NF definition also unable to differentiate BCNF & 3NF bcoz every BCNF is trivially 3NF.\n  C. every 3NF which is not BCNF fails BCNF Definition so it may used to differentiate which is BCNF & which is 3NF ..\nOption (C) . Since it is given that out of F and G, one is 3NF and other is BCNF then clearly we can apply BCNF defintion to differentiate between F and G.\n  Option (D) is useless as 3NF defintion will be satisfied by both the Functional Dependencies sets.\n  Option (A) and Option (B) are not the criteria to decide about BCNF and 3NF. They are criteria for Relation decomposition.\n  Eventhough Decompostion has been used here and some give Option (A) Dependency Preservation as answer but I will go with BCNF defintion as the distinguishing factor.\nBCNF may or may not preserve dependency preservation. 3NF satisfy dependency preservation. Both BCNF and 3NF are Lossless join decomposition. So we BCNF definition is required.\n  \n\n   Answer is\n   \n    C. BCNF definition\nExplain please\n  \n\n     3NF Dependency always preserved but in BCNF it  may or may not be preserved.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/854/gate-cse-2002-question-2-24",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "855",
+  "year": 2002,
+  "set": null,
+  "number": 2,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Databases (DBMS)",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "From the following instance of a relation schema $R(A,B,C)$, we can conclude that:\n  \n\n   $$\\begin{array}{|l|l|}\\hline \\textbf{A} & \\textbf{B} & \\textbf{C} \\\\\\hline  \\text{1} & \\text{1} & \\text{1} \\\\   \\text{1} & \\text{1} & \\text{0} \\\\ \\text{2} & \\text{3} & \\text{2} \\\\ \\text{2} & \\text{3} & \\text{2} \\\\\\hline \\end{array}$$",
+  "options": [
+   "$A$ functionally determines $B$ and $B$ functionally determines $C$",
+   "$A$ functionally determines $B$ and $B$ does not functionally determine $C$",
+   "$B$ does not functionally determine $C$",
+   "$A$ does not functionally determine $B$ and $B$ does not functionally determine $C$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Answer is $C$.\n  Generally Normalization is done on the schema itself.\n  From the relational instance given, we may strike out $FD$ s that do not hold.\n  e.g. $B$ does not functionally determine $C$ (This is true).\n  But, we cannot say that $A$ functionally determines $B$ for the entire relation itself. This is because that, $A\\to B$ holds for this instance, but in future there might be some tuples added to the instance that may violate $A\\to B$.\n  So, overall on the relation we cannot conclude that $A\\to B$, from the relational instance which is just a subset of an entire relation.\nAnswer - (C)\n    \n\n      If we observe carefully \"Instance\" of a relation Schema R(A,B,C) is given here.\n     \n\n    Now as we can see A functionally determines B for the present tuples.\n   \n\n      But B does not determines C.\n     \n\n     That is clearly Visible.\n    \n\n      In future there may be chances of tuples to be present where A can not determine B uniquely.\n     \n\n     So,option C is most suitable.\nSince for this table we can clearly see that everytime when A=1 then B=1 and everytime when A=2 then B=2\n  \n\n   so for this particular snapshot we can say that A functionally determines B.\n  \n\n   But observing for functional dependency of B and C,\n  \n\n   We see that when B=1 then C has two values 1, 0 hence B fails to funtionally determine C.\n  \n\n   Hence\n   \n\n     option\n    \n\n     C\n    \n\n   can be considered to be correct.\nWhen value of A is 1,B is 1.When value of A is 2,B is 3.So A functionally determines B.\n  When value of B is 1,C is 1 and in another case C is 0.So B does not functionally determine C.\n  Hence,the answer is B.\nAns will be B\n  Here A->B satisfies(for same value in A , B also gives unique value)\n  B->C not satisfies(when B is 1 , C gives two values 1,0)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/855/gate-cse-2002-question-2-25",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "856",
+  "year": 2002,
+  "set": null,
+  "number": 3,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Let $A$ be a set of $n(>0)$ elements. Let $N_r$ be the number of binary relations on $A$ and let $N_f$ be the number of functions from $A$ to $A$",
+  "options": [
+   "Give the expression for $N_r,$ in terms of $n.$",
+   "Give the expression for $N_f,$ terms of $n.$",
+   "Which is larger for all possible $n,N_r$ or $N_f$"
+  ],
+  "correctAnswer": null,
+  "explanation": "A. Consider a $2D$ matrix of $n\\times n$ size where each dimension represent the $n$ elements of $A.$ So, we get $n^2$ elements where each one can be viewed as an ordered pair $(i,j), 1\\leq i,j \\leq n.$ Now if we consider a set with these $n^2$ elements, any subset of it will be a binary relation from $A$ to $A$.\n  \n\n   So, no. of binary relations, $N_r = 2^{n^2}$\n  \n\n   For a function from a set of $n$ elements to a set of $m$ elements we have $m$ choice for each of the $n$ elements of the domain. Thus, we get $m^n$ possibilities. Here, $m = n.$ So,\n  \n\n   No. of functions, $N_f = n^n$\n  \n\n   Now, number of functions must be smaller than the number of relations because every function is also a relation. We can prove this formally as follows:\n  \n\n   $ \\displaystyle \\lim_{n\\to \\infty} \\dfrac{2^{n^2}}{n^n} $\n  \n\n   $\\dfrac{\\infty}{\\infty} \\text{ form}.$ So, applying\n   \n    L'Hopital's rule\n   \n   (Limit remains same after taking derivative of both numerator and denominator)\n  \n\n   $= \\displaystyle \\lim_{n \\to \\infty} \\dfrac{2n.\\log 2. 2^{n^2}}{nn^{n-1}}$\n  \n\n   We can continue like this applying L'Hopital's rule and we should eventually get $1$ in the denominator (as after each derivation power of $n$ decreases by $1$) which gives the limit value as $\\infty.$ So, $2^{n^2}$ is faster growing than $n^n.$\n  \n\n   So, for sufficiently large $n,$ $N_r > N_f$\nA.\n   \n   Number of binary relations on set A =\n   \n    Nr = 2^(n^2)\n   \n\n    B.\n   \n   Number of functions on set A =\n   \n    Nf = n^n\n   \n\n    C.  No of relation > No of function( Nr >Nf)\n   \n   ,because function is restricted version of relation so it is obvious.By the way, we can check by taking\n   \n    log\n   \n   at both sides.\n$N_r = 2^{n^{2}}$ as total elements in the Cartesian product is $n \\times n$ out of which each entry may or may not be included in the relation.\n  $N_f = n^{n}$ Each element can map to any of the n elements.\n  Take log of both the $N_f = n^{n}$ and $N_r = 2^{n^{2}}$\n  we get $n* log n  $ and $n^2 log2$ we know that $n^2 log2$ > $n* log n  $ so $N_r$ > $N_f$\n$1.N_{r}=2^{n^2}$\n  \n\n   $2.N_{f}=n^n$\n  \n\n   $3. N_{r}>N_{f}$\n  \n\n   $f:R\\rightarrow R,$ $f(x)=\\sqrt{x}$\n  \n\n    Is this a function ? NO !\n   \n\n   $f(4)=\\sqrt {4}=\\pm 2$\n  \n\n    But it is certainly a relation.\n   \n\n   $\\therefore$\n   \n\n     Every function is a relation, but not every relation is a function.\n[IMAGE:400]\n\n     x wrong\n    \n\n    you cannot do like this\n   \n   bcz it is For all n - so you can't apply asymptotic method as it's only meant for all \"sufficiently large\" n.\n  \n\n   this method is wrong.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12829809462632635111",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/856/gate-cse-2002-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "857",
+  "year": 2002,
+  "set": null,
+  "number": 4,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "$S=\\{(1,2), (2,1)\\}$ is binary relation on set $A = \\{1,2,3\\}$. Is it irreflexive? Add the minimum number of ordered pairs to S to make it an equivalence relation. Give the modified $S$.\n  Let $S=\\{a,b\\}$ and let $\\square(S)$ be the powerset of $S$. Consider the binary relation '$\\subseteq$ (set inclusion)' on $\\square(S)$. Draw the Hasse diagram corresponding to the lattice ($\\square(S), \\subseteq$)",
+  "options": [],
+  "correctAnswer": null,
+  "explanation": "$S=\\{(1,2), (2,1)\\}:$ This relation is Irreflexive, Symmetric, Not Transitive, Not Reflexive, Not Asymmetric, Not antisymmetric.\n  \n\n   Equivalence Relation $\\implies$ Symmetric, Transitive, Reflexive.\n  \n\n   It is not transitive & Reflexive.\n  \n\n   Reflexive closure of $S = \\{ (1,1),(2,2),(3,3),(1,2),(2,1) \\}$\n  \n\n   After taking transitive closure relation does not change.\n  \n\n   Answer: $S = \\{ (1,1),(2,2),(3,3),(1,2),(2,1)\\}$\n  \n\n   $S = \\{a,b\\}$\n  \n\n   $P(S) = \\{ \\emptyset,{a},{b},{a,b}\\}$\n  \n\n   Related Hasse Diagram\n  \n\n[IMAGE:0]\nS={(1,2), (2,1)} is irreflexive as well as symmetric but not transitive..\n  to make equivalence relation we need to add Reflexive, symmetric, transitive closure to it.\n  reflexive closure = {(1,1,) (2,2) (3,3)}\n  Symmetric Closure = { }\n  Transitive Closure = {1,1 }\n  equivalence relation = {(1,1,) (2,2) (3,3) (1,2) (2,1)}",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16666602226418149770",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/857/gate-cse-2002-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "3915",
+  "year": 2002,
+  "set": null,
+  "number": 5,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Determine whether each of the following is a tautology, a contradiction, or neither (\"$\\lor$\" is disjunction, \"$\\land$\" is conjunction, \"$\\rightarrow$\" is implication, \"$\\neg$\" is negation, and \"$\\leftrightarrow$\" is biconditional (if and only if).",
+  "options": [
+   "$A \\leftrightarrow (A \\lor A)$",
+   "$(A \\lor B) \\rightarrow B$",
+   "$A \\land (\\neg (A \\lor B))$"
+  ],
+  "correctAnswer": null,
+  "explanation": "This can be solved by Truth table. But there is something else which can be done quickly. See what each formula means:\n  \n\n   1.\n   \n    A\n   \n\n    ↔\n   \n\n    (\n   \n\n    A\n   \n\n    ∨\n   \n\n    A) It says if A then (A or\n   \n   A) and if (A or A) then A. Always a tautology\n  \n\n   2.\n   \n    (\n   \n\n    A\n   \n\n    ∨\n   \n\n    B\n   \n\n    )\n   \n\n    →\n   \n\n    B If A or B then B. No guarantee that if only A is true, B need to be true. Hence neither tautology nor contradiction\n   \n\n    3.\n   \n\n    A\n   \n\n    ∧\n   \n\n    (\n   \n\n    ¬\n   \n\n    (\n   \n\n    A\n   \n\n    ∨\n   \n\n    B\n   \n\n    )) When A is true\n   \n   ¬(A∨B) will be false. So, this formula is a contradiction\nWe can also solve it by the properties.\n  \n\n   1.) A <--> ( A v A)\n  \n\n   A <--> A (Since A + A is A.)\n  \n\n   AA + A'A' ( Since A <--> B is AB +A'B')\n  \n\n   Therefore A + A' is 1. Which is a Tautology.\n  \n\n   2.) (A v B) --> B\n  \n\n   A'B' + B ( Since A-->B is A' + B)\n  \n\n   A' + B ( By law of Absorption.)\n  \n\n   Hence it is neither Tautology nor Contradiction and Hence Contingency.\n  \n\n   3.) A ∧ ( ¬ ( A v B))\n  \n\n   Which can be written as\n  \n\n   A.(A + B)'\n  \n\n   A.(A'B') ( By de-morgan's Law)\n  \n\n   A.A'B' = 0.\n  \n\n   Hence it is a Contradiction.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/3915/gate-cse-2002-question-5b",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "858",
+  "year": 2002,
+  "set": null,
+  "number": 5,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Engineering Mathematics",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Obtain the eigen values of the matrix$$A=\\begin {bmatrix} 1 & 2 & 34 & 49 \\\\ 0 & 2 & 43 & 94 \\\\ 0 & 0 & -2 & 104 \\\\ 0 & 0 & 0 & -1 \\end{bmatrix}$$",
+  "options": [],
+  "correctAnswer": null,
+  "explanation": "The Eigen values for upper triangular/lower triangular/diagonal matrices are the diagonal elements of the matrix.\n   \n\n   $\\therefore$ The Eigen values are $1,2,-2,-1.$\n$A=\\begin{bmatrix} 1& 2 &34 &49\\\\ 0& 2&43 &94\\\\ 0& 0 & -2&104\\\\ 0& 0& 0&-1 \\end{bmatrix}$\n  $|A-\\lambda I |=0$\n  $\\begin{vmatrix} 1-\\lambda& 2 &34 &49\\\\ 0& 2-\\lambda&43 &94\\\\ 0& 0 & -2-\\lambda&104\\\\ 0& 0& 0&-1-\\lambda \\end{vmatrix}=0$\n  $( 1-\\lambda)( 2-\\lambda)( -2-\\lambda)(-1-\\lambda)=0$\n  $\\lambda=1\\ ,\\ -1\\ ,\\ 2 \\ , \\ -2$\nEigen value $lambda$=1,-1,2,-2 A-$lambda$I=0 just solve it and for the 2nd question i think building a truth table is a naive way of answering it if any1 has better solution then plz reply\nif the matrix is either upper triangular or lower triangular matrix then the principal diagonal element are called eigen value.\n  1,2,-1,-2 for this question ...\nThe Eigen values for upper triangular,lower triangular,diagonal and scaler matrices has its  diagonal elements of the matrix.\n  so eigen values are=1,2,-2,-1.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/858/gate-cse-2002-question-5a",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "859",
+  "year": 2002,
+  "set": null,
+  "number": 6,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Data Structures",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Draw all binary trees having exactly three nodes labeled $A, B$ and $C$ on which preorder traversal gives the sequence $C, B, A$.",
+  "options": [],
+  "correctAnswer": null,
+  "explanation": "[IMAGE:0]\n[IMAGE:1]\n[IMAGE:2]\n[IMAGE:3]\n[IMAGE:4]\n\n   $5$ Binary trees.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=18170873646854048169",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=6540699086887623173",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1257474917645905791",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3098486833170365627",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12338820619504486207",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/859/gate-cse-2002-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "860",
+  "year": 2002,
+  "set": null,
+  "number": 7,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "",
+  "options": [
+   "Express the function $f(x,y,z) = xy' + yz'$ with only one complement operation and one or more AND/OR operations. Draw the logic circuit implementing the expression obtained, using a single NOT gate and one or more AND/OR gates.",
+   "Transform the following logic circuit (without expressing  its switching function) into an equivalent logic circuit that employs only $6$ NAND gates each with $2$-inputs.\n    \n[IMAGE:0]"
+  ],
+  "correctAnswer": null,
+  "explanation": "$f(x,y,z)=xy'+yz' =xy'z'+xy'z+x'yz'+xyz'$\n  \n\n   $f(x,y,z)=\\sum_m(2,4,5,6)$\n  \n\n[IMAGE:0]\n\n     K-map\n    \n\n   By pairing of $1's$, we get two pairs $(2,6),(4,5)$ resulting in same expression $F= xy'+yz'$\n  \n\n   But by pairing of $0's$, we get two pairs $(0,1),(2,7)$, we get $F'= yz+x'y'$\n  \n\n   Take complement, $F= \\overline{(yz)}.(x+y)$\n  \n\n   so we can implement the function with $1$ NOT , $1$ OR and $2$ AND gates.\n  \n\n   For the second part , we need to implement given circuit using NANDs only.\n  \n\n   so best way is to replace OR with Invert NAND, $A+B = \\overline{(\\bar A\\bar B)}$\n  \n\n[IMAGE:1]\n\n[IMAGE:2]\n\n[IMAGE:3]\n\n[IMAGE:4]\n\n[IMAGE:5]\n[IMAGE:100]\n\n   This is answer for part b of this Questions. Drawing the given circuit with 6 NAND gates.\nFor 1st part make equation using AND and OR\n  like give  x AND  gate y => to not gate u get x'+ y'\n  now give x OR gate  y= x+y now do\n  X' + Y' AND gate (X+Y)= x'y + y'x\nFirst part of question\n  xy'+yz'\n  (xy'+y). (xy'+z')\n  (x+y). (xy'+z')\n  (xy'+x+y). (z'+x+y)\n  (x+y). (z'+x+y)\n  1 NOT gate\n  1 AND gate\n  2 OR gates\nTHE question is in SOP form get the POS form and then try to construct the gates",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16679161044048693001",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=17922537529149568582",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=9584710692423671917",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16903423878784658081",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=17080486207242844960",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3140925161451356307",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=17532175069750889489",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=11755261160047966839",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/860/gate-cse-2002-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "861",
+  "year": 2002,
+  "set": null,
+  "number": 8,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the following circuit. $A = a_2a_1a_0$ and $B=b_2b_1b_0$ are three bit binary numbers input to the circuit. The output is $Z=z_3z_2z_1z_0$. R0, R1 and R2 are registers with loading clock shown. The registers are loaded with their input data with the falling edge of a clock pulse (signal CLOCK shown) and appears as shown. The bits of input number A, B and the full adders are as shown in the circuit. Assume Clock period is greater than the settling time of all circuits.\n  \n\n[IMAGE:0]\n\n   a. For 8 clock pulses on the CLOCK terminal and the inputs $A, B$ as shown, obtain the output $Z$ (sequence of $4-bit$ values of $Z).$ Assume initial contents of $R_0, R_1$ and $R_2$ as all zeros. $$\\begin{array}{|l|l|l|l|l|l|l|l|l|} \\hline \\text{A} & 110 & 011 & 111 & 101 & 000 & 000 & 000 & 000\\\\\\hline \\text{B} & 101 & 101 & 011 & 110 & 000 & 000 & 000 & 000 \\\\\\hline  \\text{Clock No} & 1 & 2 & 3 &4 &5 &6 &7&8\\\\\\hline \\end{array}$$\n   b. What does the circuit implement?",
+  "options": [],
+  "correctAnswer": null,
+  "explanation": "(A)$$\\begin{array}{|l|l|}\\hline & \\textbf{output Z}\\\\\\hline \\text{Clock-1}& 0000 \\\\\\hline \\text{Clock-2}& 0000 \\\\\\hline \\text{Clock-3}& 1011 \\\\\\hline \\text{Clock-4}& 1000 \\\\\\hline \\text{Clock-5}& 1010 \\\\\\hline \\text{Clock-6}& 1011 \\\\\\hline \\text{Clock-7}& 0000 \\\\\\hline \\text{Clock-8}& 0000 \\\\\\hline \\end{array}$$\n  \n\n   (B) The circuit is a $3-bit$ ripple binary adder.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=17003762246644058354",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/861/gate-cse-2002-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "862",
+  "year": 2002,
+  "set": null,
+  "number": 9,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the following $32\\text{-bit}$ floating-point representation scheme as shown in the format below. A value is specified by $3$ fields, a one bit sign field (with $0$ for positive and $1$ for negative values), a $24 \\;\\text{bit}$ fraction field (with the binary point is at the left end of the fraction bits), and a $7\\;\\text{bit}$ exponent field (in $\\text{excess-}64$ signed integer representation, with $16$ is the base of exponentiation). The sign bit is the most significant bit.\n  \n\n[IMAGE:0]",
+  "options": [
+   "It is required to represent the decimal value $- 7.5$ as a normalized floating point number in the given format. Derive the values of the various fields. Express your final answer in the hexadecimal.",
+   "What is the largest value that can be represented using this format? Express your answer as the nearest power of $10$."
+  ],
+  "correctAnswer": null,
+  "explanation": "Here, mantissa is represented in normalized representation and exponent in $\\text{excess-}64$ (subtract $64$ to get actual value).\n  \n\n   a. We have to represent $-(7.5)_{10} = -(111.1)_2$.\n  \n\n   Now we are using base $16$ for exponent. So, mantissa will be $.01111$  and this makes exponent as $1 (4$ bit positions and no hiding first $1$ as in $\\text{IEEE}\\; 754$ as this is not mentioned in question) which in $\\text{excess-}64$ will be $64 + 1 = 65.$ Number being negative sign bit is $1.$ So, we get\n  \n\n   $(1\\; 01111\\underbrace{000\\dots0}_{\\text{19 zeroes}} \\; 1000001)_2 = (\\text{BC}000041)_{16}$\n  \n\n   b. Largest value will be with largest possible mantissa, largest possible exponent and positive sign bit. So, this will be all $1$'s except sign bit which will be\n  \n\n   $0.\\underbrace{111\\dots 1}_{\\text{24 ones}} \\times 16^{127-64} = \\left(1- 2^{-24}\\right) \\times 16^{63}$\n  \n\n   $($Again we did not add implicit $1$ as in $\\text{IEEE}\\; 754)$\n  \n\n   $2^x = 10^{y} \\implies y = \\log 2^x = x \\log 2$\n  \n\n   So, $(1-2^{-24}) \\times 16^{63} \\\\= \\left(1 - 10^{-24 \\log 2}\\right) \\times 10^{63 \\log 16}\\\\ \\approx \\left(1 - 10^{-7}\\right) \\times 10^{76}\\\\ = 10^{76}$\n  \n\n   Not directly relevant here, but a useful read:\n   \n    https://jeapostrophe.github.io/courses/2015/fall/305/notes/dist/reading/help-floating-point.pdf\nIt is clearly given here that this is excess 64 & Base is 16. So we need to use that.\n  a)\n  -7.5 Due to minus sign we will get sing bit as 1.\n  7.5 = 111.1 * 16^0\n  As Base is 16 & We need to normalize we need to at least normalize to 16^1. (This answer maybe different if we choose not to normalize, Though I think we can not use either implicit or explicit normalization correctly here.\n  It will be 0.0111*16^1.\n  So now our biased exponent is 1+64 = 65.\n  Mantissa is (0.) 0111000...\n  When we save it we get hex as BC000041\n  2. Maximum value possible is $(1- 2^{-24}) \\times 16^{(127-64)}$.\n  WHen converted into base 10 we get $7.237006 \\times 10^{75}$.\nFirst express (-7.5) into binary\n  \n\n   How to write (-7.5) in binary\n  \n\n   Do not worry about negative sign here sign bit will contain 1 because above number is negative.\n  \n\n   So we can write 111.1*2^0 = 0.01111*2^4\n  \n\n   Excess 64 is given hence 1+64=65\n  \n\n   Now we have to represent into floating point\n  \n\n   convert it into hexadecimal and make a pair of 4 digit from right side. ( for example 0001=1 in hexadecimal )\na) 7 bit exponent means biasing of = 2^(7-1) -1 = 63\n  -7.5= - 111.1 =- 1.111 * 2^2\n  sign bit =1\n  biased exponent = 65 as (65 - 63 = 2) = 0010001\n  fraction = 111000000000000000000000 (three 1s followed by twenty one 0s)\n  normalized representation = 1 111000000000000000000000 0010001\n  hexadecimal representation = F0000011\n  b) largest value :\n  sign bit = 0 (positive)\n  exponent = 1111110\n  fraction = 111111111111111111111111 ( twenty four 1s )\n  normalized number =  0 111111111111111111111111 1111110\n  = 2147483646\n  = 2.147483646 * 10^9\n  CORRECT ME IF I AM WRONG",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=17492984634409265923",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/862/gate-cse-2002-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "863",
+  "year": 2002,
+  "set": null,
+  "number": 10,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Computer Organization",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In a C program, an array is declared as $\\text{float} \\ A[2048]$. Each array element is $4 \\ \\text{Bytes}$ in size, and the starting address of the array is $0x00000000$. This program is run on a computer that has a direct mapped data cache of size $8  \\ \\text{Kbytes}$, with block (line) size of $16 \\ \\text{Bytes}$.",
+  "options": [
+   "Which elements of the array conflict with element $A[0]$ in the data cache? Justify your answer briefly.",
+   "If the program accesses the elements of this array one by one in reverse order i.e., starting with the last element and ending with the first element,  how many data cache misses would occur? Justify your answer briefly. Assume that the data cache is initially empty and that no other data or instruction accesses are to be considered."
+  ],
+  "correctAnswer": null,
+  "explanation": "Data cache size $= 8 \\ KB.$\n    Block line size $= 16 \\ B.$\n    Since each array element occupies $4 \\ B,$ four consecutive array elements occupy a block line (elements are aligned as starting address is $0$ )\n    Number of cache blocks $=\\dfrac{8 \\ KB}{16 \\ B}= 512.$\n    Number of cache blocks needed for the array $=\\dfrac{2048}{4}=512.$\n    So, all the array elements has its own cache block and there is no collision.\n    We can also explain this with respect to array address.\n    Starting address is $\\text{0x00000000} = 0_b0000\\ldots0 \\text{(32 0's)}.$\n    Ending address is $\\text{0x00001FFF} = 0_b0000\\ldots 01111111111111 (4\\times 2048\n    = 8192 \\text{ locations), $0 - 8191$}$.\n    Here, the last $4\\text{ bits}$ are used as OFFSET bits and the next $9$ bits are used as SET bits. So, since the ending address is not extending beyond these $9\\text{ bits},$ all cache accesses are to diff sets.\n   \n\n    If the last element is accessed first, its cache block is fetched. (which should contain the previous $3$ elements of the array also since each cache block hold $4$ elements of array and $2048$ is and exact multiple of $4$ ). Thus, for every $4$ accesses, we will have a cache miss $\\Rightarrow$ for $2048$ accesses we will have $512$ cache misses. (This would be same even if we access array in forward order).",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/863/gate-cse-2002-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "864",
+  "year": 2002,
+  "set": null,
+  "number": 11,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Programming in C",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The following recursive function in C is a solution to the Towers of Hanoi problem.\n  \n\nvoid move(int n, char A, char B, char C)  {\n    if (......................) {\n        move (.............................);\n        printf(\"Move disk %d from pole %c to pole %c\\n\", n, A, C);\n        move (.....................);\n    }\n}\n\n   Fill in the dotted parts of the solution.",
+  "options": [],
+  "correctAnswer": null,
+  "explanation": "void move(int n, char A, char B, char C) {\n    if (n > 0) {\n        move (n-1, A, C, B);\n        printf(\"Move disk %d from pole %c to pole %c\\n\", n, A, C);\n        move (n-1, B, A, C);\n    } \n}\nIf(n==1) { Printf(\"\\n %s %c %s %c\",\"move disk1 from pole\",A,\"to pole\",B); Return; } Towers(n-1,A,C,B); Printf.... Towers(n-1,C,B,A);",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/864/gate-cse-2002-question-11",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "865",
+  "year": 2002,
+  "set": null,
+  "number": 12,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Algorithms",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Fill in the blanks in the following template of an algorithm to compute all pairs shortest path lengths in a directed graph $G$ with $n*n$ adjacency matrix $A$. $A[i,j]$ equals $1$ if there is an edge in $G$ from $i$ to $j$, and $0$ otherwise. Your aim in filling in the blanks is to ensure that the algorithm is correct.\n  \n\nINITIALIZATION: For i = 1 ... n\n    {For j = 1 ... n\n        { if a[i,j] = 0 then P[i,j] =_______ else P[i,j] =_______;}\n    }\n    \nALGORITHM: For i = 1 ... n\n    {For j = 1 ... n\n        {For k = 1 ... n\n            {P[__,__] = min{_______,______}; }\n        }\n    }",
+  "options": [
+   "Copy the complete line containing the blanks in the Initialization step and fill in the blanks.",
+   "Copy the complete line containing the blanks in the Algorithm step and fill in the blanks.",
+   "Fill in the blank: The running time of the Algorithm is $O$(___)."
+  ],
+  "correctAnswer": null,
+  "explanation": "INITIALIZATION: \nFor i = 1 ... n {\n   For j = 1 ... n { \n      if a[i,j] = 0 then P[i,j] = infinite  \n        // i.e. if there is no direct path then put path length as infinite\n       else P[i,j] =a[i,j];\n   }\n}\n\nALGORITHM: \nFor i = 1 ... n { //i loops over the intermediate vertices\n   For j = 1 ... n {\n      For k = 1 ... n {\n               P[j, k] = min( p[j,k] , p[j,i] + p[i,k]);\n      }\n   }\n}              \n\n   Time complexity $O(n^3)$\n  \n\n   This algorithm is for weighted graph but it will work for unweighted graph too because if $p[i,j]=1$, $p[i,k]=1$ and $p[k,j]=1$  then according to the algorithm $p[i,j] = \\min(p[i,j] ,p[i,k] + p[k,j])  = \\min(1,2) =1$\n  \n\n   And all the other cases are also satisfied. $($like if $p[i,j]$ was $0$ in last iteration and there exist a path via $k)$\nI'll try to answer in order to provide maximum clarity.\n  \n\nINITIALIZATION: For i = 1 ... n\n    {For j = 1 ... n\n        { if a[i,j] = 0 then P[i,j] =_______ else P[i,j] =_______;}\n    }\n\n   We, intialise our final distance matrix initially with the Adjacency matrix of the graph. If we have a path from vertex i to j, then we define it's cost, otherwise we set it to infinite.\n  \n\n   so\n  \n\n    if a[i,j] = 0 (There is no direct path from vertex i to j)  then P[i,j] =0 else P[i,j]=a[i][j] (Path cost to reach vertex j from i);\n   \n\n   Now comes the second part\n  \n\nALGORITHM: For i = 1 ... n //Consider each vertex to be an intermediate vertex.\n    {For j = 1 ... n\n        {For k = 1 ... n\n            {\n          for Each pair of vertices (j,k), find the minimum path to reach k from j and this minimum path has 2 ways\n   (1)Either directly go from j to k or\n   (2)Using i as an intermediate vertex, go to vertex i from j and then go to k from i.\n  Find minimum of above two.\n   The ith loop considers for each path, the intermediate vertex that can give minimum cost path to reach k from j.\n        P[j,k] = min{P[j][k],p[j][i]+p[i][k]}; }\n        }\n    }    \n\n   Running time of our algorithm is $O(V^3)$ where V is the number of the vertices in the graph.\nIt is a Floyd Warshall algorithm(Dynamic Programming approach).\n  \n\nfor i = 1 to N     \n    for j = 1 to N        \n        if there is an edge from i to j          \n            dist[0][i][j] = the length of the edge from i to j        \n        else           dist[0][i][j] = INFINITY      \nfor k = 1 to N     \n    for i = 1 to N        \n        for j = 1 to N           \n            dist[k][i][j] = min(dist[k-1][i][j], dist[k-1][i][k] + dist[k-1][k][j])\n\n    Time Complexity: $O(n^3)$\n   \n\n   References:\n  \n\n    http://www.algorithmist.com/index.php/\n   \n\n    Floyd-Warshall\n   \n   's_Algorithm\n  \n\n    http://www.geeksforgeeks.org/dynamic-programming-set-16-floyd-warshall-algorithm/",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/865/gate-cse-2002-question-12",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "866",
+  "year": 2002,
+  "set": null,
+  "number": 13,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "",
+  "options": [
+   "In how many ways can a given positive integer $n \\geq 2$ be expressed as the sum of $2$ positive integers (which are not necessarily distinct). For example, for $n=3$, the number of ways is $2$, i.e., $1+2, 2+1$. Give only the answer without any explanation.",
+   "In how many ways can a given positive integer $n \\geq 3$ be expressed as the sum of $3$ positive integers (which are not necessarily distinct). For example, for $n=4$, the number of ways is $3$, i.e., $1+2+1, 2+1+1$ and $1+1+2$. Give only the answer without explanation.",
+   "In how many ways can a given positive integer $n \\geq k$ be expressed as the sum of $k$ positive integers (which are not necessarily distinct). Give only the answer without explanation."
+  ],
+  "correctAnswer": null,
+  "explanation": "$n= 2 \\left(1+1\\right),\\;n=3\\left(1+2, 2+1\\right),\\\\n=4\\left(1+3,3+1,2+2\\right),\\;n=5\\left(1+4,4+1,2+3,3+2\\right)$\n    so $x_1+x_2=n\\;\\text{and}\\;x_1,x_2>{0}$ (no.of integral sol)\n    This is same as number of ways of putting $\\left(n-2\\right)$  (as we can't have $0$ for either $x_1$ or $x_2$) identical balls into two distinct bins, which is obtained by putting a divider across $\\left(n-2\\right)$ balls and taking all possible permutations with $\\left(n-2\\right)$ being identical. i.e., $\\frac{(n-2 + 1)!}{(n-2)!} = (n-1).$\n    We can also use the following formula ,\n    $^{(n-2+2-1)}C_{(2-1)}=^{n-1}C_1.$\n   \n\n    $n=3\\left(1+1+1\\right),\\;n=4\\left(1+1+2,1+2+1,2+1+1\\right),\\\\ n=5\\left(1+1+3,1+3+1,3+1+1,2+2+1,2+1+2,1+2+2\\right) $\n    so $x_1+x_2+x_3=n\\;\\text{and}\\;x_1,x_2,x_3>0$ (no.of integral sol)\n    Here, we can permute $\\left(n-3\\right)$ items with $2$ dividers which will give $\\frac{(n-3 + 2)!}{(n-3)!2!}$\n    $\\begin{align}&=\\frac{\\left(n-1\\right)!}{\\left(n-1-2\\right)!2!}\\\\\\\\&=\\;^{n-1}C_2\\end{align}$\n   \n\n    $^{(n-k+k-1)}C_{k-1}=^{n-1}C_{k-1}.$\nWe know that the\n   \n\n     no. of +ve integral solution to the equation $x_{1} + x_{2} + x_{3}+ ... + x_{k} = n$ is given by $\\binom{n-1}{k-1}$\n    \n\n   .\n  \n\n    (a)\n   \n   Let, $x_{1}$ and $x_{2}$ be the two positive integers (not necessarily distinct) such that their sum is equal to $n\\ (n≥2)$.\n  \n\n   Therefore, $x_{1} + x_{2} = n$.\n  \n\n   Now, we have to find all such values of $x_{1}$ and $x_{2}$ that satisfy the above equation. In other words, the problem basically reduces to  finding the no. of +ve integral solution to the above equation.\n  \n\n   Therefore, the req. no. of ways is $\\binom{n-1}{2-1} = \\binom{n-1}{1}$.\n  \n\n    (b)\n   \n   Let, $x_{1}$, $x_{2}$ and $x_{3}$ be the three positive integers (not necessarily distinct) such that their sum is equal to $n\\ (n≥3)$.\n  \n\n   Therefore, $x_{1} + x_{2} + x_{3} = n$.\n  \n\n   Now, we have to find all such values of $x_{1}$, $x_{2}$ and $x_{3}$ that satisfy the above equation. In other words, the problem basically reduces to  finding the no. of +ve integral solution to the above equation.\n  \n\n   Therefore, the req. no. of ways is $\\binom{n-1}{3-1} = \\binom{n-1}{2}$.\n  \n\n    (c)\n   \n   Let, $x_{1}$, $x_{2}$, $x_{3}$,...,$x_{k}$ be the $k$ positive integers (not necessarily distinct) such that their sum is equal to $n\\ (n≥k)$.\n  \n\n   Therefore, $x_{1} + x_{2} + x_{3}+ ... + x_{k} = n$.\n  \n\n   Now, we have to find all such values of $x_{1}$, $x_{2}$, $x_{3}$,...,$x_{k}$ that satisfy the above equation. In other words, the problem basically reduces to  finding the no. of +ve integral solution to the above equation.\n  \n\n   Therefore, the req. no. of ways is $\\binom{n-1}{k-1}$.\nThe above three questions are based on a single logic which is Indistinguishable Objects and Distinguishable Boxes (IODB) why??\n  \n\n   Here positive integers don’t matter the same as objects but in which box you are putting that matters for example here there are two boxes in question (a) so both are distinguishable as 1 + 2 and 2 + 1 are different things.\n  \n\n   To solve IODB problems think of it as a star-bar problem means objects are stars and the divider between two objects is a bar like in 1 + 2 → 1 and 2 are objects while + is considered as a bar.\n  \n\n   Formula used in this IODB template is  $\\binom{total number of stars  + total number of bars}{total number of stars}$ = $\\binom{total number of stars  + total number of bars}{total number of bars}$\n  \n\n   Question a). There are n objects such that value of n >= 2 so at the beginning we will give 2 objects so now we will have n -2 objects or n -2 starts; since we want it as the sum of two positive integers so number of bar = 1.\n  \n\n   total number of ways here will be $\\binom{n-2 +1}{1}$ { It is simple to use as it is one of the templates in Combinatorics}\n  \n\n   which is equal to  $\\binom{n-1}{1}$.\n  \n\n   Question b). here there are n –3 stars and two bars so the answer will be  $\\binom{n-3 +2}{2}$ =  $\\binom{n-1}{2}$.\n  \n\n   Question c). here we are already providing k objects so there are left with n – k objects so there are n – k stars and k-1 bars\n  \n\n   $\\binom{n-k+k -1}{k -1}$ = $\\binom{n – 1}{k – 1}$\n  \n\n    { PS:  TO understand IODB template watch Goclasses combinatorics lecture I am not advertising that but that is really awesome. }\nSIMPLY APPLY THE LOGIC:\n  \n\n    x1+x2+x3+x4+...........xn=r   where x1,x2.....xn>=0    apply c(n+r-1,r)\n    \n\n      make similarly all the 3 cases in order that it satisfies the equation\n      \n\n        a-  x1+x2=n where x1,x2>=1 so make it x1+x2=n-2 now x1,x2>=0 so c(n-2+2-1,1)=n-1\n        \n\n          b-x1+x2+x3=n where x1,x2,x3>=1 so x1+x2+x3=n-3 so c(n-3+3-1,2)=c(n-1,2)\n          \n\n           c-x1+x2+.....xk=n where x1,x2,x3....xk>=n so x1+x2+x3+....xk=n-k=c(n-k+k-1,k-1)=c(n-1,k-1)\n(a) Total no of ways = C(n-1 ,1) = n-1\n   \n\n    (b)Total no of ways = C(n-1 ,n-3) = C(n-1 ,2) = (n-1)⨉(n-2) /2\n   \n\n    (c)Total no of ways = C(n-k+k-1 ,n-k) = C(n-1 , n-k) = C(n-1 , k-1)\nFor Distinct  k positive integers :\n   \n    (n+k-1)C(k-1)\n   \n\n   For Non-Distinct  k positive integers :\n   \n    (n-1)C(k-1)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/866/gate-cse-2002-question-13",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "867",
+  "year": 2002,
+  "set": null,
+  "number": 14,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Theory of Computation",
+  "difficulty": "hard",
+  "marks": null,
+  "text": "The aim of the following question is to prove that the language $\\{M \\mid M$ $\\text {is the code of the Turing Machine which, irrespective of the input, halts and outputs a}$ $1\\}$, is undecidable. This is to be done by reducing from the language $\\{M', x \\mid M'$ $\\text{ halts on }$ $x\\}$, which is known to be undecidable. In parts (a) and (b) describe the $2$ main steps in the construction of $M$. In part (c) describe the key property which relates the behaviour of $M$ on its input w to the behaviour of $M'$ on $x$.",
+  "options": [
+   "On input $w$, what is the first step that $M$ must make?",
+   "On input $w$, based on the outcome of the first step, what is the second step $M$ must make?",
+   "What key property relates the behaviour of $M$ on $w$ to the behaviour of $M'$ on $x$?"
+  ],
+  "correctAnswer": null,
+  "explanation": "$M$ erases its input $w$ and simulate the moves of $M'$ on $x$. Thus if $M'$ halts on $x, M$ accepts any input ($\\Sigma^*$) and if $M'$ doesn't halt on $x, M$ accepts no string ($\\phi$)\n   \n\n    Give the description of $M$ - <$M$> to the TM that decides $L$. If TM accepts <$M$>, $M$ halts on all inputs $\\rightarrow M'$ accept $x$. If TM rejects <$M$>, $M$ doesn't halt on some input $\\rightarrow M'$ doesn't halt on $x$, due to our construction of $M$ in $1$st step. Thus we decide halting problem\n   \n\n    $M$ halting on all inputs $w$ is the key property relating to $M'$ which is halting on a given input $x$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/867/gate-cse-2002-question-14",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "868",
+  "year": 2002,
+  "set": null,
+  "number": 15,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Databases (DBMS)",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A university placement center maintains a relational database of companies that interview students on campus and make job offers to those successful in the interview. The schema of the database is given below:\n   $$\\begin{array}{|ll|}\\hline \\text{COMPANY(}\\underline{\\text{cname}}\\text{, clocation)} & \\text{STUDENT(}\\underline{\\text{srollno}}\\text{, sname, sdegree)} \\\\\n   \\text{INTERVIEW(}\\underline{\\text{cname, srollno}}, \\text{idate)} & \\text{OFFER(}\\underline{\\text{cname, srollno}}\\text{, osalary)} \\\\\\hline   \\end{array}$$\n   The COMPANY relation gives the name and location of the company. The STUDENT relation gives the student’s roll number, name and the degree program for which the student is registered in the university. The INTERVIEW relation gives the date on which a student is interviewed by a company. The OFFER relation gives the salary offered to a student who is successful in a company’s interview. The key for each relation is indicated by the underlined attributes",
+  "options": [
+   "Write a\n    \n     relational algebra\n    \n    expressions (using only the operators $\\bowtie, \\sigma, \\pi, \\cup, -$ ) for the following queries.\n    \n\n      List the $rollnumbers$ and $names$ of students who attended at least one interview but did not receive $any$ job offer.\n     \n\n      List the $rollnumbers$ and $names$ of students who went for interviews and received job offers from $every$ company with which they interviewed.",
+   "List the $rollnumbers$ and $names$ of students who attended at least one interview but did not receive $any$ job offer.",
+   "List the $rollnumbers$ and $names$ of students who went for interviews and received job offers from $every$ company with which they interviewed.",
+   "Write an SQL query to list, for each degree program in which more than $five$ students were offered jobs, the name of the degree and the average offered salary of students in this degree program."
+  ],
+  "correctAnswer": null,
+  "explanation": "(I will write only useful attributes in relation which are required)\n   Ex:\n   \n    INTERVIEW\n   \n\n       company name\n      \n\n       student roll\n      \n\n      A\n     \n\n      1\n     \n\n      B\n     \n\n      1\n     \n\n      C\n     \n\n      1\n     \n\n      A\n     \n\n      2\n     \n\n      B\n     \n\n      2\n     \n\n      A\n     \n\n      3\n     \n\n    OFFER\n   \n\n       company name\n      \n\n       student roll\n      \n\n      A\n     \n\n      1\n     \n\n      B\n     \n\n      1\n     \n\n      C\n     \n\n      1\n     \n\n      A\n     \n\n      2\n     \n\n   So the student with rolls 1,2,3 interviewed.  Student 1 did sit for all companies, got the job in all companies A,B,C.\n   Student 2 sat for A,B, got job in A only. Student 3 sat for A,  did not get.\n   \n    a) Part\n   \n\n    i) :\n   \n\n      1\n     \n\n      2\n     \n\n      3\n     \n\n   minus\n  \n\n      1\n     \n\n      2\n     \n\n   equals to\n  \n\n      3\n     \n\n    ∏scrollno (\n   \n   Interview\n   \n    )\n   \n   -\n   \n    ∏scrollno(\n   \n   Offer\n   \n    )\n   \n   You got the required student's roll numbers but to print their names, store that in\n   \n    Temp\n   \n   and join with Student table.\n   \n    ∏ scrollno,sname\n   \n\n    ( Temp\n   \n   ⋈\n   \n    Student)\n   \n\n    a) Part\n   \n\n    ii) :\n   \n   Those who got interviewed (includes those who got jobs in all,some,none)\n   Now\n   \n    interviewed - offer\n   \n   = those who\n   \n    did not get\n   \n   jobs or got in\n   \n    some\n   \n   .\n  \n\n      B\n     \n\n      2\n     \n\n      A\n     \n\n      3\n     \n\n   Now again subtract whatever you got from all students of the interview again\n  \n\n      1\n     \n\n      2\n     \n\n      3\n     \n\n   minus\n  \n\n      2\n     \n\n      3\n     \n\n   equals to\n  \n\n      1\n     \n\n   But note that it is not an intersection. You may think.... A-(A-B) so intersection.\n   But it is not...  We are doing A-B on all tuples.\n   But the next subtraction is done on a particular attribute. (It became distinct since we focused on it only)\n  \n\n    ∏scrollno (\n   \n   Interview\n   \n    )\n   \n   -\n   \n    ∏scrollno(\n   \n   Interview - Offer\n   \n    )\n   \n   You got the required student's roll numbers but to print their names, store that in\n   \n    Temp\n   \n   and join with Student table.\n   \n    ∏ scrollno,sname\n   \n\n    ( Temp\n   \n   ⋈\n   \n    Student)\n   \n\n    b)\n   \n   select s.sdegree,AVG(o.osalary) from Student s,Offer o where s.srollno=o.srollno having count(distinct s.srollno)>5 group by s.sdegree;\nAnswer part (i)\n    \n    $\\pi$ $_{srollno,sname}$ ( $\\sigma$ $_{student.srollno=interview.srollno}$  ( Student $\\Join$ Interview ) )  −    $\\pi$        $_{srollno,sname}$  ( $\\sigma$ $_{srollno = offer.srollno}$  ( Offer $\\Join$ Student ))\n    \n     Answer part (ii)\n    \n    Temp = $\\pi$ $_{srollno,cname}$ (Interview ) − $\\pi$ $_{srollno,cname}$ (Offer)\n    Temp will store those students roll no who where interviewed but still did not get the job atleast in some companies.\n    Temp1 = $\\pi$ $_{srollno}$ {$\\sigma$ $_{student.srollno=Interview.srollno \\wedge student.srollno=offer.srollno \\wedge offer.cname=Interview.cname }$ (Student $\\Join$ Interview $\\Join$ Offer) }\n    Temp1 will contain all those students who appeared for interview into different companies and their interview turned into offer letters .\n    \n     Answer:\n    \n    Temp1  − $\\pi$ $_{srollno}$ (Temp)\n    This will result in students who got the job in all the companies they sat for interview .\n   \n\n    Select sdegree , avg(salary) from student , Offer where Student.srollno = Offer.srollno group by sdegree having count(distinct student.srollno) > 5\nSELECT sdegree Degree,AVG(salary) AvgSalary\nFROM Student S\nINNER JOIN Offer O\n\tON S.scrollno = O.scrollno\nGROUP BY sdegree\nHAVING COUNT(*) > 5\nPLEASE CORRECT ME IF I'M WRONG.\n   [IMAGE:300]\n[IMAGE:400]\n\n   Please change natural join to simplest relational algebraic operations.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=18428111750498054388",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2082797209304051498",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/868/gate-cse-2002-question-15",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "869",
+  "year": 2002,
+  "set": null,
+  "number": 16,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Databases (DBMS)",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "For relation\n   \n    R = (L, M, N, O, P),\n   \n   the following dependencies hold:\n  \n\n   $ M \\rightarrow O,$ $NO \\rightarrow P,$ $P \\rightarrow L$ and $L \\rightarrow MN$\n  \n\n   R is decomposed into\n   \n    R1 = (L, M, N, P)\n   \n   and\n   \n    R2 = (M, O)\n   \n   .",
+  "options": [
+   "Is the above decomposition a lossless-join decomposition? Explain.",
+   "Is the above decomposition dependency-preserving? If not, list all the dependencies that are not preserved.",
+   "What is the highest normal form satisfied by the above decomposition?"
+  ],
+  "correctAnswer": null,
+  "explanation": "Yes as $R_1 ∩ R_2 = M$ and $M → O$\n   \n\n    NO\n    From the Dependencies obtained from $R_1$ and $R_2$, we CANNOT infer $NO → P$\n    \n     Mistake That CAN be made:\n    \n    Here we CANNOT apply Pseudo Transitivity Rule using $M→O$ & $MN →P $ to obtain $NO → P$ because the rule says :if $M→O$ and $NO→P$ then $NM→P$ or $MN→P$ ,\n    \n     But here\n    \n    we have $M→O$ and $MN→P$ ... SO we CANNOT apply the rule here to obtain $NO→P$ from it.\n   \n\n    BCNF\n    $R_1$ keys : $P,L,MN$ hence BCNF\n    $R_2$ key : $M$ hence BCNF\na.In R1 and R2 the common attribute is M,M+={MO}.We see that M is key for one of the decomposed relation R2,hence the decomposition is lossless.\n   b,\n   R1                           R2\n   P->L,L->MN              M->O\n   In R1 FD s covered are P →L and L →MN,in R2 M→O,.\n   We see that NO →P cannot be directly covered by any of the FD s in the decomposed relation.So this demands finding the additional FD s that can be implied in R1(using P →L and L →M,L->N),as well as R2(using M->O).All these FD s fail to cover NO->P ,as no way we can obtain P in the RHS.\n   So NO->P is not covered.\n   c)So till now we get.\n   R1                           R2\n   P->L,L->MN              M->O\n   R2 being a binary relation is in BCNF,M is SK and is LHS.\n   \n    In R1 P is the key,\n    P+={PLMN}.\n    P is SK LHS and non trivial dependency.So ok.\n    L is non prime as well as MN is also non prime.So Transitive dependency is present.So not 3 NF.\n   \n\n    Key is single attributed ,so no question of any prime attribute to be present.Hence 2 NF.\n    Hence highest Normal form in R1 is 2NF.\n   \n\n   Colored portion is edited.\nFirst of all we have to determine the functional cover of the set of functional dependencies as given to determine all the non-trivial functional dependencies those can be generated from the given set of functional dependencies.\n  \n\n    F={M->O,NO->P,P->L,L->MN}\n    \n\n      Now F+={M->O,NO->P,P->L,L->MN,L->M,L->N,NO->L,NO->MN,MN->P,OTHER TRIVIAL DEPENDENCIES}\n      \n\n        We have two decompositions\n        \n\n          R1={L,M,N,P}\n          \n\n            Let F1 be the set of functional dependencies which will projected on R1 from F+.\n            \n\n              So F1={P->L,L->MN,L->M,L->N,MN->P,OTHER TRIVIAL DEPENDENCIES}\n              \n\n                We have R2={M,O}\n                \n\n                  So F2={M->O,OTHER TRIVIAL DEPENDENCIES}\n                  \n\n                    Now F’=$F1\\cup F2={P->L,L->MN,L->M,L->N,MN->P,M->O,OTHER TRIVIAL DEPENDENCIES}$\n                    \n\n                      F’+={P->L,L->MN,L->M,L->N,MN->P,M->O,P->MN,P->M,P->N,OTHER TRIVIAL DEPENDENCIES}\n                      \n\n                        now if we compare F’+ and F+ we can see that NO->P and NO->L dependencies are not present in F’+ which are present in F+.\n                        \n\n                          So this decomposition is not dependency preserving.\n                          But this is lossless join decomposition as common attribute M is the candidate key in relation R2.\n                          Now R2 is BCNF as it is a two attribute relation.\n                          For R1 we have to determine the candidate keys from F1.\n                          And we can easily determine the candidate keys are P,L,MN.\n                          and all the dependencies in the F1 preserve the property of BCNF i.e LHS of all the FDs should be a superkey.\n                          So R1 is also BCNF.\na)lossless-join decomposition\n   \n\n    b)not decomposition dependency-preserving\n   \n\n    c) R1-----> 2NF\n   \n\n    R2------>BCNF\n   \n\n[IMAGE:300]\nThose who solving the Part A Refer this link .\n  \n\n   Here There is also second method must to check,\n  \n\n   When You apply the  first method of Lossless join\n  \n\n    R1 intersection R2 →  R1 or R2 must have superkey( then it lossless join\n   \n\n   If not then check for this also ,\n  \n\n    if (R₁ ∩ R₂)→ (R₁ - R₂) or (R₁ ∩ R₂)→ (R₂ - R₁) holds in F⁺(this should be present in the given Functional Dependencies)  then it’s a lossless-join decomposition\n   \n\n    database - Lossless Join Decomposition - Stack Overflow",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=7984236665686579068",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/869/gate-cse-2002-question-16",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "870",
+  "year": 2002,
+  "set": null,
+  "number": 17,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Databases (DBMS)",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "",
+  "options": [
+   "The following table refers to search items for a key in $B$-trees and $B^+$ trees.\n    $$\\begin{array}{|ll|ll|} \\hline & \\textbf {B-tree} & & \\textbf {B}^+\\text{-tree}   \\\\\\hline \\text{Successful search      } &\\text{    Unsuccessful search} &\\text{Successful search     } & \\text{     Unsuccessful search}   \\\\\\hline  \\text{$X_1$} &\\text{$X_2$} & \\text{$X_3$} &\\text{$X_4$}\\\\\\hline  \\end{array}$$\n    A successful search means that the key exists in the database and unsuccessful means that it is not present in the database. Each of the entries $X_1, X_2, X_3$ and $X_4$ can have a value of either Constant or Variable. Constant means that the search time is the same, independent of the specific key value, where variable means that it is dependent on the specific key value chosen for the search.\n    Give the correct values for the entries $X_1, X_2, X_3$ and $X_4$ (for example $X_1 = \\text{Constant},$ $X_2 = \\text{Constant }, X_3 = \\text{Constant}, X_4=\\text{ Constant})$",
+   "Relation $R(A,B)$ has the following view defined on it:\n    \nCREATE VIEW V AS \n(SELECT R1.A,R2.B \nFROM R AS R1, R as R2 \nWHERE R1.B=R2.A)\n\n      The current contents of relation $R$ are shown below. What are the contents of the view $V$?\n      $$ \\begin{array}{|c|c|} \\hline \\text {A} & \\text {B} \\\\\\hline  \\text {1} &  \\text{2} \\\\ \\text{2}& \\text{3} \\\\ \\text{2} &\\text{4}\\\\ \\text {4} &  \\text{5} \\\\ \\text{6}& \\text{7} \\\\ \\text{6} &\\text{8} \\\\ \\text{9} & \\text{10}\\\\\\hline \\end{array}$$\n     \n\n      The tuples $(2,11)$ and $(11,6)$ are now inserted into $R.$ What are the\n      \n       additional\n      \n      tuples that are inserted in $V$?",
+   "The current contents of relation $R$ are shown below. What are the contents of the view $V$?\n      $$ \\begin{array}{|c|c|} \\hline \\text {A} & \\text {B} \\\\\\hline  \\text {1} &  \\text{2} \\\\ \\text{2}& \\text{3} \\\\ \\text{2} &\\text{4}\\\\ \\text {4} &  \\text{5} \\\\ \\text{6}& \\text{7} \\\\ \\text{6} &\\text{8} \\\\ \\text{9} & \\text{10}\\\\\\hline \\end{array}$$",
+   "The tuples $(2,11)$ and $(11,6)$ are now inserted into $R.$ What are the\n      \n       additional\n      \n      tuples that are inserted in $V$?"
+  ],
+  "correctAnswer": null,
+  "explanation": "For A)\n   \n\n    X1\n   \n   = Variable (Key can be found @ Internal nodes at various levels)\n   \n    X2\n   \n   = Constant\n   \n    X3\n   \n   = Variable, We need to just check where key is present/absent, not to access Data. (A successful search means that the key exists in the database and unsuccessful means that it is not present in the database.) So Variable\n   \n    X4\n   \n   = Constant\n   \n    For Part B) i)\n   \n   Write down two copies of the same table for comparison side by side. Just map\n   \n    B\n   \n   of first to A of the second copy. Those matching tuples take\n   \n    A\n   \n   of first table &\n   \n    B\n   \n   of seconds.\n   \n    Content of View A\n   \n\n   $$\\begin{array}{|c|c|} \\hline \\textbf {A}  & \\textbf {B} \\\\\\hline  \\text {1} &  \\text{3} \\\\\\hline \\text{1} & \\text{4} \\\\\\hline \\text{2} & \\text{5}  \\\\\\hline \\end{array}$$\n   \n    For Part B) ii)\n   \n   Additional tuples getting inserted:\n  \n\n   $$\\begin{array}{|c|c|} \\hline \\textbf {A}  & \\textbf {B} \\\\\\hline  \\text {11} &  \\text{7} \\\\\\hline \\text{11} & \\text{8} \\\\\\hline \\text{2} & \\text{6}  \\\\\\hline \\text{1} & \\text{11}  \\\\\\hline \\end{array}$$\nFor A) variable(if the key is found in any internal node),constant(always logN),variable,constant",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/870/gate-cse-2002-question-17",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "205818",
+  "year": 2002,
+  "set": null,
+  "number": 18,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Operating Systems",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The functionality of atomic TEST-AND-SET assembly language instruction is given by the following C function\n  \n\nint TEST-AND-SET (int *x)\n{\n    int y;\n    A1: y=*x;\n    A2: *x=1;\n    A3: return y;\n}",
+  "options": [
+   "Complete the following C functions for implementing code for entering and leaving critical sections on the above TEST-AND-SET instruction.\n    \nint mutex=0; \nvoid enter-cs() \n{ \n    while(......................); \n    \n} \nvoid leave-cs() \n{ .........................; \n    \n}",
+   "Is the above solution to the critical section problem deadlock free and starvation-free?",
+   "For the above solution, show by an example that mutual exclusion is not ensured if TEST-AND-SET instruction is not atomic?"
+  ],
+  "correctAnswer": null,
+  "explanation": "Solution will be\n  \n\nvoid enter-cs()\n{\n    while(TestAndSet(&mutex));\n}\nvoid leave-cs()\n{\n    mutex=0;\n}\n\n   Here there are two possible cases\n  \n\n    Case (I)\n   \n   Test And Set is\n   \n    not ATOMIC\n   \n   : Consider a scenario where first, a process P1 comes, successfully executed enter-cs() and sets mutex to 1. Now, suppose another process P2 comes and executes while(TestAndSet(&mutex)) to gain access to CS. Suppose after executing line\n  \n\n   y=*x=1(mutex is one presently)\n  \n\n   P2 gets preempted.\n  \n\n   Now P1, resumes and sets mutex to 0.\n  \n\n   Now P2 resumes, and executes remaining lines of TestAndSet,\n  \n\n   *x=1 (mutex is assigned value 1, value 0 lost permanently)\n  \n\n   return y; //1 will be returned.\n  \n\n   Now, P2 and any other process which tries to execute enter-cs() will keep looping indefinitely. Now not even process P1 can come.\n  \n\n    So, deadlock will occur eventually.\n   \n\n    And Deadlock implies starvation so starvation is also there. (But starvation does not  imply deadlock).\n   \n\n    Yes, in this case, the mutual exclusion will not hold.\n   \n\n   Suppose initially mutex=0.\n  \n\n   Process P1 comes and executes the first iteration of while loop of enter-cs-->TestAndSet(&mutex)\n  \n\n   y=*x; //0 will be stored in y.\n  \n\n   Suppose after executing this line of TestAndSet, P1 gets preempted and process P2 comes.\n  \n\n   It also executes while loop of enter-cs() and executes TestAndSet(&mutex)\n  \n\n   y=*x; //0 will be stored because mutex was not changed to 1.\n  \n\n   *x=1; //mutex changed to 1.\n  \n\n   return y. //0 will be returned.\n  \n\n   Now P2 exits while loop and gains entry into CS.\n  \n\n   Say, P1 resumes, and it executes the remaining line of TestAndSet and it returns 0.\n  \n\n   P1, also exits while loop of enter-cs() and comes into CS.\n  \n\n   Mutual exclusion is broken!!.\n  \n\n    Case (II): TestAndSet is ATOMIC\n   \n   : Mutual exclusion will hold, because the first process to execute TestAndSet when mutex will be 0, will enter CS and rest all other processes will keep looping in the while loop of enter-cs().\n  \n\n   Deadlock will not occur, because all other processes, which are looping in the while loop, will do so untill mutex!=0. When the process which is in the CS leaves, it sets mutex=0, and one of the waiting processes which successfully finds mutex=0 AND executes the TestAndSet when mutex=0, will gain access to CS.\n  \n\n    Starvation will occur\n   \n   , because as you can see in the code, no piece of code can be seen which is responsible for providing access to waiting processes in a fair shared manner. It might happen that one process always finds mutex to be 1, while rest all other processes are able to enter and leave CS, one at a time.\n  \n\n   If some code is added to the leave-section(), which ensures that the waiting processes are given chance to enter CS in the order the request was placed, then starvation won't occur. In short,\n   \n    here BOUNDED WAITING is not ensured.\n   \n   If BOUNDED WAITING is ensured, STARVATION will not occur.\nentry condition : while( TESTANDSET(&mutex) )\n  exit condition : mutex=0;\n  yes above solution is deadlock free ony if reading and setting of mutex done atomically\n  I think it is not starvation free but I'm not sure about this\ndeadlock free ony if test&set of mutex done atomically and also spin lock possible in case of priority inversion.\n  \n\n    https://en.wikipedia.org/wiki/Priority_inversion\n   \n\n    https://gateoverflow.in/46833/difference-between-deadloack-%26-spinlock\n   \n\n   deadlock possible if test&set is not atomic.\n  \n\n   starvation is possible.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/205818/gate-cse-2002-question-18-b",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "871",
+  "year": 2002,
+  "set": null,
+  "number": 18,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Operating Systems",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Draw the process state transition diagram of an OS in which (i) each process is in one of the five states: created, ready, running, blocked (i.e., sleep or wait), or terminated, and (ii) only non-preemptive scheduling is used by the OS. Label the transitions appropriately.",
+  "options": [],
+  "correctAnswer": null,
+  "explanation": "Process state transition diagram for an OS which satisfy the below two criteria will be as follows:\n  \n\n    each process is in one of the five states: created, ready, running, blocked (i.e., sleep or wait), or terminated, and\n   \n\n    only non-preemptive scheduling is used by the OS.\n   \n\n[IMAGE:0]\n\n   If in question it is asked about the preemptive scheduling then after the $\\textsf{running state}$ a process directly go to $\\textsf{ready state}.$\nB.\n  \n\n    1st blank $-$ TestandSet(mutex).\n    2nd blank $-$ mutext $=0$;\n   \n\n    no.\n   \n\n    say given procedure is not atomic. 1st execute process $p1$. After $A1 \\ p1$ is preempted. 2nd process $p2$ now executes full code and enters critical section.  $P1$ resumes and completes the code and enters critical section. So $2$ processes are now in critical section.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=9975500922655876745",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/871/gate-cse-2002-question-18-a",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "872",
+  "year": 2002,
+  "set": null,
+  "number": 19,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Operating Systems",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A computer uses $32-bit$  virtual address, and $32-bit$ physical address. The physical memory is byte addressable, and the page size is $4$ $\\text{Kbytes}.$ It is decided to use two level page tables to translate from virtual address to physical address. Equal number of bits should be used for indexing first level and second level page table, and the size of each table entry is $4$ bytes.",
+  "options": [
+   "Give a diagram showing how a virtual address would be translated to a physical address.",
+   "What is the number of page table entries that can be contained in each page?",
+   "How many bits are available for storing protection and other information in each page table entry?"
+  ],
+  "correctAnswer": null,
+  "explanation": "$VA = 32\\; bits$\n   \n\n    $PA = 32\\; bits$\n   \n\n    $\\text{Page size} = 4\\;KB = 2^{12} B$\n   \n\n    $\\text{PTE} = 4 \\ B$\n   \n\n   Since page size is $4$ KB we need $\\lg 4K = 12 $ bits as offset bits.\n  \n\n    (A)\n   \n   It is given that equal number of bits should be used for indexing first level and second level page table. So, out of the remaining $32-12 = 20$ bits $10$ bits each must be used for indexing into first level and second level page tables as follows:\n  \n\n[IMAGE:0]\n\n    (B\n   \n   ) Since $10$ bits are used for indexing to a page table, number of page table entries possible $=2^{10} = 1024.$ This is same for both first level as well as second level page tables.\n  \n\n    (C)\n   \n\n   Frame no $= 32$ bit (Physical Address) $- 12$ (Offset) $= 20$\n  \n\n   No. of bits available for Storing Protection and other information in second level page table\n  \n\n   $= 4 \\times 8 - 20$\n  \n\n   $= 32-20 = 12\\;bits$\n  \n\n   No. of bits in first level page table to address a second level page table is $\\log_2$ of\n  \n\n   $\\frac{\\text{Physical memory size}}{\\text{#Entries in a Second level page table $\\times$ PTE size}}$\n  \n\n   $=\\log_2 \\left\\lceil \\frac{2^{32}}{2^{10} \\times 4}\\right \\rceil$\n  \n\n   $=\\log_2 \\left(2^{20}\\right)$\n  \n\n   $=20\\; bits.$\n  \n\n   So here also, the no. of bits available for storing protection and other information $=32-20 =12\\; bits.$\nB) Since page size is 4KB. And one page entry size is 4B So no of entries in 1 page=1K C) Since each page entry size =4B=32bits And since physical address is of 32bits And frame offset=page offset=12 bits So frame no bits will be=32-12=20 So bits for other purpose=page entry size-frame no bits=32-20=12 bits\n2^(i+j)=2^32/2^12=2^20. and here i=j(where 2^i is the no of PTE in ist level table and 2^j is the no of PTE in 2nd level table), so no of page table entry in a table(for both ist level and 2nd level are same)=2^10\n  \n\n   the no of bits in ist level page table to address 2nd level page table =physical address space/2nd level page table size=2^32/2^12=2^20 ..but page table entry is of size 4B ie. 32 bits. so 32-20=12 can be used for other purpose.. no of bits in 2nd level page table to address a page=no of pages =\n   \n    physical address space/page size=2^32/2^12=2^20.so here also remaining 12 bits can be used for other purpose. Here the page table size=page size. so, for both ist level and 2nd level page table the answer is same that is 12.\nIn case of  a non-uniform paging case,  the number of extra bits in the PTEs will not be the same across all levels\n  \n\n   Where as :\n  \n\n   In case of a\n   \n    uniform paging\n   \n   , the number of extra bits in the PTEs will be the same across all levels\n   So the extra bits needed is same for both first level and second level\n   Also , We know about calculating extra bits : PTEsize bits - frame number bits\n   Here PTEsize = 4B hence it need 32 bits\n   The PA is divided into 2 parts : since page size is 4KB => d= 12 bits . Hence the frame number bits = 20\n   Conclusion : The number of extra  bits available to store protection and other information is = 32-20 = 12 bits",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12391223509733919629",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/872/gate-cse-2002-question-19",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "873",
+  "year": 2002,
+  "set": null,
+  "number": 20,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Operating Systems",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The following solution to the single producer single consumer problem uses semaphores for synchronization.\n  \n\n#define BUFFSIZE 100\nbuffer buf[BUFFSIZE];\nint first = last = 0;\nsemaphore b_full = 0;\nsemaphore b_empty = BUFFSIZE\n\nvoid producer()\n{\nwhile(1) {\n    produce an item;\n    p1:.................;\n    put the item into buff (first);\n    first = (first+1)%BUFFSIZE;\n    p2: ...............;\n    }\n}\n\nvoid consumer()\n{\nwhile(1) {\n    c1:............\n    take the item from buf[last];\n    last = (last+1)%BUFFSIZE;\n    c2:............;\n    consume the item;\n    }\n}",
+  "options": [
+   "Complete the dotted part of the above solution.",
+   "Using another semaphore variable, insert one line statement each immediately after $p1$, immediately before $p2$, immediately after $c1$ and immediately before $c2$ so that the program works correctly for multiple producers and consumers."
+  ],
+  "correctAnswer": null,
+  "explanation": "(a) In Producer Consumer problem Producer produce item and makes the buffer full and after that Consumer consumes that item and makes the buffer empty\n  \n\n   Here b_empty and b_full are two semaphore values\n  \n\np1: P(Empty) \n\n   means, Producer have to wait only if buffer is full and it waits for consumer to remove at least one item. (See, Empty being initialized to BUFFSIZE)\n  \n\np2: V(Full)\n\n   buffer is filled, now it gives signal to consumer that it can start consuming\n  \n\nc1: P(Full)\n\n   means here consumer have to wait only if buffer is empty, and it waits for Producer to fill the buffer\n  \n\nc2: V(Empty)\n\n   Now buffer is empty and Empty semaphore gives signal to the producer that it can start filling\n  \n\n   It is same as giving water to a thirsty man.\n  \n\n   Here you are giving water in a glass to that thirsty man, so you are the producer here.\n  \n\n   The man drinks and makes the glass empty. So he is consumer here.\n  \n\n   (b) If there are multiple users we can use mutex semaphores so that exclusively one producer or one consumer can enter the Critical section at a time. We need one mutex for the set of producers and nother for the set of consumers.\n  \n\np1: P(Empty)\n    P(mutex1)\n\np2: V(mutex1)\n    V(Full)    \n\nc1: P(Full)\n    P(mutex2)\n\nc2: V(mutex2)\n    V(Empty)\n\n   PS: One thing to see is P(mutex) is after P(Full) and P(empty)- otherwise deadlock can happen when buffer is full and a producer gets mutex or if buffer is empty and a consumer gets mutex.\nIn any PRODUCER-CONSUMER problem this\n   \n    4 criteria\n   \n   must satisfy\n  \n\n   (1)When a reader is reading, no writer must be allowed.\n   (2)Multiple readers should be allowed.\n   (3)When a writer is writing, no reader must be allowed.\n   (4)Multiple writers(more than 1) should not be allowed.\n  \n\n   but here they are talking about only 1 producer-consumer &\n  \n\n    int First\n   \n   :- it tells the slot no., where producer can insert an item.\n   \n    int Last\n   \n   : it tells the slot no., from where consumer can start consuming an item.\n  \n\n   In the buffer(basically a queue)\n   \n    \"first\"\n   \n   will store produced item at rear\n   \n    node\n   \n   and\n   \n    \"last\"\n   \n   will remove or consume item from\n   \n    front node\n   \n   .\n  \n\n   here\n   \n    2 counting semaphores\n   \n   are used to keep track how\n   \n    much the buffer if empty or full\n   \n   they are\n   \n    b_full=0\n   \n   ( means initially nothing in the buffer)\n   \n    & b_empty=100\n   \n   (means initially empty cells in buffer is 100 or buffer is all empty)\n  \n\n   now for P1 - Producer produced an item & he wants to insert into buffer but\n   \n    reader should not read meanwhile producer adding item\n   \n   to buffer but here no additional mutex is present for safety(so ignore it) now it downs the semaphore\n   \n    P(b_empty)\n   \n   means now buffer_empty=99 or there is 1 item inserted\n   \n    .\n   \n\n   P2 - after inserting, it ups the semaphore\n   \n    V(b_full)\n   \n   means Buffer_full=1 or there is 1 item present in buffer.\n  \n\n   now for C1 - it downs the\n   \n    \"P(b_full)\"\n   \n   semaphore means it has taken out 1 item from buffer and consumes item and up the\n   \n    \"V(b_empty)\"\n   \n   to state that one more cell of buffer is empty now.\nFor Producer Process:\n   \n\n   b_empty=BUFFSIZE; // means you can produce an item till there is space available\n  \n\n    P1\n   \n   : P(b_empty); // Perform down operation on buffer size since you are going to produce an item i.e reduce available space by 1.\n  \n\n   if b_empty becomes less then 0 then all the producer process will get blocked here.\n  \n\n   Now, Semaphore b_full=0; // means how many items are initially present in buffer.\n  \n\n    P2\n   \n   : V(b_full); // perform Up operation on b_full because you have produced an item i.e increase the item count by 1.\n  \n\n    For Consumer Process:\n   \n\n    C1\n   \n   : P(b_full);  // perform down operation on b_full since you are going to consume an item from buffer.\n  \n\n   if b_full becomes less than 0 then consumer process will have to wait for producer to produce an item in the buffer.\n  \n\n    C2\n   \n   : V(b_empty); // perform up operation on b_empty because available buffer size has to increase by 1 since you have consumed an item.\n  \n\n    For part (b)\n   \n   , we can simply use the binary semaphore to ensure mutual exclusion in case of multiple producers and consumers.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/873/gate-cse-2002-question-20",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "874",
+  "year": 2002,
+  "set": null,
+  "number": 21,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Theory of Computation",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "We require a four state automaton to recognize the regular expression $(a\\mid b)^*abb$",
+  "options": [
+   "Give an NFA for this purpose",
+   "Give a DFA for this purpose"
+  ],
+  "correctAnswer": null,
+  "explanation": "NFA\n   \n   for regular expression $(a+b)^*abb$ and its equivalent $\\textsf{DFA}$ will be as follows:\n  \n\n[IMAGE:0]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15050664013987436170",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/874/gate-cse-2002-question-21",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "875",
+  "year": 2002,
+  "set": null,
+  "number": 22,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Compiler Design",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "",
+  "options": [
+   "Construct all the parse trees corresponding to $i + j * k$ for the grammar\n    $E \\rightarrow E+E$\n    $E \\rightarrow E*E$\n    $E \\rightarrow id$",
+   "In this grammar, what is the precedence of the two operators $*$ and $+$?",
+   "If only one parse tree is desired for any string in the same language, what changes are to be made so that the resulting LALR(1) grammar is unambiguous?"
+  ],
+  "correctAnswer": null,
+  "explanation": "two parse tree for i+j*k.\n   \n\n    $+$ and $*$ having same precedence..\n   \n\n    to make grammar LALR compatible give priority to $+$ over $*$ or vice versa.\n   \n\n   following grammar is LALR(1)\n   $E \\rightarrow  E + T$\n   $\\qquad \\mid T$\n   $T \\rightarrow T * F$\n   $\\qquad \\mid F$\n   $F \\rightarrow id$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/875/gate-cse-2002-question-22",
+  "source": "gateoverflow"
+ }
+]

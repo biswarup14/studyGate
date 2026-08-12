@@ -1,0 +1,1377 @@
+[
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "marks": 1,
+  "answer": "B",
+  "text": "The antonym of the word protagonist is ________.",
+  "options": [
+   "agnostic",
+   "antagonist",
+   "arsonist",
+   "anarchist"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "marks": 1,
+  "answer": "C",
+  "text": "The figure shows two 4-tile patterns.\nEither one or both of the patterns can be used any number of times and in any\norientation to construct a new pattern. Which one of the options below cannot be\nconstructed by using only these two 4-tile patterns assuming there are no overlaps\namong them?",
+  "options": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": [
+   "CS1-q2-8.png",
+   "CS1-q2-9.png",
+   "CS1-q2-10.png"
+  ]
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "marks": 1,
+  "answer": "C",
+  "text": "Consider a knock-out women\u2019s badminton singles tournament where there are no\nties. The loser in each game is eliminated from the tournament.  Every player\nplays until she is defeated or remains the last undefeated player. The last\nundefeated player is declared the winner of the tournament. If there are 64 players\nin the beginning of the tournament, how many games should be played in total to\ndeclare the winner of the tournament?",
+  "options": [
+   "127",
+   "64",
+   "63",
+   "32"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "marks": 1,
+  "answer": "D",
+  "text": "A student needs to enroll for a minimum of 60 credits. A student cannot enroll for\nmore than 70 credits. The credits are divided amongst project and three distinct\nsets of courses namely, core courses, specialization courses, and elective courses.\nIt is compulsory for a student to enroll for exactly 15 credits of core courses and\nexactly 20 credits of project. In addition, a student has to enroll for a minimum of\n10 credits of specialization courses. The maximum credits of elective courses that\na student can enroll for is ______",
+  "options": [
+   "10",
+   "15",
+   "20",
+   "25"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "marks": 1,
+  "answer": "C",
+  "text": "\u2018When the teacher is in the room, all students stand silently.\u2019\nIf the above statement is true, which one of the following statements is not\nnecessarily true?",
+  "options": [
+   "If any student is not standing silently, then the teacher is not in the room.",
+   "When the teacher is in the room, all students are silent.",
+   "If all students are standing, then the teacher is in the room.",
+   "When the teacher is in the room, all students are standing."
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "marks": 2,
+  "answer": "B",
+  "text": "Combinatorics deals with problems involving counting. For example, \u201cHow many\ndistinct arrangements of N distinct objects in M spaces on a circle are possible?\u201d\nis a typical problem in combinatorics. This kind of counting is sometimes used in\nthe modeling of several physical phenomena. Often, in such models, the different\ncombinatorial possibilities are assigned probability values. Assigning probabilities\nenables the computation of the average values of physical quantities.\nConsider the following statements:\nP: Combinatorics is always invoked in the modeling of physical phenomena.\nQ: Modeling some physical phenomena involves assigning probabilities to\ncombinatorial possibilities in order to compute average values of physical\nquantities.\nBased on the passage above, what can be inferred about statements P and Q?",
+  "options": [
+   "P is False and Q is False",
+   "P is False and Q is True",
+   "P is True and Q is False",
+   "P is True and Q is True"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "marks": 2,
+  "answer": "D",
+  "text": "In Panel I of the figure below, the front view and top view of a structure are\nshown. Which one of the 3D structures shown in Panel II possesses the views\nshown in Panel I?",
+  "options": [
+   "(i)",
+   "(ii)",
+   "(iii)",
+   "(iv)"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": [
+   "CS1-q7-28.png"
+  ]
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "marks": 2,
+  "answer": "A",
+  "text": "For positive real numbers \ud835\udc46 and \ud835\udc3e, the function \ud835\udc3b\ud835\udc3e(\ud835\udc46)  is defined as:\n\ud835\udc3b\ud835\udc3e(\ud835\udc46) = max(\ud835\udc46\u2212\ud835\udc3e, 0).  The max function is defined as:\nmax(\ud835\udc4e, \ud835\udc4f) = {\ud835\udc4e,\nwhen \ud835\udc4e> \ud835\udc4f\nwhen \ud835\udc4e\u2264\ud835\udc4f\n\ud835\udc4f,\nThe graph below shows the plot of a function \ud835\udc41(\ud835\udc46) versus \ud835\udc46.\n\ud835\udc41(\ud835\udc46) can be expressed as _____.",
+  "options": [
+   "\ud835\udc3b10(\ud835\udc46) \u2212\ud835\udc3b20(\ud835\udc46)",
+   "\ud835\udc3b10(\ud835\udc46) \u22122\ud835\udc3b20(\ud835\udc46)",
+   "\u2212\ud835\udc3b10(\ud835\udc46) + \ud835\udc3b20(\ud835\udc46)",
+   "\ud835\udc3b15(\ud835\udc46) \u2212\ud835\udc3b20(\ud835\udc46)"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": [
+   "CS1-q8-34.png"
+  ]
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "marks": 2,
+  "answer": "A",
+  "text": "In the 2020 summer Olympics\u2019 Javelin throw finals, Neeraj Chopra exhibited a\nspectacular performance to win the gold medal. The silver medal was won by\nJakub Vadlejch and the bronze medal was won by Vitezlav Vesely. There were\nsix rounds of throws with each athlete having one throw per round. The best of\nall the throws of each athlete is considered for the medal. Following were the\nobservations about the throws:\ni.\nThe first and second rounds were dominated by Neeraj Chopra with a gold\nmedal performance in his second throw, while the other two athletes did\nnot have any medal winning throws in these rounds.\nii.\nThe throws in the last round by both Jakub Vadlejch and Vitezlav Vesely\nwere fouls and were not considered for scoring.\niii.\nAfter four rounds, Vitezlav Vesely was in the second position and could\nnot improve upon his best throw in the succeeding rounds.\niv.\nIn the fourth round, the throw by Jakub Vadlejch was the best in that\nround.\nIn which round did Vitezlav Vesely have his best throw?",
+  "options": [
+   "Third",
+   "Fourth",
+   "Fifth",
+   "Sixth"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "marks": 2,
+  "answer": "C",
+  "text": "An unbiased six-faced dice whose faces are marked with numbers 1, 2, 3, 4, 5,\nand 6 is rolled twice in succession and the number on the top face is recorded\neach time. The probability that the number appearing in the second roll is an\ninteger multiple of the number appearing in the first roll is __________",
+  "options": [
+   "1/6",
+   "5/18",
+   "7/18",
+   "5/6"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 11,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 1,
+  "answer": "B",
+  "text": "An urn contains one red ball and one blue ball. At each step, a ball is picked\nuniformly at random from the urn, and this ball together with another ball of the\nsame color is put back in the urn. The probability that there are equal number of red\nand blue balls after two steps is",
+  "options": [
+   "1/4",
+   "1/3",
+   "1/2",
+   "2/3"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 12,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 1,
+  "answer": "A",
+  "text": "Consider 4 \u00d7 4 matrices with their elements from {\ud835\udfce, \ud835\udfcf}. The number of such\nmatrices with even number of \ud835\udfcfs in every row and every column is",
+  "options": [
+   "512",
+   "1025",
+   "1023",
+   "255"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 13,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 1,
+  "answer": "A",
+  "text": "For \ud835\udc5b >  1, the maximum multiplicity of any eigenvalue of an \ud835\udc5b\u00d7 \ud835\udc5b matrix with\nelements from \u211d is",
+  "options": [
+   "\ud835\udc5b",
+   "\ud835\udc5b\u22121",
+   "1",
+   "\ud835\udc5b+ 1"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 14,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 1,
+  "answer": "B",
+  "text": "Match each addressing mode in List I with a data element or an element of a data\nstructure (in a high-level language) in List II:\nList I\nList II\nP. Immediate\n1. Element of an array\nQ. Indirect\n2. Pointer\nR. Base with index\n3. Element of a record\nS. Base with offset/displacement 4. Constant",
+  "options": [
+   "P\u20134, Q\u20133, R\u20131, S\u20132",
+   "P\u20134, Q\u20132, R\u20131, S\u20133",
+   "P\u20131, Q\u20134, R\u20133, S\u20132",
+   "P\u20132, Q\u20133, R\u20131, S\u20134"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 15,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 1,
+  "answer": "D",
+  "text": "Consider a processor P whose instruction set architecture is the load-store\narchitecture. The instruction format is such that the first operand of any instruction\nis the destination operand.\nWhich one of the following sequences of instructions corresponds to the high-level\nlanguage statement Z = X + Y ?\nNote: X, Y, and Z are memory operands. R0, R1, and R2 are registers.",
+  "options": [
+   "ADD Z, X, Y",
+   "LOAD R0, X\nADD Z, R0, Y",
+   "ADD R0, X, Y\nSTORE Z, R0",
+   "LOAD R0, X\nLOAD R1, Y\nADD R2, R0, R1\nSTORE  Z, R2"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 16,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 1,
+  "answer": "B",
+  "text": "Which one of the following dependencies among the register operands of different\ninstructions can cause a data hazard in a pipelined processor?",
+  "options": [
+   "Read-after-read",
+   "Read-after-write",
+   "Write-after-read",
+   "Write-after-write"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 17,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 1,
+  "answer": "A",
+  "text": "Consider the following recurrence relations:\nFor all \ud835\udc5b> 1,\n\ud835\udc471(\ud835\udc5b) = 4\ud835\udc471 (\ud835\udc5b\n2) + \ud835\udc472(\ud835\udc5b)\n\ud835\udc472(\ud835\udc5b) = 5\ud835\udc472 (\ud835\udc5b\n4) + \u0398(log2 \ud835\udc5b)\nAssume that for all \ud835\udc5b\u22641, \ud835\udc471(\ud835\udc5b) = 1 and \ud835\udc472(\ud835\udc5b) = 1.\nWhich one of the following options is correct?",
+  "options": [
+   "\ud835\udc471(\ud835\udc5b) = \u0398(\ud835\udc5b2)\n\ud835\udc471(\ud835\udc5b) = \u0398(\ud835\udc5b2 log2 \ud835\udc5b)",
+   "",
+   "\ud835\udc471(\ud835\udc5b) = \u0398(\ud835\udc5blog4 5)\n\ud835\udc471(\ud835\udc5b) = \u0398(\ud835\udc5blog4 5 log2 \ud835\udc5b)",
+   ""
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 18,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 1,
+  "answer": "D",
+  "text": "With respect to a TCP connection between a client and a server, which one of the\nfollowing statements is true?",
+  "options": [
+   "The client and server use a two-way handshake mechanism before the start of data\ntransmission",
+   "The server cannot initiate closing of the connection before the client initiates\nclosing of the connection",
+   "The TCP connection is half-duplex",
+   "The client and server can initiate closing of the connection at the same time"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 19,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 1,
+  "answer": "A;C;D",
+  "text": "Which of the following statements is/are true with respect to the interaction of a\nweb browser with a web server using HTTP 1.1?",
+  "options": [
+   "HTTP 1.1 facilitates downloading multiple objects of the same webpage over the\nsame TCP connection, if the objects are stored in the same server\nHTTP 1.1 facilitates downloading multiple objects of the same webpage over the",
+   "same TCP connection, even if they are stored in different servers\nHTTP 1.1 facilitates sending a request for downloading one object without waiting",
+   "for a previously requested object to be downloaded completely",
+   "HTTP 1.1 facilitates downloading multiple webpages on the same server to be\ndownloaded over a single TCP connection"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 20,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 1,
+  "answer": "B;D",
+  "text": "Let \ud835\udc5b >  1. Consider an \ud835\udc5b\u00d7 \ud835\udc5b matrix \ud835\udc40 with its elements from \u211d.  Let the vector\n(0, 1, 0, 0, \u2026 , 0) \u2208\u211d\ud835\udc5b  be in the null space of \ud835\udc40.\nWhich of the following options is/are always correct?",
+  "options": [
+   "Determinant of \ud835\udc40 is 1",
+   "Determinant of \ud835\udc40 is 0",
+   "Rank of \ud835\udc40 is 1",
+   "There are at least two non-zero vectors in the null space of \ud835\udc40"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 21,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 1,
+  "answer": "A;C",
+  "text": "Consider the following Boolean expression of a function F  :\n\ud835\udc39(\ud835\udc43, \ud835\udc44) = (\ud835\udc43\u0305 + \ud835\udc44) \u2295(\ud835\udc43\u0305\ud835\udc44)\nWhich of the following expressions is/are equivalent to F  ?\n\u0305\u0305\u0305\u0305\u0305\u0305\u0305\u0305",
+  "options": [
+   "\ud835\udc43\u2295\ud835\udc44",
+   "\ud835\udc43\u2295\ud835\udc44\n\ud835\udc43\u0305 \u2295\ud835\udc44",
+   "\ud835\udc43\u0305 \u2295\ud835\udc44\u0305",
+   ""
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 22,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 1,
+  "answer": "B;C",
+  "text": "Consider the 8-bit signed integers \ud835\udc4b, \ud835\udc4c and \ud835\udc4d represented using the sign-magnitude\nform. The binary representations of \ud835\udc4b and \ud835\udc4c are as follows:\n\ud835\udc4b: 10110100       \ud835\udc4c: 01001100\nWhich of the following operations to compute \ud835\udc4d result(s) in an arithmetic\noverflow?",
+  "options": [
+   "\ud835\udc4d= \ud835\udc4b+ \ud835\udc4c",
+   "\ud835\udc4d= \ud835\udc4b\u2212\ud835\udc4c",
+   "\ud835\udc4d= \u2212\ud835\udc4b+ \ud835\udc4c",
+   "\ud835\udc4d= \u2212\ud835\udc4b\u2212\ud835\udc4c"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 23,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 1,
+  "answer": "B;C",
+  "text": "Let \ud835\udc5b be an odd number greater than 100. Consider a binary minheap with\n\ud835\udc5b elements stored in an array \ud835\udc43 whose index starts from 1.\nWhich of the following indices of \ud835\udc43 do/does NOT correspond to any leaf node of\nthe minheap?",
+  "options": [
+   "\ud835\udc5b+ 1\n2",
+   "\ud835\udc5b\u22121\n2",
+   "\ud835\udc5b\u22123\n2",
+   "\ud835\udc5b"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 24,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 1,
+  "answer": "C",
+  "text": "Consider a hash table \ud835\udc43[0, 1, \u2026 , 10]  that is initially empty. The hash table is\nmaintained using open addressing with linear probing. The hash function used is\n\u210e(\ud835\udc65) = (\ud835\udc65+ 7) mod 11.\nConsider the following sequence of insertions performed on \ud835\udc43:\n1, 13, 22, 15, 11, 24\nWhich of the following positions in the hash table is/are empty after these insertions\nare performed?",
+  "options": [
+   "0",
+   "10",
+   "2",
+   "1"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 25,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 1,
+  "answer": "A;B;C",
+  "text": "Consider the following grammar where \ud835\udc46 is the start symbol, and \ud835\udc4e and \ud835\udc4f are\nterminal symbols.\n\ud835\udc46 \u2192\ud835\udc4e\ud835\udc46\ud835\udc4f\ud835\udc46  \u2223 \ud835\udc4f\ud835\udc46 \u2223 \u03f5\nWhich of the following statements is/are true?",
+  "options": [
+   "The grammar is ambiguous",
+   "The string \ud835\udc4e\ud835\udc4f\ud835\udc4f has two distinct derivations in this grammar",
+   "The string \ud835\udc4e\ud835\udc4f\ud835\udc4e\ud835\udc4f has only one rightmost derivation",
+   "The language generated by the grammar is undecidable"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 26,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 1,
+  "answer": "B;D",
+  "text": "Let M be a nondeterministic finite automaton (NFA) with 6 states over a finite\nalphabet.\nWhich of the following options CANNOT be the number of states in the minimal\ndeterministic finite automaton (DFA) that is equivalent to \ud835\udc40 ?",
+  "options": [
+   "32",
+   "65",
+   "1",
+   "128"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 27,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 1,
+  "answer": "C",
+  "text": "Consider the following C statements:\nchar *str1 = \"Hello;    /* Statement S1 */\nchar *str2 = \"Hello;\";  /* Statement S2 */\nint *str3 = \"Hello\";    /* Statement S3 */\nWhich of the following options is/are correct?",
+  "options": [
+   "S1 and S2 have syntactic errors",
+   "S2 has a lexical error and S3 has a syntactic error",
+   "S1 has a lexical error and S3 has a semantic error",
+   "S1 has a syntactic error and S3 has a semantic error"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 28,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 1,
+  "answer": "C",
+  "text": "Which of the following statements is/are true?",
+  "options": [
+   "LL(1) parser uses backtracking",
+   "For a grammar to be LL(1), it must be left-recursive",
+   "For a grammar to be LL(1), it must be left-factored",
+   "The LL(1) parsers are more powerful than the SLR parsers"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 29,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 1,
+  "answer": "A;C",
+  "text": "With respect to deadlocks in an operating system, which of the following\nstatements is/are FALSE?",
+  "options": [
+   "Banker\u2019s algorithm is used to prevent deadlocks",
+   "Deadlock formation can be prevented by ensuring that the hold and wait\ncondition is not allowed",
+   "An assignment edge in a resource allocation graph is marked from a process to a\nresource",
+   "A safe state guarantees that all processes can finish without formation of a\ndeadlock"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 30,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 1,
+  "answer": "C;D",
+  "text": "Let \ud835\udc43, \ud835\udc44, \ud835\udc45 and \ud835\udc46 be the attributes of a relation in a relational schema. Let \ud835\udc4b \u27f6\ud835\udc4c\nindicate functional dependency in the context of a relational database, where\n\ud835\udc4b, \ud835\udc4c \u2286{\ud835\udc43, \ud835\udc44, \ud835\udc45, \ud835\udc46}.\nWhich of the following options is/are always true?",
+  "options": [
+   "If ( {\ud835\udc43, \ud835\udc44} \u27f6{\ud835\udc45} and {\ud835\udc43} \u27f6{\ud835\udc45} ), then {\ud835\udc44} \u27f6{\ud835\udc45}",
+   "If {\ud835\udc43, \ud835\udc44} \u27f6{\ud835\udc45}, then ( {\ud835\udc43} \u27f6{\ud835\udc45} or {\ud835\udc44} \u27f6{\ud835\udc45} )",
+   "If ( {\ud835\udc43} \u27f6{\ud835\udc45} and {\ud835\udc44} \u27f6{\ud835\udc46} ), then {\ud835\udc43, \ud835\udc44} \u27f6{\ud835\udc45, \ud835\udc46}",
+   "If {\ud835\udc43} \u27f6{\ud835\udc45}, then {\ud835\udc43, \ud835\udc44} \u27f6{\ud835\udc45}\nIn the context of relational database normalization, which of the following"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 31,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 1,
+  "answer": "A;B;C",
+  "text": "statements is/are true?\nIt is always possible to obtain a dependency-preserving 3NF decomposition of a",
+  "options": [
+   "relation\nIt is always possible to obtain a dependency-preserving 1NF decomposition of a",
+   "relation\nIt is not always possible to obtain a dependency-preserving BCNF decomposition",
+   "of a relation\nIt is not always possible to obtain a dependency-preserving 2NF decomposition of",
+   "a relation"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 32,
+  "section": "CS-1",
+  "type": "nat",
+  "marks": 1,
+  "answer": "3 to 3",
+  "text": "Consider the function \ud835\udc53: \u211d\u2192\u211d defined as follows:\n\ud835\udc53(\ud835\udc65) = {\ud835\udc501\ud835\udc52\ud835\udc65\u2212\ud835\udc502  loge (1\n\ud835\udc65) ,   if  \ud835\udc65> 0\n3                                 otherwise\nwhere \ud835\udc501 , \ud835\udc502 \u2208\u211d.\nIf \ud835\udc53 is continuous at \ud835\udc65 = 0, then \ud835\udc501 + \ud835\udc502 = _________. (answer in integer)",
+  "options": [],
+  "optionLabels": [],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 33,
+  "section": "CS-1",
+  "type": "nat",
+  "marks": 1,
+  "answer": "11 to 11",
+  "text": "The height of a binary tree is the number of edges in the longest path from the root\nto a leaf in the tree. The maximum possible height of a full binary tree with\n23 nodes is _________. (answer in integer)",
+  "options": [],
+  "optionLabels": [],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 34,
+  "section": "CS-1",
+  "type": "nat",
+  "marks": 1,
+  "answer": "9 to 9",
+  "text": "Consider the following program in C:\n#include <stdio.h>\nvoid func(int i, int j) {\nif(i < j) {\nint i = 0;\nwhile (i < 10) {\nj += 2;\ni++;/}\n}\nprintf(\"%d\", i);\n}\nint main() {\nint i = 9, j = 10;\nfunc(i, j);\nreturn 0;\n}\nThe output of the program is _________. (answer in integer)\nNote: Assume that the program compiles and runs successfully.",
+  "options": [],
+  "optionLabels": [],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 35,
+  "section": "CS-1",
+  "type": "nat",
+  "marks": 1,
+  "answer": "6 to 6",
+  "text": "Consider a system consisting of \ud835\udc58 instances of a resource \ud835\udc45, being shared by\n5 processes. Assume that each process requires a maximum of two instances of\nresource \ud835\udc45 and a process can request or release only one instance at a time. Further,\na process can request the second instance of the resource only after acquiring the\nfirst instance.\nThe minimum value of \ud835\udc58 for the system to be deadlock-free is ________. (answer\nin integer)",
+  "options": [],
+  "optionLabels": [],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 36,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 2,
+  "answer": "C",
+  "text": "Consider the real valued variables X, Y and Z represented using the IEEE 754 single-\nprecision floating-point format. The binary representations of X and Y in hexadecimal\nnotation are as follows:\nX: 35C00000            Y: 34A00000\nLet \ud835\udc4d =  \ud835\udc4b+ \ud835\udc4c.\nWhich one of the following is the binary representation of \ud835\udc4d, in hexadecimal\nnotation?",
+  "options": [
+   "35C80000",
+   "35CC0000",
+   "35E80000",
+   "35EC0000"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 37,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 2,
+  "answer": "B",
+  "text": "Consider a 2-bit saturating up/down counter that performs the saturating up count\nwhen the input P is 0, and the saturating down count when P is 1. The Next State\ntable of the counter is as shown. The counter is built as a synchronous sequential\ncircuit using D flip-flops.\nInput\nCurrent\nNext\nState\nState\n+\n+\n\ud835\udc441\n\ud835\udc440\n\ud835\udc440\n\ud835\udc43\n\ud835\udc441\n0\n0\n0\n0\n1\n0\n0\n1\n1\n0\n0\n1\n0\n1\n1\n0\n1\n1\n1\n1\n1\n0\n0\n0\n0\n1\n0\n1\n0\n0\n1\n1\n0\n0\n1\n1\n1\n1\n1\n0\nWhich one of the following options corresponds to the expressions for the inputs of\nthe D flip-flops, \ud835\udc371 and \ud835\udc370?\n\u0305\u0305\u0305",
+  "options": [
+   "\ud835\udc371 = \ud835\udc43 \ud835\udc441 + \ud835\udc43\u0305\ud835\udc440 + \ud835\udc441\ud835\udc440              \ud835\udc370 = \ud835\udc43 \ud835\udc440 + \ud835\udc43\u0305 \ud835\udc441 + \ud835\udc441 \ud835\udc440\n\u0305\u0305\u0305 + \ud835\udc43 \u0305\ud835\udc441 + \ud835\udc441 \ud835\udc440\n\u0305\u0305\u0305",
+   "\ud835\udc371 = \ud835\udc43\u0305 \ud835\udc441 + \ud835\udc43\u0305\ud835\udc440 + \ud835\udc441\ud835\udc440              \ud835\udc370 = \ud835\udc43\u0305 \ud835\udc440\n\u0305\u0305\u0305 + \ud835\udc43 \u0305\ud835\udc440 + \ud835\udc441 \ud835\udc440            \ud835\udc370 = \ud835\udc43\u0305 \ud835\udc440 + \ud835\udc43\u0305 \ud835\udc441 + \ud835\udc441 \ud835\udc440\n\u0305\u0305\u0305",
+   "\ud835\udc371 = \ud835\udc43\u0305 \ud835\udc441\n\u0305\u0305\u0305 + \ud835\udc43\u0305 \ud835\udc440 + \ud835\udc441 \ud835\udc440            \ud835\udc370 = \ud835\udc43 \ud835\udc440\n\u0305\u0305\u0305 + \ud835\udc43\u0305 \ud835\udc441 + \ud835\udc441 \ud835\udc440\n\u0305\u0305\u0305",
+   "\ud835\udc371 = \ud835\udc43 \ud835\udc441"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 38,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 2,
+  "answer": "A",
+  "text": "The size of the physical address space of a processor is 232 bytes. The capacity of a\ncache memory unit is 223 bytes. The cache block size is 128 bytes. The cache\nmemory unit can be built as a direct mapped cache or as a \ud835\udc3e-way set-associative\ncache, where \ud835\udc3e=  2\ud835\udc3f and \ud835\udc3f\u2208{1, 2, 3}.  Let the length of the TAG field be \ud835\udc40 bits\nfor the direct mapped cache, and \ud835\udc41 bits for the set-associative cache.\nWhich one of the following options is true?",
+  "options": [
+   "\ud835\udc41= \ud835\udc40+ \ud835\udc3f",
+   "\ud835\udc41= \ud835\udc40\u2212\ud835\udc3f",
+   "\ud835\udc41= \ud835\udc40+ \ud835\udc3e",
+   "\ud835\udc41= \ud835\udc40\u2212\ud835\udc3e"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 39,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 2,
+  "answer": "B",
+  "text": "Consider the following code snippet in C language that computes the number of\nnodes in a non-empty singly linked list pointed to by the pointer variable head.\nstruct node{\nint elt;\nstruct node *next;\n};\nint getListSize (struct node *head)\n{\nif( E1 ) return 1;\nreturn E2;\n}\nWhich one of the following options gives the correct replacements for the\nexpressions E1 and E2?",
+  "options": [
+   "E1: head == NULL\nE2: 1 + getListSize(head)",
+   "E1: head->next == NULL\nE2: 1 + getListSize(head->next)",
+   "E1: head == NULL\nE2: 1 + getListSize(head->next)",
+   "E1: head->next == NULL\nE2: 1 + getListSize(head)"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 40,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 2,
+  "answer": "D",
+  "text": "Let \ud835\udc43 be the set of all integers from 1 to 15. Consider any order of insertion of the\nelements of \ud835\udc43 into a binary search tree that creates a complete binary tree.\nWhich one of the following elements can NEVER be the third element that is\ninserted?",
+  "options": [
+   "4",
+   "2",
+   "10",
+   "5"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 41,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 2,
+  "answer": "A",
+  "text": "Let \ud835\udc3a(\ud835\udc49, \ud835\udc38) be an undirected, edge-weighted graph with integer weights. The weight\nof a path is the sum of the weights of the edges in that path. The length of a path is\nthe number of edges in that path.\nLet \ud835\udc60\u2208\ud835\udc49 be a vertex in \ud835\udc3a. For every \ud835\udc62\u2208\ud835\udc49 and for every \ud835\udc58 \u22650, let \ud835\udc51\ud835\udc58(\ud835\udc62) denote\nthe weight of a shortest path (in terms of weight) from \ud835\udc60 to \ud835\udc62 of length at most \ud835\udc58. If\nthere is no path from \ud835\udc60 to \ud835\udc62 of length at most \ud835\udc58, then \ud835\udc51\ud835\udc58(\ud835\udc62) = \u221e.\nConsider the statements:\nS1:\nFor every \ud835\udc58 \u22650 and \ud835\udc62 \u2208\ud835\udc49,   \ud835\udc51\ud835\udc58+1(\ud835\udc62) \u2264\ud835\udc51\ud835\udc58(\ud835\udc62).\nS2:\nFor every (\ud835\udc62, \ud835\udc63) \u2208\ud835\udc38, if (\ud835\udc62, \ud835\udc63) is part of a shortest path (in terms of\nweight) from \ud835\udc60 to \ud835\udc63, then for every \ud835\udc58\u2265 0, \ud835\udc51\ud835\udc58(\ud835\udc62) \u2264\ud835\udc51\ud835\udc58(\ud835\udc63).\nWhich one of the following options is correct?",
+  "options": [
+   "Only S1 is true",
+   "Only S2 is true",
+   "Both S1 and S2 are true",
+   "Neither S1 nor S2 is true"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 42,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 2,
+  "answer": "D",
+  "text": "Consider the control flow graph shown in the figure.\nWhich one of the following options correctly lists the set of redundant expressions\n(common subexpressions) in the basic blocks B4 and B5?\nNote: All the variables are integers.",
+  "options": [
+   "B4: { \ud835\udc4f+ \ud835\udc56 }\nB5: { \ud835\udc50+ \ud835\udc5a }",
+   "B4: { \ud835\udc54\u2217\ud835\udc58 }\nB5: { \ud835\udc50+ \ud835\udc5a }",
+   "B4: { \ud835\udc54\u2217\ud835\udc58, \ud835\udc4f+ \ud835\udc56 }\nB5: { }",
+   "B4: { \ud835\udc54\u2217\ud835\udc58 }\nB5: { }"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": [
+   "CS1-q42-135.png"
+  ]
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 43,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 2,
+  "answer": "B",
+  "text": "Consider a relational database schema with two relations \ud835\udc45(\ud835\udc43, \ud835\udc44) and \ud835\udc46(\ud835\udc4b, \ud835\udc4c).\nLet  \ud835\udc38 = {\u27e8\ud835\udc62\u27e9\u2223\u2203\ud835\udc63 \u2203\ud835\udc64  \u27e8\ud835\udc62, \ud835\udc63\u27e9\u2208\ud835\udc45 \u2227 \u27e8\ud835\udc63, \ud835\udc64\u27e9 \u2208\ud835\udc46}  be a tuple relational calculus\nexpression.\nWhich one of the following relational algebraic expressions is equivalent to \ud835\udc38 ?",
+  "options": [
+   "\ud835\udef1\ud835\udc43(\ud835\udc45\u22c8\ud835\udc45.\ud835\udc43=\ud835\udc46.\ud835\udc4b\ud835\udc46)",
+   "\ud835\udef1\ud835\udc43(\ud835\udc46\u22c8\ud835\udc46.\ud835\udc4b=\ud835\udc45.\ud835\udc44\ud835\udc45)",
+   "\ud835\udef1\ud835\udc43(\ud835\udc45\u22c8\ud835\udc45.\ud835\udc43=\ud835\udc46.\ud835\udc4c\ud835\udc46)",
+   "\ud835\udef1\ud835\udc43(\ud835\udc46\u22c8\ud835\udc46.\ud835\udc4c=\ud835\udc45.\ud835\udc44\ud835\udc45)"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 44,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 2,
+  "answer": "B",
+  "text": "A TCP sender successfully establishes a connection with a TCP receiver and starts\nthe transmission of segments. The TCP congestion control mechanism\u2019s slow-start\nthreshold is set to 10000 segments. Assume that the round-trip time is fixed at\n1 millisecond. Assume that the sender always has data to send, the segments are\nnumbered from 1, and no segment is lost. Let \ud835\udc61 denote the time (in milliseconds) at\nwhich the transmission of segment number 2000 starts.\nWhich one of the following options is correct?",
+  "options": [
+   "9 \u2264 \ud835\udc61 <  10",
+   "10 \u2264 \ud835\udc61 <  11",
+   "11 \u2264 \ud835\udc61 <  12",
+   "12 \u2264 \ud835\udc61 <  13"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 45,
+  "section": "CS-1",
+  "type": "mcq",
+  "marks": 2,
+  "answer": "B",
+  "text": "Consider the implementation of sliding window protocol over a lossless link, with a\nwindow size of \ud835\udc4a frames, where each frame is of size 1000 bits (including header).\nThe bandwidth of the link is 100 kbps (1k = 103) and the one-way propagation delay\nis 100 milliseconds. Assume that processing times at the sender and receiver are zero\nand the transmission time of acknowledgements is also zero. Which one of the\nfollowing options gives the minimum size of \ud835\udc4a (in number of frames) required to\nachieve 100% link utilization?",
+  "options": [
+   "10",
+   "21",
+   "20",
+   "11"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 46,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 2,
+  "answer": "A;C;D",
+  "text": "Let \ud835\udc53: \u211d\u2192\u211d be defined as follows:\n\ud835\udc53(\ud835\udc65) = (|\ud835\udc65|\n2 \u2212\ud835\udc65) (\ud835\udc65\u2212|\ud835\udc65|\n2 )\nWhich of the following statements is/are true?",
+  "options": [
+   "\ud835\udc53 has a local maximum",
+   "\ud835\udc53 has a local minimum\n\ud835\udc53\u2032 is continuous over \u211d",
+   "\ud835\udc53\u2032 is not differentiable over \u211d",
+   ""
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 47,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 2,
+  "answer": "A",
+  "text": "Let \ud835\udc3a(\ud835\udc49, \ud835\udc38) be a simple, undirected graph. A vertex cover of \ud835\udc3a is a subset\n\ud835\udc49\u2032 \u2286\ud835\udc49 such that for every (\ud835\udc62, \ud835\udc63) \u2208\ud835\udc38, \ud835\udc62\u2208\ud835\udc49\u2032or \ud835\udc63\u2208\ud835\udc49\u2032. Let the size of the smallest\nvertex cover in \ud835\udc3a be \ud835\udc58.  Let \ud835\udc46 be any vertex cover of size \ud835\udc58.\nFor a vertex \ud835\udc63\u2208\ud835\udc49, which of the following constraints will always ensure that\n\ud835\udc63\u2208\ud835\udc46 ?",
+  "options": [
+   "The degree of \ud835\udc63 is at least \ud835\udc58+ 1",
+   "The vertex \ud835\udc63 is on a path of length \ud835\udc58+ 1",
+   "The vertex \ud835\udc63 is on a cycle of length \ud835\udc58+ 1",
+   "The vertex \ud835\udc63 is a part of a clique of size \ud835\udc58"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 48,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 2,
+  "answer": "B;D",
+  "text": "Consider a Boolean function F with the following minterm expression:\n\ud835\udc39(\ud835\udc43, \ud835\udc44, \ud835\udc45, \ud835\udc46) = \u2211\ud835\udc5a (1, 2, 3, 4, 5, 7, 10, 12, 13, 14)\nWhich of the following options is/are the minimal sum-of-products expression(s)\nof F ?\n\ud835\udc43\u0305\ud835\udc46+ \ud835\udc44\ud835\udc45\u0305 + \ud835\udc43\u0305\ud835\udc44\u0305\ud835\udc45+ \ud835\udc44\u0305\ud835\udc45\ud835\udc46\u0305",
+  "options": [
+   "\ud835\udc43\u0305\ud835\udc46+ \ud835\udc44\ud835\udc45\u0305 + \ud835\udc43\u0305\ud835\udc44\u0305\ud835\udc45+ \ud835\udc43\ud835\udc45\ud835\udc46\u0305",
+   "\ud835\udc43\u0305\ud835\udc46+ \ud835\udc44\ud835\udc45\u0305 +  \ud835\udc43\ud835\udc44\ud835\udc46\u0305 + \ud835\udc43\ud835\udc45\ud835\udc46\u0305",
+   "\ud835\udc43\u0305\ud835\udc46+ \ud835\udc44\ud835\udc45\u0305 +  \ud835\udc43\ud835\udc44\ud835\udc46\u0305 + \ud835\udc44\u0305\ud835\udc45\ud835\udc46\u0305",
+   ""
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 49,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 2,
+  "answer": "A;D",
+  "text": "Let \ud835\udc3a(\ud835\udc49, \ud835\udc38) be a simple, undirected, edge-weighted graph with unique edge weights.\nWhich of the following statements about the minimum spanning trees (MST)\nof \ud835\udc3a is/are true?",
+  "options": [
+   "In every cycle \ud835\udc36 of \ud835\udc3a, the edge with the largest weight in \ud835\udc36 is not in any MST",
+   "In every cycle \ud835\udc36 of \ud835\udc3a, the edge with the smallest weight in \ud835\udc36 is in every MST",
+   "For every vertex \ud835\udc63 \u2208\ud835\udc49, the edge with the largest weight incident on \ud835\udc63 is not in any\nMST",
+   "For every vertex \ud835\udc63 \u2208\ud835\udc49, the edge with the smallest weight incident on \ud835\udc63 is in every\nMST"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 50,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 2,
+  "answer": "B;D",
+  "text": "Consider the following pseudocode for depth-first search (DFS) algorithm which\ntakes a directed graph \ud835\udc3a(\ud835\udc49, \ud835\udc38) as input, where \ud835\udc51[\ud835\udc63] and \ud835\udc53[\ud835\udc63] are the discovery time\nand finishing time, respectively, of the vertex \ud835\udc63 \u2208\ud835\udc49.\n\ud835\udc37\ud835\udc39\ud835\udc46(\ud835\udc3a):\n\ud835\udc38\ud835\udc65\ud835\udc5d\ud835\udc59\ud835\udc5c\ud835\udc5f\ud835\udc52(\ud835\udc3a, \ud835\udc63, \ud835\udc61):\n\ud835\udc62\ud835\udc5b\ud835\udc5a\ud835\udc4e\ud835\udc5f\ud835\udc58 \ud835\udc4e\ud835\udc59\ud835\udc59 \ud835\udc63\u2208\ud835\udc49\n\ud835\udc5a\ud835\udc4e\ud835\udc5f\ud835\udc58 \ud835\udc63\n\ud835\udc61 \u21900\n\ud835\udc61 \u2190\ud835\udc61+ 1\n\ud835\udc53\ud835\udc5c\ud835\udc5f \ud835\udc52\ud835\udc4e\ud835\udc50\u210e \ud835\udc63\u2208\ud835\udc49\n\ud835\udc51[\ud835\udc63] \u2190\ud835\udc61\n\ud835\udc56\ud835\udc53 \ud835\udc63  \ud835\udc56\ud835\udc60  \ud835\udc62\ud835\udc5b\ud835\udc5a\ud835\udc4e\ud835\udc5f\ud835\udc58\ud835\udc52\ud835\udc51\n\ud835\udc53\ud835\udc5c\ud835\udc5f \ud835\udc52\ud835\udc4e\ud835\udc50\u210e (\ud835\udc63, \ud835\udc64) \u2208\ud835\udc38\n\ud835\udc61\u2190\ud835\udc38\ud835\udc65\ud835\udc5d\ud835\udc59\ud835\udc5c\ud835\udc5f\ud835\udc52(\ud835\udc3a, \ud835\udc63, \ud835\udc61)\n\ud835\udc56\ud835\udc53 \ud835\udc64 \ud835\udc56\ud835\udc60 \ud835\udc62\ud835\udc5b\ud835\udc5a\ud835\udc4e\ud835\udc5f\ud835\udc58\ud835\udc52\ud835\udc51\n\ud835\udc52\ud835\udc5b\ud835\udc51 \ud835\udc56\ud835\udc53\n\ud835\udc61\u2190\ud835\udc38\ud835\udc65\ud835\udc5d\ud835\udc59\ud835\udc5c\ud835\udc5f\ud835\udc52(\ud835\udc3a, \ud835\udc64, \ud835\udc61)\n\ud835\udc52\ud835\udc5b\ud835\udc51 \ud835\udc53\ud835\udc5c\ud835\udc5f\n\ud835\udc52\ud835\udc5b\ud835\udc51 \ud835\udc56\ud835\udc53\n\ud835\udc52\ud835\udc5b\ud835\udc51 \ud835\udc53\ud835\udc5c\ud835\udc5f\n\ud835\udc61 \u2190\ud835\udc61 +  1\n\ud835\udc53[\ud835\udc63] \u2190\ud835\udc61\n\ud835\udc5f\ud835\udc52\ud835\udc61\ud835\udc62\ud835\udc5f\ud835\udc5b \ud835\udc61\nSuppose that the input directed graph \ud835\udc3a(\ud835\udc49, \ud835\udc38) is a directed acyclic graph (DAG).\nFor an edge (\ud835\udc62, \ud835\udc63) \u2208\ud835\udc38, which of the following options will NEVER be correct?",
+  "options": [
+   "\ud835\udc51[\ud835\udc62] < \ud835\udc51[\ud835\udc63] < \ud835\udc53[\ud835\udc63] < \ud835\udc53[\ud835\udc62]",
+   "\ud835\udc51[\ud835\udc63] < \ud835\udc51[\ud835\udc62] < \ud835\udc53[\ud835\udc62] < \ud835\udc53[\ud835\udc63]",
+   "\ud835\udc51[\ud835\udc63] < \ud835\udc53[\ud835\udc63] < \ud835\udc51[\ud835\udc62] < \ud835\udc53[\ud835\udc62]",
+   "\ud835\udc51[\ud835\udc62] < \ud835\udc51[\ud835\udc63] < \ud835\udc53[\ud835\udc62] < \ud835\udc53[\ud835\udc63]"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 51,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 2,
+  "answer": "C",
+  "text": "Let \ud835\udc3f1 and \ud835\udc3f2 be two languages over a finite alphabet, such that \ud835\udc3f1 \u2229\ud835\udc3f2 and \ud835\udc3f2 are\nregular languages.\nWhich of the following statements is/are always true?",
+  "options": [
+   "\ud835\udc3f1 is regular",
+   "\ud835\udc3f1 \u222a\ud835\udc3f2 is regular",
+   "\ud835\udc3f2  is context-free",
+   "\ud835\udc3f1 is context-free"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 52,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 2,
+  "answer": "B;D",
+  "text": "Consider the following context-free grammar \ud835\udc3a.\n\ud835\udc46\u2192\ud835\udc4e\ud835\udc4f\ud835\udc4e\ud835\udc34\ud835\udc35\ud835\udc34\ud835\udc4f\ud835\udc4f\ud835\udc4e\n\ud835\udc34\u2192\ud835\udc4e\ud835\udc4e\ud835\udc35\ud835\udc35\ud835\udc34\ud835\udc4f | \ud835\udc4f\ud835\udc35\ud835\udc4e\ud835\udc4f\ud835\udc4e\ud835\udc4e\n\ud835\udc35\u2192\ud835\udc4e\ud835\udc35\ud835\udc4f | \ud835\udc4e\ud835\udc4f\nIn the above grammar, \ud835\udc46 is the start symbol, \ud835\udc4e and \ud835\udc4f are terminal symbols, and \ud835\udc34 and\n\ud835\udc35 are non-terminal symbols.\nLet \ud835\udc3f(\ud835\udc3a) be the language generated by the grammar \ud835\udc3a. For a string \ud835\udc60\u2208\ud835\udc3f(\ud835\udc3a), let\n\ud835\udc5b1(\ud835\udc60) be the number of \ud835\udc4e\u2019s in \ud835\udc60 and \ud835\udc5b2(\ud835\udc60) be the number of \ud835\udc4f\u2019s in \ud835\udc60.\nWhich of the following statements is/are true?",
+  "options": [
+   "There is a string \ud835\udc60\u2208\ud835\udc3f(\ud835\udc3a) such that \ud835\udc5b1(\ud835\udc60) < \ud835\udc5b2(\ud835\udc60)",
+   "For every string \ud835\udc60\u2208\ud835\udc3f(\ud835\udc3a), \ud835\udc5b1(\ud835\udc60) \u2265\ud835\udc5b2(\ud835\udc60)",
+   "There is a string \ud835\udc60\u2208\ud835\udc3f(\ud835\udc3a) such that \ud835\udc5b1(\ud835\udc60) > 2\ud835\udc5b2(\ud835\udc60)",
+   "For every string \ud835\udc60\u2208\ud835\udc3f(\ud835\udc3a), \ud835\udc5b1(\ud835\udc60) \u22642\ud835\udc5b2(\ud835\udc60)"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 53,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 2,
+  "answer": "A;B;D",
+  "text": "Consider the following two syntax-directed definitions SDD1 and SDD2 for type\ndeclarations.\nSDD1\nSDD2\nGrammar\nSemantic Rules\nGrammar\nSemantic Rules\n(G1)\n(G2)\n\ud835\udc37\u2192\ud835\udc371 \ud835\udc56\ud835\udc51\n\ud835\udc37. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52= \ud835\udc371. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52\n\ud835\udc37 \u2192\ud835\udc47 \ud835\udc49\n\ud835\udc37. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52 =  \ud835\udc47. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52\n\ud835\udc5d\ud835\udc62\ud835\udc61(\ud835\udc56\ud835\udc51. \ud835\udc52\ud835\udc5b\ud835\udc61\ud835\udc5f\ud835\udc66, \ud835\udc371. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52)\n\ud835\udc49. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52 =  \ud835\udc47. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52\n\ud835\udc47 \u2192 \ud835\udc56\ud835\udc5b\ud835\udc61\n\ud835\udc47. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52 =  \ud835\udc56\ud835\udc5b\ud835\udc61\n\ud835\udc37. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52 =  \ud835\udc47. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52\n\ud835\udc37 \u2192 \ud835\udc47 \ud835\udc56\ud835\udc51\n\ud835\udc47 \u2192 \ud835\udc53\ud835\udc59\ud835\udc5c\ud835\udc4e\ud835\udc61\n\ud835\udc47. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52 =  \ud835\udc53\ud835\udc59\ud835\udc5c\ud835\udc4e\ud835\udc61\n\ud835\udc5d\ud835\udc62\ud835\udc61(\ud835\udc56\ud835\udc51. \ud835\udc52\ud835\udc5b\ud835\udc61\ud835\udc5f\ud835\udc66, \ud835\udc47. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52)\n\ud835\udc49\u2192\ud835\udc491 \ud835\udc56\ud835\udc51\n\ud835\udc491. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52= \ud835\udc49. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52\n\ud835\udc47 \u2192\ud835\udc56\ud835\udc5b\ud835\udc61\n\ud835\udc47. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52 =  \ud835\udc56\ud835\udc5b\ud835\udc61\n\ud835\udc5d\ud835\udc62\ud835\udc61(\ud835\udc56\ud835\udc51. \ud835\udc52\ud835\udc5b\ud835\udc61\ud835\udc5f\ud835\udc66, \ud835\udc49. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52)\n\ud835\udc47 \u2192 \ud835\udc53\ud835\udc59\ud835\udc5c\ud835\udc4e\ud835\udc61\n\ud835\udc47. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52 =  \ud835\udc53\ud835\udc59\ud835\udc5c\ud835\udc4e\ud835\udc61\n\ud835\udc5d\ud835\udc62\ud835\udc61(\ud835\udc56\ud835\udc51. \ud835\udc52\ud835\udc5b\ud835\udc61\ud835\udc5f\ud835\udc66, \ud835\udc49. \ud835\udc61\ud835\udc66\ud835\udc5d\ud835\udc52)\n\ud835\udc49 \u2192 \ud835\udc56\ud835\udc51\n\ud835\udc37 is the start symbol, and \ud835\udc56\ud835\udc5b\ud835\udc61, \ud835\udc53\ud835\udc59\ud835\udc5c\ud835\udc4e\ud835\udc61 and \ud835\udc56\ud835\udc51 are the three terminals. The non-terminal\n\ud835\udc491 is the same as \ud835\udc49 and the non-terminal \ud835\udc371 is the same as \ud835\udc37. Here, the subscript is\nused to differentiate the grammar symbols on the two sides of a production. The\nfunction \ud835\udc5d\ud835\udc62\ud835\udc61 updates the symbol table with the type information for an identifier.\nLet P and Q be the languages specified by grammars G1 and G2, respectively.\nWhich of the following statements is/are true?",
+  "options": [
+   "The languages P and Q are the same",
+   "SDD2 is S-attributed and contains only synthesized attributes",
+   "SDD1 is L-attributed and contains only inherited attributes",
+   "The specifications of SDD1 and SDD2 are such that the same entries get added to\nthe symbol table"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 54,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 2,
+  "answer": "B;C",
+  "text": "Consider a system that has a cache memory unit and a memory management unit\n(MMU). The address input to the cache memory is a physical address. The MMU\nhas a translation lookaside buffer (TLB). Assume that when a page is evicted from\nthe main memory, the corresponding blocks in the cache are marked as invalid.\nFor a given memory reference, which of the following sequences of events can\nNEVER happen?",
+  "options": [
+   "TLB miss, Page table hit, Cache hit",
+   "TLB hit, Page table miss, Cache hit",
+   "TLB miss, Page table miss, Cache hit",
+   "TLB miss, Page table miss, Cache miss"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 55,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 2,
+  "answer": "B;C",
+  "text": "An undirected, unweighted, simple graph \ud835\udc3a(\ud835\udc49, \ud835\udc38) is said to be 2-colorable if there\nexists a function \ud835\udc50: \ud835\udc49\u2192{0, 1} such that for every (\ud835\udc62, \ud835\udc63) \u2208\ud835\udc38, \ud835\udc50(\ud835\udc62) \u2260\ud835\udc50(\ud835\udc63).\nWhich of the following statements about 2-colorable graphs is/are true?",
+  "options": [
+   "If \ud835\udc3a is 2-colorable, then \ud835\udc3a may contain cycles of odd length",
+   "If \ud835\udc3a is 2-colorable, then \ud835\udc3a may contain cycles of even length",
+   "An optimal algorithm for testing whether \ud835\udc3a is 2-colorable runs in time \u0398(|\ud835\udc49| + |\ud835\udc38|),\nif \ud835\udc3a is represented as an adjacency list",
+   "An optimal algorithm for testing whether \ud835\udc3a is 2-colorable runs in time \u0398(|\ud835\udc38| log|\ud835\udc49|),\nif \ud835\udc3a is represented as an adjacency list"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 56,
+  "section": "CS-1",
+  "type": "msq",
+  "marks": 2,
+  "answer": "A;B;C",
+  "text": "An ISP having an address block 202.16.0.0/15 assigns a block of 6000 IP addresses\nto a client, using the classless internet domain routing (CIDR) super-netting\napproach. Which of the following address blocks can be assigned by the ISP?",
+  "options": [
+   "202.16.0.0/19",
+   "202.17.64.0/19",
+   "202.16.32.0/19",
+   "202.17.24.0/19"
+  ],
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 57,
+  "section": "CS-1",
+  "type": "nat",
+  "marks": 2,
+  "answer": "34 to 34",
+  "text": "Let \ud835\udc3a be an undirected graph, which is a path on 8 vertices. The number of matchings\nin \ud835\udc3a is ______. (answer in integer)",
+  "options": [],
+  "optionLabels": [],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 58,
+  "section": "CS-1",
+  "type": "nat",
+  "marks": 2,
+  "answer": "4.24 to 4.26",
+  "text": "Let \ud835\udc4b be a random variable which takes values in the set {1, 2, 3, 4, 5, 6, 7, 8}.\n1\nFurther, Pr(\ud835\udc4b= 1) = Pr(\ud835\udc4b= 2) = Pr(\ud835\udc4b= 5) = Pr(\ud835\udc4b= 7) =\n6  and\n1\nPr(\ud835\udc4b= 3) = Pr(\ud835\udc4b= 4) = Pr(\ud835\udc4b= 6) = Pr(\ud835\udc4b= 8) =\n12 .\nThe expected value of \ud835\udc4b, denoted by \ud835\udc38[\ud835\udc4b], is equal to ___________. (rounded off\nto two decimal places)",
+  "options": [],
+  "optionLabels": [],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 59,
+  "section": "CS-1",
+  "type": "nat",
+  "marks": 2,
+  "answer": "77.3 to 77.3",
+  "text": "Consider a hard disk with a rotational speed of 15000 rpm. The time to move the\nread/write head from a track to its adjacent track is 1 millisecond. Initially, the head\nis on track 0. The number of sectors per track is 400. The sector size is 1024 bytes.\nIt is necessary to transfer data from 10 randomly located sectors in each of the\nfollowing tracks in the order: 5, 12 and 7.\nThe total time for the data transfer (in milliseconds) from the hard disk is _________.\n(rounded off to one decimal place)",
+  "options": [],
+  "optionLabels": [],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 60,
+  "section": "CS-1",
+  "type": "nat",
+  "marks": 2,
+  "answer": "95 to 95",
+  "text": "The EX stage of a pipelined processor performs the memory read operations for\nLOAD instructions, and the operations for the arithmetic and logic instructions. Let\n\ud835\udc61\ud835\udc38\ud835\udc4b denote the time taken by the EX stage to perform the operation for an instruction.\nFor each instruction type, the values of  \ud835\udc61\ud835\udc38\ud835\udc4b and M (the number of instructions of that\ntype in a sequence of 100 instructions for a program P), are given in the table below.\nThe duration of the pipeline clock cycle is 1 nanosecond. Assume that the latch time\nfor the interstage buffers in the pipeline is negligible.\nInstruction\n\ud835\udc61\ud835\udc38\ud835\udc4b in\n\ud835\udc40\nnanoseconds\nLOAD\n1.8\n15\nIMUL\n1.5\n10\nIDIV\n2.5\n5\nFADD\n1.7\n10\nFSUB\n1.7\n5\nFMUL\n2.8\n15\nFDIV\n3.2\n5\nAll other\nLess than\n35\ninstructions\n1.0\nWhen program P is executed, the number of clock cycles for which the pipeline is\nstalled due to structural hazards in the EX stage is ______. (answer in integer)",
+  "options": [],
+  "optionLabels": [],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 61,
+  "section": "CS-1",
+  "type": "nat",
+  "marks": 2,
+  "answer": "65536 to 65536",
+  "text": "Consider the recursive functions represented by the following code segment:\nint bar(int n){\nif (n == 1) return 0;\nelse return 1 + bar(n/2);\n}\nint foo(int n){\nif (n == 1) return 1;\nelse return 1 + foo(bar(n));\n}\nThe smallest positive integer n for which foo(n) returns 5 is ______. (answer in\ninteger)\nNote: Ignore syntax errors (if any) in the function.",
+  "options": [],
+  "optionLabels": [],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 62,
+  "section": "CS-1",
+  "type": "nat",
+  "marks": 2,
+  "answer": "7 to 7",
+  "text": "The following sequence corresponds to the preorder traversal of a binary search\ntree \ud835\udc47:\n50, 25, 13, 40, 30, 47, 75, 60, 70, 80, 77\nThe position of the element 60 in the postorder traversal of \ud835\udc47 is ______. (answer in\ninteger)\nNote: The position begins with 1.",
+  "options": [],
+  "optionLabels": [],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 63,
+  "section": "CS-1",
+  "type": "nat",
+  "marks": 2,
+  "answer": "4 to 4",
+  "text": "Consider the following program snippet. Assume that the program compiles and runs\nsuccessfully. Further, assume that the fork() system call is always successful in\ncreating a process.\nint main () {\nint i;\nfor (i = 0; i < 3; i++){\nif (fork() == 0){\ncontinue;\n}\nbreak;\n}\nprintf(\"Hello!\");\nreturn 0;\n}\nThe total number of times that the printf statement gets executed is ________.\n(answer in integer)",
+  "options": [],
+  "optionLabels": [],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 64,
+  "section": "CS-1",
+  "type": "nat",
+  "marks": 2,
+  "answer": "9.5 to 9.5",
+  "text": "Consider a CPU that has to execute two types of processes. The first type,\nActuators (A), requires a CPU burst of 6 seconds. The second type, Controllers (C),\nrequires a CPU burst of 8 seconds. A new process of type A arrives at time \ud835\udc61 = 10,\n20, 30, 40, and 50 (in seconds). Similarly, a new process of type C arrives at time \ud835\udc61 =\n11, 22, 33, 44, and 55 (in seconds). The CPU scheduling policy is First Come First\nServe (FCFS). The first process of type A starts running at \ud835\udc61 = 10 seconds. The\naverage waiting time (in seconds) for the 10 processes is ___________. (rounded off\nto one decimal place)",
+  "options": [],
+  "optionLabels": [],
+  "images": []
+ },
+ {
+  "year": 2026,
+  "set": "1",
+  "number": 65,
+  "section": "CS-1",
+  "type": "nat",
+  "marks": 2,
+  "answer": "6 to 6",
+  "text": "Consider a relational database schema with a relation \ud835\udc45(\ud835\udc34, \ud835\udc35, \ud835\udc36, \ud835\udc37). If {\ud835\udc34, \ud835\udc35} and\n{\ud835\udc34, \ud835\udc36} are the only two candidate keys of the relation \ud835\udc45, then the number of superkeys\nof relation \ud835\udc45 is ______. (answer in integer)",
+  "options": [],
+  "optionLabels": [],
+  "images": []
+ }
+]

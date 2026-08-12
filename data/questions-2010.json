@@ -1,0 +1,1858 @@
+[
+ {
+  "id": "1147",
+  "year": 2010,
+  "set": null,
+  "number": 1,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Let $G=(V, E)$ be a graph. Define $\\xi(G) = \\sum\\limits_d i_d*d$, where $i_d$ is the number of vertices of degree $d$ in $G.$ If $S$ and $T$ are two different trees with $\\xi(S) = \\xi(T)$, then",
+  "options": [
+   "$| S| = 2| T |$",
+   "$| S | = | T | - 1$",
+   "$| S| = | T | $",
+   "$| S | = | T| + 1$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Sum of degrees in a graph $= 2 |E|$, as each edge contributes two to the sum of degrees. So, when sum of degrees are same, number of edges must also be same.\n  Trees with equal no of edges has to have equal no of vertices as No of Edges $=$ No of vertices $- 1$, in a tree.\n  So, should be $|S| = |T|$\n  Correct Answer: $C$\nThe expression ξ(G) is basically sum of all degrees in a tree.   For example, in the following tree, the sum is 3 + 1 + 1 + 1.\n  \n\n    a \n  / | \\\n b  c  d\n\n   Now the questions is, if sum of degrees in trees are same, then what is the relationship between number of vertices present in both trees? The answer is, ξ(G) and ξ(T) is same for two trees, then the trees have same number of vertices. It can be proved by induction. Let it be true for n vertices. If we add a vertex, then the new vertex (if it is not the first node) increases degree by 2, it doesn't matter where we add it. For example, try to add a new vertex say 'e' at different places in above example tee.\nBy Handshaking Theorem, The sum of degrees would be equal to twice the no. of edges |VI = 2|E|\n  It is given that ξ(S) = ξ(T) then, The Sum of Degrees of vertices in G is equal to the sum of degrees of vertices in S\n  i.e., 2*(no. of edges in S) = 2*(no. of edges in T).\n  So, answer is  |S|=|T|.\n[IMAGE:300]\n   id= no. of vertices of degree ‘d’ in ‘G’\n   Eg:\n   [IMAGE:301]\n   No. of vertices with degree ‘2’ = 3\n   ξ(G')=3×2='6' i.e., sum of degrees\n   By Handshaking Theorem,\n   The sum of degrees would be equal to twice the no. of edges\n   |V|=2|E|\n   It is given that ξ(G)=ξ(S) then\n   Sum of degrees of vertices in G is equal to sum of degrees of vertices in S\n   i.e., 2*(no. of edges in G)=2*no. of edges in S no. of edges in G=no. of edges in S\n   Eg:\n   [IMAGE:302]\n   ξ(G)=(2×2)+(2×3)=4+6=10\n   [IMAGE:303]\n   ξ(S)=2×5=10\n   You can observe that, though no. of vertices are different, but still no. of edges are same\nDraw two non isomorphic graphs like this\n  \n\n[IMAGE:400]\n\n   You can clearly see that |s| = |t| and both trees are different to each other but they satisfy the property mentioned in the question\n  \n\n   ANSWER: C",
+  "images": [
+   {
+    "src": "https://pyq.ravindrababuravula.com/wp-content/uploads/2018/05/0-2.png",
+    "kind": "remote"
+   },
+   {
+    "src": "https://pyq.ravindrababuravula.com/wp-content/uploads/2018/05/2-2.png",
+    "kind": "remote"
+   },
+   {
+    "src": "https://pyq.ravindrababuravula.com/wp-content/uploads/2018/05/3-1.png",
+    "kind": "remote"
+   },
+   {
+    "src": "https://pyq.ravindrababuravula.com/wp-content/uploads/2018/05/4-1.png",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3732368264377911524",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/1147/gate-cse-2010-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "1149",
+  "year": 2010,
+  "set": null,
+  "number": 3,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "What is the possible number of reflexive relations on a set of $5$ elements?",
+  "options": [
+   "$2^{10}$",
+   "$2^{15}$",
+   "$2^{20}$",
+   "$2^{25}$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "A relation consists of set of ordered pairs $(a,b)$. Here, $a$ can be chosen in $n$ ways and similarly, $b$ can be chosen in $n$ ways. So, totally $n^2$ possible ordered pairs are possible for a relation. Now each of these ordered pair can either be present in the relation or not- 2 possibilities for each of the $n^2$ pair. So, total number of possible relations =  $$2^{\\left(n^2\\right)}$$\n  \n\n   Now, for a relation $R$ to be reflexive, ordered pairs $\\left\\{(a,a) \\mid a \\in S \\right\\}$, must be present in $R$. i.e.; the relation set $R$ must have $n$ ordered pairs fixed. So, number of ordered pairs possible is $ n^2 - n$ and hence total number of reflexive relations is equal to $$ 2^{\\left(n^2-n\\right)}$$\n  \n\n   for $n=5$, answer will be, $2^{5^2-5}=2^{20}$\n  \n\n   Therefore,\n   \n    option C\n   \n   is correct\nThe number of reflexive relations =2^(n^2 - n) so option c is correct\nThe number of reflexive relations is given by $2^{n^{2}-n}$. The reasoning is not always very clear so here is the explanation:\n  \n\n    If the relation must be\n    \n     reflexive\n    \n    means we need to have all the self-pairs, e.g. (1,1) for all elements in the set. So choice for these is one as they\n    \n     have to be included, no matter what.\n    \n\n    Now come the other pairs left.\n    \n     These may or may not be included and it will not affect the overall reflexivity of the relation, as all self-pairs are already selected.\n    \n\n   So, total self-pairs = $n$, and remaining pairs = ${n^2}-n$ , which is total minus the self-pairs and the left pairs still have a choice.\n  \n\n   Hence total number of reflexive pairs =  $2^{n^{2}-n}$\n  \n\n   Substituting $n$=5 for this question we get $2^{20}$, which is\n   \n    option (C).\nA relation consists of set of ordered pairs (a,b).\n   \n\n    possible number of reflexive relations on a set of n elements=\n   \n\n    2^(n^2 - n)\n   \n\n    here n=5\n   \n\n    so answer is , 2^(5^2 - 5) =20",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/1149/gate-cse-2010-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "1150",
+  "year": 2010,
+  "set": null,
+  "number": 4,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the set $S = \\{1, ω, ω^2\\}$, where $ω$ and $ω^2$ are cube roots of unity. If $*$ denotes the multiplication operation, the structure $(S, *)$ forms",
+  "options": [
+   "Group",
+   "Ring",
+   "An integral domain",
+   "field"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer: A\n  $$\\underset{\\begin{array}{|c|c|c|c|} \\hline \\text{} & \\text{1}& \\omega & \\omega^2 \\\\\\hline \\text{1} & \\text{1}& \\omega & \\omega^2 \\\\\\hline \\omega & \\omega & \\omega^2 & \\text{1}\\\\\\hline \\omega^2 & \\omega^2 & \\text{1} & \\omega\\\\\\hline \\end{array}}{\\text{Cayley Table}}$$\n  The structure $(S,*)$ satisfies closure property, associativity and commutativity. The structure also has an identity element $(=1)$ and an inverse for each element. So, the structure is an Abelian group.\nIn this question, only one binary operation is given so it cannot be a Ring or Integral domain or field.For Ring or Integral domain or for field there must be Two binary operations are required and the algebraic structure looks like (S ,+ ,⨉) .\n  \n\n   So ,option b ,c and d are False.\n  \n\n   Now check the properties of groups.It satisfies all the conditions of groups.\n  \n\n   Hence, it is a Group.\nIts satisfies 1.closure property 2.associativity 3.identity element exists i.e 1 4.inverse element exist for each element So it is a group to attack these type of questions draw the composition table then it wl be easier ...\nElimination approach :\n  \n\n   Option B, C, D are wrong because\n   \n    Ring, Integral domain, Field\n   \n   are set define on 2 binary operator. In question only 1 binary operator is given.\n  \n\n   So answer is A. Group\n  \n\n   Extra details:\n  \n\n   In mathematics, these three terms—\n   \n    ring\n   \n   ,\n   \n    integral domain\n   \n   , and\n   \n    field\n   \n   —refer to algebraic structures with progressively more stringent properties. Let’s break them down:\n  \n\n   A\n   \n    ring\n   \n   is a set RRR equipped with two binary operations: addition (+)(+)(+) and multiplication (⋅)(\\cdot)(⋅). These operations must satisfy the following properties:\n  \n\n     Additive Closure\n    \n    : For all a,b∈Ra, b \\in Ra,b∈R, a+b∈Ra + b \\in Ra+b∈R.\n   \n\n     Additive Associativity\n    \n    : For all a,b,c∈Ra, b, c \\in Ra,b,c∈R, a+(b+c)=(a+b)+ca + (b + c) = (a + b) + ca+(b+c)=(a+b)+c.\n   \n\n     Additive Identity\n    \n    : There exists an element 0∈R0 \\in R0∈R such that for all a∈Ra \\in Ra∈R, a+0=aa + 0 = aa+0=a.\n   \n\n     Additive Inverses\n    \n    : For each a∈Ra \\in Ra∈R, there exists an element −a∈R-a \\in R−a∈R such that a+(−a)=0a + (-a) = 0a+(−a)=0.\n   \n\n     Multiplicative Closure\n    \n    : For all a,b∈Ra, b \\in Ra,b∈R, a⋅b∈Ra \\cdot b \\in Ra⋅b∈R.\n   \n\n     Multiplicative Associativity\n    \n    : For all a,b,c∈Ra, b, c \\in Ra,b,c∈R, a⋅(b⋅c)=(a⋅b)⋅ca \\cdot (b \\cdot c) = (a \\cdot b) \\cdot ca⋅(b⋅c)=(a⋅b)⋅c.\n   \n\n     Distributive Property\n    \n    : For all a,b,c∈Ra, b, c \\in Ra,b,c∈R, a⋅(b+c)=a⋅b+a⋅ca \\cdot (b + c) = a \\cdot b + a \\cdot ca⋅(b+c)=a⋅b+a⋅c and (a+b)⋅c=a⋅c+b⋅c(a + b) \\cdot c = a \\cdot c + b \\cdot c(a+b)⋅c=a⋅c+b⋅c.\n   \n\n   A ring may or may not have a multiplicative identity (1), and multiplication may or may not be commutative. If multiplication is commutative, it is called a\n   \n    commutative ring\n   \n   .\n  \n\n   An\n   \n    integral domain\n   \n   is a special type of commutative ring that satisfies additional properties:\n  \n\n     Commutative Multiplication\n    \n    : For all a,b∈Ra, b \\in Ra,b∈R, a⋅b=b⋅aa \\cdot b = b \\cdot aa⋅b=b⋅a.\n   \n\n     Multiplicative Identity\n    \n    : There exists an element 1∈R1 \\in R1∈R such that for all a∈Ra \\in Ra∈R, a⋅1=aa \\cdot 1 = aa⋅1=a.\n   \n\n     No Zero Divisors\n    \n    : If a,b∈Ra, b \\in Ra,b∈R and a⋅b=0a \\cdot b = 0a⋅b=0, then either a=0a = 0a=0 or b=0b = 0b=0.\n   \n\n   In other words, an integral domain is a commutative ring with 1 that has no zero divisors. This means that the product of any two nonzero elements is nonzero.\n  \n\n   A\n   \n    field\n   \n   is an integral domain with an even stronger property:\n  \n\n     Multiplicative Inverses\n    \n    : For every nonzero element a∈Ra \\in Ra∈R, there exists an element a−1∈Ra^{-1} \\in Ra−1∈R such that a⋅a−1=1a \\cdot a^{-1} = 1a⋅a−1=1.\n   \n\n   In a field, every nonzero element has a multiplicative inverse, which means that division (except by zero) is always possible.\n[IMAGE:400]\n   .",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2512740322114815316",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/1150/gate-cse-2010-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "1151",
+  "year": 2010,
+  "set": null,
+  "number": 5,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Engineering Mathematics",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "What is the value of $ \\displaystyle\\lim_{n \\to \\infty}\\left(1 - \\frac{1}{n}\\right)^{2n}$ ?",
+  "options": [
+   "$0$",
+   "$e^{-2}$",
+   "$e^{-1/2}$",
+   "$1$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "I will solve by two methods\n  \n\n    Method 1:\n   \n\n   $y =\\lim\\limits_{n \\to \\infty}\\left(1-\\frac{1}{n}\\right)^{2n}$\n  \n\n   Taking log\n  \n\n   $\\log y =\\lim\\limits_{n \\to \\infty} 2n \\log \\left(1-\\frac{1}{n}\\right)$\n  \n\n   $ =\\lim\\limits_{n \\to \\infty} \\dfrac{\\log \\left(1-\\frac{1}{n}\\right)}{\\left(\\frac{1}{2n}\\right)}\\quad ($converted this so as to have form $\\left(\\frac{0}{0}\\right))$\n  \n\n    Apply L' hospital rule\n   \n\n   $\\log y=\\lim\\limits_{n \\to \\infty} \\dfrac{\\left(\\dfrac{1}{1-\\frac{1}{n}}\\right).\\frac{1}{n^{2}}}{\\left(\\dfrac{-1}{2n^{2}}\\right)}$\n  \n\n   $\\log y={-2}$\n  \n\n   $y=e^{-2}.$\n  \n\n    Method 2:\n   \n\n   It takes $1$ to power infinity form\n  \n\n   $\\lim\\limits_{x \\to \\infty} f(x)^{g(x)}$\n  \n\n   $=e^{\\lim\\limits_{x \\to \\infty} (f(x)-1)g(x)}$\n  \n\n   where, $(f(x)-1)*g(x)=\\frac{-1}{n}*{2n}={-2}.$\n  \n\n    i.e., -2 constant.\n   \n\n   so we get  final ans is $= e^{-2}.$\n  \n\n   You can refer this link  for second method\n  \n\n    http://www.vitutor.com/calculus/limits/one_infinity.html\n   \n\n   Correct Answer: $B$\n1\n   \n    infinity\n   \n   form is taken after applying limit\n  \n\n   so general formula for this type of form is e\n   \n    lim x->infinty (f(x)-1)*g(x)\n   \n   here in this question f(x) = (1-(1/n))  and g(x)=2n\n  \n\n   so by aplying above formula e\n   \n    lim x->infinity {1-(1/n)-1}*2n\n   \n   =e\n   \n    -2\n[IMAGE:200]\n\n   Answer is\n   \n    B.\nformula ===> lim\n   \n    x-->∞ ( 1 -   n/x)\n    \n     x\n    \n    = e\n    \n     -n\n    \n\n   lim\n   \n    n---->∞\n   \n   [   (1 - 1/n)\n   \n    n\n   \n   ]\n   \n    2\n   \n\n   lim\n   \n    n---->∞\n   \n   ​​​​​​​[ e\n   \n    -1\n   \n   ]\n   \n    2\n   \n\n   ​​​​​​​[ e\n   \n    -2\n   \n   ]\n$y=\\lim_{n->\\infty}(1-\\frac{1}{n})^{2n}$\n  $\\log y=\\lim_{n->\\infty}2n*\\log(1-\\frac{1}{n})$\n  let , $z=-\\frac{1}{n}$\n  as $n->\\infty$  , $z->0$\n  $\\log y=(-2)\\lim_{z->0}\\frac{\\log (1+z)}{z}$\n  as we know $\\lim_{z->0}\\frac{\\log (1+z)}{z}=1$\n  $\\log y=(-2)*1$\n  $y=e^{-2}$\n  correct answer (B)\nI think limit of n tends to infinity and answer seems to be 1.\n  Is it  ?",
+  "images": [
+   {
+    "src": "http://latex.codecogs.com/gif.latex?%5Clim_%7Bn%20%5Cto%20%5Cinfty%7D%5Cleft%281%20-%20%5Cfrac%7B1%7D%7Bn%7D%5Cright%29%5E%7B2n%7D%5C%5C%20%3D%20e%5E%7B%28-1%29*%5Cfrac%7B1%7D%7Bn%7D*2n%7D%5C%5C%20%3De%5E%7B-2%7D",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/1151/gate-cse-2010-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2177",
+  "year": 2010,
+  "set": null,
+  "number": 6,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The minterm expansion of $f(P,Q,R) = PQ +Q \\bar{R}+P\\bar{R}$ is",
+  "options": [
+   "$m_2+m_4+m_6+m_7$",
+   "$m_0+m_1+m_3+m_5$",
+   "$m_0+m_1+m_6+m_7$",
+   "$m_2+m_3+m_4+m_5$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "$PQ + QR' + PR' = PQR + PQR' + PQR' + P'QR' + PQR' + PQ'R' $\n  \n\n   $\\quad= PQR + PQR' + P'QR' + PQ'R' (111 + 110 + 010 + 100)$\n  \n\n   $\\quad =m_7 + m_6 + m_2 + m_4$\n  \n\n   Option A.\n  \n\n   Alternatively,\n   Using K-map\n   [IMAGE:0]\noption A\n  =PQ(R+~R)+(P+~P)Q~R+P~R(Q+~Q)\n  on simplification we will get minterms as 2,4,6,7\n[IMAGE:200]\n\n   Answer: OPTION A",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=7849948857245753558",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=8050727406956669014",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2177/gate-cse-2010-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2178",
+  "year": 2010,
+  "set": null,
+  "number": 7,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The main memory unit with a capacity of $4$ $\\text{megabytes}$ is built using $1\\text{M} \\times \\text{1-bit}$ DRAM chips. Each DRAM chip has $1\\text{K}$ rows of cells with $1\\text{K}$ cells in each row. The time taken for a single refresh operation is $100\\; \\text{nanoseconds}$. The time required to perform one refresh operation on all the cells in the memory unit is",
+  "options": [
+   "$100$ nanoseconds",
+   "$100\\times 2^{10}$ nanoseconds",
+   "$100\\times 2^{20}$ nanoseconds",
+   "$3200\\times 2^{20}$ nanoseconds"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "There are $4\\ast 8 = 32$ DRAM chips to get $4\\;\\text{MB}$ from $1\\text{M} \\times \\text{1-bit}$ chips. Now, all chips can be refreshed in parallel so do all cells in a row. So, the total time for refresh will be number of rows times the refresh time\n   $= 1\\text{K} \\times 100$\n   $= 100 \\times 2^{10}$ nanoseconds\n   Reference:\n   \n    http://www.downloads.reactivemicro.com/Public/Electronics/DRAM/DRAM%20Refresh.pdf\n   \n\n   Correct Answer: $B$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2178/gate-cse-2010-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2179",
+  "year": 2010,
+  "set": null,
+  "number": 8,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "$P$ is a $16$-bit signed integer. The $2$'s complement representation of $P$ is $(F87B)_{16}$. The $2$'s complement representation of $8\\times P$ is",
+  "options": [
+   "$(C3D8)_{16}$",
+   "$(187B)_{16}$",
+   "$(F878)_{16}$",
+   "$(987B)_{16}$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Multiplication can be directly carried in $2$’s complement form.\n  \n\n    $\\textsf{F87B} = 1111 1000 0111 1011$ can be left shifted $3$ times to give $8P = 1100 0011 1101 1000 = \\textsf{C3D8}.$\n    \n\n      Alternate Method:\n      As MSB in $\\textsf{(F87B)}$ is $1$, $P$ is a negative number.\n      So, $P = -1 \\times 2$'s complement of $\\textsf{(F87B)}$\n      $ P = -1 \\times (0785) = -1 \\times (0000\\; 0111 \\;1000 \\;0101)$\n      $8 \\ast P = -1 \\times  (0011 \\;1100 \\;0010 \\;1000)\\;\\;\\; (P$ in binary left shifted $3$ times$)$\n      In $2$'s complement representation , this equals, $1100 0011 1101 1000 = \\textsf{C3D8}$\n      Correct Answer: $A$\n$P=(F87B)_{16}=(1111|1000|0111|1011)_{2}:$\n   \n    2's compliment representation\n   \n\n    What is this number ?\n   \n\n   $(0000|0111|1000|0100)_{2}+1=(0000|0111|1000|0101)_{2}=1925$\n  \n\n   $So, P\\ is =-1925$\n  \n\n   $-1925\\times 8=-15400$\n  \n\n    Find 2's compliment representation of $-15400$\n   \n\n   $+15400=(0011|1100|0010|1000)_{2}$\n  \n\n   $(1100|0011|1101|0111)_{2}+1=(1100|0011|1101|1000)_{2}=(C3D8)_{16}$\n  \n\n    Correct Answer is (A)\n[IMAGE:200]\n   Other way to see.\n  \n\n   Answer - A",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3762682232461095501",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2179/gate-cse-2010-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2182",
+  "year": 2010,
+  "set": null,
+  "number": 9,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "The Boolean expression of the output $f$ of the multiplexer shown below is\n  \n\n[IMAGE:0]",
+  "options": [
+   "$\\overline {P \\oplus Q \\oplus R}$",
+   "$P \\oplus Q \\oplus R$",
+   "$P+Q+R$",
+   "$\\overline{P+Q+R}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$f = S_0'S_1' R + S_0'S_1R' + S_0S_1'R' + S_0S_1R$\n  $\\quad=Q'P'R + Q'PR' + QP'R' + QPR $\n  $\\quad= Q'(P⊕R) + Q(P⊕R)' $\n  $\\quad= Q⊕P⊕R = P⊕Q⊕R$\n  Doing truth value substitution,\n  $${\\begin{array}{|cccc|c|}\\hline\n  \\textbf{P}&    \\textbf{Q}&  \\textbf{R}&\\bf{f}& \\bf{P \\oplus Q \\oplus R } \\\\\\hline\n  0&0&0&0&0 \\\\ 0&0&1&1&1\\\\     0&1&0&1&1\\\\    0&1&1&0&0\\\\    1&0&0&1&1\\\\  1&0&1&0& 0  \\\\    1&1&0&0&0\\\\    1&1&1&1& 1\\\\ \\hline\n  \\end{array}}$$ Correct Answer: $B$\n[IMAGE:100]\n\n   Draw the k-map, and the pattern like this is always of XOR therefore, the answer will be P⊕Q⊕R",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=11904794169150704733",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5222459340601377736",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2182/gate-cse-2010-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2183",
+  "year": 2010,
+  "set": null,
+  "number": 10,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Data Structures",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In a  binary tree with $n$ nodes, every node has an odd number of descendants. Every node is considered to be its own descendant. What is the number of nodes in the tree that have exactly one child?",
+  "options": [
+   "$0$",
+   "$1$",
+   "$\\frac{(n-1)}{2}$",
+   "$n-1$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "$0$ because every node has an odd number of descendants so least odd number $1$ and every node is considered to be its own descendant so all nodes have even number of descendants $(0,2,4,6...)$ so every node has either $0$ children or $2$ children...\nIt is given that , \"\n    \n     every node has an odd number of descendants. Every node is considered to be its own descendant.\".\n    \n\n    For all Nodes,\n   \n\n     Total Odd Descendants = 1 (Itself ) + Descendents other than itself\n    \n\n     Descendants other than Itself\n    \n    = Odd - 1 = Even\n   \n\n    So answer is A.\nin binary tree there are 3 cases\n  \n\n    1)  0 child      2)  1 child    3) 2 child\n    \n\n        if it hv 1 child ( odd )  then no of descendents are  2 ( even ) no this case is invalid\n        \n\n          if it hv 0 or 2 child ( even ) then no of descendents are 1 or 2 ( odd ) respectively and this case is valid\n          so in this only 0 or 2 child are valid and 1 child is invalid\n          so  number of nodes in the tree that have exactly one child is 0\nSince Odd + Even = Odd\n  bydefault 1 descendent (odd) which is the node itself.\n  Now to get odd number of descendents node must have even number of descendents(nodes with 0,2,4,6.... descendents).\n  If a node has only one child then number of descendents will be even which is contradiction.\n  So none of such node is possible\n  Answer is A\nAccording to this definition \" either 2 children or 0 children for every node\"\n    \n\n     clearly 0 node with only one child.\n    \n\n     A is ans.\n[IMAGE:500]\n\n   Now, for X descendent = y + 1 =even (as y is odd). Hence for making X as odd, we have to add one more child to it. Thus no node is possible with single child and having odd descendant.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=9392405871295010078",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2183/gate-cse-2010-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2184",
+  "year": 2010,
+  "set": null,
+  "number": 11,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Programming in C",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "What does the following program print?\n  \n\n#include<stdio.h>\n\nvoid f(int *p, int *q) {\n    p=q;\n    *p=2;\n}\n\nint i=0, j=1;\n\nint main() {\n    f(&i, &j);\n    printf(\"%d %d\\n\", i,j);\n    return 0;\n}",
+  "options": [
+   "$2 \\ 2$",
+   "$2 \\ 1$",
+   "$0 \\ 1$",
+   "$0 \\ 2$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "p=q; // now p and q are pointing to same address i.e. address of j\n *p=2;// value of j will be updated to 2\n\n   Hence, answer is (D) $0 2$\nint  i=0, j=1;\n  \n\n   The above statement declares and initializes two global variables.\n  \n\nvoid f(int *p ,int *q)\n{\n    % A %   p=q  // The address stored in pointer 'q' is assigned to pointer'p'\n    % B %   *p=2  //The value at the address stored in pointer 'p' is set as 2. \n}\n\n   Now in the main function the function 'f' is called with the  address of variable 'i'   and 'j' as parameters.\n  \n\n   Let us assume address of i=100 and address of j=200.\n  \n\n   So the statement A in the definition of function f changes the value of the pointer 'p' from 100 to 200 as the pointer 'p' takes the address of pointer 'q'.\n  \n\n   So after statement A the pointer 'p' also stores the address of j.\n  \n\n   And in the statement B the value at address stored in the pointer 'p' is set to 2 this means the value of j is changed to 2.\n  \n\n   Because of this the printf function in the main will print the value of i=0 and the value of j=2.\n  \n\n   Therefore the output will be  0  2\noption D is right------->0 2",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2184/gate-cse-2010-question-11",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2185",
+  "year": 2010,
+  "set": null,
+  "number": 12,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Algorithms",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Two alternative packages $A$ and $B$ are available for processing a database having $10^k$ records. Package $A$ requires $0.0001 n^2$ time units and package $B$ requires $10n\\log_{10} n$ time units to process $n$ records. What is the smallest value of $k$ for which package $B$ will be preferred over $A$?",
+  "options": [
+   "$12$",
+   "$10$",
+   "$6$",
+   "$5$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$10n \\log_{10} n ≤ 0.0001n^2$\n  $\\implies 10 \\times10^k \\log_{10} 10^k \\leq 0.0001 (10^k)^2$\n  $\\implies 10^{k+1} k \\leq 0.0001 \\times 10^{2k}$\n  $\\implies k \\leq 10^{2k -k -1 - 4}$\n  $\\implies k \\leq 10^{k-5}$\n  Trying the values, $5$ doesn't satisfy this but $6$ satisfies.\n  Correct Answer: $C$\nfor large values of k, A will take more time then B\n  \n\n   A>>>>B (for large k)\n  \n\n   so, for large k, B always prefer\n  \n\n   but in question they are asking what is the smallest value of k that B prefer\n  \n\n   let take for k=5,   A-> 10\n   \n    6\n   \n   and  B->5*10\n   \n    6\n   \n   (A<B) so A will prefer\n  \n\n   for k=6,   A-> 10\n   \n    8\n   \n   and  B->6*10\n   \n    7\n   \n   (A>B) so B will prefer\n  \n\n   (C.) is the correct option.\nn=10^k\n     \n\n      A=\n     \n\n     $\\frac{10^2^k}{10^4}$\n    \n\n     B=  10.10^k log10^k   (here log base is 10)\n    \n\n     B= 10.10^k.k\n    \n\n     =k.10.10^k <\n    \n\n     $\\frac{10^2^k}{10^4}$\n    \n\n     = k< $\\frac{10^2^k}{10^4.10.10^k}$\n    \n\n     =K <  $\\frac{10^k}{10^5}$\n    \n\n     NOW CHEK IF K=5\n    \n\n     = 5<$\\frac{10^5}{10^5}$\n    \n\n     = 5 < 1-------------------- NO SO THIS IS NOT POSSIBLE.\n    \n\n     = LETS TAKE K= 6\n    \n\n     =6<$\\frac{10^6}{10^5}$\n    \n\n     =6<10\n    \n\n     K=6  SO OPTION C OUR ANS.\n     [IMAGE:200]\ntime for n records of package A = 0.0001 * n^2\n   \n\n    time for k records of package A = 0.0001 * (10^k)^2 = 10 ^(-4) * 10 ^ 2k = 10 ^ (2k -4)\n   \n\n    time for n records of package B = 10 * n * logn ( log is base 10)\n   \n\n    time for k records of package A = 10 * 10 ^ k * log (10 ^k) = 10 ^ (k + 1) * log 10 ^ k = 10 ^ (k +1) * k\n   \n\n    package b preffered over a -> time for a > time for b\n   \n\n    10 ^ (2k -4) > k * 10 ^(k +1)\n   \n\n    k=5 -> 10^6 > 5 * 10^6 (false)\n   \n\n    k =6 -> 10^8 > 6 * 10 ^7 (true)\nWe have to find the first value for which k*(0.0001n^2) comes out to be greater than 10logn, taking value of n as 10^4.\n  The answer comes out to be b), when k=10. Before that it is smaller for every value.\nFirst take 5.\n  \n\n    A's required time=$0.0001*(10^5)^2$=$10^6$\n    \n\n      B's required time=$10*10^5*\\log_{10}10^5$=$10^6*5$\n      \n\n        So, clearly 5 is not the answer .\n        \n\n          Take 6\n          \n\n            A's required time=$0.0001*(10^6)^2$=$10^8$\n            \n\n              B's required time=$10*10^6*\\log_{10}10^6$=$10^7*6$\n              \n\n               So answer is (c)",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/qa-plugin/ckeditor4/plugins/smiley/images/thumbs_up.png",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2185/gate-cse-2010-question-12",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2186",
+  "year": 2010,
+  "set": null,
+  "number": 13,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Compiler Design",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Which data structure in a compiler is used for managing information about variables and their attributes?",
+  "options": [
+   "Abstract syntax tree",
+   "Symbol table",
+   "Semantic stack",
+   "Parse table"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$(B)$\n   \n    Symbol table\n   \n   is  the answer.\n  \n\n   It can be implemented by using an array, hash table, tree and even some time with the help of the Iinked list!\nSymbol table is an important data structure created and maintained by compilers in order to store information about the occurrence of various entities such as variable names, function names, objects, classes, interfaces, etc. Symbol table is used by both the analysis and the synthesis parts of a compiler.\n  \n\n   If a compiler is to handle a small amount of data, then the symbol table can be implemented as an unordered list, which is easy to code, but it is only suitable for small tables only. A symbol table can be implemented in one of the following ways:\n  \n\n    Linear (sorted or unsorted) list\n   \n\n    Binary Search Tree\n   \n\n    Hash table\n   \n\n   Among all, symbol tables are mostly implemented as hash tables, where the source code symbol itself is treated as a key for the hash function and the return value is the information about the symbol.\nB. It uses array to implement.\nAns = Symbol table\n  Which is used for managing information about variables and their attributes.\nThe data structure in a compiler used for managing information about variables and their attributes is the\n   \n    Symbol Table.\n   \n\n   The Symbol Table is a crucial data structure in compilers that keeps track of identifiers (such as variables, functions, etc.) and their associated information, including their types, memory locations, scope, and other attributes. It plays a vital role in semantic analysis, type checking, and code generation phases of the compiler.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2186/gate-cse-2010-question-13",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2187",
+  "year": 2010,
+  "set": null,
+  "number": 14,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Compiler Design",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Which languages necessarily need heap allocation in the runtime environment?",
+  "options": [
+   "Those that support recursion.",
+   "Those that use dynamic scoping.",
+   "Those that allow dynamic data structure.",
+   "Those that use global variables."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Those that allow dynamic data structure.\n  malloc etc uses memory from heap area.\nC\n   \n\n   Heap allocation is needed for dynamic data structures like tree, linked list, etc\nIn programming languages,\n   \n    heap allocation\n   \n   is essential for managing dynamic memory—memory whose size and lifetime are determined at runtime. This is particularly crucial for languages that support dynamic data structures, such as linked lists, trees, and graphs, which require memory allocation during program execution.\n  \n\n    Dynamic Data Structures and Heap Allocation\n   \n\n   Dynamic data structures are designed to grow and shrink as needed during the program's execution. To accommodate this flexibility, memory must be allocated dynamically, which is typically managed through the heap. For instance, in C, functions like\n   \n    malloc()\n   \n   and\n   \n    free()\n   \n   are used to allocate and deallocate memory on the heap, allowing for the creation and destruction of dynamic data structures.\n  \n\n    Clarification of Other Options\n   \n\n      Languages that support recursion:\n     \n     Recursion involves function calls that use the call stack to manage execution flow. While recursion uses stack memory, it doesn't inherently require heap allocation.\n    \n\n      Languages that use dynamic scoping:\n     \n     Dynamic scoping determines variable bindings at runtime but doesn't necessitate heap allocation. It relates to variable resolution rather than memory allocation.\n    \n\n      Languages that use global variables:\n     \n     Global variables are typically stored in static memory or data segments, not the heap. They are accessible throughout the program's lifetime but don't require dynamic memory allocation.\n    \n\n   Therefore, languages that allow dynamic data structures are the ones that necessarily need heap allocation in the runtime environment.\nAll of the options shsould be correct here",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2187/gate-cse-2010-question-14",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2188",
+  "year": 2010,
+  "set": null,
+  "number": 15,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Computer Networks",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "One of the header fields in an IP datagram is the Time-to-Live (TTL) field. Which of the following statements best explains the need for this field?",
+  "options": [
+   "It can be used to prioritize packets.",
+   "It can be used to reduce delays.",
+   "It can be used to optimize throughput.",
+   "It can be used to prevent packet looping."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Answer is (D)\n   \n   . It can be used to prevent packet looping.\nD . This option best describes TTL field\nIt prevent infinite looping over network .Bcz each router decrease its value by one and when this(TTL) value become zero ,then it  is discarder by router silently.\n1. TTL decreases by one each time the packet is forwarded by a router.\n  \n\n   2.  If TTL\n   \n    reaches zero, the packet is discarded\n   \n   .\n  \n\n   3.  This eliminates packets\n   \n    trapped in\n    \n     routing loops\n    \n\n   .\n  \n\n   Option D\nANS - D\n   \n\n    TTL\n   \n   decreases by one as it passes to different router . If  TTL is not there then packet will get into infinite loop .\nOption D\n  \n\n    Is correct\n    It can be used to prevent packet looping.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2188/gate-cse-2010-question-15-pgee-2018",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2190",
+  "year": 2010,
+  "set": null,
+  "number": 17,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Theory of Computation",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Let $L_1$ be the recursive language. Let $L_2$ and $L_3$ be languages that are recursively enumerable but not recursive. Which of the following statements is not necessarily true?",
+  "options": [
+   "$L_2 - L_1 \\:\\text{is recursively enumerable.}$",
+   "$L_1 - L_3 \\:\\text{is recursively enumerable.}$",
+   "$L_2 \\cap L_3 \\:\\text{is recursively enumerable.}$",
+   "$L_2 \\cup L_3 \\:\\text{is recursively enumerable.}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Recursively enumerable languages are closed under union and intersection. So, lets consider each option\n  \n\n    $L_2 - L_1 = L_2 \\cap \\overline{L_1}$\n    Recursive languages are closed under complement, and so $\\overline{L_1}$ is recursive and hence recursively enumerable also. So, $L_2 \\cap \\overline{L_1}$ is recursively enumerable is always TRUE.\n   \n\n    $L_1 - L_3 = L_1 \\cap \\overline{L_3}$\n    Recursively enumerable languages are not closed under complement. So, $\\overline{L_3}$ may or may not be recursively enumerable and hence we can't say anything if $ L_1 \\cap \\overline{L_3}$ is recursively enumerable or not.\n   \n\n    Intersection of two recursively enumerable languages is always recursively enumerable(RE closed under intersection).\n   \n\n    Union of two recursively enumerable languages is always recursively enumerable(RE closed under union).\n   \n\n   For verifying closure properties:\n   \n    http://gatecse.in/wiki/Closure_Property_of_Language_Families\n   \n\n   Correct Answer: $B$\n[IMAGE:100]\n\n   I hope this makes it simpler!",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12715721570482848852",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2190/gate-cse-2010-question-17",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2191",
+  "year": 2010,
+  "set": null,
+  "number": 18,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Databases (DBMS)",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Consider a $B^+$-tree in which the maximum number of keys in a node is $5$. What is the minimum number of keys in any non-root node?",
+  "options": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Answer: B\n  Order = $5$+$1$ = $6$\n  Minimum children in a non root node = $\\lceil$ $\\frac{Order}{2}$ $\\rceil$ = $\\lceil$ $\\frac{6}{2}$ $\\rceil$ = $3$\n  Keys = Minimum children in a non root node - $1$ = $2$\nIn a b+ tree if a non-root node can be a leaf-node or a non-leaf-node:\n  case 1) when a non-root, leaf node is full and a new key is inserted in it:\n  a) the initial keys in the row + the newly inserted key is arranged in asc/desc order\n  b) the medium key is copied to an upward node without the record pointer\n  c) the medium key is retained in the leaf node with the record pointer\n  d) the keys in the leaf node are split in half and moved to two separate nodes\n  here there are maximum 5 keys, so when an additional key comes, the medium key is copied upwards, and a total of 6 keys are split in two nodes having 3 keys each.\n  case 2) when a non-root, non-leaf node is full and a new key is inserted in it:\n  a) the initial keys in the row + the newly inserted key is arranged in asc/desc order\n  b) the medium key is moved to an upward node\n  c) the medium key is removed from the current node\n  d) the keys in the current node are split in half and moved to two separate nodes\n  here there are maximum 5 keys, so when an additional key comes, the medium key is moved upwards, and a total of 5 remaining keys are split in two nodes having 2 keys and 3 keys respectively.\n  SO the minimum number of keys in a non-root leaf node is 3 and the minimum number of keys in a non-root non-leaf node is 2.\n  SO the minimum number of keys in a non-root node is 2.\n  Hence answer is (B)\nAn important property that helps in keeping the $B / B^+$ trees balanced is that they enforce at least 50% space utilization.\n  \n\n    B-tree nodes are kept between 50 and 100 percent full\n   \n\n    -- Navathe 6th Edition, page 647, line number 3.\n   \n\n   This means if a node can accommodate max $p$ children, it must accommodate at least $\\frac{p}{2}$ children at any time.\n   \n    (This is not applicable to the root, however.)\n   \n\n   Of course, fractions are resolved by taking ceil, because if the $B / B^+$ tree wants us to have minimum $3.6$ children, we will keep $4$ children and not $3$. So, $\\frac{p}{2}$ is actually $\\left \\lceil \\frac{p}{2} \\right \\rceil$.\n  \n\n   Now, we know that the number of keys is always one less than the number of children.\n  \n\n   So minimum number of keys = $\\left \\lceil \\frac{p}{2} \\right \\rceil-1$.\n  \n\n   Now, coming to the question.\n  \n\n   Max keys = 5. Hence, max children it can have = 6. (p is 6)\n  \n\n   Minimum keys it can have = $\\left \\lceil \\frac{p}{2} \\right \\rceil-1$.\n  \n\n   = $\\left \\lceil \\frac{6}{2} \\right \\rceil-1$.\n  \n\n   = $2$\n  \n\n    Option B\nAns: B\n  \n\n   order= maximum no of children = maximum number of keys + 1\n  \n\n   = 5+1 = 6\n  \n\n   degree, t= order/2 = 6/2= 3\n  \n\n    max key = (2t-1)\n   \n   = 2*3-1=5\n  \n\n    min key = t-1\n   \n   =3-1=2\nMaximum number of keys in B+ tree -> leaf node having 5 keys\n  \n\n   order of leaf = number of key+record pointer value\n  \n\n   order of non leaf = number of block pointers\n  \n\n   If not given in question explicitly then\n  \n\n   O (leaf) = O(non leaf)\n  \n\n   since O(leaf) = 5\n  \n\n   max number of block pointer in nonleaf = 5\n  \n\n   therefore minimum number of keys will be in non leaf = ceil(5/2)-1 = 3-1 =\n   \n    2\n   \n\n    Answer B\nGiven maximum number of keys in any node is 5 ...\n  \n\n   So Order of non-leaf node(maximum number of children) is 5+1 = 6\n  \n\n   Order of leaf node(maximum number of keys) = 5 which is given in question...\n  \n\n   Minimum number of keys possible in any non-leaf node =\n   \n    [ ceil (order_of_nonleaf_node) / 2 ] - 1\n   \n   = 2\n  \n\n   Minimum number of keys possible in any leaf node =\n   \n    [ ceil (order_of_leaf_node) / 2 ]\n   \n   = 3\n  \n\n   So minimum number of nodes possible in the B+ tree =\n   \n    min (2,3) = 2\n   \n\n   (we have ignored the special case of root as per question which can even have 1 key, EX :when our data file has only one record)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2191/gate-cse-2010-question-18",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2194",
+  "year": 2010,
+  "set": null,
+  "number": 19,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Databases (DBMS)",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A relational schema for a train reservation database is given below.\n  \n\n     passenger(pid, pname, age)\n    \n\n     reservation(pid, class, tid)\n    \n\n   $$\\overset{\\text{Passenger}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{pname}& \\textbf{Age} \\\\\\hline\n   0&     \\text{Sachine}&    65  \\\\ \\hline\n   1&     \\text{Rahul}& 66 \\\\     \\hline\n   2&     \\text{Sourav}&  67      \\\\\\hline\n   3&     \\text{Anil}& 69      \\\\\\hline\n   \\end{array}} \\qquad \\overset{\\text{Reservation}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{class}& \\textbf{tid} \\\\\\hline\n   0&     \\text{AC}&    8200   \\\\ \\hline\n   1&     \\text{AC}& 8201  \\\\     \\hline\n   2&     \\text{SC}&  8201      \\\\\\hline\n   5&     \\text{AC}& 8203      \\\\\\hline1&     \\text{SC}& 8204      \\\\\\hline3&     \\text{AC}& 8202      \\\\\\hline\n   \\end{array}}$$\n   What\n   \n    pids\n   \n   are returned by the following SQL query for the above instance of the tables?\n  \n\nSELECT pid\nFROM Reservation\nWHERE class='AC' AND\n    EXISTS (SELECT * \n            FROM Passenger \n            WHERE age>65 AND \n            Passenger.pid=Reservation.pid)",
+  "options": [
+   "$1, 0$",
+   "$1, 2$",
+   "$1, 3$",
+   "$1, 5$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "(C) $1,3$\n  \n\n    The inner query gives passenger_id with age above $65$ i.e., $1,2,3$\n    \n\n     The outer query chooses the class as AC, which are $1$ and $3$\n$$\\overset{\\text{Passenger}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{pname}& \\textbf{Age} \\\\\\hline\n   0&     \\text{Sachine}&    65  \\\\ \\hline\n   1&     \\text{Rahul}& 66 \\\\     \\hline\n   2&     \\text{Sourav}&  67      \\\\\\hline\n   3&     \\text{Anil}& 69      \\\\\\hline\n   \\end{array}} \\qquad \\overset{\\text{Reservation}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{class}& \\textbf{tid} \\\\\\hline\n   0&     \\text{AC}&    8200   \\\\ \\hline\n   1&     \\text{AC}& 8201  \\\\     \\hline\n   2&     \\text{SC}&  8201      \\\\\\hline\n   5&     \\text{AC}& 8203      \\\\\\hline1&     \\text{SC}& 8204      \\\\\\hline3&     \\text{AC}& 8202      \\\\\\hline\n   \\end{array}}$$\n  \n\nSELECT \nFROM Reservation\nWHERE class='AC' AND\nEXISTS (SELECT * \nFROM Passenger \nWHERE age>65 AND \nPassenger.pid=Reservation.pid)\n\n     Working of a co related query\n    \n\n   As we can see\n   \n\n      Reservation\n     \n\n   is written outside brackets and\n   \n\n      passenger\n     \n\n   is written inside brackets\n  \n\n   So here we will take each tuple of\n   \n    Reservation\n   \n   table and compare it with all the tuples of\n   \n    passenger\n   \n   table\n  \n\n     $1^{st}$ Tuple of Reservation table\n    \n\n   $$\\overset{\\text{Reservation}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{class}& \\textbf{tid} \\\\\\hline\n   0&     \\text{AC}&    8200   \\\\ \\hline\n   \\end{array}} \\qquad \\overset{\\text{Passenger}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{pname}& \\textbf{Age} \\\\\\hline 0&     \\text{Sachine}&    65  \\\\ \\hline\n   1&     \\text{Rahul}& 66 \\\\     \\hline\n   2&     \\text{Sourav}&  67      \\\\\\hline\n   3&     \\text{Anil}& 69      \\\\\\hline\n   \\end{array}}$$\n  \n\n   We will fist check the conditions that are given  for\n   \n    Reservation table\n   \n   i.e.\n   \n\n      Class = \"AC\"\n     \n\n   which is\n   \n    True\n   \n\n   So, we will now switch to\n   \n    Passenger table\n   \n   and check the conditions given for it i.e.\n  \n\nage>65 AND Passenger.pid=Reservation.pid\n\n   As we can see here the $1^{st}$ tuple of\n   \n    Passenger table\n   \n   is satisfying\n   \n\n       Passenger.pid =0 (\n      \n\n       = Resesrvation.pid )\n      \n\n   but it is not satisfying\n   \n\n       age>65\n      \n\n   so we can't select it.\n  \n\n   The remaining tuples of\n   \n    Passenger table\n   \n   are satisfying\n   \n\n       age>65\n      \n\n   but not\n   \n\n       Passenger.pid =0 (\n      \n\n       = Resesrvation.pid )\n      \n\n   so we will not select\n   \n\n      pid=0\n     \n\n   since no match is found.\n  \n\n   $\\therefore$\n   \n\n       pid =0\n      \n\n   from\n   \n    Reservation table\n   \n   is not selected in the output\n  \n\n    $2^{nd}$ Tuple of Reservation table\n   \n\n   $$\\overset{\\text{Reservation}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{class}& \\textbf{tid} \\\\\\hline\n   1&     \\text{AC}&    8201   \\\\ \\hline\n   \\end{array}} \\qquad \\overset{\\text{Passenger}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{pname}& \\textbf{Age} \\\\\\hline 0&     \\text{Sachine}&    65  \\\\ \\hline\n   1&     \\text{Rahul}& 66 \\\\     \\hline\n   2&     \\text{Sourav}&  67      \\\\\\hline\n   3&     \\text{Anil}& 69      \\\\\\hline\n   \\end{array}}$$\n  \n\n   We will fist check the conditions that are given  for\n   \n    Reservation table\n   \n   i.e.\n   \n\n      Class = \"AC\"\n     \n\n   which is\n   \n    True\n   \n\n   So, we will now switch to\n   \n    Passenger table\n   \n   and check the conditions given for it i.e.\n  \n\nage>65 AND Passenger.pid=Reservation.pid\n\n   As we can see here only the $2^{nd}$ tuple of\n   \n    Passenger table\n   \n   is satisfying\n   \n\n       Passenger.pid =1 (\n      \n\n       = Resesrvation.pid )\n      \n\n   and satisfying\n   \n\n       age>65\n      \n\n   condition so we found a match\n  \n\n   $\\therefore$\n   \n\n       pid =1\n      \n\n   from\n   \n    Reservation table\n   \n   is selected in the output.\n  \n\n    $3^{rd}$ Tuple of Reservation table\n   \n\n   $$\\overset{\\text{Reservation}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{class}& \\textbf{tid} \\\\\\hline\n   2&     \\text{SC}&    8201   \\\\ \\hline\n   \\end{array}} \\qquad \\overset{\\text{Passenger}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{pname}& \\textbf{Age} \\\\\\hline 0&     \\text{Sachine}&    65  \\\\ \\hline\n   1&     \\text{Rahul}& 66 \\\\     \\hline\n   2&     \\text{Sourav}&  67      \\\\\\hline\n   3&     \\text{Anil}& 69      \\\\\\hline\n   \\end{array}}$$\n  \n\n   We will fist check the conditions that are given  for\n   \n    Reservation table\n   \n   i.e.\n   \n\n      Class = \"AC\"\n     \n\n   which is\n   \n    False\n   \n\n   So, we will not select this tuple.\n  \n\n   $\\therefore$\n   \n\n       pid =2\n      \n\n   from\n   \n    Reservation table\n   \n   is not selected in the output.\n  \n\n    $4^{th}$ Tuple of Reservation table\n   \n\n   $$\\overset{\\text{Reservation}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{class}& \\textbf{tid} \\\\\\hline\n   5&     \\text{AC}&    8203   \\\\ \\hline\n   \\end{array}} \\qquad \\overset{\\text{Passenger}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{pname}& \\textbf{Age} \\\\\\hline 0&     \\text{Sachine}&    65  \\\\ \\hline\n   1&     \\text{Rahul}& 66 \\\\     \\hline\n   2&     \\text{Sourav}&  67      \\\\\\hline\n   3&     \\text{Anil}& 69      \\\\\\hline\n   \\end{array}}$$\n  \n\n   We will fist check the conditions that are given  for\n   \n    Reservation table\n   \n   i.e.\n   \n\n      Class = \"AC\"\n     \n\n   which is\n   \n    True\n   \n\n   So, we will now switch to\n   \n    Passenger table\n   \n   and check the conditions given for it i.e.\n  \n\nage>65 AND Passenger.pid=Reservation.pid\n\n   As we can see here only the no tuple of\n   \n    Passenger table\n   \n   is satisfying\n   \n\n       Passenger.pid =5 (\n      \n\n       = Resesrvation.pid )\n      \n\n   So, we will not select this tuple.\n  \n\n   $\\therefore$\n   \n\n       pid =5\n      \n\n   from\n   \n    Reservation table\n   \n   is not selected in the output.\n  \n\n    $5^{th}$ Tuple of Reservation table\n   \n\n   $$\\overset{\\text{Reservation}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{class}& \\textbf{tid} \\\\\\hline\n   1&     \\text{SC}&    8204   \\\\ \\hline\n   \\end{array}} \\qquad \\overset{\\text{Passenger}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{pname}& \\textbf{Age} \\\\\\hline 0&     \\text{Sachine}&    65  \\\\ \\hline\n   1&     \\text{Rahul}& 66 \\\\     \\hline\n   2&     \\text{Sourav}&  67      \\\\\\hline\n   3&     \\text{Anil}& 69      \\\\\\hline\n   \\end{array}}$$\n  \n\n   We will fist check the conditions that are given  for\n   \n    Reservation table\n   \n   i.e.\n   \n\n      Class = \"AC\"\n     \n\n   which is\n   \n    False\n   \n\n   So, we will not select this tuple.\n  \n\n   $\\therefore$\n   \n\n       pid =1\n      \n\n   from\n   \n    Reservation table\n   \n   is not selected in the output.\n  \n\n    $6^{th}$ Tuple of Reservation table\n   \n\n   $$\\overset{\\text{Reservation}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{class}& \\textbf{tid} \\\\\\hline\n   3&     \\text{AC}&    8202   \\\\ \\hline\n   \\end{array}} \\qquad \\overset{\\text{Passenger}}{\\begin{array}{|c|c|c|}\\hline\\\\\n   \\textbf{pid}&  \\textbf{pname}& \\textbf{Age} \\\\\\hline 0&     \\text{Sachine}&    65  \\\\ \\hline\n   1&     \\text{Rahul}& 66 \\\\     \\hline\n   2&     \\text{Sourav}&  67      \\\\\\hline\n   3&     \\text{Anil}& 69      \\\\\\hline\n   \\end{array}}$$\n  \n\n   We will fist check the conditions that are given  for\n   \n    Reservation table\n   \n   i.e.\n   \n\n      Class = \"AC\"\n     \n\n   which is\n   \n    True\n   \n\n   So, we will now switch to\n   \n    Passenger table\n   \n   and check the conditions given for it i.e.\n  \n\nage>65 AND Passenger.pid=Reservation.pid\n\n   As we can see here only the $4^{nd}$ tuple of\n   \n    Passenger table\n   \n   is satisfying\n   \n\n       Passenger.pid =3 (\n      \n\n       = Resesrvation.pid )\n      \n\n   and satisfying\n   \n\n       age>65\n      \n\n   condition so we found a match\n  \n\n   $\\therefore$\n   \n\n       pid =3\n      \n\n   from\n   \n    Reservation table\n   \n   is selected in the output.\n  \n\n   So, finally only 1 and 3 are selected in the output.\n  \n\n   $\\therefore$ Option $C.$ is the correct choice",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2194/gate-cse-2010-question-19",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2196",
+  "year": 2010,
+  "set": null,
+  "number": 20,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Databases (DBMS)",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which of the following concurrency control protocols ensure both conflict serializability and freedom from deadlock?",
+  "options": [
+   "$2$-phase locking",
+   "Time-stamp ordering\n    \n\n      I only\n     \n\n      II only\n     \n\n      Both I and II\n     \n\n      Neither I nor II",
+   "I only",
+   "II only",
+   "Both I and II",
+   "Neither I nor II"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "In basic two phase locking there is a chance for deadlock\n  Conservative $\\text{2pl}$ is deadlock free\n  I go with B.\nAnswer is B.\n  2PL ensures conflict serializability but is not deadlock free.\n  Timestamp ordering ensures conflict serializability because if any action causes violation in serializability order that was being followed from beginning of schedule, then the transaction is rolled back and again started with new timestamp.\n  It also ensures freedom from deadlock because there are no locks.. which means no mutual exclusion.\nTimestamp Based Ordering Protocol is :\n  \n\n    Conflict serializable i.e. it is conflict equivalent to some serial schedule.\n   \n\n    It is deadlock free because timestamp ordering protocol allows rollback and restart it after detecting a mismatched situation.\n   \n\n     http://www.edugrabs.com/timestamp-ordering-protocols/\nTwo phase locking ensures conflict serializable schedules, but does not ensure freedom from deadlock.\n  \n\n   One the other hand, Timestamp ordering protocol ensures freedom from deadlock but does not ensure conflict serializable schedules.\n  \n\n   ensure = every schedule is conflict serializable.\n   \n    Hence the answer is D\n   \n\n   Reference:\n   \n    http://codex.cs.yale.edu/avi/db-book/db4/slide-dir/ch16-2.pdf\n   \n\n   Additional info: Tree based protocol ensures both, freedom from deadlocks and conflict serializable schedule.\n2 Phase Locking (2PL)\n   \n   is a concurrency control method that guarantees serializability. The protocol utilizes locks, applied by a transaction to data, which may block (interpreted as signals to stop) other transactions from accessing the same data during the transaction’s life. 2PL may be lead to deadlocks that result from the mutual blocking of two or more transactions. See the following situation, neither T3 nor T4 can make progress.\n   \n[IMAGE:400]\n\n    Timestamp-based concurrency control\n   \n   algorithm is a non-lock concurrency control method. In Timestamp based method, deadlock cannot occur as no transaction ever waits.\nConsider about the case of Strict 2PHASE locking protocol,\n  \n\n    it is not deadlock free\n    Also\n    Time stamp ordering is no guarantee to have conflict serialisabilty\n    HENCE D is answer",
+  "images": [
+   {
+    "src": "https://cdncontribute.geeksforgeeks.org/wp-content/uploads/GATECS_2010_Question_20.jpg",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2196/gate-cse-2010-question-20",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2202",
+  "year": 2010,
+  "set": null,
+  "number": 23,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Operating Systems",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the methods used by processes $P1$ and $P2$ for accessing their critical sections whenever needed, as given below. The initial values of shared boolean variables $S1$ and $S2$ are randomly assigned.\n   $$\\begin{array}{|l|l|}\\hline \\textbf{Method used by P1}  &  \\textbf{Method used by P2}  \\\\ \\hline  \\text{while (S1 == S2);} & \\text{while (S1 != S2);} \\\\  \\text{Critical Section} & \\text{Critical Section} \\\\  \\text{S1 = S2;} & \\text{S2 = not(S1);} \\\\\\hline \\end{array}$$\n   Which one of the following statements describes the properties achieved?",
+  "options": [
+   "Mutual exclusion but not progress",
+   "Progress but not mutual exclusion",
+   "Neither mutual exclusion nor progress",
+   "Both mutual exclusion and progress"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer is (\n   \n    A\n   \n   )\n   \n    .\n   \n   In this mutual exclusion is satisfied,only one process can access the critical section at particular time but here progress will not satisfied because suppose when $S1=1$ and $S2=0$ and process $P1$ is not interested to enter into critical section but $P2$ want to enter critical section. $P2$ is not able to enter critical section in this as only when $P1$ finishes execution, then only $P2$ can enter (then only $S1 = S2$ condition be satisfied).\n  \n\n   Progress will not be satisfied when any process which is not interested to enter into the critical section will not allow other interested process to enter into the critical section. When $P1$ wants to enter the critical section it might need to wait till $P2$ enters and leaves the critical section (or vice verse) which might never happen and hence progress condition is violated.\nS1\n     \n\n      S2\n     \n\n      Chance to get into CS\n     \n\n      1\n     \n\n      1\n     \n\n      P-2 can enter the CS\n     \n\n      1\n     \n\n      0\n     \n\n      P-1 can enter the CS\n     \n\n      0\n     \n\n      1\n     \n\n      P-1 can enter the CS\n     \n\n      0\n     \n\n      0\n     \n\n      P-2 can enter the CS\n     \n\n   When S-1=1  S-2 =1 then it is p-2 turn to get into CS but if it is busy in doing some other work outside the CS and if P-1 want to get into CS which is also outside the CS then P-2 going to stop P-1 getting into CS because it is P-2 Turns This is what the Definition of the Progress Which is not Guaranteed here .\n  \n\n    Answer (A)\n   \n\n    It can be easily observed that the Mutual Exclusion requirement is satisfied by the above solution, P1 can enter critical section only if S1 is not equal to S2, and P2 can enter critical section only if S1 is equal to S2.\n   \n\n    Progress Requirement is not satisfied. Let us first see definition of Progress Requirement.\n   \n\n    Progress Requirement:\n   \n\n    If no process is executing in its critical section and there exist some processes that wishes to enter their critical section, then the selection of the processes that will enter the critical section next cannot be postponed indefinitely.\n   \n\n    If P1 or P2 want to re-enter the critical section, then they cannot even if there is other process running in critical section.\nAnswer (a)\n  \n\n    Explanation:\n    \n\n      its the solution of strict alternation, in which execution will be  either: P1P2P1P2...... or P2P1P2P1......\n      \n\n        so\n        > Mutual exclusion is satisfied (As any instance only one process will be in C.S.)\n        > Progress not satisfied (beacuse alternation is used initially if S1=1, S2=0 and P1 do not want to enter in CS and P2 wants then also it have to wait)\n        > Bounded waiting satisfied as both process getting chance equally to enter into its C.S.)\n        so option a is correct match.\n[IMAGE:300]\n   please refer to this solution\nHere Mutual Exclusion is satisfied as here only one process can enter critical section at a particular time.\n  Suppose, $S1=1$ and $S2=0$ then $P2$ will be interested to enter critical section.But not $P1$.\n  Progress is not there as here $P2$ need to leave the critical section then only $P1$ can enter. But it might not happen so, condition of progress not satisfied.\n  $Ans: A$\nTo check mutual exclusion we need to check that atmost one process should enter the citical section and when one process is in the critical section then other process cant enter, Here we can see that S1 and S2 are mutually exclusive cases. Checking manually also when one process is in the CS then other cant enter. Hence\n   \n    Mutual exclusion is satisfied.\n   \n\n   To check progress we need to check if two or more processes want to enter the CS then atleast one process should enter, also if the process can also enter individually if they are interested without interference of other process.\n  \n\n   In this question indvidual entering of process in the CS can be a problem, hence not satisfying Progress\n  \n\n   So,\n   \n    Mutual exclusion but not progress",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2455345141050538736",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2202/gate-cse-2010-question-23",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2203",
+  "year": 2010,
+  "set": null,
+  "number": 24,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Operating Systems",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A system uses FIFO policy for system replacement. It has $4$ page frames with no pages loaded to begin with. The system first accesses $100$ distinct pages in some order and then accesses the same $100$ pages but now in the reverse order. How many page faults will occur?",
+  "options": [
+   "$196$",
+   "$192$",
+   "$197$",
+   "$195$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer is (\n   \n    A\n   \n   )\n   \n    .\n   \n   When we access $100$ distinct page in some order (for example $1,2,3\\ldots 100$) then total number of page faults $=100$. At last, the $4$ page frames will contain the pages $100,99,98$ and $97$. When we reverse the string $(100,99,98,\\ldots,1)$ then first four page accesses will not cause the page fault because they are already present in page frames. But the remaining $96$ page accesses will cause $96$ page faults. So, total number of page faults $=100+96=196$.\nAnswer will be \"196\" first 100 page fault will occur then 4 page hit after that 96 page fault total =100+96\n  \n\n   If you want to visualize how this mapping take small value and check\n   1)Lets take 5 district element and its reveverse then page fault 5(page fault) + 4(page hit)+1 (page fault)\n   Total page fault=6\n   2) let's take 10 district element and its reveverse then 10(page fault)+4(page hit) +6(page fault)\n   Total page fault=16",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2203/gate-cse-2010-question-24",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2204",
+  "year": 2010,
+  "set": null,
+  "number": 25,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Operating Systems",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Which of the following statements are true?",
+  "options": [
+   "Shortest remaining time first scheduling may cause starvation",
+   "Preemptive scheduling may cause starvation",
+   "Round robin is better than FCFS in terms of response time\n    \n\n      I only\n     \n\n      I and III only\n     \n\n      II and III only\n     \n\n      I, II and III",
+   "I only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Answer is (\n   \n    D\n   \n   ).\n  \n\n    In SRTF ,job with the shorest CPU burst will be scheduled first bcz of this process with large CPU burst may suffer from starvation\n   \n\n    In preemptive scheduling , suppose process $P1$ is executing in $CPU$ and  after some time process $P2$ with high priority then $P1$ will arrive in ready queue then $P1$ is prrempted and $P2$ will brought into CPU for execution. In this way if process which is arriving in ready queue is of higher prioirity then $P1$, then $P1$ is always preempted and it may possible that it suffer from starvation.\n   \n\n    Round robin will give better response time then FCFS ,in FCFS when process is executing ,it executed upto its complete burst time, but in round robin it will execute upto time quantum.\nA) True\n  It is possible that new process may come which has smaller time then current executing process which may lead to starvation\n  B) True\n  As stated in option A\n  C) True if time quantum is larger then the largest process then it will be equal to FCFS and in rest of the case RR is always better then round robin",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2204/gate-cse-2010-question-25",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "1152",
+  "year": 2010,
+  "set": null,
+  "number": 26,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Engineering Mathematics",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Consider a company that assembles computers. The probability of a faulty assembly of any computer is $p$. The company therefore subjects each computer to a testing process. This testing process gives the correct result for any computer with a probability of $q$. What is the probability of a computer being declared faulty?",
+  "options": [
+   "$pq + (1 - p)(1 - q)$",
+   "$(1 - q)p$",
+   "$(1 - p)q$",
+   "$pq$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer =\n   \n    option A\n   \n\n   In image below the ticks show those branches where the result is declared as faulty.\n  \n\n[IMAGE:0]\n\n   So, required probability $=$ sum of probabilities of those two branches $= pq + (1-p)(1-q)$\nI think a is the correct option ..\n  prob = pq + (1-p)(1-q)  // in words it means\n  (it is faulty)(machine detects correctly) + (it is not faulty)(machine detects incorrectly)\nA computer can be declared faulty only if--\n  \n\n   it is faulty and testing process gives correct result(computer declared as faulty)\n   \n    OR\n   \n   it is not faulty and testing process gives incorrect result(that means computer declared as faulty).\n  \n\n   $\\implies\\;pq+(1-p)(1-q)$\nThe probability of the computer being declared faulty is,\n  = Probability of testing process gives the correct result × Probability that computer is faulty + Probability of testing process giving incorrect result × Probability that computer is not faulty\n  = p × q + (1 - p) (1 - q)\n  Answer:A\nProbability of faculty assembly of any computer=p\n  \n\n   The probability that the testing process gives the correct result= q\n  \n\n[IMAGE:400]\n\n   probability of a computer being declared faulty\n  \n\n   =(pq)+(1-p)(1-q)\n  \n\n    Hence the correct answer is\n   \n\n    pq + (1 - p) (1 - q)\nOur favourable outcome is computer being faulty.\n  This can be achieved as\n  1. Testing results are correct and computer is faulty, probability is pq\n  2. Testing results are incorrect, meaning whatever the results are they are incorrect therefore if the results are that the computer is faulty then they are not faulty and if the results are computer is non faulty then they are faulty. So probabiltiy will be 1-q * 1-p\n  Hence total probability is pq + (1-p)(1-q)",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2376226662820284775",
+    "kind": "remote"
+   },
+   {
+    "src": "https://storage.googleapis.com/tb-img/production/21/08/prpb.png",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/1152/gate-cse-2010-question-26",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "1153",
+  "year": 2010,
+  "set": null,
+  "number": 27,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Engineering Mathematics",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "What is the probability that divisor of $10^{99}$ is a multiple of $10^{96}$?",
+  "options": [
+   "$\\left(\\dfrac{1}{625}\\right)$",
+   "$\\left(\\dfrac{4}{625}\\right)$",
+   "$\\left(\\dfrac{12}{625}\\right)$",
+   "$\\left(\\dfrac{16}{625}\\right)$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Prime factorization of $10 = 2 \\times 5$.\n   So, $10^{99} = 2^{99} \\times 5^{99}$ and\n   No. of possible factors for $10^{99} = $ No. of ways in which prime factors can be combined\n   $= 100 \\times 100$ (1 extra possibility for each prime number as prime factor raised to 0 is also possible for a factor)\n   $10^{99} = 10^{96} \\times 1000$\n   So, no. of multiples of $10^{96}$ which divides $10^{99} =$ No. of possible factors of 1000\n   $= 4\\times4 \\left( \\because 1000 = 2^3 \\times 5^3\\right)$ (See below)\n   $=16$\n   So, required probability $= \\frac{16}{10000}$\n   $= \\frac{1}{625}$\n  \n\n   Correct Answer: $A$\n  \n\n   How is number of possible factors of $1000 = 16?$\n  \n\n   Here, we can prime factorize $1000$ as $2^3 \\times 5^3$. Now, any factor of $1000$ will be some combination of these prime factors. For $2$, a factor has $4$ options - $2^0, 2^1, 2^2$ or $2^3$. Similarly $4$ options for $5$ also. This is true for any number $n$, if $n$ can be prime factorized as $a_1^{m_1} . a_2^{m_2} \\dots a_n^{m_n}$, number of factors of $n$ $\\\\ = \\left(m_1 +1 \\right) \\times \\left(m_2 + 1\\right) \\times \\dots \\times \\left(m_n +1 \\right) $, the extra one in each factor term coming for power being $0.$\nNumber of divisors of 10\n   \n    n\n   \n   =(n+1)\n   \n    2\n   \n\n   Number of divisors of 10\n   \n    99\n   \n   =10,000\n  \n\n   Number of divisors of 10\n   \n    99\n   \n   which are multiples of 10\n   \n    96\n   \n\n   Number of divisors of 10\n   \n    3\n   \n   =(3+1)\n   \n    2\n   \n   =16\n  \n\n   Required probability =16/10000=1/625\n  \n\n   Source:\n   \n    https://www.aspirebuzz.com/content/what-probability-divisor-1099-0\nhere no of ways we taken 99+1 =100 bcoz there are 99 ways to select any one 2’s  and there is exactly 1 way to not select any 2’s\n     \n\n[IMAGE:200]\n\n[IMAGE:201]\n\n   Answer is option A\n[IMAGE:300]\n\n[IMAGE:301]\n\n    added why the number of factors will be equal to the multiplicaton of the power+1 of the prime numbers",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3530433726516390717",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15302679584700047825",
+    "kind": "remote"
+   },
+   {
+    "src": "https://drive.google.com/drive/u/0/home",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2281759097487877128",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/1153/gate-cse-2010-question-27",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "1154",
+  "year": 2010,
+  "set": null,
+  "number": 28,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The degree sequence of a simple graph is the sequence of the degrees of the nodes in the graph in decreasing order. Which of the following sequences can not be the degree sequence of any graph?\n  \n\n    I and II\n   \n\n    III and IV\n   \n\n    IV only\n   \n\n    II and IV",
+  "options": [
+   "$7, 6, 5, 4, 4, 3, 2, 1$",
+   "$6, 6, 6, 6, 3, 3, 2, 2$",
+   "$7, 6, 6, 4, 4, 3, 2, 2$",
+   "$8, 7, 7, 6, 4, 2, 1, 1$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "A degree sequence $d_1,d_2,d_3\\ldots d_n$ of non negative integer is graphical if it is a degree sequence of a graph. We now introduce a powerful tool to determine whether a particular sequence is graphical due to Havel and Hakimi\n   Havel–Hakimi Theorem :\n   → According to this theorem, Let $D$ be the sequence $d_1,d_2,d_3 \\dots dn$ with $d_1 \\geq d_2 \\geq d_3 \\geq \\ldots d_n$ for $n \\geq 2$ and $d_i  \\geq 0$.\n   → If each $d_i = 0$ then $D$ is graphical\n   → Then $D_0$ be the sequence obtained by:\n   → Discarding $d_1$, and\n   → Subtracting $1$ from each of the next $d_1$ entries of $D$.\n   → That is Degree sequence $D_0$ would be : $d_2-1, d_3-1, \\ldots  , d_{d_1+1} -1, \\ldots , d_n$\n   → Then, $D$ is graphical if and only if $D_0$ is graphical.\n   Now, we apply this theorem to given sequences:\n  \n\n    $7,6,5,4,4,3,2,1 \\rightarrow 5,4,3,3,2,1,0 \\rightarrow 3,2,2,1,0,0 \\rightarrow 1,1,0,0,0 \\rightarrow 0,0,0,0$ so it is graphical.\n   \n\n    $6,6,6,6,3,3,2,2 \\rightarrow 5,5,5,2,2,1,2$ ( arrange in descending order) $\\rightarrow 5,5,5,2,2,2,1 \\rightarrow 4,4,1,1,1,1 \\rightarrow 3,0,0,0,1$ we cannot continue to get all $0's$, so it is not graphical.\n   \n\n    $7,6,6,4,4,3,2,2 \\rightarrow 5,5,3,3,2,1,1 \\rightarrow 4,2,2,1,1,0 \\rightarrow 1,1,0,0,0 \\rightarrow 0,0,0,0$ so it is graphical.\n   \n\n    $8,7,7,6,4,2,1,1$, here degree of a vertex is $8$ and total number of vertices are $8$,  which is impossible, hence it is not graphical.\n   \n\n   Hence, only option (I) and (III) are graphic sequence and answer is option-(\n   \n    D\n   \n   )\nThe answer is clearly D.\n  \n\n   You can eliminate the last sequence i.e 4th one as... the total number of vertices is 8 and the maximum degree given is 8 too. which isn't possible at all. The maximum degree you can have out of 8 vertices is 7.\n  \n\n   Now coming to the method for solving such questions is through Havel-Hakimi Algorithm.\n  \n\n   you can implement it by following one simple video. Here it is. :)\n[IMAGE:200]\n\n   D is correct ans\nI) 5433210 = > 322100=> 11000=> 0000 so option i  correct eliminates A\n  \n\n    ii)66663322 = > 555221 =>44110=>3000 so not graphic sequence eliminates B and C so D is answer\nans d , 2nd and 4th not graphical using havell hakimi and maximum degree should not be equal to total no of vertices\nFor all options apply havel hakimmi theorem.\n  \n\n    Also for degree sequence { 8,7,7,6,4,2,1,1}   there are 8 vertices and the max degree for 8 vertices can be 7  hence sequence is wrong as its mentioned that highest degree is 8\n    \n\n      Therefore the answer is option D",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3338950695214328081",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/1154/gate-cse-2010-question-28",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "1155",
+  "year": 2010,
+  "set": null,
+  "number": 29,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Engineering Mathematics",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Consider the following matrix $$A = \\left[\\begin{array}{cc}2 & 3\\\\x & y \\end{array}\\right]$$ If the eigenvalues of A are $4$ and $8$, then",
+  "options": [
+   "$x = 4$, $y = 10$",
+   "$x = 5$, $y = 8$",
+   "$x = 3$, $y = 9$",
+   "$x = -4$, $y =10$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Sum of eigenvalues is equal to trace (sum of diagonal elements) and product of eigen values is equal to the determinant of matrix\n  So, $2+y=8+4$ and  $2y-3x = 32$\n  Solving this we get $y = 10, x =-4.$\n  Option $D$ is answer.\nSolve the equation 3x 2y=8 and x 2y=16 which i get x= -4 ,y = 10\nAs we know The product of eigenvalue is equal to\n   \n    Determinant. So\n   \n   in this question, eigenvalues are given 4 and 8. So are determinant is 32. Now we can put the value of X and Y and  check whether the determinant is equal to 32 or not\nI found one more interesting solution, which will give you intuition as per @sachin sir language.\n  \n\n   Follow the steps:\n  \n\n    Select Option 1, make a matrix.\n   \n\n    Subtract eigenvalues from the main diagonal.\n   \n\n    Check if the matrix has linearly dependent columns.\n   \n\n    Follow the above 3 steps for other options as well.\n   \n\n   I know the solution provided by Pooja is faster but it is also an interesting way to think about the solution.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/1155/gate-cse-2010-question-29",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "1156",
+  "year": 2010,
+  "set": null,
+  "number": 30,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Suppose the predicate $F(x, y, t)$ is used to represent the statement that person $x$ can fool person $y$ at time $t$.\n  \n\n   Which one of the statements below expresses best the meaning of the formula,\n  \n\n   $\\qquad∀x∃y∃t(¬F(x,y,t))$",
+  "options": [
+   "Everyone can fool some person at some time",
+   "No one can fool everyone all the time",
+   "Everyone cannot fool some person all the time",
+   "No one can fool some person at some time"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$F(x, y, t) \\implies$ person $x$ can fool person $y$ at time $t.$\n  \n\n   For the sake of simplicity propagate negation sign outward by applying De Morgan's law.\n  \n\n   $∀x∃y∃t(¬F(x,y,t)) \\equiv ¬∃x∀y∀t(F(x, y, t))$ [By applying De Morgan's law.]\n  \n\n   Now converting $¬∃x∀y∀t(F(x, y, t))$ to English is simple.\n  \n\n   $\\color{blue}{¬∃}x\\color{green}{∀}y\\color{red}{∀}t(F(x, y, t))\\implies \\color{blue}{\\text{ There does not exist }}$$ \\text{a person who can fool }$$\\color{green}{\\text{everyone}} $$\\color{red}{\\text{ all}} \\text{ the time.}$\n  \n\n   Which means\n   \n    No\n   \n   one can fool everyone all the time.\n  \n\n   So,\n   \n    option (B) is correct.\nB is the correct answer. The trick is to bring the negate sign to the extreme left. Form a sentence without using negate and just negate that.\n  \n\n    $\\forall x \\exists y \\exists t(\\neg F(x,y,t))$\n    \n\n     $\\equiv \\neg(\\neg\\forall x \\neg \\exists y \\neg \\exists t) (\\neg F(x,y,t))$\n     $\\equiv \\neg (\\neg\\forall x \\neg \\exists y \\neg \\exists t ( F(x,y,t)))$\n     $\\equiv \\neg (\\exists x \\forall y \\forall t ( F(x,y,t)))$.\nWithout negation the statement is like: Everyone can fool Someone at some time.\n   \n\n    So symply, with negation it will be like: No one can fool everyone all the time.\n∀x∃y∃t(¬F(x,y,t))∀x∃y∃t(¬F(x,y,t))\n  \n\n   Everyone cannot fool  someone at some time\n  \n\n    (∀x)\n   \n\n    (¬F)\n   \n\n    (∃y)\n   \n\n    (∃t)\n   \n\n    to translate in hindi in other words\n   \n\n   har koyi kisi na kisi  ko bewakoof banane mein  asafal rahy ga kisi na kisi time pe\n  \n\n   so\n  \n\n   no one can fool everyone all the time\n  \n\n   Answer(B)\nThe given FOL expression is as $\\forall x \\, \\exists y \\, \\exists t \\, (\\neg \\, F(x, y, t))$ which means\n  \n\n    \"For every person x, there exists a person y who cannot be fooled at some time t.\"\n   \n\n   By using De-Morgan's law, we could bring the\n   \n\n     NOT\n    \n\n   operator to the left,\n  \n\n   $\\neg \\, \\exists x \\, \\forall y\\, \\forall t\\, (F(x, y, t)) \\equiv$\n   \n    \"It is\n    \n     false\n    \n    that someone can fool everyone at all time.\"\n   \n   $\\equiv$\n   \n    \"There is no person x that can fool every person y at all time t.\"\n   \n\n   which also means\n   \n    \"No one can fool everyone all the time.\"\n   \n   (\n   \n    Answer\n   \n   :\n   \n    Option B\n   \n   )\n  \n\n     Analysing Option A\n    \n\n   A)\n   \n    \"Everyone can fool some person at some time.\"\n   \n   (which is straigh-forward)\n  \n\n   $\\forall x\\, \\exists y\\, \\exists t \\, (F(x, y, t))$\n  \n\n     Analysing Option C\n    \n\n   C)\n   \n    \"Everyone cannot fool some person all the time.\"\n   \n   which can be meant as\n   \n    \"For every person x, there exists some person y who cannot be fooled at any time t.\"\n   \n\n   $\\forall x\\, \\exists y\\, \\forall t\\, (\\neg \\, F(x, y, t))$\n  \n\n   Using De-Morgan's law, the above expression can be written as\n  \n\n   $\\neg \\, \\exists x\\, \\forall y\\, \\exists t\\, (F(x, y, t)) \\equiv$ \"It is false that someone can fool everyone at some time.\"\n  \n\n     Analysing Option D\n    \n\n   D)\n   \n    \"No one can fool some person at some time.\"\n   \n   which is equivalent to\n   \n    \"It is false that someone can fool some person at some time\"\n   \n   and it can be written as\n  \n\n   $\\neg \\, \\exists x\\, \\exists y\\, \\exists t \\, (F(x, y, t))$\n  \n\n   Using De-Morgan's law, the above expression can be written as\n  \n\n   $\\forall x\\, \\forall y\\, \\forall t\\, (\\neg \\, F(x, y, t)) \\equiv$\n   \n    \"No one can fool any one at any time.\"\n[IMAGE:500]\n\n   😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=18212588623442731402",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/1156/gate-cse-2010-question-30",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2205",
+  "year": 2010,
+  "set": null,
+  "number": 31,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "What is the boolean expression for the output $f$ of the combinational logic circuit of NOR gates given below?\n  \n\n[IMAGE:0]",
+  "options": [
+   "$\\overline{Q+R}$",
+   "$\\overline{P+Q}$",
+   "$\\overline{P+R}$",
+   "$\\overline{P+Q+R}$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "$​\\text{ Level 1:}$\n  $(\\overline{P + Q}) (\\overline{Q + R}) (\\overline{P + R}) (\\overline{Q + R})$\n  $\\text{ Level 2:}$\n  $\\overline{(\\overline{P + Q})+(\\overline{Q + R})} = (P+Q)(Q+R)=PQ+PR+Q+QR$\n  $\\overline{(\\overline{P + R}) (\\overline{Q + R})} = (P+R)(Q+R)=PQ+R+QR+PR$\n  $\\text{ Level 3:}$\n  $\\\\\\overline{PR+QR+PQ+Q+R} =\\overline{Q+R}\\\\ \\therefore \\text{ Answer: Option A} ​$\n$f=(\\overline{(\\overline{(\\overline{P+Q})+(\\overline{Q+R})})+(\\overline{(\\overline{P+R})+(\\overline{Q+R})})})$\n  Using De-Morgan's law: $\\overline{\\overline{(P+Q)}+\\overline{(Q+R)}}=\\overline{\\overline{(P+Q)}}.\\overline{\\overline{(Q+R)}}$ and $\\overline{\\overline{(P+R)}+\\overline{(Q+R)}}=\\overline{\\overline{(P+R)}}.\\overline{\\overline{(Q+R)}}$\n  $\\rightarrow(\\overline{(P+Q).(Q+R)+(P+R).(Q+R)})$\n  $\\rightarrow(\\overline{(PQ+PR+Q+QR)+(PQ+PR+R+QR)})$\n  Q + QR = Q and R + QR = R [absorption law]\n  $\\rightarrow(\\overline{(PQ+PR+Q)+(PQ+PR+R)})$\n  Q + PQ = Q and R + PR = R\n  $\\rightarrow(\\overline{PR+R+PQ+Q})$\n  $\\rightarrow(\\overline{Q+R})$\n[((P'Q') + (Q'R'))' + (P'R') + (Q'R'))']'\n  [(Q'(P' + R'))' + (R'(P' + Q'))']'\n  [(Q + PR + R + PQ)]'\n  [Q(1 + P) + R(1 + P)]'\n  [Q + R]'---------Answer.\nHope you find this helpful...\n   [IMAGE:300]\nHere is the answer :\n   [IMAGE:400]\n[IMAGE:401]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5539233184119005584",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15855503744742143559",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5132486601565360822",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16050952670337033643",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2205/gate-cse-2010-question-31",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2206",
+  "year": 2010,
+  "set": null,
+  "number": 32,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Digital Logic",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In the sequential circuit shown below, if the initial value of the output $Q_1Q_0$ is $00$. What are the next four values of $Q_1Q_0$?\n  \n\n[IMAGE:0]",
+  "options": [
+   "$11$, $10$, $01$, $00$",
+   "$10$, $11$, $01$, $00$",
+   "$10$, $00$, $01$, $11$",
+   "$11$, $10$, $00$, $01$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Option A.\n   \n\n[IMAGE:0]\n\n   $2^{nd}$ flip-flop will be active only when $1^{st}$ flip flop produces output $1.$ For clocks $2$ and $4$ old output is retained by Flip-Flop $2$.\n  \n\n   $\\begin{array}{c|c}T&Q_{n+1}\\\\\\hline 0&Q_n\\\\1&\\overline{Q_n}\\end{array}$$\\underset{\\text{For rows 2 and 4, Clk for $T_1$ is 0 and hence old o/p is retained}}{\\begin{array}{cc|cc}T_0&Q_{0}&T_1&Q_1\\\\\\hline &0&&0\\\\\\hline 1&1&1&1\\\\1&0&1&1\\\\1&1&1&0\\\\1&0&1&0\\end{array}}$ $\\begin{array}{c|c}Q_1&Q_{0}\\\\\\hline1&1\\\\1&0\\\\0&1\\\\0&0\\end{array}$\nanswer - A\n  Initially Q0Q1 = 00\n  after first clock signal Q0 will be toggled and change to 1. It will activate clock of second FF in sequence and toggle that one as well.\n  Hence next output Q0Q1=11\n  Similarly next few sequences for Q0Q1 will be 01, 00\n  Hence answer sequence Q1Q0 will be 11,10,01,00\n[IMAGE:200]\n\n   Since, Flip Flop T\n   \n    0\n   \n   is clocked directly from main clock, Q\n   \n    0\n   \n   will make transitions(toggle as it's T input is 1) whenever the clock pulse goes from 0 to 1 as flip flops are positive edge triggered.\n  \n\n   Flip Flop T\n   \n    1\n   \n   's clock is depending on output of Flip Flop T\n   \n    0\n   \n   which is Q\n   \n    0\n   \n   . Hence, whenever Q\n   \n    0\n   \n   makes a transition from 0 to 1,Q\n   \n    1\n   \n   , will also make transition(toggle as it's T input is 1) .\n  \n\n   As it it clear from timing diagram, the next four values of Q1 Q0 are 11, 10, 01 , 00. Ans (a)\n[IMAGE:300]\n\n   Asynchronous circuit, please correct me if iam wrong,.\n$Q_{0Next} = T_{0}\\oplus Q_{0} = 1\\oplus Q_{0} = Q_{0}'\\:;\\:$ For every clock\n  \n\n   $Q_{1Next} = T_{1} \\oplus Q_{1} = 1 \\oplus Q_{1} = Q_{1}'\\:;\\: $ When $Q_{0}:0 \\:to\\: 1$ (Because clock is positive edge triggered)\n  \n\n      $Q_{1}$\n     \n\n      $Q_{0}$\n     \n\n      $Q_{1Next}$\n     \n\n      $Q_{0Next}$\n     \n\n      $0$\n     \n\n      $0$\n     \n\n      $1$\n     \n\n      $1$\n     \n\n      $0$\n     \n\n      $1$\n     \n\n      $0$\n     \n\n      $0$\n     \n\n      $1$\n     \n\n      $0$\n     \n\n      $0$\n     \n\n      $1$\n     \n\n      $1$\n     \n\n      $1$\n     \n\n      $1$\n     \n\n      $0$\n     \n\n    State diagram:\n   \n\n[IMAGE:400]\n\n   So, the correct answer is $(A)$.\nDespite all the excellent answers explaining the in depth working of the circuit, i will like to mention a trick, that is time saving too (specific to this question only).\n  \n\n    Here, we can see that T Flip Flop is used and T flip flop will complement the current state when presented with input one, here the Flip Flop giving the output Q0 is connected to the clock, and is given constant input 1. So, Q0 will alternate with every clock pulse. Only option A satisfies this condition.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=11620377880464154982",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=9492421731067507759",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1459952684217082735",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1291464699265417079",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=14469610370701686790",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2206/gate-cse-2010-question-32",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2207",
+  "year": 2010,
+  "set": null,
+  "number": 33,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Computer Organization",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A $5-$stage pipelined processor has Instruction Fetch (IF), Instruction Decode (ID), Operand Fetch (OF), Perform Operation (PO) and Write Operand (WO) stages. The IF, ID, OF and WO stages take $1$ clock cycle each for any instruction. The PO stage takes $1$ clock cycle for ADD and SUB instructions, $3$ clock cycles for MUL instruction and $6$ clock cycles for DIV instruction respectively. Operand forwarding is used in the pipeline. What is the number of clock cycles needed to execute the following sequence of instructions?\n  \n\n   $$\\begin{array}{|c|l||} \\hline  \\textbf {Instruction} &  \\textbf{Meaning of instruction}  \\\\\\hline  \\text{$t _0$: MUL $R _2$,$R _0$,$R _1$} & \\text{R}_2  \\gets \\text{R}_0*\\text{R}_1\\\\\\hline  \\text{$t _1$: DIV $R _5,R _3,R _4$} & \\text{R}_5 \\gets \\text{R}_3 ∕ \\text{R}_4\\\\\\hline   \\text{$t _2$: ADD $R _2,R _5,R _2$} & \\text{R}_2 \\gets \\text{R}_5 + \\text{R}_2 \\\\\\hline t_3: \\text{SUB} \\:\\text{R}_5,\\text{R}_2,\\text{R}_6 & \\text{R}_5 \\gets \\text{R}_2 - \\text{R}_6  \\\\\\hline\\end{array}$$",
+  "options": [
+   "$13$",
+   "$15$",
+   "$17$",
+   "$19$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$\\small \\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|} \\hline\n   &\\bf{t_1}&\\bf{t_2}&\\bf{t_3}&\\bf{t_4}&\\bf{t_5}&\\bf{t_6}&\\bf{t_7}&\\bf{t_8}&\\bf{t_9}&\\bf{t_{10}}&\\bf{t_{11}}&\\bf{t_{12}}&\\bf{t_{13}}&\\bf{t_{14}}&\\bf{t_{15}}\\\\\n   \\hline\n   \\textbf{MUL}&\\text{IF}&\\text{ID}&\\text{OF}&\\text{PO}&\\text{PO}&\\text{PO}&\\text{WO}\\\\\n   \\textbf{DIV}&&\\text{IF}&\\text{ID}&\\text{OF}&\\color{red}{-}&\\color{red}{-}&\\text{PO}&\\text{PO}&\\text{PO}&\\text{PO}&\\text{PO}&\\color{green}{\\boxed{\\text{PO}}}&\\text{WO}\\\\\n   \\textbf{ADD}&&&\\text{IF}&\\text{ID}&\\color{red}{-}&\\color{red}{-}&\\text{OF}&\\color{red}{-}&\\color{red}{-}&\\color{red}{-}&\\color{red}{-}&\\color{red}{-}\n   &\\color{blue}{\\boxed{\\color{green}{\\boxed{\\text{PO}}}}}&\\text{WO}\\\\\n   \\textbf{SUB}&&&&\\text{IF}&\\color{red}{-}&\\color{red}{-}&\\text{ID}&\\color{red}{-}&\\color{red}{-}&\\color{red}{-}&\\color{red}{-}&\\color{red}{-}\n   &\\text{OF}\n   &\\color{blue}{\\boxed{\\text{PO}}}&\\text{WO}\\\\\n   \\hline\\end{array}$\n  \n\n   Operand forwarding allows an output to be passed for the next instruction. Here from the output of PO stage of DIV instruction operand is forwarded to the PO stage of ADD instruction and similarly between ADD and SUB instructions. Hence, $15$cycles required.\n  \n\n    http://www.cs.iastate.edu/~prabhu/Tutorial/PIPELINE/forward.html\n   \n\n   Correct Answer: $B$\nLet IF=F, ID=D, OF=O, PO=P, WO=W\n    \n\n     I1 FDOPPPW\n    \n\n     I2 HFDO--PPPPPPW\n    \n\n     I3 HHFD-------OPW\n    \n\n     I4 HHHFD-------OPW\n    \n\n    (I3 depends upon R5 n R2, n using operator forwarding we can use R5 value directly when PO of I2 completes). Same happens for I4. So the total time taken until I4 completion is 15. (B) would be correct answer\nIt is very easy.\n  \n\n   Hope my solution makes you understand\n  \n\n[IMAGE:200]\nBefore making the pipelining diagram understand the dependencies and try not to make hazards out of them in the pipelining.\n  \n\n   When you see the instructions given, you can see that Addition (Instruction t2 is dependent on t1 and t0) and  subtraction is dependent on addition (instruction 2)\n  \n\n   We are provided with the use of operand forwarding, which means whenever the instruction completes it's perform operation stage (that is when the operands will have change in their values because of addition, subtraction, and multiplication or addition we can use a stage buffer to pass the updated value to the instructions after that, we don't need to wait for these instructions to fully write back into the memory and use them.)\n  \n\n   Now, let's make a pipelining diagram.\n  \n\n   I am using the actual initials of the operations as instructions name so that it can help to understand diagram more better.\n  \n\n      Cycles->\n     \n\n      1\n     \n\n      2\n     \n\n      3\n     \n\n      4\n     \n\n      5\n     \n\n      6\n     \n\n      7\n     \n\n      8\n     \n\n      9\n     \n\n      10\n     \n\n      11\n     \n\n      12\n     \n\n      13\n     \n\n      14\n     \n\n      15\n     \n\n      Instruction fetch\n     \n\n      Multiplication\n     \n\n      Division\n     \n\n      Addition\n     \n\n      Subtraction\n     \n\n      Instruction decode\n     \n\n      Multiplication\n     \n\n      Division\n     \n\n      Addition\n     \n\n      Subtraction\n     \n\n      Operand fetch\n     \n\n      Multiplication\n     \n\n      Division\n     \n\n      Addition (the only true values for addition will be available at this cycle)\n     \n\n      Subtraction(True values for subtraction will be obtained here)\n     \n\n      Perform operation\n     \n\n      Multiplication\n     \n\n      Multiplication\n     \n\n      Multiplication\n     \n\n      Division\n     \n\n      Division\n     \n\n      Division\n     \n\n      Division\n     \n\n      Division\n     \n\n      Division\n     \n\n      Addition\n     \n\n      Subtraction\n     \n\n      Write back\n     \n\n      Multiplication\n     \n\n      Division\n     \n\n      Addition\n     \n\n      Subtraction\n     \n\n   Therefore total 15 cycles used.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5729239708345549834",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2207/gate-cse-2010-question-33",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2208",
+  "year": 2010,
+  "set": null,
+  "number": 34,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Algorithms",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The weight of a sequence $a_0,a_1, \\dots, a_{n-1}$ of real numbers is defined as $a_0+a_1/2+ \\dots + a_{n-1}/2^{n-1}$. A subsequence of a sequence is obtained by deleting some elements from the sequence, keeping the order of the remaining elements the same. Let $X$ denote the maximum possible weight of a subsequence of $a_o,a_1, \\dots, a_{n-1}$ and $Y$ the maximum possible weight of a subsequence of $a_1,a_2, \\dots, a_{n-1}$. Then $X$ is equal to",
+  "options": [
+   "$max(Y, a_0+Y)$",
+   "$max(Y, a_0+Y/2)$",
+   "$max(Y, a_0 +2Y)$",
+   "$a_0+Y/2$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$$\\begin{align}\n   &S = \\langle a_0, S_1 \\rangle\\\\\n   &S_1 = \\langle a_1, a_2, a_3 \\ldots a_{n-1} \\rangle\n   \\end{align}$$\n  \n\n    Two possible cases arise:\n   \n\n    $\\bf{a_0}$\n    \n     is included in the max weight subsequence of\n    \n    $\\textbf{S:}$\n    In this case, $X = \\text{weight} \\Bigl( \\langle a_0, S_1 \\rangle \\Bigr) = a_0 + \\dfrac Y 2$\n   \n\n    $\\bf{a_0}$\n    \n     is not included in the max weight subsequence of\n    \n    $\\textbf{S:}$\n    In this case, $X = \\text{weight}(S_1) = Y$\n   \n\n   Since the value of $a_0$ can be anything (negative or $<\\frac Y 2$ in general) $\\{ \\because a_i \\in \\mathbb{R} \\}$, it is possible that $Y > a_0 + \\frac Y 2$.\n  \n\n   The maximum possible weight of a subsequence of $S$ is given by: $$X = \\max \\left ( Y, a_0 + \\frac Y 2 \\right )$$\n  \n\n    Thus, option B is correct.\nThe weight of a sequence\n   \n    $a_{0},a_{1} , ............. , a_{n-1}$\n   \n   of real numbers is defined as\n   \n    $a_{0}+\\frac{a_{1}}{2} + ..............+ \\frac{a_{n-1}}{2^{n-1}}$.\n   \n\n    $X$\n   \n   denote the maximum possible weight of a subsequence of\n   \n    $a_{0},a_{1} , ............. , a_{n-1}$\n   \n   and\n  \n\n    $Y$\n   \n   the maximum possible weight of a subsequence of\n   \n    $a_{1} , ............. , a_{n-1}$\n   \n\n   As the weight of the sequence\n   \n    $a_{0},a_{1} , ............. , a_{n-1}$\n   \n   of real numbers is defined as\n   \n    $a_{0}+\\frac{a_{1}}{2} + ..............+ \\frac{a_{n-1}}{2^{n-1}}$.\n   \n\n    .\n   \n\n    so\n   \n   similarly for  the subsequence\n   \n    $a_{1} , ............. , a_{n-1}$\n   \n   the weight\n   can be defined as\n   \n    ($a_{1}+\\frac{a_{2}}{2}+.......... + \\frac{a_{n-1}}{2^{n-2}}$)…\n   \n\n    CASE 1:\n   \n   Now suppose the maximum possible weight of the subsequence  is\n   \n    $Y$\n   \n   only then it will be also maximum weight for the subsequence\n   \n    $a_{0},a_{1} , ............. , a_{n-1}$.\n   \n\n    i.e\n   \n\n    $X=weight(Y)$\n   \n\n    CASE 2:\n   \n   if the weight\n   \n    $Y$\n   \n   is not the maximum then we have to also include\n   \n    $a_{0}$\n   \n   in it. and as it is given in the question that the maximum weight of the sequence\n   \n    $a_{0},a_{1} , ............. , a_{n-1}$\n   \n   is\n   \n    $a_{0}+\\frac{a_{1}}{2} + ..............+ \\frac{a_{n-1}}{2^{n-1}}$.\n   \n\n    .\n   \n\n   but we have the weight\n   \n    $Y$\n   \n   as\n   \n    ($a_{1}+\\frac{a_{2}}{2}+.......... + \\frac{a_{n-1}}{2^{n-2}}$)…\n   \n   so before adding\n   \n    $a_{0}$\n   \n   to it we have to divide this weight by\n   \n    $2$\n   \n   . so after dividing by\n   \n    $2$\n   \n   we will get (\n   \n    $\\frac{a_{1}}{2}+ .......... + \\frac{a_{n-1}}{2^{n-1}}$).\n   \n\n   now after including\n   \n    $a_{0}$\n   \n   we will get the maximum weight of subsequence\n   \n    $X$ = $a_{0}+\\frac{a_{1}}{2} + ..............+ \\frac{a_{n-1}}{2^{n-1}}$. where $\\frac{a_{1}}{2}+ .......... + \\frac{a_{n-1}}{2^{n-1}}$\n    \n     = $Y$\n    \n\n    i.e   $X = a_{0} +\\frac{Y}{2}$\n   \n\n   which is the maximum weight in this case.\n  \n\n   so from both\n   \n    CASE 1\n   \n   and\n   \n    CASE 2\n   \n   we can conclude that\n   \n    $X$\n   \n   will be\n  \n\n   $X  = max( Y, a_{0} + \\frac{Y}{2})$\n  \n\n     ANS is $option$ $B$ !!",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2208/gate-cse-2010-question-34",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2336",
+  "year": 2010,
+  "set": null,
+  "number": 35,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Algorithms",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "What is the value printed by the following C program?\n  \n\n#include<stdio.h>\n\nint f(int *a, int n)\n{\n    if (n <= 0) return 0;\n    else if (*a % 2 == 0) return *a+f(a+1, n-1);\n    else return *a - f(a+1, n-1);\n}\n\nint main()\n{\n    int a[] = {12, 7, 13, 4, 11, 6};\n    printf(\"%d\", f(a, 6));\n    return 0;\n}",
+  "options": [
+   "$-9$",
+   "$5$",
+   "$15$",
+   "$19$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Suppose $int$ array takes $4$ bytes for each element and stored at base address $100$.\n   Follow below image. Red color shows the return value.\n  \n\n[IMAGE:0]\n   So, $15$ is the answer.\n   Correct Answer: $C$\nIt will print\n  \n\n   $12 + ( 7 - (13 - (4 + (11 - ( 6 + 0)))))$\n   \n\n    $\\quad = 12 + (7 - (13 - ( 4 + ( 11 -6)))))$\n    \n\n     $\\quad= 12 + 7 - 13 + 9$\n     \n\n      $\\quad= 15$\n[IMAGE:200]\n\n   Answer : Option C) 15\nit is C. 15.\nHere is the explanation !!\n    \n\n[IMAGE:400]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16973115203349851068",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=6519250274379828966",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5889414170158646772",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2336/gate-cse-2010-question-35",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2337",
+  "year": 2010,
+  "set": null,
+  "number": 36,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Data Structures",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The following C function takes a singly-linked list as input argument. It modifies the list by moving the last element to the front of the list and returns the modified list. Some part of the code is left blank.\n  \n\ntypedef struct node \n{\n    int value;\n    struct node *next;\n} Node;    \nNode *move_to-front(Node *head) \n{\n    Node *p, *q;\n    if ((head == NULL) || (head -> next == NULL))\n        return head;\n    q = NULL; \n    p = head;\n    while (p->next != NULL)\n    {\n        q=p;\n        p=p->next;\n    }\n    _______________ \n    \n    return head;  \n    \n}    \n\n   Choose the correct alternative to replace the blank line.",
+  "options": [
+   "$q=NULL; p \\rightarrow next = head; head = p$;",
+   "$q \\rightarrow next = NULL; head = p; p \\rightarrow next = head$;",
+   "$head = p; p \\rightarrow next =q; q \\rightarrow next = NULL$;",
+   "$q \\rightarrow next = NULL; p \\rightarrow next = head; head = p$;"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "As per given code $p$ points to last node which should be head in modified.\n   $q$ is the previous node of tail which should be tail for modified\n   Answer is (\n   \n    D\n   \n   ).\nafter the last iteration of the while loop, here's how the condition look like :\n  \n\n[IMAGE:100]\n\n   on selecting\n   \n\n      option D\n     \n\n   ; we serve the purpose of moving the last node to the front of the linked list. this is how it works:\n   its first statement makes $q$ the last node\n   second statement makes the last node $p$ points to the first node\n   last statement declares $p$ as the $head$ of the linked list.\nHere is the solution :\n   [IMAGE:200]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=4982291208577301183",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=819356007848642397",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2337/gate-cse-2010-question-36",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2338",
+  "year": 2010,
+  "set": null,
+  "number": 37,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Compiler Design",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The program below uses six temporary variables $a, b, c, d, e, f$.\n  \n\na = 1 \nb = 10\nc = 20 \nd = a + b\ne = c + d \nf = c + e \nb = c + e \ne = b + f \nd = 5 + e\nreturn d + f \n\n   Assuming that all operations take their operands from registers, what is the minimum number of registers needed to execute this program without spilling?",
+  "options": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$6$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Here in these types of compiler questions, idea is \"map/assign multiple temporaries to one registers.\"\n  here $a, b,$ and $c$ all are having $3$ different values so i need atleast $3$ registers $r1$, $r2$ and $r3$.\n  $a$ is mapped to $r1$, $b$ to $r2$ and $c$ to $r3$.\n  $d = a + b$, after this line if u notice '$a$' is never present on right hand side, so I can map (register of $a$ which is $r1$ ) $d$ to $r1$.\n  $e = c + d$, after this line '$d$' is never present on rhs, so I can map (register of $d$ which is $r1$ ) $e$ to $r1$.\n  at this time mapping is\n  $r1 --- e$\n  $r2 --- b$\n  $r3 --- c$\n  (at this moment I have registers for $e, b$ and $c$. if I introduce new variable then I may need different register)\n  now at this point if u see\n  $f = c + e$\n  $b = c + e$\n  these two are essentially doing same thing, after these two line '$b$' and '$f$' are same so I can skip computing '$f$'. and whereever $f$ is present I will replace it with '$b$'. (because neither of '$f$' and '$b$' are changing after these two lines, so value of these will be '$c+e$' forever)\n  (seems like I introduced one more variable $f$, and register is needed for that, but actually I did not really introduce '$f$'. I am skipping computation of '$f$')\n  now at second last line \"$d = 5 + e$\"\n  here I introduced '$d$', I can map it to any of the register $r1$ or $r3$, because after this line neither of '$e$' or '$c$' is required. (value of '$b$' is required because I need to return '$d+f$', and '$f$' is essentially equal to '$b$')\n  finally code becomes\n  $r1 = 1$\n  $r2 = 10$\n  $r3 = 20$\n  $r1 = r1 + r2$\n  $r1 = r3 + r1$\n  (skipping '$f$' computation)\n  $r2 = r3 + r1$\n  $r2 = r3 + r1$\n  $r1 = r2 + r2$\n  $r3 = 5 + r1$\n  return $r3 + r2$\n  Therefore minimum $3$ registers needed.\n  Correct Answer: $B$\nAll of the given expressions use at-most 3 variables, so we never nee more than 3 registers.\n  \n\n   See\n   \n    http://en.wikipedia.org/wiki/Register_allocation\n   \n\n   It requires minimum 3 registers.\n  \n\n    Principle of Register Allocation\n   \n   : If a variable needs to be allocated to a register, the system checks for any free register available, if it finds one, it allocates. If there is no free register, then it checks for a register that contains a dead variable ( a variable whose value is not going to be used in future ), and if it finds one then it allocates. Otherwise it goes for Spilling ( it checks for a register whose value is needed after the longest time, saves its value into the memory, and then use that register for current allocation, later when the old value of the register is needed, the system gets it from the memory where it was saved and allocate it in any register which is available ).\n  \n\n   But here we should not apply spilling as directed in the question.\n  \n\n   Let’s allocate the registers for the variables.\n  \n\n   a = 1 ( let’s say register R1 is allocated for variable ‘a’ )\n  \n\n   b = 10 ( R2 for ‘b’ , because value of ‘a’ is going to be used in the future, hence can not replace variable of ‘a’ by that of ‘b’ in R1)\n  \n\n   c = 20 ( R3 for ‘c’, because values of ‘a’ and ‘b’ are going to be used in the future, hence can not replace variable ‘a’ or ‘b’ by ‘c’ in R1 or R2 respectively)\n  \n\n   d = a+b ( now, ‘d’ can be assigned to R1 because R1 contains dead variable which is ‘a’ and it is so called because it is not going to be used in future, i.e. no subsequent expression uses the value of variable ‘a’)\n  \n\n   e = c+d ( ‘e’ can be assigned to R1, because currently R1 contains value of varibale ‘d’ which is not going to be used in the subsequent expression.)\n  \n\n    Note\n   \n   : an already calculated value of a variable is used only by READ operation ( not WRITE), hence we have to see only on the RHS side of the subsequent expressions that whether the variable is going to be used or not.\n  \n\n   f = c+e ( ‘ f ‘ can be assigned to R2, because vaule of ‘b’ in register R2 is not going to be used in subsequent expressions, hence R2 can be used to allocate for ‘ f ‘ replacing ‘b’ )\n  \n\n   b = c+e ( ‘ b ‘ can be assigned to R3, because value of ‘c’ in R3 is not being used later )\n  \n\n   e = b+f ( here ‘e’ is already in R1, so no allocation here, direct assignment )\n  \n\n   d = 5+e ( ‘d’ can be assigned to either R1 or R3, because values in both are not used further, let’s assign in R1 )\n  \n\n   return d+f ( no allocation here, simply contents of registers R1 and R2 are added and returned)\n  \n\n   hence we need only 3 registers, R1 R2 and R3.\n  \n\n   ref-\n   \n    http://quiz.geeksforgeeks.org/gate-gate-cs-2010-question-37/\nAfter making the interference graph it can be colored with 3 different colors. Therefore minimum number of color needed to execute the program without spilling would be 3 (B).\n3 registers.\n  \n\n   here,\n  \n\nd = a + b\ne = c + (a+b) \nf = c + (c+ (a+b)) \nb = c + (c+ (a+b) = f \ne = b + (c+(c+(a+b))) \nd = 5 + (b+(c+(c+(a+b))))\nreturn d + f \n\n   first evaluate b using two registers and then store its value in f because f and b are equal.\n  \n\n   now evaluate d with two registers. then return d+f\n  \n\n   hence 3 registers.\n2 Registers\n   \n\na = 1        ===>>   R1=a;\nb = 10       ===>>   R2=b;\nc = 20       ===>>   \nd = a + b    ===>>   R1{D}=R1{A}+R2{B};\ne = c + d    ===>>   R2=c;   R1{E}=R1{D}+R2{C};\nf = c + e    ===>>   R1{F}=R2{C}+R1{E};\nb = c + e    ===>>   R2{B}=R1{F};\ne = b + f    ===>>   R2{E}=R2{B}+R1{F};\nd = 5 + e    ===>>   R2{D}=5{CONST}+R2{E};\nreturn d + f ===>>   RETURN R2{D}+R1{F};\nFollowing registers are live from top statement to bottom statement:\n   \n\n    $\\{a\\}$\n   \n\n    $\\{a,b\\}$\n   \n\n    $\\{a,b,c\\}$\n   \n\n    $\\{c,d\\}$\n   \n\n    $\\{c,e\\}$\n   \n\n    $\\{c,e,f\\}$\n   \n\n    $\\{b,f\\}$\n   \n\n    $\\{e\\}$\n   \n\n    $\\{d,e\\}$\n   \n\n   After making a graph with variables as vertices & edges between two nodes iff they lie in same block (\n   \n    within braces\n   \n   ), the graph happened to be $3$ colorable hence 3 registers are required.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2338/gate-cse-2010-question-37",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2339",
+  "year": 2010,
+  "set": null,
+  "number": 38,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Compiler Design",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The grammar $ S \\to aSa \\mid bS \\mid c$ is",
+  "options": [
+   "LL(1) but not LR(1)",
+   "LR(1) but not LL(1)",
+   "Both LL(1) and LR(1)",
+   "Neither LL(1) nor LR(1)"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "The $\\textsf{LL(1)}$ parsing table for the given grammar is:\n  $\\begin{array}{|c|c|c|} \\hline\n  & a&b&c \\\\ \\hline\n  S& S\\to aSa & S\\to b & S \\to c \\\\ \\hline\n  \\end{array}$\n  For any given input symbol $a,b$ or $c,$ the parser has a unique move from the start and the only state – so no conflicts.\n  As there is no conflict in $\\text{LL(1)}$ parsing table, the given grammar is $\\textsf{LL(1)}$ and since every $\\textsf{LL(1)}$ is also $\\textsf{LR(1)},$ the given grammar is $\\textsf{LL(1)}$ as well as $\\textsf{LR(1)}.$\nCorrect Option:\n   \n    C\n   \n   For LL(1) take First(S). and do intersection between the result. if intersection is Phi then LL(1) else not.\n   Making a parsing table and checking if there are two or more entries under any terminal. If yes then neither LL(1) nor LR(1).",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2339/gate-cse-2010-question-38",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2340",
+  "year": 2010,
+  "set": null,
+  "number": 39,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Theory of Computation",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Let $L=\\{ w \\in \\:(0+1)^* \\mid w\\text{ has even number of }1s \\}$. i.e., $L$ is the set of all the bit strings with even numbers of $1$s. Which one of the regular expressions below represents $L$?",
+  "options": [
+   "$(0^*10^*1)^*$",
+   "$0^*(10^*10^*)^*$",
+   "$0^*(10^*1)^*0^*$",
+   "$0^*1(10^*1)^*10^*$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "- If the string contains a $1$, it must end in a $1$ hence cannot generate all bit strings with even number of $1$'s (eg, $1010$)\n   \n\n    - is the answer\n   \n\n    - between the second and third $1$'s a $0$ is not allowed (eg, $011011$)\n   \n\n    - $00$ is not allowed, zero is an even number.\n(A) ( 0 * 10 * 1) * --->0110(valid string) not possible to produce from this Regular Expression.\n  (B) 0 * (10 * 10 *) * ---> Produces all strings with even number of 1's.\n  (C) 0 * (10 * 1 ) * 0 * ----> 11011(valid string) cannot be produced from this.\n  (D) 0 * 1 (10 * 1) * 10 ---> epsilon or 0 (valid strings) can not be produced.( even number of 1's includes zero number of 1's)\n  Therefore Answer : B Correct.\nmethod 1: draw the DFA and then derive reg ex from it\n  \n\n[IMAGE:200]\n\n   method 2: by verification\n  \n\n   option a. does n't generates strings ending with 0 ex:1100\n  \n\n   option c :does n't generates strings like 110011,1101111,011011,...i.e it does n't producing 0 between 2nd 1 and 3rd 1 in the string\n  \n\n   option d: does n't generate $\\epsilon$\n  \n\n   option b: is the answer\nWe can omit out A because it cannot generate strings ending with 0 like 00\n  Omit D bcoz it cannot generate epsilon\n  now for B and C .we can clearly observe that C is a subset of B .Any language generated by C can be generated by B so B is the correct option.\nB.Correct answer\n  \n\n[IMAGE:400]\n\n   Using state elimination method\nThe best way to find correct answer is option elimination method. We will guess strings which has even number of 1’s and that is not generated by wrong options OR which generate strings which doesn’t have even number of 1’s.\n   Option A: (reg expr: (0*10*1)* ) doesn’t generate string such as { 110, 1100,....}\n   Option C: (reg expr: 0*(10*1*)*0* generate string such as {1, 111,....} which have odd number of 1’s.\n   Option D: (reg expr: 0*1(10*1)*10* doesn’t generate strings such as { 11101, 1111101, ….}.\n   \n    hence B is the answer",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2358016002412030754",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=821740467221676465",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2340/gate-cse-2010-question-39",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2341",
+  "year": 2010,
+  "set": null,
+  "number": 40,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Theory of Computation",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the languages\n  \n\n   $L1=\\{0^i1^j\\ \\mid i \\neq j\\}, $\n  \n\n   $L2=\\{0^i1^j\\mid i=j\\},$\n  \n\n   $L3=\\{0^i1^j \\mid i=2j+1\\},$\n  \n\n   $L4=\\{0^i1^j \\mid i\\neq2j\\}$",
+  "options": [
+   "Only $L2$ is context free.",
+   "Only $L2$ and $L3$ are context free.",
+   "Only $L1$ and $L2$ are context free.",
+   "All are context free"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Correct Answer: $D.$ All are context free.\n  $L1 \\rightarrow$ Push $0$ on stack and when $1$ comes, start popping. If stack becomes empty and $1$'s are remaining start pushing $1$. At end of string accept if stack is non- empty.\n  $L2 \\rightarrow$ Do the same as for $L1$, but accept if stack is empty at end of string.\n  $L3 \\rightarrow$ Do, the same as for $L2$, but for each $0$, push two $0$'s on stack and start the stack with a $0$.\n  $L4 \\rightarrow$ Do the same as for $L1$, but for each $0$, push two $0$'s on stack\n  All are in fact DCFL. Pushing two $0$'s on stack might sound non-trivial but we can do this by pushing one symbol and going to a new state. Then on this new state on empty symbol, push one more symbol on stack and come back.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2341/gate-cse-2010-question-40",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2342",
+  "year": 2010,
+  "set": null,
+  "number": 41,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Theory of Computation",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Let $w$ be any string of length $n$ in $\\{0,1\\}^*$. Let $L$ be the set of all substrings of $w$. What is the minimum number of states in non-deterministic finite automation that accepts $L$?",
+  "options": [
+   "$n-1$",
+   "$n$",
+   "$n+1$",
+   "$2^{n-1}$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Answer: C\n  \n\n   For any string $w,$ let $L(w)$ be the set of all sub-strings of $w$.\n  \n\n    For any alphabet\n   \n   $\\Sigma ,$ if $w$ is a string of length $n$ over $\\Sigma,$ then the number of states in a minimum state NFA  for $L(w)$ will be $n+1.$\n  \n\n   Construction of such NFA with $n+1$ states is below :\n  \n\n   Just accept the whole String $w$ first, we will have $n+1$ states for that. Now make every state final, also make epsilon transition from initial state to every state.\n  \n\n   NOTE that we can also have a NFA without epsilon moves, with $n+1$ states. Just take the above $\\epsilon-\\text{NFA},$ and convert into NFA without $\\epsilon-move,$ number of states will not change. (Proof is left for reader. Hint : See the $“\\epsilon-\\text{NFA}”$ to $“\\text{NFA}$ without $\\epsilon-move”$ conversion)\n  \n\n   Now, coming to number of states in Minimal DFA for $L(w) :$\n  \n\n   This is interesting and much harder than it looks, also depends on size of alphabet $\\Sigma.$\n  \n\n    Result 1 :\n   \n\n   If $| \\Sigma | = 1 ( \\text{i.e., unary alphabet}),$ then number of states in Minimal DFA for $L(w) = n+2.$\n  \n\n   Proof :\n  \n\n   Proof is extremely simple for this. Just accept string $w,$ , we need $n+2$ states, and make every state on the way a final state, except the last state which is dead state.\n  \n\n    Result 2 :\n   \n\n   If $| \\Sigma | \\geq 2 ,$ then number of states in Minimal DFA for $L(w)$ will be $|Q|$\n  \n\n   where $n+2 \\leq |Q| \\leq 2n-1, when \\,\\, n\\geq 3$\n  \n\n   and $|Q| = n+2$ when $n \\leq 2$\n  \n\n   Proof of it is a matter for research students, should be skipped by GATE aspirants, But can be found below :\n  \n\n    https://www.sciencedirect.com/science/article/pii/S0304397500000645\n   \n\n   NOTE that number of states in minimal DFA for $L(w)$ may be more than $n+2, $ and one such counter example is string $w = abbba,$ the minimal DFA for $L(w)$ has $9$ states. Try creating this DFA.\n  \n\n   Another such counter example is string $w = abbbc,$ the minimal DFA for $L(w)$ has $9$ states. Try creating this DFA as well.\n  \n\n    Variation 1:\n   \n\n    https://gateoverflow.in/2342/gate-cse-2010-question-41?show=365317#c365317\n   \n\n    Variation 2:\n   \n\n    https://gateoverflow.in/2342/gate-cse-2010-question-41?show=372661#c372661\nWe need a separate state for counting each distinct length. So, for length $n$ we need $n+1$ states (one for length zero). We don't need a reject state for larger strings as we need an NFA and not DFA. So, totally $n+1$ states are required.\n  Correct Answer: $C$\nSuppose a string w from (0+1)* is 001 {n=3}\n   Step1. Draw a NFA that accept 001 so it requires (n+1=4) states\n   step2. Now our requirement is to draw a NFA for \"L be the set of all substrings of w\". so From NFA given in step1 attach an branch containing ε from initial state to all other states. This  ε-NFA accepts L.\n   --- but there may be a confusion that it is a ε-NFA as i know that for an ε-NFA an equivalent NFA(w/o ε) contains same no of states as in ε-NFA\n   \n    Hence this NFA also contains \"n+1\" states\n   \n   Step3. now someone ask that how many minimum states DFA it requires to accept the L so i want to tell u that there is no any standard result for it and also\n   \n    it is wrong to say that DFA for L contains \"n+2\" states\n   \n   it is variying {u can check it also by taking some examples}.\nFor n length string, the nfa needs n+1 states where all the states are final states and there are epsilon transitions from the initial state to all final states. So, answer is n+1.\nFor example - string is 101 (n=3) then possible sub-strings are : (epsilon, 1,0,10,101,01,1) , so max length sub-string will be string itself.\n  \n\n    And for accepting 'n' length string atleast 'n+1' states will be required ,either in DFA or NDFA (may require more states for acceptance of other sub-strings too)\n    \n\n      So Answer is C)  n+1\nhere substring requires all states makes as initial and final\n    [IMAGE:500]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=11610613742739955688",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2342/gate-cse-2010-question-41",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2343",
+  "year": 2010,
+  "set": null,
+  "number": 42,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Databases (DBMS)",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the following schedule for transactions $T1, T2$ and $T3:$\n  \n\n   $$\\begin{array}{|c|c|c|}\\hline \\textbf{T1} & \\textbf{T2} & \\textbf{T3} \\\\\\hline  \\text{Read(X)} & \\text{} & \\text{} \\\\\\hline   \\text{} & \\text{Read(Y)} & \\text{} \\\\\\hline  \\text{} & \\text{} & \\text{Read(Y)} \\\\\\hline \\text{} & \\text{Write(Y)} & \\text{} \\\\\\hline  \\text{Write(X)} & \\text{} & \\text{} \\\\\\hline  \\text{} & \\text{} & \\text{Write(X)} \\\\\\hline  \\text{} & \\text{Read(X)} & \\text{} \\\\\\hline \\text{} & \\text{Write(X)} & \\text{} \\\\\\hline\\end{array}$$\n   Which one of the schedules below is the correct serialization of the above?",
+  "options": [
+   "$T1 \\to T3 \\to T2$",
+   "$T2 \\to T1 \\to T3$",
+   "$T2 \\to T3 \\to T1$",
+   "$T3 \\to T1 \\to T2$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer is option\n   \n    A.\n   \n\n   create precedence graph and apply\n   \n    Topological sort\n   \n   on it to obtain\n   $T1 \\rightarrow T3 \\rightarrow T2$\n  \n\n[IMAGE:0]\nThe solution is described here.\n    [IMAGE:100]\n    hence option A is True.\nYou can use method of conflict serializability graph or precedence graph Ref: Elmasri Navathe. Then serialisation is T1 T3 T2\n(A) T1→T3→T2\n  \n\n    T1 can complete before T2 and T3 as there is no conflict between Write(X) of T1 and the operations in T2 and T3 which occur before Write(X) of T1 in the above diagram.\n    T3 should can complete before T2 as the Read(Y) of T3 doesn’t conflict with Read(Y) of T2. Similarly, Write(X) of T3 doesn’t conflict with Read(Y) and Write(Y) operations of T2.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=18201681661046288153",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16596716905481100495",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2343/gate-cse-2010-question-42",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2344",
+  "year": 2010,
+  "set": null,
+  "number": 43,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Databases (DBMS)",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The following functional dependencies hold for relations $R(A, B, C)$ and $S(B, D, E).$\n  \n\n    $ B \\to A$\n   \n\n    $A \\to C$\n   \n\n   The relation $R$ contains $200$ tuples and the relation $S$ contains $100$ tuples. What is the maximum number of tuples possible in the natural join  $R \\bowtie S$?",
+  "options": [
+   "$100$",
+   "$200$",
+   "$300$",
+   "$2000$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "(A)\n   \n   $100.$\n   Natural join will combine tuples with the same value of the common rows(if there are two common rows then both values must be equal to get into the resultant set). So by this definition, we can get at the max only $100$ common values.\nFrom the given set of functional dependencies, it can be observed that B is a candidate key of R. So all 200 values of B must be unique in R.\n   \n\n    There is no functional dependency given for S.\n   \n\n    To get the maximum number of tuples in output, there can be two possibilities for S.\n   \n\n    1) All 100 values of B in S are same and there is an entry in R that matches with this value. In this case, we get 100 tuples in output.\n   \n\n    2) All 100 values of B in S are different and these values are present in R also. In this case also, we get 100 tuples.\nas B is key in R and in table S, B is Foreign key that referencing to B in R\n  \n\n   we have to find maximum number of tuples possible so there may be case that in table S every tuple of Attribute B is same\n  \n\n   and we know natural join will combine tuples with same value\n  \n\n[IMAGE:200]\nEvery tuple in S can find\n   \n    atmost 1\n   \n   matching tuple (with the same B value) in R...\n  \n\n   Since asked\n   \n    maximum number of tuples\n   \n   , we can assume that every tuple in S finds 1 tuple in R. In that case natural joined table will have 100 tuples.\n  \n\n   If we want\n   \n    minimum number of tuples\n   \n   , we can assume that every tuple in S finds 0 tuples in R. In that case natural joined table will have 0 tuples.\nGive FD is lossless join as B is the key in one table and it is common attribute for the table so the maximum no. of tupples will be 100 in natural join of R & S.\nhere B is common in both relations R and S .B is key in relation R bcoz B closure determines(A,B,C) all attributes of R but non-key in relation S.\n  \n\n   B is unique in rel R but repetetion allowed in rel S.\n  \n\n   so maximum number of tuples possible in the natural join  R⋈S depend on non-key\n  \n\n   so\n   \n    100\n   \n   is ans",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12916978492704727797",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2344/gate-cse-2010-question-43",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2347",
+  "year": 2010,
+  "set": null,
+  "number": 45,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Operating Systems",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The following program consists of $3$ concurrent processes and $3$ binary semaphores. The semaphores are initialized as $S0=1, S1=0$ and $S2=0.$\n   $$\\begin{array}{|l|l|}\\hline \\text{Process P0}  &  \\text{Process P1} & \\text{Process P2} \\\\ \\hline  \\text{while (true) \\{} & \\text{wait (S1);} & \\text{wait (S2);} \\\\  \\text{    wait (S0);} & \\text{release (S0);} & \\text{release (S0);} \\\\  \\text{   print ‘0';} & &  \\\\  \\text{   release (S1);} & & \\\\  \\text{   release (S2);} & \\text{} & \\text{} \\\\ \\text{\\}}  &  \\text{}   \\\\\\hline \\end{array}$$\n   How many times will process $P0$ print '$0$'?",
+  "options": [
+   "At least twice",
+   "Exactly twice",
+   "Exactly thrice",
+   "Exactly once"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "First $P_0$ will enter the while loop as $S_0$ is $1.$ Now, it releases both $S_1$ and $S_2$ and one of them must execute next. Let that be $P_1.$ Now, $P_0$ will be waiting for $P_1$ to finish. But in the mean time $P_2$ can also start execution. So, there is a chance that before $P_0$ enters the second iteration both $P_1$ and $P_2$ would have done release $(S_0)$ which would make $S_1$ $1$ only (as it is a binary semaphore). So, $P_0$ can do only one more iteration printing $'0'$ two times.\n  If $P_2$ does release $(S_0)$ only after $P_0$ starts its second iteration, then $P_0$ would do three iterations printing $'0'$ three times.\n  If the semaphore had $3$ values possible (an integer semaphore and not a binary one), exactly three $'0's$ would have been printed.\n  Correct Answer: A, at least twice\nOption A is True.\n    Initially\n    \n     P0\n    \n    will execute because only\n    \n     S0=1\n    \n    . It will print single 0.\n   \n\n    Now when\n    \n     S1\n    \n    and\n    \n     S2\n    \n    are releases by\n    \n     P0\n    \n    then any one of them can be executed.\n   \n\n    Let us suppose P1 executes and releases S0(Now value of S0 is 1).\n   \n\n    Now there are two possibilities either\n    \n     P0\n    \n    or\n    \n     P2\n    \n    can execute.\n   \n\n    Let us take\n    \n     P2\n    \n    executes and releases\n    \n     S0\n    \n    , so at the end P0 execute and print 0 (means two 0's) but if\n    \n     P0\n    \n    executes before\n    \n     P2\n    \n    then total of 3 0's will print(one at the time of\n    \n     P0\n    \n    and then\n    \n     P2\n    \n    which releases\n    \n     S0\n    \n    so\n    \n     P0\n    \n    executes again).\n    So the perfect answer is at least two 0's.\n   \n\n    ref@\n   \n\n     http://stackoverflow.com/questions/12069305/how-many-times-will-process-p0-print-0\nMinimum no. of time 0 printed  is twice when execute in this order (p0 p1 p2 p0)\n  \n\n    Maximum no. of time 0 printed is thrice when execute in this order (p0 p1 p0 p2 p0)\nThe answer is A.\na is most appropriate ans here\nInitial condition : S0=1, S1=0, S2=0,\n  so process P1 and P2 have to wait and only P0 can execute first.\n  After completing one iteration of the while loop, 0 is printed once.\n  Now the semaphore variables are – S0=0, S1=1, S2=1\n  In the minimalist case – P1 and P2 both will be incrementing S0 in one go, so after both P1 and P2 complete execution,\n  S0=1, S1=0, S2=0\n  now again P0 will be executed and print 0.\n  After that it will set S0=0.\n  So in the worst case S0 will be printed twice.\n  S0 willbe printed atleast twice.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2347/gate-cse-2010-question-45",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2348",
+  "year": 2010,
+  "set": null,
+  "number": 46,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Operating Systems",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A system has $n$ resources $R_0, \\dots,R_{n-1}$, and $k$ processes $P_0, \\dots, P_{k-1}$. The implementation of the resource request logic of each process $P_i$ is as follows:\n  \n\n   $\\text{if} (i\\%2==0) \\{$\n   $\\quad\\text{if} (i<n) \\text{ request } R_i;$\n   $\\quad\\text{if} (i+2 < n) \\text{ request } R_{i+2}; \\}$\n   $\\text{else} \\{$\n   $\\quad\\text{if} (i<n) \\text{ request } R_{n-i};$\n   $\\quad\\text{if} (i+2 <n) \\text{ request } R_{n-i-2}; \\}$\n  \n\n   In which of the following situations is a deadlock possible?",
+  "options": [
+   "$n=40,\\: k=26$",
+   "$n=21,\\:k=12$",
+   "$n=20,\\:k=10$",
+   "$n=41,\\:k=19$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "From the resource allocation logic, it's clear that even numbered processes are taking even numbered resources and all even numbered processes share no more than $1$ resource. Now, if we make sure that all odd numbered processes take odd numbered resources without a cycle, then deadlock cannot occur. The \"else\" case of the resource allocation logic, is trying to do that. But, if $n$ is odd, $R_{n-i}$ and $R_{n-i-2}$ will be even and there is possibility of deadlock, when two processes requests the same $R_i$ and $R_j$. So, only $B$ and $D$ are the possible answers.\n  \n\n    Now, in $D$, we can see that $P_0$ requests $R_0$ and $R_2$, $P_2$ requests $R_2$ and $R_4$, so on until, $P_{18}$ requests $R_{18}$ and $R_{20}$. At the same time $P_1$ requests $R_{40}$ and $R_{38}$,  $P_3$ requests $R_{38}$ and $R_{36}$, so on until, $P_{17}$ requests $R_{24}$ and $R_{22}$. i.e.; there are no two processes requesting the same two resources and hence there can't be a cycle of dependencies which means, no deadlock is possible.\n    \n\n      But for $B$, $P_8$  requests $R_8$ and $R_{10}$ and $P_{11}$ also requests $R_{10}$ and $R_8$. Hence, a deadlock is possible. (Suppose $P_8$ comes first and occupies $R_8$. Then $P_{11}$ comes and occupies $R_{10}$. Now, if $P_8$ requests $R_{10}$ and $P_{11}$ requests $R_8$, there will be deadlock)\n      \n\n       Correct Answer: $B$\nOption B is answer\n\nNo. of resources, n = 21\nNo. of processes, k = 12\n\nProcesses {P0, P1....P11}  make the following Resource requests:\n{R0, R20, R2, R18, R4, R16, R6, R14, R8, R12, R10, R10}\n\nFor example P0 will request R0 (0%2 is = 0 and 0< n=21). \n\nSimilarly, P10 will request R10.\n\nP11 will request R10 as n - i = 21 - 11 = 10.\n\nAs different processes are requesting the same resource, deadlock\nmay occur.\n[IMAGE:200]\n   The answer\nEven numbered process Pi request even numbered resources Ri and Ri+2. Thus they share no more than 1 resource.\n   Odd numbered process Pi request\n   Odd numbered resources Rn−i and Rn−i−2 if nn is even\n   Even numbered resources Rn−i and Rn−i−2 if n is odd.\n   In this example, for deadlock to occur, two processes must request same set of processes. For this, we need n to be odd so that some odd numbered process will request same set of even numbered resources as some even numbered process.\n   Thus option A and C are not possible as they have even n.\n   Now easy way to solve this is by finding the resources of even and odd numbered processes by using the given answer.\n   Taking option B:\n   Even numbered processes resource allocation-\n   P0      R0 , R2\n   P2      R2, R4\n   P4      R4, R6\n   P6      R6, R8\n   P8      R8, R10\n   P10    R10 , R12\n   Odd numbered processes resource allocation-\n   P1      R20, R18\n   P3      R18, R16\n   P5      R16, R14\n   P7     R14, R12\n   P9     R12, R10\n   P11   R10, R8\n  \n\n   IF YOU SEE BOTH YOU WILL FIND P10 AND P9 REQUESTING SAME RESOURCES WHICH MAY LEAD TO DEADLOCK.\n   \n    ​​​​​​​\n[IMAGE:400]\n\n[IMAGE:401]\n(k-3)\n   \n   processes will take 2 resources and other 3 processes will take 1 resource each.\n  \n\n   Total\n   \n    n\n   \n   resources. Deadlock will arise when :\n   \n    (((k-3) * 2) + (3*1)) = n\n   \n\n   If k=12, n will be 21.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=8673009516863936228",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15706123867802181877",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=13835066819409507712",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2348/gate-cse-2010-question-46",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2349",
+  "year": 2010,
+  "set": null,
+  "number": 47,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Computer Networks",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Suppose computers $A$ and $B$ have $IP$ addresses $10.105.1.113$ and $10.105.1.91$ respectively and they both use same netmask $N$. Which of the values of $N$ given below should not be used if $A$ and $B$ should belong to the same network?",
+  "options": [
+   "$255.255.255.0$",
+   "$255.255.255.128$",
+   "$255.255.255.192$",
+   "$255.255.255.224$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "D\n   \n   is correct answer because:\n   When we perform $AND$ operation between $IP$ address $10.105.1.113$ and $255.255.255.224$ result is  $10.105.1.96$\n   When we perform $AND$ operation between $IP$ address  $10.105.1.91$ and $255.255.255.224$ result is $10.105.1.64$\n   $10.105.1.96$ and $10.105.1.64$ are different network so $D$ is correct answer.\nANSWER : OPTION D\n  \n\n     Method-\n     \n\n       128  64  32  16  8  4  2  1\n       \n\n        0     1   1    1   0  0  0  1  --- (113 last octet of first address)\n        0     1    0   1   1  0   1  1  ----(91 last octet of second address)\n        Now, first MSB and second bit matching but 3rd bit is different.\n        so , we need 3  continos one's in mask, for different network.\n        So mask will be 255.255.255.224\n        @Arjun Sir please check , this method is also right or not?\nThe last octets of IP addresses of A and B\n  \n\n   A:113 (\n   \n    011\n   \n   10001) and\n  \n\n   B: 91 (\n   \n    010\n   \n   11011).\n  \n\n   The netmask in option (D) has first three bits are 111  in last octet. If netmask has first 3 bits set, then these bits must be same in A and B, but that is not the case. we can say option (D) is not a valid netmask because doing binary ‘&’ of it with addresses of A and B doesn’t give the same network address. It must be same address as A and B are on same network.\nTo solve these kind of questions, first approach should be finding network ID\n  \n\n   Now given all the subnet masks, try to calculate Network ID for both the IP addresses and you will find out that\n  \n\n   last octet of both the IP addresses are 113 and 91 respectively\n  \n\n   With 224 in the last octet of Subnet mask, we are not able to get same Network ID as\n  \n\n   113 is\n   \n    011\n   \n   01111 and\n  \n\n   91 is\n   \n    010\n   \n   11011\n  \n\n   with 0 mask we get 0 as network id\n  \n\n   with 128 we get 0 as network id\n  \n\n   with 192 we get 64 as network id\n  \n\n   but with 224 we get different network ids\n  \n\n   Hence option with 224 in the last octet is the correct answer.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2349/gate-cse-2010-question-47",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2352",
+  "year": 2010,
+  "set": null,
+  "number": 48,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Computer Organization",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A computer system has an $L1$ cache, an $L2$ cache, and a main memory unit connected as shown below. The block size in $L1$ cache is $4$ words. The block size in $L2$ cache is $16$ words. The memory access times are $2$ nanoseconds, $20$ nanoseconds and $200$ nanoseconds for $L1$ cache, $L2$ cache and the main memory unit respectively.\n  \n\n[IMAGE:0]\n\n   When there is a miss in $L1$ cache and a hit in $L2$ cache, a block is transferred from $L2$ cache to $L1$ cache. What is the time taken for this transfer?",
+  "options": [
+   "$2$ nanoseconds",
+   "$20$ nanoseconds",
+   "$22$ nanoseconds",
+   "$88$ nanoseconds"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Ideally the answer should be $20$ ns as it is the time to transfer a block from $L2$ to $L1$ and this time only is asked in question. But there is confusion regarding access time of $L2$ as this means the time to read data from $L2$ till CPU but here we need the time till $L1$ only. So, I assume the following is what is meant by the question.\n  A block is transferred from $L2$ to $L1$. And $L1$ block size being $4$ words (since $L1$ is requesting we need to consider $L1$ block size and not $L2$ block size) and data width being $4$ bytes, it requires one $L2$ access (for read) and one $L1$ access (for store). So, time $= 20+2 = 22$ ns.\n  Correct Answer: $C$\nThe size to transfer a block is always decided by source(Do not confuse yourself by looking \"\n   \n\n     a block\n    \n\n   is transferred from L2 cache to L1 cache). In this case only 4 words will be transferred from L2 to L1 not whole block of L2. Now the only confusion is \"This whole process of transferring block is concurrent process or serial?\".\n  \n\n   If nothing is mentioned in the question then take serial transfer of block(in computer science we always strive for Worst case) so 20ns to access or read L2 cache and 2ns to place or write it into L1 cache. so answer would be 22ns.\nThis question statement and diagram depicts that it is based on parallel hierarchy means direct access to L1,L2 or main memory is possible in it.\n  Since L1 miss\n  20 ns is required to access L2 and reading a block of size 16B.Since L1 is requesting which has block size of 4 B .only 4B transfer to L1 from L2 is required which takes an access of L1 to store block in it.\n  Thus L2 access (reading a block) + L1 (storing a block since it is parallel hierarchy by default it will not be copied to L1)\n  thus 20ns + 2ns = 22ns\n  Ans C\nAny per my knowledge. Any read/write operation occurs in this sequence\n  \n\n   1. Read the data from the source.\n   2. Write the data to the destination.\n   Now 2 ns is the time to access the L1 cache. And 20 ns to access the L2 cache. The data bus is 4 words wide. Also any block transfers as a whole.\n   So consider the following sequence.\n   1. Read from L2 -->20 ns.\n   2. Write to L1 -->2 ns. (4 words written).\n   3. Read from L2 -->20 ns.\n   4. Write to L1 -->2 ns. (4 words wasted).\n   5. Read from L2 -->20 ns.\n   6. Write to L1 -->2 ns. (4 words wasted).\n   7. Read from L2 -->20 ns.\n   8. Write to L1 -->2 ns. (4 words wasted).\n   So in total 20+2+20+2+20+2+20+2=88 ns.\n   Therefore it must take 88 ns to transfer a block from L2 to L1 cache.\n[IMAGE:400]\n   ….…………………………………………………………………...\nThe block size of L2 is 16 words and of L1 is 4 words.The data bus between L1 and L2 can carry 4 words.\n  \n\n    It means that L2 needs to be accessed 4 times.\n   \n\n   4*(Read access L2 + store it in L1) = 4*(20+2) = 4 * (22)  =  88 ns.\n  \n\n    Answer is (D).",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16788884266185185253",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=17317503880920386595",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2352/gate-cse-2010-question-48",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "43329",
+  "year": 2010,
+  "set": null,
+  "number": 49,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Computer Organization",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A computer system has an $L1$ cache, an $L2$ cache, and a main memory unit connected as shown below. The block size in $L1$ cache is $4$ words. The block size in $L2$ cache is $16$ words. The memory access times are $2$ nanoseconds, $20$ nanoseconds and $200$ nanoseconds for $L1$ cache, $L2$ cache and the main memory unit respectively.\n  \n\n[IMAGE:0]\n\n   When there is a miss in both $L1$ cache and $L2$ cache, first a block is transferred from main memory to $L2$ cache, and then a block is transferred from $L2$ cache to $L1$ cache. What is the total time taken for these transfers?",
+  "options": [
+   "$222$ nanoseconds",
+   "$888$ nanoseconds",
+   "$902$ nanoseconds",
+   "$968$ nanoseconds"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "The transfer time should be $4*200 + 20 = 820$ ns. But this is not in option. So, I assume the following is what is meant by the question.\n  \n\n    $L2$ block size being $16$ words and data width between memory and $L2$ being $4$ words, we require $4$ memory accesses(for read) and $4$ $L2$ accesses (for store). Now, we need to send the requested block to $L1$ which would require one more $L2$ access (for read) and one $L1$ access (for store). So, total time\n    $= 4 * (200 + 20) +  (20 + 2)$\n    $= 880 + 22$\n    $= 902 \\ ns$\n    Correct Answer: $C$\nscene 1\n  \n\n    L2 block size is 16 words\n   \n\n    Data width between l2 and Main Memory is 4 words\n    $\\Rightarrow$ We need 4 access to Read from Memory and 4 access to store to L2\n    To Read from MM require 200ns and To Store in L2 require 20 ns\n    Total Time spent : 220 ns\n   \n\n   scene 2\n  \n\n    stored information from L2 is read and stored on L1\n   \n\n    Read from L2 takes 20ns and store on L1 takes 2 ns\n    $\\Rightarrow$  Total time spent in scene - 2 is  22ns\n   \n\n   scene 1 and scene 2 can occur simultaneously which is depicted in the following figure\n  \n\n[IMAGE:100]\n\n   So , Total time spent\n   (220 *4 ) + 22 =\n   902 ns\nanswer is 902.\n  \n\n[IMAGE:200]\n\n[IMAGE:201]\nThe size to transfer a block is always decided by source(Do not confuse yourself by looking \"\n   \n\n     a block\n    \n\n   is transferred from L2 cache to L1 cache). In this case first 16 words will be transferred from main memory to L2 cache( IF nothing is mentioned, the last level cache L2 & main memory page size considered to be equal.) then only 4 words will be transferred from L2 to L1 not the whole block of L2. Now the only confusion is \"This whole process of transferring block is a concurrent process or serial?\".\n  \n\n   If nothing is mentioned in the question then take serial transfer of block (in computer science we always strive for Worst case) so\n  \n\n   1)   200ns to access main memory and 20ns to store in the L2 cache.\n  \n\n   2)   Point (1) will happen for 4 times because of data bus = 4 words, so 16 words will be transferred in 4 times.\n  \n\n   3)   and after that 20ns to access or read L2 cache and 2ns to place or write it into L1 cache.\n  \n\n   so answer would be\n  \n\n   4*(200+20) + 20 + 2 =\n   \n\n     902.\nMiss in L1 cache and L2 cache results in the:\n    \n\n     (200+20) for one word to get from main memory to l2 cache\n     (20+2) for one word to get from L2 cache to L1 cache\n     So total Time Needed is:   (200+20)*4  + (20+2)*4   = 968\n.…...........….....…….…….….…...……….…..….….\n   [IMAGE:500]\n[IMAGE:501]\n[IMAGE:502]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16788884266185185253",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=4921272699197360891",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15905434748309724226",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3201820048986002758",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=8912743334411533704",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=10604176892176576582",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=144255447870694343",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/43329/gate-cse-2010-question-49",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2355",
+  "year": 2010,
+  "set": null,
+  "number": 50,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Algorithms",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider a complete undirected graph with vertex set $\\{0, 1, 2, 3, 4\\}$. Entry $W_{ij}$ in the matrix $W$ below is the weight of the edge $\\{i, j\\}$\n  \n\n   $$W=\\begin{pmatrix} 0 & 1 & 8 & 1 & 4 \\\\ 1 & 0 & 12 & 4 & 9 \\\\ 8 & 12 & 0 & 7 & 3 \\\\ 1 & 4 & 7 & 0 & 2 \\\\ 4 & 9 & 3 & 2 & 0 \\end{pmatrix}$$\n  \n\n   What is the minimum possible weight of a spanning tree $T$ in this graph such that vertex $0$ is a leaf node in the tree $T$?",
+  "options": [
+   "$7$",
+   "$8$",
+   "$9$",
+   "$10$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "[IMAGE:0]\n\n   Answer is (\n   \n    D\n   \n   ) $10$. The edges of the spanning tree are: $0 - 1, 1 - 3, 3 - 4, 4 - 2$. Total Weight $= 10$\nTo get Minimum Spanning Tree with 0 as leaf node, we must first remove node 0 from the graph. Then we must find MST for the remaining graph and then join 0 to the obtained MST with minimum weight edge. Well this was somewhat obvious.\n  \n\n   But how to solve it in most efficient way? We should not draw the graph and then look for MST, it will take lot of time. Instead we should make use of the given weight matrix to find the MST, as shown below:\n  \n\n   As node 0 is removed, we won't consider 0th row and 0th column.\n  \n\n   Now, list down edges in\n   \n    increasing\n   \n   order of their weight:\n  \n\n   (3-4) => 2, (2-4) => 3, (1-3) => 4, (2,3) => 7 and so on..\n  \n\n   To get MST, we must form edges in the above increasing order such that there is no cycle until all vertices are covered.\n  \n\n[IMAGE:100]\n\n   Joining node 0 to the MST with minimum edge weight.\n  \n\n   So minimum possible weight = 2+3+4+1 = 10\nFor finding minimum spanning tree with vertex 0 as a leaf node,first of all remove 0th row and 0th column and then get the MST of remaining graph and then connect the vertex 0 with the edge with minimum weight(we have two options as there are two 1s in 0th row).\n  So Answer is (d) i.e. 10\nvertex 0 is a leaf node in the tree T.\n  \n\n   This line means , ki 0\n   \n    th\n   \n   vertex hamesa as a leaf node hi hogi.\n  \n\n   or agr vo leaf node to uska sirf 1 hi parent hoga.\n  \n\n   to iska matab ye ki hame 0\n   \n    th\n   \n   vertex ko sirf 1 edge se hi jodna he.\n  \n\n   to is vajy se hamara answer 10 aa rha he .\n  \n\n   or agr vahi ye tree ki jagh graph hota to hamara answer aata 7.\nOne possible traversal be like this also-\n  \n\n   2--->4--->3--->1--->0 having weights 3, 2, 4, 1 respectively and 0 is at last position means 'at leaf' as mentioned in the question.\n  \n\n   So, total weight is 3+2+4+1 =\n   \n    10 answer.\n$V_0$ is supposed to be the leaf.\n  \n\n   In a tree, a leaf has degree 1. Hence, we can choose exactly one edge for $V_0$\n  \n\n   Obviously, we'll choose any of the two edges with weight 1. (Blue colour — select either one.)\n  \n\n   Then, apply Kruskal; we'd choose only minimum weight edges, ie, 2, 3 and 4. (Red colour)\n  \n\n[IMAGE:500]\n\n   Weight = $1+2+3+4=10$",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=7268991618429543378",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16608105058426458528",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=8346439213575571497",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2355/gate-cse-2010-question-50",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "43328",
+  "year": 2010,
+  "set": null,
+  "number": 51,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Algorithms",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider a complete undirected graph with vertex set $\\{0, 1, 2, 3, 4\\}$. Entry $W_{ij}$ in the matrix $W$ below is the weight of the edge $\\{i, j\\}$\n  \n\n   $$W=\\begin{pmatrix} 0 & 1 & 8 & 1 & 4 \\\\ 1 & 0 & 12 & 4 & 9 \\\\ 8 & 12 & 0 & 7 & 3 \\\\ 1 & 4 & 7 & 0 & 2 \\\\ 4 & 9 & 3 & 2 & 0 \\end{pmatrix}$$\n  \n\n   What is the minimum possible weight of a path $P$ from vertex $1$ to vertex $2$ in this graph such that $P$ contains at most $3$ edges?",
+  "options": [
+   "$7$",
+   "$8$",
+   "$9$",
+   "$10$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "[IMAGE:0]\n\n   Answer is (\n   \n    B\n   \n   ) $8$. The possible path is: $1 - 0, 0 - 4, 4 - 2$.\nFor getting quick answer just draw a tree of depth 3.  And compare various path. Although it is brute force, But this method will not take much time.\n  \n\n[IMAGE:100]\nGiven graph is\n  \n\n[IMAGE:200]\n\n   Path: 1 -> 0 -> 4 -> 2\n  \n\n   So the minimum possible weight of a path from vertex 1 to vertex 2 in this graph\n  \n\n   =4+1+3\n  \n\n   =8\n1 -> 0 -> 3 -> 4 -> 2\n  \n\n   = 1 + 1 + 2 + 3\n   = 7\n   Also, this is the minimum cost spanning tree.\nn1 → n0 → n4 → n2 = 1 + 4 + 3  =\n   \n    8 Is the answer",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=40711767327440462",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5549974635451438763",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3431788603787650718",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/43328/gate-cse-2010-question-51",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2360",
+  "year": 2010,
+  "set": null,
+  "number": 52,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Data Structures",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A hash table of length $10$ uses open addressing with hash function $h(k) = k \\mod 10$, and linear probing. After inserting $6$ values into an empty hash table, the table is shown as below\n  \n\n   $$\\begin{array}{|l|l|}\\hline \\text{0}  &  \\text{} \\\\ \\hline \\text{1} & \\text{} \\\\\\hline  \\text{2} & \\text{42} \\\\ \\hline  \\text{3} & \\text{23} \\\\\\hline   \\text{4} & \\text{34} \\\\\\hline   \\text{5} & \\text{52} \\\\\\hline   \\text{6} & \\text{46} \\\\\\hline   \\text{7} & \\text{33} \\\\\\hline   \\text{8} & \\text{} \\\\\\hline   \\text{9} & \\text{} \\\\\\hline   \\end{array}$$\n  \n\n   Which one of the following choices gives a possible order in which the key values could have been inserted in the table?",
+  "options": [
+   "$46, 42, 34, 52, 23, 33$",
+   "$34, 42, 23, 52, 33, 46$",
+   "$46, 34, 42, 23, 52, 33$",
+   "$42, 46, 33, 23, 34, 52$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Option (\n   \n    C)\n   \n   $46, 34, 42, 23, 52, 33$\n  \n\n    $46 -$ position $6$\n   \n\n    $34$ position $4$\n   \n\n    $42$ position $2$\n   \n\n    $23$ position $3$\n   \n\n    $52$ position $2 -$ collision next empty is $5$\n   \n\n    $33$ position $3 -$ collision next empty is $7$\nanswer =\n   \n\n      option C\n     \n\n     : solve by checking each option\ntaking each option and drawing hash table is not fastest approach\n  option elimination will be correct approach here\n  by looking at given hash table we draw following conclusion\n  1) 52 must come after 42 , hence sequence is 42 , 52\n  2)33 must come after 33 hence sequence is 23 ,33\n  3)52 must come after 23 & 34 . note that order between 23 and 34 does not matter\n  4)33 must come after 34 52 & 46 note that order between this three number does not matter\n  now check each option , you will find c is correct",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2360/gate-cse-2010-question-52",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "43327",
+  "year": 2010,
+  "set": null,
+  "number": 53,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Data Structures",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A hash table of length $10$ uses open addressing with hash function $h(k) = k \\: \\mod \\: 10$, and linear probing. After inserting $6$ values into an empty hash table, the table is shown as below\n   $$\\begin{array}{|l|l|}\\hline \\text{0}  &  \\text{} \\\\ \\hline \\text{1} & \\text{} \\\\\\hline  \\text{2} & \\text{42} \\\\ \\hline  \\text{3} & \\text{23} \\\\\\hline   \\text{4} & \\text{34} \\\\\\hline   \\text{5} & \\text{52} \\\\\\hline   \\text{6} & \\text{46} \\\\\\hline   \\text{7} & \\text{33} \\\\\\hline   \\text{8} & \\text{} \\\\\\hline   \\text{9} & \\text{}  \\\\\\hline \\end{array}$$\n  \n\n   How many different insertion sequences of the key values using the same hash function and linear probing will result in the hash table shown above?",
+  "options": [
+   "$10$",
+   "$20$",
+   "$30$",
+   "$40$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Option (\n   \n    C\n   \n   ).\n   Slots $3,4,5$ and $6$ must be filled before $33$ comes. Similarly slots $2,3$ and $4$ must be filled before $52$ comes. And $52$ must come before $33$, as it is not occupying slot $2$. So, $33$ must be at the end and $52$ can come at position $4$ or $5$.\n   Let $52$ come at position $4$. Slots $2, 3$ and $4$ must be filled before $52$ leaving only slot $6$ left for the element coming at position $5$ which should be $46$. So, the first $3$ elements can come in any order giving $3! = 6$ ways.\n   Let $52$ come at position $5$. Now, the first four elements can come in any order. So, $4! = 24$ ways.\n   So, total number of different insertion sequences possible $= 24 + 6 = 30$\nanswer = option C\n  \n\n   the element $33$ has managed to hold position at slot #7 it means elements should occupy slot #3 to slot #6 before it in the sequence. Currently, it seems like all element except $42$ should come before $33$ in the sequence.\n  \n\n   But, element $52$ requires that $42$ comes before it. and $33$ requires that $52$ comes before it. This means that $42$ has to come before $33$. this makes element $33$ to occupy last position in the sequence.\n  \n\n   now for element $52$ to occupy its place these can be two cases :\n  \n\n    Case 1 : $\\boxed{\\{42,23,34\\}}, 52$\n   \n\n    Case 2: $\\boxed{\\{42,23,34,46\\}}, 52$\n   \n\n   Case 1 means that those three elements comes before $52$ = $3! = 6$ways\n   Case 2 means that those four elements comes before $52$ = $4! = 24$ways\n  \n\n   Combining all info we get,\n   Total number of sequences possible that will form the same hash table as above $= (6 + 24) \\times 1 = 30$\nthere are 6 elements,\n  \n\n   __ __ __ __ __ __\n  \n\n   1  2  3  4  5  6\n  \n\n[IMAGE:200]\n\n   1) we can clearly observe that, 33 is always last, therefore fix it ===> 1 choice only for 33\n  \n\n   Now we have 5 elements\n  \n\n   __ __ __ __ __\n  \n\n   1  2  3  4  5\n  \n\n[IMAGE:201]\n\n   46 can insert it any where ===>\n   \n    5\n   \n   C\n   \n    1\n   \n   = 5 choices\n  \n\n   remaining 4 elements\n  \n\n   __ __ __ __\n  \n\n   1  2  3  4\n  \n\n   clearly we can observe that, 52 is the las element ===> fix it ==> 1 choice\n  \n\n   remaining 3 elements\n  \n\n   __ __ __\n  \n\n   1  2  3\n  \n\n   there is no conflict between them ===> 3! possibles\n  \n\n   Totally = 1 * 5 * 1 * 3! = 5*6=30\n  \n\n   Blog:\n   \n    https://gateoverflow.in/blog/16797/permutations-and-combinations-specific-to-dag\n   \n\n   Practice:\n  \n\n    https://gateoverflow.in/253496/\n   \n\n    https://gateoverflow.in/243402/hashing\n   \n\n    https://gateoverflow.in/240941/topological-sort\n   \n\n    https://gateoverflow.in/243285/avl-tree\n   \n\n    https://gateoverflow.in/245897/hashing-with-linear-probing?show=245926#c245926\n   \n\n    https://gateoverflow.in/118640/gate-cse-2017-set-2-question-44?show=289691#a289691\nConvention Followed here:-Those things in ( ) can be permute in any order. Except bracket all no. are fixed\n  \n\n    Here 2 cases occur\n    \n\n      Case1:-->>(42,23,34,46),52, 33\n      \n\n        (Means first 4 item permutable  and last 2 item fixed)\n        \n\n         Due to mod 10 function they will always go to their unit position Bucket\n         so 4!=24 Insertion Sequence possible.\n         Case2:-->>(42,23,34),52,46,33\n         Case2 Explanation...\n         To get more insertion sequence we compulsory put 52 as 4th item in insertion sequence which will be different from above 24 insertion sequence bcz in those 24 sequence 52 always comes as 5th item of insertion sequence where as here it comes as 4th item of insertion Sequence.\n         So 3!= 6 possibilities\n         So total case1+case2=24+6= 30 possibilities.\nIn the above expression,\n   \n\n    3!\n   \n\n    is for elements 42, 23 and 34 as they can appear in any order, and\n   \n\n    5\n   \n\n    is for element 46 as it can appear at 5 different places.\n   \n\n    so  Total number of different sequences =\n   \n\n    3! x 5\n   \n\n    = 30\nAs in previous we found sequence 46,34,42,23 are added in to hash table as we add 52 now ,2nd position is already occupied and now to enter 52 there are 6 possibilities ,now when we add 33 ,as 3 position is already occupied now to enter 33 there are 5 possibilities\n  so total different possibilities = 6*5= 30\n  so option c is correct",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3503657238428630506",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=6066216622217088890",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/43327/gate-cse-2010-question-53",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2362",
+  "year": 2010,
+  "set": null,
+  "number": 54,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Computer Networks",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider a network with $6$ routers $\\textbf{R1}$ to $\\textbf{R6}$ connected with links having weights as shown in the following diagram.\n  \n\n[IMAGE:0]\n\n   All the routers use the distance vector based routing algorithm to update their routing tables. Each router starts with its routing table initialized to contain an entry for each neighbor with the weight of the respective connecting link. After all the routing tables stabilize, how many links in the network will never be used for carrying any data?",
+  "options": [
+   "$4$",
+   "$3$",
+   "$2$",
+   "$1$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Answer (C)\n   \n   Following will be distance vectors of all nodes.\n   Shortest Distances from $R_1$ to $R_2, R_3, R_4, R_5\\ and\\ R_6$\n   $R_1 (5, 3, 12, 12, 16)$\n   Links used$:R_1-R_3, R_3-R_2, R_2-R_4, R_3-R_5, R_5-R_6$\n   Shortest Distances from $R_2$ to $R_3, R_4, R_5\\ and\\ R_6$\n   $R_2 (2, 7, 8, 12)$\n   Links used$: R_2-R_3, R_2-R_4, R_4-R_5, R_5-R_6$\n   Shortest Distances from $R_3$ to $R_4, R_5$ and $R_6$\n   $R_3(9, 9, 13)$\n   Links used$:R_3-R_2, R_2-R_4, R_3-R_5, R_5-R_6$\n   Shortest Distances from $R_4$ to $R_5$ and $R_6$\n   $R_4 (1, 5)$\n   Links used$:R_4-R_5, R_5-R_6$\n   Shortest Distance from $R_5 to R_6$\n   $R_5$ (4)\n   Links Used: $R_5-R_6$\n   If we mark, all the used links one by one, we can see that following links are never used.\n   $R_1-R_2$\n   $R_4-R_6$\nC is the right answer.. The links $R_1-R_2$  and $R_4-R_6$ will never be used for\n  \n\n   data transfer because there are shorter paths available in any case.\nAns __2\n  \n\n    Use your intuition and you will gain answer 2 link\n    \n\n      These r respectively R1---R2 and R4------R6.\n      \n\n        Find shortest path from each node to other node and mark each edge visited.Then u will automatically find out unused edge.\nINORDER TO REACH R1 TO R2 COST(6)WE HAVE A BETTER PATH R1--> R3-->R2 COST(5), SO WE CAN REMOVE THIS LINK.\n  \n\n    Similarly, WE HAVE A BETTER PATH FOR R4 TO R6 COST(8) VIA R5 COST(4).\n    \n\n      SO ANSWER IS 2.\n      \n\n        OPTION C\n        \n\n          YOU NEED NOT DRAW ENTIRE ROUTING TABLE AT ALL.\nThis kind of question should always be dealt with SMARTNESS\n  \n\n   We will observe that the following image is the best option for going to every other router in shortest possible cost.\n  \n\n[IMAGE:400]\nans is C\n  \n\n[IMAGE:500]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16012416352490877185",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15685621450010362473",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=13106548251615083632",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2362/gate-cse-2010-question-54",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "43326",
+  "year": 2010,
+  "set": null,
+  "number": 55,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Computer Networks",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider a network with $6$ routers $R1$ to $R6$ connected with links having weights as shown in the following diagram.\n  \n\n[IMAGE:0]\n\n   Suppose the weights of all unused links are changed to $2$ and the distance vector algorithm is used again until all routing tables stabilize. How many links will now remain unused?",
+  "options": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "$3$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "First we need to find which are the unused links in the graph\n   For that we need not make distance vector tables,\n   We can do this by simply looking into the graph or else DVT can also give the answer.\n   So, $R1-R2$ and $R4-R6$ will remain unused.\n   Now If We changed the unused links to value $2$.\n   $R5-R6$ will Now remain unused.\n   So, the correct answer is option\n   \n    B).\nOnly one link is not used\n   [IMAGE:100]\nOption-B\n  \n\n    SImple reason for this.Use your intuition like below way\n    \n\n      Find all the shortest path from each node to other and mark your visited edge .Then automatically in first searching u will find that only two edge are unused example edge R1---->R2 as well as R4---->R6.\n      \n\n        When u change it into 2,Then again apply your intuition to find out shortest path from each node to other in this satuation u again find on link is unused.\nThe links R1-R2  and R4-R6 will never be used for data transfer because there are shorter paths available in any case.\n   \n\n    If those two link weights are changed to 2, now only one link ie R5-R6 will never be used.\nAns is B\n  \n\n[IMAGE:400]\n\n   now\n  \n\n[IMAGE:401]\nPlease correct the question in your text book who thinks answer should be 0\n  \n\n    Distance between R5 and R6 is 4 and not 3 as asked in gate 2010 please correct the question",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16211009272696164065",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=10718407534458962634",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2536525336646274193",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=9670150178486480044",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/43326/gate-cse-2010-question-55",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2364",
+  "year": 2010,
+  "set": null,
+  "number": 56,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the most appropriate word from the options given below to complete the following sentence:\n  \n\n    His rather casual remarks on politics ________ his lack of seriousness about the subject.",
+  "options": [
+   "masked",
+   "belied",
+   "betrayed",
+   "suppressed"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "answer is option (c)\n  \n\n   (a) Masked       :  Hide under a false appearance -\n   \n    opposite\n   \n\n   (b) Belied          :  Be in contradiction with -\n   \n    not appropriate\n   \n\n   (c) Betrayed      :  Reveal unintentionally -\n   \n    most appropriate\n   \n\n   (d) Suppressed:  To put down by force or authority -\n   \n    irrelevant\nD. Suppressed\noption (c) is right ans.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2364/gate-cse-2010-question-56",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2365",
+  "year": 2010,
+  "set": null,
+  "number": 57,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which of the following options is the closest in meaning to the word given below:\n  \n\n    Circuitous",
+  "options": [
+   "cyclic",
+   "indirect",
+   "confusing",
+   "crooked"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "B Indirect\n   \n\n    Synonyms for circuitous\n   \n\n   adj going around, indirect\nAns B\n   \n\n   This question is quite confusing because the options are similar, but the closest meaning to\n   \n    \"circuitous\"\n   \n   is\n   \n    \"indirect.\"\n   \n\n    Explanation:\n   \n   \"Circuitous\" means taking a longer, roundabout path instead of a direct one. Even though other options like \"crooked\" might seem close, \"indirect\" is the best fit because it describes something that isn't straightforward, just like a circuitous route.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2365/gate-cse-2010-question-57",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2366",
+  "year": 2010,
+  "set": null,
+  "number": 58,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Choose the most appropriate word from the options given below to complete the following sentence:\n  \n\n    If we manage to __________ our natural resources, we would leave a better planet for our children.",
+  "options": [
+   "uphold",
+   "restrain",
+   "cherish",
+   "conserve"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "answer is (d)\n  \n\n   Uphold     : cause to remain  -\n   \n    Not appropriate\n   \n\n   Restrain   : keep under control -\n   \n    Not appropriate\n   \n\n   Cherish    : be fond of  -\n   \n    Not related\n   \n\n   Conserve : keep in safety and protect from harm , decay, loss or destruction  -\n   \n    most appropriate\nThe most appropriate word to complete the sentence is:\n  \n\n   4. conserve\n  \n\n   The completed sentence would read:\n  \n\n   \"If we manage to conserve our natural resources, we would leave a better planet for our children.\"\n  \n\n   \"Conserve\" fits best in this context because it means to protect something from harm or destruction, especially through planned management of a natural resource to prevent exploitation, destruction, or neglect. This aligns perfectly with the idea of responsibly managing natural resources for future generations.\n  \n\n   The other options don't fit as well:\n   1. \"Uphold\" means to support or defend, which isn't quite right in this context.\n   2. \"Restrain\" means to hold back or limit, which doesn't capture the full meaning of responsible resource management.\n   3. \"Cherish\" means to care for or treasure, which is a positive sentiment but doesn't imply active protection or management of resources.\n  \n\n   **from the information given by\n   \n    Claude AI\n   \n   as it is or edited.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2366/gate-cse-2010-question-58",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2367",
+  "year": 2010,
+  "set": null,
+  "number": 59,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "$25$ persons are in a room. $15$ of them play hockey, $17$ of them play football and $10$ of them play both hockey and football. Then the number of persons playing neither hockey nor football is:",
+  "options": [
+   "$2$",
+   "$17$",
+   "$13$",
+   "$3$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "D. 3\n   \n   No. of persons who play either football or hockey $= 15 + 17 - 10 = 22$\n   No. of persons playing neither hockey nor football  $= 25 - 22 = 3$\nApply Principle of mutual Inclusion $-$Exclusion\n  \n\n   $n(A\\cup B)=n(A)+n(B)-n(A\\cap B)$\n  \n\n[IMAGE:100]\n(D)3;\n  Explanation- number of player=25,\n  player who play either football or hockey=17+15,\n  play both hockey and football=10.\n  then players who play=32-10=22\n  then players who do not play =25-22=3;\nno.of persons only play hockey =15-10=5\n  \n\n   no. of persons only play  football =17-10=7\n   \n\n    no.of persons play both hockey and football=10\n    \n\n     so,total no of persons play hockey and football =5+7+10=22\n     \n\n      therefore,total no. of persons neither play hockey nor football=25-22=3\n25 person\n  \n\n    hockey = 15 =  15-10= 5\n    \n\n      football = 17= 17-10=7\n      \n\n        both= 10\n        \n\n          neither football and hockey= 25-(7+5+10)=25-22=3",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12797195996569832674",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2367/gate-cse-2010-question-59",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2368",
+  "year": 2010,
+  "set": null,
+  "number": 60,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The question below consists of a pair of related words followed by four pairs of words. Select the pair that best expresses the relation in the original pair.\n  \n\n    Unemployed : Worker",
+  "options": [
+   "fallow : land",
+   "unaware : sleeper",
+   "wit : jester",
+   "renovated : house"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer (A) Fallow: Land\n   \n\n    Fallow\n   \n   is\n   \n    land\n   \n   that is uncultivated\n  \n\n    Unemployed\n   \n   is a\n   \n    worker\n   \n   without a job\nAnalogy :\n  A worker who is unemployed is unproductive just as a land which is fallow is unproductive\nUnemployed →\n   \n   doesn't have a job to work\n  \n\n    Fallow → uncultivated land to improve its fertility.\n   \n\n   Unaware and Sleeper (someone who sleeps is always unaware)\n  \n\n   Wit → A message whose ingenuity or verbal skill or incongruity has the power to evoke laughter.\n  \n\n   Jester → A clown, joker\n  \n\n   Unaware and Sleeper (someone who sleeps is always unaware)\n  \n\n   Wit → A message whose ingenuity or verbal skill or incongruity has the power to evoke laughter.\n  \n\n   Jester → A clown, joker\n  \n\n   so that answer is (A)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2368/gate-cse-2010-question-60",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2369",
+  "year": 2010,
+  "set": null,
+  "number": 61,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If $137 + 276 = 435$ how much is $731+672?$",
+  "options": [
+   "$534$",
+   "$1403$",
+   "$1623$",
+   "$1513$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "assume base is x then convert numbers in given equation to decimal then find the value of x\n  $x^2+3x+7 + 2x^2+7x+6 = 4x^2+3x+5$\n  $x=8,-1$\n  base cannot be $-1$ so $x=8$\n  Answer. C.\n  $(137)_{8} + (276)_{8} = (435)_{8}$\n  So basically the number are given in Octal base.\n  Similarly, addition of $731,672$ gives $1623$ in octal.\nThis is Octal number and this is how we have to solve it\n   [IMAGE:100]\n(A)534\n  Exp:-137+276=435,        731+672=534\n  on reversing the 137 we get 731 and 276 we get 672 hence reverse of 435 is 534\nbase is 8 here so simple ,(435) base 8 is answer",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=17058819921308585040",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2369/gate-cse-2010-question-61",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2370",
+  "year": 2010,
+  "set": null,
+  "number": 62,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Hari(H), Gita(G), Irfan(I) and Saira(S) are siblings (i.e., brothers and sisters). All were born on $1^{\\text{st}}$ January. The age difference between any two successive siblings (that is born one after another) is less than three years. Given the following facts:\n  \n\n   In what order they were born (oldest first)?\n  \n\n    $\\text{HSIG}$\n   \n\n    $\\text{SGHI}$\n   \n\n    $\\text{IGSH}$\n   \n\n    $\\text{IHSG}$",
+  "options": [
+   "Hari's age $+$ Gita's age $>$ Irfan's age $+$ Saira's age",
+   "The age difference between Gita and Saira is one year. However Gita is not the oldest and Saira is not the youngest.",
+   "There are no twins."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Given that,\n  \n\n    $H+G > S+I$\n   \n\n    No twins,\n   \n\n    And either $G=S+1$ or $S = G+1$\n   \n\n    $G$ is not the oldest and $S$ is not the youngest.\n   \n\n   Lets analyze each case,\n  \n\n    Case 1:\n   \n\n   $G=S+1$,\n  \n\n   It implies, $H > I - 1$, Since twins are not possible $H>I$\n  \n\n    Case 2:\n   \n\n   $G = S - 1$,\n  \n\n   It implies $H > I + 1$\n  \n\n   Therefore, both cases imply $H$ is older than $I,$ also $G$ and $S$ must be placed successively.\n  \n\n   Only\n   \n    option B\n   \n   satisfies these implications.\nCorrect answer is B. Though, its a hit-n-trial method.\n  option A: There is no such possibility, as it is given that there are no twins, so S and G must be consecutive.\n  option B.For some combination of ages of SGHI we can satisfy (1) condition like taking ages as, S=5 G=5 H=3 I=1, (2) and (3) are also satisfied. So, all the 3 conditions are satisfied.\n  option C: IGSH, so I > G and S > H (as there are no twins) and so I + S > G + H - violates condition 1.\n  option D: IHSG, so I > H and S > G and so I + S > H + G - violates condition 1.\nsee ,if this approach helps\n    \n\n[IMAGE:200]\nAccording to me, option “c” should be the answer.\n  \n\n    Reason\n   \n   -    Hari's age + Gita's age > Irfan's age + Saira's age   (given)  ---------1\n  \n\n   saira’s age – gita’s age=1   (given) ---------2\n  \n\n   from (1)     hari – irfaan > saira – gita\n  \n\n   hari – irfaan >1     (from 2)\n  \n\n   hence only option C satisfies this\n  \n\n   @\n   \n    Lakshman Patel RJIT\n   \n   correct me if anything is wrong",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=11481274307010629722",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2370/gate-cse-2010-question-62",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2371",
+  "year": 2010,
+  "set": null,
+  "number": 63,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Modern warfare has changed from large scale clashes of armies to suppression of civilian populations. Chemical agents that do their work silently appear to be suited to such warfare; and regretfully, there exist people in military establishments who think that chemical agents are useful tools for their cause.\n   \n\n   Which of the following statements best sums up the meaning of the above passage:",
+  "options": [
+   "Modern warfare has resulted in civil strife.",
+   "Chemical agents are useful in modern warfare.",
+   "Use of chemical agents in warfare would be undesirable.",
+   "People in military establishments like to use chemical agents in war."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "D. People in military establishments like to use chemical agents in war.\nAt First sentence\n  \n\n    Modern warfare has changed from large scale clashes of armies to suppression of civilian populations\"\n    ->talks about shrinking of the level of wars in todays world\n   \n   In Second Sentence\n   \n    Chemical agents that do their work silently appear to be suited to such warfare;\n   \n   ->talks about advantages of the chemical agent in wars\n  \n\n   In Third Sentence\n   \n    and regretfully, there exist people in military establishments who think that chemical agents are useful tools for their cause.\n   \n   ->It says There Exist People in military who thinks they are useful\n   Looking at options\n   A. As civil Strife would be between To different parties and not armies and population, not the correct answer according to me.(Not Correct)\n   B. It tells about the 1st and 2nd sentence but Doesn't tell about 3rd sentence so It won't summarize it.(Not Correct)\n   C. \"it basically tells that there are some people who don't desire to send chemical agents to war, yes there has been a word used \"regretfully\"  but the question has mentioned about Likeness of chemical agent from military and not about \"undesirability\" so it doesn't summarize the question correctly.(Not Correct)\n   D. It covers all the sentence and summarizes it very well, somepoints may feel like it is not summarizes well but in compared to other options it is the best possible option we have.\n   (please do correct me if I am wrong anywhere I would love to improve my thinking about this)\nI think the best answer is C: \"Use of chemical agents in warfare would be undesirable.\"\n  \n\n    The passage doesn't really support option A or B. It's not talking about civil strife, and it's not saying chemical agents are actually useful.\n    \n\n     Option D goes too far - it says ALL people in the military like chemical weapons, which isn't what the passage says.\n     \n\n       The passage seems pretty negative about chemical weapons overall. It uses words like \"regretfully\" when talking about people who support them. It also describes modern warfare as \"suppression of civilian populations,\" which sounds bad.\n       \n\n         The author is basically saying \"Some military people think chemical weapons are useful for modern warfare\", and that's regretful. So C fits best - it's capturing that chemical weapons in war would be a bad thing, which seems to be the main point the author is making.\n         \n\n           It's not a perfect option either, but it's the closest of the options given. the overall tone of the passage fits option C best.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2371/gate-cse-2010-question-63",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2372",
+  "year": 2010,
+  "set": null,
+  "number": 64,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "$5$ skilled workers can build a wall in $20$ days; $8$ semi-skilled workers can build a wall in $25$ days; $10$ unskilled workers can build a wall in $30$ days. If a team has $2$ skilled, $6$ semi-skilled and $5$ unskilled workers, how long it will take to build the wall?",
+  "options": [
+   "$20$ days",
+   "$18$ days",
+   "$16$ days",
+   "$15$ days"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "D. $15$ days\n  $1$ skilled person can do $\\frac{1}{20 \\times 5} = 1/100$ of work in $1$ day, so $2$ skilled person do $2/100$ of work in a day.\n  Similarly, $6$ semi-skilled and $5$ unskilled person can do $6/200$ and $5/300$ of work respectively in $1$ day.\n  So, together they do $\\frac{2}{100}+\\frac{6}{200}+\\frac{5}{300} = \\frac{1}{15}$ of work together in $1$ day, which gives required number of day to complete the work $= 15.$\n$5\\times 20\\ SW-D=8\\times 25\\ SSW-D=10\\times 30\\ USW-D\\ \\ \\ .............(1)$\n  \n\n   $5\\times 20\\ SW-D=10\\times 30\\ USW-D$\n  \n\n   $1\\ SW=3\\ USW$\n  \n\n   $8\\times 25\\ SSW-D=10\\times 30\\ USW-D$\n  \n\n   $2\\ SSW=3\\ USW$\n  \n\n    If a team has 2 skilled, 6 semi-skilled and 5 unskilled workers\n   \n\n   $2\\ SW+ 6\\ SSW+ 5\\ USW$\n  \n\n   $6\\ USW+6\\times \\dfrac{3\\ USW}{2}+5\\ USW=20\\ USW$\n  \n\n   $10\\ USW\\rightarrow 30\\ days$\n  \n\n   $20\\ USW\\rightarrow ?$\n  \n\n   $?=15\\ days$\nAnswer\n  \n\n   D: 15 days\n  \n\n   5 skilled:- 20 days, so 1 skilled done in 20*5 days = 100 days\n  \n\n   2 skilled done in 100/2= 50 days.   , similarly, 6 semi-skilled done in 200/6\n  \n\n   similarly, 5 unskilled done  in 300/5 = 60\n  \n\n   M: Manpower, R: Rate, T : Time, W: Work done\n  \n\n   M        2 skilled (s)                     6 semi-skilled (ss)           5 unskilled (us)              s+ ss+ us\n  \n\n   R        12                                            18                                        10                            40\n  \n\n   T        50  days                            200/6 days                       60 days                             x\n  \n\n   W       600                                 600                                   600                                  600\n  \n\n   take LCM(50,100/3,30) = [ LCM(50,200,30) / HCF(1,6,1) ] = 600/1= 600\n  \n\n   Rate = W/T\n  \n\n   Rate of s+ss+us = 12+18+10= 40\n  \n\n   x=600/40 = 15 days",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/2372/gate-cse-2010-question-64",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "2373",
+  "year": 2010,
+  "set": null,
+  "number": 65,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Given digits $ 2, 2, 3, 3, 3, 4, 4, 4, 4$ how many distinct $4$ digit numbers greater than $3000$ can be formed?",
+  "options": [
+   "$50$",
+   "$51$",
+   "$52$",
+   "$54$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "first place should be occupied by either $3$ or $4.$\n  \n\n    Case 1\n   \n   : First place is occupied by the digit $4$\n   $4$  _  _  _\n   now in the set from where we can pick numbers is left with $=\\{2,2,3,3,3,4,4,4\\} $\n   if we got $3$ of each digit(which are $2, 3$ and $4$) then number of ways by\n   \n    each\n   \n   of those blanks can be\n  \n\n   filled in are $3$ coz we have $3$ choices of digits: $\\text{pick } 2, 3$ or $4.$\n   But we do not have just enough $2's$ to fill all those $3$ spaces with the digit $2.$\n  \n\n   $\\therefore$ we need to subtract this case where number would be $4222$.\n   So, total numbers obtained using the numbers in our current set $=1 \\times 3 \\times 3 \\times 3 - 1 = 26$.\n  \n\n   The first one is for the digit $4,$ coz its fixed for this case; the subtracted one is for the case $4222$ that can't be made possible.\n  \n\n    Case 2\n   \n   : First place is occupied by the digit $3$\n   $3$  _  _  _\n   now in the set from where we can pick numbers is left with $=\\{2,2,3,3,4,4,4,4\\}$\n   we have enough $4's$ here but lack $3's$ and $2's$ $\\therefore$, the cases we need to subtract are $3222$ and $3333$\n   So, total numbers obtained using the numbers in our current set $=1 \\times 3 \\times 3 \\times 3 - 2 = 25$\n  \n\n   both cases are independently capable of giving us the answer, we have =$ 26 + 25 = 51.$\n  \n\n   Hence answer is\n   \n    option B.\nAnswer is B\n    \n\n    Let first digit is 3 now rest 3 digits can be from 2,2,3,3,4,4,4,4 but in this no of 2's and 3's are only 2 so 222 and 333 is not possible so the possible no 3*3*3 -2 = 25\n   \n\n    In second condition the First no is 4 now rest three digits can be 2,2,3,3,3,4,4,4 so here no of 2's is also two so possible numbers is 3*3*3* -1=26\n   \n\n    25+26=51\nSimplest\n    \n\n     Approach\n    \n\n     Ever\n    \n\n   !\n   [IMAGE:200]\nanswer - B\n  first digit can be 3 or 4\n  permutations for remaining 3 places as follows\n  no digit repeated = 3!\n  one digit repeated = 3!/2!\n  non repeating digit can be chosen in 2 ways = (3!/2!)2\n  repeating digit can be chosen in 3 ways = ((3!/2!)2)3\n  numbers greater than 3000 but less than 4000 = 3! + ((3!/2!)2)3  = 24 + 1(only 4 can be repeated 3 times\n  numbers grater than 4000 = 3! + ((3!/2!)2)3  + 2 (since 4 and 3 can be repeated 3 times) = 26\n  total numbers = 51\nAnswer: Option B\n  \n\n   Explanation:\n  \n\n   The given digits are 2, 2, 3, 3, 3, 4, 4, 4, 4 we have to find the numbers that are greater than 300\n  \n\n    ∴\n   \n   The first digit can be 3 or 4 but not 2.\n  \n\n   Now, let us fix the first, second and third digits as 3, 2, 2, then the fourth place can be filled in 3 ways.\n  \n\n[IMAGE:400]\n\n    ∴\n   \n   The number of ways is 3 similarly, we fix first third and fourth place as 3, 2 and 2 respectively (4) so the second place can be filled in 3 ways again,\n  \n\n[IMAGE:401]\n\n   The number of ways is 3\n  \n\n   Now, we fix first, second and fourth, previous cases and we obtain the same result.\n  \n\n    ∴\n   \n   The number of ways is 3 so, the total number of ways is 9 similarly this can done by fixing the numbers as 3 and 4 (instead of 2) and thereby we obtain the a ways each\n  \n\n   The number of numbers starting with 3 is 27\n  \n\n   Similarly by taking 4 as the first digit we get 27 numbers\n  \n\n    ∴\n   \n   The number of numbers that are greater than 3000 is 27 + 27 = 54\n  \n\n   But, 3222, 4222, is not possible as there are only two 2's, 3333 is not possible as there are only three 3's\n  \n\n    ∴\n   \n   The total number of numbers that are greater than 3000 is 54 - 3 = 51\n  \n\n   Hope it helps u.:)\n3 _ _ _\n  \n\n      Filling with 2 3's\n      \n\n        3 3 3 _\n        \n\n          last place can be filled by a 2\n          \n\n            this number can be altered in 3!/2! ways keeping the thousands place intact\n            \n\n              last place can be filled by a 2\n              \n\n                this number can be altered in 3!/2! ways keeping the thousands place intact\n                \n\n                  last place can be filled by a 4\n                  \n\n                    this number can be altered in 3!/2! ways keeping the thousands place intact\n                    \n\n                      so far 3+3\n                      \n\n                          3 _ _ _\n                          \n\n                           3 3 _ _\n                           Two 2's in the gap →3!/2!\n                           Two 4's in the gap→3!/2!\n                           one two and one 4→3!\n                           3+3+6=12\n                           3_ _ _\n                           3 2 _ _\n                           Gaps can be filled by a two and a four →3!/2!\n                           Gaps can be filled by 2 4's→3!/2!\n                           3+3=6\n                           3_ _ _\n                           Filling all the gaps by 4→1 way only\n                           3 3 3 2 3\n                           3 3 3 4 3\n                           3 3 2 2 3\n                           3 3 4 4 3\n                           3 3 2 4 6\n                           3 2 2 4 3\n                           3 2 4 4 3\n                           3 4 4 4 1\n                           so starting with 3 we have 6+12+6+1=25ways\n                           4 _ _ _\n                           4 4 4 4→1\n                           4 3 4 4→3\n                           4 3 2 4→6\n                           4 3 2 2→3\n                           4 3 3 2→3\n                           4 3 3 4→3\n                           4 3 3 3→1\n                           4 2 4 4→3\n                           4 2 3 4(counted)\n                           4 2 3 3(counted)\n                           4 2 2 4→3\n                           4 2 2 3 (counted)\n                           total 26 ways\n                           51 ways total\n                           Alternative approach:(Error prone)\n                           Starting with 3 we have to fill 3 more spots\n                           Consider each spot has 3 ways\n                           3*3*3=27 ways but 3222 and 3333 not possible so subtract 2\n                           25 ways\n                           Starting with 4 we have 27 ways but 4222 is not possible so subtract 1\n                           it's 26 ways",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1071903160588292202",
+    "kind": "remote"
+   },
+   {
+    "src": "http://www.indiabix.com/_files/images/electronics-and-communication-engineering/exam-question-papers/7-10-64.png",
+    "kind": "remote"
+   },
+   {
+    "src": "http://www.indiabix.com/_files/images/electronics-and-communication-engineering/exam-question-papers/7-10-64-1.png",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/2373/gate-cse-2010-question-65",
+  "source": "gateoverflow"
+ }
+]
