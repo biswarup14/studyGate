@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 
 interface TimerProps {
   initialMinutes: number;
@@ -27,7 +27,6 @@ export function Timer({ initialMinutes, onTimeUp, isPaused = false }: TimerProps
 
   const mins = Math.floor(seconds / 60);
   const secs = seconds % 60;
-  const pct = (seconds / (initialMinutes * 60)) * 100;
   const urgent = seconds < 60;
 
   return (

@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useCallback } from "react";
 import { ProgressData } from "@/lib/types";
 
 const STORAGE_KEY = "gate_cs_progress";
@@ -14,19 +14,14 @@ function loadProgress(): ProgressData {
 }
 
 function saveProgress(data: ProgressData) {
+  if (typeof window === "undefined") return;
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
   } catch {}
 }
 
 export function useProgress() {
-  const [progress, setProgress] = useState<ProgressData>({});
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setProgress(loadProgress());
-    setMounted(true);
-  }, []);
+  const [progress, setProgress] = useState<ProgressData>(() => loadProgress());
 
   const recordAttempt = useCallback(
     (questionId: string, correct: boolean) => {
@@ -49,7 +44,6 @@ export function useProgress() {
 
   const getStats = useCallback(
     (questionIds?: string[]) => {
-      if (!mounted) return { attempted: 0, correct: 0, total: 0 };
       const data = questionIds
         ? questionIds.map((id) => progress[id]).filter(Boolean)
         : Object.values(progress);
@@ -57,15 +51,17 @@ export function useProgress() {
       const correct = data.filter((p) => p.correct > 0).length;
       return { attempted, correct, total: data.length };
     },
-    [progress, mounted]
+    [progress]
   );
 
   const isAttempted = useCallback(
     (questionId: string) => {
-      return mounted && progress[questionId] && progress[questionId].attempts > 0;
+      return !!(progress[questionId] && progress[questionId].attempts > 0);
     },
-    [progress, mounted]
+    [progress]
   );
+
+  const mounted = typeof window !== "undefined";
 
   return { progress, recordAttempt, getStats, isAttempted, mounted };
 }

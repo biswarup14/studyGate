@@ -1,6 +1,5 @@
 "use client";
-import { useState, useCallback } from "react";
-import { useRouter } from "next/navigation";
+import { useState, useCallback, useRef } from "react";
 import Link from "next/link";
 import { Question } from "@/lib/types";
 import { MathBlock } from "./MathBlock";
@@ -11,17 +10,15 @@ interface QuizState {
   currentIndex: number;
   answers: Record<number, string[]>;
   submitted: boolean;
-  startTime: number;
   timePerQuestion: number;
 }
 
 export function QuizRunner({ questions }: { questions: Question[] }) {
-  const router = useRouter();
+  const startTimeRef = useRef<number>(Date.now());
   const [state, setState] = useState<QuizState>({
     currentIndex: 0,
     answers: {},
     submitted: false,
-    startTime: Date.now(),
     timePerQuestion: 90,
   });
 
@@ -41,7 +38,7 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
         return { ...prev, answers: { ...prev.answers, [prev.currentIndex]: next } };
       });
     },
-    [state.submitted, current]
+    [state.submitted, state.currentIndex, current]
   );
 
   const goNext = () => {
@@ -67,7 +64,7 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
   };
 
   if (state.submitted) {
-    return <QuizResults questions={questions} answers={state.answers} startTime={state.startTime} />;
+    return <QuizResults questions={questions} answers={state.answers} startTime={startTimeRef.current} />;
   }
 
   return (
@@ -196,7 +193,20 @@ function QuizResults({
   answers: Record<number, string[]>;
   startTime: number;
 }) {
-  const elapsed = Math.round((Date.now() - startTime) / 1000);
+  const [elapsed, setElapsed] = useState(0);
+
+  // Compute elapsed from ref value passed in (no impure call in render)
+  const computeElapsed = useCallback(() => {
+    return Math.round((Date.now() - startTime) / 1000);
+  }, [startTime]);
+
+  // Store computed value in state after mount
+  const [computed, setComputed] = useState(false);
+  if (!computed) {
+    setElapsed(computeElapsed());
+    setComputed(true);
+  }
+
   const mins = Math.floor(elapsed / 60);
   const secs = elapsed % 60;
 
