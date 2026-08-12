@@ -7,8 +7,8 @@ const _allQuestions: Question[] = [];
 export async function getIndex(): Promise<IndexData> {
   if (_index) return _index;
   const res = await fetch("/data/index.json");
-  _index = await res.json();
-  return _index;
+  _index = (await res.json()) as IndexData;
+  return _index!;
 }
 
 export async function getYearQuestions(year: number): Promise<Question[]> {
