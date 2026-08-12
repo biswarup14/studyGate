@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect, useCallback } from "react";
-import { useParams, useRouter } from "next/navigation";
+import { useParams } from "next/navigation";
 import Link from "next/link";
 import { Question, SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/types";
 import { MathBlock } from "@/components/MathBlock";
@@ -8,7 +8,6 @@ import { useProgress } from "@/components/useProgress";
 
 export default function QuestionDetailPage() {
   const { id } = useParams<{ id: string }>();
-  const router = useRouter();
   const [question, setQuestion] = useState<Question | null>(null);
   const [loading, setLoading] = useState(true);
   const [showAnswer, setShowAnswer] = useState(false);

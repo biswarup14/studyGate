@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect, useMemo } from "react";
-import { useSearchParams, useRouter } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { Question } from "@/lib/types";
 import { QuestionCard } from "@/components/QuestionCard";
 
@@ -25,7 +25,6 @@ const YEARS = Array.from({ length: 27 }, (_, i) => 2000 + i).reverse();
 const TYPES = ["mcq", "msq", "nat"] as const;
 
 export function QuestionsContent() {
-  const router = useRouter();
   const searchParams = useSearchParams();
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
@@ -71,14 +70,6 @@ export function QuestionsContent() {
 
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
   const paginated = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
-
-  const updateFilter = (key: string, value: string) => {
-    const params = new URLSearchParams(searchParams.toString());
-    if (value) params.set(key, value);
-    else params.delete(key);
-    params.delete("page");
-    router.push(`/questions?${params.toString()}`);
-  };
 
   if (loading) {
     return (

@@ -1,5 +1,5 @@
 "use client";
-import { useState, useCallback, useRef } from "react";
+import { useState, useCallback } from "react";
 import Link from "next/link";
 import { Question } from "@/lib/types";
 import { MathBlock } from "./MathBlock";
@@ -14,13 +14,14 @@ interface QuizState {
 }
 
 export function QuizRunner({ questions }: { questions: Question[] }) {
-  const startTimeRef = useRef<number>(Date.now());
   const [state, setState] = useState<QuizState>({
     currentIndex: 0,
     answers: {},
     submitted: false,
     timePerQuestion: 90,
   });
+  const [startTime] = useState<number | null>(null);
+  const [elapsed, setElapsed] = useState(0);
 
   const current = questions[state.currentIndex];
   const selected = state.answers[state.currentIndex] || [];
@@ -38,7 +39,7 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
         return { ...prev, answers: { ...prev.answers, [prev.currentIndex]: next } };
       });
     },
-    [state.submitted, state.currentIndex, current]
+    [state.submitted, current]
   );
 
   const goNext = () => {
@@ -56,15 +57,21 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
   };
 
   const handleSubmit = () => {
+    if (startTime !== null) {
+      setElapsed(Math.round((Date.now() - startTime) / 1000));
+    }
     setState((prev) => ({ ...prev, submitted: true }));
   };
 
   const handleTimeUp = () => {
+    if (startTime !== null) {
+      setElapsed(Math.round((Date.now() - startTime) / 1000));
+    }
     setState((prev) => ({ ...prev, submitted: true }));
   };
 
   if (state.submitted) {
-    return <QuizResults questions={questions} answers={state.answers} startTime={startTimeRef.current} />;
+    return <QuizResults questions={questions} answers={state.answers} elapsed={elapsed} />;
   }
 
   return (
@@ -187,26 +194,12 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
 function QuizResults({
   questions,
   answers,
-  startTime,
+  elapsed,
 }: {
   questions: Question[];
   answers: Record<number, string[]>;
-  startTime: number;
+  elapsed: number;
 }) {
-  const [elapsed, setElapsed] = useState(0);
-
-  // Compute elapsed from ref value passed in (no impure call in render)
-  const computeElapsed = useCallback(() => {
-    return Math.round((Date.now() - startTime) / 1000);
-  }, [startTime]);
-
-  // Store computed value in state after mount
-  const [computed, setComputed] = useState(false);
-  if (!computed) {
-    setElapsed(computeElapsed());
-    setComputed(true);
-  }
-
   const mins = Math.floor(elapsed / 60);
   const secs = elapsed % 60;
 
