@@ -159,6 +159,53 @@ body {
   to { opacity: 1; transform: scale(1) translateY(0); }
 }
 
+@keyframes menu-in {
+  from { opacity: 0; transform: scale(0.98) translateY(-4px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.animate-menu-in {
+  animation: menu-in 0.18s ease-out both;
+}
+
+@keyframes grow-x {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+.animate-grow-x {
+  transform-origin: left;
+  animation: grow-x 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Press feedback for interactive elements */
+.btn-press {
+  transition: transform 0.15s ease;
+}
+
+.btn-press:active {
+  transform: scale(0.98);
+}
+
+/* Scroll-reveal: elements start hidden and animate in when scrolled into view */
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-delay-1 { transition-delay: 100ms; }
+.reveal-delay-2 { transition-delay: 200ms; }
+.reveal-delay-3 { transition-delay: 300ms; }
+.reveal-delay-4 { transition-delay: 400ms; }
+.reveal-delay-5 { transition-delay: 500ms; }
+.reveal-delay-6 { transition-delay: 600ms; }
+
 /* Skeleton loading */
 .skeleton {
   background: var(--muted);
@@ -210,6 +257,23 @@ body {
 
 .dark .card-surface:hover {
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 /* Inline question images (injected via innerHTML) */

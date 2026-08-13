@@ -37,6 +37,9 @@ export function CountdownTimer() {
     return () => clearInterval(id);
   }, [target]);
 
+  const urgent = !timeLeft.passed && timeLeft.days <= 30;
+  const accent = urgent ? "text-amber-500" : "text-primary";
+
   return (
     <div className="animate-pop card-surface relative overflow-hidden p-5 sm:p-7">
       <span className="pointer-events-none absolute -top-14 -right-10 h-40 w-40 rounded-full bg-primary/10 blur-3xl" />
@@ -44,8 +47,8 @@ export function CountdownTimer() {
 
       <div className="relative flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="text-center sm:text-left">
-          <p className="text-xs font-bold uppercase tracking-wider text-primary mb-1">
-            {timeLeft.passed ? "GATE 2027 underway" : "Countdown to GATE 2027"}
+          <p className={`text-xs font-bold uppercase tracking-wider mb-1 ${accent} ${urgent ? "animate-pulse-soft" : ""}`}>
+            {timeLeft.passed ? "GATE 2027 underway" : urgent ? "GATE 2027 is near!" : "Countdown to GATE 2027"}
           </p>
           <p className="text-lg sm:text-xl font-bold">CSE Paper · Feb 7, 2027</p>
           <p className="text-sm text-muted-foreground mt-0.5">9:30 AM – 12:30 PM (IST)</p>
@@ -55,18 +58,26 @@ export function CountdownTimer() {
           <p className="text-2xl font-bold text-primary">The exam has begun — good luck!</p>
         ) : (
           <div className="flex items-start gap-2 sm:gap-3">
-            {UNITS.map(({ key, label }) => (
-              <div key={key} className="flex flex-col items-center">
-                <div className="w-16 sm:w-20 rounded-xl border border-border bg-muted px-2 py-2.5 text-center">
-                  <span className="block text-2xl sm:text-3xl font-black tabular-nums text-primary">
-                    {String(timeLeft[key]).padStart(2, "0")}
+            {UNITS.map(({ key, label }) => {
+              const display = String(timeLeft[key]).padStart(2, "0");
+              return (
+                <div key={key} className="flex flex-col items-center">
+                  <div
+                    key={display}
+                    className={`animate-pop w-16 sm:w-20 rounded-xl border bg-muted px-2 py-2.5 text-center ${
+                      urgent ? "border-amber-500/40" : "border-border"
+                    }`}
+                  >
+                    <span className={`block text-2xl sm:text-3xl font-black tabular-nums ${accent}`}>
+                      {display}
+                    </span>
+                  </div>
+                  <span className="mt-1.5 text-[11px] font-medium text-muted-foreground uppercase tracking-wide">
+                    {label}
                   </span>
                 </div>
-                <span className="mt-1.5 text-[11px] font-medium text-muted-foreground uppercase tracking-wide">
-                  {label}
-                </span>
-              </div>
-            ))}
+              );
+            })}
           </div>
         )}
       </div>

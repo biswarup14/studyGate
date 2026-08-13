@@ -3,6 +3,7 @@ import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import { SubjectCard } from "@/components/SubjectCard";
 import { CountdownTimer } from "@/components/CountdownTimer";
+import { Reveal } from "@/components/Reveal";
 import { useSubjectProgress } from "@/components/useSubjectProgress";
 import { IndexData, Question } from "@/lib/types";
 
@@ -97,7 +98,7 @@ export default function HomePage() {
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
       {/* Hero */}
-      <section className="text-center mb-14 animate-fade-in">
+      <Reveal as="section" className="text-center mb-14">
         <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold mb-5">
           <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -116,23 +117,23 @@ export default function HomePage() {
         <div className="flex flex-wrap justify-center gap-3">
           <Link
             href="/questions"
-            className="px-6 py-3 rounded-xl bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/20 transition-all"
+            className="btn-press px-6 py-3 rounded-xl bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/20 transition-all"
           >
             Browse Questions →
           </Link>
           <Link
             href="/quiz"
-            className="px-6 py-3 rounded-xl border border-border font-semibold text-sm hover:bg-muted hover:border-primary/30 transition-all"
+            className="btn-press px-6 py-3 rounded-xl border border-border font-semibold text-sm hover:bg-muted hover:border-primary/30 transition-all"
           >
             Start Quiz
           </Link>
         </div>
-      </section>
+      </Reveal>
 
       {/* GATE 2027 countdown */}
-      <section className="mb-14">
+      <Reveal className="mb-14" delay={1}>
         <CountdownTimer />
-      </section>
+      </Reveal>
 
       {/* Stats */}
       <section className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-14">
@@ -177,41 +178,44 @@ export default function HomePage() {
               </svg>
             ),
           },
-        ].map((stat) => (
-          <div key={stat.label} className="rounded-xl border border-border p-4 bg-card text-center card-surface hover-lift">
-            <div className={`w-10 h-10 mx-auto rounded-lg flex items-center justify-center mb-2.5 ${stat.bg}`}>{stat.icon}</div>
-            <div className="text-2xl font-bold leading-tight">{stat.value}</div>
-            <div className="text-xs text-muted-foreground mt-1">{stat.label}</div>
-          </div>
+        ].map((stat, i) => (
+          <Reveal key={stat.label} delay={Math.min(i + 1, 6) as 1 | 2 | 3 | 4 | 5 | 6}>
+            <div className="rounded-xl border border-border p-4 bg-card text-center card-surface hover-lift btn-press">
+              <div className={`w-10 h-10 mx-auto rounded-lg flex items-center justify-center mb-2.5 ${stat.bg}`}>{stat.icon}</div>
+              <div className="text-2xl font-bold leading-tight">{stat.value}</div>
+              <div className="text-xs text-muted-foreground mt-1">{stat.label}</div>
+            </div>
+          </Reveal>
         ))}
       </section>
 
       {/* Subjects */}
-      <section className="mb-12">
+      <Reveal as="section" className="mb-12">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-xl font-bold">Subjects</h2>
           <Link href="/subjects" className="text-sm text-primary hover:underline">View all →</Link>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-          {index.subjects.map((s) => (
-            <SubjectCard
-              key={s.name}
-              name={s.name}
-              count={s.count}
-              attempted={mounted ? subjectProgress[s.name]?.attempted : undefined}
-            />
+          {index.subjects.map((s, i) => (
+            <Reveal key={s.name} delay={((i % 6) + 1) as 1 | 2 | 3 | 4 | 5 | 6}>
+              <SubjectCard
+                name={s.name}
+                count={s.count}
+                attempted={mounted ? subjectProgress[s.name]?.attempted : undefined}
+              />
+            </Reveal>
           ))}
         </div>
-      </section>
+      </Reveal>
 
       {/* Year picker */}
-      <section className="mb-12">
+      <Reveal as="section" className="mb-12">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-xl font-bold">Browse by Year</h2>
           <Link href="/questions" className="text-sm text-primary hover:underline">View all →</Link>
         </div>
 
-        <div className="animate-stagger card-surface relative overflow-hidden p-5 sm:p-7">
+        <div className="card-surface relative overflow-hidden p-5 sm:p-7">
           <span className="pointer-events-none absolute -top-16 right-10 h-40 w-40 rounded-full bg-primary/10 blur-3xl" />
           <span className="pointer-events-none absolute inset-x-6 top-0 h-0.5 rounded-full bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
 
@@ -373,10 +377,13 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </Reveal>
 
       {/* Quick quiz */}
-      <section className="rounded-2xl border border-border bg-gradient-to-br from-primary/5 via-primary/10 to-transparent p-6 sm:p-8">
+      <Reveal
+        as="section"
+        className="rounded-2xl border border-border bg-gradient-to-br from-primary/5 via-primary/10 to-transparent p-6 sm:p-8"
+      >
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
             <h2 className="text-xl font-bold mb-1">Ready to Practice?</h2>
@@ -386,12 +393,12 @@ export default function HomePage() {
           </div>
           <Link
             href="/quiz"
-            className="px-6 py-3 rounded-xl bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/20 transition-all whitespace-nowrap"
+            className="btn-press px-6 py-3 rounded-xl bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/20 transition-all whitespace-nowrap"
           >
             Start Quiz →
           </Link>
         </div>
-      </section>
+      </Reveal>
     </div>
   );
 }

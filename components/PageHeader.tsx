@@ -19,7 +19,7 @@ export function PageHeader({
   right,
 }: PageHeaderProps) {
   return (
-    <div className="mb-8">
+    <div className="mb-8 animate-slide-down">
       {back && (
         <Link
           href={back.href}
@@ -32,10 +32,10 @@ export function PageHeader({
         </Link>
       )}
       <div className="flex flex-col sm:flex-row sm:items-center gap-4 justify-between">
-        <div className="flex items-center gap-4 min-w-0">
+        <div className="flex items-center gap-4 min-w-0 group">
           {icon && (
             <span
-              className={`flex items-center justify-center w-12 h-12 rounded-2xl text-white text-lg font-bold shadow-md shrink-0 ${iconClass}`}
+              className={`flex items-center justify-center w-12 h-12 rounded-2xl text-white text-lg font-bold shadow-md shrink-0 transition-transform duration-200 group-hover:scale-110 ${iconClass}`}
             >
               {icon}
             </span>

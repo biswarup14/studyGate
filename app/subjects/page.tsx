@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { IndexData } from "@/lib/types";
 import { SubjectCard } from "@/components/SubjectCard";
 import { PageHeader } from "@/components/PageHeader";
+import { Reveal } from "@/components/Reveal";
 import { useSubjectProgress } from "@/components/useSubjectProgress";
 
 export default function SubjectsPage() {
@@ -42,13 +43,14 @@ export default function SubjectsPage() {
         }
       />
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-        {index.subjects.map((s) => (
-          <SubjectCard
-            key={s.name}
-            name={s.name}
-            count={s.count}
-            attempted={mounted ? subjectProgress[s.name]?.attempted : undefined}
-          />
+        {index.subjects.map((s, i) => (
+          <Reveal key={s.name} delay={((i % 6) + 1) as 1 | 2 | 3 | 4 | 5 | 6}>
+            <SubjectCard
+              name={s.name}
+              count={s.count}
+              attempted={mounted ? subjectProgress[s.name]?.attempted : undefined}
+            />
+          </Reveal>
         ))}
       </div>
     </div>

@@ -67,7 +67,7 @@ export function FilterDropdown({
       </button>
 
       {open && (
-        <div className="absolute z-30 left-0 mt-2 w-64 max-h-80 overflow-y-auto rounded-xl border border-border bg-card p-1.5 shadow-xl animate-slide-down">
+        <div className="absolute z-30 left-0 mt-2 w-64 max-h-80 overflow-y-auto rounded-xl border border-border bg-card p-1.5 shadow-xl animate-menu-in">
           <button
             onClick={() => select("")}
             className={`flex w-full items-center justify-between gap-3 rounded-lg px-3 py-2 text-left text-sm transition-colors ${
@@ -82,13 +82,14 @@ export function FilterDropdown({
             )}
           </button>
           <div className="my-1 mx-3 h-px bg-border" />
-          {options.map((o) => (
+          {options.map((o, i) => (
             <button
               key={o.value}
               onClick={() => select(o.value)}
-              className={`flex w-full items-center justify-between gap-3 rounded-lg px-3 py-2 text-left text-sm transition-colors ${
+              className={`animate-fade-in flex w-full items-center justify-between gap-3 rounded-lg px-3 py-2 text-left text-sm transition-colors ${
                 o.value === value ? "bg-primary/10 text-primary font-medium" : "text-foreground hover:bg-muted"
               }`}
+              style={{ animationDelay: `${i * 15}ms`, animationFillMode: "both" }}
             >
               <span className="truncate">{o.label}</span>
               <span className="flex items-center gap-2 shrink-0">

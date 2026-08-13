@@ -39,18 +39,25 @@ function SubjectRow({ sub, setMarks }: { sub: SubjectMarks; setMarks: SetMarks }
         </td>
         <td className="py-2 pr-3 text-right tabular-nums text-muted-foreground">{pct.toFixed(1)}%</td>
       </tr>
-      {open && sub.subtopics.length > 1 && (
+      {sub.subtopics.length > 1 && (
         <tr>
-          <td colSpan={4} className="pb-2 pr-3">
-            <div className="ml-7 mr-3 rounded-lg bg-muted/50 p-2.5 space-y-1">
-              {sub.subtopics.map((st) => (
-                <div key={st.name} className="flex items-center gap-2 text-xs">
-                  <span className="truncate text-foreground/70">{st.name}</span>
-                  <span className="ml-auto shrink-0 tabular-nums text-muted-foreground">
-                    {st.count} q{setMarks.marksAvailable ? ` · ${st.marks} m` : ""}
-                  </span>
+          <td colSpan={4} className={open ? "pb-2 pr-3" : "pr-3"}>
+            <div
+              className="grid transition-[grid-template-rows] duration-300 ease-out"
+              style={{ gridTemplateRows: open ? "1fr" : "0fr" }}
+            >
+              <div className="overflow-hidden">
+                <div className="ml-7 mr-3 rounded-lg bg-muted/50 p-2.5 space-y-1">
+                  {sub.subtopics.map((st) => (
+                    <div key={st.name} className="flex items-center gap-2 text-xs">
+                      <span className="truncate text-foreground/70">{st.name}</span>
+                      <span className="ml-auto shrink-0 tabular-nums text-muted-foreground">
+                        {st.count} q{setMarks.marksAvailable ? ` · ${st.marks} m` : ""}
+                      </span>
+                    </div>
+                  ))}
                 </div>
-              ))}
+              </div>
             </div>
           </td>
         </tr>
@@ -64,7 +71,7 @@ export function SetMarksCard({ setMarks }: { setMarks: SetMarks }) {
   const subtitle = `${setMarks.count} question${setMarks.count !== 1 ? "s" : ""} · ${setMarks.subjects.length} subject${setMarks.subjects.length !== 1 ? "s" : ""}`;
 
   return (
-    <div className="rounded-xl border border-border bg-card p-5 card-surface animate-fade-in">
+    <div className="rounded-xl border border-border bg-card p-5 card-surface">
       {/* Header */}
       <div className="flex items-center justify-between gap-3 mb-4">
         <div className="flex items-center gap-3 min-w-0">
@@ -97,7 +104,7 @@ export function SetMarksCard({ setMarks }: { setMarks: SetMarks }) {
 
       {/* Stacked bar by subject */}
       <div
-        className="h-2.5 rounded-full overflow-hidden flex bg-muted mb-4"
+        className="h-2.5 rounded-full overflow-hidden flex bg-muted mb-4 animate-grow-x"
         title={setMarks.subjects.map((s) => `${s.name}: ${setMarks.marksAvailable ? `${s.marks} marks` : `${s.count} questions`}`).join(" · ")}
       >
         {setMarks.subjects.map((s) => (

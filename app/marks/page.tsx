@@ -4,6 +4,7 @@ import { Question } from "@/lib/types";
 import { PageHeader } from "@/components/PageHeader";
 import { Select } from "@/components/Select";
 import { SetMarksCard } from "@/components/SetMarksCard";
+import { Reveal } from "@/components/Reveal";
 import { aggregateByYearAndSet, getAllYears, SUBJECT_BAR_COLORS } from "@/lib/marks";
 
 export default function MarksPage() {
@@ -102,8 +103,10 @@ export default function MarksPage() {
               </div>
 
               <div className={`grid gap-4 ${detail.sets.length > 1 ? "lg:grid-cols-2" : ""}`}>
-                {detail.sets.map((setMarks) => (
-                  <SetMarksCard key={setMarks.label} setMarks={setMarks} />
+                {detail.sets.map((setMarks, i) => (
+                  <Reveal key={setMarks.label} delay={i === 0 ? 1 : 2}>
+                    <SetMarksCard setMarks={setMarks} />
+                  </Reveal>
                 ))}
               </div>
             </>

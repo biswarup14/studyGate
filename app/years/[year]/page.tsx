@@ -4,6 +4,7 @@ import { useParams, useSearchParams, useRouter } from "next/navigation";
 import { Question, SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/types";
 import { QuestionCard } from "@/components/QuestionCard";
 import { PageHeader } from "@/components/PageHeader";
+import { Reveal } from "@/components/Reveal";
 import { sortNewestFirst } from "@/lib/sort";
 
 const PAGE_SIZE = 20;
@@ -106,8 +107,10 @@ function YearDetailContent() {
       )}
 
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {paginated.map((q) => (
-          <QuestionCard key={q.id} question={q} />
+        {paginated.map((q, i) => (
+          <Reveal key={q.id} delay={((i % 6) + 1) as 1 | 2 | 3 | 4 | 5 | 6}>
+            <QuestionCard question={q} />
+          </Reveal>
         ))}
       </div>
 

@@ -14,11 +14,11 @@ export function SubjectCard({ name, count, attempted = 0 }: SubjectCardProps) {
   return (
     <Link
       href={`/subjects/${slug}`}
-      className="relative overflow-hidden rounded-xl border border-border hover:border-primary/30 hover:shadow-lg transition-all bg-card group p-4 flex flex-col hover-lift"
+      className="relative overflow-hidden rounded-xl border border-border hover:border-primary/30 hover:shadow-lg transition-all bg-card group p-4 flex flex-col hover-lift btn-press"
     >
       <div className={`absolute inset-0 bg-gradient-to-br ${SUBJECT_COLORS[name] || "from-gray-500 to-gray-600"} opacity-5 group-hover:opacity-10 transition-opacity`} />
 
-      <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br ${SUBJECT_COLORS[name] || "from-gray-500 to-gray-600"} text-white text-sm font-bold mb-3 shadow-md`}>
+      <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br ${SUBJECT_COLORS[name] || "from-gray-500 to-gray-600"} text-white text-sm font-bold mb-3 shadow-md transition-transform duration-300 ease-out group-hover:scale-110 group-hover:-rotate-3`}>
         {SUBJECT_ICONS[name] || name.slice(0, 3)}
       </div>
 
@@ -50,7 +50,7 @@ export function SubjectCard({ name, count, attempted = 0 }: SubjectCardProps) {
         </p>
       )}
 
-      <div className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 transition-all duration-200 -translate-x-1 group-hover:translate-x-0">
         <svg className="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
         </svg>

@@ -17,7 +17,7 @@ export function QuestionCard({ question }: { question: Question }) {
   return (
     <Link
       href={`/questions/${question.id}`}
-      className="block p-4 rounded-xl border border-border hover:border-primary/30 hover:shadow-md transition-all bg-card group hover-lift"
+      className="block p-4 rounded-xl border border-border hover:border-primary/30 hover:shadow-md transition-all bg-card group hover-lift btn-press"
     >
       <div className="flex items-start justify-between gap-2 mb-2">
         <div className="flex items-center gap-1.5 flex-wrap">
@@ -67,8 +67,14 @@ export function QuestionCard({ question }: { question: Question }) {
       <div className="flex items-center gap-3 mt-3 text-xs text-muted-foreground">
         <span className={`w-2 h-2 rounded-full ${hasAnswer ? "bg-success" : "bg-warning"}`} />
         <span>{hasAnswer ? "Answer available" : "Answer pending"}</span>
+        <span className="ml-auto inline-flex items-center gap-1.5 text-primary opacity-0 -translate-x-1 transition-all duration-200 group-hover:opacity-100 group-hover:translate-x-0">
+          View
+          <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5-5 5M6 12h12" />
+          </svg>
+        </span>
         {question.difficulty && (
-          <span className="ml-auto inline-flex items-center gap-1.5 capitalize">
+          <span className="inline-flex items-center gap-1.5 capitalize">
             <span className={`w-1.5 h-1.5 rounded-full ${diffColor}`} />
             {question.difficulty}
           </span>
