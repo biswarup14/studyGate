@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "GATE CS Prep — Previous Year Questions & Solutions",
   description:
-    "2,455+ GATE Computer Science previous year questions (2000–2026) with interactive quizzes, subject-wise browsing, and progress tracking.",
+    "3,200+ GATE Computer Science previous year questions (2000–2026) with interactive quizzes, subject-wise browsing, and progress tracking.",
   keywords: ["GATE", "Computer Science", "CSE", "previous year questions", "PYQ", "preparation"],
 };
 

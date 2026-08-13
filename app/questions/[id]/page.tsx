@@ -4,6 +4,7 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import { Question, SUBJECT_COLORS, SUBJECT_ICONS, SUBTOPIC_COLORS } from "@/lib/types";
 import { MathBlock } from "@/components/MathBlock";
+import { TypeBadge } from "@/components/TypeBadge";
 import { useProgress } from "@/components/useProgress";
 import { useSession } from "next-auth/react";
 
@@ -84,7 +85,7 @@ export default function QuestionDetailPage() {
       <div className="flex items-center gap-2 text-sm text-muted-foreground mb-6">
         <Link href="/questions" className="hover:text-primary">Questions</Link>
         <span>/</span>
-        <span className="text-foreground">{question.id}</span>
+        <span className="text-foreground">Question {question.id}</span>
       </div>
 
       {/* Meta */}
@@ -97,16 +98,15 @@ export default function QuestionDetailPage() {
             {question.subtopic}
           </span>
         )}
+        {question.branch && question.branch !== "CSE" && (
+          <span className="text-xs px-2.5 py-1 rounded-full font-medium bg-slate-500/15 text-slate-700 dark:text-slate-300">
+            {question.branch}
+          </span>
+        )}
         <span className="text-sm text-muted-foreground">
           {question.year}{question.set ? ` Set ${question.set}` : ""}
         </span>
-        <span className={`text-xs px-2.5 py-1 rounded-full font-medium ${
-          question.type === "mcq" ? "bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300" :
-          question.type === "msq" ? "bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300" :
-          "bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300"
-        }`}>
-          {question.type.toUpperCase()}
-        </span>
+        <TypeBadge type={question.type} />
         {question.marks && (
           <span className="text-xs text-muted-foreground">{question.marks} mark{question.marks > 1 ? "s" : ""}</span>
         )}

@@ -4,6 +4,7 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import { Question, SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/types";
 import { QuestionCard } from "@/components/QuestionCard";
+import { PageHeader } from "@/components/PageHeader";
 import { sortNewestFirst } from "@/lib/sort";
 
 const PAGE_SIZE = 20;
@@ -117,27 +118,33 @@ export default function SubjectDetailPage() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
-      <div className="flex items-center gap-3 mb-6">
-        <span className={`inline-flex items-center px-3 py-1.5 rounded-lg bg-gradient-to-r ${SUBJECT_COLORS[actualSubject] || "from-gray-500 to-gray-600"} text-white text-sm font-bold`}>
-          {SUBJECT_ICONS[actualSubject]} {actualSubject}
-        </span>
-        <span className="text-sm text-muted-foreground">
-          {shown.length.toLocaleString()} question{shown.length !== 1 ? "s" : ""}
-        </span>
-      </div>
-
-      <div className="flex items-center gap-3 mb-4">
-        <Link href="/subjects" className="text-sm text-primary hover:underline">← All Subjects</Link>
-        <Link href={`/quiz`} className="text-sm text-primary hover:underline">Quiz this subject →</Link>
-      </div>
+      <PageHeader
+        back={{ href: "/subjects", label: "All Subjects" }}
+        icon={<span>{SUBJECT_ICONS[actualSubject] || actualSubject.slice(0, 2)}</span>}
+        iconClass={`bg-gradient-to-br ${SUBJECT_COLORS[actualSubject] || "from-gray-500 to-gray-600"}`}
+        title={actualSubject}
+        subtitle={`${shown.length.toLocaleString()} question${shown.length !== 1 ? "s" : ""} available`}
+        right={
+          <Link
+            href={`/quiz?subject=${encodeURIComponent(actualSubject)}`}
+            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/20 transition-all"
+          >
+            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Quiz this subject
+          </Link>
+        }
+      />
 
       {/* Subtopic chips */}
       {subtopics.length > 0 && (
-        <div className="flex flex-wrap gap-2 mb-6">
+        <div className="flex flex-wrap gap-2 mb-5">
           <button
             onClick={() => selectSubtopic("")}
-            className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-colors ${
-              subtopic === "" ? "bg-primary text-primary-foreground border-primary" : "border-border hover:bg-muted"
+            className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all hover-lift ${
+              subtopic === "" ? "bg-primary text-primary-foreground border-primary shadow-sm" : "border-border hover:bg-muted hover:border-primary/30"
             }`}
           >
             All
@@ -146,8 +153,8 @@ export default function SubjectDetailPage() {
             <button
               key={name}
               onClick={() => selectSubtopic(name)}
-              className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-colors ${
-                subtopic === name ? "bg-primary text-primary-foreground border-primary" : "border-border hover:bg-muted"
+              className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all hover-lift ${
+                subtopic === name ? "bg-primary text-primary-foreground border-primary shadow-sm" : "border-border hover:bg-muted hover:border-primary/30"
               }`}
             >
               {name}
@@ -161,10 +168,10 @@ export default function SubjectDetailPage() {
 
       {/* Branch chips */}
       {branches.length > 1 && (
-        <div className="flex flex-wrap gap-2 mb-6">
+        <div className="flex flex-wrap gap-2 mb-5">
           <button
             onClick={() => selectBranch("")}
-            className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-all hover-lift ${
+            className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all hover-lift ${
               branch === "" ? "bg-primary text-primary-foreground border-primary shadow-sm" : "border-border hover:bg-muted hover:border-primary/30"
             }`}
           >
@@ -177,7 +184,7 @@ export default function SubjectDetailPage() {
             <button
               key={name}
               onClick={() => selectBranch(name)}
-              className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-all hover-lift ${
+              className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all hover-lift ${
                 branch === name ? "bg-primary text-primary-foreground border-primary shadow-sm" : "border-border hover:bg-muted hover:border-primary/30"
               }`}
             >
@@ -202,8 +209,8 @@ export default function SubjectDetailPage() {
             <button
               key={d}
               onClick={() => selectDifficulty(d)}
-              className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-colors ${
-                difficulty === d ? "bg-primary text-primary-foreground border-primary" : "border-border hover:bg-muted"
+              className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all hover-lift ${
+                difficulty === d ? "bg-primary text-primary-foreground border-primary shadow-sm" : "border-border hover:bg-muted hover:border-primary/30"
               }`}
             >
               {label}

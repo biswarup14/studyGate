@@ -1,9 +1,9 @@
 "use client";
 import { useState, useEffect, useMemo } from "react";
 import { useParams } from "next/navigation";
-import Link from "next/link";
-import { Question } from "@/lib/types";
+import { Question, SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/types";
 import { QuestionCard } from "@/components/QuestionCard";
+import { PageHeader } from "@/components/PageHeader";
 import { sortNewestFirst } from "@/lib/sort";
 
 const PAGE_SIZE = 20;
@@ -49,26 +49,33 @@ export default function YearDetailPage() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
-      <div className="flex items-center gap-3 mb-2">
-        <h1 className="text-2xl font-bold">GATE {year}</h1>
-        <span className="text-sm text-muted-foreground">
-          {allQuestions.length.toLocaleString()} question{allQuestions.length !== 1 ? "s" : ""}
-        </span>
-      </div>
-
-      <Link href="/questions" className="text-sm text-primary hover:underline block mb-6">
-        ← All Questions
-      </Link>
+      <PageHeader
+        back={{ href: "/questions", label: "All Questions" }}
+        icon={<span className="text-sm font-black">{year}</span>}
+        title={`GATE ${year}`}
+        subtitle={`${allQuestions.length.toLocaleString()} question${allQuestions.length !== 1 ? "s" : ""} from this paper`}
+      />
 
       {/* Subject breakdown */}
       {subjectCounts.length > 0 && (
-        <div className="mb-6 p-4 rounded-xl border border-border bg-card">
-          <h2 className="text-sm font-medium mb-3">Subject Breakdown</h2>
+        <div className="mb-8 p-5 rounded-2xl border border-border bg-card card-surface">
+          <h2 className="text-sm font-semibold mb-3.5 flex items-center gap-2">
+            <svg className="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h7" />
+            </svg>
+            Subject Breakdown
+          </h2>
           <div className="flex flex-wrap gap-2">
             {subjectCounts.map(([subj, count]) => (
-              <span key={subj} className="inline-flex items-center gap-1 px-2 py-1 rounded-lg bg-muted text-xs">
-                <span className="font-medium">{subj}</span>
-                <span className="text-muted-foreground">({count})</span>
+              <span
+                key={subj}
+                className="inline-flex items-center gap-2 pl-1 pr-3 py-1 rounded-full border border-border bg-background text-sm hover:border-primary/30 transition-colors"
+              >
+                <span className={`inline-flex items-center justify-center w-6 h-6 rounded-full bg-gradient-to-br ${SUBJECT_COLORS[subj] || "from-gray-500 to-gray-600"} text-white text-[10px] font-bold`}>
+                  {SUBJECT_ICONS[subj] || subj.slice(0, 2)}
+                </span>
+                <span className="font-medium text-xs">{subj}</span>
+                <span className="text-xs text-muted-foreground">{count}</span>
               </span>
             ))}
           </div>

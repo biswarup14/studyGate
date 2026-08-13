@@ -2,20 +2,10 @@
 import Link from "next/link";
 import { Question, SUBJECT_COLORS, SUBJECT_ICONS, SUBTOPIC_COLORS } from "@/lib/types";
 import { MathBlock } from "./MathBlock";
+import { TypeBadge } from "./TypeBadge";
 
 export function QuestionCard({ question }: { question: Question }) {
   const hasAnswer = question.correctAnswer && question.correctAnswer.length > 0;
-  const typeBadge = {
-    mcq: "MCQ",
-    msq: "MSQ",
-    nat: "NAT",
-  }[question.type];
-
-  const typeColor = {
-    mcq: "bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300",
-    msq: "bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300",
-    nat: "bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300",
-  }[question.type];
 
   const diffColor = {
     easy: "bg-success",
@@ -33,9 +23,12 @@ export function QuestionCard({ question }: { question: Question }) {
           <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-gradient-to-r ${SUBJECT_COLORS[question.subject] || "from-gray-500 to-gray-600"} text-white`}>
             {SUBJECT_ICONS[question.subject] || question.subject.slice(0, 3)}
           </span>
-          <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${typeColor}`}>
-            {typeBadge}
-          </span>
+          <TypeBadge type={question.type} />
+          {question.branch && question.branch !== "CSE" && (
+            <span className="text-xs px-2 py-0.5 rounded-full font-medium bg-slate-500/15 text-slate-700 dark:text-slate-300">
+              {question.branch}
+            </span>
+          )}
           {question.subtopic && (
             <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${SUBTOPIC_COLORS[question.subtopic] || "bg-muted text-muted-foreground"}`}>
               {question.subtopic}

@@ -5,6 +5,7 @@ import { Question } from "@/lib/types";
 import { MathBlock } from "./MathBlock";
 import { Timer } from "./Timer";
 import { ProgressRing } from "./ProgressRing";
+import { TypeBadge } from "./TypeBadge";
 
 interface QuizState {
   currentIndex: number;
@@ -20,7 +21,7 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
     submitted: false,
     timePerQuestion: 90,
   });
-  const [startTime] = useState<number | null>(null);
+  const [startTime] = useState<number>(() => Date.now());
   const [elapsed, setElapsed] = useState(0);
 
   const current = questions[state.currentIndex];
@@ -57,16 +58,12 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
   };
 
   const handleSubmit = () => {
-    if (startTime !== null) {
-      setElapsed(Math.round((Date.now() - startTime) / 1000));
-    }
+    setElapsed(Math.round((Date.now() - startTime) / 1000));
     setState((prev) => ({ ...prev, submitted: true }));
   };
 
   const handleTimeUp = () => {
-    if (startTime !== null) {
-      setElapsed(Math.round((Date.now() - startTime) / 1000));
-    }
+    setElapsed(Math.round((Date.now() - startTime) / 1000));
     setState((prev) => ({ ...prev, submitted: true }));
   };
 
@@ -112,13 +109,7 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
           <span>·</span>
           <span>{current.subject}</span>
           <span>·</span>
-          <span className={`px-1.5 py-0.5 rounded-full font-medium ${
-            current.type === "mcq" ? "bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300" :
-            current.type === "msq" ? "bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300" :
-            "bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300"
-          }`}>
-            {current.type.toUpperCase()}
-          </span>
+          <TypeBadge type={current.type} />
           {current.marks && <span>{current.marks} mark{current.marks > 1 ? "s" : ""}</span>}
         </div>
 

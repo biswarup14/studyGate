@@ -1,8 +1,9 @@
 "use client";
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import { Question } from "@/lib/types";
 import { QuestionCard } from "@/components/QuestionCard";
+import { PageHeader } from "@/components/PageHeader";
 import { sortNewestFirst } from "@/lib/sort";
 
 const PAGE_SIZE = 20;
@@ -24,33 +25,109 @@ const SUBJECTS = [
 const YEARS = Array.from({ length: 27 }, (_, i) => 2000 + i).reverse();
 const TYPES = ["mcq", "msq", "nat"] as const;
 
-function FilterChip({
-  active,
-  onClick,
+function FilterDropdown({
   label,
-  count,
+  value,
+  placeholder,
+  options,
+  onChange,
 }: {
-  active: boolean;
-  onClick: () => void;
   label: string;
-  count?: number;
+  value: string;
+  placeholder: string;
+  options: { value: string; label: string; count?: number }[];
+  onChange: (value: string) => void;
 }) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    const onClick = (e: MouseEvent) => {
+      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+    };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("mousedown", onClick);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("mousedown", onClick);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [open]);
+
+  const selected = options.find((o) => o.value === value);
+
+  const select = (v: string) => {
+    onChange(v);
+    setOpen(false);
+  };
+
   return (
-    <button
-      onClick={onClick}
-      className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-all ${
-        active
-          ? "bg-primary text-primary-foreground border-primary shadow-sm"
-          : "border-border hover:bg-muted hover:border-primary/30"
-      }`}
-    >
-      {label}
-      {count !== undefined && (
-        <span className={`ml-1 text-xs ${active ? "text-primary-foreground/70" : "text-muted-foreground"}`}>
-          {count}
-        </span>
+    <div className="relative" ref={ref}>
+      <button
+        onClick={() => setOpen(!open)}
+        className={`flex items-center gap-2 px-3.5 py-2.5 rounded-xl border text-sm transition-all hover-lift ${
+          open
+            ? "border-primary bg-primary/5 ring-2 ring-primary/20"
+            : value
+            ? "border-primary/40 bg-primary/10"
+            : "border-border bg-card hover:border-primary/30 hover:bg-muted"
+        }`}
+      >
+        <span className="text-muted-foreground text-[11px] font-bold uppercase tracking-wider">{label}</span>
+        <span className={value ? "text-foreground font-medium" : "text-muted-foreground"}>{selected?.label || placeholder}</span>
+        <svg
+          className={`h-3.5 w-3.5 text-muted-foreground transition-transform ${open ? "rotate-180" : ""}`}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      {open && (
+        <div className="absolute z-30 left-0 mt-2 w-64 max-h-80 overflow-y-auto rounded-xl border border-border bg-card p-1.5 shadow-xl animate-slide-down">
+          <button
+            onClick={() => select("")}
+            className={`flex w-full items-center justify-between gap-3 rounded-lg px-3 py-2 text-left text-sm transition-colors ${
+              value === "" ? "bg-primary/10 text-primary font-medium" : "hover:bg-muted"
+            }`}
+          >
+            <span>{placeholder}</span>
+            {value === "" && (
+              <svg className="h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
+              </svg>
+            )}
+          </button>
+          <div className="my-1 mx-3 h-px bg-border" />
+          {options.map((o) => (
+            <button
+              key={o.value}
+              onClick={() => select(o.value)}
+              className={`flex w-full items-center justify-between gap-3 rounded-lg px-3 py-2 text-left text-sm transition-colors ${
+                o.value === value ? "bg-primary/10 text-primary font-medium" : "text-foreground hover:bg-muted"
+              }`}
+            >
+              <span className="truncate">{o.label}</span>
+              <span className="flex items-center gap-2 shrink-0">
+                {o.count !== undefined && (
+                  <span className={`text-xs ${o.value === value ? "text-primary/70" : "text-muted-foreground"}`}>{o.count}</span>
+                )}
+                {o.value === value && (
+                  <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
+                  </svg>
+                )}
+              </span>
+            </button>
+          ))}
+        </div>
       )}
-    </button>
+    </div>
   );
 }
 
@@ -62,6 +139,7 @@ export function QuestionsContent() {
   const [search, setSearch] = useState(searchParams.get("q") || "");
   const [subject, setSubject] = useState(searchParams.get("subject") || "");
   const [subtopic, setSubtopic] = useState(searchParams.get("subtopic") || "");
+  const [branch, setBranch] = useState(searchParams.get("branch") || "");
   const [year, setYear] = useState(searchParams.get("year") || "");
   const [type, setType] = useState(searchParams.get("type") || "");
   const [hasAnswer, setHasAnswer] = useState(searchParams.get("answered") || "");
@@ -93,12 +171,13 @@ export function QuestionsContent() {
     }
     if (subject) q = q.filter((item) => item.subject === subject);
     if (subtopic) q = q.filter((item) => item.subtopic === subtopic);
+    if (branch) q = q.filter((item) => item.branch === branch);
     if (year) q = q.filter((item) => item.year === parseInt(year));
     if (type) q = q.filter((item) => item.type === type);
     if (hasAnswer === "yes") q = q.filter((item) => item.correctAnswer && item.correctAnswer.length > 0);
     if (hasAnswer === "no") q = q.filter((item) => !item.correctAnswer || item.correctAnswer.length === 0);
     return q;
-  }, [allQuestions, search, subject, subtopic, year, type, hasAnswer]);
+  }, [allQuestions, search, subject, subtopic, branch, year, type, hasAnswer]);
 
   const availableSubtopics = useMemo(() => {
     if (!subject) return [];
@@ -109,16 +188,62 @@ export function QuestionsContent() {
     return [...set].sort();
   }, [allQuestions, subject]);
 
+  const subjectCounts = useMemo(() => {
+    const c = new Map<string, number>();
+    allQuestions.forEach((q) => c.set(q.subject, (c.get(q.subject) || 0) + 1));
+    return c;
+  }, [allQuestions]);
+
+  const yearCounts = useMemo(() => {
+    const c = new Map<string, number>();
+    allQuestions.forEach((q) => c.set(String(q.year), (c.get(String(q.year)) || 0) + 1));
+    return c;
+  }, [allQuestions]);
+
+  const typeCounts = useMemo(() => {
+    const c = new Map<string, number>();
+    allQuestions.forEach((q) => c.set(q.type, (c.get(q.type) || 0) + 1));
+    return c;
+  }, [allQuestions]);
+
+  const statusCounts = useMemo(() => {
+    let yes = 0;
+    allQuestions.forEach((q) => {
+      if (q.correctAnswer && q.correctAnswer.length > 0) yes += 1;
+    });
+    return { yes, no: allQuestions.length - yes };
+  }, [allQuestions]);
+
+  const availableBranches = useMemo(() => {
+    if (!subject) return [];
+    const counts = new Map<string, number>();
+    allQuestions.forEach((q) => {
+      if (q.subject === subject && q.branch)
+        counts.set(q.branch, (counts.get(q.branch) || 0) + 1);
+    });
+    return [...counts.entries()].sort((a, b) => b[1] - a[1]);
+  }, [allQuestions, subject]);
+
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
   const paginated = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
   const changeSubject = (value: string) => {
     setSubject(value);
     setSubtopic("");
+    setBranch("");
     setPage(1);
   };
 
-  const hasFilters = subject || subtopic || year || type || hasAnswer;
+  const clearAll = () => {
+    changeSubject("");
+    setYear("");
+    setType("");
+    setHasAnswer("");
+    setSearch("");
+    setPage(1);
+  };
+
+  const hasFilters = subject || subtopic || branch || year || type || hasAnswer || search;
 
   if (loading) {
     return (
@@ -136,7 +261,15 @@ export function QuestionsContent() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
-      <h1 className="text-2xl font-bold mb-6">Browse Questions</h1>
+      <PageHeader
+        title="Browse Questions"
+        subtitle={`Search and filter ${allQuestions.length.toLocaleString()} questions from 2000–2026.`}
+        icon={
+          <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        }
+      />
 
       {/* Search */}
       <div className="relative mb-5">
@@ -152,53 +285,90 @@ export function QuestionsContent() {
         />
       </div>
 
-      {/* Subject chips */}
-      <div className="flex flex-wrap gap-2 mb-3">
-        <FilterChip active={subject === ""} onClick={() => changeSubject("")} label="All Subjects" />
-        {SUBJECTS.map((s) => (
-          <FilterChip key={s} active={subject === s} onClick={() => changeSubject(s)} label={s} />
-        ))}
-      </div>
+      {/* Filter toolbar */}
+      <div className="flex flex-wrap items-center gap-2.5 mb-6">
+        <FilterDropdown
+          label="Subject"
+          value={subject}
+          placeholder="All Subjects"
+          onChange={changeSubject}
+          options={SUBJECTS.map((s) => ({ value: s, label: s, count: subjectCounts.get(s) || 0 }))}
+        />
 
-      {/* Topic chips */}
-      {availableSubtopics.length > 0 && (
-        <div className="flex flex-wrap gap-2 mb-3">
-          <FilterChip active={subtopic === ""} onClick={() => { setSubtopic(""); setPage(1); }} label="All Topics" />
-          {availableSubtopics.map((s) => (
-            <FilterChip key={s} active={subtopic === s} onClick={() => { setSubtopic(s); setPage(1); }} label={s} />
-          ))}
-        </div>
-      )}
+        {availableSubtopics.length > 0 && (
+          <FilterDropdown
+            label="Topic"
+            value={subtopic}
+            placeholder="All Topics"
+            onChange={(v) => { setSubtopic(v); setPage(1); }}
+            options={availableSubtopics.map((s) => {
+              const count = allQuestions.filter((q) => q.subject === subject && q.subtopic === s).length;
+              return { value: s, label: s, count };
+            })}
+          />
+        )}
 
-      {/* Year chips */}
-      <div className="flex flex-wrap gap-2 mb-3">
-        <FilterChip active={year === ""} onClick={() => { setYear(""); setPage(1); }} label="All Years" />
-        {YEARS.map((y) => (
-          <FilterChip key={y} active={year === String(y)} onClick={() => { setYear(String(y)); setPage(1); }} label={String(y)} />
-        ))}
-      </div>
+        {availableBranches.length > 1 && (
+          <FilterDropdown
+            label="Branch"
+            value={branch}
+            placeholder="All Branches"
+            onChange={(v) => { setBranch(v); setPage(1); }}
+            options={availableBranches.map(([name, count]) => ({ value: name, label: name, count }))}
+          />
+        )}
 
-      {/* Type + status chips */}
-      <div className="flex flex-wrap gap-2 mb-6">
-        <FilterChip active={type === ""} onClick={() => { setType(""); setPage(1); }} label="All Types" />
-        {TYPES.map((t) => (
-          <FilterChip key={t} active={type === t} onClick={() => { setType(t); setPage(1); }} label={t.toUpperCase()} />
-        ))}
-        <FilterChip active={hasAnswer === ""} onClick={() => { setHasAnswer(""); setPage(1); }} label="Any Status" />
-        <FilterChip active={hasAnswer === "yes"} onClick={() => { setHasAnswer("yes"); setPage(1); }} label="Has Answer" />
-        <FilterChip active={hasAnswer === "no"} onClick={() => { setHasAnswer("no"); setPage(1); }} label="Missing Answer" />
+        <FilterDropdown
+          label="Year"
+          value={year}
+          placeholder="All Years"
+          onChange={(v) => { setYear(v); setPage(1); }}
+          options={YEARS.map((y) => ({ value: String(y), label: String(y), count: yearCounts.get(String(y)) || 0 }))}
+        />
+
+        <FilterDropdown
+          label="Type"
+          value={type}
+          placeholder="All Types"
+          onChange={(v) => { setType(v); setPage(1); }}
+          options={TYPES.map((t) => ({ value: t, label: t.toUpperCase(), count: typeCounts.get(t) || 0 }))}
+        />
+
+        <FilterDropdown
+          label="Status"
+          value={hasAnswer}
+          placeholder="Any Status"
+          onChange={(v) => { setHasAnswer(v); setPage(1); }}
+          options={[
+            { value: "yes", label: "Has Answer", count: statusCounts.yes },
+            { value: "no", label: "Missing Answer", count: statusCounts.no },
+          ]}
+        />
+
         {hasFilters && (
           <button
-            onClick={() => { changeSubject(""); setYear(""); setType(""); setHasAnswer(""); setPage(1); }}
-            className="px-3 py-1.5 rounded-full text-sm font-medium text-primary hover:underline"
+            onClick={clearAll}
+            className="flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl border border-error/30 text-sm font-medium text-error hover:bg-error/10 transition-all hover-lift"
           >
-            Clear all filters
+            <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+            Clear
           </button>
         )}
       </div>
 
-      <div className="text-sm text-muted-foreground mb-4">
-        {filtered.length.toLocaleString()} question{filtered.length !== 1 ? "s" : ""} found
+      <div className="flex items-center justify-between mb-4">
+        <span className="inline-flex items-center gap-2 text-sm text-muted-foreground">
+          <span className="font-bold text-foreground">{filtered.length.toLocaleString()}</span>
+          question{filtered.length !== 1 ? "s" : ""} found
+        </span>
+        {hasFilters && (
+          <span className="hidden sm:inline-flex items-center gap-1.5 text-xs text-muted-foreground">
+            <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse-soft" />
+            Filters active
+          </span>
+        )}
       </div>
 
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -208,12 +378,17 @@ export function QuestionsContent() {
       </div>
 
       {filtered.length === 0 && (
-        <div className="text-center py-12">
-          <div className="text-5xl mb-4">🔍</div>
-          <p className="text-muted-foreground mb-4">No questions match your filters.</p>
+        <div className="text-center py-16">
+          <div className="mx-auto mb-4 flex items-center justify-center w-14 h-14 rounded-2xl bg-muted text-muted-foreground">
+            <svg className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </div>
+          <p className="font-semibold text-foreground mb-1">No questions match your filters</p>
+          <p className="text-muted-foreground text-sm mb-4">Try adjusting your search or clearing some filters.</p>
           <button
-            onClick={() => { changeSubject(""); setYear(""); setType(""); setHasAnswer(""); setSearch(""); setPage(1); }}
-            className="text-primary text-sm font-medium hover:underline"
+            onClick={clearAll}
+            className="inline-flex px-4 py-2 rounded-xl border border-border text-sm font-medium hover:bg-muted hover:border-primary/30 transition-all"
           >
             Clear all filters
           </button>
