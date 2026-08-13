@@ -31,6 +31,84 @@
   "source": "gateoverflow"
  },
  {
+  "id": "40212",
+  "year": 2012,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the most appropriate alternative from the options given below to complete the following\n   sentence:\n   \n    I ___ to have bought a diamond ring.",
+  "options": [
+   "have a liking",
+   "should have liked",
+   "would like",
+   "may like"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Ans C\n   I\n   \n    would like\n   \n   to have bought a diamond ring.\n  \n\n   We use\n   \n    would like to have\n   \n   +\n   \n    v3\n   \n   form when talking about things in the past that we have missed.\n  \n\n   see:\n   \n    https://dictionary.cambridge.org/grammar/british-grammar/verb-patterns/would-like\n// Ans is B->I should have liked to have bought a diamond ring\n  \n\n    I would like to buy a diamond ring so C is wrong//  wrong\n    \n\n      oops ..I got it wrong ..so now I think C is right cause for example suppose u wanted to give ur spouse a diamond ring and u had only limited money but suddenly because of some emergency you didn't ..and now u r talking to ur friend explaining him what exactly happened ..so you would \"I would like to have bought a diamond ring for her\" means that u wanted to buy a diamond ring but because of something u didn't..\n      \n\n        also the option B is wrong cause \"should\" is a tentative term and bought is past term(past participle of buy) so tentative term can't be used with the past..",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40212/gate2012-ae-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40222",
+  "year": 2012,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which one of the following options is the closest in meaning to the word given below?\n  \n\n    Pacify",
+  "options": [
+   "Excite",
+   "Soothe",
+   "Deplete",
+   "Tire"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Answer is [B].\n  \n\n   Pacify means to calm down.\n  \n\n   A] Excite : to arouse\n  \n\n    B] soothe : to calm down, to slow down\n   \n\n   C] deplete : to evacuate.\n  \n\n   D] tire : to annoy.\nPacify means to calm down.\n  Soothe is closest to it.\n  Option B.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40222/gate2012-ar-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40232",
+  "year": 2012,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If $(1.001)$$^{1259}$= $3.52$ and $(1.001)$$^{2062}$= $7.85$, then $(1.001)$$^{3321}$=",
+  "options": [
+   "$2.23$",
+   "$4.33$",
+   "$11.37$",
+   "$27.64$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "$1259 + 2062 = 3321$\n  So, Answer is  $3.52 \\times 7.85$  = 27.64 (Ans)\n  Option (d) is correct.\n3.52*7.85=27.632",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40232/gate2012-cy-ga-1",
+  "source": "gateoverflow"
+ },
+ {
   "id": "34",
   "year": 2012,
   "set": null,
@@ -66,6 +144,84 @@
   "source": "gateoverflow"
  },
  {
+  "id": "40213",
+  "year": 2012,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the most appropriate alternative from the options given below to complete the following sentence:\n  \n\n    Food prices ___ again this month.",
+  "options": [
+   "have raised",
+   "have been raising",
+   "have been rising",
+   "have arose"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Food price\n   \n    have been rising\n   \n\n    again\n   \n   this month.\n   Answer C.\n   A) wrong - have risen\n   B) wrong\n   D)wrong - have risen\nA->have raised",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40213/gate2012-ae-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40223",
+  "year": 2012,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the most appropriate pair of words from the options given below to complete the following\n   \n\n    sentence:\n   \n\n   The high level of ___ of the questions in the test was ___ by an increase in the period of time allotted for answering them.",
+  "options": [
+   "difficulty, compensated",
+   "exactitude, magnified",
+   "aptitude, decreased",
+   "attitude, mitigated"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "difficulty\n   \n   of the questions was\n   \n    compensated\n   \n   by an increase in time\n  \n\n   This makes sense as with more time one can expect to solve more difficult questions.\n  \n\n    \"exactitude\" means high level of correction and it won't be magnified by an increase in time\n   \n\n    \"aptitude\" of the questions also does not decrease with an increase in time.\n   \n\n    \"attitude\" of the question does not make sense.\n   \n\n   Correct Option: A\n(A) difficulty, compensated",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40223/gate2012-ar-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40233",
+  "year": 2012,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "One of the parts $(A, B, C, D)$ in the sentence given below contains an ERROR. Which one of the following is\n   \n    INCORRECT\n   \n   ?\n  \n\n    I requested that he should be given the driving test today instead of tomorrow\n   \n   .",
+  "options": [
+   "requested that",
+   "should be given",
+   "the driving test",
+   "instead of tomorrow"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "option B\n   \n   is correct  because “\n   \n    Should” – not to be used in a request\nAns is option B\n   \n\n   The sentence is in active voice as the speaker requested it. “Should be given” is in passive voice and is an incorrect usage. The correct sentence is: I requested that he\n   \n    should give\n   \n   the driving test today instead of tomorrow.\n\"I requested that he should be given the driving test today instead of tomorrow\n   \n   .\"\n  \n\n   This sentence uses reported speech to convey a request. In English, when we report requests, commands, or suggestions, we often use the subjunctive mood, especially in formal or academic writing. The subjunctive mood is used to express wishes, hypotheticals, or demands, and it has a specific structure in reported speech.\n  \n\n   Let's break it down further:\n  \n\n   1. In direct speech, the request might have been:\n   \"Please give him the driving test today instead of tomorrow.\"\n  \n\n   2. When reporting this request, we use \"requested that\" to introduce the reported clause.\n  \n\n   3. In formal English, after \"requested that,\" we use the base form of the verb (also known as the subjunctive mood) without \"should.\" So it becomes:\n   \"I requested that he be given the driving test...\"\n  \n\n   4. The use of \"should\" in this context is considered redundant and grammatically incorrect in formal English, although it's sometimes used in less formal speech.\n  \n\n   Here are some more examples to illustrate this rule:\n  \n\n   - Correct: The manager requested that the meeting be rescheduled.\n   - Incorrect: The manager requested that the meeting should be rescheduled.\n  \n\n   - Correct: The teacher insisted that students submit their assignments on time.\n   - Incorrect: The teacher insisted that students should submit their assignments on time.\n  \n\n   It's worth noting that in less formal contexts or in spoken English, you might hear \"should\" used in these constructions. However, in formal writing, the subjunctive form without \"should\" is considered correct.\n  \n\n   The correct form of the given sentence would be:\n  \n\n    \"I requested that he be given the driving test today instead of tomorrow.\"\n   \n\n   **from the information given by\n   \n    Claude AI\n   \n   as it is or edited.\nOptions is B. Insted of should be given.\n   \n    Should\n   \n\n    have\n   \n\n    given\n   \n   be there.\n  \n\n   The statement is like\n   \n    I requested that he should have given the driving test today instead of tomorrow.\nAnswer A:\n  \n\n    I requested he should be given the driving test today instead of tomorrow\n   \n\n    .",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40233/gate2012-cy-ga-2",
+  "source": "gateoverflow"
+ },
+ {
   "id": "35",
   "year": 2012,
   "set": null,
@@ -87,6 +243,136 @@
   "explanation": "There is a `space` in between the `\\` and `n` in the printf of case ‘A’ and also no space after the printf for case ‘C’ in the original question (\n   \n    see-Q-no.-3\n   \n   ). Due to this\n   \n    “Marks to All” was done\n   \n   .\n  \n\n   Lets assume no space for “\\n” in the printf for case ‘A’ and there is a space at the end of printf of case ‘C’.\n  \n\n   When a case of a switch is matched, execution continues from the matched case until a “break” is encountered (any intermediate case labels simply gets ignored).\n  \n\n   So,\n   \n    output\n   \n   of the given program is:\n  \n\nChoice A\nChoice B No Choice \n\n   Option C.\nThere is no break statement in  any case . If a case doesn’t contain break, then all the subsequent cases are executed until a break statement is found. That is why everything inside the switch is printed.\n  \n\n    so ans is C\nSyntax:\n  \n\n    switch(expression)\n   \n\n    {\n   \n\n    case constant-exp1 : statements; break;\n   \n\n    case constant-exp2: statements; break;\n   \n\n    default: statements;\n   \n\n    }\n   \n\n   In\n   \n    switch case,\n   \n   the break statement is used to terminate the switch case. Basically it is used to execute the statements of a single case statement. If no break appears, the flow of control will fall through all the subsequent cases until a break is reached or the closing curly brace ‘}’ is reached.\n  \n\n   In above , switch case don't have break statement ,\n  \n\n   1. If\n   \n    inChar='A'\n   \n   , flow control will execute all statements after\n   \n    Case A:\n   \n   till switch case end (in case any break states occurs between statement , it will terminated at the point but in above example we don't have any break statement, so whole switch block will execute).\n  \n\n    Output : Choice A\n    Choice B No Choice\n   \n\n   In case if i\n   \n    nChar\n   \n\n    ='C'\n   \n   then output will be\n   \n    Choice B No Choice.\n   \n\n   it's not necessary that we should always add break statement for each cases in switch, including break statement in switch case is based on our requirement.\n  \n\n    Answer is C\nAnswer: Option C\n  \n\n   There is no break statement after case A, if there is no break statement then it will execute all the subsequent cases. So it will execute all those print statements. Hence option C.\n  \n\n   To know more about Switch statement refer this:\n   \n    https://www.geeksforgeeks.org/interesting-facts-about-switch-statement-in-c/\n   \n   it will clear all the doubts.\nIn switch case if a condition contains a break that case is being executed than the switch case will terminate\n  \n\n   switch ( inChar ) {\n  \n\n   case 'A' : printf (\"Choice A \\ n\");\n  \n\n   WE CAN SEE HERE THAT there is no break statement inside case though in char is A\n   \n\n     BT THIS STATEMENT WILL NOT TERMINATE as it doesnt contain break\n    \n\n     here output will be Choice A\n    \n\n     so now case B is being executed\n    \n\n   case 'B'\n  \n\n   here there is nothing inside so now case C will execute\n  \n\n   case 'C' : printf (\"Choice B\");\n   noe case C will execute and Choice B is printed\n   \n    ALSO POINT TO BE NOTED AS DUE TO /n IN case A the curser had moved to nct line\n   \n\n    so “Choice B” will be executed in next line.\n   \n   now case D will be executed\n  \n\n   case 'D' :\n   it also doesnt contain any statement so  now case E will execute\n   which also contain no statement\n  \n\n   case 'E' :\n   so in last default will also execute\n  \n\n   default : printf (\"No Choice\");\n  \n\n    and No Choice will be printed .\n   \n\n   AND THIS LEAD TO END OF SWITCH CASE AND HERE THERE WAS NO break statement so all cases got executed\n  \n\n    SO FINAL OUTPUT WILL BE\n   \n\n    Choice A\n   \n\n    Choice B No Choice\nC , it matches with case a then falls through till it encounters a break statement.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/35/gate-cse-2012-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40214",
+  "year": 2012,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the most appropriate alternative from the options given below to complete the following sentence:\n  \n\n    The administrators went on to implement yet another unreasonable measure, arguing that\n   \n\n    the measures were already ___ and one more would hardly make a difference.",
+  "options": [
+   "reflective",
+   "utopian",
+   "luxuriant",
+   "unpopular"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "\"yet another unreasonable measure\"\n   \n   and\n   \n    \"measures were already\"\n   \n   means that the new measure is surely unreasonable. \"unpopular\" is the most suitable word here.\n  \n\n   \"reflective\" and \"luxuriant\" are not negative words and hence cannot fit here. \"utopian\" is far more negative than \"unreasonable\" and hence unsuitable.\n  \n\n   Correct Option: D.\n(D)\n  unpopular seems to be the most suitable alternative to unreasonable\nAnswer: Option D\n   \n\n    reflective\n   \n   : deeply or seriously thoughtful\n  \n\n    utopian\n   \n   : characterized by or aspiring to impracticable perfection\n  \n\n    luxuriant\n   \n   : marked by complexity and richness of detail\n  \n\n    unpopular\n   \n   : regarded with disfavor or lacking general approval\n  \n\n   Since it is\n   \n    unpopular\n   \n   , so even adding new measure won’t make much difference.\nI think reflective can make sense..",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40214/gate2012-ae-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40224",
+  "year": 2012,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Choose the grammatically CORRECT sentence:",
+  "options": [
+   "He laid in bed till $8$ o’clock in the morning.",
+   "He layed in bed till $8$ o’clock in the morning.",
+   "He lain in bed till $8$ o’clock in the morning.",
+   "He lay in bed till $8$ o’clock in the morning."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Answer should be \"D\"\n  \n\n   $$\\overset{\\textbf{Lay vs Lie Chart}}{\\begin{array}{|l|l|l|l|l|l|} \\hline \\textbf{Infinitive} & \\textbf{Definition} & \\textbf{Present} & \\textbf{Past} & \\textbf{Past }& \\textbf{Present}\n   \\\\&&&&\\textbf{Participle} & \\textbf{Participle} \\\\\\hline \\text{to lay} & \\text{to put or place}\\\\&\\text{something down} & \\text{lay(s)} & \\text{laid} & \\text{laid} & \\text{laying}  \\\\\\hline \\text{to lie} & \\text{to rest or recline} & \\text{lie(s)} & \\text{lay} & \\text{lain} & \\text{lying} \\\\\\hline \\end{array}}$$\n  \n\n   Lay means\n   \n    to put or set something down\n   \n   ,\n  \n\n   Lie, on the other hand, is defined as, “\n   \n    to be, to stay or to assume rest in a horizontal position\nLay and lie are both present-tense verbs.\n   $Lay$ means\n   \n    to put or set something down\n   \n   ,\n   \n    e.g.\n   \n\n    I lay down the book\n   \n   .\n   $Lie$, on the other hand, is defined as, “\n   \n    to be, to stay or to assume rest in a horizontal position\n   \n   ,\n   \n    e.g.\n   \n   I\n   \n    lie down\n    to sleep\n   \n   or\n   \n    When I pick up a copy of my favorite magazine\n   \n   ,\n   In this question \"the morning\" is used, so, they are talking about a specific\n   \n    morning\n   \n   so this sentence is not talking about the habit.\n   lay is second form of lie,\n   \n    Correct option is (D).\n   \n   PS: Sentence in Hindi means, \"vah aaj 8 baje tak bed me tha\".\nit sentence shows habitual action that's why the\n   \n    answer should be D\n   \n   . He lay in bed till 8 o’clock in the morning.\n  \n\n   correct me if i wrong.\nThe grammatically correct sentence is:\n  \n\n    D. He lay in bed till 8 o’clock in the morning.\n   \n\n   Explanation:\n  \n\n    Lay\n   \n   is the past tense of the verb\n   \n    lie\n   \n   (to recline).\n  \n\n    Laid\n   \n   (in option A) is the past tense of\n   \n    lay\n   \n   (to place something down), which requires a direct object, so it's incorrect in this context.\n  \n\n    Layed\n   \n   (in option B) is not a correct form of the verb.\n  \n\n    Lain\n   \n   (in option C) is the past participle of\n   \n    lie\n   \n   , which would be used with\n   \n    has/had\n   \n   , not on its own in this sentence.\n(A) He laid in bed till 8'o clock in the morning.\nA) He laid in bed till 8 o’clock in the morning.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40224/gate2012-ar-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40234",
+  "year": 2012,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which one of the following options is the closest in meaning to the word given below?\n  \n\n    Latitude",
+  "options": [
+   "Eligibility",
+   "Freedom",
+   "Coercion",
+   "Meticulousness"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Latitude\n   \n   means\n   \n    scope for freedom of action or thought.\n    Option B.\nLatitude means freedom of action,choice or space.\n  \n\n    So,B is correct.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40234/gate2012-cy-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40215",
+  "year": 2012,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the most appropriate alternative from the options given below to complete the following\n   sentence:\n   \n    To those of us who had always thought him timid, his ___ came as a surprise.",
+  "options": [
+   "intrepidity",
+   "inevitability",
+   "inability",
+   "inertness"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "(A)\n  \n\n    Explanation : Timid means fearful and Intrepid means fearless which is the most suitable contrast.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40215/gate2012-ae-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40225",
+  "year": 2012,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which one of the parts (A, B, C, D) in the sentence contains an\n   \n    ERROR\n   \n   ?\n  \n\n    No sooner had the doctor seen the results of the blood test, than he suggested the patient to see the specialist.",
+  "options": [
+   "no sooner had",
+   "results of the blood test",
+   "suggested the patient",
+   "see the specialist"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Answer (D) see the specialist\n   \n\n   Who is the specialist here? Not clear- it must be one of the specialists for that particular disease. So, \"to see\n   \n    a\n   \n   specialist\" is correct.\n  \n\n   Rest all are fine in the sentence. \"No sooner had- than\" means the first part happened and the second part followed immediately. The first part uses past perfect tense and the second part uses simple past tense - which is as required.\n  \n\n    http://www.englishgrammar.org/rewrite-sooner/\nC                        suggested the patient\n(A) No sooner will be replaced by as soon as\nThe answer should be option A\n   \n   . Also there is another error “than”. There should be nothing as comma”\n   \n\n     ,\n    \n\n   ” is already there.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40225/gate2012-ar-ga-4",
   "source": "gateoverflow"
  },
  {
@@ -113,6 +399,89 @@
   "explanation": "Balanced binary search takes $\\Theta(\\log n)$ for $n$ elements in the worst case. So, with $(n2^n)$ elements, the worst case time will be\n  $\\Theta(\\log (n2^n)) $\n  $= \\Theta(\\log n + \\log 2^n) $\n  $= \\Theta(\\log n + n) $\n  $=\\Theta(n)$\n  Correct Answer: $C$\nThe worst case running time to search for an element in a balanced binary search tree with n elements is  log(n) because Balanced search tree have height logn\n  \n\n   for n2\n   \n    n\n   \n   elements replace  n2\n   \n    n\n   \n   in place of n\n  \n\n   Θ(log(n2\n   \n    n\n   \n   ))\n   =Θ(log⁡n+log⁡2\n   \n    n\n   \n   )\n   =Θ(log⁡n+nlog2)\n  \n\n   =Θ(log⁡n+n)\n   =Θ(n)\nFor Balenced binary Search tree serach  =( BST Search + Balenced)\n   \n\n   For Balenced at each level the cost is logn and given element is  n2^n\n  \n\n   then Θ(log(n2^n))\n   =Θ(log⁡n+log⁡2^n)\n   =Θ(log⁡n+n)\n   =Θ(n)\n  \n\n   Ans-C",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/37/gate-cse-2012-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40216",
+  "year": 2012,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The arithmetic mean of five different natural numbers is $12$. The largest possible value among the numbers is",
+  "options": [
+   "$12$",
+   "$40$",
+   "$50$",
+   "$60$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "It is $50$ obviously.\n  Total sum of $5$ natural numbers = $12$*$5 =60$\n  If $60$ is one natural number, then the other $4$ numbers must be $0$. As $0$ is not a natural number(it is a whole number), $60$ is not right,so next option remaining is $50$.\n  and also in question they have told as different natural numbers. so $50$, $1$ ,$2$ , $3$, $4$ are the numbers.\n  Answer is $50$, option $C$\nlet the numbers be ->\n  x1,x2,x3,x4,x5...the mean given is 12..so\n  (x1+x2+x3+x4+x5)/5=12..\n  x1+x2+x3+x4+x5=60 ...\n  Option D can't be the answer cause the question says\"Different\" Natural numbers..for 60 ..4 numbers should be 0 and that here is not true..\n  Option C seems to be the correct one as -> 50+x2+x3+x4+x5=60...x2,x3,x4,x5 can be 1,2,3,4 also..",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40216/gate2012-ae-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40226",
+  "year": 2012,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Ten teams participate in a tournament. Every team plays each of the other teams twice. The total number of matches to be played is",
+  "options": [
+   "$20$",
+   "$45$",
+   "$60$",
+   "$90$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "We have $10$ teams.\n  \n\n    First team can play with any other team in $9$ ways.\n    \n\n     Similarly second can play with any other in $8$ ways (excluding the first team), $3^{rd}$ team can play $7$ games and so on.\n     So, total number of games possible $=9+8+7\\ldots +1=\\dfrac{n(n+1)}{2} =\\dfrac{10\\times 9}{2}=45$\n     Since, each team plays $2$ games against each other, total games $=45\\times 2=90$\n     Correct Answer: $D$\n2 teams can be selected in $\\binom{10}{2}$ ways... each team will play 2 match with other teams... so $2*\\binom{10}{2}$ = 90 ... correct me if i am wrong ..\n2 teams can be selected in 10C2 ways.But this is only 1 match between them.\n  Now each of these pairs will play against each other twice . So 10C2 *2 = 90\n10 teams are there, each team played total 18 matches( two matches with each remaining 9 teams , so total 2*9=18).\n  So, total matches = (10*18)/2 [ dividing by two because 10 *18 will count each matches twice, from teamX to teamY once and from teamY to teamX one more time] = 90 (Answer D)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40226/gate2012-ar-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40236",
+  "year": 2012,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the most appropriate alternative from the options given below to complete the following sentence:\n  \n\n    If the tired soldier wanted to lie down, he ___ the mattress out on the balcony.",
+  "options": [
+   "should take",
+   "shall take",
+   "should have taken",
+   "will have taken"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Option (a) is correct because of following rule..\n  Rule 1: If + simple past, subject + should/would + verb1\n  Rule 2: If + past perfect, subject + should/would/could have + verb3\n  Rule 3: If + simple present, subject + shall/will + verb1\n  The given sentence follows rule 1. Hence option (a) is correct.\nAnswer C:\n   \n   If the tired soldier wanted to lie down, he should have taken the mattress out on the balcony.\nOfficial Answer as per GATE 2012 Key -> A.\nanswer should be should take.\nAnswer should be C. Its logical and makes sense.\nAnswer 1 it is second type conditional sentence\n  \n\n[IMAGE:500]\n\n    https://languageonschools.com/free-english-lessons/the-conditional/conditional-tense-in-english/amp/\n   \n\n    https://www.ef.com/wwen/english-resources/english-grammar/conditional/",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=14959452225842241262",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/40236/gate2012-cy-ga-5",
   "source": "gateoverflow"
  },
  {
@@ -147,6 +516,84 @@
   "source": "gateoverflow"
  },
  {
+  "id": "40217",
+  "year": 2012,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Two policemen, $A$ and $B$, fire once each at the same time at an escaping convict. The probability that $A$ hits the convict is three times the probability that $B$ hits the convict. If the probability of the convict not getting injured is $0.5$, the probability that $B$ hits the convict is",
+  "options": [
+   "$0.14$",
+   "$0.22$",
+   "$0.33$",
+   "$0.40$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "$X-$ $A$ hits the convict\n   $Y -$ $B$ hits the convict\n   Given, $P(X) = 3 \\times P(Y)$\n   $Z -$ Convict is injured\n   $Z' -$ Convict is not injured\n  \n\n   Given, $P(Z') = 0.5$\n   $\\implies P(Z) = 1 - P(Z') = 1 - 0.5 = 0.5$\n  \n\n   Now,\n   $P(Z) = P(X) \\times P(Y') + P(X') \\times P(Y) + P(X) \\times P(Y)$\n   Let $P(Y) = t$\n   $P(X) = 3t$\n   $P(Y') = 1-t$\n   $P(X') = 1-3t$\n   Substituting in above equation,\n   $0.5 = (3t \\times (1-t)) +  ((1-3t) \\times t) + (t \\times 3t)$\n   $\\implies 3t - 3t^2 + t - 3t^2 + 3t^2 = 0.5$\n   $\\implies 3t^2 - 4t + 0.5 = 0$\n   $\\implies 6t^2 - 8t + 1 = 0$\n  \n\n   Solving, we get $t=1.193$ (eliminated as probability cannot be greater than $1$) OR $t=0.1396$\n  \n\n   Therefore. $P(Y) = t = 0.1396$\n   \n    Answer (A) 0.14\n   \n\n    Alternative Method: by Joker\n   \n   $P(Z')=0.5$\n   Now,\n   $P(Z') = (P(X') \\times P(Y'))$\n   $\\implies 0.5 = (1-3t) \\times (1-t)$\n  \n\n   Solving this gives the same equation as above.\n   $6t^2 - 8t + 1 = 0$\n   and the same answer.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40217/gate2012-ae-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40227",
+  "year": 2012,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A value of $x$ that satisfies the equation $\\log x + \\log (x – 7) = \\log (x + 11) + \\log 2$\n   is",
+  "options": [
+   "$1$",
+   "$2$",
+   "$7$",
+   "$11$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "$\\log m + \\log n = \\log mn$\n  So, $\\log x + \\log (x-7) = \\log (x+11) + \\log 2$\n  $\\Rightarrow \\log x(x-7) = \\log 2 (x+11)$\n  $\\Rightarrow x(x-7) = 2 (x+11)$\n  $\\Rightarrow x^2-9x-22=0$\n  $\\Rightarrow (x-11)(x+2)=0$\n  $\\therefore x=11$\n  $\\because x \\neq -2$ , log is undefined for negative number.\n  Correct Answer: $D$\nAnother approach try substitution of all the answers 1,2,7 doesn't satisfy the equation as value of log is never negative and zero.\n  So answer is 11 so lets substitute 11 and verify.\n  log 11+log 4=log(22)+log 2\n  log(22)=log(11*2)=log(11)+log(2)\n  log 11+ log 4=log 11+ log 2+ log 2\n  log 11+ log 4= log 11 + 2 log 2\n  log 11 + 2 log 2= log 11 + 2 log 2\n  LHS = RHS\nQuirkiest/ fastest way to answer:\n  log(x-7) exists, so x will be greater than 7.\n  So x = 11.\n  thanks @Prateek kumar",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40227/gate2012-ar-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40237",
+  "year": 2012,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "One of the legacies of the Roman legions was discipline. In the legions, military law prevailed and discipline was brutal. Discipline on the battlefield kept units obedient, intact and fighting, even when the odds and conditions were against them.\n   \n\n   Which one of the following statements best sums up the meaning of the above passage?",
+  "options": [
+   "Thorough regimentation was the main reason for the efficiency of the Roman legions even in adverse circumstances.",
+   "The legions were treated inhumanly as if the men were animals.",
+   "Discipline was the armies’ inheritance from their seniors.",
+   "The harsh discipline to which the legions were subjected to led to the odds and conditions being against them."
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "The whole passage says about discipline and the line \"Discipline on the battlefield kept units obedient, intact and fighting, even when the odds and conditions were against them\" means Option A best sums up the meaning of the passage.\n  Option C can be inferred from the first sentence, but is not the main objective of the passage.\n  Options B and D cannot be inferred from the given passage.\n  Correct Option: A.\n(A)\n  \n\n   This is the best possible option.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40237/gate2012-cy-ga-6",
+  "source": "gateoverflow"
+ },
+ {
   "id": "39",
   "year": 2012,
   "set": null,
@@ -173,6 +620,98 @@
   "source": "gateoverflow"
  },
  {
+  "id": "40218",
+  "year": 2012,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The total runs scored by four cricketers $P,Q,R$ and $S$ in years $2009$ and $2010$ are given in the following table;\n  \n\n   $$\\begin{array}{|c|c|c|} \\hline \\textbf{Player} & \\textbf{2009} & \\textbf{2010} \\\\\\hline \\textbf{P} & \\text{802} &\\text{1008} \\\\\\hline \\textbf{Q} & \\text{765} &\\text{912} \\\\\\hline \\textbf{R} & \\text{429} &\\text{619} \\\\\\hline \\textbf{S} & \\text{501} &\\text{701} \\\\\\hline \\end{array}$$\n  \n\n   The player with the lowest percentage increase in total runs is",
+  "options": [
+   "$P$",
+   "$Q$",
+   "$R$",
+   "$S$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$\\%$ increase is defined as: $ \\left(\\dfrac{\\text{final value - initial value}}{\\text{initial value}}\\right)\\times 100$\n  \n\n   $p=\\dfrac{206}{802}\\times 100=25.68 \\%$\n   $q=\\dfrac{147}{765}\\times 100=19.21$\n   $r=\\dfrac{190}{429}\\times 100=44.28$\n   $s=\\dfrac{200}{501}\\times 100=39.42$\n   \n    So, the lowest increase is for Q.\n   \n\n    B is the answer\nThese are the type of questions we we often have to solve in real world without using a pen and paper and an approx answer is all that is required. Here is a technique I find useful which can given approximate answers. If you need to the point correct answer then there might be a need to use the pen and paper.\n  \n\n       Player\n      \n\n       2009\n      \n\n       2010\n      \n\n      Approx Difference\n     \n\n       P\n      \n\n      802\n     \n\n      1008\n     \n\n      200\n     \n\n       Q\n      \n\n      765\n     \n\n      912\n     \n\n      150\n     \n\n       R\n      \n\n      429\n     \n\n      619\n     \n\n      200\n     \n\n       S\n      \n\n      501\n     \n\n      701\n     \n\n      200\n     \n\n   Now the idea is to, divide the original number by some quantitiy to make close to 100, and use the same number for difference. That will give you an approximate percentage.\n  \n\n   $ 1.\\; \\frac{802}{8} \\approx 100 \\;, \\frac{200}{8} \\approx 25\\%$\n  \n\n   $ 2.\\; \\frac{765}{8} \\approx 100 $\n  \n\n   ideally this will be 7.65,  so we can be sure ans is between, $\\frac{150}{7} \\approx 21\\% \\;and\\;  \\frac{150}{8} \\approx 18\\%$\n  \n\n   $ 3.\\; \\frac{429}{4} \\approx 100 \\;, \\frac{200}{4} \\approx 50\\%$\n  \n\n   $ 4.\\; \\frac{501}{5} \\approx 100 \\;, \\frac{200}{5} \\approx 40\\%$\n  \n\n   Hence the answer is B.\n  \n\n   Disclaimer: As there are too many approximations involved, this works when there is sufficient amount of gap in the answers. If the answers is too close then pen and paper is required. This also requires certain level of comfort-ness with doing maths in mind.\nLowest percentage increase is for Q\n  \n\n    and highest percentage increase for R\n    \n\n        so here answer is Q Option B\nlet $x$  be the score of a player in $2009$  and $y$ in $2010$\n  \n\n    perform $2x - y$, the player having highest values will be the one who has least percentage increase in score.\n    \n\n     $P: 2*802 - 1008 = 1604 - 1008 = 596$\n     $Q: 2*765 - 912 = 1530 - 912 = 618$\n     $R: 2*429 - 619 = 858 - 619 = 239$\n     $Q: 2*501 - 701 = 1002 - 701 = 301$\n     $Q$ have higehest",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40218/gate2012-ae-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40228",
+  "year": 2012,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Let $f(x) = x – [x],$ where $x\\geq 0$ and $[x]$ is the greatest integer not larger than $x.$ Then $f(x)$ is a",
+  "options": [
+   "monotonically increasing function",
+   "monotonically decreasing function",
+   "linearly increasing function between two integers",
+   "linearly decreasing function between two integers"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$f(x) = x – [x]$\n   $f(x)$ gives nothing but the fractional part of $x.$\n   Now, as we move up the number line between two consecutive integers say $a$ and $a+1$.\n   The value of $f(a)$ starts from $0$ and grows linearly till the consecutive integer and just before $x=a+1$(left neighbourhood of $a+1$) it tends to the value $1.$\n  \n\n   Between $a$ and $a+1,$ the graph grows linearly from $0$ to $1$.\n   But, when at $x=a+1,$ the value comes back to $0$ and same linear graph continues between the next two consecutive integers and so on.\n   So,\n   \n    Answer C)\n   \n\n    linearly increasing function between two integers.\nThe Greatest Integer Function is also known as the\n    \n     Floor Function.\n    \n\n    It is written as\n    \n     f(x)=⌊x⌋\n    \n\n    The value of\n    \n     ⌊x⌋\n    \n    is the largest integer that is\n    \n     less than\n    \n    or\n    \n     equal to\n    \n    x\n   \n\n     The function f(x)=x−[x]  the graph of the function looks like this:-\n    \n\n[IMAGE:100]\nx =  1  1.1   1.2     1.3    1.4     1.5    ………………. 1.9  2.0\n  \n\n    fx = 0   0,1   0.2    0.3     0.4     0.5  …………………0.9     0\n    \n\n       function fx increasing linearly bw 0 and 1",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15783031284665644977",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/40228/gate2012-ar-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "4173",
+  "year": 2012,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "$A$ and $B$ are friends. They decide to meet between 1:00 pm and 2:00 pm on a given day. There is a condition that whoever arrives first will not wait for the other for more than $15$ minutes. The probability that they will meet on that day is",
+  "options": [
+   "$1/4$",
+   "$1/16$",
+   "$7/16$",
+   "$9/16$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Meeting occurs if the first person arrives between $1:00$ and $1:45$ and the second person arrives in the next $15$ minutes or if both the persons arrive between $1:45$ and $2:00.$\n  \n\n   Case 1:\n  \n\n    $45/60$ are favourable cases and hence probability of first person arriving between $1:00$ and $1:45$ is $3/4.$\n   \n\n    Probability of second person arriving in the next $15$ minutes $= 15/60 = 1/4$\n   \n\n    So, probability of one person arriving between $1:00$ and $1:45$ and meeting the other $= 3/4 \\times 1/4 \\times 2 = 3/8$ $(2$ for choosing the first arriving friend$)$\n   \n\n   Case 2:\n  \n\n    Both friends must arrive between $1:45$ and $2:00.$ Probability $= 1/4 \\times 1/4 = 1/16.$\n   \n\n   So, probability of a meet $= 3/8 + 1/16 = 7/16$\n  \n\n   Correct Answer: $C$\nCheck this\n   [IMAGE:100]\nprobability that one person meet on that day = 15/60 = 1/4\n  Prob(failing to meet) = 3/4\n  prob(failing to meet by both the persons) = 3/4 * 3/4 = 9/16\n  Prob( meet on that day by both the persons) = 1-9/16 = 7/16\nFor such questions which are also known as probability based on areas , u can find easily using grid of 2 dimension as shown below\n  \n\n      1/2*F\n     \n\n      F\n     \n\n      1/2 * F\n     \n\n      F\n     \n\n      1/2 * F\n     \n\n      1/2*F\n     \n\n      F\n     \n\n      1/2 * F\n     \n\n      F\n     \n\n      1/2 * F\n     \n\n   The favorable area for the given problem is shown above...\n  \n\n     So no of favourable cells  =  4  +  6 * 1/2     =    7\n    \n\n     Therefore probability that they meet  =  No of favourable cells/ No of total cells\n    \n\n     =   7 / 16\n    \n\n     Hence C) should be the correct option.\nMark this formula for this kind of any question.\n  x=minutes one could not wait for.\n  n=60/x.\n  probability they meet= (2n-1)/n^2\n  here x=60/15 =4.\n  probabi;ity=8-1/16 =7/16\n[IMAGE:500]\n   .",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=9679553004084336982",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12249093787006174879",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/4173/gate2012-cy-ga-7",
+  "source": "gateoverflow"
+ },
+ {
   "id": "40",
   "year": 2012,
   "set": null,
@@ -196,6 +735,160 @@
   "explanation": "At each fork() the number of processes becomes doubled. So, after $3$ fork calls, the total number of processes will be $8$. Out of this $1$ is the parent process and $7$ are child processes. So, the total number of child processes created is $7$.\nHow the fork() system call works:  It is used to create child process. It takes no argument and returns a process ID. Both parent and child will execute the instruction next to fork(). To differentiate between parent and child process we have to examine the value of process id returned by fork().\n  \n\n    fork() returns negative value if it is unable to create a child process.\n   \n\n    fork() returns 0 to the child process.\n   \n\n    fork() returns positive int indicating pid of child process to parent process.\n   \n\n   /* code...*/\n  \n\n   pid_t pid;\n  \n\n   fork(); // create a process\n  \n\n   pid = getpid();\n  \n\n   if(pid == -1) { // failed to create child process }\n  \n\n   else if(pid == 0) { // code for child process }\n  \n\n   else { // code for parent process }.\n  \n\n   Now let's come to the question.\n  \n\n   fork(); // child_1 will be created\n  \n\n   fork(); // child_2 and child_11 will be created.\n  \n\n   fork(); // child_3 , child_12, child_21, child_112 will be created\n  \n\n   So total number of child process created is 7\n2\n   \n    3\n   \n   -1 =8-1 =7(ans)\n7 child , 1 parent , 8 process",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/40/gate-cse-2012-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40219",
+  "year": 2012,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If a prime number on division by $4$ gives a remainder of $1,$ then that number can be expressed as",
+  "options": [
+   "sum of squares of two natural numbers",
+   "sum of cubes of two natural numbers",
+   "sum of square roots of two natural numbers",
+   "sum of cube roots of two natural numbers"
+  ],
+  "correctAnswer": null,
+  "explanation": "Theorem$:$ If $p$ is a prime number which has remainder $1$ when divided by $4,$ then $p$ can be written as a sum of two squares.\n  \n\n   (Reference:\n   \n    http://math.arizona.edu/~wmc/Courses/323044/Lecture4.pdf\n   \n   )\n  \n\n   Example$:$\n  \n\n    $5 = 1 + 4$\n   \n\n    $13 = 9 + 4$\n   \n\n    $17 = 16 + 1$\n   \n\n    $29 = 25 + 4$\n   \n\n    $37 = 36 + 1$\n   \n\n    $41 = 25 + 16$\n   \n\n    $53 = 49 + 4$\n   \n\n    $61 = 36 + 25$\n   \n\n    $73 = 64 + 9$\n   \n\n    and so on.\n   \n\n   So, option $(A)$ is correct.\n   Take option $(B)$ sum of cubes of two natural numbers.\n   Counter example$:\\ 5$ cannot represent as cubes of two natural numbers $(1^{3}=1,2^{3}=8\\implies 1 + 8 = 9\\neq 5).$\n   So, option $(B)$ is not correct.\n   Take option $(C)$ sum of square roots of two natural numbers\n  \n\n   Let $p = 4n + 1, n \\geq 0$ and $p$ is prime.\n  \n\n   The smallest such $p$ is $5.$\n  \n\n   So, any $p$ can be written as $ p = p_1 + p_2$ where $p_1$ and $p_2$ are natural numbers. Now, existence of $p_1^2$ and $p_2^2$ makes option C correct.\n  \n\n   For option D, instead of $p_1^2$ and $p_2^2$ in above explanation we just need to change to $p_1^3$ and $p_2^3.$\n  \n\n   Correct options $: \\ (A), \\ (C), \\ (D).$\n  \n\n   It is better to pick option A here, because Options C and D seem to be given by mistake. Nowadays at least in GATE this will cause Marks to All during debate.\nwe can express them as sum of square roots of 2 natural numbers definitely.\n  \n\n    eg: 17,29,41 etc..\n    \n\n      17 = 9 +8 =Sq root of 81 + Sq root of 64\n      \n\n        like that we can express.\n        \n\n          Option C is answer i guess\nx mod 4=1 ..13 can be one such number and it is also prime ..can be expressed as ..2\n   \n    2\n   \n   +3\n   \n    2\n   \n   =>13..\n  \n\n   so option A seems to be the correct one\n  \n\n   can be applied on 17-> 4\n   \n    2\n   \n   +1\n   \n    2\n   \n   ... and so on..",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40219/gate2012-ae-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40229",
+  "year": 2012,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Ravi is taller than Arun but shorter than Iqbal. Sam is shorter than Ravi. Mohan is shorter than Arun. Balu is taller than Mohan and Sam. The tallest person can be",
+  "options": [
+   "Mohan",
+   "Ravi",
+   "Balu",
+   "Arun"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Balu\n   \n    can be\n   \n   the TALLEST.\n  \n\n   Ravi cannot  be the answer since it is clearly mentioned that he is shorter than Iqbal.\n  \n\n   Iqbal and Balu could be the tallest as no comparison is provided where these two are smaller than anyone.\n  \n\n   But Iqbal is not mentioned in options. 😊\n  \n\n   Hence, Balu (see the usage of 'can' in the question)\nGiven conditions:\n  \n\n      Ravi is taller than Arun but shorter than Iqbal\n     \n\n    Iqbal>Ravi>ArunIqbal > Ravi > ArunIqbal>Ravi>Arun\n   \n\n      Sam is shorter than Ravi\n     \n\n    Ravi>SamRavi > SamRavi>Sam\n   \n\n      Mohan is shorter than Arun\n     \n\n    Arun>MohanArun > MohanArun>Mohan\n   \n\n      Balu is taller than both Mohan and Sam\n     \n\n    Balu>Mohan,Balu>SamBalu > Mohan, \\quad Balu > SamBalu>Mohan,Balu>Sam\n   \n\n     Given choices:\n     \n      Mohan, Ravi, Balu, Arun\n     \n     .\n    \n\n     We know\n     \n      Iqbal is the tallest overall, but he is not an option\n     \n     .\n    \n\n     Ravi is taller than Arun, and Arun is taller than Mohan.\n    \n\n     Balu is taller than both Mohan and Sam, but we don't have a direct comparison between Balu and Ravi.\n    \n\n    To conclude that\n    \n     Balu is the tallest\n    \n    among the options",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40229/gate2012-ar-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40239",
+  "year": 2012,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The data given in the following table summarizes the monthly budget of an average household.\n  \n\n   $$\\begin{array}{|l|c|c|} \\hline \\textbf{Category} & \\textbf{Amount(Rs.)} \\\\\\hline \\text{Food} & \\text{4000} \\\\\\hline \\text{Rent} & \\text{2000} \\\\\\hline \\text{Savings} & \\text{1500} \\\\\\hline \\text{Other expenses} & \\text{1800} \\\\\\hline \\text{Clothing} & \\text{1200} \\\\\\hline\\end{array}$$\n  \n\n   The approximate percentage of the monthly budget\n   \n    NOT\n   \n   spent on savings is",
+  "options": [
+   "$10\\%$",
+   "$14\\%$",
+   "$81\\%$",
+   "$86\\%$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "$\\dfrac{9000}{10500}\\times 100 = 85.7 \\%$\n  Correct Answer: $D$\nwe know , INCOME -EXPENDITURE=SAVINGS\n  income = 9000+1500=10,500\n  here,(NOT spent on savings) is equivalent to (expenditure)\n  therefore ,percentage of expenditure out of income =(9000/10,500)*100=85.7% which is close to 86%\n  answer is 86%",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40239/gate2012-cy-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40220",
+  "year": 2012,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Two points $(4, p)$ and $(0, q)$ lie on a straight line having a slope of $3/4$. The value of $( p – q)$ is",
+  "options": [
+   "$-3$",
+   "$0$",
+   "$3$",
+   "$4$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "For two points $(x_1,y_1)$ and $(x_2,y_2)$ on a line, Slope of line $= \\dfrac{y_2-y_1}{x_2-x_1}$\n  so ,$\\dfrac{q-p}{0-4} = \\dfrac{3}{4}$\n  $\\therefore (p-q)=3$\n  Correct Answer: $C$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40220/gate2012-ae-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40230",
+  "year": 2012,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A smuggler has $10$ capsules in which five are filled with narcotic drugs and the rest contain the original medicine. All the $10$ capsules are mixed in a single box, from which the customs officials picked two capsules at random and tested for the presence of narcotic drugs. The probability that the smuggler will be caught is",
+  "options": [
+   "$0.50$",
+   "$0.67$",
+   "$0.78$",
+   "$0.82$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "The smuggler would be caught if any one or both the randomly picked capsule contains drugs.\n   $M$ represents Medicine, $D$ represents Drugs\n  \n\n    $A -$ The smuggler will be caught\n   \n\n    $B -$ The randomly picked capsules contains $M, D$\n   \n\n    $C -$ The randomly picked capsules contains $D, M$\n   \n\n    $D -$ The randomly picked capsules contains $D, D$\n   \n\n   $P(A) = P(B) + P(C) + P(D)$\n  \n\n   $P(A) = (5/10)\\times (5/9) + (5/10)\\times (5/9) + (5/10)\\times(4/9)$\n   $\\quad \\quad = 0.278 + 0.278 + 0.222$\n   $\\quad \\quad =0.778$\n  \n\n   Hence, Answer is Option (C) 0.78\nThere are 2 ways by which smuggler would be caught.\n  \n\n    Both capsules contain narcotic drugs\n   \n\n    One of them contain narcotic drugs\n   \n\n   Total combinations where both capsules contain narcotic drugs = $\\large \\binom{5}{2} = 10$\n  \n\n   Total combinations where one of the two capsules contain narcotic drugs = $\\large \\binom{5}{1} \\binom{5}{1} = 25$\n  \n\n   Total number of combinations = $\\large \\binom{10}{2} = 45$\n  \n\n   Probability = $\\large \\frac{10+25}{45} = \\frac{7}{9} = 0.777777778$\n$1 - \\frac{\\binom{5}{2}}{\\binom{10}{2}} = 1- \\frac{2}{9} = 0.777777 \\simeq 0.78$\n  So answer is part (C).",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40230/gate2012-ar-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40240",
+  "year": 2012,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "There are eight bags of rice looking alike, seven of which have equal weight and one is slightly heavier. The weighing balance is of unlimited capacity. Using this balance, the minimum number of weighings required to identify the heavier bag is",
+  "options": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$8$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer is $a)$ i.e 2\n  Divide in to $3-3-2$ and then take $3-3$ pair and then if they are equal then weigh the remaining $1-1$.\n  if out of $3-3$ one is heavier then take the heavier group and divide it $1-1-1$ take any two of these group and weigh again to get the heavier.\nremember in this types of question we always consider the worst case  in minimum terms\n   \n\n   as we have 8 bags total so just divide it into equal parts\n1. Take 3 bags and compare it with another 3 bags, if they are equal, then take remaining two bags and compare. Total wieghtings = 2.\n  \n\n   2. If in step one, if 3 bags are not equal to another three bags. Then take the heavier 3 bag group and pick any 2 bags and compare , if they are same, then 3rd bag is heavy bag.If not, the we will get heavy bag anyway.\n   So, in either case only 2 wieghtings is required. Hence , Answer is A.\nWe have 4 options 2, 3, 4, 8 and we have to find the minimum weighings required, so the approach should to be to use minimum weights first and check if it's possible.\n  Taking 2 :\n  Lets say weight in each bag = 5 and in slightly higher one = 6\n  So bags becomes 5 5 5 5 5 5 5 6\n  Putting in 2 machines equally :\n  1st machine : 20, 2nd Machine : 21\n  We will apply the same procedure on the 4 bags that combined weighs 21\n  Eventually we will seperate that weight of 6 using just 2 machines.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40240/gate2012-cy-ga-9",
   "source": "gateoverflow"
  },
  {
@@ -239,6 +932,84 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/41/gate-cse-2012-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40221",
+  "year": 2012,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In the early nineteenth century, theories of social evolution were inspired less by Biology than\n   \n\n    by the conviction of social scientists that there was a growing improvement in social\n   \n\n    institutions. Progress was taken for granted and social scientists attempted to discover its\n   \n\n    laws and phases.\n   \n\n   Which one of the following inferences may be drawn with the greatest accuracy from the above passage?\n   Social scientists",
+  "options": [
+   "did not question that progress was a fact.",
+   "did not approve of Biology.",
+   "framed the laws of progress.",
+   "emphasized Biology over Social Sciences."
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "did not question that progress was a fact. --  TRUE.\n    \n     \"Progress was taken for granted\" implies this.\n    \n\n    did not approve of Biology. -- FALSE.\n    \n     \"were inspired less by Biology\"\n    \n    does not mean that Biology was disapproved, it just means that Biology had less significance.\n   \n\n    framed the laws of progress.-- FALSE \"\n    \n\n      attempted\n     \n     to discover\n    \n\n     its\n    \n\n     laws\n    \n\n     \"\n    \n    shows that they only attempted and success is not mentioned.\n   \n\n    emphasized Biology over Social Sciences. -- FALSE. \"\n    \n     less by Biology than\n    \n\n     by the conviction of social scientists\"\n    \n    shows that it was the other way around.\n   \n\n   Correct Option: A.\nA : Did not question that progress was a fact.\n   \n    True\n   \n   They took progress for granted.\n  \n\n   B:  Did not approve of Biology :\n   \n    False\n   \n   . No mention regarding this in paragraph. It's mention that it was not inspired from biology and that's a different thing.\n  \n\n   C: Framed the laws of progress :\n   \n    False\n   \n   They attempted to discover its laws. Frame and discover are different things.\n  \n\n   D: Clearly false.\n(C) framed the laws of progress.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40221/gate2012-ae-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40231",
+  "year": 2012,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The documents expose the cynicism of the government officials – and yet as the media website reflects, not a single newspaper has reported on their existence.\n   \n\n   Which one of the following inferences may be drawn with the greatest accuracy from the above passage?",
+  "options": [
+   "Nobody other than the government officials knew about the existence of the documents.",
+   "Newspapers did report about the documents but nobody cared.",
+   "Media reports did not show the existence of the documents.",
+   "The documents reveal the attitude of the government officials."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "answer must be D according to me because  if  i check options  A is wrong bcz in the passage they did not mention who knows or who does not know about the existence  of document so  A will be wrong. B totally irrelevant from passage  and C is wrong bcz after reading the passage you got an idea  media is waiting once they got the information about  existence of document then they will  expose  them .. then remaining is\n   \n    D which is related to passage  so D will be answer according to me\nNobody other than the government officials knew about the existence of the documents.\n    In this case, the media website would not have got this information. So, this statement is probably false.\n   \n\n    Newspapers did report about the documents but nobody cared.\n    This is false as it is mentioned in the passage “not a single newspaper has reported on their existence”.\n   \n\n    Media reports did not show the existence of the documents.\n    This is false as “media website reflects” is given in the passage.\n   \n\n    The documents reveal the attitude of the government officials.\n    This is true as it is clearly mentioned in the passage “The documents expose the cynicism of the government officials“\n(A)\n  \n\n    Explanation : The documents were known only to the government officials till the time of its publication on the media website but until then none of the newspapers has reported anything on their existence. Nothing is known of what the document reveals.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40231/gate2012-ar-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40241",
+  "year": 2012,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Raju has $14$ currency notes in his pocket consisting of only Rs. $20$ notes and Rs. $10$ notes. The total money value of the notes is Rs. $230$. The number of Rs. $10$ notes that Raju has is",
+  "options": [
+   "$5$",
+   "$6$",
+   "$9$",
+   "$10$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "No. of Rs 20 notes $- x$\n   No. of Rs 10 notes $- y$\n   Given,\n   $x+y=14$\n   $20x+10y=230$\n  \n\n   Solving the two equations, we get.\n   $x=9, y=5$\n   So, the number of Rs. $10$ notes is $5.$\n  \n\n    Answer A.\nfor that question there is 10 and 20 rs notes... total is 230.. so u need odd no of 10 rs notes ... so it will be a or c ... now 5*10+20*9= 230 ... no of notes 9+5=14 .... so option A ... u can calculate by taking X .. by sometimes u can guess the by jst observing it ..",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40241/gate2012-cy-ga-10",
   "source": "gateoverflow"
  },
  {

@@ -453,7 +453,6 @@ SUBJECT_ORDER = [
     "Operating Systems",
     "Databases (DBMS)",
     "Computer Networks",
-    "Unclassified",
 ]
 
 # Keyword rules for 2026 official papers (no tags available).

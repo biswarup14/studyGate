@@ -19,6 +19,22 @@ sys.path.insert(0, HERE)
 from subject_map import subject_from_keywords
 from subtopic_map import subtopic_from_keywords
 
+# Curated (subject, subtopic) for questions keyword rules cannot classify
+# reliably (math-heavy texts, or subject only visible in the options).
+SUBJECT_OVERRIDES = {
+    "2026-cs1-3": ("Discrete Mathematics", "Combinatorics"),
+    "2026-cs1-12": ("Discrete Mathematics", "Combinatorics"),
+    "2026-cs1-22": ("Digital Logic", "Number Systems & Representation"),
+    "2026-cs1-27": ("Programming in C", "Strings"),
+    "2026-cs1-28": ("Compiler Design", "Parsing"),
+    "2026-cs1-36": ("Digital Logic", "Number Systems & Representation"),
+    "2026-cs1-46": ("Engineering Mathematics", "Calculus"),
+    "2026-cs2-27": ("Engineering Mathematics", "Calculus"),
+    "2026-cs2-28": ("Digital Logic", "Number Systems & Representation"),
+    "2026-cs2-34": ("Digital Logic", "Number Systems & Representation"),
+    "2026-cs2-43": ("Computer Networks", "Data Link Layer"),
+}
+
 
 def build_answer_map(key_pdf_path):
     """Parse key PDF into {qno: {answer, type, marks}}."""
@@ -58,6 +74,10 @@ def merge(paper, key_path, parsed_path):
         subject = subject_from_keywords(q.get("text", ""))
         subtopic = subtopic_from_keywords(subject, q.get("text", ""))
 
+        qid = f"2026-{paper.lower()}-{qno}"
+        if qid in SUBJECT_OVERRIDES:
+            subject, subtopic = SUBJECT_OVERRIDES[qid]
+
         correct_answer = None
         if qtype == "mcq":
             correct_answer = [answer] if answer and len(answer) <= 2 else None
@@ -72,7 +92,7 @@ def merge(paper, key_path, parsed_path):
         images = [{"src": f"/images/2026/{img}", "kind": "local"} for img in q.get("images", [])]
 
         item = {
-            "id": f"2026-{paper.lower()}-{qno}",
+            "id": qid,
             "year": 2026,
             "set": q.get("set", paper[2]),
             "number": qno,
@@ -109,29 +129,46 @@ def main():
         json.dump(all_2026, f, ensure_ascii=False, indent=1)
     print(f"questions-2026.json: {len(all_2026)} questions")
 
-    # Update index.json
-    with open(os.path.join(DATA, "index.json")) as f:
-        index = json.load(f)
-    index["years"]["2026"] = len(all_2026)
-    index["total"] += len(all_2026)
-    for q in all_2026:
-        existing = next((s for s in index["subjects"] if s["name"] == q["subject"]), None)
-        if existing:
-            existing["count"] += 1
-        else:
-            index["subjects"].append({"name": q["subject"], "count": 1})
-        index["types"][q["type"]] = index["types"].get(q["type"], 0) + 1
-        if q["subtopic"]:
-            group = index["subtopics"].setdefault(q["subject"], [])
-            entry = next((s for s in group if s["name"] == q["subtopic"]), None)
-            if entry:
-                entry["count"] += 1
-            else:
-                group.append({"name": q["subtopic"], "count": 1})
-    index["subjects"].sort(key=lambda s: s["count"], reverse=True)
+    rebuild_index()
+
+
+def rebuild_index():
+    """Regenerate index.json from all data/questions-YYYY.json files."""
+    from collections import Counter
+
+    subjects = Counter()
+    subtopics = Counter()
+    types = Counter()
+    years = {}
+    total = 0
+    for year in range(2000, 2027):
+        path = os.path.join(DATA, f"questions-{year}.json")
+        if not os.path.exists(path):
+            continue
+        items = json.load(open(path))
+        years[year] = len(items)
+        total += len(items)
+        for it in items:
+            subjects[it["subject"]] += 1
+            types[it["type"]] += 1
+            if it["subtopic"]:
+                subtopics[(it["subject"], it["subtopic"])] += 1
+
+    subtopic_groups = {}
+    for (subj, sub), v in subtopics.most_common():
+        subtopic_groups.setdefault(subj, []).append({"name": sub, "count": v})
+
+    index = {
+        "total": total,
+        "years": years,
+        "subjects": [{"name": k, "count": v} for k, v in subjects.most_common()],
+        "subtopics": subtopic_groups,
+        "types": dict(types),
+        "updatedAt": "2026-08-13",
+    }
     with open(os.path.join(DATA, "index.json"), "w") as f:
         json.dump(index, f, ensure_ascii=False, indent=1)
-    print(f"index updated: total={index['total']}")
+    print(f"index rebuilt: total={index['total']}")
 
 
 if __name__ == "__main__":

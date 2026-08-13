@@ -1,54 +1,203 @@
 [
  {
-  "id": "7995",
+  "id": "38935",
   "year": 2015,
-  "set": "1",
+  "set": "2",
   "number": null,
   "section": "CS",
   "type": "mcq",
   "subject": "General Aptitude",
   "subtopic": "Verbal Aptitude",
-  "difficulty": "easy",
+  "difficulty": "medium",
   "marks": null,
-  "text": "Didn't you buy ____ when you went shopping?",
+  "text": "Choose the appropriate word/phrase, out of the four options given below, to complete the following sentence:\n  \n\n   Dhoni, as well as the other team members of Indian team, ____________present on the occasion.",
   "options": [
-   "any paper",
-   "much paper",
-   "no paper",
-   "a few paper"
+   "were",
+   "was",
+   "has",
+   "have"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Words joined to a singular subject by WITH, AS WELL AS, takes a singular verb. So it will be WAS.\n  Correct Option: B\nsubject is \" Dhoni\"  so \"were\" is not suitable here according to subject so we take was (performer is dhoni) so was is correct answer\nOfficial Answer as GATE 2015 Key => B) was\nDhoni, as well as the other team members of the Indian team, it is treated like the singular subject in english grammer. so option B  is correct.\nwas..cozz here dhoni is mentioned",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/38935/gate2015-ec-2-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39503",
+  "year": 2015,
+  "set": "2",
+  "number": null,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the word most similar in meaning to the given word:\n  \n\n   Awkward",
+  "options": [
+   "Inept",
+   "Graceful",
+   "Suitable",
+   "Dreadful"
   ],
   "correctAnswer": [
    "A"
   ],
-  "explanation": "Answer is (A)\n   \n\n   We can use \"\n   \n    any\"\n   \n   in negative sentences with plural\n   \n\n     countable\n    \n\n   nouns\n  \n\n   e.g., Aren't there any\n   \n    books?\n   \n\n   We can use \"\n   \n    any\"\n   \n   in negative sentences with\n   \n    uncountable\n   \n   nouns\n  \n\n   e.g., Isn't there any\n   \n    paper?\n   \n   - here paper is uncountable\nA]  Any paper\nIn general,\n   \n    any\n   \n   is used in negative sentences and questions. Thus option a is correct.\n\"Didn't you buy ____ when you went shopping?\"\n   \n\n      A. any paper\n     \n\n       Meaning\n      \n      : \"Any paper\" is used to refer to \"some amount of paper, if any exists.\" This option is almost correct grammatically, as it fits in some negative questions, e.g., \"Didn't you buy any paper?\" However, in English, it implies a slight expectation that the person might have bought some.\n     \n\n       Suitability\n      \n      : This could be acceptable, but it’s less definitive compared to \"no paper,\" which directly addresses the idea of buying none.\n     \n\n      B. much paper\n     \n\n       Meaning\n      \n      : \"Much paper\" suggests a large amount of paper, used typically in negative or interrogative sentences, e.g., \"I didn’t buy much paper.\" However, in direct questions like this one, \"much\" sounds awkward and unidiomatic, as it would more commonly appear in statements rather than questions.\n     \n\n       Suitability\n      \n      : Incorrect due to awkwardness and lack of clarity in the question form.\n     \n\n      C. no paper\n     \n     (Correct Answer)\n    \n\n       Meaning\n      \n      : \"No paper\" clearly indicates that the person did not buy any paper at all.\n     \n\n       Suitability\n      \n      : This option is the most direct and natural response in English. It clearly fits the structure of the question, where the speaker is confirming that the person didn’t buy any paper.\n     \n\n      D. a few paper\n     \n\n       Meaning\n      \n      : \"A few\" generally refers to a small number or quantity, but it’s typically used with countable nouns, e.g., \"a few sheets of paper\" or \"a few books.\" Here, \"paper\" is being treated as an uncountable noun, so \"a few paper\" is grammatically incorrect.\n     \n\n       Suitability\n      \n      : Incorrect due to grammatical issues. \"Paper\" is uncountable in this context and cannot pair with \"a few.\"\n     \n\n     Correct Answer: C. no paper\n    \n    because it fits the question structure and is grammatically accurate.\n   \n\n     Other Options\n    \n    :\n    \n\n       A\n      \n      is passable but less clear.\n     \n\n       B\n      \n      is awkward and doesn’t fit well in a direct question.\n     \n\n       D\n      \n      is grammatically incorrect as \"paper\" is uncountable in this context.\n      just chatgtp answer but pasting for availablity",
+  "explanation": "Correct Option: A  Inept\n  \n\n   Awkward means unsuitable and is a synonym for inept.\n  \n\n   Dreadful is not suitable here as it means horrible and is more negative than \"awkward\".\n  \n\n   Graceful and suitable are positive words and hence not applicable.\n  \n\n   Ref:\n   \n    https://thesaurus.plus/related/awkward/inept.\nFor clear understanding ,\n   \n    https://thesaurus.plus/related/awkward/inept.",
   "images": [],
-  "sourceUrl": "https://gateoverflow.in/7995/gate-cse-2015-set-1-question-ga-1",
+  "sourceUrl": "https://gateoverflow.in/39503/gate2015-ec-2-ga-2",
   "source": "gateoverflow"
  },
  {
-  "id": "8003",
+  "id": "39504",
   "year": 2015,
-  "set": "1",
+  "set": "2",
   "number": null,
   "section": "CS",
   "type": "mcq",
   "subject": "General Aptitude",
   "subtopic": "Verbal Aptitude",
-  "difficulty": "easy",
+  "difficulty": "medium",
   "marks": null,
-  "text": "Which of the following options is the closest in meaning of the sentence below?\n  \n\n   She enjoyed herself immensely at the party.",
+  "text": "What is the adverb for the given word below?\n   Misogynous",
   "options": [
-   "She had a terrible time at the party",
-   "She had a horrible time at the party",
-   "She had a terrific time at the party",
-   "She had a terrifying time at the party"
+   "Misogynousness",
+   "Misogynity",
+   "Misogynously",
+   "Misogynous"
   ],
   "correctAnswer": [
    "C"
   ],
-  "explanation": "She enjoyed herself immensely at the party\n  \n\n   means, she had a good time at the party.\n  \n\n    She had a terrible time at the party - means her time was bad at the party.\n   \n\n    She had a horrible time at the party - same as above; her time was bad at the party.\n   \n\n    She had a terrific time at the party - means she had a good time at the party.\n   \n\n    She had a terrifying time at the party - means she had a frightening (not good) time at the party.\n   \n\n   So, correct option: C.\nC.\n   \n    She had a terrific time at the party\nC. She had a terrific time at the party",
+  "explanation": "Misogynous is an adjective and it describes a person who dislikes women.\n  \n\n   Its adverb form: Misogynously\n   Noun form: Misogynism",
   "images": [],
-  "sourceUrl": "https://gateoverflow.in/8003/gate-cse-2015-set-1-question-ga-2",
+  "sourceUrl": "https://gateoverflow.in/39504/gate2015-ec-2-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39506",
+  "year": 2015,
+  "set": "2",
+  "number": null,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Ram and Ramesh appeared in an interview for two vacancies in the same department. The probability of Ram’s selection is $1/6$ and that of Ramesh is $1/8$. What is the probability that only one of them will be selected?",
+  "options": [
+   "$47/48$",
+   "$1/4$",
+   "$13/48$",
+   "$35/48$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Selection of RAM and not Ramesh is $1/6 \\times 7/8$ and selection of Ramesh and not Ram is $1/8 \\times 5/6.$ So, net probability is $12/48 = 1/4.$\n  Correct Option (B)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39506/gate2015-ec-2-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39507",
+  "year": 2015,
+  "set": "2",
+  "number": null,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In the following sentence certain parts are underlined and marked P, Q, and R. One of the parts may contain certain error or may not be acceptable in standard written communication. Select the part containing an error. Choose D as your answer if there is no error.\n   The student corrected $\\underbrace{\\underline{\\text{all the errors}}}_{P}$ that $\\underbrace{\\underline{\\text{the instructor marked}}}_{Q}$ on $\\underbrace{\\underline{\\text{the answer book}}}_{R}$.",
+  "options": [
+   "P",
+   "Q",
+   "R",
+   "No error"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$Q$ part should be \" the instructor had marked\"\n  \n\n    Correct Answer: B",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39507/gate2015-ec-2-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39508",
+  "year": 2015,
+  "set": "2",
+  "number": null,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Given below are two statements followed by two conclusions. Assuming these statements to be true, decide which one logically follows.\n   Statements:\n  \n\n   Conclusions:\n  \n\n    All film directors are playback singers.\n   \n\n    Some film stars are film directors.\n   \n\n    Only conclusion I follows.\n   \n\n    Only conclusion II follows.\n   \n\n    Neither conclusion I nor II follows.\n   \n\n    Both conclusions I and II follow.",
+  "options": [
+   "All film stars are playback singers.",
+   "All film directors are film stars."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "All film directors are film stars\n   \n\n    All film stars are playback singers.\n   \n\n   $A \\implies B$ and $B \\implies C$ means $A \\implies C.$ So All film directors are playback singers.\n  \n\n   Conclusion 2 is also true as even if one film director exist, he must be a film star. (We have to assume domain sets to be non-empty here)\n  \n\n   Correct Answer: Option D\nBoth the conclusions follow. You can verify it by drawing venn diagram representation.\n  \n\n    Option D",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39508/gate2015-ec-2-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39509",
+  "year": 2015,
+  "set": "2",
+  "number": null,
+  "section": "CS",
+  "type": "nat",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A tiger is $50$ leaps of its own behind a deer. The tiger takes $5$ leaps per minute to the deer's $4.$ If the tiger and the deer cover $8$ meter and $5$ meter per leap respectively, what distance in meters will the tiger have to run before it catches the deer$?$",
+  "options": [],
+  "correctAnswer": [
+   "800"
+  ],
+  "explanation": "Tiger covers $40$ meter/minute\n  Deer covers $20$ meter/minute\n  Relative speed of tiger is $20$ meter/minute\n  Deer is ahead of the tiger by $50\\times 8=400$ meters\n  Time taken $=400/20=20$ minutes\n  In 20 minutes tiger covers $20\\times 40=800$ meters\n  Correct Answer: $800$\nTiger (runs) -->                                 Deer (runs) --->\n  \n\n    Tiger\n   \n   ----------------------------------------\n   \n    Tree\n   \n   --------------------------\n   \n    Tiger catch Deer (here)\n   \n\n   |---------------------50 Leaps --------------|-------------x m-----------|\n  \n\n   50*8 = 400 m .\n  \n\n   |--------------------------------------------400 + x -------------------------|\n  \n\n   Tiger(speed)=8*5=40m/s\n  \n\n   Deer(speed)=5*4=20m/s\n  \n\n   after t time tiger catch deer\n  \n\n   t=(400+x) / 40 (tiger)\n  \n\n   t=x / 20 (deer)\n  \n\n   (400+x) / 40 = x/20\n  \n\n   x=400\n  \n\n   total time to catch deer = 400+x\n  \n\n   = 400 + 400\n  \n\n   =\n   \n    800\n   \n   m\nTiger’s speed = (8 meter) * (5leaps) = 40m/minute\n  Deer’s speed = 20 m/minute\n  40t = 400 + 20t $\\rightarrow t=20minutes$\n  Since, tiger’s speed * t = distance covered by tiger\n  Therefore distance covered by tiger = 40m/min * 20min = 800m",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39509/gate2015-ec-2-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39515",
+  "year": 2015,
+  "set": "3",
+  "number": null,
+  "section": "CS",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the most suitable one word substitute for the following expression:\n  \n\n   Connotation of a road or way",
+  "options": [
+   "Pertinacious",
+   "Viaticum",
+   "Clandestine",
+   "Ravenous"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Denotation : defined meaning\n   \n\n    Connotation: feelings associated or inner meaning\n   \n\n    Pertinacious -- persistent\n   \n\n     Viaticum -- travel allowance for a journey\n    \n    Word origin of 'viaticum': from Latin, from viāticus belonging to a journey, from viāre to travel, from via way\n   \n\n    Clandestine -- kept secret\n   \n\n    Ravenous -- extremely hungry\n   \n\n   Option B is the answer.\n  \n\n   Ref:\n   \n    https://examples.yourdictionary.com/examples-of-connotative-words.html\nConnotation\n   \n   of road or way :\n  \n\n     an idea or feeling which a word invokes\n    \n    for road or way\n   \n\n     A] pertinacious :\n    \n\n    holding firmly to an opinion or a course of action. (persistent) ( related to human)\n   \n\n     B] viaticum :\n    \n\n    the Eucharist as given to a person near or in danger of death. ( related to human)\n   \n\n      C] clandestine : confidential\n     \n\n    ( related to way)\n   \n\n     D] ravenous :\n    \n\n    extremely hungry. ( related to human)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39515/gate2015-ec-3-ga-2",
   "source": "gateoverflow"
  },
  {
@@ -78,199 +227,115 @@
   "source": "gateoverflow"
  },
  {
-  "id": "8006",
+  "id": "39514",
   "year": 2015,
-  "set": "1",
-  "number": null,
-  "section": "CS",
+  "set": "3",
+  "number": 1,
+  "section": "GA",
   "type": "mcq",
   "subject": "General Aptitude",
   "subtopic": "Verbal Aptitude",
-  "difficulty": "easy",
+  "difficulty": "medium",
   "marks": null,
-  "text": "Based on the given statements, select the most appropriate option to solve the given question.\n  \n\n   If two floors in a certain building are $9$ feet apart, how many steps are there in a set of stairs that extends from the first floor to the second floor of the building?\n  \n\n   Statements:\n  \n\n    Statements I alone is sufficient, but statement II alone is not sufficient.\n   \n\n    Statements II alone is sufficient, but statement I alone is not sufficient.\n   \n\n    Both statements together are sufficient, but neither statement alone is sufficient.\n   \n\n    Statements I and II together are not sufficient.",
+  "text": "Choose the most appropriate word from the options given below to complete the following\n   sentence.\n   If the athlete had wanted to come first in the race, he _______________ several hours every day.",
   "options": [
-   "Each step is $3/4$ foot high.",
-   "Each step is $1$ foot wide."
-  ],
-  "correctAnswer": [
-   "A"
-  ],
-  "explanation": "Statements I alone is sufficient, but statement II alone is not sufficient.\nI think\n   \n    ANSWER\n   \n   is PART (C)\n  \n\n   Both statements together are sufficient, but neither statement alone is sufficient.\n  \n\n   Because based on height and width we can calculate effectively how much distance will be traveled in one step.\n  \n\n   Each step in general form a right angle triangle in which base is 1 and height is 3/4 so in each step effectively we will travel $\\sqrt[2]{1^{2}+(3/4)^{2}}$\n  \n\n   Please correct me if i am wrong.\n  \n\n[IMAGE:100]\nWhen we climb from one floor to other, it is the height that matters and not the width of the staircase.Therefore, From statement 1 only, we can figure out that 9 / (3/4) or 12 steps are required.\n  reference:geeksforgeeks\nThe number of stairs = Height of the floor\n   \n    /\n   \n   the height of stairs\n  \n\n   Hence option A is correct.",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16092565148973159857",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/8006/gate-cse-2015-set-1-question-ga-4",
-  "source": "gateoverflow"
- },
- {
-  "id": "8008",
-  "year": 2015,
-  "set": "1",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "hard",
-  "marks": null,
-  "text": "Which one of the following combinations is incorrect?",
-  "options": [
-   "Acquiescence - Submission",
-   "Wheedle - Roundabout",
-   "Flippancy - Lightness",
-   "Profligate - Extravagant"
+   "should practise",
+   "should have practised",
+   "practised",
+   "should be practising"
   ],
   "correctAnswer": [
    "B"
   ],
-  "explanation": "B\n   \n\n    Wheedle - Roundabout\nAcquiescence: To accept without protest. Submission: -> Correct relationship.\n   \n\n    Wheedle: To use flattery to get something. Roundabout: To use an indirect longer route instead of a shorter direct route -> Not happening.\n   \n\n    Flippancy: Not showing seriousness, lightness. Lightness -> Correct relationship.\n   \n\n    Profligate: Excessive, reckless, characterless, wasteful. Extravagant -> Correct relationship.\nPROFLIGATE - example The Kapoors are profligate in their expenditures.\n  Profligate means extravagant or wasteful....it is used as an adjective here.\n  WHEEDLE - to provoke someone,to lure ,to persuade\n  ACQUIESCENCE - the Jailkattu ordinance will be sent to the President for his acquiescence. Here it means... for his assent or approval...its not submission\n  FLIPPANCY -light mindedness...not lightness\n  so answer should D\nThe incorrect combination is:\n  \n\n    Wheedle - Roundabout\n   \n\n     Acquiescence - Submission\n    \n    : This is correct. Acquiescence means passive agreement or submission without protest.\n   \n\n     Wheedle - Roundabout\n    \n    : This is incorrect. \"Wheedle\" means to persuade or influence someone through flattery or coaxing, not \"roundabout.\"\n   \n\n     Flippancy - Lightness\n    \n    : This is correct. Flippancy refers to a lack of seriousness or a light, often inappropriate attitude.\n   \n\n     Profligate - Extravagant\n    \n    : This is correct. Profligate refers to recklessly extravagant or wasteful behavior.",
+  "explanation": "(B) should have practised.\n  \n\n    Sentence is in past tense and to talk about something previous we need past perfect tense.\nB) Its easy,should have practised. Its given in perfect tense so I think B) is the correct ans..",
   "images": [],
-  "sourceUrl": "https://gateoverflow.in/8008/gate-cse-2015-set-1-question-ga-5",
+  "sourceUrl": "https://gateoverflow.in/39514/gate2015-ec-3-ga-1",
   "source": "gateoverflow"
  },
  {
-  "id": "8010",
+  "id": "40166",
   "year": 2015,
-  "set": "1",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "easy",
-  "marks": null,
-  "text": "The number of students in a class who have answered correctly, wrongly, or not attempted each question in an exam, are listed in the table below. The marks for each question are also listed. There is no negative or partial marking.$$\\begin{array}{|c|c|c|c|c|} \\hline \\textbf{Q No.} & \\textbf{Marks} &\\textbf{Answered}&\\textbf{Answered}&\\textbf{Not}\\\\&&\\textbf{ Correctly} &\\textbf{Wrongly} & \\textbf{Attempted} \\\\\\hline \\text{1} & \\text{2} &\\text{21} &\\text{17} &\\text{6}\\\\\\hline \\text{2} & \\text{3} &\\text{15} & \\text{27}& \\text{2}\\\\\\hline \\text{3} & \\text{1} &\\text{11} & \\text{29} & \\text{4}\\\\\\hline \\text{4} & \\text{2} &\\text{23} & \\text{18} & \\text{3}\\\\\\hline \\text{5} & \\text{5} &\\text{31} & \\text{12} & \\text{1} \\\\\\hline \\end{array}$$What is the average of the marks obtained by the class in the examination?",
-  "options": [
-   "$2.290$",
-   "$2.970$",
-   "$6.795$",
-   "$8.795$"
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "Avg. mark  $= \\dfrac{(21\\times 2 + 15\\times 3 + 11\\times 1 + 23\\times 2 + 31\\times 5)}{(21 + 17 + 6)}$\n  $=\\dfrac{(42 + 45 + 11 + 46 + 155)}{44}$\n  $=\\dfrac{299}{44}$\n  $= 6.795$\n  Correct Answer: $C$",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/8010/gate-cse-2015-set-1-question-ga-6",
-  "source": "gateoverflow"
- },
- {
-  "id": "8011",
-  "year": 2015,
-  "set": "1",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "easy",
-  "marks": null,
-  "text": "Select the alternative meaning of the underlined part of the sentence.\n  \n\n   The chain snatchers $\\underline{\\text{took to their heels}}$ when the police party arrived.",
-  "options": [
-   "Took shelter in a thick jungle",
-   "Open indiscriminate fire",
-   "Took to flight",
-   "Unconditionally surrendered"
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "\"take to heels\" means \"\n   \n    to run away\n   \n   \" or \"\n   \n    to flee\n   \n   \" or  \"भाग जाना\" which also have the same meaning as \"take flight\".\n  \n\n    https://idioms.thefreedictionary.com/take+to+heels\n   \n\n   Correct Option: C.\nC Took to flight",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/8011/gate-cse-2015-set-1-question-ga-7",
-  "source": "gateoverflow"
- },
- {
-  "id": "8012",
-  "year": 2015,
-  "set": "1",
-  "number": null,
-  "section": "CS",
+  "set": "3",
+  "number": 1,
+  "section": "GA",
   "type": "mcq",
   "subject": "General Aptitude",
   "subtopic": "Verbal Aptitude",
   "difficulty": "medium",
   "marks": null,
-  "text": "The given statement is followed by some courses of action. Assuming the statement to be true, decide the correct option.\n  \n\n   Statement:\n  \n\n   There has been a significant drop in the water level in the lakes supplying water to the city.\n  \n\n   Course of action:\n  \n\n    Statements I and II follow.\n   \n\n    Statements I and III follow.\n   \n\n    Statements II and III follow.\n   \n\n    All the statements follow.",
+  "text": "Choose the appropriate word/phrase, out of the four options given below, to complete the following sentence:\n   Apparent lifelessness ____________________ dormant life.",
   "options": [
-   "The water supply authority should impose a partial cut in supply to tackle the situation.",
-   "The government should appeal to all the residents through mass media for minimal use of water.",
-   "The government should ban the water supply in lower areas."
+   "harbours",
+   "leads to",
+   "supports",
+   "affects"
   ],
   "correctAnswer": [
    "A"
   ],
-  "explanation": "Statements I and II are correct measures. Option A,",
+  "explanation": "It should be A.\n  \n\n   Apparent lifelessness harbours dormant life. What seems to be lifeless because of lack of movements might be alive, probably simply sleeping.\nAns : [B]\n  \n\n   Apparent lifelessness\n   \n    leads to\n   \n   dormant life.\n\"Habours\" is the\n   \n\n     only\n    \n\n    one of the four choices that makes sense. The reference here is to the phenomenon of\n   \n\n     hibernation\n    \n\n    . When animals hibernate, they appear to be lifeless (\"apparent lifelessness\"), but in fact they are in a state of dormancy ('dormant life\"). The word \"harbours\" here is roughly equivalent to \"\n   \n\n     contains\n    \n\n    ,\" and it further suggests a sort of\n   \n\n     protective\n    \n\n    containment (on analogy to a literal harbour, which holds ships in a protected and safe environment). None of the other three options comes even close to providing this sort of meaning.\nThe correct word to complete the sentence is \"harbours.\"\n  \n\n   \"Apparent lifelessness harbours dormant life.\"\n  \n\n   This choice is correct for the following reasons:\n  \n\n   1. Meaning: \"Harbours\" means to contain or hold, often in a hidden or protected way. This perfectly captures the essence of the sentence, where life exists in a dormant state beneath an apparently lifeless exterior.\n  \n\n   2. Context: The sentence describes a situation where what appears lifeless actually contains life that is inactive but capable of becoming active again. This is precisely what \"harbours\" conveys.\n  \n\n   3. Protective connotation: \"Harbours\" suggests a protective containment, similar to how a harbor shelters ships. This aligns with how dormant life is sheltered within an apparently lifeless form.\n  \n\n   The other options are incorrect because:\n  \n\n   4. \"Leads to\" implies a causal relationship that doesn't exist here. Apparent lifelessness doesn't cause dormant life; they coexist.\n  \n\n   5. \"Supports\" suggests active assistance, which is inaccurate. Apparent lifelessness merely conceals dormant life, not actively supports it.\n  \n\n   6. \"Affects\" is too vague and weak. It doesn't capture the specific relationship of containment between apparent lifelessness and dormant life.\n  \n\n   In conclusion, \"harbours\" is the only option that accurately describes how apparent lifelessness contains and protects dormant life, making it the correct choice for this sentence.\n  \n\n   **from the information given by\n   \n    Claude AI\n   \n   as it is or edited.",
   "images": [],
-  "sourceUrl": "https://gateoverflow.in/8012/gate-cse-2015-set-1-question-ga-8",
+  "sourceUrl": "https://gateoverflow.in/40166/gate2015-me-3-ga-1",
   "source": "gateoverflow"
  },
  {
-  "id": "8013",
+  "id": "40176",
   "year": 2015,
-  "set": "1",
-  "number": null,
-  "section": "CS",
-  "type": "nat",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "The pie chart below has the breakup of the number of students from different departments in an engineering college for the year $2012$. The proportion of male to female students in each department is $5:4$. There are $40$ males in Electrical Engineering. What is the difference between the numbers of female students in the civil department and the female students in the Mechanical department?\n  \n\n[IMAGE:0]",
-  "options": [],
-  "correctAnswer": [
-   "32"
-  ],
-  "explanation": "Number of female students in Electrical = $40\\times \\dfrac{4}{5} = 32$\n  Number of female students in Civil = $32\\times \\dfrac{30}{20} = 48$ (Since proportion of male students to female students is same, the breakup chart is the same for number of female students)\n  Number of female students in Mechanical = $32\\times  \\dfrac{10}{20} = 16$\n  So, answer = $48 - 16 = 32$\nElectrical male students = 40\n  ∴ Electrical female students = 40 × (4/5)= 32\n  Total no. of students in Electrical department = (40 + 32) = 72 (which is 20% of the total mass)\n  ∴ Total no. of students in the college = 72 × (100/20) = 360\n  Total no. of students in Civil department = 360 × (30/100) = 108\n  Civil female students = 108 × (4/9) = 48\n  Total no. of students in Mechanical department = 360 × (10/100) = 36\n  Mechanical female students = 36 × (4/9) = 16\n  ∴ Difference = (48 − 16) = 32 (Ans)\nsince electrical is 20%,first find out how many female using 40/5=8,8*4=32 for mechanical is 10% so that (if 20% means 32,from that 10% means 16) similarly civil is 30% so that (16*3=48) 48-16=32",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16713008560335244829",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/8013/gate-cse-2015-set-1-question-ga-9",
-  "source": "gateoverflow"
- },
- {
-  "id": "8014",
-  "year": 2015,
-  "set": "1",
-  "number": null,
-  "section": "CS",
+  "set": "2",
+  "number": 1,
+  "section": "GA",
   "type": "mcq",
   "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
+  "subtopic": "Verbal Aptitude",
   "difficulty": "medium",
   "marks": null,
-  "text": "The probabilities that a student passes in mathematics, physics and chemistry are $m,p$ and $c$ respectively. Of these subjects, the student has $75\\%$ chance of passing in at least one, a $50\\%$ chance of passing in at least two and a $40\\%$ chance of passing in exactly two. Following relations are drawn in $m, p, c$:\n  \n\n    Only relation I is true.\n   \n\n    Only relation II is true.\n   \n\n    Relations II and III are true.\n   \n\n    Relations I and III are true.",
+  "text": "Choose the most appropriate word from the options given below to complete the following sentence.\n   The official answered ____________ that the complaints of the citizen would be looked into.",
   "options": [
-   "$p + m + c = 27/20$",
-   "$p + m + c = 13/20$",
-   "$(p) \\times (m) \\times (c) = 1/10$"
+   "respectably",
+   "respectfully",
+   "reputably",
+   "respectively"
   ],
   "correctAnswer": [
-   "D"
+   "B"
   ],
-  "explanation": "Probability of non pass $= 1 - $ Probability of at least one pass $= 1 - 0.75 = 0.25$\n  $(1-m) (1-p) (1-c) = 0.25$\n  $(1 + mp - m -p) (1-c) = 0.25$\n  $1 + mp - m - p - c - mpc + mc + pc = 0.25$\n  $\\bf{m + p + c - mp - pc - mc + mpc = 0.75  \\quad \\to (1)}$\n  Probability of exactly $2$ pass $= 0.4$\n  $mp (1-c) + pc (1-m) + mc (1-p) = 0.4$\n  $mp + pc + mc - 3mpc = 0.4$\n  $\\bf{mp + pc + mc - 2mpc = 0.5 \\quad \\to (2)}$\n  (Adding the probability of all pass to probability of exactly $2$ pass gives probability of at least $2$ pass)\n  So, $\\bf{mpc = 0.1 \\quad \\to (3)}$\n  From $(2)$ and $(3),$\n  $\\bf{mp + pc + mc - mpc = 0.6 \\quad \\to(4)}$\n  From $(1)$ and $(4)$\n  $m + p + c  = 0.75 + 0.6$\n  $m + p + c  = 1.35 = 135/100 = 27/20$\n  So, D option\noption D is correct\n   \n\n   P(M) = m, P (p) = p, P(c) = c\n   ∵ The probability of at least one success\n   = P (M ∪ P ∪ C)\n   = m + p + c -mp - mc - pc + mcp = 3/4 ...(1)\n   The probability of at least two successes =\n   = mc(1 - p) + mp (1 - c ) + (1 - m )cp + mcp\n   = mc + mp + cp - 2mcp = 1/2\n   The probability of exactly two success\n   = mc(1 - p) + mp (1 - c ) +cp(1 - m )\n   = mc + mp + cp - 3 mcp = 2/5\n   (2) & (3) gives,\n   ⇒ mcp = 1/2 - 2/5 = 1/10\n   ∴ mc + mp + cp = 2/10 + 1/2 = 1/5 + 1/2 = 7/10\n   From (1),\n   m + p + c - 7/10 + 1/10 = 3/4\n   ⇒ m + p + c = 3/4 + 7/10 - 1/10 = 27/20\n   Thus, pmc = 1/10 is a true relation.\n[IMAGE:200]\n\n   Sum of all M+P+C circles is given to be 0.75..(1)\n  \n\n   Where each circle represents respective probability in passing.\n  \n\n   The probability of passing in at least 2=0.5\n  \n\n   The probability of passing in exactly 2=0.4\n  \n\n   Therefore the probability of passing in exactly 3=0.5-0.4=\n   \n    0.1=mpc\n   \n   .\n  \n\n   Now, Equation (1) can be restated as\n  \n\n   $p+m+c-(mp+pc+mc)+mpc=0.75$............(2)\n  \n\n   This is similar to\n  \n\n   $n(A \\cup B \\cup C)=n(A)+n(B)+n(C)-(n(A \\cap B)+n(B \\cap C)+n(C \\cap A))+n(A \\cap B \\cap C)$\n  \n\n   Now to get blue area, which counts to 0.4, you would have taken $mp+pc+mc$ and to this subtracted the red part($mpc=0.1$), thrice,\n  \n\n   hence to get mp+pc+mc, add $3 \\times 0.1$ to 0.4\n  \n\n   which gives\n  \n\n   $mp+pc+mc=0.7$\n  \n\n   plugging in values into (2) we get\n  \n\n   $p+m+c=1.35=\\frac{27}{20}$\n  \n\n   And $mpc=0.1=p(m \\cap p \\cap c)=p \\times m \\times c$(A student passing or failing in subject is independent event).\n  \n\n   So, III is true.\n  \n\n    Ans- (D)",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12113923258780952658",
-    "kind": "remote"
-   }
+  "explanation": "answer should be B ie respectfully\nThe most appropriate word to complete the sentence is:\n  \n\n   2. respectfully\n  \n\n   The completed sentence would read:\n  \n\n   \"The official answered respectfully that the complaints of the citizen would be looked into.\"\n  \n\n   This choice is correct because:\n  \n\n   1. \"Respectfully\" means in a polite, courteous manner, which is appropriate for an official addressing a citizen's concerns.\n  \n\n   2. \"Respectably\" means in a respectable manner, which is typically used to describe actions or behavior rather than speech, and doesn't quite fit the context of responding to a complaint.\n  \n\n   3. \"Reputably\" means with a good reputation, which isn't relevant to how someone answers a question.\n  \n\n   4. \"Respectively\" means in the order mentioned, which doesn't make sense in this sentence.\n  \n\n   \"Respectfully\" best conveys the appropriate tone and manner for an official responding to a citizen's complaints.\n  \n\n   **from the information given by\n   \n    Claude AI\n   \n   as it is or edited.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40176/gate2015-ce-2-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "7995",
+  "year": 2015,
+  "set": "1",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Didn't you buy ____ when you went shopping?",
+  "options": [
+   "any paper",
+   "much paper",
+   "no paper",
+   "a few paper"
   ],
-  "sourceUrl": "https://gateoverflow.in/8014/gate-cse-2015-set-1-question-ga-10",
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer is (A)\n   \n\n   We can use \"\n   \n    any\"\n   \n   in negative sentences with plural\n   \n\n     countable\n    \n\n   nouns\n  \n\n   e.g., Aren't there any\n   \n    books?\n   \n\n   We can use \"\n   \n    any\"\n   \n   in negative sentences with\n   \n    uncountable\n   \n   nouns\n  \n\n   e.g., Isn't there any\n   \n    paper?\n   \n   - here paper is uncountable\nA]  Any paper\nIn general,\n   \n    any\n   \n   is used in negative sentences and questions. Thus option a is correct.\n\"Didn't you buy ____ when you went shopping?\"\n   \n\n      A. any paper\n     \n\n       Meaning\n      \n      : \"Any paper\" is used to refer to \"some amount of paper, if any exists.\" This option is almost correct grammatically, as it fits in some negative questions, e.g., \"Didn't you buy any paper?\" However, in English, it implies a slight expectation that the person might have bought some.\n     \n\n       Suitability\n      \n      : This could be acceptable, but it’s less definitive compared to \"no paper,\" which directly addresses the idea of buying none.\n     \n\n      B. much paper\n     \n\n       Meaning\n      \n      : \"Much paper\" suggests a large amount of paper, used typically in negative or interrogative sentences, e.g., \"I didn’t buy much paper.\" However, in direct questions like this one, \"much\" sounds awkward and unidiomatic, as it would more commonly appear in statements rather than questions.\n     \n\n       Suitability\n      \n      : Incorrect due to awkwardness and lack of clarity in the question form.\n     \n\n      C. no paper\n     \n     (Correct Answer)\n    \n\n       Meaning\n      \n      : \"No paper\" clearly indicates that the person did not buy any paper at all.\n     \n\n       Suitability\n      \n      : This option is the most direct and natural response in English. It clearly fits the structure of the question, where the speaker is confirming that the person didn’t buy any paper.\n     \n\n      D. a few paper\n     \n\n       Meaning\n      \n      : \"A few\" generally refers to a small number or quantity, but it’s typically used with countable nouns, e.g., \"a few sheets of paper\" or \"a few books.\" Here, \"paper\" is being treated as an uncountable noun, so \"a few paper\" is grammatically incorrect.\n     \n\n       Suitability\n      \n      : Incorrect due to grammatical issues. \"Paper\" is uncountable in this context and cannot pair with \"a few.\"\n     \n\n     Correct Answer: C. no paper\n    \n    because it fits the question structure and is grammatically accurate.\n   \n\n     Other Options\n    \n    :\n    \n\n       A\n      \n      is passable but less clear.\n     \n\n       B\n      \n      is awkward and doesn’t fit well in a direct question.\n     \n\n       D\n      \n      is grammatically incorrect as \"paper\" is uncountable in this context.\n      just chatgtp answer but pasting for availablity",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/7995/gate-cse-2015-set-1-question-ga-1",
   "source": "gateoverflow"
  },
  {
   "id": "8028",
   "year": 2015,
   "set": "2",
-  "number": null,
-  "section": "CS",
+  "number": 1,
+  "section": "GA",
   "type": "mcq",
   "subject": "General Aptitude",
   "subtopic": "Verbal Aptitude",
@@ -289,569 +354,6 @@
   "explanation": "We\n   \n\n     completely forgot\n    \n\n   our friends' birthday and we\n   \n    just don't know\n   \n   how to make it up to him.\n  \n\n     Option C is correct.\nanswer is option c\n\"Forgot completely\" is less common than \"completely forgot\". While not strictly incorrect, it's less idiomatic.\n  \n\n   \"Completely forgot\" is correct and idiomatic.\n  \n\n   \"Don't just know\" is incorrect. This reverses the standard word order of \"just don't know\" and changes the meaning. \"Don't just know\" would imply that you know something, but not everything, which is not the intended meaning here.\n  \n\n   \"Just don't know\" is the correct idiomatic expression, meaning \"have no idea\" or \"are uncertain\".\n  \n\n   **from the information given by\n   \n    Claude AI\n   \n   as it is or edited.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/8028/gate-cse-2015-set-2-question-ga-1",
-  "source": "gateoverflow"
- },
- {
-  "id": "8029",
-  "year": 2015,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "Choose the statement where underlined word is used correctly.",
-  "options": [
-   "The industrialist had a\n    \n     personnel\n    \n    jet.",
-   "I write my experience in my\n    \n     personnel\n    \n    diary.",
-   "All\n    \n     personnel\n    \n    are being given the day off.",
-   "Being religious is a\n    \n     personnel\n    \n    aspect."
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "Answer: C\n   \n\n    Personnel:\n   \n   People employed in an organization or engaged in an organized undertaking such as military service.\n  \n\n    Option\n   \n\n    A\n   \n\n    ,B\n   \n\n    ,D\n   \n\n    should use the word personal.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/8029/gate-cse-2015-set-2-question-ga-2",
-  "source": "gateoverflow"
- },
- {
-  "id": "8030",
-  "year": 2015,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "Discrete Mathematics",
-  "subtopic": "Set Theory & Relations",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "Consider a function $f(x) = 1- |x| \\text{ on } -1 \\leq x \\leq 1$. The value of $x$ at which the function attains a maximum, and the maximum value of the function are:",
-  "options": [
-   "$0, -1$",
-   "$-1, 0$",
-   "$0, 1$",
-   "$-1, 2$"
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "[IMAGE:0]\n\n[IMAGE:1]\n\n[IMAGE:2]\n\n[IMAGE:3]\n\n   Here in diagram we can clearly see that,\n   At $x=0,$ $f(x)$ would be maximum which is $1.$\n  \n\n    Option C is correct.\n   \n\n    Alternate Approach -\n   \n   Put the value of $x$ of all the options in $f(x)$ and find the value of $f(x).$\nAnswer: C\n  \n\n    Put the value of x of all the options in f(x) and find value of f(x).\nThere are three values of $x = -1,0,1$\n  $\\Rightarrow 1-|x| =1-|-1| = 0$\n  $\\Rightarrow1-|x| = 1- |0|=1$\n  $\\Rightarrow 1-|x| = 1-|1| =0$\n  so option C 0,1\nthere are 2 parts\n  \n\n    part A\n   \n   says\n   \n    \"value of x at which the function attains a maximum\"\n   \n   so at x=0 ,function attains a maximum and\n  \n\n    part B\n   \n   says\n   \n    \"the maximum value of the function\"\n   \n   so f(0)=1-0=1\n  \n\n   so ans should be 0,1",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=10397810581659868542",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=18075794129914359866",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=9242579413844585226",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2305221949700206185",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/8030/gate-cse-2015-set-2-question-ga-3",
-  "source": "gateoverflow"
- },
- {
-  "id": "8032",
-  "year": 2015,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "easy",
-  "marks": null,
-  "text": "A generic term that includes various items of clothing such as a skirt, a pair of trousers and a shirt is",
-  "options": [
-   "fabric",
-   "textile",
-   "fiber",
-   "apparel"
-  ],
-  "correctAnswer": [
-   "D"
-  ],
-  "explanation": "It is 'D' apparel.\n  \n\n    Fabric - cloth or material used for making the clothes.\n   \n\n    Textile - it is a synonym to fabric.\n   \n\n    Fiber - a leather-like material made by compressing layers of paper or cloth.\n   \n\n    Apparel - refers to clothing in general.\nIts  Option D\n  \n\n   clothing.\n  \n\n   Example: \"they were dressed\n   \n    in\n   \n   bright\n   \n    apparel\n   \n   \"",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/8032/gate-cse-2015-set-2-question-ga-4",
-  "source": "gateoverflow"
- },
- {
-  "id": "8033",
-  "year": 2015,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Logical & Analytical Reasoning",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "Based on the given statements, select the most appropriate option to solve the given question.\n  \n\n   What will be the total weight of $10$ poles each of same weight?\n  \n\n   Statements:\n  \n\n    Statement I alone is not sufficient.\n   \n\n    Statement II alone is not sufficient.\n   \n\n    Either I or II alone is sufficient.\n   \n\n    Both statements I and II together are not sufficient.",
-  "options": [
-   "One fourth of the weight of the pole is $5\\;\\text{Kg}$.",
-   "The total weight of these poles is $160\\;\\text{Kg}$ more than the total weight of two poles."
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "One fourth of the weight of the pole is $5\\;\\text{Kg}.$\n    Weight of $10$ poles $ = 4 \\times 10 \\times 5\\;\\text{Kg} = 200\\;\\text{Kg}$\n   \n\n    The total weight of these poles is $160\\;\\text{Kg}$ more than the total weight of two poles.\n    This means weight of $8$ poles is $160\\;\\text{Kg}$ and thus weight of $10$ poles is $200\\;\\text{Kg}.$\n   \n\n   So, either of the statements is sufficient to get the weight of $10$ poles.\n  \n\n   Correct Option: C\nAns C\nBoth Statements are alone giving the answer.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/8033/gate-cse-2015-set-2-question-ga-5",
-  "source": "gateoverflow"
- },
- {
-  "id": "8035",
-  "year": 2015,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "If the list of letters $P$, $R$, $S$, $T$, $U$ is an arithmetic sequence, which of the following are also in arithmetic sequence?\n  \n\n    I only\n   \n\n    I and II\n   \n\n    II and III\n   \n\n    I and III",
-  "options": [
-   "$2P, 2R, 2S, 2T, 2U$",
-   "$P-3, R-3, S-3, T-3, U-3$",
-   "$P^2, R^2, S^2, T^2, U^2$"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "Answer is $B$ because If we multiply the terms of an $AP$ with a constant, the common difference will get multiplied by the constant  and if we subtract the terms of an $AP$ with a constant, the common difference will be same but if we make square of $AP$ element  then difference will not be same.\nLets take $P,R,S,T,U$  are $1,2,3,4,5\\implies \\text{AP}$\n  \n\n    $2P,2R,2S,2T,2U$ are $2,4,6,8,10\\implies \\text{AP}$\n   \n\n    $P-3,R-3,S-3,T-3,U-3$  are $-2,-1,0,1,2\\implies \\text{AP}$\n   \n\n    $P^{2},R^{2},S^{2},T^{2},U^{2}$  are $1,4,9,16,25\\implies {\\color{Red} {\\text{Not an AP}}}$\n   \n\n   $\\therefore (I)\\: \\text{and}\\: (II)$ are in $\\text{AP}.$\n  \n\n   So, the correct answer is $(B).$\nby taking the arithmetic mean of each option , if it is AP then arithmetic mean property must satisfied\n  \n\n    a+c= 2b.\nIf all the terms of an AP be multiplied or divided by the same quantity, the resulting terms will form an AP, but with a new common difference, which will be the multiplication/division of the old common difference.\n   \n\n    $I: 2P,2R,2S,2T,2U$\n   \n\n    If the same quantity be added to, or subtracted from all the terms of an AP, the resulting terms will form an AP, but with the same common difference as before.\n   \n\n    $II: P-3,R-3,S-3,T-3,U-3$\n   \n\n   $ans:B$",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/8035/gate-cse-2015-set-2-question-ga-6",
-  "source": "gateoverflow"
- },
- {
-  "id": "8036",
-  "year": 2015,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Logical & Analytical Reasoning",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "Four branches of a company are located at $\\text{M, N, O}$ and $\\text{P.  M}$ is north of $\\text{N}$ at a distance of $4\\;\\text{km; P}$ is south of $\\text{O}$ at a distance of $2\\;\\text{km; N}$ is southeast of $\\text{O}$ by $1\\;\\text{km}$. What is the distance between $\\text{M}$ and $\\text{P}$ in $\\text{km}$?",
-  "options": [
-   "$5.34$",
-   "$6.74$",
-   "$28.5$",
-   "$45.49$"
-  ],
-  "correctAnswer": [
-   "A"
-  ],
-  "explanation": "[IMAGE:0]\n\n   $a=\\dfrac{1}{\\sqrt{2}}$\n  \n\n   $x=\\sqrt{[4+(2-a)]^{2}+a^2}$\n  \n\n   Solving we get $x = 5.34.$\n  \n\n   Correct Answer: $A$\nFor those who didn't understand previous explanations....\n  \n\n[IMAGE:100]\nFor anything unclear, feel free to comment/message.\n  \n\n[IMAGE:200]\n\n[IMAGE:201]\n\n[IMAGE:202]\n\n[IMAGE:203]\n\n   Hence,\n   \n\n     Option A\nExplanation:\n  \n\n[IMAGE:300]\nanswer is a 5.34\nJust giving more details to Accepted answer.\n   [IMAGE:500]",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=9954174332030190006",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12781045747406598231",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2288951350825508360",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12683998616763732774",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2911664605963019227",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=114288714503550763",
-    "kind": "remote"
-   },
-   {
-    "src": "https://pyq.ravindrababuravula.com/wp-content/uploads/2018/09/g1-1.png",
-    "kind": "remote"
-   },
-   {
-    "src": "gateoverflow.in/8036",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/8036/gate-cse-2015-set-2-question-ga-7",
-  "source": "gateoverflow"
- },
- {
-  "id": "8039",
-  "year": 2015,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "hard",
-  "marks": null,
-  "text": "In a triangle $PQR, PS$ is the angle bisector of $\\angle QPR \\text{ and } \\angle QPS =60^\\circ$. What is the length of $PS$ ?\n  \n\n[IMAGE:0]",
-  "options": [
-   "$\\left(\\dfrac{(q+r)} {qr}\\right)$",
-   "$\\left(\\dfrac {qr} {q+r}\\right)$",
-   "$\\large \\sqrt {(q^2 + r^2)}$",
-   "$\\left(\\dfrac{(q+r)^2} {qr}\\right)$"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "Area of a $\\triangle=\\dfrac{1}{2}\\times ac \\sin B =\\dfrac{1}{2}\\times bc \\sin A =\\dfrac{1}{2} ab \\sin C$\n   so, Here area $(\\triangle PQR)= \\text{area } (\\triangle PQS) + \\text{area }(\\triangle PRS)$\n  \n\n   $\\dfrac{1}{2}\\; rq \\sin 120 =\\dfrac{1}{2} PS\\times r \\sin 60 +\\dfrac{1}{2} PS\\times q \\sin 60$\n  \n\n   $\\Rightarrow PS =\\dfrac{rq}{(r+q)}$\n   so, choice\n   \n    (B)\n   \n   is\n   \n    correct\n   \n   ..\nAs per\n   \n    Angle Bisector theorem,\n   \n   $\\qquad\\;\\;\\dfrac{QS}{SR} =\\dfrac{r}{q}$\n   $\\dfrac{QS}{(p-QS)} =\\dfrac{r}{q}$\n   $\\qquad \\quad QS =\\dfrac{pr}{(q+r)} \\quad \\quad \\longrightarrow(1)$\n   We have in a triangle $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$\n  \n\n   So, from $\\triangle QPS,\\;\\; \\dfrac{QS}{\\sin 60} =\\dfrac{PS}{\\sin Q}$\n  \n\n   $\\qquad PS =\\dfrac{QS\\times \\sin Q}{\\sin 60}\\quad \\quad\\longrightarrow (2)$\n  \n\n   From $\\triangle PQR,\\;\\; \\dfrac{p}{\\sin 120} =\\dfrac{q}{\\sin Q}$\n  \n\n   $p =\\dfrac{q\\times \\sin 120}{\\sin Q} =\\dfrac{q\\times \\sin 60}{\\sin Q}\\quad \\quad\\longrightarrow (3)$\n   So, from $(1), (2)$ and $(3),$\n   $PS =\\dfrac{qr}{(q+r)}$\n   \n    B choice.\n   \n\n    http://en.wikipedia.org/wiki/Angle_bisector_theorem\nHere's a very simple way to solve this:\n  \n\n[IMAGE:200]\n\n    In Δ PQR --> Area(Δ PQR) = Area (Δ QPS) + Area( Δ PSR)\n   \n\n   $\\frac{1}{2}  r  q  \\sin 120 = \\frac{1}{2}  r  * PS  \\sin 60 + \\frac{1}{2}  q * PS \\sin 60$\n  \n\n   $\\frac{1}{2}  r q * \\sin (180-60) = \\frac{1}{2}  PS \\sin 60 * (r+q)$\n  \n\n   $\\frac{1}{2}  r q * \\sin (60) = \\frac{1}{2}  PS \\sin 60 * (r+q)$\n  \n\n   --> $PS = \\frac{r * q}{r+q}$\nSimple Method\n    \n\n[IMAGE:300]\n\n   So we get PS = r/2 ( or = q/2 ) by simple trigonometry\n  \n\n   bcoz of angle property r = q\n  \n\n   now just put q = r in options\n  \n\n   A will give 2/r\n  \n\n   B will give r/2 (That’s correct)\n  \n\n   C will give r$\\sqrt{2}$\n  \n\n   D will give 4\n  \n\n   Therefore\n   \n    answer is B\narea of a triangle  =  1/2 ab sin theta , where a and b are two sides of a triangle and theta is the angle btw sides a and b\n  \n\n    as, PS is the angle bisector of ∠QPR, so QPS = SPR = 60 or QPR = 120\n    \n\n      similarly,\n      \n\n        area of PQR = ar of PQS + ar of PSR\n        \n\n          1/2 rq sin 120 = 1/2 * r * ps sin 60 + 1/2 * q * ps sin 60\n          \n\n            option b (ans)",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1755196094206857551",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2560327609721041872",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5010301287829417377",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/8039/gate-cse-2015-set-2-question-ga-8",
-  "source": "gateoverflow"
- },
- {
-  "id": "8040",
-  "year": 2015,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "nat",
-  "subject": "Discrete Mathematics",
-  "subtopic": "Set Theory & Relations",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "If $p, q, r, s$ are distinct integers such that:\n  $f (p, q, r, s) = \\text{ max } (p, q, r, s)$\n  $g (p, q, r, s) = \\text{ min } (p, q, r, s)$\n  $h (p, q, r, s) = \\text {remainder of } \\frac{(p \\times q)} {(r \\times s)} \\text{ if } (p \\times q) > (r \\times s)$\n  $\\text{ or remainder of } \\frac {(r \\times s)}{(p \\times q)} \\text{ if } (r \\times s) > (p \\times q)$\n  Also a function $fgh (p, q, r, s) = f(p, q, r, s) \\times g(p, q, r, s) \\times h (p, q, r, s)$\n  Also the same operations are valid with two variable functions of the form $f(p, q)$\n  What is the value of $fg \\left(h \\left(2, 5, 7, 3\\right), 4, 6, 8\\right)$?",
-  "options": [],
-  "correctAnswer": [
-   "8"
-  ],
-  "explanation": "It is given that $h(p, q, r, s) = $ remainder of $\\frac{(p \\times q)}{(r \\times s)}$ if $(p \\times q) > (r \\times s)$ or remainder of $\\frac{(r \\times s)}{(p \\times q)}$ if $(r \\times s) > (p \\times q)$.\n  \n\n   $h(2,5,7,3) = $ remainder of $\\frac{(7 \\times 3)} {(2 \\times 5)}, \\;\\; \\because (7 \\times 3) > (2 \\times 5)$\n  \n\n   Thus, $h(2,5,7,3) = 1$\n  \n\n   Again, it is given that $fg(p, q, r, s) = f(p, q, r, s) \\times g(p, q, r, s)$\n  \n\n   Also, $f(p, q, r, s) = \\max(p, q, r, s)$, and $g(p, q, r, s) = \\min(p, q, r, s)$\n  \n\n   So we have:\n  \n\n   $fg(1,4,6,8) = 8 \\times 1, \\;\\; \\because \\max(1,4,6,8) = 8 \\;\\&\\; \\min(1,4,6,8) = 1$\n  \n\n   Thus, $fg(1,4,6,8) = 8$\n  \n\n    Answer:\n   \n   $8$",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/8040/gate-cse-2015-set-2-question-ga-9",
-  "source": "gateoverflow"
- },
- {
-  "id": "8041",
-  "year": 2015,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "Out of the following $4$ sentences, select the most suitable sentence with respect to grammar and usage:",
-  "options": [
-   "Since the report lacked needed information, it was of no use to them.",
-   "The report was useless to them because there were no needed information in it.",
-   "Since the report did not contain the needed information, it was not real useful to them.",
-   "Since the report lacked needed information, it would not had been useful to them."
-  ],
-  "correctAnswer": [
-   "A"
-  ],
-  "explanation": "Answer is (A)\n  \n\n   Correct versions of other $3:$\n  \n\n   B. The report was useless to them because there\n   \n    was\n   \n   no needed information in it.\n  \n\n   C. Since the report did not contain the needed information, it was not\n   \n    really\n   \n   useful to them.\n  \n\n   D. Since the report lacked needed information, it would not\n   \n    have\n   \n   been useful to them.\nBecause\n    \n    is used to focus on the cause of the action.\n   \n\n   e.g. Because\n   \n    my brother was ill\n   \n   ,I couldn't go for playing.\n  \n\n    Note:\n   \n   If emphasize the reason\n   \n    because\n   \n   will be used in the last.\n   e.g. He spoke quitely\n   \n    because\n   \n\n    he didn't want to hurt him.\n   \n\n     As/Since\n    \n    is used to focus on the result.\n   \n\n   e.g. Since I am hungry,\n   \n    I want to eat first.\n   \n\n    Note: Since\n   \n   is used to refer 'from that time'.\n  \n\n    As\n   \n   is used to refer '\n   \n    sameness\n   \n   '.\n  \n\n   e.g.\n   \n    I set up dinner\n   \n   as you are tired.\n  \n\n     For\n    \n    is used for poetic expression.\n   \n\n     Option B\n    \n    :\n   \n   ...there\n   \n    were\n   \n   was no needed information...\n  \n\n     Option C\n    \n    :\n   \n   adjective(real) is describing another adjective(useful) which is wrong.Adverb form(really) should be used.\n   \n\n     Option D:\n    \n\n   correct form is\n   \n    would not have been\n   \n   .It means you think in present that it's not useful if they used it in past.\nA is the answer\nb is the answer",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/8041/gate-cse-2015-set-2-question-ga-10",
-  "source": "gateoverflow"
- },
- {
-  "id": "8298",
-  "year": 2015,
-  "set": "3",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Logical & Analytical Reasoning",
-  "difficulty": "easy",
-  "marks": null,
-  "text": "If $\\text{ROAD}$ is written as $\\text{URDG}$, then $\\text{SWAN}$should be written as:",
-  "options": [
-   "$\\text{VXDQ}$",
-   "$\\text{VZDQ}$",
-   "$\\text{VZDP}$",
-   "$\\text{UXDQ}$"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "Option $B. \\text{VZDQ}$\n  (every letter is replaced by the third letter in alphabetical order)\nThe pattern of the given code is as follows:\n  \n\n    $R\\xrightarrow{+3}U$\n   \n\n    $O\\xrightarrow{+3}R$\n   \n\n    $A\\xrightarrow{+3}D$\n   \n\n    $D\\xrightarrow{+3}G$\n   \n\n   in the same way:\n  \n\n    $S\\xrightarrow{+3}V$\n   \n\n    $W\\xrightarrow{+3}Z$\n   \n\n    $A\\xrightarrow{+3}D$\n   \n\n    $N\\xrightarrow{+3}Q$\n   \n\n   Option $(B)$ is correct.\nEasy question Answer B    VZDQ",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/8298/gate-cse-2015-set-3-question-ga-1",
-  "source": "gateoverflow"
- },
- {
-  "id": "8300",
-  "year": 2015,
-  "set": "3",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "The Tamil version of __________ John Abraham-starrer\n   \n    Madras Cafe\n   \n   __________ cleared by the Censor Board with no cuts last week, but the film's distributor _______ no takers among the exhibitors for a release in Tamilnadu _______ this Friday.",
-  "options": [
-   "Mr., was, found, on",
-   "a, was, found, at",
-   "the, was, found, on",
-   "a, being, find, at"
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "Answer is (C). Here, we are talking about the movie and not about John Abraham.\n  \n\n   Article \"the\" is used to define a particular object here(The Movie).\n  \n\n   This question is taken as it is from \"The Hindu\" newspaper.\n   [IMAGE:0]\nthe answer should be c.\n  \n\n    https://owl.english.purdue.edu/owl/resource/540/01/",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=6093827704485306019",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/8300/gate-cse-2015-set-3-question-ga-2",
-  "source": "gateoverflow"
- },
- {
-  "id": "8301",
-  "year": 2015,
-  "set": "3",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "Extreme focus on syllabus and studying for tests has become such a dominant concern of Indian student that they close their minds to anything ___________ to the requirements of the exam.",
-  "options": [
-   "related",
-   "extraneous",
-   "outside",
-   "useful"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "Answer is B. extraneous\n  To use outside it must be in the form \"outside of\".\ni think its c",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/8301/gate-cse-2015-set-3-question-ga-3",
-  "source": "gateoverflow"
- },
- {
-  "id": "8302",
-  "year": 2015,
-  "set": "3",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "easy",
-  "marks": null,
-  "text": "Select the pair of best expresses a relationship similar to that expressed in the pair:\n  \n\n    Children : Pediatrician",
-  "options": [
-   "Adult : Orthopaedist",
-   "Females : Gynaecologist",
-   "Kidney : Nephrologist",
-   "Skin : Dermatologist"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "Option B\n   \n\n    Orthopaedist\n   \n   : An orthopaedic surgeon, a doctor who corrects congenital or functional abnormalities of the bones with surgery, casting, and bracing.\n  \n\n    Gynaecologist\n   \n   a physician or surgeon qualified to practice in functions and diseases specific to women and girls, especially those affecting the reproductive system.\n  \n\n    Nephrologist\n   \n   is a medical doctor who specializes in kidney care and treating diseases of the kidneys.\n  \n\n    Dermatologist\n   \n   is a medical practitioner qualified to diagnose and treat skin disorders.\n  \n\n   Kidney and skin are parts of a body. Females is the only option which represents\n   \n    group of people\n   \n   like children which is the correct option.\nKidney and skin are parts of a body. Females is the only option which represents group of people like children which is correct option\nPaediatrician\n     \n     is\n    \n\n     a medical practitioner specializing in children and their diseases.\n    \n\n     Gynaecology\n    \n\n     or\n    \n\n     gynecology\n    \n\n     is the medical practice dealing with the health of the female reproductive systems (vagina, uterus and ovaries) and the breasts. Literally, outside medicine, it\n    \n\n     means\n    \n\n     \"the science of women\".\n     Hence option B is appropriate .",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/8302/gate-cse-2015-set-3-question-ga-4",
-  "source": "gateoverflow"
- },
- {
-  "id": "8303",
-  "year": 2015,
-  "set": "3",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "A function $f(x)$ is linear and has a value of $29$ at $x=-2$ and $39$ at $x=3$. Find its value at $x=5$.",
-  "options": [
-   "$59$",
-   "$45$",
-   "$43$",
-   "$35$"
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "$f(x)$ is linear means it is of the form $ax+b$\n  given $f(-2)$ and $f(3)$\n  solve the equation and find out value for $a$ and $b$ then find $f(5)$. it will be $43$\n  Correct Answer: $C$\nHere, $f(x)$ is linear. It means that $f(x)$ represents a straight line. So $(-2,29)$ and $(3,39)$ are the two points on this line.\n   Therefore, the equation of the line is $$y-29=\\left(\\frac{39-29}{3-(-2)}\\right)\\left (x-(-2) \\right)$$\n  \n\n   [As we know $y-y_1=m(x-x_1)$ where $m$ is the slope and $m=\\frac{y_2-y_1}{x_2-x_1}$]\n  \n\n   $$\\Rightarrow y=2(x+2)+29=2x+33\\\\ \\therefore f(x)=2x+33$$\n  \n\n   So at $x =5$,  $f(5)=2(5)+33=43$.\n  \n\n   The answer is\n   \n    43\n   \n   .\nequation for linear function f(x)=ax+b\n  \n\n   f(-2)= -2a+b =29                            ………..(1)\n   f(3) = 3a+b = 39                            ………...(2)\n   subtracting eq(1) from eq(2)\n   5a=10\n   a=2  and b=33\n   f(5)=5a+b = 10+33=43\nanswer is c\nif the function is linear means its rate of growth for all values of x is the same so at x=-2 it's 29 and at x=3 it is 39 and if we plot this on a straight line then we come to know function is differencing by 2 for each value of x. Hence at x=5, it's 43. This kind of inference can be applied to some simple questions like this, else we need to use the ax+b form of linear functions\nwe know, y = mx + c\n  now let's find slop  m = y2 - y1/x2 - x1\n  m = 39 - 29/(3 + 2) = 2\n  for point (-2,29)\n  29 = -2 * 2 + c\n  c = 33\n  now for x = 5\n  y = 2 * 5 + 33 = 43",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/8303/gate-cse-2015-set-3-question-ga-5",
-  "source": "gateoverflow"
- },
- {
-  "id": "8306",
-  "year": 2015,
-  "set": "3",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "Alexander turned his attention towards India, since he had conquered Persia.\n  \n\n   Which one of the statements below is logically valid and can be inferred from the above sentence?",
-  "options": [
-   "Alexander would not have turned his attention towards India had he not conquered Persia.",
-   "Alexander was not ready to rest on his laurels, and wanted to march to India.",
-   "Alexander was not completely in control of his army and could command it to move towards India.",
-   "Since Alexander's kingdom extended to Indian borders after the conquest of Persia, he was keen to move further."
-  ],
-  "correctAnswer": [
-   "A"
-  ],
-  "explanation": "Answer should be A as other options required more information\n  Let $P$ be \"Alexander turned his attention towards India \" and $Q$ be \"he had conquered Persia\"\n  $P\\text{  since }Q  \\equiv  (\\neg Q \\implies \\neg P)$\n  $\\neg P$ is \"Alexander would not have turned his attention towards India\"\n  $\\neg Q$ is \"he had not conquered Persia\"\nanswer is d",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/8306/gate-cse-2015-set-3-question-ga-6",
-  "source": "gateoverflow"
- },
- {
-  "id": "8308",
-  "year": 2015,
-  "set": "3",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Logical & Analytical Reasoning",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "The head of newly formed government desires to appoint five of the six selected members $P, Q, R, S, T$ and $U$ to portfolios of Home, Power, Defense, Telecom, and Finance. U does not want any portfolio if $S$ gets one of the five. $R$ wants either Home or Finance or no portfolio. $Q$ says that if $S$ gets Power or Telecom, then she must get the other one. T insists on a portfolio if $P$ gets one.\n  \n\n   Which is the valid distribution of portfolios?",
-  "options": [
-   "$P$-Home, $Q$-Power, $R$-Defense, $S$-Telecom, $T$-Finance",
-   "$R$-Home, $S$-Power, $P$-Defense, $Q$-Telecom, $T$-Finance",
-   "$P$-Home, $Q$-Power, $T$-Defense, $S$-Telecom, $U$-Finance",
-   "$Q$-Home, $U$-Power, $T$-Defense, $R$-Telecom, $P$-Finance"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "\"$U$ does not want any portfolio if $S$ gets one of the five\"\n  \n\n   So, $S$ and U cannot come together. Option $C$ eliminated.\n  \n\n   \"$R$ wants either Home or Finance or no portfolio\"\n  \n\n   So, options $A$ and $D$ eliminated.\n  \n\n    So, answer is B.\n   \n\n   Just to confirm:\n  \n\n   $Q$ says that if $S$ gets Power or Telecom, then she must get the other one\n  \n\n   In $B$, $S$ gets Power and $Q$ gets Telecom\n  \n\n   \"T insists on a portfolio if $P$ gets one\"\n  \n\n   In $B$, $T$ is getting a portfolio.\n(A) P-Home, Q-Power, R-Defense, S-Telecom, T-Finance :\n    \n     X\n    \n    (R wants either Home or Finance or no portfolio)\n   \n\n    (B) R-Home, S-Power, P-Defense, Q-Telecom, T-Finance:\n    \n     Valid\n    \n\n    (c) P-Home, Q-Power, T-Defense, S-Telecom, U-Finance:\n    \n     X\n    \n    (U does not want if S gets one of the five)\n   \n\n    (d) Q-Home, U-Power, T-Defense, R-Telecom, P-Finance:\n    \n     X\n    \n    ( R wants either Home or Finance or no portfolio)\noption B is correct ...\n   \n    R-Home, S-Power, P-Defense, Q-Telecom, T-Finance\nwe can do this easily by option elimination.\n  option a) it is false because R is assign to Defence where as the condition was R wants either home or finance or no portfolio.\n  option c) is false because S and U both got portfolio where the condition is if S gets some portfolio U does not want any portfolio. So S and U can’t go together .\n  option D) is false because R is assign to Telecom where as the condition was R wants either home or finance or no portfolio.\n  so option (B) is the answer because its was a valid distribution and every condition is satisfied.\nU\n    \n    wants either\n    \n     Home\n    \n    or\n    \n     Finance\n    \n    or no portfolio.\n   \n\n     S\n    \n    must get both\n    \n     Power\n    \n    and\n    \n     Telecom\n    \n    if given one.\n   \n\n     T\n    \n    insists on a portfolio if\n    \n     U\n    \n    gets one.\n   \n\n      Option A:\n     \n\n      S\n     \n     has only\n     \n      Power\n     \n     (violates\n     \n      S's\n     \n     condition).\n     \n      Eliminate\n     \n     .\n    \n\n      Option B:\n     \n     All conditions are satisfied:\n     \n      U\n     \n     has no portfolio, and\n     \n      S\n     \n     gets neither\n     \n      Power\n     \n     nor\n     \n      Telecom\n     \n     .\n     \n      Valid Option\n     \n     .\n    \n\n      Option C:\n     \n\n      S\n     \n     has only\n     \n      Home\n     \n     (violates\n     \n      S's\n     \n     condition).\n     \n      Eliminate\n     \n     .\n    \n\n      Option D:\n     \n\n      U\n     \n     has\n     \n      Defense\n     \n     (violates\n     \n      U's\n     \n     condition).\n     \n      Eliminate\n     \n     .",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/8308/gate-cse-2015-set-3-question-ga-7",
-  "source": "gateoverflow"
- },
- {
-  "id": "8385",
-  "year": 2015,
-  "set": "3",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "Choose the most appropriate equation for the function drawn as thick line, in the plot below.\n  \n\n[IMAGE:0]",
-  "options": [
-   "$x=y-|y|$",
-   "$x=-(y-|y|)$",
-   "$x=y+|y|$",
-   "$x=-(y+|y|)$"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "When $y$ is $-1$, $x$ is $2.$\n  When $y$ is positive $x$ is $0$.\n  So, $x = - \\left( y - |y|\\right)$\n  Correct Answer: $B$\nWhen y is -1 , xis 2.\n  and when y is positive x is 0.\n  So, by checking all options, Option (B) is satisfied.\n  x=-(y-|y|)\nA line is a sequence of points.\n  \n\n[IMAGE:200]\n\n   The given red coloured point can be obtained by keeping $x = 2$, and $y = -1$\n  \n\n   Only\n   \n    Option B\n   \n   matches.",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=8969598509501234455",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5809305489251976342",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/8385/gate-cse-2015-set-3-question-ga-8",
-  "source": "gateoverflow"
- },
- {
-  "id": "8388",
-  "year": 2015,
-  "set": "3",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "Most experts feel that in spite of possessing all the technical skills required to be a batsman of the highest order, he is unlikely to be so due to lack of requisite temperament. He was guilty of throwing away his wicket several time after working hard to lay a strong foundation. His critics pointed out that until he addressed his problem, success at the highest level will continue to elude him.\n  \n\n   Which of the statement(s) below is/are logically valid and can be inferred from the above passage?\n  \n\n    iii and iv\n   \n\n    ii and iii\n   \n\n    i, ii and iii\n   \n\n    ii only",
-  "options": [
-   "He was already a successful batsman at the highest level.",
-   "He was to improve his temperament in order to become a great batsman.",
-   "He failed to make many of his good starts count.",
-   "Improving his technical skills will guarantee success."
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "\"possessing all the technical skills\" -  iv is false\n  \"throwing away his wicket several time after working hard to lay a strong foundation\" - iii is true\n  \"he is unlikely to be so due to lack of requisite temperament\" - ii is true\n  \"success at the highest level will continue to elude him\" - i is false\n  So, B.\nFrom the above passage following statements\n  \n\n    He was already a successful batsman at the highest level.         False\n   \n\n    He was to improve his temperament in order to become a great batsman.        True\n   \n\n    He failed to make many of his good starts count.    True\n   \n\n    Improving his technical skills will guarantee success. False\n   \n\n   So statement (II) and (III) are true, so option B is right answer.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/8388/gate-cse-2015-set-3-question-ga-9",
-  "source": "gateoverflow"
- },
- {
-  "id": "8389",
-  "year": 2015,
-  "set": "3",
-  "number": null,
-  "section": "CS",
-  "type": "nat",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "The exports and imports (in crores of $Rs$.) of a country from the year $2000$ to $2007$ are given in the following bar chart. In which year is the combined percentage increase in imports and exports the highest?\n  \n\n[IMAGE:0]",
-  "options": [],
-  "correctAnswer": [
-   "2006"
-  ],
-  "explanation": "Answer is $2006$\n  No need to do any calculations ,just observe the bar chart.\n  Here $\\%$ increase is asked, so just check for previous year & next year pair, where you can find maximum positive change.\n  Consider year $2006$.\n  Red Bar is above $3$ steps than $2005$ AND Blue Bar is $3$ steps more than $2005$, total $ = 3 + 3 = 6$, it's maximum.\nExports + Imports\n     \n\n      Increase\n     \n\n      % Increase = (Increase/Old_Value) * 100\n     \n\n      2000\n     \n\n      90\n     \n\n      -\n     \n\n      -\n     \n\n      2001\n     \n\n      110\n     \n\n      20\n     \n\n      22.22\n     \n\n      2002\n     \n\n      130\n     \n\n      20\n     \n\n      18.18\n     \n\n      2003\n     \n\n      130\n     \n\n      0\n     \n\n      0\n     \n\n      2004\n     \n\n      150\n     \n\n      20\n     \n\n      15.38\n     \n\n      2005\n     \n\n      160\n     \n\n      10\n     \n\n      6.66\n     \n\n      2006\n     \n\n      220\n     \n\n      60\n     \n\n      37.5\n     \n\n      2007\n     \n\n      230\n     \n\n      10\n     \n\n      4.54\n     \n\n   So, 2006.\nUsing Bar chart , calculating % increase in combined  import and export is highest in 2006.\n  in 2005 combined import and export is 160  (70+90)\n  in 2006 combined import and export is  220  (100+120)\n  so %increase is  [(220-160)/160]*100= (60/160)*100\n  =37.5%\n  Which is Highest increment in any other given year in bar graph.\nANSWER IS 2006",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=11375941555095175339",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/8389/gate-cse-2015-set-3-question-ga-10",
   "source": "gateoverflow"
  },
  {
@@ -1098,6 +600,32 @@
   "source": "gateoverflow"
  },
  {
+  "id": "8298",
+  "year": 2015,
+  "set": "3",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "If $\\text{ROAD}$ is written as $\\text{URDG}$, then $\\text{SWAN}$should be written as:",
+  "options": [
+   "$\\text{VXDQ}$",
+   "$\\text{VZDQ}$",
+   "$\\text{VZDP}$",
+   "$\\text{UXDQ}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Option $B. \\text{VZDQ}$\n  (every letter is replaced by the third letter in alphabetical order)\nThe pattern of the given code is as follows:\n  \n\n    $R\\xrightarrow{+3}U$\n   \n\n    $O\\xrightarrow{+3}R$\n   \n\n    $A\\xrightarrow{+3}D$\n   \n\n    $D\\xrightarrow{+3}G$\n   \n\n   in the same way:\n  \n\n    $S\\xrightarrow{+3}V$\n   \n\n    $W\\xrightarrow{+3}Z$\n   \n\n    $A\\xrightarrow{+3}D$\n   \n\n    $N\\xrightarrow{+3}Q$\n   \n\n   Option $(B)$ is correct.\nEasy question Answer B    VZDQ",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8298/gate-cse-2015-set-3-question-ga-1",
+  "source": "gateoverflow"
+ },
+ {
   "id": "8390",
   "year": 2015,
   "set": "3",
@@ -1121,6 +649,58 @@
   "explanation": "(\n   \n    D\n   \n   ) independent of $n$.\n   The number of processes that can be in READY state depends on the Ready Queue size and is independent of the number of CPU's.\nOption D (Answer), as number of processes is dependent on the size of Ready and Main memory.\nThe maximum number of processes that can be in ready  state for a computer system with N CPUs is\n  \n\n    -> Independent of N.\nState                                       Minimum processes   Maximum processes\n  \n\n      Ready\n     \n\n      0\n     \n\n      M\n     \n\n      Running\n     \n\n      0\n     \n\n      N\n     \n\n      Blocked/waiting\n     \n\n      0\n     \n\n      M\n     \n\n   where M= total no of processes and N=no of CPU processors\nIt will be n since we are talking about Ready State and not in CPU running state.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/8390/gate-cse-2015-set-3-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40167",
+  "year": 2015,
+  "set": "3",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Fill in the blank with the correct idiom/phrase.\n  \n\n   That boy from the town was a ____________ in the sleepy village.",
+  "options": [
+   "dog out of herd",
+   "sheep from the heap",
+   "fish out of water",
+   "bird from the flock"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Ans : That boy from the town was a\n   \n    fish out of water\n   \n   in the sleepy village.\n  \n\n    dog out of herd :  no meaning for this idiom\n   \n\n    sheep from the heap :  no meaning for this idiom\n   \n\n    fish out of water : someone who is uncomfortable in a particular situation\n   \n\n    bird from the flock :  no meaning for this idiom\nThere among these 4 options only option C is correct .\n  \n\n    a fish out of water :\n   \n\n   Meaning : someone who is uncomfortable in a particular situation\n  \n\n   Other 3 options like\n  \n\n    dog out of herd  = have no meaning\n   \n\n    sheep from the heap = have no meaning\n   \n\n    bird from the flock = have no meaning\nThe right answer should be dog out of herd.\n  question says that the right answer should be idiom or phrase\n  Dog out of herd is a phrase the question describes the village as sleepy and the first option according to me fits right as the statement potray more of an odd one out situation rather than an uncomfortable situation.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40167/gate2015-me-3-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8003",
+  "year": 2015,
+  "set": "1",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Which of the following options is the closest in meaning of the sentence below?\n  \n\n   She enjoyed herself immensely at the party.",
+  "options": [
+   "She had a terrible time at the party",
+   "She had a horrible time at the party",
+   "She had a terrific time at the party",
+   "She had a terrifying time at the party"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "She enjoyed herself immensely at the party\n  \n\n   means, she had a good time at the party.\n  \n\n    She had a terrible time at the party - means her time was bad at the party.\n   \n\n    She had a horrible time at the party - same as above; her time was bad at the party.\n   \n\n    She had a terrific time at the party - means she had a good time at the party.\n   \n\n    She had a terrifying time at the party - means she had a frightening (not good) time at the party.\n   \n\n   So, correct option: C.\nC.\n   \n    She had a terrific time at the party\nC. She had a terrific time at the party",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8003/gate-cse-2015-set-1-question-ga-2",
   "source": "gateoverflow"
  },
  {
@@ -1150,6 +730,63 @@
   "source": "gateoverflow"
  },
  {
+  "id": "8029",
+  "year": 2015,
+  "set": "2",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the statement where underlined word is used correctly.",
+  "options": [
+   "The industrialist had a\n    \n     personnel\n    \n    jet.",
+   "I write my experience in my\n    \n     personnel\n    \n    diary.",
+   "All\n    \n     personnel\n    \n    are being given the day off.",
+   "Being religious is a\n    \n     personnel\n    \n    aspect."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Answer: C\n   \n\n    Personnel:\n   \n   People employed in an organization or engaged in an organized undertaking such as military service.\n  \n\n    Option\n   \n\n    A\n   \n\n    ,B\n   \n\n    ,D\n   \n\n    should use the word personal.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8029/gate-cse-2015-set-2-question-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8300",
+  "year": 2015,
+  "set": "3",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The Tamil version of __________ John Abraham-starrer\n   \n    Madras Cafe\n   \n   __________ cleared by the Censor Board with no cuts last week, but the film's distributor _______ no takers among the exhibitors for a release in Tamilnadu _______ this Friday.",
+  "options": [
+   "Mr., was, found, on",
+   "a, was, found, at",
+   "the, was, found, on",
+   "a, being, find, at"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Answer is (C). Here, we are talking about the movie and not about John Abraham.\n  \n\n   Article \"the\" is used to define a particular object here(The Movie).\n  \n\n   This question is taken as it is from \"The Hindu\" newspaper.\n   [IMAGE:0]\nthe answer should be c.\n  \n\n    https://owl.english.purdue.edu/owl/resource/540/01/",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=6093827704485306019",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/8300/gate-cse-2015-set-3-question-ga-2",
+  "source": "gateoverflow"
+ },
+ {
   "id": "8393",
   "year": 2015,
   "set": "3",
@@ -1176,6 +813,84 @@
   "source": "gateoverflow"
  },
  {
+  "id": "39516",
+  "year": 2015,
+  "set": "3",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the correct verb to fill in the blank below:\n   Let us ___________.",
+  "options": [
+   "introvert",
+   "alternate",
+   "atheist",
+   "altruist"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Let us is followed by a verb.\n  \n\n   But introvert, atheist and altruist are all nouns.\n   Hence, the correct answer is alternate which is a verb.\nB) alternate.. The other three doesnt make any sense ..",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39516/gate2015-ec-3-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40168",
+  "year": 2015,
+  "set": "3",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the statement where underlined word is used correctly.",
+  "options": [
+   "When the teacher eludes to different authors, he is being\n    \n     elusive\n    \n    .",
+   "When the thief keeps eluding the police, he is being\n    \n     elusive\n    \n    .",
+   "Matters that are difficult to understand, identify or remember are\n    \n     allusive\n    \n    .",
+   "Mirages can be\n    \n     allusive\n    \n    , but a better way to express them is illusory."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Ans : [B] When the thief keeps eluding the police, he is being\n   \n    elusive\n   \n   .\n  \n\n   elusive - Difficult to find, catch or achieve.\n  \n\n   allusive - Using or containing suggestion rather than explicit mention.\n  \n\n   The correct alternatives for the incorrect answers are :\n  \n\n   A. When the teacher\n   \n    alludes\n   \n   to different authors, he is being\n   \n    allusive.\n   \n\n   C. Matters that are difficult to understand, identify or remember are\n   \n    elusive\n   \n   .\n  \n\n   D. Mirages can be\n   \n    elusive,\n   \n   but a better way to express them is illusory.\nAns : [D]\n  allusive : marked by sign.\n  option D makes sense compared to other options.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40168/gate2015-me-3-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40178",
+  "year": 2015,
+  "set": "2",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which word is not a synonym for the word\n   \n\n     vernacular\n    \n\n   ?",
+  "options": [
+   "regional",
+   "indigenous",
+   "indigent",
+   "colloquial"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "vernacular\n   \n   means the language spoken by the ordinary people of a country or region\n  \n\n   Option C is indigent which means poor or needy. For example, we do charity for indigent person. So, it is not a synonym for the word vernacular.\n  \n\n   Option A also relates in some sense because it means relating to a region and same for colloquial means language used informally in a particular region and same thing for B also.\n  \n\n   CORRECT ANSWER IS C.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40178/gate2015-ce-2-ga-3",
+  "source": "gateoverflow"
+ },
+ {
   "id": "8019",
   "year": 2015,
   "set": "1",
@@ -1199,6 +914,49 @@
   "explanation": "Answer is D\n   \n   .\n   $L_1$ is context-free and hence recursive also. Recursive set being closed under complement, $L_1$' will be recursive.\n   $L_1$' being recursive it is also recursively enumerable and Recursively Enumerable set is closed under Union. So, $L_1' \\cup L_2$ is recursively enumerable.\n   Context free languages are not closed under complement, so $III$ is false\n   Recursive set is closed under complement. So, if $L_2$' is recursive, ($L_2$')'  $= L_2$ is also recursive which is not the case here. So, $II$ is also false.\nThe following statement is necessarily true:\n  \n\n    L¯1 (Complement of L1) is recursive\n    The complement of a context-free language is recursive, because a context-free language can be recognized by a non-deterministic pushdown automata (PDA), and the complement of a language recognized by a PDA can be recognized by a deterministic finite automata (DFA), which is a simpler machine.\n    The following statement is not necessarily true:\n    L¯2 (Complement of L2) is recursive\n    The complement of a recursively enumerable but not recursive language may or may not be recursive. If L2 is recursive, then L¯2 is recursive. But if L2 is not recursive, then L¯2 is not recursive.\n    The following statement is not necessarily true:\n    L¯1 is context-free\n    The complement of a context-free language is not necessarily context-free. Since context-free languages can be recognized by pushdown automata, and the complement of context-free languages may not be recognizable by any pushdown automata, it may not be context-free.\n    The following statement is not necessarily true:\n    L¯1 ∪ L2 is recursively enumerable\n    The union of two languages may or may not be recursively enumerable. It depends on the specific languages L1 and L2, and whether or not their union is recursively enumerable can only be determined by analyzing the properties of those specific languages.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/8019/gate-cse-2015-set-1-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8030",
+  "year": 2015,
+  "set": "2",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "Discrete Mathematics",
+  "subtopic": "Set Theory & Relations",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider a function $f(x) = 1- |x| \\text{ on } -1 \\leq x \\leq 1$. The value of $x$ at which the function attains a maximum, and the maximum value of the function are:",
+  "options": [
+   "$0, -1$",
+   "$-1, 0$",
+   "$0, 1$",
+   "$-1, 2$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "[IMAGE:0]\n\n[IMAGE:1]\n\n[IMAGE:2]\n\n[IMAGE:3]\n\n   Here in diagram we can clearly see that,\n   At $x=0,$ $f(x)$ would be maximum which is $1.$\n  \n\n    Option C is correct.\n   \n\n    Alternate Approach -\n   \n   Put the value of $x$ of all the options in $f(x)$ and find the value of $f(x).$\nAnswer: C\n  \n\n    Put the value of x of all the options in f(x) and find value of f(x).\nThere are three values of $x = -1,0,1$\n  $\\Rightarrow 1-|x| =1-|-1| = 0$\n  $\\Rightarrow1-|x| = 1- |0|=1$\n  $\\Rightarrow 1-|x| = 1-|1| =0$\n  so option C 0,1\nthere are 2 parts\n  \n\n    part A\n   \n   says\n   \n    \"value of x at which the function attains a maximum\"\n   \n   so at x=0 ,function attains a maximum and\n  \n\n    part B\n   \n   says\n   \n    \"the maximum value of the function\"\n   \n   so f(0)=1-0=1\n  \n\n   so ans should be 0,1",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=10397810581659868542",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=18075794129914359866",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=9242579413844585226",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2305221949700206185",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/8030/gate-cse-2015-set-2-question-ga-3",
   "source": "gateoverflow"
  },
  {
@@ -1233,6 +991,32 @@
   "source": "gateoverflow"
  },
  {
+  "id": "8301",
+  "year": 2015,
+  "set": "3",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Extreme focus on syllabus and studying for tests has become such a dominant concern of Indian student that they close their minds to anything ___________ to the requirements of the exam.",
+  "options": [
+   "related",
+   "extraneous",
+   "outside",
+   "useful"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Answer is B. extraneous\n  To use outside it must be in the form \"outside of\".\ni think its c",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8301/gate-cse-2015-set-3-question-ga-3",
+  "source": "gateoverflow"
+ },
+ {
   "id": "8396",
   "year": 2015,
   "set": "3",
@@ -1256,6 +1040,144 @@
   "explanation": "A is the answer\n  B - Returns the addresses of all theaters.\n  C - Returns null set. max() returns a single value and there won't be any value > max.\n  D - Returns null set. Same reason as C. All and ANY works the same here as max returns a single value.\nAnswer is A.\n  \n\n    Inner query collects capacities of all the theatres and in outer query we are filtering the tuples with the condition  \" p1.capacity>=All\". So the theatre which is having maximum capacity will be satisfy the condition.\n(A) : Inner query collects capacities of all the theatres and in outer query we are filtering the tuples\n   with the condition “capacity>=All”. So the theatres which are having maximum capacity will\n   be satisfy the conductivity and they will.\n  \n\n   (B) : Returns all the rows as ANY is used\n  \n\n   (C)  & (D): Returns no rows as nothing can be greater than all or any of the maximum values",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/8396/gate-cse-2015-set-3-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39492",
+  "year": 2015,
+  "set": "1",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Operators $\\square,\\Diamond$ and $\\rightarrow$ are defined by: $a\\,\\square\\,b=\\frac{a-b}{a+b};\\, a\\,\\Diamond\\; b=\\frac{a+b}{a-b};$ $a\\,\\rightarrow\\, b=ab.$\n  \n\n   Find the value of $(66\\,\\square\\, 6)\\rightarrow(66\\,\\Diamond\\; 6).$",
+  "options": [
+   "$-2$",
+   "$-1$",
+   "$1$",
+   "$2$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$\\require {cancel}(66\\,\\square\\, 6)\\rightarrow(66\\,\\Diamond\\; 6) = \\frac{\\cancel{66-6}}{\\cancel{66+6}} \\times \\frac{\\cancel{66+6}}{\\cancel{66-6}} = 1.$\noption C as (60/52)*(52/60)=1",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39492/gate2015-ec-1-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39505",
+  "year": 2015,
+  "set": "2",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "An electric bus has onboard instruments that report the total electricity consumed since the start of the trip, as well as the total distance, covered. During a single day of operation, the bus travels on stretches M, N, O, and P, in that order. The\n   \n    cumulative\n   \n   distances travelled and the corresponding electricity consumption are shown in the Table below:$$\\begin{array}{|l|l|}\\hline \\textbf{Stretch} & \\textbf{Cumulative distance (km)} & \\textbf{Electricity used (kWh)} \\\\\\hline M & 20 & 12 \\\\\\hline N & 45 & 25 \\\\\\hline O & 75  & 45 \\\\\\hline P & 100 & 57 \\\\\\hline \\end{array}$$\n  \n\n   The stretch where the electricity consumption per km is minimum is",
+  "options": [
+   "$M$",
+   "$N$",
+   "$O$",
+   "$P$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Reaching point $M$ the bus traveled $20$ km and consumed $12$ units of electricity, So, electricity consumption per km$=\\frac{12}{20}.$\n  From point $M$ to point $N$ distance traveled $=45-20=25,$ electricity consumed  $=25-12=13.$ So, electricity consumption per km $= \\frac{13}{25}.$\n  Likewise at point $O,$ electricity consumption per km$=\\frac{20}{30}$ and at point $P$ it is $\\frac{12}{25}.$ So, least electricity consumption per km is at point $P.$\n  Answer is D\nElectricity used is also cumulative as it is mentioned in the question -- \"corresponding electricity consumption\"\n  M - 12/20\n  N -  13/25\n  O - 20/30\n  P - 12/25.\n  So, P is the stretch with minimum consumption per km.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39505/gate2015-ec-2-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39517",
+  "year": 2015,
+  "set": "3",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Find the missing sequence in the letter series below:\n   $A, CD, GHI, ?, UVWXY$",
+  "options": [
+   "$LMN$",
+   "$MNO$",
+   "$MNOP$",
+   "$NOPQ$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "A\n   \n\n   Increment $2$ positions in alphabet after A $\\to$\n   \n    CD\n   \n\n   Increment $3$ positions in alphabet after D $\\to$\n   \n    GHI\n   \n\n   Increment $4$ positions in alphabet after I $\\to$\n   \n    MNOP\n   \n\n   Increment $5$ positions in alphabet after P $\\to$\n   \n    UVWXY\n   \n\n   So, option (C)\n$\\fbox{A}$ $B$ $\\fbox{CD}$ $EF$ $\\fbox{GHI}$ $JKL$\n   \n    $\\fbox{MNOP}$\n   \n   $QRST$ $\\fbox{UVWXY}$\n  \n\n     Correct Answer\n    \n\n   $ :C$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39517/gate2015-ec-3-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40179",
+  "year": 2015,
+  "set": "2",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Mr. Vivek walks $6$ meters North-east, then turns and walks $6$ meters South-east, both at 60 degrees to east. He further moves $2$ meters South and $4$ meters West. What is the straight distance in meters between the point he started from and the point he finally reached?",
+  "options": [
+   "$2\\sqrt 2$",
+   "$2$",
+   "$\\sqrt 2$",
+   "$1/\\sqrt2$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Option A $2\\sqrt 2$\n  \n\n[IMAGE:0]\n\n   $AB = 6m , \\ BC = 6m , \\ CD = 2m, \\ ED = 4m$\n  \n\n   $\\angle BAC = 60^{\\circ}, \\angle BCA = 60^{\\circ}$\n  \n\n   $so, \\angle ABC = (180^{\\circ}-60^{\\circ}-60^{\\circ}) = 60^{\\circ}$\n  \n\n   and $AC = 6m (\\text{Equilateral triangle})$\n  \n\n   $A$ is the starting point. Vivek walks $6$ meters North-East to point $B,$ then turns and walks $6$ meters South-East to point $C.$ He further moves $2$ meters South to the point $D$, $4$ meters West to point $E$, and $E$ is the endpoint.\n   As shown in figure, $AC=6m$ and $ED= FC = 4m.$\n  \n\n   $\\implies AF=AC- FC = 6-4=2m$\n  \n\n   and $EF= CD = 2m$ and $\\angle AFE = 90^{\\circ}$\n  \n\n   By Pythagoras theorem\n  \n\n   $AE^2 = EF^2 + AF^2$\n  \n\n   $\\qquad = 4+4 = 8$\n  \n\n   $\\implies AE=2\\sqrt 2.$",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15511401571236924566",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/40179/gate2015-ce-2-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8006",
+  "year": 2015,
+  "set": "1",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Based on the given statements, select the most appropriate option to solve the given question.\n  \n\n   If two floors in a certain building are $9$ feet apart, how many steps are there in a set of stairs that extends from the first floor to the second floor of the building?\n  \n\n   Statements:\n  \n\n    Statements I alone is sufficient, but statement II alone is not sufficient.\n   \n\n    Statements II alone is sufficient, but statement I alone is not sufficient.\n   \n\n    Both statements together are sufficient, but neither statement alone is sufficient.\n   \n\n    Statements I and II together are not sufficient.",
+  "options": [
+   "Each step is $3/4$ foot high.",
+   "Each step is $1$ foot wide."
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Statements I alone is sufficient, but statement II alone is not sufficient.\nI think\n   \n    ANSWER\n   \n   is PART (C)\n  \n\n   Both statements together are sufficient, but neither statement alone is sufficient.\n  \n\n   Because based on height and width we can calculate effectively how much distance will be traveled in one step.\n  \n\n   Each step in general form a right angle triangle in which base is 1 and height is 3/4 so in each step effectively we will travel $\\sqrt[2]{1^{2}+(3/4)^{2}}$\n  \n\n   Please correct me if i am wrong.\n  \n\n[IMAGE:100]\nWhen we climb from one floor to other, it is the height that matters and not the width of the staircase.Therefore, From statement 1 only, we can figure out that 9 / (3/4) or 12 steps are required.\n  reference:geeksforgeeks\nThe number of stairs = Height of the floor\n   \n    /\n   \n   the height of stairs\n  \n\n   Hence option A is correct.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16092565148973159857",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/8006/gate-cse-2015-set-1-question-ga-4",
   "source": "gateoverflow"
  },
  {
@@ -1294,6 +1216,58 @@
   "source": "gateoverflow"
  },
  {
+  "id": "8032",
+  "year": 2015,
+  "set": "2",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "A generic term that includes various items of clothing such as a skirt, a pair of trousers and a shirt is",
+  "options": [
+   "fabric",
+   "textile",
+   "fiber",
+   "apparel"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "It is 'D' apparel.\n  \n\n    Fabric - cloth or material used for making the clothes.\n   \n\n    Textile - it is a synonym to fabric.\n   \n\n    Fiber - a leather-like material made by compressing layers of paper or cloth.\n   \n\n    Apparel - refers to clothing in general.\nIts  Option D\n  \n\n   clothing.\n  \n\n   Example: \"they were dressed\n   \n    in\n   \n   bright\n   \n    apparel\n   \n   \"",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8032/gate-cse-2015-set-2-question-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8302",
+  "year": 2015,
+  "set": "3",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Select the pair of best expresses a relationship similar to that expressed in the pair:\n  \n\n    Children : Pediatrician",
+  "options": [
+   "Adult : Orthopaedist",
+   "Females : Gynaecologist",
+   "Kidney : Nephrologist",
+   "Skin : Dermatologist"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Option B\n   \n\n    Orthopaedist\n   \n   : An orthopaedic surgeon, a doctor who corrects congenital or functional abnormalities of the bones with surgery, casting, and bracing.\n  \n\n    Gynaecologist\n   \n   a physician or surgeon qualified to practice in functions and diseases specific to women and girls, especially those affecting the reproductive system.\n  \n\n    Nephrologist\n   \n   is a medical doctor who specializes in kidney care and treating diseases of the kidneys.\n  \n\n    Dermatologist\n   \n   is a medical practitioner qualified to diagnose and treat skin disorders.\n  \n\n   Kidney and skin are parts of a body. Females is the only option which represents\n   \n    group of people\n   \n   like children which is the correct option.\nKidney and skin are parts of a body. Females is the only option which represents group of people like children which is correct option\nPaediatrician\n     \n     is\n    \n\n     a medical practitioner specializing in children and their diseases.\n    \n\n     Gynaecology\n    \n\n     or\n    \n\n     gynecology\n    \n\n     is the medical practice dealing with the health of the female reproductive systems (vagina, uterus and ovaries) and the breasts. Literally, outside medicine, it\n    \n\n     means\n    \n\n     \"the science of women\".\n     Hence option B is appropriate .",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8302/gate-cse-2015-set-3-question-ga-4",
+  "source": "gateoverflow"
+ },
+ {
   "id": "8398",
   "year": 2015,
   "set": "3",
@@ -1322,6 +1296,136 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/8398/gate-cse-2015-set-3-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39493",
+  "year": 2015,
+  "set": "1",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": null,
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If $\\log_{x}{(\\frac{5}{7})}=\\frac{-1}{3},$ then the value of $x$ is",
+  "options": [
+   "$343/125$",
+   "$25/343$",
+   "$-25/49$",
+   "$-49/25$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "$\\log_{x}{(\\frac{5}{7})}=\\frac{-1}{3} \\implies x^{-\\frac{1}{3}} = \\frac{5}{7}$\n  $\\implies x^{\\frac{1}{3}} = \\frac{7}{5}$\n  $\\implies x = \\left[{\\frac{7}{5}}\\right]^3 = \\frac{343}{125}.$\n  Correct Option: A.\nI think the question given is log of 5/7 to base x = -1/3\n  then , x ^ (-1/3) = 5/7\n  implies, 1 / (x ^ (1/3) ) = 5/7\n  so x ^ (1/3) = 7/5\n  and x= (7/5) ^ 3\n  = 343/125\n  Option A is answer",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39493/gate2015-ec-1-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39518",
+  "year": 2015,
+  "set": "3",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If $x > y > 1,$ which of the following must be true$?$\n  \n\n    (i) and (ii)\n   \n\n    (i) and (iii)\n   \n\n    (iii) and (iv)\n   \n\n    (ii) and (iv)",
+  "options": [
+   "$\\ln x > \\ln y$",
+   "$e^{x} > e^{y} $",
+   "$y^x > x^y $",
+   "$\\cos x > \\cos y$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Both $\\ln$ and $e^x$ are monotonically (continuously) increasing functions. So, (i) and (ii) are TRUE.\n  If we take $x = 3, y = 2;y^x = 8, x^y = 9.$ So, (iii) is false\n  $\\cos x$ is not a monotonically increasing function. So, (iv) is false.\n  Correct Option: A\nLet x=Π & y=\n   \n    Π/2  then cosx=-1 & cosy=0\n   \n\n    i.e cosx<cosy\n   \n\n    so (iv) is incorrect & option (C) & (D) are not possible\n   \n\n    considering (ii) for the base e to be same & the value of exponent x>y>1 ,the value e\n    \n     x\n    \n    > e\n    \n     y\n    \n    holds true\n   \n\n    So option (A) is correct",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39518/gate2015-ec-3-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40170",
+  "year": 2015,
+  "set": "3",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Five teams have to compete in a league, with every team playing every other team exactly once, before going to the next round. How many matches will have to be held to complete the league round of matches?",
+  "options": [
+   "$20$",
+   "$10$",
+   "$8$",
+   "$5$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Answer (B) $10$\n  \n\n   We have to select number of ways of choosing $2$ teams out of $5 = {}^5C_2 = 10.$\n  \n\n   We can also do like follows:\n  \n\n    Team 1: Can pick another team in $4$ ways\n   \n\n    Team 2: Can pick another team (excluding team 1) in $3$ ways\n   \n\n    Team 3: Can pick other teams in $2$ ways\n   \n\n    Teams $4$ and $5$ can play in $1$ way\n   \n\n    So, totally, $4+3+2+1 = 10$ ways.\nround robin format every team will play 4 matches five teams are there so 5*4 /2 =10 matches\n1st team  play with 2,3,4,5 so total 4 match played\n  \n\n   2nd\n   \n    team\n   \n   play with 3,4,5 so total 3 match played\n  \n\n   3rd\n   \n    team\n   \n\n    play with 4,5 so total 2 match played\n   \n\n   4th\n   \n    team\n   \n\n    play with 5 so total 1 match played\n   \n\n   so total match played to reach next round is 4+3+2+1=10 is answer\nIt can be easily solved using graph theory.\n  \n\n   Visualize this problem as a complete graph having $5$ vertices. -> $K_5$\n   Degree of each vertex = $5*4=20$\n   So, number of edges = $20/2 = 10$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40170/gate2015-me-3-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40180",
+  "year": 2015,
+  "set": "2",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Four cards are randomly selected from a pack of $52$ cards. If the first two cards are kings, what is the probability that the third card is a king?",
+  "options": [
+   "$4/52$",
+   "$2/50$",
+   "$(1/52)×(1/52)$",
+   "$(1/52)×(1/51) ×(1/50)$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "There are $4$ kings in a pack of $52$ cards.\n  If $2$ cards are selected and both are kings, remaining cards will be $50$ out of which $2$ will be kings.\n  So, answer is B.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40180/gate2015-ce-2-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8008",
+  "year": 2015,
+  "set": "1",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "hard",
+  "marks": null,
+  "text": "Which one of the following combinations is incorrect?",
+  "options": [
+   "Acquiescence - Submission",
+   "Wheedle - Roundabout",
+   "Flippancy - Lightness",
+   "Profligate - Extravagant"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "B\n   \n\n    Wheedle - Roundabout\nAcquiescence: To accept without protest. Submission: -> Correct relationship.\n   \n\n    Wheedle: To use flattery to get something. Roundabout: To use an indirect longer route instead of a shorter direct route -> Not happening.\n   \n\n    Flippancy: Not showing seriousness, lightness. Lightness -> Correct relationship.\n   \n\n    Profligate: Excessive, reckless, characterless, wasteful. Extravagant -> Correct relationship.\nPROFLIGATE - example The Kapoors are profligate in their expenditures.\n  Profligate means extravagant or wasteful....it is used as an adjective here.\n  WHEEDLE - to provoke someone,to lure ,to persuade\n  ACQUIESCENCE - the Jailkattu ordinance will be sent to the President for his acquiescence. Here it means... for his assent or approval...its not submission\n  FLIPPANCY -light mindedness...not lightness\n  so answer should D\nThe incorrect combination is:\n  \n\n    Wheedle - Roundabout\n   \n\n     Acquiescence - Submission\n    \n    : This is correct. Acquiescence means passive agreement or submission without protest.\n   \n\n     Wheedle - Roundabout\n    \n    : This is incorrect. \"Wheedle\" means to persuade or influence someone through flattery or coaxing, not \"roundabout.\"\n   \n\n     Flippancy - Lightness\n    \n    : This is correct. Flippancy refers to a lack of seriousness or a light, often inappropriate attitude.\n   \n\n     Profligate - Extravagant\n    \n    : This is correct. Profligate refers to recklessly extravagant or wasteful behavior.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8008/gate-cse-2015-set-1-question-ga-5",
   "source": "gateoverflow"
  },
  {
@@ -1356,6 +1460,30 @@
   "source": "gateoverflow"
  },
  {
+  "id": "8033",
+  "year": 2015,
+  "set": "2",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Based on the given statements, select the most appropriate option to solve the given question.\n  \n\n   What will be the total weight of $10$ poles each of same weight?\n  \n\n   Statements:\n  \n\n    Statement I alone is not sufficient.\n   \n\n    Statement II alone is not sufficient.\n   \n\n    Either I or II alone is sufficient.\n   \n\n    Both statements I and II together are not sufficient.",
+  "options": [
+   "One fourth of the weight of the pole is $5\\;\\text{Kg}$.",
+   "The total weight of these poles is $160\\;\\text{Kg}$ more than the total weight of two poles."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "One fourth of the weight of the pole is $5\\;\\text{Kg}.$\n    Weight of $10$ poles $ = 4 \\times 10 \\times 5\\;\\text{Kg} = 200\\;\\text{Kg}$\n   \n\n    The total weight of these poles is $160\\;\\text{Kg}$ more than the total weight of two poles.\n    This means weight of $8$ poles is $160\\;\\text{Kg}$ and thus weight of $10$ poles is $200\\;\\text{Kg}.$\n   \n\n   So, either of the statements is sufficient to get the weight of $10$ poles.\n  \n\n   Correct Option: C\nAns C\nBoth Statements are alone giving the answer.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8033/gate-cse-2015-set-2-question-ga-5",
+  "source": "gateoverflow"
+ },
+ {
   "id": "8051",
   "year": 2015,
   "set": "2",
@@ -1379,6 +1507,32 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/8051/gate-cse-2015-set-2-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8303",
+  "year": 2015,
+  "set": "3",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A function $f(x)$ is linear and has a value of $29$ at $x=-2$ and $39$ at $x=3$. Find its value at $x=5$.",
+  "options": [
+   "$59$",
+   "$45$",
+   "$43$",
+   "$35$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$f(x)$ is linear means it is of the form $ax+b$\n  given $f(-2)$ and $f(3)$\n  solve the equation and find out value for $a$ and $b$ then find $f(5)$. it will be $43$\n  Correct Answer: $C$\nHere, $f(x)$ is linear. It means that $f(x)$ represents a straight line. So $(-2,29)$ and $(3,39)$ are the two points on this line.\n   Therefore, the equation of the line is $$y-29=\\left(\\frac{39-29}{3-(-2)}\\right)\\left (x-(-2) \\right)$$\n  \n\n   [As we know $y-y_1=m(x-x_1)$ where $m$ is the slope and $m=\\frac{y_2-y_1}{x_2-x_1}$]\n  \n\n   $$\\Rightarrow y=2(x+2)+29=2x+33\\\\ \\therefore f(x)=2x+33$$\n  \n\n   So at $x =5$,  $f(5)=2(5)+33=43$.\n  \n\n   The answer is\n   \n    43\n   \n   .\nequation for linear function f(x)=ax+b\n  \n\n   f(-2)= -2a+b =29                            ………..(1)\n   f(3) = 3a+b = 39                            ………...(2)\n   subtracting eq(1) from eq(2)\n   5a=10\n   a=2  and b=33\n   f(5)=5a+b = 10+33=43\nanswer is c\nif the function is linear means its rate of growth for all values of x is the same so at x=-2 it's 29 and at x=3 it is 39 and if we plot this on a straight line then we come to know function is differencing by 2 for each value of x. Hence at x=5, it's 43. This kind of inference can be applied to some simple questions like this, else we need to use the ax+b form of linear functions\nwe know, y = mx + c\n  now let's find slop  m = y2 - y1/x2 - x1\n  m = 39 - 29/(3 + 2) = 2\n  for point (-2,29)\n  29 = -2 * 2 + c\n  c = 33\n  now for x = 5\n  y = 2 * 5 + 33 = 43",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8303/gate-cse-2015-set-3-question-ga-5",
   "source": "gateoverflow"
  },
  {
@@ -1417,6 +1571,161 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/8399/gate-cse-2015-set-3-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39494",
+  "year": 2015,
+  "set": "1",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The following question presents a sentence, part of which is underlined. Beneath the sentence, you find four ways of phrasing the underlined part. Following the requirements of the standard written English, select the answer that produces the most effective sentence.\n  \n\n   Tuberculosis, together with its effects,\n   \n    ranks one of the leading causes of death\n   \n   in India.",
+  "options": [
+   "ranks as one of the leading causes of death",
+   "rank as one of the leading causes of death",
+   "has the rank of one of the leading causes of death",
+   "are one of the leading causes of death"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Tuberculosis, together with its effects,\n  \n\n   A) ranks as one of the leading causes of death\n   \n    http://dictionary.cambridge.org/dictionary/english/rank\noption A is correct.\nwhen these words  along with, rather than, and as well as)  with compound  nouns  in subject verb agreement  verb should be used according  to first noun  so answer A.           ranks is singular verb\n\nhttps://www.usingenglish.com/forum/threads/151188-Singular-or-plural-The-doctor-together-with-five-nurses-are-coming\n- The original sentence uses the construction \"together with,\" which is important to note. This phrase doesn't make the subject plural, similar to phrases like \"along with\" or \"as well as.\"\n   - The sentence aims to convey that tuberculosis, considering both the disease itself and its secondary effects, is a major cause of death in India.\n   - The most effective phrasing will maintain the singular subject, use idiomatic expression, and clearly convey the idea of ranking or position among causes of death.\n  \n\n   Let's analyze each option in detail:\n  \n\n   1. ranks as one of the leading causes of death\n  \n\n   This is the correct answer. It maintains proper subject-verb agreement and uses idiomatic phrasing.\n  \n\n   - Subject-verb agreement: The singular subject \"Tuberculosis\" agrees with the singular verb \"ranks.\"\n   - Idiomatic usage: \"Ranks as\" is a common and clear way to express position or status.\n  \n\n   2. rank as one of the leading causes of death\n  \n\n   This option is incorrect due to faulty subject-verb agreement.\n  \n\n   - Subject-verb agreement: The plural verb \"rank\" doesn't agree with the singular subject \"Tuberculosis.\"\n  \n\n   - Note: The phrase \"together with its effects\" doesn't make the subject plural.\n  \n\n   3. has the rank of one of the leading causes of death\n  \n\n   While not grammatically incorrect, this option is less preferable.\n  \n\n   - Wordiness: It's unnecessarily verbose compared to option 1.\n   - Style: \"Has the rank of\" is less idiomatic and natural-sounding than \"ranks as.\"\n  \n\n   4. are one of the leading causes of death\n  \n\n   This option is incorrect for multiple reasons.\n  \n\n   - Subject-verb agreement: The plural verb \"are\" doesn't agree with the singular subject \"Tuberculosis.\"\n   - Semantic issue: \"Are\" implies that tuberculosis itself is multiple causes, which is illogical.\n   - This phrasing completely drops the concept of ranking, changing the meaning of the sentence.\n  \n\n   **from the information given by\n   \n    Claude AI\n   \n   as it is or edited.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39494/gate2015-ec-1-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39519",
+  "year": 2015,
+  "set": "3",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Ram and Shyam shared a secret and promised to each other that it would remain between them. Ram expressed himself in one of the following ways as given in the choices below. Identify the correct way as per standard English.",
+  "options": [
+   "It would remain between you and me.",
+   "It would remain between I and you.",
+   "It would remain between you and I.",
+   "It would remain with me."
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "(A) is the right answer.\n  Option (D) is incorrect because the secret is between them and not solely with Ram so its contradicting with the original statement.\n  Options (B) and (C) are false because \"I\" is incorrect usage as object, it should be \"me\".",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39519/gate2015-ec-3-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40171",
+  "year": 2015,
+  "set": "3",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Select the appropriate option in place of underlined part of the sentence.\n   Increased productivity necessary reflects greater efforts made by the employees.",
+  "options": [
+   "Increase in productivity necessary",
+   "Increase productivity is necessary",
+   "Increase in productivity necessarily",
+   "No improvement required"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "https://dictionary.cambridge.org/dictionary/english/necessarily\n   \n\n   necessary :-  Adjective\n  \n\n   necessarily :- Adverb\n  \n\n   Option C.\n(C) Increase in productivity necessarily",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40171/gate2015-me-3-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40181",
+  "year": 2015,
+  "set": "2",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The word similar in meaning to ‘\n   \n    dreary\n   \n   ’ is",
+  "options": [
+   "cheerful",
+   "dreamy",
+   "hard",
+   "dismal"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Dreary\n   \n   means depressingly dull and bleak or repetitive or gloomy or upset.\n  \n\n   Option A is wrong because cheerful means happy and options B  and C are not related to depression or upset.\n  \n\n   Option D which is dismal means mood of gloom or depression.\n  \n\n   Correct Answer: D.\nAnswer is B Since Dreamy means Lacking spirit or liveliness",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40181/gate2015-ce-2-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8010",
+  "year": 2015,
+  "set": "1",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "The number of students in a class who have answered correctly, wrongly, or not attempted each question in an exam, are listed in the table below. The marks for each question are also listed. There is no negative or partial marking.$$\\begin{array}{|c|c|c|c|c|} \\hline \\textbf{Q No.} & \\textbf{Marks} &\\textbf{Answered}&\\textbf{Answered}&\\textbf{Not}\\\\&&\\textbf{ Correctly} &\\textbf{Wrongly} & \\textbf{Attempted} \\\\\\hline \\text{1} & \\text{2} &\\text{21} &\\text{17} &\\text{6}\\\\\\hline \\text{2} & \\text{3} &\\text{15} & \\text{27}& \\text{2}\\\\\\hline \\text{3} & \\text{1} &\\text{11} & \\text{29} & \\text{4}\\\\\\hline \\text{4} & \\text{2} &\\text{23} & \\text{18} & \\text{3}\\\\\\hline \\text{5} & \\text{5} &\\text{31} & \\text{12} & \\text{1} \\\\\\hline \\end{array}$$What is the average of the marks obtained by the class in the examination?",
+  "options": [
+   "$2.290$",
+   "$2.970$",
+   "$6.795$",
+   "$8.795$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Avg. mark  $= \\dfrac{(21\\times 2 + 15\\times 3 + 11\\times 1 + 23\\times 2 + 31\\times 5)}{(21 + 17 + 6)}$\n  $=\\dfrac{(42 + 45 + 11 + 46 + 155)}{44}$\n  $=\\dfrac{299}{44}$\n  $= 6.795$\n  Correct Answer: $C$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8010/gate-cse-2015-set-1-question-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8035",
+  "year": 2015,
+  "set": "2",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If the list of letters $P$, $R$, $S$, $T$, $U$ is an arithmetic sequence, which of the following are also in arithmetic sequence?\n  \n\n    I only\n   \n\n    I and II\n   \n\n    II and III\n   \n\n    I and III",
+  "options": [
+   "$2P, 2R, 2S, 2T, 2U$",
+   "$P-3, R-3, S-3, T-3, U-3$",
+   "$P^2, R^2, S^2, T^2, U^2$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Answer is $B$ because If we multiply the terms of an $AP$ with a constant, the common difference will get multiplied by the constant  and if we subtract the terms of an $AP$ with a constant, the common difference will be same but if we make square of $AP$ element  then difference will not be same.\nLets take $P,R,S,T,U$  are $1,2,3,4,5\\implies \\text{AP}$\n  \n\n    $2P,2R,2S,2T,2U$ are $2,4,6,8,10\\implies \\text{AP}$\n   \n\n    $P-3,R-3,S-3,T-3,U-3$  are $-2,-1,0,1,2\\implies \\text{AP}$\n   \n\n    $P^{2},R^{2},S^{2},T^{2},U^{2}$  are $1,4,9,16,25\\implies {\\color{Red} {\\text{Not an AP}}}$\n   \n\n   $\\therefore (I)\\: \\text{and}\\: (II)$ are in $\\text{AP}.$\n  \n\n   So, the correct answer is $(B).$\nby taking the arithmetic mean of each option , if it is AP then arithmetic mean property must satisfied\n  \n\n    a+c= 2b.\nIf all the terms of an AP be multiplied or divided by the same quantity, the resulting terms will form an AP, but with a new common difference, which will be the multiplication/division of the old common difference.\n   \n\n    $I: 2P,2R,2S,2T,2U$\n   \n\n    If the same quantity be added to, or subtracted from all the terms of an AP, the resulting terms will form an AP, but with the same common difference as before.\n   \n\n    $II: P-3,R-3,S-3,T-3,U-3$\n   \n\n   $ans:B$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8035/gate-cse-2015-set-2-question-ga-6",
   "source": "gateoverflow"
  },
  {
@@ -1480,6 +1789,32 @@
   "source": "gateoverflow"
  },
  {
+  "id": "8306",
+  "year": 2015,
+  "set": "3",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Alexander turned his attention towards India, since he had conquered Persia.\n  \n\n   Which one of the statements below is logically valid and can be inferred from the above sentence?",
+  "options": [
+   "Alexander would not have turned his attention towards India had he not conquered Persia.",
+   "Alexander was not ready to rest on his laurels, and wanted to march to India.",
+   "Alexander was not completely in control of his army and could command it to move towards India.",
+   "Since Alexander's kingdom extended to Indian borders after the conquest of Persia, he was keen to move further."
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer should be A as other options required more information\n  Let $P$ be \"Alexander turned his attention towards India \" and $Q$ be \"he had conquered Persia\"\n  $P\\text{  since }Q  \\equiv  (\\neg Q \\implies \\neg P)$\n  $\\neg P$ is \"Alexander would not have turned his attention towards India\"\n  $\\neg Q$ is \"he had not conquered Persia\"\nanswer is d",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8306/gate-cse-2015-set-3-question-ga-6",
+  "source": "gateoverflow"
+ },
+ {
   "id": "8400",
   "year": 2015,
   "set": "3",
@@ -1508,6 +1843,169 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/8400/gate-cse-2015-set-3-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39495",
+  "year": 2015,
+  "set": "1",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Read the following paragraph and choose the correct statement.\n  \n\n   Climate change has reduced human security and threatened human well being. An ignored reality of human progress is that human security largely depends upon environmental security. But on the contrary, human progress seems contradictory to environmental security. To keep up both at the required level is a challenge to be addressed by one and all. One of the ways to curb the climate change may be suitable scientific innovations, while the other may be the Gandhian perspective on small scale progress with focus on sustainability.",
+  "options": [
+   "Human progress and security are positively associated with environmental security.",
+   "Human progress is contradictory to environmental security.",
+   "Human security is contradictory to environmental security.",
+   "Human progress depends upon environmental security"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "human security largely depends upon environmental security. But on the\n    contrary, human progress seems contradictory to environmental security\n   \n\n   From the passage its clear that only B option is correct.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39495/gate2015-ec-1-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39520",
+  "year": 2015,
+  "set": "3",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In the following question, the first and the last sentence of the passage are in order and numbered 1 and 6. The rest of the passage is split into 4 parts and numbered as 2, 3, 4, and 5. These 4 parts are not arranged in proper order. Read the sentences and arrange them in a logical sequence to make a passage and choose the correct sequence from the given options.\n  \n\n    $2,5,3,4$\n   \n\n    $5,2,4,3$\n   \n\n    $3,5,4,2$\n   \n\n    $4,5,2,3$",
+  "options": [
+   "On Diwali, the family rises early in the morning.",
+   "The whole family, including the young and the old enjoy doing this.",
+   "Children let off fireworks later in the night with their friends.",
+   "At sunset, the lamps are lit and the family performs various rituals.",
+   "Father, mother, and children visit relatives and exchange gifts and sweets.",
+   "Houses look so pretty with lighted lamps all around."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "On Diwali, the family rises early in the morning.\n   \n\n    The whole family, including the young and the old enjoy doing this.\n    This sentence can come only after another sentence where an action is done.\n   \n\n    Children let off fireworks later in the night with their friends.\n    This sentence can come only after another sentence explaining something happening in early night -- $(4)$ here.\n   \n\n    At sunset, the lamps are lit and the family performs various rituals.\n   \n\n    Father, mother, and children visit relatives and exchange gifts and sweets.\n    Only one suitable for position $2$ and sentence $(2)$ can follow this.\n   \n\n    Houses look so pretty with lighted lamps all around.\n   \n\n   So, the correct order will be $5-2-4-3.$\n  \n\n   Correct Option: B.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39520/gate2015-ec-3-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40182",
+  "year": 2015,
+  "set": "2",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The given question is followed by two statements; select the most appropriate option that solves the\n   question.\n   Capacity of a solution tank $A$ is $\\text{70%}$ of the capacity of tank $B$. How many gallons of solution are in\n   tank $A$ and tank $B$?\n   Statements:\n  \n\n    Statement I alone is sufficient.\n   \n\n    Statement II alone is sufficient.\n   \n\n    Either statement I or II alone is sufficient.\n   \n\n    Both the statements I and II together are sufficient.",
+  "options": [
+   "Tank $A$ is $\\text{80%}$ full and tank $B$ is $\\text{40%}$ full.",
+   "Tank $A$ if full contains $14,000$ gallons of solution."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Statement 1 gives the relative filling of the $2$ tanks.\n  Statement 2 gives the capacity of Tank A.\n  And since we have the relative capacities of the two tanks with both statements we can get the current amount of solution in them. And both the statements are necessary.\n  Correct Option: D\nLet the capacity of tank B is x gallons.\n  Then capacity of tank A is 0.7x gallons.\n  Consider statement 2:\n  \"Tank A if full has 14000 gallons\". i.e capacity of tank A is 14000 gallons.\n  So 0.7x=14000 . This means that x= 20,000  gallons.\n  Therefore capacity of B is 20,000 gallons..\n  This statement would've been enough if they asked for capacities of tanks. But since they asked for amount of solution present in tank, we have to calculate further.\n  Consider statement 1:\n  \"Tank A is 80% full and tank B is 40% full.\"\n  This means that tank  A  has 0.8*14,000 gallons and tank B has 0.4*20,000 gallons which  are required.\n  Hence both the statements  together are needed.\nLet the total capacity of B be x\n  A=>0.7x   B=>x\n  According to statement 1--->\n  A is 80% full i.e A=>0.8*0.7x=0.56x\n  B is 40 % full i.e. B=>0.4x\n  after statement 1 both A & B have  variable x whose value is given in statement 2 i.e. x=14000\n  So, both statements together are necessary\n  SO, answer is (D)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40182/gate2015-ce-2-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8011",
+  "year": 2015,
+  "set": "1",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Select the alternative meaning of the underlined part of the sentence.\n  \n\n   The chain snatchers $\\underline{\\text{took to their heels}}$ when the police party arrived.",
+  "options": [
+   "Took shelter in a thick jungle",
+   "Open indiscriminate fire",
+   "Took to flight",
+   "Unconditionally surrendered"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "\"take to heels\" means \"\n   \n    to run away\n   \n   \" or \"\n   \n    to flee\n   \n   \" or  \"भाग जाना\" which also have the same meaning as \"take flight\".\n  \n\n    https://idioms.thefreedictionary.com/take+to+heels\n   \n\n   Correct Option: C.\nC Took to flight",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8011/gate-cse-2015-set-1-question-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8036",
+  "year": 2015,
+  "set": "2",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Four branches of a company are located at $\\text{M, N, O}$ and $\\text{P.  M}$ is north of $\\text{N}$ at a distance of $4\\;\\text{km; P}$ is south of $\\text{O}$ at a distance of $2\\;\\text{km; N}$ is southeast of $\\text{O}$ by $1\\;\\text{km}$. What is the distance between $\\text{M}$ and $\\text{P}$ in $\\text{km}$?",
+  "options": [
+   "$5.34$",
+   "$6.74$",
+   "$28.5$",
+   "$45.49$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "[IMAGE:0]\n\n   $a=\\dfrac{1}{\\sqrt{2}}$\n  \n\n   $x=\\sqrt{[4+(2-a)]^{2}+a^2}$\n  \n\n   Solving we get $x = 5.34.$\n  \n\n   Correct Answer: $A$\nFor those who didn't understand previous explanations....\n  \n\n[IMAGE:100]\nFor anything unclear, feel free to comment/message.\n  \n\n[IMAGE:200]\n\n[IMAGE:201]\n\n[IMAGE:202]\n\n[IMAGE:203]\n\n   Hence,\n   \n\n     Option A\nExplanation:\n  \n\n[IMAGE:300]\nanswer is a 5.34\nJust giving more details to Accepted answer.\n   [IMAGE:500]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=9954174332030190006",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12781045747406598231",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2288951350825508360",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12683998616763732774",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2911664605963019227",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=114288714503550763",
+    "kind": "remote"
+   },
+   {
+    "src": "https://pyq.ravindrababuravula.com/wp-content/uploads/2018/09/g1-1.png",
+    "kind": "remote"
+   },
+   {
+    "src": "gateoverflow.in/8036",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/8036/gate-cse-2015-set-2-question-ga-7",
   "source": "gateoverflow"
  },
  {
@@ -1563,6 +2061,32 @@
   "source": "gateoverflow"
  },
  {
+  "id": "8308",
+  "year": 2015,
+  "set": "3",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The head of newly formed government desires to appoint five of the six selected members $P, Q, R, S, T$ and $U$ to portfolios of Home, Power, Defense, Telecom, and Finance. U does not want any portfolio if $S$ gets one of the five. $R$ wants either Home or Finance or no portfolio. $Q$ says that if $S$ gets Power or Telecom, then she must get the other one. T insists on a portfolio if $P$ gets one.\n  \n\n   Which is the valid distribution of portfolios?",
+  "options": [
+   "$P$-Home, $Q$-Power, $R$-Defense, $S$-Telecom, $T$-Finance",
+   "$R$-Home, $S$-Power, $P$-Defense, $Q$-Telecom, $T$-Finance",
+   "$P$-Home, $Q$-Power, $T$-Defense, $S$-Telecom, $U$-Finance",
+   "$Q$-Home, $U$-Power, $T$-Defense, $R$-Telecom, $P$-Finance"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "\"$U$ does not want any portfolio if $S$ gets one of the five\"\n  \n\n   So, $S$ and U cannot come together. Option $C$ eliminated.\n  \n\n   \"$R$ wants either Home or Finance or no portfolio\"\n  \n\n   So, options $A$ and $D$ eliminated.\n  \n\n    So, answer is B.\n   \n\n   Just to confirm:\n  \n\n   $Q$ says that if $S$ gets Power or Telecom, then she must get the other one\n  \n\n   In $B$, $S$ gets Power and $Q$ gets Telecom\n  \n\n   \"T insists on a portfolio if $P$ gets one\"\n  \n\n   In $B$, $T$ is getting a portfolio.\n(A) P-Home, Q-Power, R-Defense, S-Telecom, T-Finance :\n    \n     X\n    \n    (R wants either Home or Finance or no portfolio)\n   \n\n    (B) R-Home, S-Power, P-Defense, Q-Telecom, T-Finance:\n    \n     Valid\n    \n\n    (c) P-Home, Q-Power, T-Defense, S-Telecom, U-Finance:\n    \n     X\n    \n    (U does not want if S gets one of the five)\n   \n\n    (d) Q-Home, U-Power, T-Defense, R-Telecom, P-Finance:\n    \n     X\n    \n    ( R wants either Home or Finance or no portfolio)\noption B is correct ...\n   \n    R-Home, S-Power, P-Defense, Q-Telecom, T-Finance\nwe can do this easily by option elimination.\n  option a) it is false because R is assign to Defence where as the condition was R wants either home or finance or no portfolio.\n  option c) is false because S and U both got portfolio where the condition is if S gets some portfolio U does not want any portfolio. So S and U can’t go together .\n  option D) is false because R is assign to Telecom where as the condition was R wants either home or finance or no portfolio.\n  so option (B) is the answer because its was a valid distribution and every condition is satisfied.\nU\n    \n    wants either\n    \n     Home\n    \n    or\n    \n     Finance\n    \n    or no portfolio.\n   \n\n     S\n    \n    must get both\n    \n     Power\n    \n    and\n    \n     Telecom\n    \n    if given one.\n   \n\n     T\n    \n    insists on a portfolio if\n    \n     U\n    \n    gets one.\n   \n\n      Option A:\n     \n\n      S\n     \n     has only\n     \n      Power\n     \n     (violates\n     \n      S's\n     \n     condition).\n     \n      Eliminate\n     \n     .\n    \n\n      Option B:\n     \n     All conditions are satisfied:\n     \n      U\n     \n     has no portfolio, and\n     \n      S\n     \n     gets neither\n     \n      Power\n     \n     nor\n     \n      Telecom\n     \n     .\n     \n      Valid Option\n     \n     .\n    \n\n      Option C:\n     \n\n      S\n     \n     has only\n     \n      Home\n     \n     (violates\n     \n      S's\n     \n     condition).\n     \n      Eliminate\n     \n     .\n    \n\n      Option D:\n     \n\n      U\n     \n     has\n     \n      Defense\n     \n     (violates\n     \n      U's\n     \n     condition).\n     \n      Eliminate\n     \n     .",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8308/gate-cse-2015-set-3-question-ga-7",
+  "source": "gateoverflow"
+ },
+ {
   "id": "8401",
   "year": 2015,
   "set": "3",
@@ -1586,6 +2110,138 @@
   "explanation": "p = s1 + 2;\n\n   Type of s1 is char[7] and sizeof *s1 is sizeof (char) = 1. So, s1 + 2 will return address in s1 + 2 *sizeof(char) = address in s1 + 2. So,  $p$ now points to the third element in s1.\n  \n\n*p = '0';\n\n   The third element in s1 is made $0$. So, $1234$ becomes $1204$.\n   \n    C\n   \n   choice.\nAnswer is C.\n   For the confused people,\n   \n    *p = '0';\n   \n   So answer is 1204\n   If *\n   \n    p = 0;\n   \n   Here answer will be 12\n   0 means Ascii 0  which is Null character.\n  \n\n   '0'  means Ascii 48 which is character '0'\nHere s1 is an array, So s1 points to base address.\n  \n\n    so , p=s1+2 will point to 3rd element of s1.\n    \n\n      and *p='0'\n      \n\n        value at p (Which is the third element of s1) , so 1234 becomes 1204.\n1204 will be correct answer.\ns1[7]=\"1234\"\n  p=s1+2\n  it is pointing to the address of \"3\" of \"1234\"\n  if *p=0 then the value of 3 replaced by 0\n  so the printf(\"%s\", s1) prints 1204\n# include <stdio.h>\n  int main()\n  {\n  char s1[7] = \"1234\", *p;\n  p = s1 + 2;\n  *p = 48;\n  printf(\"%s\", s1);\n  }\n  output=====1204\n  because ASCII value of 48 is 0\n  \n   https://theasciicode.com.ar/ascii-printable-characters/number-one-ascii-code-49.html#:~:text=To%20get%20the%20letter%2C%20character,%221%22%20in%20ASCII%20table\n  \n  .",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/8401/gate-cse-2015-set-3-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39521",
+  "year": 2015,
+  "set": "3",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "From a circular sheet of paper of radius $30$ cm, a sector of $10\\%$ area is removed. If the remaining part is used to make a conical surface, then the ratio of the radius and height of the cone is _____",
+  "options": [],
+  "correctAnswer": [
+   "2.06"
+  ],
+  "explanation": "Let\n  \n\n    radius of circular sheet of paper $= R$\n   \n\n    radius of the cone $=r$\n   \n\n    height of cone $= H$\n   \n\n   Perimeter of base of cone $= 0.9\\times 2\\pi R$\n   $\\implies 2\\pi r  = 0.9*2\\pi R$\n   $\\implies r  = 0.9R$\n   Now, height of cone $H  = \\sqrt{R^{2}-r^{2}}$\n   $\\implies H  = r.\\sqrt{(R/r)^{2}-1}$\n   $\\implies r/H= \\frac{1}{\\sqrt{(1/0.9)^{2}-1}}$\n   $= 2.06$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39521/gate2015-ec-3-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40175",
+  "year": 2015,
+  "set": "3",
+  "number": 8,
+  "section": "GA",
+  "type": "nat",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In the given figure angle $Q$ is a right angle, $PS:QS = 3:1, RT:QT = 5:2$ and $PU:UR = 1:1. $ If area of triangle $QTS$ is $20cm^{2},$ then the area of triangle $PQR$ in $cm^{2}$ is ______\n  \n\n[IMAGE:0]",
+  "options": [],
+  "correctAnswer": [
+   "280"
+  ],
+  "explanation": "$\\frac{RT}{QT}= \\frac{5x}{2x} \\Rightarrow RQ=7x$\n  $\\frac{PS}{QS}= \\frac{3y}{1y} \\Rightarrow PQ=4y$\n  Area of Triangle $QTS =\\frac{1}{2} \\times QS \\times QT =20 cm^2$\n  $\\frac{1}{2} \\times 1y \\times 2x =20 cm^2$\n  $\\Rightarrow xy =20 cm^2$\n  Area of Triangle $PQR = \\frac{1}{2} \\times PQ \\times RQ$\n  $\\frac{1}{2} \\times 4y \\times 7x$\n  $\\quad = 14xy = 14\\times 20 cm^2 =280cm^2$\n$$\\def\\o{\\overline}\\frac{\\o{PS}}{\\o{QS}} = \\frac 3 1 \\implies \\frac{\\o{PS} + \\o{QS}}{\\o{QS}} = \\frac{3+1}{1} = 4 \\implies \\o{PQ} = 4\\cdot \\o{QS}$$\n  \n\n   Similarly,\n   \n    $$\\frac{\\o{RT}}{\\o{QT}} = \\frac 5 2 \\implies \\frac{\\o{RT} + \\o{QT}}{\\o{QT}} = \\frac{5+2}{2} = \\frac 7 2 \\implies \\o{RQ} = \\frac 7 2 \\cdot \\o{QT}$$\n   \n\n    Now, $$\\text{Area of } \\triangle PQR = \\frac 1 2 \\cdot \\o{PQ} \\cdot \\o{RQ} = \\frac 1 2 \\cdot \\left ( 4 \\cdot \\o{QS} \\right ) \\cdot \\left ( \\frac 7 2 \\cdot {QT} \\right ) \\\\= \\frac 1 2 \\cdot \\left ( \\o{QS} \\cdot \\o{QT} \\right ) \\cdot 4 \\cdot \\frac 7 2 = 20 \\text{ cm}^2 \\cdot 14 = 280 \\text{ cm}^2$$\nlets PS/QS =3x/x and QT/TR=2y/5y PU/ZR=Z/Z\n  given:\n  area of triangle QST is 20 cm^2 and angle Q is 90 .now we know are of a right angled triangle is 1/2 * height * base\n  so it can be re written as 1/2 * SQ*QT=20 =>1/2 * x*2y=20 =>xy=20................(i)\n  required :\n  area of QPR which is 1/2 *PQ*QR =1/2*(3x+x)*(5y+2y) =>(1/2)*4x*7y => (1/2) * 28 xy\n  now from eqn 1 we replace xy=20 to get 1/2 * 28* 20 =280 cm^2",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=14806683351830681629",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/40175/gate2015-me-3-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40183",
+  "year": 2015,
+  "set": "2",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "How many four digit numbers can be formed with the 10 digits $0, 1, 2, \\ldots,  9$ if no number can start with 0 and if repetitions are not allowed?",
+  "options": [],
+  "correctAnswer": [
+   "4536"
+  ],
+  "explanation": "$\\_\\; \\_\\;\\_\\; \\_$\n  Since, number of digits is $4$ the number cannot start with $0.$\n  At first place all number can appear except $0.$ So, number of possibilities $= 9.$\n  $9\\; \\_\\;\\_\\; \\_$\n  Since, repetition is not allowed, second place can be occupied by $8$ different numbers. But here $0$ may appear so total possibilities is $9$.\n  $9\\times9\\;\\_\\; \\_$\n  Similarly, remaining two places can be filled in\n  $9\\times9\\times8\\times7= 4536.$\nAt First We Select 10 numbers from 0,1,2.....9 and their combinations that is= 10c4*4!\n  = 5040\n  But it will include all those numbers with starting position 0. eg- 0234,0456,0765..... so we have to deduct it\n  from the total combitations : 5040- 9c3*3!\n  = 4536.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40183/gate2015-ce-2-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8012",
+  "year": 2015,
+  "set": "1",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The given statement is followed by some courses of action. Assuming the statement to be true, decide the correct option.\n  \n\n   Statement:\n  \n\n   There has been a significant drop in the water level in the lakes supplying water to the city.\n  \n\n   Course of action:\n  \n\n    Statements I and II follow.\n   \n\n    Statements I and III follow.\n   \n\n    Statements II and III follow.\n   \n\n    All the statements follow.",
+  "options": [
+   "The water supply authority should impose a partial cut in supply to tackle the situation.",
+   "The government should appeal to all the residents through mass media for minimal use of water.",
+   "The government should ban the water supply in lower areas."
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Statements I and II are correct measures. Option A,",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8012/gate-cse-2015-set-1-question-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8039",
+  "year": 2015,
+  "set": "2",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "hard",
+  "marks": null,
+  "text": "In a triangle $PQR, PS$ is the angle bisector of $\\angle QPR \\text{ and } \\angle QPS =60^\\circ$. What is the length of $PS$ ?\n  \n\n[IMAGE:0]",
+  "options": [
+   "$\\left(\\dfrac{(q+r)} {qr}\\right)$",
+   "$\\left(\\dfrac {qr} {q+r}\\right)$",
+   "$\\large \\sqrt {(q^2 + r^2)}$",
+   "$\\left(\\dfrac{(q+r)^2} {qr}\\right)$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Area of a $\\triangle=\\dfrac{1}{2}\\times ac \\sin B =\\dfrac{1}{2}\\times bc \\sin A =\\dfrac{1}{2} ab \\sin C$\n   so, Here area $(\\triangle PQR)= \\text{area } (\\triangle PQS) + \\text{area }(\\triangle PRS)$\n  \n\n   $\\dfrac{1}{2}\\; rq \\sin 120 =\\dfrac{1}{2} PS\\times r \\sin 60 +\\dfrac{1}{2} PS\\times q \\sin 60$\n  \n\n   $\\Rightarrow PS =\\dfrac{rq}{(r+q)}$\n   so, choice\n   \n    (B)\n   \n   is\n   \n    correct\n   \n   ..\nAs per\n   \n    Angle Bisector theorem,\n   \n   $\\qquad\\;\\;\\dfrac{QS}{SR} =\\dfrac{r}{q}$\n   $\\dfrac{QS}{(p-QS)} =\\dfrac{r}{q}$\n   $\\qquad \\quad QS =\\dfrac{pr}{(q+r)} \\quad \\quad \\longrightarrow(1)$\n   We have in a triangle $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$\n  \n\n   So, from $\\triangle QPS,\\;\\; \\dfrac{QS}{\\sin 60} =\\dfrac{PS}{\\sin Q}$\n  \n\n   $\\qquad PS =\\dfrac{QS\\times \\sin Q}{\\sin 60}\\quad \\quad\\longrightarrow (2)$\n  \n\n   From $\\triangle PQR,\\;\\; \\dfrac{p}{\\sin 120} =\\dfrac{q}{\\sin Q}$\n  \n\n   $p =\\dfrac{q\\times \\sin 120}{\\sin Q} =\\dfrac{q\\times \\sin 60}{\\sin Q}\\quad \\quad\\longrightarrow (3)$\n   So, from $(1), (2)$ and $(3),$\n   $PS =\\dfrac{qr}{(q+r)}$\n   \n    B choice.\n   \n\n    http://en.wikipedia.org/wiki/Angle_bisector_theorem\nHere's a very simple way to solve this:\n  \n\n[IMAGE:200]\n\n    In Δ PQR --> Area(Δ PQR) = Area (Δ QPS) + Area( Δ PSR)\n   \n\n   $\\frac{1}{2}  r  q  \\sin 120 = \\frac{1}{2}  r  * PS  \\sin 60 + \\frac{1}{2}  q * PS \\sin 60$\n  \n\n   $\\frac{1}{2}  r q * \\sin (180-60) = \\frac{1}{2}  PS \\sin 60 * (r+q)$\n  \n\n   $\\frac{1}{2}  r q * \\sin (60) = \\frac{1}{2}  PS \\sin 60 * (r+q)$\n  \n\n   --> $PS = \\frac{r * q}{r+q}$\nSimple Method\n    \n\n[IMAGE:300]\n\n   So we get PS = r/2 ( or = q/2 ) by simple trigonometry\n  \n\n   bcoz of angle property r = q\n  \n\n   now just put q = r in options\n  \n\n   A will give 2/r\n  \n\n   B will give r/2 (That’s correct)\n  \n\n   C will give r$\\sqrt{2}$\n  \n\n   D will give 4\n  \n\n   Therefore\n   \n    answer is B\narea of a triangle  =  1/2 ab sin theta , where a and b are two sides of a triangle and theta is the angle btw sides a and b\n  \n\n    as, PS is the angle bisector of ∠QPR, so QPS = SPR = 60 or QPR = 120\n    \n\n      similarly,\n      \n\n        area of PQR = ar of PQS + ar of PSR\n        \n\n          1/2 rq sin 120 = 1/2 * r * ps sin 60 + 1/2 * q * ps sin 60\n          \n\n            option b (ans)",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1755196094206857551",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2560327609721041872",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5010301287829417377",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/8039/gate-cse-2015-set-2-question-ga-8",
   "source": "gateoverflow"
  },
  {
@@ -1633,6 +2289,227 @@
   "explanation": "Three address Instruction\n   \n\n   Computer with three addresses instruction format can use each address field to specify either processor register or memory operand.\n  \n\n   e.g., $X = (A + B) * (C + A)$\n  \n\n   Equivalent\n   \n    Three address Instructions\n   \n   $$\\begin{array}{ll}\n   \\text{ADD } R1, A, B &    ;\\qquad R1 \\leftarrow  M [A] + M [B]\\\\\n   \\text{ADD }R2, C, D & ;\\qquad R2 \\leftarrow  M [C] + M [D]\\\\\n   \\text{MUL } X, R1, R2    & ;\\qquad M [X] \\leftarrow  R1 * R2\n   \\end{array}$$The advantage of the three address formats is that it results in short program when evaluating arithmetic expression. The disadvantage is that the binary-coded instructions require too many bits to specify three addresses.\n  \n\n   Correct Answer: $A$\noption A either\n   \n    A memory operand or\n   \n\n    A processor register.\nOption A: (in inst' n never present\n     \n      accumulator register\n     \n     address)\nAns : A\n   \n\n    Classification of Instructions Based on CPU Organisations\n   \n\n   Computers may have instructions of several different lengths containing varying number of  addresses. The number of address fields in the instruction format of a computer depends on the internal organization of its registers. Most computers fall into one of the three types of CPU organizations:\n  \n\n   (i) Single Accumulator Organization: In this type of organization all operations are performed on an implied accumulator. The instruction format uses only one address field. For example, the instruction that loads the accumulator with the contents of a memory location.\n  \n\n   LoadX\n  \n\n   Where X is the address of the source operand. This results in the operation AC ÷— M (X). AC is the accumulator and M(X) symbolizes the memory word located at address X.\n  \n\n     (ii) General Register Organisation : In this organization, the instruction format needs 2 or 3 register address fields according to the operation.\n    \n\n     For example, an instruction for addition may be written as\n    \n\n     ADD R1, R2, R3,\n    \n\n     It denotes the operation R1 <—R2 -f- R3\n    \n\n     The same ADD instruction needs only two register address fields if the destination register is one of the source registers, i.e. if the operation is\n    \n\n     R1 R1 + R2\n    \n\n     Then the instruction is ADD R1, R2\n    \n\n     The instruction may also contain one memory address field and one register address field. For example, the instruction,\n    \n\n     ADD R1, X\n    \n\n     Specifies the operation R1 —R1 + M [X]\n    \n\n   (iii) Stack Organization : In this organization, the computers will have PUSH and POP instructions which require an address field. For Kathplê, the instruction PUSH X will push the word at address Xonto the top of the stack. The operation — type instructions do not need any address field. For example, the instruction\n  \n\n   ADD\n  \n\n   Consists of only opcode and no address field. It has the effect of popping the top two numbers from the stack, adding them, and pushing the sum onto the stack. Thus all the operands are implied to be in the stack.\n  \n\n   Most of the computers fall into one of the above three types of organizations. Some computers combine features from more than one organizational structure.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/8096/gate-cse-2015-set-1-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8385",
+  "year": 2015,
+  "set": "3",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the most appropriate equation for the function drawn as thick line, in the plot below.\n  \n\n[IMAGE:0]",
+  "options": [
+   "$x=y-|y|$",
+   "$x=-(y-|y|)$",
+   "$x=y+|y|$",
+   "$x=-(y+|y|)$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "When $y$ is $-1$, $x$ is $2.$\n  When $y$ is positive $x$ is $0$.\n  So, $x = - \\left( y - |y|\\right)$\n  Correct Answer: $B$\nWhen y is -1 , xis 2.\n  and when y is positive x is 0.\n  So, by checking all options, Option (B) is satisfied.\n  x=-(y-|y|)\nA line is a sequence of points.\n  \n\n[IMAGE:200]\n\n   The given red coloured point can be obtained by keeping $x = 2$, and $y = -1$\n  \n\n   Only\n   \n    Option B\n   \n   matches.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=8969598509501234455",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5809305489251976342",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/8385/gate-cse-2015-set-3-question-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39496",
+  "year": 2015,
+  "set": "1",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A cube of side $3$ units is formed using a set of smaller cubes of side $1$ unit. Find the proportion of the number of faces of the smaller cubes visible to those which are NOT visible.",
+  "options": [
+   "$ 1: 4$",
+   "$ 1: 3$",
+   "$ 1: 2$",
+   "$ 2: 3$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Option C\n   \n\n   Total $27 (3 \\times 3 \\times 3)$ small cubes of $1$ unit each will be required to form a bigger cube of side $3$ units\n  \n\n[IMAGE:0]\n\n   No. of faces per cube $= 6$\n  \n\n   Total number of cubes $= 9\\times 3 = 27$\n  \n\n   Total number of faces $= 27\\times 6 = 162$\n  \n\n   Total number of non visible faces $= 162-54 = 108$\n  \n\n   $\\frac{\\text{No. of  visible  faces}}{\\text{No. of non  visible  faces}}= \\frac{54}{108}=\\frac{1}{2}$\n  \n\n   Ref:\n   \n    https://www.quora.com/A-cube-with-sides-of-3-units-is-formed-using-a-set-of-smaller-cubes-with-sides-of-1-unit-How-do-you-find-the-proportion-of-the-number-of-faces-of-the-smaller-cubes-visible-to-those-which-are-not-visible\n[IMAGE:100]\n\n   We need a total of 27 small cubes to make one large cube.\n  \n\n   1 small cube has a total of 6 faces, hence for 27 small cubes the total number of faces = 27 * 6 = 162\n  \n\n   i.e One large cube has a total of 162 faces some of which are visible and some of which are not visible.\n  \n\n   Now we will find the number of visible faces in 1 large cube.\n  \n\n   From the figure, we notice that some pieces\n   \n    (like corners)\n   \n   have more faces visible, whereas some pieces\n   \n    (like centre)\n   \n   has only one face visible. Hence we first identify each type and count of visible faces for each type of piece\n  \n\n    Corner:\n    Now each face has 4 corner pieces. Hence 6 faces would have 6*4 = 24 corners pieces. But we have over-counted here. Notice that, each corner piece is shared among 3 faces, hence the correct number of corner pieces = 24/3 = 8 pieces.\n    Each corner piece has 3 faces visible, hence total visible faces for corner piece = 8*3 = 24  ----- (i)\n   \n\n    Side:\n    Each face has 4 side pieces. Hence 6 faces would have 6 * 4 = 24 side pieces, but again we have over-counted. Notice how each side piece is shared among 2 faces, hence the correct number of side pieces = 24/2 = 12 pieces.\n    Each side piece has 2 faces visible, hence total visible faces for side piece = 12 * 2 = 24 ----- (ii)\n   \n\n    Center:\n    Each face has 1 centre piece. Hence 6 faces would have 6 centre piece. But are we again overcounting? NO, the centre piece is never shared among any face of a large cube, hence no over-counting. So total centre piece = 6.\n    Each centre piece has 1 face visible, hence total visible faces for center piece = 6 ----- (iii)\n   \n\n   Adding equation i, ii and iii we get 24 + 24 + 6 = 54 visible faces.\n  \n\n   Now total invisible faces = Total faces – Total visible faces\n   =  162 – 54\n   = 108\n   Hence the proportion of the number of faces of the smaller cubes visible to those which are NOT visible\n   = 54 : 108\n   = 1 : 2",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=6859082770293782006",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1999261245565947582",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/39496/gate2015-ec-1-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39510",
+  "year": 2015,
+  "set": "2",
+  "number": 9,
+  "section": "GA",
+  "type": "nat",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "if $a^2+b^2+c^2=1$ then $ab+bc+ac$ lies in the interval",
+  "options": [
+   "$[1,2/3]$",
+   "$[-1/2,1]$",
+   "$[-1,1/2]$",
+   "$[2,-4]$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Ans (B)\n   \n   $(a+b+c)^2$ should be $\\geq 0.$\n   $ \\therefore a^2 + b^2  +c^2  + 2ab +2bc + 2ca \\geq 0$\n  \n\n   Given $a^2 + b^2  +c^2  = 1$ therefore $1+ 2(ab+bc+ca)\\geq 0$\n   $\\implies ab+bc+ca\\geq -\\frac{1}{2}$\n  \n\n   Now to find the upper limit,\n   $(a-b)^2+(b-c)^2+(c-a)^2 \\geq 0$\n  \n\n   Expanding we get, $2(a^2 + b^2 + c^2) - 2(ab+bc+ca) \\geq 0$\n   $\\implies 2-2(ab+bc+ca)\\geq 0$\n   $\\implies ab+bc+ca\\leq 1$\n  \n\n    Answer B. [-1/2,1]",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39510/gate2015-ec-2-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39522",
+  "year": 2015,
+  "set": "3",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "$\\log \\tan 1^o + \\log \\tan 2^o + \\dots + \\log \\tan 89^o$ is $\\ldots$",
+  "options": [
+   "$1$",
+   "$1/\\sqrt{2}$",
+   "$0$",
+   "$−1$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$(\\tan 1 . \\tan 89) . (\\tan 2 . \\tan 88) \\ldots (\\tan 44 . \\tan 46) . \\tan 45$\n  $= ( \\tan 1 . \\cot 1).(\\tan 2 . \\cot 2)\\ldots (\\tan 44. \\cot 44). \\tan 45$\n  $= 1 . 1 . 1 \\ldots . 1 . \\tan 45$\n  $= 1$\n  So, the given expression reduces to $\\log 1 = 0.$\n  Correct Option: (C) 0",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39522/gate2015-ec-3-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40173",
+  "year": 2015,
+  "set": "3",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Right triangle $PQR$ is to be constructed in the $xy$ - plane so that the right angle is at $P$ and line $PR$ is parallel to the $x$-axis. The $x$ and $y$ coordinates of $P, Q,$ and $R$ are to be integers that satisfy the inequalities: $−4\\leq x\\leq 5$ and $6 \\leq y \\leq16.$ How many different triangles could be constructed with these properties?",
+  "options": [
+   "$110$",
+   "$1,100$",
+   "$9,900$",
+   "$10,000$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Here $PR$ is parallel to $x-$axis so $y-$ coordinate of vertex $P$ and $R$ would always be the same.\n  For ex- If $P= (-1, \\textbf{7})$ then $R=( 2, \\textbf{7})$ or $(5, \\textbf{7})$\n  So total number of possible  $x-$ coordinate of $P$ and $R$ for a particular $y$ $( -4\\leq x \\leq 5) = {}^{10}P_2 = 90.$\n  Similarly, for $11$ different $y-$ coordinates, total coordinates of $P$ and $R = 11 \\times 90 = 990.$\n  Now since, its a right angle at $P$ so vertex $Q$ has same $x$-coordinate as $P.$ So total possible coordinates for vertex $Q ( 6\\leq y\\leq 16) = {}^{10}C_1= 10.$ ( There are 11( 6 to 16) points in Y coordinate to choose for Q still we are using 10 because we are leaving the one Ycoordinate point which has been chosen for P and R , otherwise we will not be able to draw triangle)\n  For ex- If $P= (\\textbf{-1}, 7) $ then $Q= ( \\textbf{-1}, 8)$ or $( \\textbf{-1}, 16)$ but not $(\\textbf{-1}, 7).$\n  Total number of triangles $= 10 * 990 = 9900$\n  Ans- C\nSo the question states that how many different right angled triangles can be formed such that one of its edge is parallel to X axis. Thus to select such points  for\n   \n    P- 10*11\n   \n\n   for\n   \n    Q- 10\n   \n\n   for\n   \n    R- 9\n   \n\n   Thus total right angles triangles satisfying the condition are=\n   \n\n     10*11*10*9= 9900",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40173/gate2015-me-3-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40185",
+  "year": 2015,
+  "set": "2",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Read the following table giving sales data of five types of batteries for years $2006$ to $2012$:\n  \n\n   $$\\begin{array}{|c|c|c|c|c|c|c|}\\hline \\textbf{Year} & \\textbf{Type I} & \\textbf{Type II} & \\textbf{Type III} & \\textbf{Type IV} & \\textbf{Type V}\\\\\\hline \\text{2006} & \\text{75}& \\text{144} & \\text{114}& \\text{102} & \\text{108}\\\\\\hline \\text{2007} & \\text{90}& \\text{126} & \\text{102}& \\text{84} & \\text{126}\\\\\\hline \\text{2008} & \\text{96}& \\text{114} & \\text{75}& \\text{105} & \\text{135}\\\\\\hline \\text{2009} & \\text{105}& \\text{90} & \\text{150}& \\text{90} & \\text{75}\\\\\\hline \\text{2010} & \\text{90}& \\text{75} & \\text{135}& \\text{75} & \\text{90}\\\\\\hline \\text{2011} & \\text{105}& \\text{60} & \\text{165}& \\text{45} & \\text{120}\\\\\\hline \\text{2012} & \\text{115}& \\text{85} & \\text{160}& \\text{100} & \\text{145}\\\\\\hline  \\end{array}$$\n  \n\n   Out of the following , which type of battery achieved highest growth between the years $2006$ and $2012$?",
+  "options": [
+   "Type V",
+   "Type III",
+   "Type II",
+   "Type I"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "$$\\begin{array}{|c|c|c|c|c|} \\hline \\textbf{Year} & \\textbf {Type I} &\\textbf {Type II} & \\textbf {Type III} &  \\textbf{Type IV } & \\textbf{Type V} \\\\\\hline \\textbf{2006}& \\text{$75$} & \\text{$144$}  & \\text{$114$} & \\text{$102$} & \\text{108} \\\\ \\textbf{2012} & \\text{$115$} & \\text{$85$} & \\text{$160$}  & \\text{$100$}& \\text{145}\\\\\\hline  \\textbf{Inc. in sale}& \\text{$+40$} & \\text{$-59$}  & \\text{$+46$} & \\text{$-2$} & \\text{+37}\\\\\\hline \\textbf{Growth} & \\frac{40}{75} \\times 100 = 53.3 \\% & \\text{$(-ve)$} & \\text{$40.35$%}  & \\text{$(-ve)$}  &\\text{$34.25$%} \\\\\\hline \\end{array}$$\n  Hence, Type – l battery has achieved the highest growth\n  Ans. (D) Type – l\nIf we look at the table data, Type II battery has registered a continous decrement in sales from 2006 till 2011 and then it only incremened in 2012 and that too was far low than what it was in 2006.\n  \n\n   So TypeII battery has least growth.\n  \n\n   Comparing Type IV and Type V, Type IV sales data took decrement in sales figure 4 times\n  \n\n   2006->2007,2008->2009,2009->2010,2010->2011\n  \n\n   Type V battery has seen decrement only once, 2008->2009\n  \n\n   So, Type IV battery has poorer sales than Type V battery\n  \n\n   Now we need to compare Type V and Type I\n  \n\n   Type I battery registered continuous growth from years 2006->2009 and then from 2009->2010 it took a dip by 15.Only 1 time it got decremented.\n  \n\n   Type V battery registered growth from 2006-.>2008 and then from 2008->2009 it took a dip by 60.\n  \n\n   So, Type I battery has more consistent growth than Type V battery.\n  \n\n    Answer-(D)\nAnswer (B)\n  Type I =696/7 =96.57\n  Type II =694/7 =99.14\n  Type III =901/7 = 128.71\n  Type IV =601/7 =85.85\n  Type V =799/7 =114.14\ngrowth rate = (growth rate in 2012- growth rate in 2006 )/  2006 yr\n  \n\n   so for type 1 is (115-75)/75*100=40*75/100=30%\n  \n\n   for type 2 is (144-85)/144*100= 5900/144=40.02%\n  \n\n   for type 3 is (160-114)/114 * 100=  4600/114= 40.35\n  \n\n   for type 5 is (145-108)/108 *100= 3700/108= 34.25%  so\n   \n    highest growth rate will be 40.35 thats means  type 3  is answer",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40185/gate2015-ce-2-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8013",
+  "year": 2015,
+  "set": "1",
+  "number": 9,
+  "section": "GA",
+  "type": "nat",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The pie chart below has the breakup of the number of students from different departments in an engineering college for the year $2012$. The proportion of male to female students in each department is $5:4$. There are $40$ males in Electrical Engineering. What is the difference between the numbers of female students in the civil department and the female students in the Mechanical department?\n  \n\n[IMAGE:0]",
+  "options": [],
+  "correctAnswer": [
+   "32"
+  ],
+  "explanation": "Number of female students in Electrical = $40\\times \\dfrac{4}{5} = 32$\n  Number of female students in Civil = $32\\times \\dfrac{30}{20} = 48$ (Since proportion of male students to female students is same, the breakup chart is the same for number of female students)\n  Number of female students in Mechanical = $32\\times  \\dfrac{10}{20} = 16$\n  So, answer = $48 - 16 = 32$\nElectrical male students = 40\n  ∴ Electrical female students = 40 × (4/5)= 32\n  Total no. of students in Electrical department = (40 + 32) = 72 (which is 20% of the total mass)\n  ∴ Total no. of students in the college = 72 × (100/20) = 360\n  Total no. of students in Civil department = 360 × (30/100) = 108\n  Civil female students = 108 × (4/9) = 48\n  Total no. of students in Mechanical department = 360 × (10/100) = 36\n  Mechanical female students = 36 × (4/9) = 16\n  ∴ Difference = (48 − 16) = 32 (Ans)\nsince electrical is 20%,first find out how many female using 40/5=8,8*4=32 for mechanical is 10% so that (if 20% means 32,from that 10% means 16) similarly civil is 30% so that (16*3=48) 48-16=32",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16713008560335244829",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/8013/gate-cse-2015-set-1-question-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8040",
+  "year": 2015,
+  "set": "2",
+  "number": 9,
+  "section": "GA",
+  "type": "nat",
+  "subject": "Discrete Mathematics",
+  "subtopic": "Set Theory & Relations",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If $p, q, r, s$ are distinct integers such that:\n  $f (p, q, r, s) = \\text{ max } (p, q, r, s)$\n  $g (p, q, r, s) = \\text{ min } (p, q, r, s)$\n  $h (p, q, r, s) = \\text {remainder of } \\frac{(p \\times q)} {(r \\times s)} \\text{ if } (p \\times q) > (r \\times s)$\n  $\\text{ or remainder of } \\frac {(r \\times s)}{(p \\times q)} \\text{ if } (r \\times s) > (p \\times q)$\n  Also a function $fgh (p, q, r, s) = f(p, q, r, s) \\times g(p, q, r, s) \\times h (p, q, r, s)$\n  Also the same operations are valid with two variable functions of the form $f(p, q)$\n  What is the value of $fg \\left(h \\left(2, 5, 7, 3\\right), 4, 6, 8\\right)$?",
+  "options": [],
+  "correctAnswer": [
+   "8"
+  ],
+  "explanation": "It is given that $h(p, q, r, s) = $ remainder of $\\frac{(p \\times q)}{(r \\times s)}$ if $(p \\times q) > (r \\times s)$ or remainder of $\\frac{(r \\times s)}{(p \\times q)}$ if $(r \\times s) > (p \\times q)$.\n  \n\n   $h(2,5,7,3) = $ remainder of $\\frac{(7 \\times 3)} {(2 \\times 5)}, \\;\\; \\because (7 \\times 3) > (2 \\times 5)$\n  \n\n   Thus, $h(2,5,7,3) = 1$\n  \n\n   Again, it is given that $fg(p, q, r, s) = f(p, q, r, s) \\times g(p, q, r, s)$\n  \n\n   Also, $f(p, q, r, s) = \\max(p, q, r, s)$, and $g(p, q, r, s) = \\min(p, q, r, s)$\n  \n\n   So we have:\n  \n\n   $fg(1,4,6,8) = 8 \\times 1, \\;\\; \\because \\max(1,4,6,8) = 8 \\;\\&\\; \\min(1,4,6,8) = 1$\n  \n\n   Thus, $fg(1,4,6,8) = 8$\n  \n\n    Answer:\n   \n   $8$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8040/gate-cse-2015-set-2-question-ga-9",
   "source": "gateoverflow"
  },
  {
@@ -1687,6 +2564,32 @@
   "source": "gateoverflow"
  },
  {
+  "id": "8388",
+  "year": 2015,
+  "set": "3",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Most experts feel that in spite of possessing all the technical skills required to be a batsman of the highest order, he is unlikely to be so due to lack of requisite temperament. He was guilty of throwing away his wicket several time after working hard to lay a strong foundation. His critics pointed out that until he addressed his problem, success at the highest level will continue to elude him.\n  \n\n   Which of the statement(s) below is/are logically valid and can be inferred from the above passage?\n  \n\n    iii and iv\n   \n\n    ii and iii\n   \n\n    i, ii and iii\n   \n\n    ii only",
+  "options": [
+   "He was already a successful batsman at the highest level.",
+   "He was to improve his temperament in order to become a great batsman.",
+   "He failed to make many of his good starts count.",
+   "Improving his technical skills will guarantee success."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "\"possessing all the technical skills\" -  iv is false\n  \"throwing away his wicket several time after working hard to lay a strong foundation\" - iii is true\n  \"he is unlikely to be so due to lack of requisite temperament\" - ii is true\n  \"success at the highest level will continue to elude him\" - i is false\n  So, B.\nFrom the above passage following statements\n  \n\n    He was already a successful batsman at the highest level.         False\n   \n\n    He was to improve his temperament in order to become a great batsman.        True\n   \n\n    He failed to make many of his good starts count.    True\n   \n\n    Improving his technical skills will guarantee success. False\n   \n\n   So statement (II) and (III) are true, so option B is right answer.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8388/gate-cse-2015-set-3-question-ga-9",
+  "source": "gateoverflow"
+ },
+ {
   "id": "8403",
   "year": 2015,
   "set": "3",
@@ -1719,6 +2622,192 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/8403/gate-cse-2015-set-3-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39497",
+  "year": 2015,
+  "set": "1",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Humpty Dumpty sits on a wall every day while having lunch. The wall sometimes breaks. A person sitting on the wall falls if the wall breaks.\n   Which one of the statements below is logically valid and can be inferred from the above sentences?",
+  "options": [
+   "Humpty Dumpty always falls while having lunch",
+   "Humpty Dumpty does not fall sometimes while having lunch",
+   "Humpty Dumpty never falls during dinner",
+   "When Humpty Dumpty does not sit on the wall, the wall does not break"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Option B is the answer. The wall sometimes breaks. Sometimes it wont break. So Humpty Dumpty does not fall sometimes, while having lunch. This can be inferred.\nAfter reading this que remembered that poem :)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39497/gate2015-ec-1-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39511",
+  "year": 2015,
+  "set": "2",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Lamenting the gradual sidelining of the arts in school curricula, a group of prominent artists wrote to the Chief Minister last year, asking him to allocate more funds to support arts education in schools. However, no such increase has been announced in this year’s Budget. The artists expressed their deep anguish at their request not being approved, but many of them remain optimistic about funding in the future.\n   Which of the statement(s) below is/are logically valid and can be inferred from the above statements?\n  \n\n    (iii) and (iv)\n   \n\n    (i) and (iv)\n   \n\n    (i), (ii) and (iv)\n   \n\n    (i) and (iii)",
+  "options": [
+   "The artists expected funding for the arts to increase this year.",
+   "The Chief Minister was receptive to the idea of increasing funding for the arts.",
+   "The Chief Minister is a prominent artist.",
+   "Schools are giving less importance to arts education nowadays."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Ans:\n   \n    (B)\n   \n\n   From first line in para its clear that schools are giving less importance to arts education. hence\n   \n    (iv)\n   \n\n    However, no such increase has been announced in this year's Budget.\n   \n\n   From this line we can infer that artists are expected funding for arts to increase this year.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39511/gate2015-ec-2-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39523",
+  "year": 2015,
+  "set": "3",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Ms. $X$ will be in Bagdogra from $01/05/2014$ to $20/05/2014$ and from $22/05/2014$ to $31/05/2014$. On the morning of $21/05/2014,$ she will reach Kochi via Mumbai.\n  \n\n   Which one of the statements below is logically valid and can be inferred from the above sentences?",
+  "options": [
+   "Ms. $X$ will be in Kochi for one day, only in May.",
+   "Ms. $X$ will be in Kochi for only one day in May.",
+   "Ms. $X$ will be only in Kochi for one day in May.",
+   "Only Ms. $X$ will be in Kochi for one day in May."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Ms. $X$ will be in Kochi for one day, only in May.\n    Means $X$ will be in Kochi for one day and this happens only in May. The given passage does not say anything about what happens in other months.\n   \n\n    Ms. $X$ will be in Kochi for only one day in May.\n    This is true, as $X$ is in Kochi on May $21$ and in all other days of MAy she is in Bagdogra.\n   \n\n    Ms. $X$ will be only in Kochi for one day in May.\n    False as she is also in Mumbai for one day in May.\n   \n\n    Only Ms. $X$ will be in Kochi for one day in May.\n    False as the passage does not say about other people not in Kochi for a day.\n   \n\n   Correct Answer: B.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39523/gate2015-ec-3-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40174",
+  "year": 2015,
+  "set": "3",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A coin is tossed thrice. Let\n   \n    X\n   \n   be the event that head occurs in each of the first two tosses. Let\n   \n    Y\n   \n   be the event that a tail occurs on the third toss. Let\n   \n    Z\n   \n   be the event that two tails occur in three tosses.\n   Based on the above information, which one of the following statements is TRUE?",
+  "options": [
+   "X\n    \n    and\n    \n     Y\n    \n    are not independent",
+   "Y\n    \n    and\n    \n     Z\n    \n    are dependent",
+   "Y\n    \n    and\n    \n     Z\n    \n    are independent",
+   "X\n    \n    and\n    \n     Z\n    \n    are independent"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "ans should be B\n  \n\n   event X =HH _\n   event  Y= _ _T      so X and Y are independent  so option A is out\n   event Z = 2T 1 H (any order TTH,THT,HTT)  so if X occurs Z can not occur hence X and Z are dependent events so option D is out\n   event Z = 2T 1 H ( TTH(event Y is not possible hence Y and Z are dependent) ,THT(event Y is possible) ,HTT (event Y is possible)\n   consider  choice C and D the question is asked about 2 (exactly 2) tails occur in 3 tosses now if there is a tail in 3rd toss then we need only one tail in first 2 tosses else we need 2 tails   hence they are dependent on each other\nZ is dependent on X and Y and so option B).\n   \n\n    Why Z is dependent on X ???\n   \n\n    If X happens, then Z will never happen (i.e) if first 2 tosses result as Heads,then there can never be 2 tails in 3 tosses.\n   \n\n    If X doesnot happen, then Z happens if first 2 tosses are TAIL-TAIL and it may or maynot happen if first 2 tosses are HEAD-TAIL or TAIL-HEAD.\n   \n\n   So the occurence of Z is greatly influenced by whether X has happened or not.\n  \n\n    Why Z is dependent on Y ???\n   \n\n    If first 2 tosses are HEAD-TAIL or TAIL-HEAD, then whether Z will happen or not depends on whether Y has happened or not (i.e) if Y happen Z will happen else Z willnot happen.\n   \n\n    So Z is an event whose occurence is greatly influenced by the occurences of both X and Y.\n   \n\n    Note :\n   \n   X and Y are independent. EX: If 2 coins are tossed, outcome of 1 st toss has nothing to do with 2 nd toss (i.e) outcome of  2 nd toss is independent of 1 st toss. Similiarly here outcome of first 2 tosses has nothing to do with the outcome of the 3 rd toss.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40174/gate2015-me-3-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40184",
+  "year": 2015,
+  "set": "2",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "There are $16$ teachers who can teach Thermodynamics $\\text{(TD)}$, $11$ who can teach Electrical Sciences $\\text{(ES)}$, and $5$ who can teach both $\\text{TD}$ and Engineering Mechanics $\\text{(EM)}$. There are a total of $40$ teachers. $6$ cannot teach any of the three subjects, i.e. $\\text{EM, ES}$ or $\\text{TD}$. $6$ can teach only $\\text{ES}$. $4$ can teach all three subjects, i.e. $\\text{EM, ES}$ and $\\text{TD}$. $4$ can teach $\\text{ES}$ and $\\text{TD}$. How many can teach both $\\text{ES}$ and $\\text{EM}$ but not $\\text{TD}$?",
+  "options": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "A total of 11 teachers can teach ES.\n   Now the question says,\n   \n    6\n   \n   teachers can teach\n   \n    only ES\n   \n   so the number of teachers teaching both ES and EM has to be less than or equal to $(11-6)$ i.e.,\n   \n    5\n   \n   .\n  \n\n   Also,\n   \n    4\n   \n   teachers can teach\n   \n    all three subjects\n   \n   .\n   The question asks for the number of teachers who\n   \n    can teach ES and EM but not TD\n   \n   .\n   Subtract $4$ from the $5$ derived earlier.\n  \n\n    Ans 1.\n   \n   Option A",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40184/gate2015-ce-2-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8014",
+  "year": 2015,
+  "set": "1",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The probabilities that a student passes in mathematics, physics and chemistry are $m,p$ and $c$ respectively. Of these subjects, the student has $75\\%$ chance of passing in at least one, a $50\\%$ chance of passing in at least two and a $40\\%$ chance of passing in exactly two. Following relations are drawn in $m, p, c$:\n  \n\n    Only relation I is true.\n   \n\n    Only relation II is true.\n   \n\n    Relations II and III are true.\n   \n\n    Relations I and III are true.",
+  "options": [
+   "$p + m + c = 27/20$",
+   "$p + m + c = 13/20$",
+   "$(p) \\times (m) \\times (c) = 1/10$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Probability of non pass $= 1 - $ Probability of at least one pass $= 1 - 0.75 = 0.25$\n  $(1-m) (1-p) (1-c) = 0.25$\n  $(1 + mp - m -p) (1-c) = 0.25$\n  $1 + mp - m - p - c - mpc + mc + pc = 0.25$\n  $\\bf{m + p + c - mp - pc - mc + mpc = 0.75  \\quad \\to (1)}$\n  Probability of exactly $2$ pass $= 0.4$\n  $mp (1-c) + pc (1-m) + mc (1-p) = 0.4$\n  $mp + pc + mc - 3mpc = 0.4$\n  $\\bf{mp + pc + mc - 2mpc = 0.5 \\quad \\to (2)}$\n  (Adding the probability of all pass to probability of exactly $2$ pass gives probability of at least $2$ pass)\n  So, $\\bf{mpc = 0.1 \\quad \\to (3)}$\n  From $(2)$ and $(3),$\n  $\\bf{mp + pc + mc - mpc = 0.6 \\quad \\to(4)}$\n  From $(1)$ and $(4)$\n  $m + p + c  = 0.75 + 0.6$\n  $m + p + c  = 1.35 = 135/100 = 27/20$\n  So, D option\noption D is correct\n   \n\n   P(M) = m, P (p) = p, P(c) = c\n   ∵ The probability of at least one success\n   = P (M ∪ P ∪ C)\n   = m + p + c -mp - mc - pc + mcp = 3/4 ...(1)\n   The probability of at least two successes =\n   = mc(1 - p) + mp (1 - c ) + (1 - m )cp + mcp\n   = mc + mp + cp - 2mcp = 1/2\n   The probability of exactly two success\n   = mc(1 - p) + mp (1 - c ) +cp(1 - m )\n   = mc + mp + cp - 3 mcp = 2/5\n   (2) & (3) gives,\n   ⇒ mcp = 1/2 - 2/5 = 1/10\n   ∴ mc + mp + cp = 2/10 + 1/2 = 1/5 + 1/2 = 7/10\n   From (1),\n   m + p + c - 7/10 + 1/10 = 3/4\n   ⇒ m + p + c = 3/4 + 7/10 - 1/10 = 27/20\n   Thus, pmc = 1/10 is a true relation.\n[IMAGE:200]\n\n   Sum of all M+P+C circles is given to be 0.75..(1)\n  \n\n   Where each circle represents respective probability in passing.\n  \n\n   The probability of passing in at least 2=0.5\n  \n\n   The probability of passing in exactly 2=0.4\n  \n\n   Therefore the probability of passing in exactly 3=0.5-0.4=\n   \n    0.1=mpc\n   \n   .\n  \n\n   Now, Equation (1) can be restated as\n  \n\n   $p+m+c-(mp+pc+mc)+mpc=0.75$............(2)\n  \n\n   This is similar to\n  \n\n   $n(A \\cup B \\cup C)=n(A)+n(B)+n(C)-(n(A \\cap B)+n(B \\cap C)+n(C \\cap A))+n(A \\cap B \\cap C)$\n  \n\n   Now to get blue area, which counts to 0.4, you would have taken $mp+pc+mc$ and to this subtracted the red part($mpc=0.1$), thrice,\n  \n\n   hence to get mp+pc+mc, add $3 \\times 0.1$ to 0.4\n  \n\n   which gives\n  \n\n   $mp+pc+mc=0.7$\n  \n\n   plugging in values into (2) we get\n  \n\n   $p+m+c=1.35=\\frac{27}{20}$\n  \n\n   And $mpc=0.1=p(m \\cap p \\cap c)=p \\times m \\times c$(A student passing or failing in subject is independent event).\n  \n\n   So, III is true.\n  \n\n    Ans- (D)",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12113923258780952658",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/8014/gate-cse-2015-set-1-question-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8041",
+  "year": 2015,
+  "set": "2",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Out of the following $4$ sentences, select the most suitable sentence with respect to grammar and usage:",
+  "options": [
+   "Since the report lacked needed information, it was of no use to them.",
+   "The report was useless to them because there were no needed information in it.",
+   "Since the report did not contain the needed information, it was not real useful to them.",
+   "Since the report lacked needed information, it would not had been useful to them."
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer is (A)\n  \n\n   Correct versions of other $3:$\n  \n\n   B. The report was useless to them because there\n   \n    was\n   \n   no needed information in it.\n  \n\n   C. Since the report did not contain the needed information, it was not\n   \n    really\n   \n   useful to them.\n  \n\n   D. Since the report lacked needed information, it would not\n   \n    have\n   \n   been useful to them.\nBecause\n    \n    is used to focus on the cause of the action.\n   \n\n   e.g. Because\n   \n    my brother was ill\n   \n   ,I couldn't go for playing.\n  \n\n    Note:\n   \n   If emphasize the reason\n   \n    because\n   \n   will be used in the last.\n   e.g. He spoke quitely\n   \n    because\n   \n\n    he didn't want to hurt him.\n   \n\n     As/Since\n    \n    is used to focus on the result.\n   \n\n   e.g. Since I am hungry,\n   \n    I want to eat first.\n   \n\n    Note: Since\n   \n   is used to refer 'from that time'.\n  \n\n    As\n   \n   is used to refer '\n   \n    sameness\n   \n   '.\n  \n\n   e.g.\n   \n    I set up dinner\n   \n   as you are tired.\n  \n\n     For\n    \n    is used for poetic expression.\n   \n\n     Option B\n    \n    :\n   \n   ...there\n   \n    were\n   \n   was no needed information...\n  \n\n     Option C\n    \n    :\n   \n   adjective(real) is describing another adjective(useful) which is wrong.Adverb form(really) should be used.\n   \n\n     Option D:\n    \n\n   correct form is\n   \n    would not have been\n   \n   .It means you think in present that it's not useful if they used it in past.\nA is the answer\nb is the answer",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/8041/gate-cse-2015-set-2-question-ga-10",
   "source": "gateoverflow"
  },
  {
@@ -1766,6 +2855,32 @@
   "explanation": "In order traversal of key are always in ascending order.\n  \n\n   So, here I & IV th sequence  are in ascending order so Option\n   \n    A\n   \n   is Answer.\noption A is right .. chek for left root right rule\nSimply look for the sequences having ascending order, that's it!\n  You'll get the answer!",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/8129/gate-cse-2015-set-1-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "8389",
+  "year": 2015,
+  "set": "3",
+  "number": 10,
+  "section": "GA",
+  "type": "nat",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The exports and imports (in crores of $Rs$.) of a country from the year $2000$ to $2007$ are given in the following bar chart. In which year is the combined percentage increase in imports and exports the highest?\n  \n\n[IMAGE:0]",
+  "options": [],
+  "correctAnswer": [
+   "2006"
+  ],
+  "explanation": "Answer is $2006$\n  No need to do any calculations ,just observe the bar chart.\n  Here $\\%$ increase is asked, so just check for previous year & next year pair, where you can find maximum positive change.\n  Consider year $2006$.\n  Red Bar is above $3$ steps than $2005$ AND Blue Bar is $3$ steps more than $2005$, total $ = 3 + 3 = 6$, it's maximum.\nExports + Imports\n     \n\n      Increase\n     \n\n      % Increase = (Increase/Old_Value) * 100\n     \n\n      2000\n     \n\n      90\n     \n\n      -\n     \n\n      -\n     \n\n      2001\n     \n\n      110\n     \n\n      20\n     \n\n      22.22\n     \n\n      2002\n     \n\n      130\n     \n\n      20\n     \n\n      18.18\n     \n\n      2003\n     \n\n      130\n     \n\n      0\n     \n\n      0\n     \n\n      2004\n     \n\n      150\n     \n\n      20\n     \n\n      15.38\n     \n\n      2005\n     \n\n      160\n     \n\n      10\n     \n\n      6.66\n     \n\n      2006\n     \n\n      220\n     \n\n      60\n     \n\n      37.5\n     \n\n      2007\n     \n\n      230\n     \n\n      10\n     \n\n      4.54\n     \n\n   So, 2006.\nUsing Bar chart , calculating % increase in combined  import and export is highest in 2006.\n  in 2005 combined import and export is 160  (70+90)\n  in 2006 combined import and export is  220  (100+120)\n  so %increase is  [(220-160)/160]*100= (60/160)*100\n  =37.5%\n  Which is Highest increment in any other given year in bar graph.\nANSWER IS 2006",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=11375941555095175339",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/8389/gate-cse-2015-set-3-question-ga-10",
   "source": "gateoverflow"
  },
  {

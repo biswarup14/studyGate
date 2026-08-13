@@ -47,6 +47,110 @@
   "source": "gateoverflow"
  },
  {
+  "id": "312009",
+  "year": 2010,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which of the following options is the closest in meaning to the word below$:$\n  \n\n    Exhort",
+  "options": [
+   "urge",
+   "condemn",
+   "restrain",
+   "scold"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Exhort:\n   \n    to\n    \n     strongly\n    \n\n     encourage\n    \n    or\n    \n     try\n    \n    to\n    \n     persuade\n    \n    someone to do something\n   \n\n   Similar words are\n   \n    urging\n   \n   or\n   \n    persuading\n   \n\n   Option\n   \n    A\n   \n   should be the answer",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312009/gate2010-mn-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312020",
+  "year": 2010,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which of the following options is the closest in meaning to the word below$:$\n  \n\n    Ephemeral",
+  "options": [
+   "effeminate",
+   "ghostlike",
+   "soft",
+   "short-lived"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Ephemeral\n   \n   :- lasting for a very short time.\n  \n\n   So $short-lived$ is the most appropriate choice.\n  \n\n   $\\therefore$ Option D. $short-lived$ is the correct answer.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312020/gate2010-tf-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312010",
+  "year": 2010,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The question below consists of a pair of related words followed by four pairs of words$.$ Select the pair that best expresses the relation in the original pair$.$\n  \n\n    Preamble : Constitution",
+  "options": [
+   "amendment $:$ law",
+   "prologue $:$ play",
+   "episode $:$ serial",
+   "plot $:$ story"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Preamble is like an \"introductory\" passage for Constitution.\n  So, the similar pair will be \"prologue: play\" where prologue is a \"separate introductory part\" for the play.\n  Correct Option B.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312010/gate2010-mn-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312021",
+  "year": 2010,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The question below consists of a pair of related words followed by four pairs of words. Select the pair the best expresses the relation in the original pair$.$\n  \n\n    Erudition : Scholar",
+  "options": [
+   "steadfast $:$ mercurial",
+   "competence $:$ strict",
+   "skill $:$ craftsman",
+   "nurse $:$ doctor"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$\\text{Erudition}$ means $\\text{scholarship}$\n  So it is $\\text{scholarship}:\\text{Scholar}$  Scholar has scholarship.\n  $\\Rightarrow$ $\\text{steadfast} : \\text{mercurial}-$ there is no \"has a\" relationship.\n  $\\Rightarrow$ $\\text{competence} : \\text{strict}-$ there is no \"has a\" relationship.\n  $\\Rightarrow$ $\\text{nurse}:\\text{doctor}-$ there is no \"has a\" relationship.\n  $\\therefore$  $\\text{skill} : \\text{craftsman}$ Craftsman has skill $-$ is the most appropriate choice.\n  So, option C. $\\text{skill} : \\text{craftsman}$  is the correct answer.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312021/gate2010-tf-ga-2",
+  "source": "gateoverflow"
+ },
+ {
   "id": "1149",
   "year": 2010,
   "set": null,
@@ -70,6 +174,58 @@
   "explanation": "A relation consists of set of ordered pairs $(a,b)$. Here, $a$ can be chosen in $n$ ways and similarly, $b$ can be chosen in $n$ ways. So, totally $n^2$ possible ordered pairs are possible for a relation. Now each of these ordered pair can either be present in the relation or not- 2 possibilities for each of the $n^2$ pair. So, total number of possible relations =  $$2^{\\left(n^2\\right)}$$\n  \n\n   Now, for a relation $R$ to be reflexive, ordered pairs $\\left\\{(a,a) \\mid a \\in S \\right\\}$, must be present in $R$. i.e.; the relation set $R$ must have $n$ ordered pairs fixed. So, number of ordered pairs possible is $ n^2 - n$ and hence total number of reflexive relations is equal to $$ 2^{\\left(n^2-n\\right)}$$\n  \n\n   for $n=5$, answer will be, $2^{5^2-5}=2^{20}$\n  \n\n   Therefore,\n   \n    option C\n   \n   is correct\nThe number of reflexive relations =2^(n^2 - n) so option c is correct\nThe number of reflexive relations is given by $2^{n^{2}-n}$. The reasoning is not always very clear so here is the explanation:\n  \n\n    If the relation must be\n    \n     reflexive\n    \n    means we need to have all the self-pairs, e.g. (1,1) for all elements in the set. So choice for these is one as they\n    \n     have to be included, no matter what.\n    \n\n    Now come the other pairs left.\n    \n     These may or may not be included and it will not affect the overall reflexivity of the relation, as all self-pairs are already selected.\n    \n\n   So, total self-pairs = $n$, and remaining pairs = ${n^2}-n$ , which is total minus the self-pairs and the left pairs still have a choice.\n  \n\n   Hence total number of reflexive pairs =  $2^{n^{2}-n}$\n  \n\n   Substituting $n$=5 for this question we get $2^{20}$, which is\n   \n    option (C).\nA relation consists of set of ordered pairs (a,b).\n   \n\n    possible number of reflexive relations on a set of n elements=\n   \n\n    2^(n^2 - n)\n   \n\n    here n=5\n   \n\n    so answer is , 2^(5^2 - 5) =20",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/1149/gate-cse-2010-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312011",
+  "year": 2010,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the most appropriate word from the options given below to complete the following sentence$:$\n  \n\n   The committee wrote a _______ report$,$ extolling only the strengths of the proposal$.$",
+  "options": [
+   "reasonable",
+   "supportive",
+   "biased",
+   "fragmented"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Extol:\n   \n    to\n    \n     praise\n    \n    something or someone very much\n   \n\n   From the sentence it is clear that the report is not reasonable but\n   \n    biased\n   \n   .\n  \n\n   Option C should be answer",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312011/gate2010-mn-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312022",
+  "year": 2010,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the most appropriate word from the options given below to complete the following sentence:\n  \n\n   The two child norm with _______ for the violators will have significant implications for oar demographic profile$.$",
+  "options": [
+   "disincentives",
+   "incitements",
+   "restrictions",
+   "restraints"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "disincentives.\n  Basically disincentives means some sort of punishment for the people who will not follow the 2 child norm.\nThe most appropriate word to complete the sentence is:\n  \n\n   1. disincentives\n  \n\n   The completed sentence would read:\n  \n\n   \"The two child norm with disincentives for the violators will have significant implications for our demographic profile.\"\n  \n\n   In simple Indian English, it will mean something like this:\n  \n\n   \"This two-child rule, which punishes people who have more than two children, will greatly change how our country's population looks in the future.\"\n  \n\n   This option fits best because:\n  \n\n   1. \"Disincentives\" refers to penalties or disadvantages aimed at discouraging certain behaviors. In the context of a two-child policy, disincentives would be measures to discourage people from having more than two children.\n  \n\n   2. \"Incitements\" (option 2) means encouragements, which is the opposite of what a two-child policy would typically employ.\n  \n\n   3. \"Restrictions\" and \"restraints\" (options 3 and 4) are related concepts but less specific than \"disincentives\" in this context. While a two-child policy does involve restrictions, the sentence specifically refers to measures for those who violate the norm, making \"disincentives\" more precise.\n  \n\n   Therefore, \"disincentives\" is the most appropriate choice to complete the sentence accurately and coherently.\n  \n\n   **from the information given by\n   \n    Claude AI\n   \n   as it is or edited.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312022/gate2010-tf-ga-3",
   "source": "gateoverflow"
  },
  {
@@ -104,6 +260,58 @@
   "source": "gateoverflow"
  },
  {
+  "id": "312012",
+  "year": 2010,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the most appropriate word from the options given below to complete the following sentence$:$\n  \n\n   If the country has to achieve real prosperity, it is _______ that the fruits of progress reach all, and in equal measure$.$",
+  "options": [
+   "inevitable",
+   "contingent",
+   "oblivious",
+   "imperative"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "inevitable\n   \n   : certain to happen and unable to be avoided or prevented\n  \n\n    contingent:\n   \n   a group of people representing an organization or country, or a part of a military force\n  \n\n    oblivious:\n   \n   not conscious of something, especially what is happening around you\n  \n\n    imperative:\n   \n   extremely important or urgent\n  \n\n   option\n   \n    D\n   \n   should be answer",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312012/gate2010-mn-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312023",
+  "year": 2010,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the most appropriate word from the options given below to complete the following sentence$:$\n  \n\n   There is no fixed relation between food and famine$;$ famines can occur with or without a substantial _______ in food output$.$",
+  "options": [
+   "aberration",
+   "weakening",
+   "decline",
+   "deterioration"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "famine is acute shortage of food and as per the sentence we require a word meaning \"reduction in food output.\"\n  \"aberration\" means sharp change -- not necessarily a reduction.\n  \"weakening\" and \"deterioration\" must be followed by \"of\" than \"in\".\n  \"decline\" perfectly fits here.\n  Correct Option: C.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312023/gate2010-tf-ga-4",
+  "source": "gateoverflow"
+ },
+ {
   "id": "1151",
   "year": 2010,
   "set": null,
@@ -132,6 +340,63 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/1151/gate-cse-2010-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312013",
+  "year": 2010,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A person invest Rs.1000 at $10\\%$ annual compound interest for $2$ years$.$ At the end of two years, the whole amount is invested at an annual simple interest of $12\\%$ for $5$ years$.$ The total value of the investment finally is $:$",
+  "options": [
+   "$1776$",
+   "$1760$",
+   "$1920$",
+   "$1936$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Principle $(P) = Rs. 1000,$ Rate$(R) =10\\%,$ Time$(T) = 2$ years and compounded annually.\n  \n\n   Amount after $1^{st}$ year = $P + \\text{Interest} = 1000 + (10\\%\\text{ of } 1000) = 1000 +100 = Rs.1100.$\n  \n\n   Amount after $2^{nd}$ year = $P_{\\text{after}\\;1^{st}\\text{ year}} + \\text{Interest} = 1100 + (10\\%\\text{ of } 1100) = 1100 + 110 = Rs.1210.$\n  \n\n   We can also get the final amount using the compound interest formula $P\\left((1+\\frac{r}{100})^n\\right) = 1000 \\times (1+0.1)^2 = Rs. 1210$\n  \n\n   Now $P= Rs. 1210, R = 12\\%, T= 5$ years for SI.\n  \n\n   $SI = \\left ( \\frac{PRT}{100} \\right ) = \\left ( \\frac{1210\\times 12\\times 5}{100} \\right ) = 121\\times 6 = 726.$\n  \n\n   $Amount = P + SI = 1210 +726 = 1936.$\n  \n\n   $\\therefore$ Option D is the correct answer.\nCompound interest :\n   \n   $A=P\\left ( 1+\\dfrac{R}{100} \\right )^T$\n  \n\n   $\\underbrace{|......10...........|........10.........|}$\n  \n\n   $2 \\ years$\n  \n\n   $amount=1000\\left ( 1+\\dfrac{10}{100} \\right )^2=$\n   \n    $110\\times 11$\n   \n\n    Simple interest : $A=P\\left ( 1+\\dfrac{RT}{100} \\right )$\n   \n\n   $amount=$\n   \n    $110\\times 11$\n   \n   $\\left ( 1+\\dfrac{12\\times 5}{100} \\right )=1936$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312013/gate2010-mn-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312024",
+  "year": 2010,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the function $f(x)=\\max(7-x,x+3).$ In which range does $f$ take its minimum value$?$",
+  "options": [
+   "$-6\\leq x<-2$",
+   "$-2\\leq x<2$",
+   "$2\\leq x<6$",
+   "$6\\leq x<10$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$ y = f(x) = \\max\\left( 7-x,x+3\\right )\\rightarrow(1)$\n   We can draw the graph\n  \n\n[IMAGE:0]\n   To find the intersection point we can equate the two lines\n   $\\implies7-x=x+3$\n   $\\implies 2x = 4\\implies x = 2$\n   Put $x = 2 $ in equation $(1)$ and get $y = 5$\n   $\\implies$ Intersection point $(x,y)=(2,5)$\n  \n\n   Among the given options only option C range includes $2.$\n  \n\n   So, Correct answer is $(C).$\n$\\rightarrow $ If we try to decrease\n   \n    7-x\n   \n   to a minimum then\n   \n    x+3\n   \n   will increase and vice versa since x has opposite sign in both case.\n  \n\n   $\\rightarrow $ As a result the higher value among\n   \n    7-x\n   \n   and\n   \n    x+3\n   \n   will be selected.\n  \n\n   $\\rightarrow $ So in order to cancel this effect both values should become same at some point and that should be the required answer.\n  \n\n   $\\rightarrow $  7-x = x+3 => 2x = 4 => x=2.\n  \n\n   $\\because$ x=2 comes in the range  2≤\n   \n    x\n   \n   <6\n  \n\n   $\\therefore$ Option C is the correct answer.\n$f(x)=\\max(7-x,x+3)=\\frac{|7-x+x+3|+|7-x-x-3|}{2}=\\frac{|10|+|4-2x|}{2}=5+|2-x|\\\\ \\therefore f(x)=5+|x-2|$\n  \n\n   Now $f(x)$ will be minimum if $|x-2|$ is minimum.\n  \n\n   For the option\n   \n    A\n   \n   , it is $-6\\le x< -2 \\Rightarrow -8\\le x -2 < -4 \\space \\therefore |x-2| \\in (4,8] $\n  \n\n   For the option\n   \n    B\n   \n   , it is $-2\\le x< 2 \\Rightarrow -4\\le x -2 < 0 \\space \\therefore |x-2| \\in (0,4] $\n  \n\n   For the option\n   \n    C\n   \n   , it is $2\\le x< 6 \\Rightarrow 0\\le x -2 < 4 \\space \\therefore |x-2| \\in [0,4) $\n  \n\n   For the option\n   \n    D\n   \n   , it is $6\\le x< 10 \\Rightarrow 4\\le x -2 < 8 \\space \\therefore |x-2| \\in [4,8) $\n  \n\n   Clearly, for the option\n   \n    C\n   \n   , the value of $|x-2|$ is minimum as $|x-2| \\in [0,4)$. So the answer is\n   \n    C\n   \n   .",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12326093285285199311",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/312024/gate2010-tf-ga-5",
   "source": "gateoverflow"
  },
  {
@@ -170,6 +435,58 @@
   "source": "gateoverflow"
  },
  {
+  "id": "312015",
+  "year": 2010,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The ban on smoking in designated public places can save a large number of people from the well-known effects of environmental tobacco smoke. Passive smoking seriously impairs respiratory health. The ban rightly seeks to protect non-smokers from its ill effects.\n  \n\n   Which of the following statements best sums up the meaning of the above passage:",
+  "options": [
+   "Effects of environmental tobacco are well known.",
+   "The ban on smoking in public places protects the non-smokers.",
+   "Passive smoking is bad for health.",
+   "The ban on smoking in public places excludes passive smoking."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "\"The\n   \n    ban on smoking\n   \n   in designated public places can save a large number of people from the well-known effects of environmental tobacco smoke. Passive smoking seriously impairs respiratory health.\n   \n    The ban rightly seeks\n   \n   to protect non-smokers from its ill effects.\"\n  \n\n   Throughout the passage the main talk is about \"ban\". Though options A and C are mentioned in the passage, the main meaning of the passage is given by option B -- \"The ban on smoking in public places protects the non-smokers.\"\n  \n\n   Correct Option: B.\nOption C. is the right answer . This is because this passage tells us that passive smoking is bad for health and so the ban is justified in this statement only ..",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312015/gate2010-mn-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312025",
+  "year": 2010,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "It has taken fifty-six long and frustrating, years to turn bronze, into gold for India’s Olympics aspirations$.$ Beijing $2008$ marks a defining moment in India’s Olympic history$.$ From Delhi to Beijing is a long journey but one that our Olympians have undertaken with courage$.$\n  \n\n   Which of the following statement best sums up the meaning of the above passage$:$",
+  "options": [
+   "India’s participation in Olympics has been frustrating.",
+   "Beijing Olympics was a landmark in India’s Olympic history.",
+   "Our Olympians have undertaken a long journey to Beijing.",
+   "India’s bronze medal turned into gold at Beijing."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "The Answer to this is B) Beijing Olympics was a landmark in India’s Olympic history. , as we are talking about an achivement of our Olympic team , option D doesn't make much sense.\n  \n\n    Question paper :\n    \n     https://drive.google.com/file/d/1S86lYWNY1LBM_ymqnnAZiPRUFOE0SG6M/view\n    \n\n     Answer Key :\n     \n      https://drive.google.com/file/d/1bd-Ar9zTEclb4NsYDmCe26RwGEoQMGla/view\n     \n     Please check question number 61",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312025/gate2010-tf-ga-6",
+  "source": "gateoverflow"
+ },
+ {
   "id": "2178",
   "year": 2010,
   "set": null,
@@ -193,6 +510,58 @@
   "explanation": "There are $4\\ast 8 = 32$ DRAM chips to get $4\\;\\text{MB}$ from $1\\text{M} \\times \\text{1-bit}$ chips. Now, all chips can be refreshed in parallel so do all cells in a row. So, the total time for refresh will be number of rows times the refresh time\n   $= 1\\text{K} \\times 100$\n   $= 100 \\times 2^{10}$ nanoseconds\n   Reference:\n   \n    http://www.downloads.reactivemicro.com/Public/Electronics/DRAM/DRAM%20Refresh.pdf\n   \n\n   Correct Answer: $B$",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/2178/gate-cse-2010-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312016",
+  "year": 2010,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Given the sequence $A,B,B,C,C,C,D,D,D,D,\\ldots$ etc$.,$ that is one $A,$ two $B’s,$ three $C’s,$ four $D’s,$ five $E’s$ and so on, the $240^{th}$ letter in the sequence will be $:$",
+  "options": [
+   "$V$",
+   "$U$",
+   "$T$",
+   "$W$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Given Sequence is :\n  \n\n   $A,B,B,C,C,C,D,D,D,D,\\ldots$ etc.\n  \n\n   Here, each alphabet is repeated as many times as its position in the alphabetical order. $$\\begin{array}{|c|c|l|} \\hline \\textbf{Alphabet} & \\textbf{Position in} & \\textbf{Position in the Given Sequence}  \\\\& \\textbf{alphabetical order}&\\\\\\hline A & 1 & 1^{st}  \\\\\\hline  B & 2 & 2^{nd} \\text{ and }\\ \\ 3^{rd} \\\\\\hline C & 3 & 4^{th}, 5^{th} \\text{ and } \\ \\ 6^{th} \\\\\\hline D & 4 & 7^{th}, 8^{th}, 9^{th} \\text{ and } \\ \\ 10^{th}  \\\\\\hline \\ldots & \\ldots& \\ldots \\\\\\hline  \\text{Some Alphabet}  & n & \\left ( \\frac{n(n+1)}{2} - n+1 \\right ),\n   \\left ( \\frac{n(n+1)}{2} - n+2 \\right ),\\\\&&\\ldots,240^{th},\\ldots, \\left(\\frac{n.(n+1)}{2}\\right)\\\\\n   \\hline\n   \\end{array}$$ Here, $\\frac{n(n+1)}{2}$ is the last position in the given sequence for an alphabet whose position is $n$ in the alphabetical order. So, If we have to find an alphabet whose position is $i^{th}$ in the given sequence  and whose position is $n$ in the alphabetical order then we have to find smallest integer value of $n$ such that $\\frac{n(n+1)}{2} \\geqslant i$\n  \n\n   For example, if $i=5,$ it means we have to find alphabet whose position is $5^{th}$ in the given sequence, then we have to find minimum value of $n$ such that  $\\frac{n(n+1)}{2} \\geqslant 5$, So, minimum value of $n = 3$ means it will be alphabet $C.$\n  \n\n   Similarly, if $i=8$ means we have to find alphabet whose position is $8^{th}$ in the given sequence, then we have to find minimum value of $n$ such that  $\\frac{n(n+1)}{2} \\geqslant 8$, So, minimum value of $n = 4$ means it will be alphabet $D.$\n  \n\n   Now, in this question, we have to find\n   \n    smallest\n   \n   integer value of $n$ such that\n  \n\n   $\\quad\\frac{n(n+1)}{2}$ $\\geq$ $240$  $(\\because$ Sum of first $n$ natural numbers = $\\frac{n(n+1)}{2})$\n  \n\n   $\\quad \\Rightarrow n*(n+1)\\geq 480$\n  \n\n   Options given are $V, U, T, W.$ So, value of $n$ can be $22,21,20$ or $23.$\n  \n\n   $22*23 = 506$ $\\geq$ $480$ $\\Rightarrow$ $n= 22.$\n  \n\n   The $22^{nd}$ alphabet is $V.$\n  \n\n   $\\therefore$ Option $(A).$ $V$ is the correct answer.\n$A_1|B_2|B_3|C_4|C_5|C_6|D_7|D_8|D_9|D_{10}|E|E|E|E|E|......Z|Z|Z$\n  \n\n   $A :sum=1$\n  \n\n   $BB:sum=1+2=3$\n  \n\n   $CCC:sum=1+2+3=6$\n  \n\n   $DDDD:sum=1+2+3+4=10$\n  \n\n    The letter D occupies the $4^{th}$ position and it gives a sum of $10$ by $\\frac{n(n+1)}{2},$ means the last D will be the $10^{th}$ term and the first D will be the (10-4+1)=$7^{th}$ term.\n   \n\n   The letter $V$ occupies the $22^{nd}$ position\n  \n\n   $\\therefore$ the last $V$ will be the $\\frac{22\\times 23}{2} = 253^{rd}$ term\n  \n\n   The first $V$ will be the $253 - 22 + 1 = 232^{nd}$ term\n   $V$ lies b/w $232$ to $253$\n  \n\n    Similarly you can check for other options to.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312016/gate2010-mn-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312026",
+  "year": 2010,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the series $\\frac{1}{2}+\\frac{1}{3}-\\frac{1}{4}+\\frac{1}{8}+\\frac{1}{9}-\\frac{1}{16}+\\frac{1}{32}+\\frac{1}{27}-\\frac{1}{64}+\\ldots.$ The sum of the infinite series above is$:$",
+  "options": [
+   "$\\infty$",
+   "$\\frac{5}{6}$",
+   "$\\frac{1}{2}$",
+   "$0$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "We can observe that there is sum of two series.\n  $\\color{red}{\\left( \\;\\frac{(1)}{2} \\;+ \\;\\frac{(-1)}{2^2} \\;+ \\;\\frac{(1)}{2^3} \\;+ \\;\\frac{(-1)}{2^4} \\;+ \\;\\frac{(1)}{2^5} \\;+ \\;\\frac{(-1)}{2^6} \\;+ \\;\\frac{(1)}{2^7} \\;+\\ldots\\right)}$$ + \\color{magenta}{\\left( \\;\\frac{1}{3^1} \\;+\\;\\frac{1}{3^2} \\;+\\;\\frac{1}{3^3} \\;+\\;\\frac{1}{3^4} \\;+\\;\\frac{1}{3^5} \\;+\\ldots\\right) }$\n  Both parts are in G.P.\n  First series with $a = \\frac{1}{2}$ and $r = \\frac{(-1)}{2} \\implies$ infinite sum $= \\frac{a}{1-r} = \\frac{\\frac{1}{2}}{1-\\frac{(-1)}{2}} =\\frac{1}{3}$\n  Second series with $a = \\frac{1}{3}$ and $r = \\frac{(1)}{3} \\implies$ infinite sum $= \\frac{a}{1-r} = \\frac{\\frac{1}{3}}{1-\\frac{1}{3}} = \\frac{1}{2}$\n  Final Sum $=\\frac{1}{3} + \\frac{1}{2} = \\frac{5}{6}.$\n$\\frac{1}{2}$ + $\\frac{1}{3}$- $\\frac{1}{4}$ + $\\frac{1}{8}$ + $\\frac{1}{9}$ - $\\frac{1}{16}$ + $\\frac{1}{32}$ +$\\frac{1}{27}$ - $\\frac{1}{64}$....\n   $\\Rightarrow$ $\\frac{{\\color{Red} 1}}{{\\color{Red} 2}}$ + $\\frac{{\\color{Green} 1}}{{\\color{Green} 3}}$ - $\\frac{1}{4}$ + $\\frac{{\\color{Red} 1}}{{\\color{Red} 8}}$ + $\\frac{{\\color{Green} 1}}{{\\color{Green} 9}}$ - $\\frac{1}{16}$+ $\\frac{{\\color{Red} 1}}{{\\color{Red} 3 \\color{Red}2}}$ + $\\frac{{\\color{Green} 1}}{{\\color{Green} 2\\color{Green} 7}}$ - $\\frac{1}{64}$.....\n   $\\Rightarrow$ $\\frac{{\\color{Red} 1}}{{\\color{Red} 2}}$ + $\\frac{{\\color{Red} 1}}{{\\color{Red} 8}}$ + $\\frac{{\\color{Red} 1}}{{\\color{Red} 3 \\color{Red}2}}$ +... +$\\frac{{\\color{Green} 1}}{{\\color{Green} 3}}$+ $\\frac{{\\color{Green} 1}}{{\\color{Green} 9}}$+ $\\frac{{\\color{Green} 1}}{{\\color{Green} 2\\color{Green} 7}}$+...- $\\frac{1}{4}$- $\\frac{1}{16}$- $\\frac{1}{64}$-...\n   $\\Rightarrow$ $\\left ( \\frac{{\\color{Red} 1}}{{\\color{Red} {2^{1}}}}+ \\frac{{\\color{Red} 1}}{{\\color{Red}{ 2^{3}}}} + \\frac{{\\color{Red} 1}}{\\color{Red}{2^{5}}}+...\\right )$ + $\\left ( \\frac{{\\color{Green} 1}}{{\\color{Green} 3}}+ \\frac{{\\color{Green} 1}}{{\\color{Green} { 3^{2}}}}+ \\frac{{\\color{Green} 1}}{{\\color{Green}{ 3^{3}} }} +... \\right )$-$\\left (\\frac{1}{2^{2}}+ \\frac{1}{2^{4}}+\\frac{1}{2^{6}}+... \\right )$\n  \n\n   Hence the answer is the sum of 3 infinite G.P. series.\n  \n\n    Sum of infinite G.P. Series = $\\frac{a}{1-r}$\n   \n\n   $\\left ( \\frac{{\\color{Red} 1}}{{\\color{Red} {2^{1}}}}+ \\frac{{\\color{Red} 1}}{{\\color{Red}{ 2^{3}}}} + \\frac{{\\color{Red} 1}}{\\color{Red}{2^{5}}}+...\\right )$ = $\\frac{{\\color{Red} 1}}{{\\color{Red} 2}}\\left ( {\\color{Red} 1} + \\frac{{\\color{Red} 1}}{{\\color{Red} {2^{2}}}} + \\frac{{\\color{Red} 1}}{{\\color{Red} {2^{4}}}} + ...\\right )$ = $\\frac{{\\color{Red} 1}}{{\\color{Red} 2}}\\left ( \\frac{\\color{Red}1}{{\\color{Red} {1-\\frac{1}{4}}}} \\right )$ =$\\frac{{\\color{Red} 1}}{{\\color{Red} 2}} * \\frac{{\\color{Red} 4}}{{\\color{Red} 3}}$ = $\\frac{{\\color{Red} 2}}{{\\color{Red} 3}}$\n   $\\left ( \\frac{{\\color{Green} 1}}{{\\color{Green} 3}}+ \\frac{{\\color{Green} 1}}{{\\color{Green} { 3^{2}}}}+ \\frac{{\\color{Green} 1}}{{\\color{Green}{ 3^{3}} }}+... \\right )$ = $\\frac{{\\color{Green} 1}}{{\\color{Green} 3}} \\left ( {\\color{Green} 1}+ \\frac{{\\color{Green} 1}}{{\\color{Green} 3}} + \\frac{{\\color{Green} 1}}{{\\color{Green} {3^{2}}}} +...\\right )$ = $\\frac{{\\color{Green} 1}}{{\\color{Green} 3}} \\left ( \\frac{{\\color{Green} 1}}{{\\color{Green} {1 - \\frac{1}{3} }}} \\right )$ = $\\frac{{\\color{Green} 1}}{{\\color{Green} 3}} * \\frac{{\\color{Green} 3}}{{\\color{Green} 2}}$ = $\\frac{{\\color{Green} 1}}{{\\color{Green} 2}}$\n   $\\left (\\frac{1}{2^{2}}+ \\frac{1}{2^{4}}+\\frac{1}{2^{6}}+... \\right )$ = $\\frac{1}{4} \\left (1+ \\frac{1}{2^{2}}+\\frac{1}{2^{4}}+... \\right )$ = $\\frac{1}{4}\\left ( \\frac{1}{1-\\frac{1}{4}} \\right )$ = $\\frac{1}{4} * \\frac{4}{3}$ = $\\frac{1}{3}$\n  \n\n   $\\frac{{\\color{Red} 2}}{{\\color{Red} 3}} + \\frac{{\\color{Green} 1}}{{\\color{Green} 2}} - \\frac{1}{3}$ = $\\frac{{\\color{Red} 4 }+ {\\color{Green} 3} -2}{6}$ = $\\frac{5}{6}$\n   $\\therefore$ Option B   $\\frac{5}{6}$ is the right answer.\n$\\frac{1}{2}+\\frac{1}{3}-\\frac{1}{4}+\\frac{1}{8}+\\frac{1}{9}-\\frac{1}{16}+\\frac{1}{32}+...$\n  \n\n    = $\\frac{1}{2}-\\frac{1}{4}+\\frac{1}{8}-\\frac{1}{16}+\\frac{1}{32}-\\frac{1}{64}+\\frac{1}{32}+\\frac{1}{3}+\\frac{1}{9}...$\n    \n\n      =$\\frac{1}{4}+\\frac{1}{16}+\\frac{1}{64}+...+\\frac{1}{3}+\\frac{1}{9}+...$\n      \n\n        $\\frac{\\frac{1}{4}}{1-\\frac{1}{4}}$+$\\frac{\\frac{1}{3}}{1-\\frac{1}{3}}$\n        \n\n          =$\\frac{1}{4} \\times \\frac{4}{3} + \\frac{3}{2}\\times\\frac{1}{3}$\n          \n\n            =$\\frac{1}{3} + \\frac{1}{2}$= $\\frac{2}{6}+\\frac{3}{6}$=$\\frac{5}{6}$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312026/gate2010-tf-ga-7",
   "source": "gateoverflow"
  },
  {
@@ -224,6 +593,63 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/2179/gate-cse-2010-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312017",
+  "year": 2010,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the set of integers $\\{1,2,3,\\ldots,5000\\}.$ The number of integers that is divisible by neither $3$ nor $4$ is $:$",
+  "options": [
+   "$1668$",
+   "$2084$",
+   "$2500$",
+   "$2916$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$S = \\{1,2,3,\\ldots,4999,5000\\}$\n  \n\n   Let '\n   \n    A\n   \n   ' be the set of integers divisible by $3 \\implies A =\\{3,6,9,12,15,\\ldots,4998\\}$\n  \n\n   Let '\n   \n    B\n   \n   ' be the set of integers divisible by $4 \\implies B= \\{4,8,12,16,\\ldots,5000\\}$\n  \n\n   Let '\n   \n    C\n   \n   ' be the set of integers divisible by both $3$ and $4 \\implies C = \\{12,24,36,\\ldots,4992\\}$\n  \n\n   $|A| =  3+(n-1)3 = 4998  \\implies n = 4998/3 = 1666$\n  \n\n   $|B| = 4+(n-1)4 = 5000  \\implies n = 5000/4 = 1250$\n  \n\n   $|C| =12+(n-1)12 = 4992 \\implies n = 4992/12 = 416$\n  \n\n   Divisible by $3$ or $4:$  $\\{3,4,6,8\\dots 5000\\}$ : $|D|   =  |A| + |B| -|C|$\n  \n\n   $= 1666+1250-416$\n  \n\n   $= 2500$\n  \n\n   Number of integers that is divisible by neither $3$ nor $4$\n  \n\n   $= |S| - |D|$\n  \n\n   $= 5000-2500$\n  \n\n   $= 2500$\n  \n\n   So, C is the correct answer.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312017/gate2010-mn-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312027",
+  "year": 2010,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A gathering of $50$ linguists discovered that $4$ knew Kannada$,$ Telugu and Tamil$,$ $7$ knew only Telugu and Tamil $,$ $5$ knew only Kannada and Tamil $,$ $6$ knew only Telugu and Kannada$.$ If the number of linguists who knew Tamil is $24$ and those who knew Kannada is also $24,$ how many linguists knew only Telugu$?$",
+  "options": [
+   "$9$",
+   "$10$",
+   "$11$",
+   "$8$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Let  $K_a$ denote Kannada, $T_a$ denote Tamil and $T_e$ denote Telugu.\n  $n(K_a \\cup T_a \\cup T_e ) = n(K_a) + n(T_a) + n(T_e) - n(K_a \\cap T_a ) - n(K_a \\cap T_e ) - n(T_e \\cap T_a ) + n(K_a \\cap T_a \\cap T_e )$\n  $\\implies  50 = 24 +24 + n(T_e) - (5+4) - (6+4) - (7+4) + 4$\n  $\\implies  50 = 48 + n(T_e) - 26$\n  $\\implies n(T_e)  = 28.$\n  $\\therefore$ Number of people who know Telugu, $n(T_e) =28.$\n  Number of people who know only Telugu\n  $= n(T_e) - n(K_a \\cap T_e ) - n(T_e \\cap T_a ) + n(K_a \\cap T_a \\cap T_e )$\n  $= 28 -(6+4) -(7+4) +4$\n  $= 11$\n  Correct Option: C.\n[IMAGE:100]\n\n   Here the\n   \n    ONLY\n   \n   word used in question is important.\n  \n\n   $\\therefore$ Option $C.$ is correct.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3298851335828015704",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/312027/gate2010-tf-ga-8",
   "source": "gateoverflow"
  },
  {
@@ -262,6 +688,58 @@
   "source": "gateoverflow"
  },
  {
+  "id": "312018",
+  "year": 2010,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A positive integer $m$ in base $10$ when represented in base $2$ has the representation $p$ and in base $3$ has the representation $q.$ We get $p-q=990$ where the subtraction is done in base $10.$ Which of the following is necessarily true$?$",
+  "options": [
+   "$m\\geq 14$",
+   "$9\\leq m\\leq 13$",
+   "$6\\leq m\\leq 8$",
+   "$m<6$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$ p -q = 990 \\implies p = 1100, q = 110$\n  \n\n   In base $10$ subtraction we are getting result $990$. Since $p$ is in base $2$ it can have digits $0$ or $1$ only. And since $q$ is in base $3$ it can have digits $0,1,2$ only.\n  \n\n   We can get result digit $0$ by\n  \n\n    $0-0$\n   \n\n    $1-1$\n   \n\n   We can get result digit $9$ by\n  \n\n    $10 - 1$\n   \n\n    $11 - 2$\n   \n\n   So, possible values of $p$ and $q$ can be (their decimal values must be same too)\n  \n\n    $1100$ and $110$ $- 12$\n   \n\n    $1101$ and $111$ $-13$\n   \n\n   So, only matching option is Option B.\n$(m)_{10}$=$(p)_{2}$= $(q)_{3}$\n  \n\n   $\\because$  p is in base 2 $\\Rightarrow$ its digit can be only combination of 1 and 0.\n  \n\n   $\\because$  q is in base 3 $\\Rightarrow$ its digit can be only combination of 0,1 and 2.\n  \n\n   ----------------------------------------------------------------------------------------------------------\n  \n\n   $(p)_{10}$- $(q)_{10}$= $(990)_{10}$\n  \n\n   In this the last digit of p and q should be same in order to get 0.\n  \n\n   ---------------------------------------------------------------------------------------------------------------\n  \n\n     Option B\n    \n\n   9 $\\leq$ m $\\leq$ 13\n  \n\n   $(13)_{10}$=$(1101)_{2}$= $(111)_{3}$\n  \n\n   $\\because$ last digit of 1101 and 111 is same and 1101-111 = 990\n  \n\n   $\\therefore$This could be the answer.\n  \n\n   ---------------------------------------------------------------------------------------------------------------\n  \n\n     Option A\n    \n\n   m$\\geq$ 14\n  \n\n   $\\because$ m= 13 is satisfying\n  \n\n   $\\therefore$This could not be the answer.\n  \n\n   ---------------------------------------------------------------------------------------------------------------\n  \n\n     Option C\n    \n\n   6 $\\leq$ m $\\leq$ 8\n  \n\n   $(8)_{10}$=$(1000)_{2}$= $(22)_{3}$\n  \n\n   $\\because$ last digit of 1000 and 22 is not same this could not be the answer.\n  \n\n   $\\because$  the remaining numbers(m=6,7) when converted to p will be less than 1000 and would be a 3 digit number which would be combination of 1 and 0 so the difference will never be $\\geq$ 990 in this case.\n  \n\n   $\\therefore$ This will never be the answer.\n  \n\n   ---------------------------------------------------------------------------------------------------------------\n  \n\n     Option D\n    \n\n   m$<$6\n  \n\n   $\\because$  the remaining numbers(m<6) when converted to p will be less than 1000 and would be a 3 or 2 or 1 digit number which would be combination of 1 and 0 so the difference will never be $\\geq$ 990 in this case.\n  \n\n   $\\therefore$ This will never be the answer.\n  \n\n   ---------------------------------------------------------------------------------------------------------------\n  \n\n   $\\therefore$ Option B.  9 $\\leq$ m $\\leq$ 13 is the correct answer.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312018/gate2010-mn-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312028",
+  "year": 2010,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A tank has $100$ liters of water$.$ At the end of every hour, the following two operations are performed in sequence$:$ $i)$ water equal to $m\\%$ of the current contents of the tank is added to the tank $, ii)$ water equal to $n\\%$ of the current contents of the tank is removed from the tank$.$ At the end of $5$ hours, the tank contains exactly $100$ liters of water $.$ The relation between $m$ and $n$ is $:$",
+  "options": [
+   "$m=n$",
+   "$m>n$",
+   "$m<n$",
+   "None of the previous"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Initially the tank is having $100$ liters of water.\n  Every hour, the capacity changes as $C' = C \\left(1+\\frac{m}{100}\\right)\\left(1 - \\frac{n}{100}\\right)$\n  So, after $5$ hours we get $C ' = 100 = 100 \\left(1+\\frac{m}{100}\\right)^5\\left(1 - \\frac{n}{100}\\right)^5$\n  $\\implies \\left(1+\\frac{m}{100}\\right)^5\\left(1 - \\frac{n}{100}\\right)^5 = 1$\n  $\\implies \\left(1+\\frac{m}{100}\\right)\\left(1 - \\frac{n}{100}\\right) = 1$\n  $\\implies 1+\\frac{m}{100}-\\frac{n}{100} -\\frac{mn}{10000}= 1$\n  $\\implies100(m - n) = mn$\n  Since, $m,n > 0, m - n > 0 \\implies m > n.$\nNOTE :-\n  \n\n    Two operations are performed in sequence\n   \n   means than after adding m%, from that total amount n% is subtracted.\n  \n\n   --------------------------------------------------------------------------------------------------------------------------------------------\n  \n\n   Let the Amount in the tank at any point be 100 liters.\n  \n\n   (100 + m% of 100) - { n% of (100 + m% of 100) }\n  \n\n   $\\Rightarrow$$(100 + \\frac{m}{100} * 100$ ) - { $\\frac{n}{100} * (100 +  \\frac{m}{100} * 100$ ) }\n  \n\n   $\\Rightarrow$$(100 + m$ ) - { $n +  \\frac{nm}{100}$}\n  \n\n   $\\Rightarrow$ $100 + m - n - \\frac{nm}{100}$\n  \n\n   $\\therefore$\n   \n    $m - n - \\frac{nm}{100}$\n   \n   is the net increase or decrease in the original value.\n  \n\n   ------------------------------------------------------------------------------------------------------------------------------------------------\n  \n\n   If the net increase is 0 after each hour then the value will remain 100 liters after each iteration.\n  \n\n   $\\Rightarrow$ m - n - $\\frac{nm}{100}$ = 0\n  \n\n   $\\Rightarrow$ m - n = $\\frac{nm}{100}$\n  \n\n   $\\Rightarrow$ 100m - 100n = nm\n  \n\n   $\\Rightarrow$ 100m - 100n = positive number ($\\because$ n and m are positive numbers so n *m will also be positive)\n  \n\n   $\\Rightarrow$\n   \n    m>n.\n   \n\n   ------------------------------------------------------------------------------------------------------------------------------------------------\n  \n\n   $\\therefore$ Option $B.$ is the correct answer.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312028/gate2010-tf-ga-9",
+  "source": "gateoverflow"
+ },
+ {
   "id": "2183",
   "year": 2010,
   "set": null,
@@ -290,6 +768,58 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/2183/gate-cse-2010-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312019",
+  "year": 2010,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Given the following four functions $f_{1}(n)=n^{100},$  $f_{2}(n)=(1.2)^{n},$  $f_{3}(n)=2^{n/2},$ $f_{4}(n)=3^{n/3}$ which function will have the largest value for sufficiently large values of n $(i.e.$ $n\\rightarrow\\infty)?$",
+  "options": [
+   "$f_{4}$",
+   "$f_{3}$",
+   "$f_{2}$",
+   "$f_{1}$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "$f_{1}(n) = n^{100}$\n   \n\n    $f_{2}(n) = (1.2)^{n}$\n   \n\n    $f_{3}(n) = (2)^{n/2} = (1.414)^{n}$\n   \n\n    $f_{4}(n) = (3)^{n/3} = (1.442)^{n}$\n   \n\n   We know that $(1.442)^{n} > (1.414)^{n}$ and $(1.442)^{n} > (1.2)^{n}$\n  \n\n   $\\Rightarrow$$f_{4}(n)$ is greater than both $f_{2}(n)$ and $f_{3}(n)$\n  \n\n   Now we have to check between $f_{4}(n)$ and $f_{1}(n)$\n  \n\n   But $f_1(n)$ is a polynomial function and $f_4(n)$ is a exponential function. Any exponential function will have larger value than any polynomial function for sufficiently large value of input. So, $f_4(n)$ has the largest value here.\n  \n\n   Option A. $f_{4}(n)$ is the correct answer.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312019/gate2010-mn-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "312029",
+  "year": 2010,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A student is answering a multiple choice examination with $65$ questions with a marking scheme as follows$:$  $i)$ $1$ marks for each correct answer $,ii)$  $-\\frac{1}{4}$ for a wrong answer $,iii)$ $-\\frac{1}{8}$ for a question that has not been attempted$.$ If the student gets $37$ marks in the test then the least possible number of questions the student has NOT answered is$:$",
+  "options": [
+   "$6$",
+   "$5$",
+   "$7$",
+   "$4$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Let $n_c$ denote the number of correct answers and $n_w$ denote the number of wrong answers.\n  \n\n   Total marks $ = 1 \\times n_c -\\frac{1}{4} \\times n_w - \\frac{1}{8} \\times (65-(n_c+n_w))$\n  \n\n   It is given $37  = n_c -\\frac{1}{4} \\times n_w - \\frac{1}{8} \\times (65-(n_c+n_w))$\n  \n\n   $\\implies 37 = n_c  -\\frac{1}{4} \\times n_w-\\frac{65}{8} +\\frac{n_c}{8}+\\frac{n_w}{8}$\n  \n\n   $\\implies 45 +\\frac{1}{8} = n_c  +\\frac{n_c}{8}-\\frac{n_w}{8}$\n  \n\n   $\\implies 361 = 9n_c-{n_w}$\n  \n\n   To minimize the number of unanswered questions we have to maximize $n_c + n_w.$\n  \n\n   Possible values of $(n_c, n_w)$ are\n  \n\n    $(41,8)$\n   \n\n    $(42,17)$\n   \n\n    $(43,26) -$ not possible as $43+26 > 65.$\n   \n\n   So, maximum value of $n_c + n_w = 42+17 = 59.$\n  \n\n   So, minimum number of unanswered questions $ = 65-59 = 6.$\n  \n\n   Correct Option: A.\nAnswer\n   \n   is :\n   \n    A\n   \n\n   no. of correct Q = x\n  \n\n   no. of wrong Q = y\n  \n\n   no. of not attempted Q = z\n  \n\n   x+y+z = 65 ........(1)\n  \n\n   we need to find proper z\n  \n\n   1× x +((-1/4)×y) +((-1/8)×z)= 37 .......(2)\n  \n\n   now put value of z = 4 or 5 or 6 or 7  in  both equation until u got integer value of x , y .because you can correct e:g , 4 or 50 question . you can't correct 5.6  question.\n  \n\n   put z=4\n  \n\n   x+y=61\n  \n\n   x-(y/4)-1/2=37\n  \n\n   solve these and get x=42.2 ,y=18.8 not integer so  try z=5\n  \n\n   put z=5 same as above but not getting integer value\n  \n\n   now put z=6\n  \n\n   2x+2y=118\n  \n\n   8x-2y-6=296\n  \n\n   got x=42 ,y = 17 both are integers\n  \n\n   so, our answer will be 6 .\n65 questions of 1 marks each\n   \n\n    Student got 37 marks.\n   \n\n    Remaining marks = 65-37 = 28.\n   \n\n   --------------------------------------------------------------------------------------\n  \n\n   $\\Rightarrow$\n   \n    He has done at least 37 questions correctly.\n   \n\n   $\\Rightarrow$ He attempted some question incorrectly, left some questions and done some questions correctly in such a way that this\n   \n    remaining 28 marks became 0\n   \n   and thus he was able to get only 37 marks instead of getting 65 marks.\n  \n\n   ------------------------------------------------------------------------------------------------------------------------------------------------\n  \n\n     Option A\n    \n\n   unattempted =6.\n  \n\n   $\\Rightarrow$  28 -6 = 22 questions remain which are having 22 marks.\n  \n\n   $\\because$ 1 correct + 4 incorrect question = 0 marks\n  \n\n   $\\Rightarrow$ 4 correct question + 16 incorrect question = 0 marks\n  \n\n   $\\Rightarrow$\n   \n    20 question resulted in 0 marks and 2 questions remained.\n   \n\n   Out of these 2 question\n  \n\n   if 1 is correct and 1 is incorrect and also\n   \n    6 unattempted questions\n   \n   results in\n   \n    negative marking of -$\\frac{6}{8}$\n   \n\n   So 1*1 - 1*$\\frac{1}{4}$ -$\\frac{6}{8}$ =0\n  \n\n   Hence option A satisfies.\n  \n\n   --------------------------------------------------------------------------------------------------------------------------------------------------------------\n  \n\n     Option B\n    \n\n   unattempted = 5\n  \n\n   $\\Rightarrow$  28 -5 = 23 questions remain which are having 23 marks.\n  \n\n   $\\because$ 1 correct + 4 incorrect question = 0 marks\n  \n\n   $\\Rightarrow$ 4 correct question + 16 incorrect question = 0 marks\n  \n\n   $\\Rightarrow$\n   \n    20 question resulted in 0 marks and 3 questions remained.\n   \n\n   We cant divide these 3 questions such that their sum becomes 0\n  \n\n   Hence option B fails.\n  \n\n   --------------------------------------------------------------------------------------------------------------------------------------------------------------\n  \n\n     Option C\n    \n\n   unattempted = 7\n  \n\n   No need to check since we already have a value i.e. 7>5 and question is asking for minimum.\n  \n\n   --------------------------------------------------------------------------------------------------------------------------------------------------------------\n  \n\n     Option D\n    \n\n   unattempted = 4\n  \n\n   $\\Rightarrow$  28 -4 = 24 questions remain which are having 24 marks.\n  \n\n   $\\because$ 1 correct + 4 incorrect question = 0 marks\n  \n\n   $\\Rightarrow$ 4 correct question + 16 incorrect question = 0 marks\n  \n\n   $\\Rightarrow$\n   \n    20 question resulted in 0 marks and 4 questions remained.\n   \n\n   We cant divide these 4 questions such that their sum becomes 0.\n  \n\n   Hence option D fails.\n  \n\n   --------------------------------------------------------------------------------------------------------------------------------------------------------------\n  \n\n    $\\therefore$ Option A is the correct answer.\nTo furthur avoid predictions..\n  \n\n   Let ‘A’ denote the number of correct answers and ‘W’ denote the number of wrong answers and ‘N’ denotes the number of not  answered questions.\n  \n\n    A+W+N=65     (i)  and\n   \n\n    A-(W/4)-(N/8)=37  (ii)\n   \n\n   Substitute (i) in (ii)\n  \n\n   => (65-W-N)-(W/4)-(N/8)=37\n  \n\n   => (5W/4)+(9N/8)=28\n  \n\n   => 10W+9N=224\n  \n\n   Here W and N must be not be fractions and Unit place at ‘10W’ will be ‘0’\n  \n\n   Hence ‘9N’ unit place must be ‘4’    =>N=6,16,..\n  \n\n   But minimum N is required. Check for N=6; here W=17 and hence A=42\n  \n\n   All conditions satisfied.\n  \n\n   Ans\n   \n    A.6\nConsider, x number of questions answered correctly, y number of questions answered incorrectly. That leaves us with (65 – x – y) questions unattempted.\n  Total marks(M) = x – (y / 4) – (65 / 8) – (x / 8) – (y / 8) = 37                                                       (1)\n  We place in the values of z (number of questions unattempted), given in the question to get the equation\n  x + y = 65 – z                                                                                                                                         (2)\n  The value of z which leaves us with positive, integral values of x and y, when solved is the correct answer. In this case, it’s z = 6",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/312029/gate2010-tf-ga-10",
   "source": "gateoverflow"
  },
  {

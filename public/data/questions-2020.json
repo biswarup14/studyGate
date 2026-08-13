@@ -1,289 +1,5 @@
 [
  {
-  "id": "333231",
-  "year": 2020,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": 2,
-  "text": "The total revenue of a company during $2014-2018$ is shown in the bar graph. If the total expenditure of the company in each year is $500$ million rupees, then the aggregate profit or loss (in percentage) on the total expenditure of the company during $2014-2018$ is ___________.\n  \n\n[IMAGE:0]",
-  "options": [
-   "$16.67 \\%$ profit",
-   "$16.67 \\%$ loss",
-   "$20 \\%$ profit",
-   "$20 \\%$ loss"
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "Total expenditure during each year $= 500$ million rupees\n   Total expenditure for $5$ years $= 500 \\times 5 = 2500$ million rupees\n  \n\n    Revenue in $2014 = 500$ million rupees\n   \n\n    Revenue in $2015 = 700$ million rupees\n   \n\n    Revenue in $2016 = 800$ million rupees\n   \n\n    Revenue in $2017 = 600$ million rupees\n   \n\n    Revenue in $2018 = 400$ million rupees\n   \n\n   Total revenue $= 500+700+800+600+400 = 3000$ million rupees\n   Profit $= 3000-2500 = 500$ million rupees\n   Profit percentage $= \\left(\\frac{500}{2500} \\right) \\times 100 = 20 \\%.$\nANS. (C)\n  TOTAL PROFIT=(500+700+800+600+400)-2500=500\n  PERSENTAGE PROFIT=(500/2500)*100=20% PROFIT\nThe profit percentage is calculated as 20%.",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2056478950580878334",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/333231/gate-cse-2020-question-ga-10",
-  "source": "gateoverflow"
- },
- {
-  "id": "333232",
-  "year": 2020,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": 2,
-  "text": "Two straight lines are drawn perpendicular to each other in $X-Y$ plane. If $\\alpha$ and $\\beta$ are the acute angles the straight lines make with the $\\text{X-}$ axis, then $\\alpha + \\beta$ is ________.",
-  "options": [
-   "$60^{\\circ}$",
-   "$90^{\\circ}$",
-   "$120^{\\circ}$",
-   "$180^{\\circ}$"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "[IMAGE:0]\n\n   Here, we can clearly see that Two Lines $L_{1}$ and $L_{2}$ are intersecting each other at the right angle.\n  \n\n   Now we also know that in a triangle, the sum of three angles is\n  \n\n    $\\angle A + \\angle B + \\angle C=180^{\\circ}$\n   \n\n    $\\alpha +\\beta + 90^{\\circ}=180^{\\circ}$\n   \n\n    $\\alpha + \\beta = 90^{\\circ}$\n   \n\n   The answer is (B).\n[IMAGE:100]\n\n   L1 and L2 are two perpendicular lines(i.e. 90°).\n  \n\n   let say lines L1 and L2 are making acute angles with the x-axis i.e. α and y-axis i.e. β respectively.\n  \n\n   therefore, by Angle Sum Property of Triangles in the triangle with\n  \n\n   α+β+90° = 180°\n  \n\n   α+β = 90° .\n  \n\n   option B.\nas the two lines are perpendicular to each other so\n  90+a+b=180\n  or, a+b=180-90=90\n  ans..B\nstraight line make 180* with the x-axis\n  a+b+90=180\n  a+b=90",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=13361297874104118899",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16372138100611157099",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/333232/gate-cse-2020-question-ga-9",
-  "source": "gateoverflow"
- },
- {
-  "id": "333233",
-  "year": 2020,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": 2,
-  "text": "The figure below shows an annular ring with outer and inner as $b$ and $a$, respectively. The annular space has been painted in the form of blue colour circles touching the outer and inner periphery of annular space. If maximum $n$ number of circles can be painted, then the unpainted area available in annular space is _____.\n  \n\n[IMAGE:0]",
-  "options": [
-   "$\\pi [(b^{2}-a^{2})-\\frac{n}{4}(b-a)^{2}]$",
-   "$\\pi [(b^{2}-a^{2})-n(b-a)^{2}]$",
-   "$\\pi [(b^{2}-a^{2})+\\frac{n}{4}(b-a)^{2}]$",
-   "$\\pi [(b^{2}-a^{2})+n(b-a)^{2}]$"
-  ],
-  "correctAnswer": [
-   "A"
-  ],
-  "explanation": "Answer is Option (A)\n  \n\n   We need to find the area of the ring first.\n  \n\n    Area of Ring $=$ Area of Outer Circle $-$ Area of Inner Circle\n   \n\n   $\\qquad \\qquad \\quad =\\pi b^2 - \\pi a^2 = \\pi (b^2-a^2)$\n  \n\n   Now From this ring area we have to subtract the small\n   \n    '$n$'\n   \n   circles\n  \n\n    Area of $n$ Circles $ = (\\pi d^2/4) \\ast n = (\\pi (b-a)^2 /4)\\ast n$\n   \n\n    The Required Unpainted Area $=$\n   \n\n    Ring Area $-$\n   \n\n    Area of Small  '$n$' such Circles\n   \n\n   $\\qquad \\qquad \\quad =\\pi (b^2 - a^2) - (\\pi d^2/4)*n$\n  \n\n   $\\qquad \\qquad \\quad = \\pi [(b^2-a^2)- n/4(b-a)^2 ]$\nAnswer\n   \n    A\n   \n\n   Annular space = π($b^{2}$ - $a^{2}$)\n  \n\n   n blue color circle space =  n[π($(\\frac{b-a}{2})^{^{2}}$)]   { radious = $\\frac{b-a}{2}$ }\n  \n\n   then Unpented area in annular spase = π($b^{2}$ - $a^{2}$) - πn($(\\frac{b-a}{2})^{^{2}}$)\n  \n\n   = π[($b^{2}$ - $a^{2}$) - $\\frac{n}{4}$$(b-a)^{2}$]",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=13557054936011439434",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/333233/gate-cse-2020-question-ga-8",
-  "source": "gateoverflow"
- },
- {
-  "id": "333234",
-  "year": 2020,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Logical & Analytical Reasoning",
-  "difficulty": "medium",
-  "marks": 2,
-  "text": "If $P = 3$, $R = 27$, $T = 243$, then $Q + S =$ ________",
-  "options": [
-   "$40$",
-   "$80$",
-   "$90$",
-   "$110$"
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "We can interpret the given order as:\n  \n\n    $P\\to 3^1= 3$\n   \n\n    $Q\\to3^2= 9$\n   \n\n    $R\\to3^3=27$\n   \n\n    $S\\to3^4=81$\n   \n\n    $T\\to3^5=243$\n   \n\n   $Q+S\\to 9+81=90$\n  \n\n    Hence Option (C) is correct\nAlphabetical order : P, Q, R, S, T\n  given that, P = 3\n  R=27\n  T = 343\n  by observing them, those are in GP with r = 3\n  So, Q=9, S=81\n  S+Q = 81+9=90\nQ=3^2=9\n  s=3^4=81\n  Q+S=81+9=90\nC\n   \n   is the right answer.\n  \n\n   Here given that P = 3 = 3^1\n  \n\n   also R = 27 = 3^3\n  \n\n   and T = 243 = 3^5\n  \n\n   now according to the sequence we clearly say that the value of Q is 3^2 = 9 and the value of S is 3^4 = 81\n  \n\n   Now P + Q = 9 + 81 = 90                     Ans.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/333234/gate-cse-2020-question-ga-7",
-  "source": "gateoverflow"
- },
- {
-  "id": "333235",
-  "year": 2020,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": 2,
-  "text": "Goods and Services Tax (GST) is an indirect tax introduced in India in $2017$ that is imposed on the supply of goods and services, and it subsumes all indirect taxes except few. It is a destination-based tax imposed on goods and services used, and it is not imposed at the point of origin from where goods come. GST also has a few components specific to state governments, central government  and Union Territories (UTs).\n  \n\n   Which one of the following statements can be inferred from the given passage?",
-  "options": [
-   "GST is imposed on the production of goods and services.",
-   "GST includes all indirect taxes.",
-   "GST does not have a component specific to UT.",
-   "GST is imposed at the point of usage of goods and services."
-  ],
-  "correctAnswer": [
-   "D"
-  ],
-  "explanation": "Let us look at some important points given in the paragraph\n  \n\n    GST is imposed on\n    \n     supply\n    \n    of goods and services\n   \n\n    It subsumes all indirect taxes\n    \n     except few\n    \n\n    It is a\n    \n     destination\n    \n    based tax implied\n    \n     on goods used\n    \n\n    It is not imposed at point of origin from where good comes\n   \n\n    GST also has\n    \n     few components specific to\n    \n    state government , central government and\n    \n     union territories\n    \n\n   Now we can eliminate the options based on above points\n  \n\n   A. GST is imposed on production of goods and services\n  \n\n   It is\n   \n    FALSE\n   \n   due to point $1$. To make it correct, in place of\n   \n    production\n   \n   it should be\n   \n    supply\n   \n\n   B. GST includes all indirect taxes.\n  \n\n   It is\n   \n    FALSE\n   \n   due to point $2$ due to\n   \n    except few\n   \n   words\n  \n\n   C. GST does not have component specific to UT\n  \n\n   It is\n   \n    FALSE\n   \n   due to point $5$ since it has few components specific to UT.\n  \n\n   D. GST is imposed at point of usage of goods and services.\n  \n\n   It is\n   \n    TRUE\n   \n   due to point $3$. we can relate\n   \n    point of usage\n   \n   to\n   \n    goods used at destination\n   \n\n   Hence Option $D$ is the correct option.\nOption D\n  \n\n   A. It imposed on\n   \n    usage\n   \n   (supply) of goods and services not on production so option A wrong\n  \n\n   GST include all indirect taxes\n   \n    except\n   \n   few So option B wrong\n  \n\n   It has few components specific central,state and UT government so option c eliminated\n  \n\n   Word usage make option D correct.\nOption A is\n   \n    false\n   \n   because:\n  \n\n    It is a destination-based tax imposed on goods and services used, and\n    \n     it is not imposed at the point of origin\n    \n    from where goods come.\n   \n\n   Option B is\n   \n    false\n   \n   because:\n  \n\n    Goods and Services Tax (GST) is an indirect tax\n   \n\n   which clearly says GST itself is an indirect tax, and it does not mean GST includes all indirect tax.\n  \n\n   Option C is\n   \n    false\n   \n   because:\n  \n\n    GST also has a few components specific to state governments, central government  and Union Territories (UTs)\n   \n\n   GST does have a component specific to UT.\n  \n\n   Option D is\n   \n    true\n   \n   because:\n  \n\n    It is a destination-based tax imposed on goods and services used, and it is not imposed at the point of origin from where goods come.\n   \n\n   which implies, it is imposed at the point of usage. Meaning, GST is imposed at the place where the goods and services is being used/consumed.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/333235/gate-cse-2020-question-ga-6",
-  "source": "gateoverflow"
- },
- {
-  "id": "333236",
-  "year": 2020,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": 1,
-  "text": "There are multiple routes to reach from node $1$ to node $2$, as shown in the network.\n  \n\n[IMAGE:0]\n\n   The cost of travel on an edge between two nodes is given in rupees. Nodes $\\text{‘}a\\text{’}, \\text{‘}b\\text{’}, \\text{‘}c\\text{’}, \\text{‘}d\\text{’}, \\text{‘}e\\text{’},$ and $\\text{‘}f\\text{’}$ are toll booths. The toll price at toll booths marked $\\text{‘}a\\text{’}$ and $\\text{‘}e\\text{’}$ is Rs. $200$, and is Rs. $100$ for the other toll booths. Which is the cheapest route from node $1$ to node $2$?",
-  "options": [
-   "$1-a-c-2$",
-   "$1-f-b-2$",
-   "$1-b-2$",
-   "$1-f-e-2$"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "$A) 1-a-c-2 :$\n   \n\n    $1-a = 200$\n   \n\n    Tax at $a =200$\n   \n\n    $a-c = 100$\n   \n\n    Tax at $c = 100$\n   \n\n    $c-2 : 100$\n   \n\n    Total $= 200+200+100+100+100 = 700$\n   \n\n    $B) 1-f-b-2 :$\n   \n\n    $1-f = 100$\n   \n\n    Tax at $f =100$\n   \n\n    $f-b = 0$\n   \n\n    Tax at $b = 100$\n   \n\n    $b-2 : 200$\n   \n\n    Total $= 100+100+0+100+200 = 500$\n   \n\n    $C) 1-b-2 :$\n   \n\n    $1-b = 300$\n   \n\n    Tax at $b = 100$\n   \n\n    $b-2 : 200$\n   \n\n    Total $= 300+100+200 = 600$\n   \n\n    $D) 1-f-e-2 :$\n   \n\n    $1-f = 100$\n   \n\n    Tax at $f =100$\n   \n\n    $f-e = 100$\n   \n\n    Tax at $e = 200$\n   \n\n    $e-2 : 200$\n   \n\n    Total $= 100+100+100+200+200 = 700$\n   \n\n    Cheapest route $= 1-f-b-2$\n   \n\n    Correct Option: B",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=9099010399282735374",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/333236/gate-cse-2020-question-ga-5",
-  "source": "gateoverflow"
- },
- {
-  "id": "333237",
-  "year": 2020,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": 1,
-  "text": "The dawn of the $21$st century witnessed the melting glaciers oscillating between giving too much and too little to billions of people who depend on them for fresh water. The UN climate report estimates that without deep cuts to man-made emissions, at least $30\\%$ of the northern hemisphere’s surface permafrost could melt by the end of the century. Given this situation of imminent global exodus of billions of people displaced by rising seas, nation-states need to rethink their carbon footprint for political concerns, if not for environmental ones.\n  \n\n   Which one of the following statements can be inferred from the given passage?",
-  "options": [
-   "Nation-states do not have environmental concerns.",
-   "Nation-states are responsible for providing fresh water to billions of people.",
-   "Billions of people are responsible for man-made emissions.",
-   "Billions of people are affected by melting glaciers."
-  ],
-  "correctAnswer": [
-   "D"
-  ],
-  "explanation": "Nation-states do not have environmental concerns.\n    The only statement in the given passage referring to nation-states is “nation-states need to rethink their carbon footprint”. But this does not imply that nation-states do not have environmental concerns.\n   \n\n    Nation-states are responsible for providing fresh water to billions of people.\n    Like the previous statement this is also not said anywhere in the given passage\n   \n\n    Billions of people are responsible for man-made emissions.\n    ”nation-states need to rethink their carbon footprint” – means nation-states are responsible for man-made emissions but it does not mean “billions of people” – could be a few hundreds or thousands.\n   \n\n    Billions of people are affected by melting glaciers.\n    ”situation of\n    \n     imminent global exodus of billions of people\n    \n    displaced by\n    \n     rising seas\n    \n    ” clearly implies this.\n   \n\n   Correct option: D.\nThe first lines in the passage tells about how melting glacier affects the water supply for various people.Also, it is being predicted that billions of people will be displaced by rising sea levels.Clealry, billions of people are affected by melting glaciers and the\n   \n    Answer here is (D)\nD.\n  \n\n   Options A, B completely eliminated because there's no clue given that they provide fresh water and concern about environment or not\n  \n\n   In option C\n   \n    billions\n   \n   of people are responsible for man made emissions not given in passage\n  \n\n   Option D clearly explaining second last line of passage",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/333237/gate-cse-2020-question-ga-4",
-  "source": "gateoverflow"
- },
- {
-  "id": "333238",
-  "year": 2020,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": 1,
-  "text": "Select the word that fits the analogy:\n  \n\n   Cook : Cook :: Fly : _______",
-  "options": [
-   "Flyer",
-   "Flying",
-   "Flew",
-   "Flighter"
-  ],
-  "correctAnswer": [
-   "A"
-  ],
-  "explanation": "Correct Option: A. Flyer.\n  Relation here is Verb: Noun. One who cooks is a cook and one who flies any aircraft is a flyer.\nCook : Cook :: Fly : _______\n  The correct answer is Option A: Flyer.\n  As, a person who Cook's is a Cook and they cook.\n  Similarly, someone who flys is a Flyer and they fly.\n  Option D is the misleading option.\n  Option C is the past tense of fly, but the corresponding word is cook, so is incorrect\n  Option B is the present continuous of fly.\n  Hence Option A is the correct answer.\nAnswer is Flyer\n  \n\n    The relationship is Cook who cooks the food and flyer fly the plane\noption A will be correct because Flyer is verb",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/333238/gate-cse-2020-question-ga-3",
-  "source": "gateoverflow"
- },
- {
-  "id": "333239",
-  "year": 2020,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": 1,
-  "text": "His knowledge of the subject was excellent but his classroom performance was_______.",
-  "options": [
-   "extremely poor",
-   "good",
-   "desirable",
-   "praiseworthy"
-  ],
-  "correctAnswer": [
-   "A"
-  ],
-  "explanation": "A. Extremely poor\n  Conjunctions like although, however, but, though, in spite of, despite etc. create contrast between two parts of a sentence.\n  Here, the person has an $\\underbrace{\\text{excellent knowledge}}_{\\text{positive}}$ of subject but his performance was $\\underbrace{\\text{extremely poor}}_{\\text{negative}}.$\nA. Extremely poor (the sentence before but and after but should be opposite in meaning).\nA. Extremely poor. As here conjunction used is\n   \n    BUT\n   \n   which is used to connect ideas that contrast.\nA. Extremely poor as but means sense of opposite meaning .\nBecause of the conjunction \"but\" used here we should look for the\n   \n    inverse\n   \n   relation i.e.\n   \n\n     Extremely Poor\nBUT is conjunction which is use to show negetive part in sentence therefore option A will be correct",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/333239/gate-cse-2020-question-ga-2",
-  "source": "gateoverflow"
- },
- {
-  "id": "333240",
-  "year": 2020,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": 1,
-  "text": "Raman is confident of speaking English _______six months as he has been practising regularly_______the last three weeks",
-  "options": [
-   "during, for",
-   "for, since",
-   "for, in",
-   "within, for"
-  ],
-  "correctAnswer": [
-   "D"
-  ],
-  "explanation": "'within'\n   \n   is used to state that something will occur in a specified time period.\n   The second blank is interesting with respect to\n   \n    for\n   \n   vs\n   \n    since\n   \n   .\n   The preposition 'for' is used with a period of time specifying\n   \n    the length of time\n   \n   (two years, one week, etc)  whereas 'since' is used to refer to a time period\n   \n    from a specific point in time\n   \n   (last year, $2010,$ etc)\n   First blank itself is sufficient to eliminate all incorrect options.\n   Correct option is D.\nRaman is confident of speaking English_______six months as he has been practicing regularly_______the last three weeks.\n  \n\n    Option D is the correct answer. As it makes complete sense when filled in the blanks.\n    \n\n      The sentence goes as:\n      \n\n        Raman is confident of speaking English within six months as he has been practicing regularly for the last three weeks.\nd. within, for\n  \n\n    when we read question its sounds in the past tense so by that you can get the idea of  the right answer\nRaman is confident of speaking English _within______six months as he has been practising regularly__for_____the last three weeks\n  \n\n    within, for",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/333240/gate-cse-2020-question-ga-1",
-  "source": "gateoverflow"
- },
- {
   "id": "333230",
   "year": 2020,
   "set": null,
@@ -306,6 +22,214 @@
   "explanation": "Answer A. III Only   (i.e. $\\sqrt{x^3 + 1}$ )\n  \n\n    Explanation\n   \n\n   Decreasing/Increasing nature of a function can be determined by observing the first derivative of equations in given domain.\n  \n\n   If the derivative is positive in given domain,\n   \n    It is increasing,\n   \n   else a negative value indicates\n   \n    it is decreasing.\n   \n\n   Now testing one by one\n  \n\n   I. $e^{-x}$\n  \n\n   Here, $\\frac{\\mathrm{d} }{\\mathrm{d} x}e^{-x} = -e^{-x}$\n  \n\n   This\n   \n    will remain negative in entire domain [0,1] hence decreasing\n   \n   .\n  \n\n   II. $x^{2} - \\sin(x)$\n  \n\n   Here, $\\frac{\\mathrm{d} }{\\mathrm{d} x}(x^{2} - \\sin(x)) = 2x - \\cos(x)$\n  \n\n    Here the switch happens!\n   \n   Observe $2x - \\cos(x)$ is negative for $x=0$ (i.e. = -1) and positive at $x=1$ (i.e. = ~1.4596977). Though we can find the exact point where it switches but that's not required here.\n   \n    We can confirm that till some point in the domain [0,1], this function decreases and then increases.\n   \n\n    III.\n   \n   $\\sqrt{x^3 + 1}$\n  \n\n   Here, (Though this one is intuitive), $\\frac{\\mathrm{d} }{\\mathrm{d} x}\\sqrt{x^3 + 1} = \\frac{3x^{2}}{2\\sqrt{x^3+1}}$   This\n   \n    will remain positive throughout [0,1] and hence will be increasing.\nA. 3 only .\n  1. e^-x is popular decreasing function.\n  2. if you will put 0.5 ( used virtual calculator) you will get some -ve value in x^2 - sinx . at 0 function value is 0 at 0.5 it is -ve it means not increasing function.\n  3. very easy to tell increasing function.\nIII Only.\n  Increasing fun means:For all values of x within the domain of the fun,\n  Increasing in x will result increasing in f(x)\n  &&\n  Dcreasing in x will result decreasing in f(x).\n  Now,for option I,\n  x=0----->f(x)=1;x=1----->f(x)=0.368\n  [Increasing x does not result increasing f(x)]\n  For option II,\n  X=0----->f(x)=0;x=0.5----->f(x)=0.25-sin(180*0.5/3.14)=-0.22\n  [Increasing x does not result increasing f(x)]\n  Note that value of x is in radian,so u have converted in degree to use it inside sin function.\n  For option III,\n  Clearly f(x) increases/decreases whenever u increase/decrease x within [0,1].",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/333230/gate-cse-2020-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "333240",
+  "year": 2020,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": 1,
+  "text": "Raman is confident of speaking English _______six months as he has been practising regularly_______the last three weeks",
+  "options": [
+   "during, for",
+   "for, since",
+   "for, in",
+   "within, for"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "'within'\n   \n   is used to state that something will occur in a specified time period.\n   The second blank is interesting with respect to\n   \n    for\n   \n   vs\n   \n    since\n   \n   .\n   The preposition 'for' is used with a period of time specifying\n   \n    the length of time\n   \n   (two years, one week, etc)  whereas 'since' is used to refer to a time period\n   \n    from a specific point in time\n   \n   (last year, $2010,$ etc)\n   First blank itself is sufficient to eliminate all incorrect options.\n   Correct option is D.\nRaman is confident of speaking English_______six months as he has been practicing regularly_______the last three weeks.\n  \n\n    Option D is the correct answer. As it makes complete sense when filled in the blanks.\n    \n\n      The sentence goes as:\n      \n\n        Raman is confident of speaking English within six months as he has been practicing regularly for the last three weeks.\nd. within, for\n  \n\n    when we read question its sounds in the past tense so by that you can get the idea of  the right answer\nRaman is confident of speaking English _within______six months as he has been practising regularly__for_____the last three weeks\n  \n\n    within, for",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/333240/gate-cse-2020-question-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359536",
+  "year": 2020,
+  "set": "1",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "He is known for his unscrupulous ways. He always sheds ________tears to deceive people.",
+  "options": [
+   "fox’s",
+   "crocodile’s",
+   "crocodile",
+   "fox"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Crocodile tears (or superficial sympathy) is a false, insincere display of emotion such as a hypocrite crying fake tears of grief.\n  So, the correct answer is $(C).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359536/gate-mechanical-2020-set-1-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359557",
+  "year": 2020,
+  "set": "2",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "While I agree _____ his proposal this time, I do not often agree ______ him.",
+  "options": [
+   "to, with",
+   "with, to",
+   "with, with",
+   "to, to"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "\"agree\n   \n    with\n   \n   \" is used for referring to agreeing with a\n   \n    person\n   \n\n   \"agree\n   \n    to\n   \n   \" is used for referring to agreeing with a\n   \n    non-person\n   \n\n   Correct option: A.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359557/gate-mechanical-2020-set-2-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359733",
+  "year": 2020,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "This book, including all its chapters, _______interesting. The students as well as the instructor _______ in agreement about it.",
+  "options": [
+   "is, was",
+   "are, are",
+   "is, are",
+   "were, was"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "is, are\n   \n\n    ‘is’ because “this book” is singular\n   \n\n    ‘are’ because for “as well as” the verb should agree with the noun preceding “as well as” which here is “the students”.\nis,are",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359733/gate-electrical-2020-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359783",
+  "year": 2020,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The untimely loss of life is a cause of serious global concern as thousands of people get killed ____ accidents every year while many other die ____ diseases like cardio vascular disease, cancer, etc.",
+  "options": [
+   "in, of",
+   "from, of",
+   "during, from",
+   "from, from"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "option A –\n   \n    in, of\n   \n\n   die\n   \n    of\n   \n   diseases and die\n   \n    from\n   \n   diseases both are correct but in case of accidents you can only use\n   \n    in\n   \n   i.e. killed\n   \n\n     in\n    \n\n   accidents\nFor the first part,\n  \n\n   1. \"\n   \n    Many people get killed during accidents\n   \n   .\"\n   - This sentence suggests that the deaths occur in the midst of accidents,\n   \n    emphasizing the timing\n   \n   of the fatalities.\n  \n\n   2. \"\n   \n    Many people get killed in accidents\n   \n   .\"\n   - This sentence indicates that the\n   \n    deaths occur as a result of accidents, without specifying exactly when\n   \n   during the accidents they occur.\n  \n\n    Both expressions are grammatically correct\n   \n   however, they convey slightly different meanings, and the choice between them depends on the specific emphasis you want to convey. However,\n   \n    \"Many people get killed in accidents.\" is the more commonly used\n   \n   and straightforward phrasing to communicate that accidents are the cause of the fatalities.\n  \n\n   For the next part,\n  \n\n   Both \"\n   \n    die of diseases\n   \n   \" and \"\n   \n    die from diseases\n   \n   \"\n   \n    are considered correct in standard English\n   \n   , and they can be used interchangeably.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359783/gate-ece-2020-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359826",
+  "year": 2020,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Rajiv Gandhi Khel Ratna Award was conferred ______ Mary Kom, a six-time world champion in boxing, recently in a ceremony _____ the Rashtrapati Bhawan (the President’s official residence) in New Delhi.",
+  "options": [
+   "with, at",
+   "on, in",
+   "on, at",
+   "to, at"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Conferred is\n   \n    followed by on/upon\n   \n\n   ceremony\n   \n    at\n   \n   the Rashtrapati Bhavan is correct. “at” is used when a specific location is given. Otherwise “in” can be used like “ceremony in New Delhi”.\n  \n\n   Correct Option: C\nOption: C\n  \n\n   (on, at ) is correct.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359826/gate-chemical-2020-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359846",
+  "year": 2020,
+  "set": "2",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Rescue teams deployed _______disaster hit areas combat_______a lot of difficulties to save the people.",
+  "options": [
+   "with, at",
+   "in, with",
+   "with, with",
+   "to, to"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "“deployed” means to “spread out” and deployed\n   \n    in\n   \n   disaster hit areas is the correct usage.\n  \n\n   “combat” means “fight” and combat\n   \n    with\n   \n   is the right usage.\n  \n\n   Correct option: B",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359846/gate-civil-2020-set-2-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359868",
+  "year": 2020,
+  "set": "1",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "It is a common criticism that most of the academicians live in their ________ , so, they are not aware of their real life challenges.",
+  "options": [
+   "homes",
+   "ivory towers",
+   "glass palaces",
+   "big flats"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Living in\n   \n    ivory towers\n   \n   is a metamorphic term used to denote living in own world and cut of from the rest of world.\n  \n\n   Correct option: B\nB- ivory towers",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359868/gate-civil-2020-set-1-ga-question-1",
   "source": "gateoverflow"
  },
  {
@@ -335,6 +259,214 @@
   "source": "gateoverflow"
  },
  {
+  "id": "333239",
+  "year": 2020,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": 1,
+  "text": "His knowledge of the subject was excellent but his classroom performance was_______.",
+  "options": [
+   "extremely poor",
+   "good",
+   "desirable",
+   "praiseworthy"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "A. Extremely poor\n  Conjunctions like although, however, but, though, in spite of, despite etc. create contrast between two parts of a sentence.\n  Here, the person has an $\\underbrace{\\text{excellent knowledge}}_{\\text{positive}}$ of subject but his performance was $\\underbrace{\\text{extremely poor}}_{\\text{negative}}.$\nA. Extremely poor (the sentence before but and after but should be opposite in meaning).\nA. Extremely poor. As here conjunction used is\n   \n    BUT\n   \n   which is used to connect ideas that contrast.\nA. Extremely poor as but means sense of opposite meaning .\nBecause of the conjunction \"but\" used here we should look for the\n   \n    inverse\n   \n   relation i.e.\n   \n\n     Extremely Poor\nBUT is conjunction which is use to show negetive part in sentence therefore option A will be correct",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/333239/gate-cse-2020-question-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359534",
+  "year": 2020,
+  "set": "1",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Jofra Archer, the England fast bowler, is _______than accurate.",
+  "options": [
+   "more fast",
+   "faster",
+   "less fast",
+   "more faster"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Due to “than” we need a comparative form here. But options A, B and C are comparative forms while option D is wrong usage as “faster” itself is comparative and so “more faster” is needless.\n  \n\n   Now we have to see what is being compared. The comparison is with “accurate.” So, it should be either “more fast” or “less fast”. Since “accuracy” is a positive point, it should be “more fast” as “more fast” is expected to be better from a “fast bowler”.\n  \n\n   PS: The following usage is correct because there we are comparing Archer with Bumrah.\n  \n\n   Jofra Archer, the England fast bowler, is\n   \n    faster\n   \n   than Bumrah.\n  \n\n   Correct Answer: A.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359534/gate-mechanical-2020-set-1-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359555",
+  "year": 2020,
+  "set": "2",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The recent measures to improve the output would ______ the level of production to our satisfaction",
+  "options": [
+   "increase",
+   "decrease",
+   "speed",
+   "equalise"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Measures are for improving the output. So, level of production is expected to “increase”.\n  Correct option: A.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359555/gate-mechanical-2020-set-2-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359730",
+  "year": 2020,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "People were prohibited_____their vehicles near the entrance of the main administrative building.",
+  "options": [
+   "to park",
+   "from parking",
+   "parking",
+   "to have parked"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "“prohibited” means “banned” or “stopped” and should be followed by “from”.\n  Correct option: B.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359730/gate-electrical-2020-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359780",
+  "year": 2020,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "He was not only accused of theft _____ of conspiracy.",
+  "options": [
+   "rather",
+   "but also",
+   "but even",
+   "rather than"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Option B. but also.\n  \n\n    Not only / but also\n   \n   is a common usage.\nOption\n   \n    B. but also\ndetailed analysis of each option:\n  \n\n    \"rather\"  -  This option is incorrect. \"Rather\" is typically used to indicate preference or as an alternative. It doesn't fit the parallel structure needed in this sentence.\n   \n\n    \"but also\"  -  This is the correct option. \"Not only... but also\" is a correlative conjunction pair used to emphasize two related ideas or elements. It maintains parallel structure and adds emphasis to both parts of the sentence. This construction is commonly used to show that two things are true or important simultaneously.\n   \n\n    \"but even\"  -  While this option uses \"but,\" which is on the right track, \"but even\" is not a standard correlative conjunction. \"Even\" is typically used to emphasize something unexpected or extreme, but it doesn't pair correctly with \"not only\" in this context.\n   \n\n    \"rather than\"  -  \"Rather than\" is used for comparing alternatives or showing preference, typically in the structure \"A rather than B.\" It doesn't work here because the sentence is not comparing theft and conspiracy as alternatives, but stating that both accusations exist.\n   \n\n   Grammatical analysis: The sentence requires a correlative conjunction to link two parallel elements: \"accused of theft\" and \"of conspiracy.\" The \"not only\" in the first part of the sentence demands a corresponding conjunction to complete the thought.\n  \n\n   Semantic analysis: The meaning of the sentence is to convey that the person faced two serious accusations simultaneously. Using \"but also\" emphasizes the gravity of the situation by highlighting that both charges exist, not just one.\n  \n\n   **from the information given by\n   \n    Claude AI\n   \n   as it is or edited.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359780/gate-ece-2020-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359824",
+  "year": 2020,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Despite a string of poor performances, the chances of $K.L.$ Rahul’s selection in the team are ________",
+  "options": [
+   "slim",
+   "bright",
+   "obvious",
+   "uncertain"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Despite\n   \n   a string of\n   \n    poor performances\n   \n   ,\n  \n\n    poor performance should reduce chances of selection. But “despite” being used, chances of selection must be “high”.\n   \n\n   Correct choice B. bright",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359824/gate-chemical-2020-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359844",
+  "year": 2020,
+  "set": "2",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Select the most appropriate word that can replace the underlined word without changing the meaning of the sentence:\n  \n\n   Now-a-days, most children have a tendency to\n   \n    belittle\n   \n   the legitimate concerns of their parents.",
+  "options": [
+   "disparage",
+   "applaud",
+   "reduce",
+   "begrudge"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "disparage\n    \n    : regard or represent as being of little worth\n   \n\n     applaud\n    \n    : show approval or praise by clapping\n   \n\n     reduce\n    \n\n     begrudge\n    \n    : envy (someone) the possession or enjoyment of (something)\n   \n\n   Option A is the only suitable option.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359844/gate-civil-2020-set-2-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359866",
+  "year": 2020,
+  "set": "1",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "His hunger for reading is insatiable. He reads indiscriminately. He is most certainly a/an ______ reader.",
+  "options": [
+   "all-round",
+   "precocious",
+   "voracious",
+   "wise"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "The given sentences imply that he has\n   \n    great enthusiasm\n   \n   for reading. So, “voracious” is the most appropriate word here.\n  \n\n    Voracious:\n   \n   engaging in an activity with great eagerness or enthusiasm.\n  \n\n   Correct option: C\n  \n\n    Precocious:\n   \n   having developed certain abilities or inclinations at an earlier age than is usual or expected.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359866/gate-civil-2020-set-1-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
   "id": "333228",
   "year": 2020,
   "set": null,
@@ -358,6 +490,214 @@
   "explanation": "Answer : C\n  \n\n   I is true\n  \n\n    The\n    \n     daisy\n    \n    -\n    \n     chaining\n    \n    method of establishing\n    \n     priority\n    \n    consists of a serial connection of all devices that request an interrupt. The device with the highest\n    \n     priority\n    \n    is placed in the first position, followed by lower-\n    \n     priority\n    \n    devices up to the device with the lowest\n    \n     priority\n    \n    , which is placed last in the\n    \n     chain\n    \n    .\n   \n\n   II. is false\n  \n\n    Vectored interrupts are achieved by assigning each interrupting device a unique code, typically four to eight bits in length. When a device interrupts, it sends its unique code over the data bus to the processor, telling the processor which interrupt service routine to execute.\n   \n\n   III. is true\n  \n\n    The process of\n    \n     periodically checking status bits\n    \n    to see if it is time for the next I/O operation, is called\n    \n     polling\n    \n    .\n    \n     Polling\n    \n    is the simplest way for an I/O device to communicate with the processor the processor.\n   \n\n   IV. is false\n  \n\n    Since CPU release bus only after getting request from DMA and get after DMA release the BUS.\nPolling vs interrupt\n  Interrupts are asynchronous and triggered by external devices. The CPU does not need to actively check the status bits in this case.\n  Instead, the device signals the CPU via an interrupt line (e.g., INTR) when it needs attention.\n  The CPU acknowledges the interrupt after completing the current instruction and services the interrupt using an Interrupt Service Routine (ISR).\n  Polling:\n  In polling, the CPU actively checks the status bits of I/O devices to determine if they need attention.\n  Example: The CPU might repeatedly read a device's status register to see if a flag (like \"data ready\") is set.\n  So,polling is done from cpu side to check whether an io device needs attention.\n  Interrupt is generated by an io device to indicate the CPU's attention required.\n  Options\n  1.True. Daisy chaining is a method of assigning priorities to devices in a chain. The device closer to the CPU in the chain has higher priority, as it gets the interrupt acknowledgment signal first.\n  2.false. a vectored interrupt, the interrupting device provides a unique vector (address of the interrupt service routine) directly to the CPU. Polling is not required.Polling is not required in the typical case of vectored interrupts, even with multiple interrupt sources. However, in certain scenarios where multiple vectored interrupts occur simultaneously, the need for polling might arise.(When it is difficult for CPU to identify which device interrupted it.)\n  3.True. Polling involves the CPU actively checking the status registers of devices to see if they need service.\n  4.False. During DMA (Direct Memory Access), the CPU relinquishes control of the bus to the DMA controller. Only one device can be the bus master at a time to prevent bus contention.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/333228/gate-cse-2020-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "333238",
+  "year": 2020,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": 1,
+  "text": "Select the word that fits the analogy:\n  \n\n   Cook : Cook :: Fly : _______",
+  "options": [
+   "Flyer",
+   "Flying",
+   "Flew",
+   "Flighter"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Correct Option: A. Flyer.\n  Relation here is Verb: Noun. One who cooks is a cook and one who flies any aircraft is a flyer.\nCook : Cook :: Fly : _______\n  The correct answer is Option A: Flyer.\n  As, a person who Cook's is a Cook and they cook.\n  Similarly, someone who flys is a Flyer and they fly.\n  Option D is the misleading option.\n  Option C is the past tense of fly, but the corresponding word is cook, so is incorrect\n  Option B is the present continuous of fly.\n  Hence Option A is the correct answer.\nAnswer is Flyer\n  \n\n    The relationship is Cook who cooks the food and flyer fly the plane\noption A will be correct because Flyer is verb",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/333238/gate-cse-2020-question-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359532",
+  "year": 2020,
+  "set": "1",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Select the word that fits the analogy:\n  \n\n   Build : Building :: Grow : ________",
+  "options": [
+   "Grown",
+   "Grew",
+   "Growth",
+   "Growed"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "“building” is the “noun” related to the verb “build”.\n  Similarly, “growth” is the noun related to the verb “grow”.\n  Correct Answer: C.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359532/gate-mechanical-2020-set-1-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359553",
+  "year": 2020,
+  "set": "2",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Select the word that fits the analogy:\n  \n\n   White: Whitening : : Light : _________",
+  "options": [
+   "Lightning",
+   "Lightening",
+   "Lighting",
+   "Enlightening"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Whitening making a thing white.\n  Lightening makes a thing light.\n  Correct option: B.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359553/gate-mechanical-2020-set-2-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359728",
+  "year": 2020,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Select the word that fits the analogy:\n  \n\n   Do : Undo :: Trust : ______",
+  "options": [
+   "Entrust",
+   "Intrust",
+   "Distrust",
+   "Untrust"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Ans. C\n   \n\n   this is analogy question – a comparison of two otherwise unlike things based on resemblance of a particular aspect\n  \n\n    Do\n   \n   is verb and\n   \n    Undo\n   \n   is used as its opposite term\n  \n\n    Trust\n   \n   opposite is\n   \n    distrust. (or mistrust)\n   \n\n    Entrust\n   \n   – put (something) into someone's care or protection.\n  \n\n    Intrust\n   \n   – archaic spelling of entrust.\n  \n\n    Untrust\n   \n   (wrong word)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359728/gate-electrical-2020-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359778",
+  "year": 2020,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Select the word that fits the analogy:\n  \n\n   Explicit: Implicit :: Express: _______",
+  "options": [
+   "Impress",
+   "Repress",
+   "Compress",
+   "Suppress"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Option\n   \n    B. Repress\n   \n\n   repress is used in the context of\n   \n    hold something back\n   \n   mostly in sociological or psychological contexts.\n  \n\n   whereas suppress is used in the context of\n   \n    force something to stop\n   \n   .\n  \n\n   e.g. You\n   \n    repress\n   \n   a smile, but your medicine\n   \n    suppresses\n   \n   your cold.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359778/gate-ece-2020-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359822",
+  "year": 2020,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Select the word that fits the analogy:\n  \n\n   $\\text{Cover : Uncover :: Associate :}$ _______",
+  "options": [
+   "Unassociate",
+   "Inassociate",
+   "Misassociate",
+   "Dissociate"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Uncover is the antonym of Cover. Dissociate is the antonym of Associate.\n  Correct Option: D.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359822/gate-chemical-2020-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359842",
+  "year": 2020,
+  "set": "2",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Select the word that fits the analogy:\n  \n\n   Partial : Impartial :: Popular: _______",
+  "options": [
+   "Impopular",
+   "Dispopular",
+   "Mispopular",
+   "Unpopular"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "The analogy here is of antonym.\n  \n\n    Partial $\\times$ Impartial\n   \n\n    Popular $\\times$ Unpopular\n   \n\n   Correct option: D.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359842/gate-civil-2020-set-2-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359864",
+  "year": 2020,
+  "set": "1",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Select the word that fits the analogy:\n  \n\n   Fuse : Fusion :: Use :  ______",
+  "options": [
+   "Usage",
+   "User",
+   "Uses",
+   "Usion"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Fusion is the\n   \n    noun form\n   \n   of Fuse.\n  \n\n   Usage is the\n   \n    noun form\n   \n   of Use.\n  \n\n   Correct option: A",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359864/gate-civil-2020-set-1-ga-question-3",
   "source": "gateoverflow"
  },
  {
@@ -397,6 +737,231 @@
   "source": "gateoverflow"
  },
  {
+  "id": "333237",
+  "year": 2020,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": 1,
+  "text": "The dawn of the $21$st century witnessed the melting glaciers oscillating between giving too much and too little to billions of people who depend on them for fresh water. The UN climate report estimates that without deep cuts to man-made emissions, at least $30\\%$ of the northern hemisphere’s surface permafrost could melt by the end of the century. Given this situation of imminent global exodus of billions of people displaced by rising seas, nation-states need to rethink their carbon footprint for political concerns, if not for environmental ones.\n  \n\n   Which one of the following statements can be inferred from the given passage?",
+  "options": [
+   "Nation-states do not have environmental concerns.",
+   "Nation-states are responsible for providing fresh water to billions of people.",
+   "Billions of people are responsible for man-made emissions.",
+   "Billions of people are affected by melting glaciers."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Nation-states do not have environmental concerns.\n    The only statement in the given passage referring to nation-states is “nation-states need to rethink their carbon footprint”. But this does not imply that nation-states do not have environmental concerns.\n   \n\n    Nation-states are responsible for providing fresh water to billions of people.\n    Like the previous statement this is also not said anywhere in the given passage\n   \n\n    Billions of people are responsible for man-made emissions.\n    ”nation-states need to rethink their carbon footprint” – means nation-states are responsible for man-made emissions but it does not mean “billions of people” – could be a few hundreds or thousands.\n   \n\n    Billions of people are affected by melting glaciers.\n    ”situation of\n    \n     imminent global exodus of billions of people\n    \n    displaced by\n    \n     rising seas\n    \n    ” clearly implies this.\n   \n\n   Correct option: D.\nThe first lines in the passage tells about how melting glacier affects the water supply for various people.Also, it is being predicted that billions of people will be displaced by rising sea levels.Clealry, billions of people are affected by melting glaciers and the\n   \n    Answer here is (D)\nD.\n  \n\n   Options A, B completely eliminated because there's no clue given that they provide fresh water and concern about environment or not\n  \n\n   In option C\n   \n    billions\n   \n   of people are responsible for man made emissions not given in passage\n  \n\n   Option D clearly explaining second last line of passage",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/333237/gate-cse-2020-question-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359530",
+  "year": 2020,
+  "set": "1",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "I do not think you know the case well enough to have opinions. Having said that, I agree with your other point.\n  \n\n   What does the phrase “having said that” mean in the given text?",
+  "options": [
+   "as opposed to what I have said",
+   "despite what I have said",
+   "in addition to what I have said",
+   "contrary to what I have said"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "I do not think you know the case well enough to have opinions.\n  \n\n    So, I’m not expected to agree to your opinions.\n   \n\n   Having said that, I agree with your other point.\n  \n\n    So, “having said that” is “not contradicting” but “adding something extra” which is “not in agreement” with the previous statement. “despite what I have said” is the correct meaning.\n   \n\n   Correct Answer: B.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359530/gate-mechanical-2020-set-1-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359550",
+  "year": 2020,
+  "set": "2",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In one of the greatest innings ever seen in $142$ years of Test history, Ben Stokes upped the tempo in a five-and-a-half hour long stay of $219$ balls including $11$ fours and $8$ sixes that saw him finish on a $135$ not out as England squared the five-match series.\n  \n\n   Based on their connotations in the given passage, which one of the following meanings DOES NOT match?",
+  "options": [
+   "upped = increased",
+   "squared = lost",
+   "tempo = enthusiasm",
+   "saw = resulted in"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Option B: squared = lost does not match.\n  Based on the given passage all other three usages are apt. The usage “squared” (earlier was behind) should mean that the series was tied after this match – either $1-1$ or $2-2,$ meaning the current match was won.\nsquared = lost",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359550/gate-mechanical-2020-set-2-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359726",
+  "year": 2020,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Stock markets _______ at the news of the coup.",
+  "options": [
+   "poised",
+   "plunged",
+   "plugged",
+   "probed"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Ans B\n   \n   .\n  \n\n    poised\n   \n   – having a composed and self-assured manner. Having self-confidence.\n  \n\n    Eg.\n   \n   economic times | Aug 12, 2020, Are domestic stocks\n   \n\n     poised\n    \n\n   for a fall from the cliff?\n  \n\n   thepienews, India “poised” to be largest student source market.\n  \n\n    plunged\n   \n   – fall suddenly and uncontrollably. to move or fall suddenly forward, down, or into something\n  \n\n   CNBC | AUG 12, 2020, UK enters recession after GDP\n   \n\n     plunged\n    \n\n   by a record 20.4% in the second quarter.\n  \n\n   Hindustan Times |  Aug 12, 2020, 1 dead as SUV\n   \n\n     plunges into\n    \n\n   gorge in Uttarakhand, monsoon mayhem blights state.\n  \n\n    plugged\n   \n   – block or fill in (a hole or cavity)\n  \n\n   Times of India | Aug 9, 2020, Government: Gaps in data will be\n   \n\n     plugged\n    \n    .\n   \n\n    probed\n   \n   – physically explore or examine (something) with the hands or an instrument.\n  \n\n   Business Standard |  Aug 9, 2020, Expert who\n   \n\n     probed\n    \n\n   Mangalore crash lists likely reasons for Kozhikode mishap.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359726/gate-electrical-2020-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359775",
+  "year": 2020,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The Canadian constitution requires that equal importance be given to English and French. Last year, Air Canada lost a lawsuit, and had to pay a six-figure fine to a French-speaking couple after they filed complaints about formal in-flight announcements in English lasting $15$ seconds, as opposed to informal $5$ second messages in French.\n  \n\n   The French-speaking couple were upset at _______.",
+  "options": [
+   "the in-flight announcements being made in English.",
+   "the English announcements being clearer than the French ones.",
+   "the English announcements being longer than the French ones.",
+   "equal importance being given to English and French."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "French-speaking couple after they filed complaints about formal in-flight announcements in English lasting\n    \n     15 seconds\n    \n    , as opposed to informal\n    \n     5 second\n    \n    messages in French\n   \n\n   This clearly shows that the French couple were upset that the English announcements were longer than the French.\n  \n\n   Correct option: C\nOption\n   \n    C. the English announcements being longer than the French ones.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359775/gate-ece-2020-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359820",
+  "year": 2020,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Hit by floods, the kharif (summer sown) crops in various parts of the country have been affected. Officials believe that the loss in production of the kharif crops can be recovered in the output of the rabi (winter sown) crops so that the country can achieve its food-grain production target of $291$ million tons in the crop year $2019-20$ (July – June). They are hopeful that good rains in July-August will help the soil retain moisture for a longer period, helping winter sown crops such as wheat and pulses during the November-February period.\n  \n\n   Which of the following statements can be inferred from the given passage?",
+  "options": [
+   "Officials declared that the food-grain production target will be met due to good rains.",
+   "Officials want the food-grain production target to be met by the November-February period.",
+   "Officials feel that the food-grain production target cannot be met due to floods.",
+   "Officials hope that the food-grain production target will be met due to a good rabi produce."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "“Officials\n   \n    believe\n   \n   that the loss in production of the kharif crops can be recovered in the\n   \n    output of the rabi\n   \n   (winter sown) crops so that the country can\n   \n    achieve its food-grain production target\n   \n   of $291$ million tons”.\n  \n\n   So, option D should be the answer.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359820/gate-chemical-2020-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359840",
+  "year": 2020,
+  "set": "2",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "After the inauguration of the new building, the Head of the Department (HoD) collated faculty preferences for office space. $P$ wanted a room adjacent to the lab. $Q$ wanted to be close to the lift. $R$ wanted a view of the playground and $S$ wanted a corner office.\n  \n\n   Assuming that everyone was satisfied, which among the following shows a possible allocation?",
+  "options": [
+   "[IMAGE:0]",
+   "[IMAGE:1]",
+   "[IMAGE:2]",
+   "[IMAGE:3]"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Lets number the given requirements\n  \n\n    $P$ wanted a room adjacent to the lab.\n   \n\n    $Q$ wanted to be close to the lift.\n   \n\n    $R$ wanted a view of the playground and\n   \n\n    $S$ wanted a corner office.\n   \n\n    Option A\n    Requirement numbered $2$ is not satisfied.\n   \n\n    Option B\n    Requirements numbered $1,2$ are not satisfied.\n   \n\n    Option C\n    All requirements are satisfied.\n   \n\n    Option D\n    Requirement numbered $4$ is not satisfied.\n   \n\n   Correct option: C",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=12994826472665787141",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=3073225362889325706",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=8732166395648817053",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=365129322080711205",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359840/gate-civil-2020-set-2-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359861",
+  "year": 2020,
+  "set": "1",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "If $0,1,2,\\dots,7,8,9$ are coded as $O,P,Q,\\dots,V,W,X$, then $45$ will be coded as  ______.",
+  "options": [
+   "$TS$",
+   "$ST$",
+   "$SS$",
+   "$SU$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Given that, $0 = O,1 = P,2 = Q,3 = R,4 = S,5 = T,6 = U, \\ldots $\n  $\\therefore 45$ we can be coded as $ST.$\n  So, the correct answer is $(B).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359861/gate-civil-2020-set-1-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
   "id": "333226",
   "year": 2020,
   "set": null,
@@ -428,6 +993,234 @@
   "source": "gateoverflow"
  },
  {
+  "id": "333236",
+  "year": 2020,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": 1,
+  "text": "There are multiple routes to reach from node $1$ to node $2$, as shown in the network.\n  \n\n[IMAGE:0]\n\n   The cost of travel on an edge between two nodes is given in rupees. Nodes $\\text{‘}a\\text{’}, \\text{‘}b\\text{’}, \\text{‘}c\\text{’}, \\text{‘}d\\text{’}, \\text{‘}e\\text{’},$ and $\\text{‘}f\\text{’}$ are toll booths. The toll price at toll booths marked $\\text{‘}a\\text{’}$ and $\\text{‘}e\\text{’}$ is Rs. $200$, and is Rs. $100$ for the other toll booths. Which is the cheapest route from node $1$ to node $2$?",
+  "options": [
+   "$1-a-c-2$",
+   "$1-f-b-2$",
+   "$1-b-2$",
+   "$1-f-e-2$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$A) 1-a-c-2 :$\n   \n\n    $1-a = 200$\n   \n\n    Tax at $a =200$\n   \n\n    $a-c = 100$\n   \n\n    Tax at $c = 100$\n   \n\n    $c-2 : 100$\n   \n\n    Total $= 200+200+100+100+100 = 700$\n   \n\n    $B) 1-f-b-2 :$\n   \n\n    $1-f = 100$\n   \n\n    Tax at $f =100$\n   \n\n    $f-b = 0$\n   \n\n    Tax at $b = 100$\n   \n\n    $b-2 : 200$\n   \n\n    Total $= 100+100+0+100+200 = 500$\n   \n\n    $C) 1-b-2 :$\n   \n\n    $1-b = 300$\n   \n\n    Tax at $b = 100$\n   \n\n    $b-2 : 200$\n   \n\n    Total $= 300+100+200 = 600$\n   \n\n    $D) 1-f-e-2 :$\n   \n\n    $1-f = 100$\n   \n\n    Tax at $f =100$\n   \n\n    $f-e = 100$\n   \n\n    Tax at $e = 200$\n   \n\n    $e-2 : 200$\n   \n\n    Total $= 100+100+100+200+200 = 700$\n   \n\n    Cheapest route $= 1-f-b-2$\n   \n\n    Correct Option: B",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=9099010399282735374",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/333236/gate-cse-2020-question-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359528",
+  "year": 2020,
+  "set": "1",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Define $[x]$ as the greatest integer less than or equal to $x$, for each $x\\in \\left (- \\infty, \\infty \\right ).$ If $y = [x]$, then area under $y$ for $x\\in \\left [ 1,4 \\right ]$ is _______.",
+  "options": [
+   "$1$",
+   "$3$",
+   "$4$",
+   "$6$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "The graph of  $y = [x]$ for $x \\in [1, 4]$.\n  \n\n[IMAGE:0]\n\n   The required area $ = (1 \\times 1) + (1 \\times 2) + (1 \\times 3)  = 1 + 2 + 3 = 6 \\;\\text{unit}^{2}. \\quad [\\because $ Area of rectangle =  Base $ \\times $ Height $]$\n  \n\n   So, the correct answer is $(D).$",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=14895699490566829898",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359528/gate-mechanical-2020-set-1-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359548",
+  "year": 2020,
+  "set": "2",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "There are five levels $\\{P, Q, R, S, T\\}$ in a linear supply chain before a product reaches customers, as shown in the figure.\n  \n\n[IMAGE:0]\n\n   At each of the five levels, the price of the product is increased by $25 \\%$. If the product is produced at level $P$ at the cost of Rs. $120$ per unit, what is the price paid (in rupees) by the customers?",
+  "options": [
+   "$187.50$",
+   "$234.38$",
+   "$292.96$",
+   "$366.21$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Given that, at each of the five levels, the price of the product is increased by $25\\%.$\n  Then, the price paid (in rupees) by the customers\n  $\\qquad = 120 \\times \\frac{125}{100} \\times \\frac{125}{100} \\times \\frac{125}{100} \\times \\frac{125}{100} \\times \\frac{125}{100}  = \\frac{46875}{128} = 366.21.$\n  Or\n  The price paid (in rupees) by the customers $ = (1.25)^{5} \\times 120 = 366.21.$\n  So, the correct answer is $(D).$\nThe item has already been produced at level P and it will go at level Q. Hence increase in price starts from Q, R, S, T.\n   \n\n   = 120( 1+0.25)^4\n  \n\n   =292.96\n  \n\n    Option C should be the answer",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=15904938424576868037",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359548/gate-mechanical-2020-set-2-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359724",
+  "year": 2020,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If $\\text{P, Q, R, S}$ are four individuals, how many teams of size exceeding one can be formed, with $\\text{Q}$ as a member?",
+  "options": [
+   "$5$",
+   "$6$",
+   "$7$",
+   "$8$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Ans C = 7.\n   \n\n   Number of Individuals $= 4,$ team Size greater than $1,$\n   \n    Q\n   \n   is premium member.\n   \n    _ _ _ Q. (\n   \n   max three positions left to be filled and three members left: P, R, S\n   \n    )\n   \n\n   By raw counting we can get $7: \\{PQ, RQ,SQ, PRQ, PSQ, RSQ, PQRS\\}.$\n  \n\n   Alternatively we can do as follows:\n  \n\n   As four individuals are defined distinct, and we just have to select them for the three remaining positions.\n  \n\n   Selecting $1$ person out of three, selecting $2$ persons out of three and selecting all $3$ persons, we get\n  \n\n   $^{3}\\textrm{C}_{1} + ^{3}\\textrm{C}_{2} + ^{3}\\textrm{C}_{3}$\n  \n\n   $=3 + 3 + 1 = 7$\nAns : C\n  \n\n   --> 2^3 -1\n   Exp:\n   Q is their already in team,\n   now we have 3 people left\n   Total Team possibility = 8\n   But of the Team will have only Q,\n   But acc to question , team must have atleast 2 people,So we need to subtract by 1\n   So final ans = 8-1 = 7",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359724/gate-electrical-2020-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359771",
+  "year": 2020,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A superadditive function $f(\\cdot)$ satisfies the following property $$f\\left ( x_{1} +x_{2}\\right )\\geq f\\left ( x_{1} \\right ) + f\\left ( x_{2} \\right )$$\n  \n\n   Which of the following functions is a superadditive function for $x > 1$?",
+  "options": [
+   "$e^{x}$",
+   "$\\sqrt{x}$",
+   "$1/x$",
+   "$e^{-x}$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Given that, a superadditive function $f(\\cdot):$ $$f\\left ( x_{1} +x_{2}\\right )\\geq f\\left ( x_{1} \\right ) + f\\left ( x_{2} \\right )$$\n  \n\n   Since $x >1,$ a superadditive function can never be a decreasing function. So, optionc C and D can staright away be ruled out.\n  \n\n   We can check options A and B by taking the value of $x_{1} = 2$ and $x_{2} = 3.$\n  \n\n    $f(x) = \\sqrt{x}$\n    $f(2+3) \\geq f(2) + f(3)$\n    $\\implies f(5) \\geq f(2) + f(3)$\n    $\\implies \\sqrt{5} \\geq \\sqrt{2} + \\sqrt{3}$\n    $\\implies 2.236 \\geq 1.414 + 1.732$\n    $\\implies 2.236 \\geq 3.146 \\;{\\color{Red} {\\textbf{(False)}}}$\n   \n\n   So, correct answer should be $(A).$\n  \n\n   Reference:\n   \n    https://en.wikipedia.org/wiki/Superadditivity\nSolve it using exploring the options\n  \n\n   Let $X_{1}$ = 2 and $X_{2}$ = 3\n  \n\n    A.\n   \n   f(x) = $e^{x}$\n  \n\n   $e^{5}$ > $e^{2}$ + $e^{3}$ ( using the calculator)\n  \n\n   it satisfies the condition so option A is correct.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359771/gate-ece-2020-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359818",
+  "year": 2020,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The difference between the sum of the first $2n$ natural numbers and the sum of the first $n$ odd natural numbers is ______",
+  "options": [
+   "$n^2-n$",
+   "$n^2+n$",
+   "$2n^2-n$",
+   "$2n^2+n$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Let\n  \n\n    $S_{1} $ be the sum of the first $2n$ natural numbers and\n   \n\n    $S_{2} $ be the sum of the first $n$ odd numbers.\n   \n\n   Now, $S_{1} = 1+2+3+ \\dots + 2n = \\dfrac{2n(2n+1)}{2} = n(2n+1)$\n  \n\n   And, $S_{2} = 1+3+5+\\dots +(2n-1)$\n  \n\n   This is in Arithmetic Progression (each term at constant difference from previous term) and for arithmetic progression, the sum of first $n$ numbers is given by:\n  \n\n   $S_{n}= \\dfrac{n}{2}\\left [2a+(n-1)d \\right]\\;\\text{or}\\;S_{n} = \\dfrac{n}{2}\\left[a+l\\right]$\n  \n\n   where,\n  \n\n    $n =$ number of digits in the series\n   \n\n    $a =$ First term of an A.P\n   \n\n    $d= $ Common difference in an A.P\n   \n\n    $l=$ last term of an A.P.\n   \n\n   Therefore, $S_{2} = \\dfrac{n}{2} [1 + (2n-1)] = \\dfrac{n}{2}[2n] = n^{2}.$\n  \n\n   $\\therefore S_{1} – S_{2} = 2n^{2} + n – n^{2} = n^{2} + n.$\n  \n\n   $\\textbf{Shortcut:}$ We can take the values of $n  = 1,2,3,\\dots $, and get the answer.\n  \n\n   So, the correct answer is $(B).$\n[IMAGE:100]\n\n   $\\therefore$ The answer is option $\\LARGE B$\nJust simply take n as 5 therefore sum of first 2n natural number will be (1+2+3+4+5+6+7+8+9+10) = 55 and first n natural numbers (1+3+5+7+9)= 25 therefore difference is 30 susbtitiute the values in the option you will get \"B\" as correct option\nSee Sum of first 2n natural numbers is : 1+2+3+......2n  ------eq 1\n  Sum of first n odd nombers is: 1+3+5+7.....(2n-1) --------eq2\n  If you subtract 1 from 2 you will get sum of first n even numbers : 2+4+6+......2n\n  Sum = n (2+2n) /2 = n*(1+n) = n+n^2 option b",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12364216519099379020",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359818/gate-chemical-2020-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359838",
+  "year": 2020,
+  "set": "2",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If $f(x) = x^2$ for each $x\\in (-\\infty,\\infty)$, then $\\large \\dfrac{f\\left(f\\left(f(x)\\right)\\right)}{f(x)}$ is equal to _______.",
+  "options": [
+   "$f(x)$",
+   "$(f(x))^2$",
+   "$(f(x))^3$",
+   "$(f(x))^4$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Given that, $f(x) = x^{2}.$\n  Now, $f\\left(f\\left(f(x)\\right)\\right) = f\\left(f\\left(x^{2}\\right)\\right) = f\\left(x^{4}\\right) = x^{8}$\n  $\\therefore \\dfrac{f\\left(f\\left(f(x)\\right)\\right) }{f(x)} = \\dfrac{x^{8}}{x^{2}} = x^{6} = (x^{2})^{3} =  (f(x))^{3}.$\n  So, the correct answer is $(C).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359838/gate-civil-2020-set-2-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359858",
+  "year": 2020,
+  "set": "1",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The sum of two positive numbers is $100$. After subtracting $5$ from each number, the product of the resulting numbers is $0$. One of the original numbers is  ______.",
+  "options": [
+   "$80$",
+   "$85$",
+   "$90$",
+   "$95$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Let the two positive numbers be $x$ and $y.$\n  According to the question, $x + y = 100 \\quad \\rightarrow (1)$\n  And, $(x-5) \\cdot (y – 5) = 0$\n  $\\implies xy -5x – 5y + 25 = 0$\n  $\\implies x(100 – x) – 5(100) + 25 = 0 \\quad [\\because \\text{From equation (1)}]$\n  $\\implies 100x – x^{2} – 500 + 25 = 0$\n  $\\implies -x^{2} + 100x – 475 = 0$\n  $\\implies x^{2} - 100x + 475 = 0$\n  $\\implies x^{2} – 95x – 5x  + 475  = 0$\n  $\\implies x(x-95)-5(x-95) = 0$\n  $\\implies (x-95)(x-5) = 0$\n  $\\implies (x-95) = 0 \\; \\& \\;(x-5) = 0$\n  Now, if $x = 95 \\implies y = 5,$ and if $x = 5 \\implies y = 95.$\n  $\\therefore$ One of the original number is $95.$\n  $\\textbf{PS:}$ If one number is non-zero, then another number is $5,$ so that when we subtract $5$ from each the product will be $0.$\n  So, the correct answer is $(D).$\nLet +ve no be x and y\n  \n\n   x + y = 100\n  \n\n   (x-5) (y-5) = 0\n  \n\n     Zero rule of product\n    \n\n   :-   if a*b = 0 then a = 0 or b = 0 or both a = b= 0\n  \n\n    Case 1\n   \n   : a = 0\n  \n\n   (x – 5) = 0\n  \n\n   x = 5, y = 95\n  \n\n    Case 2\n   \n   : b = 0\n  \n\n   (y – 5) = 0\n  \n\n   y = 95, x= 5\n  \n\n   So, the no. should be 5, 95\nthe answer is 95 and the other is 5. therefore the answer is choice D",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359858/gate-civil-2020-set-1-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
   "id": "333225",
   "year": 2020,
   "set": null,
@@ -451,6 +1244,214 @@
   "explanation": "Answer : C\n   Steps: For\n   \n    worst case\n   \n   (in worst case insertion will cause $\\Omega(\\log n)$ operations in an AVL tree where $n$ is the number of nodes present.\n  \n\n    $1^{st}$ insertion time complexity $= \\Theta(\\log n)$\n   \n\n    $2^{nd}$ insertion time complexity $= \\Theta(\\log(n+1))$\n   \n\n    $\\vdots$\n   \n\n    ${n^2}^{th}$ insertion time complexity = $\\Theta(\\log(n+n^{2}-1))$\n   \n\n   Total number of operations $= \\Theta(\\log n) +  \\Theta(\\log (n+1)) + \\ldots +  \\Theta(\\log(n+n^{2}-1))$\n  \n\n   $\\qquad \\qquad \\qquad= \\Theta\\left( \\log \\left(n.(n+1).(n+2)\\ldots (n+n^2-1) \\right)\\right)$\n   $\\qquad \\qquad \\qquad = \\Theta\\left(\\log n^{n^2}\\right)$ $(\\because $ the highest degree term in the $\\log$ expression will be $n^{n^2}.$\n   $\\qquad \\qquad \\qquad = \\Theta\\left(n^2 \\log n\\right).$\n1st insertion worst case time complexity = O(log n)\n  \n\n    2nd insertion worst case time complexity = O( log (n+1) )\n    \n\n      and so on...\n      So worst case time complexity = O(log n) +  O( log (n+1) ) + .... +  O( log (n+$n^{2}$) )\n      = O(log n*(n+1)*(n+2)*...(n+$n^{2}$))\n      = O(log f(n))\n      Maximum degree term of f(n) would be $n^{n^{2}}$ as you can see n would be multiplied $n^{2}$ number of time for sure.\n      So O(log f(n)) = O( log $n^{n^{2}}$) = O($n^{2}$logn)\n      So option C is correct.\nAVL tree is\n   \n    like a BST with balancing\n   \n   .so when we insert an element it will take logn complexity as like BST  and for balancing it take constant time.so overall T.C of insertng an element is logn and for n2 element it is n2logn.\n  \n\n    THUS ANSWER IS C",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/333225/gate-cse-2020-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "333235",
+  "year": 2020,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": 2,
+  "text": "Goods and Services Tax (GST) is an indirect tax introduced in India in $2017$ that is imposed on the supply of goods and services, and it subsumes all indirect taxes except few. It is a destination-based tax imposed on goods and services used, and it is not imposed at the point of origin from where goods come. GST also has a few components specific to state governments, central government  and Union Territories (UTs).\n  \n\n   Which one of the following statements can be inferred from the given passage?",
+  "options": [
+   "GST is imposed on the production of goods and services.",
+   "GST includes all indirect taxes.",
+   "GST does not have a component specific to UT.",
+   "GST is imposed at the point of usage of goods and services."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Let us look at some important points given in the paragraph\n  \n\n    GST is imposed on\n    \n     supply\n    \n    of goods and services\n   \n\n    It subsumes all indirect taxes\n    \n     except few\n    \n\n    It is a\n    \n     destination\n    \n    based tax implied\n    \n     on goods used\n    \n\n    It is not imposed at point of origin from where good comes\n   \n\n    GST also has\n    \n     few components specific to\n    \n    state government , central government and\n    \n     union territories\n    \n\n   Now we can eliminate the options based on above points\n  \n\n   A. GST is imposed on production of goods and services\n  \n\n   It is\n   \n    FALSE\n   \n   due to point $1$. To make it correct, in place of\n   \n    production\n   \n   it should be\n   \n    supply\n   \n\n   B. GST includes all indirect taxes.\n  \n\n   It is\n   \n    FALSE\n   \n   due to point $2$ due to\n   \n    except few\n   \n   words\n  \n\n   C. GST does not have component specific to UT\n  \n\n   It is\n   \n    FALSE\n   \n   due to point $5$ since it has few components specific to UT.\n  \n\n   D. GST is imposed at point of usage of goods and services.\n  \n\n   It is\n   \n    TRUE\n   \n   due to point $3$. we can relate\n   \n    point of usage\n   \n   to\n   \n    goods used at destination\n   \n\n   Hence Option $D$ is the correct option.\nOption D\n  \n\n   A. It imposed on\n   \n    usage\n   \n   (supply) of goods and services not on production so option A wrong\n  \n\n   GST include all indirect taxes\n   \n    except\n   \n   few So option B wrong\n  \n\n   It has few components specific central,state and UT government so option c eliminated\n  \n\n   Word usage make option D correct.\nOption A is\n   \n    false\n   \n   because:\n  \n\n    It is a destination-based tax imposed on goods and services used, and\n    \n     it is not imposed at the point of origin\n    \n    from where goods come.\n   \n\n   Option B is\n   \n    false\n   \n   because:\n  \n\n    Goods and Services Tax (GST) is an indirect tax\n   \n\n   which clearly says GST itself is an indirect tax, and it does not mean GST includes all indirect tax.\n  \n\n   Option C is\n   \n    false\n   \n   because:\n  \n\n    GST also has a few components specific to state governments, central government  and Union Territories (UTs)\n   \n\n   GST does have a component specific to UT.\n  \n\n   Option D is\n   \n    true\n   \n   because:\n  \n\n    It is a destination-based tax imposed on goods and services used, and it is not imposed at the point of origin from where goods come.\n   \n\n   which implies, it is imposed at the point of usage. Meaning, GST is imposed at the place where the goods and services is being used/consumed.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/333235/gate-cse-2020-question-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359526",
+  "year": 2020,
+  "set": "1",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Crowd funding deals with mobilisation of funds for a project from a large number of people, who would be willing to invest smaller amounts through web-based platforms in the project.\n  \n\n   Based on the above paragraph, which of the following is correct about crowd funding?",
+  "options": [
+   "Funds raised through unwilling contributions on web-based platforms",
+   "Funds raised through large contributions on web-based platforms",
+   "Funds raised through coerced contributions on web-based platforms",
+   "Funds raised through voluntary contributions on web-based platforms"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Funds raised through unwilling contributions on web-based platforms\n    “who would be\n    \n     willing to invest\n    \n    ”: so False.\n   \n\n    Funds raised through large contributions on web-based platforms\n    ”invest\n    \n     smaller amounts\n    \n    ”: so False\n   \n\n    Funds raised through coerced contributions on web-based platforms\n    Coerced means “forced”. So, similar to option A this must be False.\n   \n\n    Funds raised through voluntary contributions on web-based platforms\n    ”willing to invest smaller amounts through web-based platforms”: True.\n   \n\n   Correct Answer: D.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359526/gate-mechanical-2020-set-1-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359546",
+  "year": 2020,
+  "set": "2",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Climate change and resilience deal with two aspects – reduction of sources of non-renewable energy resources and reducing vulnerability of climate change aspects. The terms ‘mitigation’ and ‘adaptation’ are used to refer to these aspects, respectively.​​​​​​\n  \n\n   Which of the following assertions is best supported by the above information?",
+  "options": [
+   "Mitigation deals with consequences of climate change",
+   "Adaptation deals with causes of climate change",
+   "Mitigation deals with actions taken to reduce the use of fossil fuels.",
+   "Adaptation deals with actions taken to combat green-house gas emissions"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "reduction of sources of non-renewable energy resources and reducing vulnerability of climate change aspects. The terms ‘mitigation’ and ‘adaptation’ are used to refer to these aspects, respectively.​​​​​​\n   \n\n   This means\n  \n\n    mitigation: reduction of sources of non-renewable energy resources\n   \n\n    adaptation: reducing vulnerability of climate change aspects\n   \n\n   Lets see options.\n  \n\n    Mitigation deals with consequences of climate change\n    False. Adaptation deals with consequences of climate change\n   \n\n    Adaptation deals with causes of climate change\n    False. Mitigation deals with causes of climate change\n   \n\n    Mitigation deals with actions taken to reduce the use of fossil fuels.\n    True.\n   \n\n    Adaptation deals with actions taken to combat green-house gas emissions\n    False. This should be mitigation.\n   \n\n   Correct option: C.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359546/gate-mechanical-2020-set-2-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359722",
+  "year": 2020,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Non-performing Assets $\\text{(NPAs)}$ of a bank in India is defined as an asset, which remains unpaid by a borrower for a certain period of time in terms of interest, principal, or both. Reserve Bank of India $\\text{(RBI)}$ has changed the definition of $\\text{NPA}$ thrice during $1993-2004$, in terms of the holding period of loans. The holding period was reduced by one quarter each time. In $1993$, the holding period was four quarters $\\text{(360 days)}$.\n  \n\n   Based on the above paragraph, the holding period of loans in $\\text{2004}$ after the third revision was ______ days.",
+  "options": [
+   "$45$",
+   "$90$",
+   "$135$",
+   "$180$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Ans B.\n   \n\n   As question says – holding period was reduced by\n   \n    one quarter\n   \n   each time. In 2004 – third revision.\n  \n\n   In 1993 holding period – 360 days ( four quarters). One quarter – $\\frac{1}{4} \\times 360 = 90$.\n  \n\n    [quarter\n   \n   –\n   \n    each of four equal or corresponding parts into which something is or can be divided.\n   \n   ]\n  \n\n   First Time = $360 – 90 = 270$  (reduced by one quarter)\n  \n\n   Second Time = $270 – 90 = 180$\n  \n\n   Third Time = $180– 90 = 90$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359722/gate-electrical-2020-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359768",
+  "year": 2020,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The global financial crisis in $2008$ is considered to be the most serious world-wide financial crisis, which started with the sub-prime lending crisis in $\\text{USA}$ in $2007$. The sub-prime lending crisis led to the banking crisis in $2008$ with the collapse of Lehman Brothers in $2008$. The sub-prime lending refers to the provision of loans to those borrowers who may have difficulties in repaying loans, and it arises because of excess liquidity following the East Asian crisis.\n  \n\n   Which one of the following sequences shows the correct precedence as per the given passage?",
+  "options": [
+   "East Asain crisis$\\rightarrow$ subprime lending crisis$\\rightarrow$banking crisis$\\rightarrow$global financial crisis.",
+   "Subprime lending crisis$\\rightarrow$ global financial crisis$\\rightarrow$ banking crisis$\\rightarrow$ East Asian crisis.",
+   "Banking crisis$\\rightarrow$ subprime lending crisis$\\rightarrow$ global financial crisis$\\rightarrow$ East Asian criris.",
+   "Global financial crisis$\\rightarrow$ East Asian crisis$\\rightarrow$ banking crisis$\\rightarrow$ subprime lending crisis."
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "The global financial crisis in $2008$ is considered to be the most serious world-wide financial crisis, which started with the sub-prime lending crisis in USA in $2007.$\n  \n\n    $\\implies$ subprime lending crisis→ global financial crisis\n   \n\n   The sub-prime lending crisis led to the banking crisis in $2008$ with the collapse of Lehman Brothers in $2008.$\n  \n\n    $\\implies$ subprime lending crisis→ banking crisis\n   \n\n   The sub-prime lending refers to the provision of loans to those borrowers who may have difficulties in repaying loans, and it arises because of excess liquidity following the East Asian crisis.\n  \n\n    $\\implies$ east Asian crisis→ subprime lending crisis\n   \n\n   So, the correct answer is Option A.\nOption\n   \n    A. East Asian crisis→ subprime lending crisis→banking crisis→global financial crisis.\nD also can be correct bcoz here not mentioned that precedance is in increasing or decresing order..",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359768/gate-ece-2020-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359816",
+  "year": 2020,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Repo rate is the rate at which Reserve Bank of India $\\text{(RBI)}$ lends commercial banks, and reverse repo rate is the rate at which $\\text{(RBI)}$ borrows money from commercial banks.\n  \n\n   Which of the following statements can be inferred from the above passage?",
+  "options": [
+   "Decrease in repo rate will increase cost of borrowing and decrease lending by commercial banks.",
+   "Increase in repo rate will decrease cost of borrowing and increase lending by commercial banks.",
+   "Increase in repo rate will decrease cost of borrowing and decrease lending by commercial banks.",
+   "Decrease in repo rate will decrease cost of borrowing and increase lending by commercial banks."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "“Repo rate is the rate at which Reserve Bank of India (RBI)\n   \n    lends commercial banks\n   \n   ”\n  \n\n   So a decrease in repo rate means commercial banks have to pay less.\n  \n\n   Correct option: D.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359816/gate-chemical-2020-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359836",
+  "year": 2020,
+  "set": "2",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Nominal interest rate is defined as the amount paid by the borrower to the lender for using the borrowed amount for a specific period of time. Real interest rate calculated on the basis of actual value (inflation-adjusted), is approximately equal to the difference between nominal rate and expected rate of inflation in the economy.\n  \n\n   Which of the following assertions is best supported by the above information?",
+  "options": [
+   "Under high inflation, real interest rate is low and borrowers get benefited",
+   "Under low inflation, real interest rate is high and borrowers get benefited",
+   "Under high inflation, real interest rate is low and lenders get benefited",
+   "Under low inflation, real interest rate is low and borrowers get benefited"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Real interest rate calculated on the basis of actual value (inflation-adjusted), is approximately equal to the\n    \n     difference between nominal rate and expected rate of inflation\n    \n    in the economy\n   \n\n   This means, when inflation is high real interest rate is low (we can assume nominal rate is fixed as the time of borrowing based on an expected inflation rate). So, this must benefit the borrower. He pays the same amount of money to the lender but the value of that money has gone down.\n  \n\n   Correct option: A.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359836/gate-civil-2020-set-2-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359856",
+  "year": 2020,
+  "set": "1",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The American psychologist Howard Gardner expounds that human intelligence can be subcategorized into multiple kinds, in such a way that individuals differ with respect to their relative competence in each kind. Based on this theory, modern educationists insist on prescribing multi-dimensional curriculum and evaluation parameters that enable development and assessment of multiple intelligences.\n  \n\n   Which of the following statements can be inferred from the given text ?",
+  "options": [
+   "Howard Gardener insists that the teaching curriculum and evaluation needs to be multi-dimensional.",
+   "Howard Gardener wants to develop and assess the theory of multiple intelligences.",
+   "Modern educationists want to develop and assess the theory of multiple intelligences.",
+   "Modern educationists insist that the teaching curriculum and evaluation needs to be multi-dimensional."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "expounds:\n   \n   present and explain (a theory or idea) in detail.\n  \n\n    Howard Gardener insists that the teaching curriculum and evaluation needs to be multi-dimensional.\n    Not true. “\n    \n     modern\n    \n\n     educationists insist on\n    \n    prescribing multi-dimensional”\n   \n\n    Howard Gardener wants to develop and assess the theory of multiple intelligences.\n    Not true. “Howard Gardner\n    \n     expounds\n    \n    that human intelligence can be subcategorized into multiple kinds” meaning he explains the theory of multiple intelligence but we cannot infer if he wants to develop and assess that theory.\n   \n\n    Modern educationists want to develop and assess the theory of multiple intelligences.\n    Not true. “\n    \n     Based on this theory\n    \n    , modern educationists insist on prescribing multi-dimensional curriculum” meaning modern educationists are using the theory – but we cannot infer if they want to develop it.\n   \n\n    Modern educationists insist that the teaching curriculum and evaluation needs to be multi-dimensional.\n    True. This can be clearly inferred from “modern educationists\n    \n     insist on prescribing multi-dimensional curriculum\n    \n    ”\n   \n\n   Correct option: D.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359856/gate-civil-2020-set-1-ga-question-6",
   "source": "gateoverflow"
  },
  {
@@ -478,6 +1479,214 @@
   "source": "gateoverflow"
  },
  {
+  "id": "333234",
+  "year": 2020,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": 2,
+  "text": "If $P = 3$, $R = 27$, $T = 243$, then $Q + S =$ ________",
+  "options": [
+   "$40$",
+   "$80$",
+   "$90$",
+   "$110$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "We can interpret the given order as:\n  \n\n    $P\\to 3^1= 3$\n   \n\n    $Q\\to3^2= 9$\n   \n\n    $R\\to3^3=27$\n   \n\n    $S\\to3^4=81$\n   \n\n    $T\\to3^5=243$\n   \n\n   $Q+S\\to 9+81=90$\n  \n\n    Hence Option (C) is correct\nAlphabetical order : P, Q, R, S, T\n  given that, P = 3\n  R=27\n  T = 343\n  by observing them, those are in GP with r = 3\n  So, Q=9, S=81\n  S+Q = 81+9=90\nQ=3^2=9\n  s=3^4=81\n  Q+S=81+9=90\nC\n   \n   is the right answer.\n  \n\n   Here given that P = 3 = 3^1\n  \n\n   also R = 27 = 3^3\n  \n\n   and T = 243 = 3^5\n  \n\n   now according to the sequence we clearly say that the value of Q is 3^2 = 9 and the value of S is 3^4 = 81\n  \n\n   Now P + Q = 9 + 81 = 90                     Ans.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/333234/gate-cse-2020-question-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359544",
+  "year": 2020,
+  "set": "2",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Find the missing element in the following figure.\n  \n\n[IMAGE:0]",
+  "options": [
+   "$d$",
+   "$e$",
+   "$w$",
+   "$y$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "First, we can write the numbers corresponding to the alphabet. $i.e.,h = 8,n = 14,t = 20,x = 24.$\n  \n\n[IMAGE:0]\n\n   Now,  we can do addition/subtraction, we get.\n  \n\n[IMAGE:1]\n\n   Here, $4$ is denoted by $d.$\n  \n\n   So, the correct answer is $(A).$\nfor the people in hurry, keep this handy,\n  \n\n    $a, b, c, d, e, f, $\n    \n\n      $g, h, i, j, k, l, $\n      \n\n       $m, n, o, p, q, r,$\n       $s, t, u, v, w, x,$\n       $y, z$\n       Now, observe that $n$ is in the middle of the given figure. In the top-left, there is $t$, which is $5$ (top-center) letters ahead of $n$, and in the top-right, there is $h$, which is $5$ letters behind $n$. Similarly, in the bottom-right, there is $x$, which is $9$ (bottom-center) letters ahead of $n$. Since $t$ and $x$ are are opposite to each other with respect to $n$ and they are ahead of $n$. similarly, if $h$ and $?$ are opposite to each other with respect to $n$ and $h$ is behind $n$ then $?$ must also be behind $n$ and it must be behind $9$ letters from $n$. so, $? = d$.\n[IMAGE:200]\n   gg",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=3570125262987330102",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=13753025797261343386",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=18427116350164860618",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12525642267979829778",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359544/gate-mechanical-2020-set-2-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359719",
+  "year": 2020,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Select the next element of the series: $\\text{Z, WV , RQP,}$ _____",
+  "options": [
+   "$\\text{LKJI}$",
+   "$\\text{JIHG}$",
+   "$\\text{KJIH}$",
+   "$\\text{NMLK}$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "In first place we have one letter, in second place we have two-letters and so on.\n  \n\n   Now, we can follow the pattern.\n  \n\n    $Z \\overset{-3}{\\rightarrow} W \\overset{-5}{\\rightarrow} R \\overset{-7}{\\rightarrow} K$\n   \n\n    $V \\overset{-5}{\\rightarrow} Q \\overset{-7}{\\rightarrow} J $\n   \n\n    $P \\overset{-7}{\\rightarrow} I $\n   \n\n    $H$\n   \n\n   So, the correct answer is $(C).$\nAns C.\n   \n\n   Sequence Number of Letter\n  \n\n      Z\n     \n\n      W, V\n     \n\n      R, Q, P\n     \n\n      26\n     \n\n      23, 22\n     \n\n      18, 17, 16\n     \n\n      LKJI\n     \n\n      JIHG\n     \n\n      KJIH\n     \n\n      NMLK\n     \n\n      12, 11, 10, 9\n     \n\n      10, 9, 8, 7\n     \n\n      11, 10, 9, 8\n     \n\n      14, 13, 12, 11\n     \n\n   Number of Letters increasing in – 1 – 2 – 3 – (4 letters)\n  \n\n   Difference in Letter coding Between terms\n  \n\n   First – Second = $26-23=3$ (Y, X, W)\n  \n\n   Second – Third = $18-22=4$ (U, T, S, R)\n  \n\n   Third – Fourth = $16-x= 5, x=11$  Starting from\n   \n    K\nFor such questions, always have this reference ready; it aids in quickly discerning patterns without resorting to extensive addition and subtraction.\n  $A, B, C, D, E, F,$\n  $G, H, I, J, K, L,$\n  $M, N, O, P, Q, R,$\n  $S, T, U, V, W, X,$\n  $Y, Z$\n  Given sequence: $Z, WV, RQP$\n  Notice, if you move from $Z$ in reverse until you reach $W$, you will have passed $2$ letters. Now, collect two letters in reverse, including $W$. Thus, you have $WV$. Next, continue in reverse until you reach $R$. You will have passed $3$ letters, so now collect $3$ letters in reverse, including $R$. This gives you $RQP$.\n  By this point, you should grasp the pattern. Continue in reverse, crossing $4$ letters and collecting $4$ letters, including the starting letter. This results in $KJIH$.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359719/gate-electrical-2020-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359766",
+  "year": 2020,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "It is quarter past three in your watch. The angle between the hour hand and the minute hand is ________.",
+  "options": [
+   "$0^{\\circ}$",
+   "$7.5^{\\circ}$",
+   "$15^{\\circ}$",
+   "$22.5^{\\circ}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$\\text{Method I}:$\n   The angle between hour hand and minute hand of a clock at $H$ hours and $M$ minutes is given by $$\\theta = 30H – \\dfrac{11M}{2}$$So, at $03:15$ we get their difference as $30\\times 3 - \\frac{11(15)}{2}$\n   $\\qquad= 90 – 82.5 = 7.5^{\\circ}$\n   $\\text{Method  II}:$\n  \n\n    $1 H = \\frac{360}{12} = 30^{\\circ}$\n   \n\n    $15 M = \\frac{1}{4}H = \\frac{30^{\\circ}}{4} = 7.5^{\\circ}$\n   \n\n   Correct Option: B.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359766/gate-ece-2020-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359814",
+  "year": 2020,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "$P,Q,R,S,T,U,V,$ and $W$ are seated around a circular table.\n  \n\n   Which of the following must be true?\n  \n\n    $P$ is a neighbour of $R$\n   \n\n    $Q$ is a neighbour of $R$\n   \n\n    $P$ is not seated opposite to $Q$\n   \n\n    $R$ is the left neighbour of $S$",
+  "options": [
+   "$S$ is seated opposite to $W$",
+   "$U$ is seated at the second place to the right of $R$",
+   "$T$ is seated at the third place to the left of $R$",
+   "$V$ is a neighbour of $S$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Here the most frequently used person is $R$ - so we should fill $R$ first. That's points $2$ and $3.$ We get\n  \n\n   $T \\_\\; \\_ R \\_ U\\_\\;\\_$ (Assume there is a circular connection between either ends)\n  \n\n   After this only one opposite position will be left (positions $3$ and $7)$ -- which is needed for $(S, W)$ as per given condition $1.$\n  \n\n   So, straight away $C$ is the answer.\n  \n\n   Counter examples for options A, B, and D can be as follows:\n  \n\n   For option  A:\n   [IMAGE:0]\n\n   For options B and D:\n   [IMAGE:1]\nhttps://www.youtube.com/watch?v=zVNoI14cgKU\n   \n\n   Good video to Learn Seating round circular table.",
+  "images": [
+   {
+    "src": "https://ch.gateoverflow.in/?qa=blob&qa_blobid=6136282797481305421",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ch.gateoverflow.in/?qa=blob&qa_blobid=2422645346535260459",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359814/gate-chemical-2020-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359834",
+  "year": 2020,
+  "set": "2",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "For the year $2019$, which of the previous year’s calendar can be used?",
+  "options": [
+   "$2011$",
+   "$2012$",
+   "$2013$",
+   "$2014$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "A calendar repeats when the number of days between $2$ years is a multiple of $7.$ Since, $365\\mod 7=1$ a non leap year adds $1$ and a leap year adds $2$ to the extra days after an exact multiple of $7.$ So, $2019-7+1=2013$ $(+1$ for leap year $2016)$ must be the answer here.\n  \n\n   Correct Answer: C\n  \n\n   More general approach.\n  \n\n   Calendars repeat after certain cycles:\n  \n\n    If it is a leap year, after $28$ years.\n   \n\n    If it is leap year $+ 1,$ after $6$ years, then $11,$ and again $11.$\n   \n\n    If it is a leap year $+ 2,$ after $11$ years, then $6,$ and again $11.$\n   \n\n    If it is a leap year $+ 3,$ after $11$ years, then $11,$ and finally $6.$\n   \n\n   These cycles are valid unless the years span a non-leap century year $(e.g. 2100,$ which is a century year but not a leap year$).$\n  \n\n   Since $2019$ is a leap year $+ 3,$ it will repeat in $2030, 2041, 2047, 2058, 2069, 2075,$ etc.\n  \n\n   Checking all the options, for $2013$ it will repeat after $6$ years.\n  \n\n   So, the correct answer is $(C).$\nLet us go backward from 2019.\n  2019—1 odd days\n  2018-1 odd days\n  2017 -1 odd days\n  2016- 2 odd days (leap year)\n  2015 -1 odd days\n  2014- 1 odd day\n  2013- 1 odd days\n  Now from 2013 onwards year 2019 will have the same calendar as 2013. As no of odd days from 2013 to 2019=Rem(1+1+2+1+1+1)/7=0\n  So our answer is 2013. You need to check the concept of no of odd days for these types of questions",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359834/gate-civil-2020-set-2-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359854",
+  "year": 2020,
+  "set": "1",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Five friends $P,Q,R,S$ and $T$ went camping. At night, they had to sleep in a row inside the tent. $P,Q,$ and $T$ refused to sleep next to $R$ since he snored loudly. $P$ and $S$ wanted to avoid $Q$ as he usually hugged people in sleep.\n  \n\n   Assuming everyone was satisfied with the sleeping arrangements, what is the order in which they slept?",
+  "options": [
+   "$RSPTQ$",
+   "$SPRTQ$",
+   "$QRSPT$",
+   "$QTSPR$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Five friends $P, Q, R, S$, and $T$ are sleeping together.\n  \n\n    $P, Q$, and $T$ refused to sleep next to $R$ since he snored loudly. That means the only possible neighbor for $R$ is $S$ and we should have either $R,S,\\_,\\_,\\_$ or $\\_,\\_,\\_,S,R.$\n   \n\n    $P$ and $S$ wanted to avoid $Q$ as he usually hugged people in sleep. That means the only possible neighbor for $Q$ is $T.$ Thus we get the two possible orders: $R,S,P,T,Q$ and $Q,T,P,S,R.$\n   \n\n   Only satisfying option is A.\n  \n\n   So, the correct answer is $(A)$ (question should have mentioned \"what could be the order\" instead of \"what is the order\" as there are $2$ possibilities)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359854/gate-civil-2020-set-1-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
   "id": "333223",
   "year": 2020,
   "set": null,
@@ -499,6 +1708,241 @@
   "explanation": "Keeping $L_2$ as $\\Sigma^*,$ what ever may be $L_1,$, we get a Regular language.\n  So, statement I is wrong.\n  If regular languages are closed under infinite union, then $L=\\{a^n.b^n | n>0 \\}$ must be regular as it is equal to $\\{ab\\} \\cup \\{aabb\\} \\cup \\{aaabbb\\} \\cup \\ldots$\n  So, statement II is wrong.\n  Option D is correct.\nL1 is $\\sum$*, L2 is string having equal number of a and b.\n  \n\n   L1 U L2 is $\\sum $* , which is regular, but L2 is CFL.\n  \n\n   2\n  \n\n   Regular language is closed under finite union but not closed under infinite union.\n  \n\n   See:\n   \n    https://gateoverflow.in/3078/proof-regarding-infinite-union-intesection\n   \n\n   So D is correct.\nAnswer : D\n  I. is false since (a+b)* is regular but  L1 = (a+b)* and L2 ={$a^{n} b^{n} | n>=0$}\n  II. is false since  ab, aabb, aaabbb ........  (all of them is regular language) make language DCFL where each one of them is regular",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/333223/gate-cse-2020-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "333233",
+  "year": 2020,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": 2,
+  "text": "The figure below shows an annular ring with outer and inner as $b$ and $a$, respectively. The annular space has been painted in the form of blue colour circles touching the outer and inner periphery of annular space. If maximum $n$ number of circles can be painted, then the unpainted area available in annular space is _____.\n  \n\n[IMAGE:0]",
+  "options": [
+   "$\\pi [(b^{2}-a^{2})-\\frac{n}{4}(b-a)^{2}]$",
+   "$\\pi [(b^{2}-a^{2})-n(b-a)^{2}]$",
+   "$\\pi [(b^{2}-a^{2})+\\frac{n}{4}(b-a)^{2}]$",
+   "$\\pi [(b^{2}-a^{2})+n(b-a)^{2}]$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer is Option (A)\n  \n\n   We need to find the area of the ring first.\n  \n\n    Area of Ring $=$ Area of Outer Circle $-$ Area of Inner Circle\n   \n\n   $\\qquad \\qquad \\quad =\\pi b^2 - \\pi a^2 = \\pi (b^2-a^2)$\n  \n\n   Now From this ring area we have to subtract the small\n   \n    '$n$'\n   \n   circles\n  \n\n    Area of $n$ Circles $ = (\\pi d^2/4) \\ast n = (\\pi (b-a)^2 /4)\\ast n$\n   \n\n    The Required Unpainted Area $=$\n   \n\n    Ring Area $-$\n   \n\n    Area of Small  '$n$' such Circles\n   \n\n   $\\qquad \\qquad \\quad =\\pi (b^2 - a^2) - (\\pi d^2/4)*n$\n  \n\n   $\\qquad \\qquad \\quad = \\pi [(b^2-a^2)- n/4(b-a)^2 ]$\nAnswer\n   \n    A\n   \n\n   Annular space = π($b^{2}$ - $a^{2}$)\n  \n\n   n blue color circle space =  n[π($(\\frac{b-a}{2})^{^{2}}$)]   { radious = $\\frac{b-a}{2}$ }\n  \n\n   then Unpented area in annular spase = π($b^{2}$ - $a^{2}$) - πn($(\\frac{b-a}{2})^{^{2}}$)\n  \n\n   = π[($b^{2}$ - $a^{2}$) - $\\frac{n}{4}$$(b-a)^{2}$]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=13557054936011439434",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/333233/gate-cse-2020-question-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359522",
+  "year": 2020,
+  "set": "1",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The sum of the first $n$ terms in the sequence $8,\\:88,\\:888,\\:8888,\\dots$ is ________.\n  A. $\\dfrac{81}{80}\\left ( 10^{n}-1 \\right )+\\dfrac{9}{8}n$\n  B. $\\dfrac{81}{80}\\left ( 10^{n}-1 \\right )-\\dfrac{9}{8}n$\n  C. $\\dfrac{80}{81}\\left ( 10^{n}-1 \\right )+\\dfrac{8}{9}n$\n  D. $\\dfrac{80}{81}\\left ( 10^{n}-1 \\right )-\\dfrac{8}{9}n$",
+  "options": [],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Let $S = 8+88+888+ \\ldots +\\underbrace{888\\dots8}_{n\\text { times}}$\n  $\\implies S = 8\\left [1+11+111+ \\ldots + \\underbrace{111\\dots 1}_{n\\text { times}} \\right]$\n  $\\implies S = \\dfrac{8}{9}\\left [9+99+999+ \\ldots + \\underbrace{999\\dots 9}_{n\\text { times}}\\right]$\n  $\\implies S = \\dfrac{8}{9}\\left [(10-1)+(10^{2}-1)+(10^{3}-1)+ \\ldots  + (10^{n} – 1) \\right]$\n  $\\implies S = \\dfrac{8}{9}\\left [\\underbrace{10^{1} + 10^{2} + 10^{3}+ \\ldots  + 10^{n}}_{\\textbf{GP Series}}\\:- n \\right]$\n  $\\implies S = \\dfrac{8}{9}\\left[\\dfrac{10(10^{n} - 1)}{10-1} - n \\right]\\:\\:\\:\\:\\left[\\because\\text{Sum of GP}: S_{n} = \\dfrac{a(r^{n} - 1)}{r-1}\\:\\:; r>0\\:\\: \\text{and}\\:\\: S_{n} = \\dfrac{a(1- r^{n})}{1-r}\\:\\:; r< 0 \\right]$\n  $\\implies S = \\dfrac{8}{9}\\left[\\dfrac{10^{n+1} - 10-9n}{9}\\right]$\n  $\\implies S = \\dfrac{8}{81}\\left[10^{n+1} - 9n - 10 \\right]$\n  $\\implies S = \\dfrac{8}{81}\\left[10^{n} \\cdot 10 - 9n - 10 \\right]$\n  $\\implies S = \\dfrac{80}{81} (10^{n} – 1) – \\dfrac{8}{9}n$\n  $\\textbf{Shortcut:}$ We can check, by taking the values of $n = 1,2,3,\\dots.$\n  So, the correct answer is $(D).$\nIf we take n=1,then it should be 8\n  Now check each option by substituting n=1.\n  Option D is giving 8\n  Dont go by standard method. It wastes lot of time\nJust another method to solve (Uses the idea used in finding sum of AP-GP series)\n  \n\n[IMAGE:200]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12477935033135826512",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359522/gate-mechanical-2020-set-1-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359542",
+  "year": 2020,
+  "set": "2",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "IT was estimated that $52$ men can complete a strip in a newly constructed highway connecting cities $P$ and $Q$ in $10$ days, Due to an emergency, $12$ men were sent to another project. How many number of days, more than the original estimate, will be required to complete the strip?",
+  "options": [
+   "$3$ days",
+   "$5$ days",
+   "$10$ days",
+   "$13$ days"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "If $M_{1}$ number of people can do $W_{1}$ work, in $D_{1}$ days, working $T_{1}$ hours each day and the $M_{2}$ number of people can do $W_{2}$ work, in $D_{2}$ days, working $T_{2}$ hours each day, then the relation between them will be\n  $$ \\dfrac{M_{1} \\times D_{1} \\times T_{1}}{W_{1}} = \\dfrac{M_{2} \\times D_{2} \\times T_{2}}{W_{2}} $$\n  Now, $52 M \\times 10 D = 40 M \\times xD$\n  $\\implies x = 13$ days.\n  The number of days, more than the original estimate, that will be required to complete the strip $ = 13 – 10 = 3$ days.\n  So, the correct answer is $(A).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359542/gate-mechanical-2020-set-2-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359715",
+  "year": 2020,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In four-digit integer numbers from $1001$ to $9999$, the digit group $\\text{“37”}$ (in the same sequence) appears ________ times.",
+  "options": [
+   "$270$",
+   "$279$",
+   "$280$",
+   "$299$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Ans C\n   \n\n   Number of four digit numbers from $1001$ to $9999 =  8999.$ Number of times\n   \n    digit group\n   \n   $“37”$\n   appears is given by:\n  \n\n    $\\_ \\;\\;\\_\\;\\;3 \\;\\;7 \\to \\text{(1 to 9) (0 to 9)} \\to 9 \\cdot 10 = 90$\n   \n\n    $\\_\\;\\;3 \\;\\;7\\; \\_  \\to \\text{(1 to 9) (0 to 9)} \\to 9 \\cdot 10 = 90$\n   \n\n    $3 \\;\\;7\\;\\_\\;\\; \\_ \\to \\text{(0 to 9) (0 to 9)} \\to 10\\cdot 10 = 100$\n   \n\n   Total count $=90+90+100 = 280.$\n  \n\n   Correct option: C\n  \n\n   If the question was for finding the number of integers in which $“37”$ appeared then answer would be $279$ because in the above counting we double counted for $3737$, first in  $\\_ \\;\\;\\_\\;\\; 3\\; \\;7$\n   and second in $3\\; \\; 7\\; \\_ \\;\\;\\_ .$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359715/gate-electrical-2020-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359764",
+  "year": 2020,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A circle with centre $\\text{O}$ is shown in the figure. A rectangle $\\text{PQRS}$ of maximum possible area is inscribed in the circle. If the radius of the circle is $a$, then the area of the shaded portion is _______.\n  \n\n[IMAGE:0]",
+  "options": [
+   "$\\pi a^{2}-a^{2}$",
+   "$\\pi a^{2}-\\sqrt{2}a^{2}$",
+   "$\\pi a^{2}-2a^{2}$",
+   "$\\pi a^{2}-3a^{2}$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Theorem: “A perpendicular from the Centre of a circle to a chord, bisects the chord.” (Refer:\n   \n    Proof\n   \n   )\n  \n\n   In this case, if a perpendicular is drawn from the center of the circle, it will bisect the base side of the rectangle.\n  \n\n   The half-length of this chord would be:  $a\\times \\cos  45^{\\circ}=\\frac{a}{\\sqrt{2}}$.\n  \n\n   Hence the length of the rectangle would be  $2\\times \\frac{a}{\\sqrt{2}}=a\\sqrt{2}$\n  \n\n   Area of circle $: \\pi a^{2}$  and the area of rectangle $: 2a^{2}$\n  \n\n   $\\therefore$  Area of remaining portion would be $:\\pi a^{2}-2a^{2}$\n  \n\n   Option C is correct.\nArea of a rectangle of length $l$ and breadth $b$ is $lb$\n  \n\n   The maximum value of $lb$ is $l^2$  when $l \\geq b$\n  \n\n   $b^2$ when $l \\leq b$\n  \n\n   $\\implies$ Area of the rectangle $PQRS$ is maximum only when it becomes a square\n  \n\n[IMAGE:100]",
+  "images": [
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=15287140685311401442",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=9725342897750436399",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359764/gate-ece-2020-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359812",
+  "year": 2020,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The distance between Delhi and Agra is $233$ km. A car $P$ started travelling from Delhi to Agra and another car $Q$ started from Agra to Delhi along the same road $1$ hour after the car $P$ started. The two cars crossed each other $75$ minutes after the car $Q$ started. Both cars were travelling at constant speed. The speed of car $P$ was $10$ km/hr more than the speed of car $Q$. How many kilometers the car $Q$ had travelled when the cars crossed each other?",
+  "options": [
+   "$66.6$",
+   "$75.2$",
+   "$88.2$",
+   "$116.5$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "It is given that the distance between Delhi and Agra is $233\\;\\text{km}.$\n  Let the speed of $Q$ be $x\\;\\text{km/hr}.$ Then the speed of $P$ will be $(x+10)\\;\\text{km/hr}.$\n  We know that, $\\text{Speed (S)} = \\dfrac{\\text{Distance (D)}}{\\text{Time (T)}}$\n  In $1$ hour, distance travelled  by $P= (x+10) \\times 1 = (x+10)\\;\\text{km}$\n  Now the remaining distance between $P \\& Q= 233 – (x+10)\\;\\text{km}$\n  Both trains are going in the opposite direction and so the relative speed will be their sum of speeds.\n  $i.e., x+x+10 = (2x+10)\\;\\text{km/hr}$\n  The two cars crossed each other $75$ minutes after car $Q$ started.\n  So, $\\dfrac{233-(x+10)}{2x+10} = \\dfrac{75}{60}$\n  $\\implies \\dfrac{233-x-10}{2x+10} = \\dfrac{5}{4}$\n  $\\implies 892– 4x = 10x + 50$\n  $\\implies 14x = 842$\n  $\\implies x = 60.142\\;\\text{km/hr}$\n  Now the distance travelled by $Q=60.142 \\times \\dfrac{75}{60} = 60.142 \\times \\dfrac{5}{4} = 75.177 \\approx 75.2\\;\\text{km}.$\n  $\\therefore$ Car $Q$ had travelled  $75.2\\;\\text{km}$, when the cars crossed each other.\n  So, the correct answer is $(B).$\nTotal distance between P and Q = 233 Km.\n  \n\n   Now distance = speed x time\n  \n\n   At the point they meet the sum of the distance travelled by both will be 233.\n  \n\n    233 = (speed of Q x time taken by Q) + (speed of P x time taken by P) ............................ (1)\n   \n\n   Now let\n   \n    speed of Q be  q km/h\n   \n\n   Speed of\n   \n    P = (q + 10) km/hr\n   \n\n   time taken by Q to reach the point = 75 mins =1.25 hours\n  \n\n   Time taken by P to reach = 1+ (time taken by Q) as it started 1 hour earlier = 2.25 hours\n  \n\n   Substituting in  (1)\n  \n\n   233 = (q x 1.25) + ((q+10) x 2.25)\n  \n\n   solving\n   \n    q = 60.14 Km/hr\n   \n\n   distance travelled by Q = Speed x time = 60.14 x 1.25 =\n   \n    75.2 km\n   \n\n    (B) is the correct answer",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359812/gate-chemical-2020-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359832",
+  "year": 2020,
+  "set": "2",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The ratio of ‘the sum of the odd positive integers from $1$ to $100$’ to ‘the sum of the even positive integers from $150$ to $200$’ is ________.",
+  "options": [
+   "$45:95$",
+   "$1:2$",
+   "$50:91$",
+   "$1:1$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Let the sum of the odd positive integers from $1$ to $100$ be $’x’,$ and the sum of the even positive integers from $150$ to $200$ be $’ y’.$\n  Now, $x = 1 + 3 + 7 + \\ldots + 99$\n  Here, we have $a = 1,d = 2,l = 99$\n  $T_{n} = l = a+(n-1)d$\n  $\\implies 99 = 1 + (n-1)2$\n  $\\implies 2n – 2 = 98$\n  $\\implies n = 50$\n  $\\therefore x = \\frac{50}{2} (1 + 99) = 2500 \\quad [\\because S_{n} = \\frac{n}{2}(a + l)]$\n  And, $y = 150 + 152 + 154 + \\ldots + 200$\n  Here, we have $a = 150,d = 2,l = 200$\n  $T_{n} = l = a+(n-1)d$\n  $200 = 150 + (n – 1)2$\n  $\\implies 2n - 2 = 50$\n  $\\implies n = 26$\n  $\\therefore y = \\frac{26}{2} (150 + 200) = 13 \\cdot 350 = 4550$\n  Now, the required ratio $ = \\dfrac{x}{y} = \\dfrac{2500}{4550} = \\dfrac{50}{91}.$\n  So, the correct answer is $(C).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359832/gate-civil-2020-set-2-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359852",
+  "year": 2020,
+  "set": "1",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Insert seven numbers between $2$  and $34$, such that the resulting sequence including $2$ and $34$  is an arithmetic progression. The sum of these inserted seven numbers is  ______.",
+  "options": [
+   "$120$",
+   "$124$",
+   "$126$",
+   "$130$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "We can insert the seven numbers in such a way that, so we get the arithmetic progression including $2$ and $34.$\n  We get the arithmetic progression $2,6,10,14,18,22,26,30,34$\n  The inserted seven numbers are $6,10,14,18,22,26,30$\n  Here, $a = 6,d = 10-6 = 4,l = 30,n = 7$\n  $\\therefore$ The sum of the arithmetic progression $S_{7} = \\frac{7}{2}\\left(6 + 30 \\right) = 7 \\cdot 18 = 126.$\n  So, the correct answer is $(C).$\n[IMAGE:100]\n[IMAGE:101]\n\n   $\\therefore$ Correct option is $\\large C$\nAnswer\n    \n    :\n   \n   Option C. 126\n  \n\n    Edit: {162 – (2+34)} = 126\n   \n\n[IMAGE:200]\nthe first term of the sequence will be 2\n  the last term of the sequence will be 34\n  here it is asked that we insert 7 numbers in between 2 _ _ _ _ _ _ _ 34\n  so now the total no. of elements in sequence became 9\n  so according to the AP sum formula  Sum  =  N/2 (A+L)\n  here A = 2, L=34 and N = 9;\n  so sum of 7 inserted numbers = N/2(A+L) – (A+L)  =  9/2(2+34) – (2+34) = 126\n  this is I guess a very straightforward answer….\n  P.S. : This is very first time i am writing answer on GO …. so please correct me if im wrong :)\na = 2 and l = 34\n  \n\n   A total of seven numbers are inserted between a and l so the total number of terms in A.P. will become 9.\n  \n\n   Sum of nine numbers = n/2(a+l) =9/2(2+34) =162\n  \n\n   Sum of inserted numbers = sum of nine numbers – (a+l) = 162 – 36 = 126\nTotal number of terms including 2,34 = 9\n  WKT n/2(first term+last term)=> 9/2(2+34)=> 162\n  This 162 sum contains 2,34 also.\n  They asked for only sum of seven inserted numbers\n  So: 162-(2+34)=126\n  Option C is answer",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=17516260424091545706",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16343692364317152191",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=4424301328555395864",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359852/gate-civil-2020-set-1-ga-question-8",
   "source": "gateoverflow"
  },
  {
@@ -524,6 +1968,258 @@
   "explanation": "1. False.\n  \n\n    The\n    \n     symbol table is accessed\n    \n    by most phases of a compiler, beginning with\n    \n     lexical analysis\n    \n    , and continuing through optimization.\n   \n\n   Symbol table is accessed during other stages also.\n  \n\n   Ref:\n   \n    https://en.m.wikipedia.org/wiki/Symbol_table\n   \n\n   2. Not essential, any one of heap and stack is enough to support recursion.  Dynamic allocation of activation records is essential to implement recursion. Remember the stack size can also grow dynamical (see C memory layout).\n  \n\n   3. Syntax analyser uses CFL which cannot check for this, we need power of Context sensitive language which is available in semantic analysis phase. So this error is detected only during semantic analysis phase.\n  \n\n   So D is correct.\nAnswer : D\n  Symbol tables is accessed by Other Phases also , not only by Lexical and Syntax analyses. So, false,\n  Heap is necessary for recursion, can be done via stack.  So, false\n  Variable declare before its use must be done by Semantic analyses. So, false,\ni) symbol table may be used in other phases.Therefore False.\n  ii) for recursion we need stack. Therefore False\n  iii) Syntax analysis can only work on DCFG. variable declared before use wcw is not in DCFG. Therfore false.\n  option is  D) None of the above\nNone of the statements are true.\n  \n\n    Symbol table is a data structure used by compilers to store information about the variables, functions, and other entities in a program. It is accessed during both lexical analysis and syntax analysis, but may also be used by later stages of the compilation process, such as code generation.\n   \n\n    Compilers for programming languages that support recursion may or may not need heap storage for memory allocation in the run-time environment. The decision to use heap storage or not depends on the specific implementation of the compiler and the features of the programming language.\n   \n\n    Errors violating the condition 'any variable must be declared before its use' are typically detected during the semantic analysis phase of compilation, not during syntax analysis. Syntax analysis checks the structure of the program to ensure it follows the rules of the programming language's grammar, while semantic analysis checks the meaning of the program to ensure it is semantically correct.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/333222/gate-cse-2020-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "333232",
+  "year": 2020,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": 2,
+  "text": "Two straight lines are drawn perpendicular to each other in $X-Y$ plane. If $\\alpha$ and $\\beta$ are the acute angles the straight lines make with the $\\text{X-}$ axis, then $\\alpha + \\beta$ is ________.",
+  "options": [
+   "$60^{\\circ}$",
+   "$90^{\\circ}$",
+   "$120^{\\circ}$",
+   "$180^{\\circ}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "[IMAGE:0]\n\n   Here, we can clearly see that Two Lines $L_{1}$ and $L_{2}$ are intersecting each other at the right angle.\n  \n\n   Now we also know that in a triangle, the sum of three angles is\n  \n\n    $\\angle A + \\angle B + \\angle C=180^{\\circ}$\n   \n\n    $\\alpha +\\beta + 90^{\\circ}=180^{\\circ}$\n   \n\n    $\\alpha + \\beta = 90^{\\circ}$\n   \n\n   The answer is (B).\n[IMAGE:100]\n\n   L1 and L2 are two perpendicular lines(i.e. 90°).\n  \n\n   let say lines L1 and L2 are making acute angles with the x-axis i.e. α and y-axis i.e. β respectively.\n  \n\n   therefore, by Angle Sum Property of Triangles in the triangle with\n  \n\n   α+β+90° = 180°\n  \n\n   α+β = 90° .\n  \n\n   option B.\nas the two lines are perpendicular to each other so\n  90+a+b=180\n  or, a+b=180-90=90\n  ans..B\nstraight line make 180* with the x-axis\n  a+b+90=180\n  a+b=90",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=13361297874104118899",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16372138100611157099",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/333232/gate-cse-2020-question-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359520",
+  "year": 2020,
+  "set": "1",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Select the graph that schematically represents BOTH $y=x^{m}\\:\\text{and}\\:y=x^{1/m}$ properly in the interval $0\\leq x \\leq 1$, for integer values of $m,$ where $m > 1.$",
+  "options": [
+   "[IMAGE:0]",
+   "[IMAGE:1]",
+   "[IMAGE:2]",
+   "[IMAGE:3]"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Given that $y_1 = x^{m}\\;;\\; 0\\leq x \\leq 1,\\; m>1$\n  \n\n   For simplicity we can take $m = 2,$ differentiate the function and get the slope.\n  \n\n   For $y = x^{2}$ we get $m_1 = \\frac{\\mathrm{d} y }{\\mathrm{d} x} = 2x.$\n  \n\n   Similarly for $y_2 = x^{1/2}$ we get $m_2 = \\frac{\\mathrm{d} y }{\\mathrm{d} x} = \\frac{1}{2\\sqrt x}$\n  \n\n   At $x = 0, m_1 = 0, m_2 = \\infty$\n  \n\n   At $x = 1, m_1 = 2, m_2 = 0.5$\n  \n\n   Only for option, A slope of $y_1$ is increasing and slope of $y_2$ is decreasing.\n  \n\n[IMAGE:0]\n\n   So, the correct answer is $(A).$\nif we take x=0.5 and m=2 then we can see that y=x^m=0.25 where y=x^1/m=0.7 so from the given option we can eliminate the wrong option here.\n  \n\n   so\n   \n    Option A\n   \n   is correct answer.",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=5857637480285504546",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=18442131739771823590",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=13072718916191301471",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=17706232188831839588",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=13327730656396909566",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359520/gate-mechanical-2020-set-1-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359540",
+  "year": 2020,
+  "set": "2",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "An engineer measures THREE quantities, $X, Y$ and $Z$ in an experiment. She finds that they follow a relationship that is represented in the figure below$: ($the product of $X$ and $Y$ linearly varies with $Z)$\n  \n\n[IMAGE:0]\n\n   Then, which of the following statements is FALSE?",
+  "options": [
+   "For fixed $Z$; $X$ is proportional to $Y$",
+   "For fixed $Y$; $X$ is proportional to $Z$",
+   "For fixed $X$; $Z$ is proportional to $Y$",
+   "$XY/Z$ is constant"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Given that, $XY \\propto Z \\implies XY = k Z;$ where $k$ is constant.\n  \n\n   Now, we can verify each and every option.\n  \n\n    For fixed $Z; X$ is proportional to $Y{\\color{Red} {\\text{ – False.}}}$\n    \n\n      $XY \\propto Z$\n     \n\n      For fixed $Z,$ we can write $XY \\propto 1$\n     \n\n      $X \\propto \\dfrac{1}{Y}\\;\\text{(or)} \\; Y \\propto \\dfrac{1}{X}$\n     \n\n    For fixed $Y; X$ is proportional to $Z-$ True.\n    \n\n      $XY \\propto Z$\n     \n\n      For fixed $Y,$ we can write $X \\propto Z$\n     \n\n    For fixed $X; Z$ is proportional to $Y-$ True.\n    \n\n      $XY \\propto Z$\n     \n\n      For fixed $X$ we can write $Y \\propto Z$\n     \n\n    $XY/Z$ is constant –  True.\n    \n\n      $XY \\propto Z$\n     \n\n      $\\implies XY = k Z;$ where $k$ is constant.\n     \n\n   So, the correct answer is A.\n[IMAGE:100]\n\n   A.",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=11172299236264837459",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=47426720855619673",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359540/gate-mechanical-2020-set-2-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359713",
+  "year": 2020,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Given a semicircle with $\\text{O}$ as the centre, as shown in the figure, the ratio $\\dfrac{\\overline{AC}+\\overline{CB}}{\\overline{AB}}$ is _______, where $\\overline{AC}$, $\\overline{CB}$ and $\\overline{AB}$ are chords.\n  \n\n[IMAGE:0]",
+  "options": [
+   "$\\sqrt{2}$",
+   "$\\sqrt{3}$",
+   "$2$",
+   "$3$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Ans A\n   \n\n   Given O as the center. AB is the diameter. Let\n   \n    Diameter\n   \n   = $2r$\n  \n\n   Then $ AO = OB = r $, $ CO = r $ Semicircle.\n  \n\n   $\\angle COB = \\angle COA= 90^{\\circ}$, Applying Pythagoras Theorem in $\\triangle COB, \\triangle COA$\n  \n\n   $CB = CA = \\sqrt{2}r$\n  \n\n   Putting in given equation.$\\frac{\\overline{AC }+ \\overline{CB}}{\\overline{AB}} = \\frac{\\sqrt{2}r +\\sqrt{2}r }{2r} = \\frac{2\\sqrt{2}r }{2r} = \\frac{\\sqrt{2} }{1}=\\sqrt{2}$",
+  "images": [
+   {
+    "src": "https://ee.gateoverflow.in/?qa=blob&qa_blobid=10856567777098935580",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359713/gate-electrical-2020-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359762",
+  "year": 2020,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "$a, b, c$ are real numbers. The quadratic equation $ax^{2}-bx+c=0$ has equal roots, which is $\\beta$, then",
+  "options": [
+   "$\\beta =b/a$",
+   "$\\beta^{2} =ac$",
+   "$\\beta^{3} =bc/\\left ( 2a^{2} \\right )$",
+   "$\\beta^{2} \\neq 4ac$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "In general, for a quadratic equation  $ax^{2}+bx+c=0,$ sum of roots is given by:  $\\frac{-b}{a}$  and product of roots by:  $\\frac{c}{a}$\n   Here, both the roots are $\\beta$.\n   So,  according to the given quadratic equation, we have\n  \n\n    $2\\beta=\\frac{b}{a}\\quad \\to (1)$ and\n   \n\n    $\\beta^{2}=\\frac{c}{a}\\quad \\to (2)$\n   \n\n   Multiplying equations $(1)$ and $(2)$ and simplifying, we get  $\\beta^{3}=\\frac{bc}{2a^{2}}$\n   Option C is correct\nGiven quadratic equation is: $ax^{2}-bx+c=0$\n  \n\n   Method 1.\n  \n\n   Given it has two roots and both are $\\beta$.\n  \n\n   Using Shreedhara Acharya's formula we know,\n  \n\n   $\\beta =\\frac{b- \\sqrt{b^{2}-4ac}}{2a} \\text{or}$\n  \n\n   $\\beta =\\frac{b+ \\sqrt{b^{2}-4ac}}{2a}$\n  \n\n   So, $\\beta +\\beta =\\frac{2b}{2a}=\\frac{b}{a}$\n  \n\n   $ \\implies \\beta =\\frac{b}{2a}$\n  \n\n   Now, $\\beta *\\beta =\\frac{b-\\sqrt{b^{2}-4ac}}{2a}*\\frac{b+\\sqrt{b^{2}-4ac}}{2a}$\n  \n\n   $= \\beta *\\beta =\\frac{b^{2}-(b^{2}-4ac)}{4a^{2}}=\\frac{c}{a}$\n  \n\n   $\\beta ^{2}=\\frac{c}{a}$\n  \n\n   So, $\\beta ^{3}=\\beta *\\beta ^{2}=\\frac{b}{2a}*\\frac{c}{a} \\implies \\beta ^{3}=\\frac{bc}{2a^{2}}$\n  \n\n   By this we can eliminate option A and B.\n  \n\n   Option C is true.\n  \n\n   Now option D,\n  \n\n   $\\beta ^{2}=\\frac{c}{a}$        ……...(1)\n  \n\n   $\\beta ^{2}=\\frac{b^{2}}{4a^{2}}$  ………...(2)\n  \n\n   $\\frac{c}{a}=\\frac{b^{2}}{4a^{2}}$\n  \n\n   or, $b^{2}=4ac$\n  \n\n   Now we can say the $\\beta^{2} \\text{ value is either }\\frac{b^2}{4a^2} \\text{ or } \\frac{c}{a}$.\n  \n\n   Example:-\n  \n\n   $4x^{2}-4x+1=0$ $(\\text{here }a=4,b=4, c=1)$\n  \n\n   Here roots($\\beta$) are $\\frac{1}{2},\\frac{1}{2}$.\n  \n\n   option A: $\\frac{b}{a}=\\frac{4}{4}=1\\neq \\beta$\n  \n\n   option B: $a*c=4*1=4\\neq \\beta ^{2}$\n  \n\n   option C: $\\frac{bc}{2a^{2}}=\\frac{4*1}{2*16}=\\frac{1}{8}= \\beta ^{3}$  (\n   \n    True\n   \n   )\n  \n\n   option D: $4*a*c=4*4*1=16\\neq \\beta ^{2}$  (\n   \n    True for this case)\n   \n\n   If we take the example\n  \n\n   $\\frac{1}{2}x^{2}-x+\\frac{1}{2}=0$ $(\\text{here }a=\\frac{1}{2}, b=1,c=\\frac{1}{2})$.\n  \n\n   $\\beta =1$\n  \n\n   $\\beta ^{2}=4*\\frac{1}{2}*\\frac{1}{2}=4ac$\n  \n\n   so option D is wrong.\n  \n\n   Correct answer is option c.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359762/gate-ece-2020-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359810",
+  "year": 2020,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "For a matrix $M=[m_{ij}]; \\: i,j=1,2,3,4$, the diagonal elements are all zero and $m_{ij}=-m_{ji}$. The minimum number of elements required to fully specify the matrix is ________",
+  "options": [
+   "$0$",
+   "$6$",
+   "$12$",
+   "$16$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "For a matrix $M=[m_{ij}];i,j=1,2,3,4$, the diagonal elements are all zero and $m_{ij}=−m_{ji}$ (This is the property of skew-symmetric matrix).\n   Now, $M= \\begin{bmatrix} 0 & -m_{21} & -m_{31} & -m_{41} \\\\  m_{21} & 0 & -m_{32} & -m_{42} \\\\ m_{31} & m_{32} & 0 & -m_{43} \\\\  m_{41}& m_{42} & m_{43} & 0    \\end{bmatrix}$\n   Out of $16$ elements, $4$ are $0s$ and $6$ are the negative of the other $6.$ So, we need\n   \n    at least\n   \n   $6$ elements to fully specify the matrix.\n   So, the correct answer is $(B).$\nOption B.\n  6",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359810/gate-chemical-2020-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359830",
+  "year": 2020,
+  "set": "2",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In a school of $1000$ students, $300$ students play chess and $600$ students play football. If $50$ students play both chess and football, the number of students who play neither is ________.",
+  "options": [
+   "$200$",
+   "$150$",
+   "$100$",
+   "$50$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Given that, the number of students in school $n(U) = 1000,$ the number of students who play chess $n(C) = 300, $ the number of students who play football $n(F) = 600,$ and the number of students who play both chess and football $n(C \\cap F)  = 50.$\n  Now, the number of students who play either chess or football $n(C \\cup F) = n(C) + n(F) – n(C \\cap F)$\n  $\\implies n(C \\cup F) = 300 + 600 – 50 = 850.$\n  $\\therefore$ The number of students who play neither chess nor football $\\overline{n(C \\cup F)} =  n(U) – n(C \\cup F) = 1000 – 850 = 150.$\n  So, the correct answer is $(B).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359830/gate-civil-2020-set-2-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359850",
+  "year": 2020,
+  "set": "1",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The unit’s place in $26591749^{110016}$ is  ______.",
+  "options": [
+   "$1$",
+   "$3$",
+   "$6$",
+   "$9$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "We can write, the unit’s place in $26591749^{110016} = $ the unit’s place in $9^{110016}$\n  Now, we know that the unit place of  $9^{1} = 9,9^{2} = 1,9^{3} = 9,\\ldots$\n  $\\therefore$ The cyclicity of $9$ is $2.$\n  And, $110016$ is divisible by $2,$ so the unit place of $9^{2} = 1.$\n  $\\text{(Or)}$\n  The unit place of $9^{\\text{odd}} = 9,9^{\\text{even}} = 1.$\n  The number $110016$ is even, so the unit place of $9^{\\text{even}} = 1.$\n  So, the correct answer is $(A).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359850/gate-civil-2020-set-1-ga-question-9",
   "source": "gateoverflow"
  },
  {
@@ -558,6 +2254,252 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/333221/gate-cse-2020-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "333231",
+  "year": 2020,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": 2,
+  "text": "The total revenue of a company during $2014-2018$ is shown in the bar graph. If the total expenditure of the company in each year is $500$ million rupees, then the aggregate profit or loss (in percentage) on the total expenditure of the company during $2014-2018$ is ___________.\n  \n\n[IMAGE:0]",
+  "options": [
+   "$16.67 \\%$ profit",
+   "$16.67 \\%$ loss",
+   "$20 \\%$ profit",
+   "$20 \\%$ loss"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Total expenditure during each year $= 500$ million rupees\n   Total expenditure for $5$ years $= 500 \\times 5 = 2500$ million rupees\n  \n\n    Revenue in $2014 = 500$ million rupees\n   \n\n    Revenue in $2015 = 700$ million rupees\n   \n\n    Revenue in $2016 = 800$ million rupees\n   \n\n    Revenue in $2017 = 600$ million rupees\n   \n\n    Revenue in $2018 = 400$ million rupees\n   \n\n   Total revenue $= 500+700+800+600+400 = 3000$ million rupees\n   Profit $= 3000-2500 = 500$ million rupees\n   Profit percentage $= \\left(\\frac{500}{2500} \\right) \\times 100 = 20 \\%.$\nANS. (C)\n  TOTAL PROFIT=(500+700+800+600+400)-2500=500\n  PERSENTAGE PROFIT=(500/2500)*100=20% PROFIT\nThe profit percentage is calculated as 20%.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2056478950580878334",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/333231/gate-cse-2020-question-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359518",
+  "year": 2020,
+  "set": "1",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The bar graph shows the data of the students who appeared and passed in an examination for four schools $P, Q, R$, and $S$. The average of success rates $\\text{(in percentage)}$ of  these four schools is _______.\n  \n\n[IMAGE:0]",
+  "options": [
+   "$58.5\\%$",
+   "$58.8\\%$",
+   "$59.0\\%$",
+   "$59.3\\%$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "We can calculate the success rate of every school, then find their average.\n  \n\n   Success rate $ = \\dfrac{\\text{Number of students who passed the exams}}{\\text{Number of appeared students}}$\n  \n\n    Success rate of school $P = \\dfrac{280}{500} \\times 100\\%  = 56\\%.$\n   \n\n    Success rate of school $Q = \\dfrac{330}{600} \\times 100\\%  = 55\\%.$\n   \n\n    Success rate of school $R = \\dfrac{455}{700} \\times 100\\%  = 65 \\%.$\n   \n\n    Success rate of school $S = \\dfrac{240}{400} \\times 100\\%  =  60\\%.$\n   \n\n   Now, the average success rates of all the schools $ = \\dfrac{56\\% + 55\\% + 65\\%  + 60\\%}{4} =  \\dfrac{236\\%}{4} = 59.0\\%.$\n  \n\n   So, the correct answer is $(C).$",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=5817743697393196869",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359518/gate-mechanical-2020-set-1-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359538",
+  "year": 2020,
+  "set": "2",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The two pie-charts given below show the data of total students and only girls registered in different streams in a university. If the total number of students registered in the university is $5000$, and the total number of the registered girls is $1500$; then, the ratio of boys enrolled in Arts to the girls enrolled in Management is ___________\n  \n\n[IMAGE:0]",
+  "options": [
+   "$2:1$",
+   "$9:22$",
+   "$11:9$",
+   "$22:9$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Given that, the total number of students registered in the university is $5000$, and the total number of the registered girls is $1500$.\n  \n\n    Number of boys enrolled in Arts $ = (5000 \\times 20\\%) – (1500 \\times 30\\%) = 1000 – 450 = 550.$\n   \n\n    Number of girls enrolled in Management $ =  1500 \\times 15\\% = 225.$\n   \n\n   Now, the required ratio $ = 550:225 = 110:45 = 22:9.$\n  \n\n   So, the correct answer is $(D).$",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=6557002048370981316",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359538/gate-mechanical-2020-set-2-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359710",
+  "year": 2020,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The revenue and expenditure of four different companies $\\text{P, Q, R and S}$ in $2015$ are shown in the figure. If the revenue of company $\\text{Q}$ in $2015$ was $20$% more than that in $2014$, and company $\\text{Q}$ had earned a profit of $10$% on expenditure in $2014$, then its expenditure (in million rupees) in $2014$ was _______.\n  \n\n[IMAGE:0]",
+  "options": [
+   "$32.7$",
+   "$33.7$",
+   "$34.1$",
+   "$35.1$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Let the revenue of company $Q$ in $2014$ be $Rs$ $x .$\n  \n\n   Then the revenue of company $Q$ in $2015 = x + x \\times \\frac{20}{100} = \\frac{120x}{100} = 1.2x$\n  \n\n   Now, $1.2x = 45$\n  \n\n   $\\implies x = \\frac{45}{1.2} = 37.50$\n  \n\n   Given that, the company $Q$ had earned a profit of $10\\%$ on expenditure in $2014.$\n  \n\n   Let the expenditure of company $Q$ in $2014$ be $Rs$ $y.$\n  \n\n   The company $Q$ earn $10\\%$ profit on it’s expenditure and this profit adds to the revenue of company $Q.$\n  \n\n   Now, $y+y\\times \\frac{10}{100} = 37.50$\n  \n\n   $\\implies \\frac{110y}{100} = 37.50$\n  \n\n   $\\implies \\frac{11y}{10} = 37.50$\n  \n\n   $\\implies 11y = 375 . 0$\n  \n\n   $\\implies y = \\frac{375.0}{11} = 34.0909 \\approx Rs$ $34.1$\n  \n\n   $\\textbf{Short Method:}$ Let the revenue of company $Q$ in $2014$ be $Rs$ $100.$\n  \n\n   Then the revenue of company $Q$ in $2015 = Rs$ $120$\n  \n\n    $120 \\longrightarrow 45$\n   \n\n    $100 \\longrightarrow 37.50$\n   \n\n   The company $Q$ earn $10\\%$ profit on its expenditure and this profit adds to the revenue of company $Q.$\n  \n\n   Let  the expenditure of company $Q$ in $2014$ be $Rs$ $y.$\n  \n\n   $\\frac{110y}{100} = 37.50$\n  \n\n   $\\implies y = Rs$ $34.1$\n  \n\n   So, the correct answer is $(C).$\nAns C.\n   \n\n   Revenue of Company Q in 2015 = 45 (million rupees)\n  \n\n   Let the revenue of Company Q in 2014 = $x$ (million rupees)\n  \n\n   Then the revenue of company Q in 2015 = $1.2 x $ (million rupees)\n  \n\n   $1.2 x  = 45, x = 37.5$  (million rupees)\n  \n\n   Given Q has earned profit of 10% on expenditure (y) in 2014 ( which becomes its revenue)\n  \n\n   $ 1.1 y = 37.5 , y = 34.09 \\approx 34.1 $",
+  "images": [
+   {
+    "src": "https://ee.gateoverflow.in/?qa=blob&qa_blobid=10977358907873751170",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359710/gate-electrical-2020-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359759",
+  "year": 2020,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The following figure shows the data of students enrolled in $5$ years $(2014\\;\\text{to}\\; 2018)$ for two schools $P$ and $Q$. During this period, the ratio of the average number of the students enrolled in school $P$ to the average of the difference of the number of students enrolled in schools $P$ and $Q$ is _______.\n  \n\n[IMAGE:0]",
+  "options": [
+   "$8 : 23$",
+   "$23 : 8$",
+   "$23 : 31$",
+   "$31 : 23$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "We can calculate the number of students enrolled in both schools during the given period of time,\n  \n\n    The total number of students enrolled in school $P\\text{(in 5 years)} = (3 + 5 + 5 + 6 + 4) \\times 1000 = 23000$\n   \n\n    Average number of students enrolled in school $P = \\frac{23000}{5}$\n   \n\n    And, the total number of students enrolled in school $Q\\text{(in 5 years)} = (4 + 7 + 8 + 7 + 5) \\times 1000 = 31000$\n   \n\n    Average number of students enrolled in school $Q = \\frac{31000}{5}$\n   \n\n    Average of the difference of the number of students enrolled in school $P$ and $Q = \\frac{31000}{5} – \\frac{23000}{5} = \\frac{8000}{5}$\n   \n\n   Now the required ratio $ = \\dfrac{\\frac{23000}{8}}{\\frac{8000}{5}} = \\frac{23}{8}.$\n   $\\therefore$ The ratio of the average number of the students enrolled in school $P$ to the average of the difference of the number of students enrolled in schools $P$ and $Q= 23:8.$\n  \n\n   $\\textbf{Short Method:}$  While calculating the ratio, common entities are cancelled.\n  \n\n    The total number of students enrolled in school $P=3 + 5+ 5 + 6 + 4 = 23$\n   \n\n    The total number of students enrolled in school $Q=4 + 7 + 8  + 7  + 5  = 31$\n   \n\n   The difference between the number of students enrolled in school $P$ and school $Q=31 - 23 = 8$\n  \n\n   Now the required ratio $ = 23:8.$\n   So, the correct answer is $(B).$\nTotal number of students enrolled in school P:   $3K+5K+5K+6K+4K=23K$\n  \n\n    Total number of students enrolled in school Q:  $4K+7K+8K+7K+5K=31K$\n    \n\n      Difference between the number of student enrolled in school P & school Q :  $31K-23K=8K$\n      \n\n       Required ratio :  $\\frac{23K}{8K}$\n       Option B is correct.",
+  "images": [
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=2766895737964109742",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359759/gate-ece-2020-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359808",
+  "year": 2020,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The profit shares of two companies $P$ and $Q$ are shown in the figure. If the two companies have invested a fixed and equal amount every year, then the ratio of the total revenue of company $P$ to the revenue of company $Q$, during $2013-2018$ is ________.\n  \n\n[IMAGE:0]",
+  "options": [
+   "$15 : 17$",
+   "$16 : 17$",
+   "$17 : 15$",
+   "$17 : 16$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Let us assume both the companies $P$ and $Q$ invested $Rs.x$\n  \n\n   We know that, Revenue = Profit + Investment\n  \n\n   Now, company $P$ revenue,\n  \n\n    $2013: 0.1x + x = 1.1x$\n   \n\n    $2014: 0.2x + x = 1.2x$\n   \n\n    $2015: 0.4x + x = 1.4x$\n   \n\n    $2016: 0.4x + x = 1.4x$\n   \n\n    $2017: 0.5x + x = 1.5x$\n   \n\n    $2018: 0.4x + x = 1.4x$\n   \n\n   $\\therefore$ Total revenue of company $P = 1.1x+1.2x+1.4x+1.4x + 1.5x+1.4x = 8.0x$\n  \n\n   And  company $Q$ revenue,\n  \n\n    $2013: 0.2x + x = 1.2x$\n   \n\n    $2014: 0.3x + x = 1.3x$\n   \n\n    $2015: 0.3x + x = 1.3x$\n   \n\n    $2016: 0.5x + x = 1.5x$\n   \n\n    $2017: 0.6x + x = 1.6x$\n   \n\n    $2018: 0.6x + x = 1.6x$\n   \n\n   $\\therefore$ Total revenue of company $Q = 1.2x+1.3x+1.3x+1.5x + 1.6x+1.6x = 8.5x$\n  \n\n   Now, the ratio of the total revenue of company $P$ to the revenue of company $Q,$ during $2013−2018$ is $ = 8x: 8.5x = 16:17.$\n  \n\n   $\\textbf{Short Method:}$ Let us assume both the companies $P$ and $Q$ invested $Rs.100$\n  \n\n   Now, the total revenue of company $P = 110+ 120+140+140+150+140 = 800$\n  \n\n   And, the total revenue of company $Q = 120+130+130+150+160+160 = 850$\n  \n\n   $\\therefore$ The required ratio $ = 800:850 = 80: 85 = 16:17.$\n  \n\n   So, the correct answer is $(B).$",
+  "images": [
+   {
+    "src": "https://ch.gateoverflow.in/?qa=blob&qa_blobid=9831793977083640709",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359808/gate-chemical-2020-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359828",
+  "year": 2020,
+  "set": "2",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The monthly distribution of $9$ Watt LED bulbs sold by two firms $X$ and $Y$ from January to June $2018$ is shown in the pie-chart and the corresponding table. If the total number of LED bulbs sold by the two firms during April-June $2018$ is $50000$, then the number of LED bulbs sold by the firm $Y$ during April-June $2018$ is ________.\n  \n\n   Percentage of $9$ Watt LED bulbs sold  by the firms $X$ and $Y$ from January $2018$ to June,$2018$\n  \n\n[IMAGE:0]\n\n   $$\\begin{array}{|c|c|} \\hline {} & \\text{ Ratio of LED bulbs} \\\\ \\text{Month}  & \\text{ sold by two firms} \\\\ & (X:Y) \\\\ \\hline \\text{January} & 7:8 \\\\ \\hline \\text{February} & 2:3 \\\\ \\hline \\text{March} & 2:1 \\\\ \\hline \\text{April} & 3:2 \\\\ \\hline \\text{May} & 1:4 \\\\ \\hline \\text{June} & 9:11 \\\\ \\hline \\end{array}$$",
+  "options": [
+   "$11250$",
+   "$9750$",
+   "$8750$",
+   "$8250$"
+  ],
+  "correctAnswer": null,
+  "explanation": "We can find the number of LED bulbs sold by $Y$ during April – June $2018$ by adding up the monthly units sold.\n  \n\n    LED bulbs sold in April by $Y = \\dfrac{2}{5} \\times 15\\% = 6\\%$\n   \n\n    LED bulbs sold in May by $Y = \\dfrac{4}{5} \\times 10\\% = 8\\%$\n   \n\n    LED bulbs sold in June by $Y = \\dfrac{11}{20} \\times 10\\% = 5.5\\%$\n   \n\n   Total LED bulbs sold by $Y$ during April-June $= (6 + 8 + 5.5)\\% = 19.5\\%.$\n  \n\n   The total number of LED bulbs sold by the two firms during April-June $ = 50000 (15\\%+10\\%+10\\% = 35\\%).$\n  \n\n    $35\\% \\longrightarrow 50000$\n   \n\n    $19.5\\% \\longrightarrow \\left(\\dfrac{50000}{35} \\right) \\times 19.5 = 27857.1428.$",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=18130478007275090391",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359828/gate-civil-2020-set-2-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359848",
+  "year": 2020,
+  "set": "1",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The total expenditure of a family, on different activities in a month, is shown in the pie-chart. The extra money spent on education as compared to transport (in percent) is  ______.\n  \n\n[IMAGE:0]",
+  "options": [
+   "$5$",
+   "$33.3$",
+   "$50$",
+   "$100$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "The expenditure of a family, on education $ = 15\\%,$ on transport $ = 10\\%.$\n  The extra money spent on education as compared to transport $ = \\left(\\dfrac{15-10}{10} \\right) \\times 100\\% = 50\\%.$\n  So, the correct answer is $(C).$",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=8181521707324802281",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359848/gate-civil-2020-set-1-ga-question-10",
   "source": "gateoverflow"
  },
  {

@@ -61,6 +61,188 @@
   "source": "gateoverflow"
  },
  {
+  "id": "411825",
+  "year": 2023,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "He did not manage to fix the car himself, so he ________ in the garage.",
+  "options": [
+   "got it fixed",
+   "getting it fixed",
+   "gets fixed",
+   "got fixed"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "The phrase \"did not manage to fix the car himself\" implies that the person attempted to repair the car but was unsuccessful. ${\\color{DarkGreen}\\text{\"Got it fixed\"}}$ indicates that they sought external help or professional assistance to have the car repaired. It suggests that they took the car to a garage or mechanic, and someone else successfully fixed it for them.\n  \n\n   The other options are not as suitable:\n  \n\n    \"Getting it fixed\" suggests an ongoing or future action rather than a completed action in the past.\n   \n\n    \"Gets fixed\" implies a habitual action, which doesn't match the context of a one-time event.\n   \n\n    \"Got fixed\" lacks the necessary subject \"it,\" which is needed to clarify that the car is the object being fixed.\n   \n\n   Therefore, \"got it fixed\" best conveys the meaning that the person sought outside help and had the car successfully repaired in the past.\n  \n\n   Correct Answer: A",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411825/gate-mechanical-2023-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411843",
+  "year": 2023,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Rafi told Mary, \"I am thinking of watching a film this weekend.\" The following reports the above statement in indirect speech:\n  \n\n   Rafi told Mary that he _______ of watching a film that weekend.",
+  "options": [
+   "thought",
+   "is thinking",
+   "am thinking",
+   "was thinking"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "In indirect speech, we change the pronouns and tense. ${\\color{Red} \\text{“I\"}}$ becomes ${\\color{Red} \\text{“he\",}}$ and ${\\color{Blue} \\text{“am thinking\"}}$ changes to ${\\color{Blue}\\text{“was thinking\"}}$ because we shift the tense back one step to the past. The time expression ${\\color{Magenta}{\\text{“this weekend\"}}}$ changes to ${\\color{Magenta}{\\text{“that weekend\"}}}$ to reflect the change from direct speech to indirect speech.\n   Rafi told Mary that he ${\\color{Purple}{\\text{was thinking}}}$ of watching a film that weekend.\n  \n\n   Reference:\n   \n    https://senenglish.webs.com/direct%20indirect.pdf\n   \n   Correct Answer: D\nAns\n   \n   . In indirect speech, when the reporting verb is in the past tense (like \"told\"), the tense of the reported speech usually shifts back one step.\n  \n\n   So, \"I am thinking\" in direct speech becomes \"he was thinking\" in indirect speech.\n  \n\n    Indirect speech:\n   \n   Rafi told Mary that he was thinking of watching a film that weekend.\nOption A,  Rafi told Mary that he thought of watching a film that weekend",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411843/gate-electrical-2023-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411863",
+  "year": 2023,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "“I cannot support this proposal. My _________ will not permit it.”",
+  "options": [
+   "conscious",
+   "consensus",
+   "conscience",
+   "consent"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "In the statement, the word that best fits the blank is ${\\color{Red}\\text{“conscience.\"}}$ Let's explore the meanings of the other options:\n  \n\n      Conscious:\n     \n     \"Conscious\" refers to being aware of something or having knowledge of it. However, in the given context, it doesn't fit well because it doesn't convey the sense of moral judgment or internal guidance that the sentence requires.\n    \n\n      Consensus:\n     \n     \"Consensus\" refers to a general agreement or harmony among a group of people. While it is related to decision-making, it doesn't align with the phrase \"will not permit it\" as it suggests a collective agreement rather than an individual's personal conviction.\n    \n\n      Conscience:\n     \n     \"Conscience\" refers to an individual's internal sense of right and wrong, guiding their behavior and decisions. It represents an individual's moral compass and is the most appropriate word for the given sentence, as it suggests that the speaker's personal moral beliefs or principles prohibit them from supporting the proposal.\n    \n\n      Consent:\n     \n     \"Consent\" refers to giving permission or approval for something. While it conveys the idea of permission, it doesn't capture the sense of personal moral judgment that the sentence implies.\n    \n\n   Therefore, the correct word choice for the sentence is ${\\color{Red}\\text{“conscience.\"}}$ The revised statement would be: \"I cannot support this proposal. My conscience will not permit it.\"\n   Correct Answer: C",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411863/gate-ece-2023-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411878",
+  "year": 2023,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The village was nestled in a green spot, __________ the ocean and the hills.",
+  "options": [
+   "through",
+   "in",
+   "at",
+   "between"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Let’s describe each option one by one.\n  \n\n    ${\\color{Red} \\text{Through:}}$ Implies movement from one side to another, not suitable for describing the village's location between the ocean and the hills.\n   \n\n    ${\\color{Blue} \\text{In:}}$ Indicates being within an enclosed space, suggesting the village is inside a green spot surrounded by the ocean and the hills.\n   \n\n    ${\\color{Magenta} \\text{At:}}$ Indicates a specific point or location, not conveying the sense of being situated between the ocean and the hills.\n   \n\n    ${\\color{Darkgreen} \\text{Between:}}$ Accurately conveys the village's location in the middle, with the ocean on one side and the hills on the other.\n   \n\n   The most suitable preposition for the sentence is ${\\color{Darkgreen} \\text{“between\"}}$ as it accurately describes the village's position relative to the ocean and the hills.\n   Correct Answer: D",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411878/gate-in-2023-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411893",
+  "year": 2023,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "\"You are delaying the completion of the task. Send _________ contributions at the earliest.\"",
+  "options": [
+   "you are",
+   "your",
+   "you're",
+   "yore"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Let’s dive into each option.\n  \n\n    \"You are delaying the completion of the task. Send you are contributions at the earliest.\"\n    Explanation: This option is grammatically incorrect. ${\\color{Red} \\text{“You are\"}}$ is a subject pronoun and cannot be used as a possessive pronoun in this context.\n   \n\n    \"You are delaying the completion of the task. Send your contributions at the earliest.\"\n    Explanation: This option is correct. ${\\color{Green} \\text{“Your\"}}$ is the possessive form of \"you\" and indicates that the contributions being referred to belong to the person being addressed.\n   \n\n    \"You are delaying the completion of the task. Send you're contributions at the earliest.\"\n    Explanation: This option is grammatically incorrect. ${\\color{Purple} \\text{“You’re\"}}$ is a contraction of \"you are\" and cannot be used as a possessive pronoun in this context.\n   \n\n    \"You are delaying the completion of the task. Send yore contributions at the earliest.\"\n    Explanation: This option is incorrect. ${\\color{Blue} \\text{“Yore\"}}$ is an archaic term that means \"belonging to a time long past\" and is not suitable in this context. It does not convey the meaning of possessing or ownership.\n   \n\n   Based on the correct usage of possessive pronouns, the correct option is: \"You are delaying the completion of the task. Send your contributions at the earliest.\"\n   Correct Answer: B",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411893/gate-ch-2023-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411907",
+  "year": 2023,
+  "set": "1",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "\"I have not yet decided what I will do this evening; I ______ visit a friend.\"",
+  "options": [
+   "mite",
+   "would",
+   "might",
+   "didn't"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Let’s understand the meaning of each option:\n  \n\n    ${\\color{Red} \\text{“Mite\":}}$ It is a noun referring to a tiny arachnid, not a verb expressing uncertainty.\n   \n\n    ${\\color{Blue}\\text{“Would\":} }$ It is a modal verb used for hypothetical situations or polite requests, not uncertainty about future plans.\n   \n\n    ${\\color{Green} \\text{“Might\":}}$ It is a modal verb indicating possibility or uncertainty about a future action, fitting the context of the sentence.\n   \n\n    ${\\color{Purple}\\text{“Didn't\": }}$It is the past tense of \"do not\" or \"did not,\" not suitable for expressing uncertainty about future plans.\n   \n\n   Correct Answer: C",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411907/gate-civil-2023-set-1-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411924",
+  "year": 2023,
+  "set": "2",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The line ran _________ the page, right through the centre, and divided the page into two.",
+  "options": [
+   "across",
+   "of",
+   "between",
+   "about"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Let’s dive into each option:\n  \n\n    \"The line ran \"across\" the page\" - This is the correct choice as it indicates the line extended horizontally from one side of the page to the other, dividing it into two parts.\n   \n\n    \"The line ran \"of\" the page\" - This doesn't make sense in this context. \"Of\" is not the appropriate preposition to describe the line's movement or position on the page.\n   \n\n    \"The line ran \"between\" the page\" - This also doesn't make sense. \"Between\" is used to describe a relationship between two or more objects, not the movement of a line across a page.\n   \n\n    \"The line ran \"about\" the page\" - \"About\" typically means around or near, and it doesn't accurately describe the movement of the line from one side to the other on the page.\n   \n\n   Correct Answer: A",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411924/gate-civil-2023-set-2-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
   "id": "399254",
   "year": 2023,
   "set": null,
@@ -124,6 +306,188 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/399310/gate-cse-2023-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411823",
+  "year": 2023,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Planting : Seed: : Raising: _________\n  \n\n   (By word meaning)",
+  "options": [
+   "Child",
+   "Temperature",
+   "Height",
+   "Lift"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "In the analogy, ${\\color{Red}\\text{“Planting\"}}$ is an action related to a ${\\color{Blue} \\text{“Seed.\"}}$ Similarly, ${\\color{Purple} \\text{“Raising\"}}$ is an action related to a ${\\color{Magenta} \\text{“Child.\"}}$\n  The other options, such as ${\\color{Teal} \\text{“Temperature\", “Height\",}}$ and ${\\color{Teal} \\text{“Lift\",}}$ do not have a direct association with the action of ${\\color{Purple} \\text{“Raising.\"}}$\n  Therefore, ${\\color{Magenta} \\text{“Child\"}}$ is the word that best fits the analogy and maintains the same relationship between the words as ${\\color{Blue} \\text{“Seed\"}}$ does with ${\\color{Red}\\text{“Planting.\"}}$\n  Correct Answer: A",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411823/gate-mechanical-2023-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411841",
+  "year": 2023,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Permit : ________ :: Enforce : Relax\n   (By word meaning)",
+  "options": [
+   "Allow",
+   "Forbid",
+   "License",
+   "Reinforce"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "The analogy shows contrasting relationships. ${\\color{Red} \\text{“Permit\"}}$ is the opposite of ${\\color{Darkgreen} \\text{“Forbid\"}},$ just like ${\\color{Blue} \\text{“Enforce\"}}$ is the opposite of ${\\color{Purple} \\text{“Relax\"}}.$\n  \n\n    ${\\color{Red} \\text{“Permit\"}}:$ means to allow or give permission.\n   \n\n    ${\\color{Darkgreen} \\text{“Forbid\"}}:$ means to disallow or prohibit.\n   \n\n    ${\\color{Blue} \\text{“Enforce\"}}: $ means to ensure compliance with a rule or law.\n   \n\n    ${\\color{Purple} \\text{“Relax\"}}:$  means to be at ease.\n   \n\n   Correct Answer:  B",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411841/gate-electrical-2023-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411861",
+  "year": 2023,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Courts : _________: : Parliament : Legislature\n  \n\n   (By word meaning)",
+  "options": [
+   "Judiciary",
+   "Executive",
+   "Governmental",
+   "Legal"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "The analogy can be understood as follows: ${\\color{Red} \\text{Courts}}$ are to ${\\color{Magenta} \\text{Judiciary}}$ as ${\\color{DarkBlue}\\text{Parliament}}$ is to ${\\color{DarkGreen}\\text{Legislature}}.$\n  In this analogy, the relationship is based on the word meaning and the corresponding roles and functions of the terms involved. The Judiciary is the branch of government that interprets and applies the law, ensuring justice and resolving legal disputes. Similarly, the Legislature is the branch of government that creates and passes laws, representing the interests of the people.\n  Therefore, the word ${\\color{Magenta} \\text{“Judiciary”}}$ is the appropriate choice to complete the analogy.\n  Correct Answer: A",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411861/gate-ece-2023-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411876",
+  "year": 2023,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Disagree : Protest: : Agree: __________\n   (By word meaning)",
+  "options": [
+   "Refuse",
+   "Pretext",
+   "Recommend",
+   "Refute"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Let’s describe the meaning of each option, then find the best analogy.\n  \n\n    ${\\color{Red} \\text{Refuse:}}$ To decline or reject something, not directly related to protesting.\n   \n\n    ${\\color{Blue} \\text{Pretext:}}$ A false reason or excuse, not directly related to agreement or disagreement.\n   \n\n    ${\\color{Purple} \\text{Recommend:}}$ To suggest or endorse something positively, the opposite of protesting.\n   \n\n    ${\\color{Teal} \\text{Refute:}}$ To prove something wrong or false, not directly related to agreement or disagreement.\n   \n\n   Among these options,${\\color{Purple} \\text{“recommend”}}$ is the best opposite of ${\\color{Magenta} \\text{“agree”}}$ in this analogy because it aligns with expressing agreement or support, contrasting with the concept of protest.\n  \n\n   Correct Answer: C",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411876/gate-in-2023-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411891",
+  "year": 2023,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "References : _______ : : Guidelines : Implement\n  \n\n   (By word meaning)",
+  "options": [
+   "Sight",
+   "Site",
+   "Cite",
+   "Plagiarise"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Let’s understand the meaning of each option.\n  \n\n    ${\\color{Red} \\text{Sight: “Sight\"}}$ refers to the ability to see or the act of seeing. It is unrelated to the relationship between references and guidelines in the given analogy.\n   \n\n    ${\\color{Blue} \\text{Site: “Site\"}}$ refers to a location or place. It does not directly relate to the analogy's context of references and guidelines.\n   \n\n    ${\\color{Purple} \\text{Cite: “Cite\"}}$ is the correct option. It means to refer to or quote a source as evidence or support. In the given analogy, \"Cite\" establishes the relationship between \"References\" and \"Guidelines.\" When implementing guidelines, it is important to refer to or cite appropriate references to provide evidence and support for the implementation.\n   \n\n    ${\\color{Teal} \\text{Plagiarize: “Plagiarize\"}}$ means to use someone else's work or ideas without giving proper credit. It is the opposite of citing references. \"Plagiarize\" does not fit the context of implementing guidelines and does not align with ethical practices.\n   \n\n   Based on the explanation, the correct option is ${\\color{Purple} \\text{“Cite\"}}$ as it appropriately captures the relationship between references and ${\\color{magenta} \\text{“guidelines”}}$ in the given analogy.\n   Correct Answer: C",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411891/gate-ch-2023-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411905",
+  "year": 2023,
+  "set": "1",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Eject : Insert : : Advance : _________\n  \n\n   (By word meaning)",
+  "options": [
+   "Advent",
+   "Progress",
+   "Retreat",
+   "Loan"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "In this analogy, the relationship between the words is based on their meanings:\n  \n\n    ${\\color{Red} \\text{“Eject\"}}$ means to expel or force something out.\n   \n\n    ${\\color{Teal}\\text{“Insert\"} }$ means to put something in or introduce it into something else.\n   \n\n   The relationship between the words in the given analogy is that they represent opposite actions.\n  \n\n   Now let’s understand each option.\n  \n\n    ${\\color{Blue} \\text{“Advent\"}}$ means the arrival or the coming of something, which is not the opposite of ${\\color{Orange} \\text{“Advance.\"}}$\n   \n\n    ${\\color{Orchid}\\text{“Progress\"} }$ is not the opposite of ${\\color{Orange} \\text{“Advance\"}},$ as progress implies moving forward towards a goal.\n   \n\n    ${\\color{Emerald}\\text{“Retreat\"}}$ is the correct option to complete the analogy.\n   \n\n    ${\\color{Magenta}\\text{“Loan\"} }$ is not related to the given pair of words and doesn't fit the analogy.\n   \n\n   Therefore, the word that is the opposite of ${\\color{Orange} \\text{“Advance\"}}$ is ${\\color{Emerald}\\text{“Retreat\"}}.$\n  \n\n   Correct Answer: C",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411905/gate-civil-2023-set-1-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411922",
+  "year": 2023,
+  "set": "2",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Kind : _________ :: Often : Seldom\n  \n\n   (By word meaning)",
+  "options": [
+   "Cruel",
+   "Variety",
+   "Type",
+   "Kindred"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "In this analogy:\n  \n\n    \"Often\" means something that occurs frequently or regularly.\n   \n\n    “Seldom\" means something that occurs rarely or infrequently.\n   \n\n   These words are opposites.\n  \n\n   We are looking for a word that is the opposite of \"kind.\"\n  \n\n    \"Kind\" means having a gentle, friendly, or considerate nature.\n   \n\n   The word \"cruel\" is the opposite of \"kind\" because it means unkind, lacking in kindness, or causing harm to others.\n   Correct Answer: A",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411922/gate-civil-2023-set-2-ga-question-2",
   "source": "gateoverflow"
  },
  {
@@ -193,6 +557,224 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/399309/gate-cse-2023-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411821",
+  "year": 2023,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A certain country has $504$ universities and $25951$ colleges. These are categorised into Grades I, II, and III as shown in the given pie charts.\n  \n\n   What is the percentage, correct to one decimal place, of higher education institutions (colleges and universities) that fall into Grade III?\n  \n\n[IMAGE:0]",
+  "options": [
+   "$22.7$",
+   "$23.7$",
+   "$15.0$",
+   "$66.8$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Given that,\n  \n\n    Number of universities in a country $=504$\n   \n\n    Number of colleges in a country $=25951$\n   \n\n[IMAGE:0]\n\n   The number of universities that fall into Grade III $=7\\% \\text{ of } 504 = \\dfrac{7}{100} \\times 504 = 35.28$\n  \n\n   The number of colleges that fall into Grade III $=23\\% \\text{ of } 25951 = \\dfrac{23}{100} \\times 25951 = 5968.73$\n  \n\n   Thus, required percentage $=\\dfrac{\\text{Total number of universities and colleges that fall into grade III}}{\\text{Total number of universities and colleges}} \\times 100\\%$\n  \n\n   $= \\dfrac{35.28 + 5968.73}{504 + 25951} \\times 100\\% = \\dfrac{6004.01}{26455} \\times 100\\%$\n  \n\n   $= 0.2269518 \\times 100\\% = 22.69518\\% \\approx 22.7\\%.$\n  \n\n   Correct Answer: A",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=3932294217279899128",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=3932294217279899128",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411821/gate-mechanical-2023-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411839",
+  "year": 2023,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Given a fair six-faced dice where the faces are labelled $\\text{‘1’, ‘2’, ‘3’, ‘4’, ‘5’, } \\text{and ‘6’,}$\n   what is the probability of getting a $\\text{‘1’}$ on the first roll of the dice and a $\\text{‘4'}$ on the second roll?",
+  "options": [
+   "$\\frac{1}{36}$",
+   "$\\frac{1}{6}$",
+   "$\\frac{5}{6}$",
+   "$\\frac{1}{3}$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "We have a fair six-sided die. When we roll it:\n  \n\n    There's a $1$ in $6$ chance $(1/6$ probability) of getting a '$1$' on the first roll.\n   \n\n    There's also a $1$ in $6$ chance $(1/6$ probability) of getting a '$4$' on the second roll.\n   \n\n   Since these rolls are independent events, meaning one doesn't affect the other, we can multiply the probabilities:\n  \n\n   $(1/6) * (1/6) = 1/36$\n  \n\n   So, the probability of rolling a '$1$' on the first roll and a '$4$' on the second roll is $1/36.$\n  \n\n   Correct Answer: A",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411839/gate-electrical-2023-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411859",
+  "year": 2023,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "What is the smallest number with distinct digits whose digits add up to $45?$",
+  "options": [
+   "$123555789$",
+   "$123457869$",
+   "$123456789$",
+   "$99999$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "To find the smallest number with distinct digits whose digits add up to $45$, we need to consider the given options and determine which one satisfies the conditions.\n  \n\n   Let's analyze the options provided:\n  \n\n    $123555789:$ The sum of the digits in this number is $1+2+3+5+5+5+7+8+9 = 45$. However, this number contains repeating digits (three $5$s), which contradicts the requirement of distinct digits.\n   \n\n    $123457869:$ The sum of the digits in this number is $1+2+3+4+5+7+8+6+9 = 45$. Additionally, all the digits in this number are distinct, which satisfies the condition of distinct digits. However, we need to find the smallest number that meets the criteria.\n   \n\n    $123456789:$ The sum of the digits in this number is $1+2+3+4+5+6+7+8+9 = 45$. Moreover, all the digits in this number are distinct. Importantly, this is the smallest arrangement of ${\\color{Red}\\text{distinct digits}}$ that adds up to $45$. Each digit from $1$ to $9$ is used exactly once, and there is no smaller number with distinct digits that satisfies the condition.\n   \n\n    $99999:$ The sum of the digits in this number is $9+9+9+9+9 = 45$. However, this number contains repeated digits (five $9$s), which does not satisfy the requirement of distinct digits.\n   \n\n   Based on the analysis, the correct answer is $123456789$. It is the smallest number with distinct digits whose digits add up to $45$.\n  \n\n   $\\textbf{Short Method: }$ Options A and D are not valid choices as they both have repeated digits. On the other hand, when comparing options B and C, it becomes evident that $123456789$ is indeed the smallest number with distinct digits whose digits add up to $45$.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411859/gate-ece-2023-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411874",
+  "year": 2023,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A 'frabjous' number is defined as a $3$ digit number with all digits odd, and no two adjacent digits being the same. For example, $137$ is a frabjous number, while $133$ is not. How many such frabjous numbers exist?",
+  "options": [
+   "$125$",
+   "$720$",
+   "$60$",
+   "$80$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "To determine the number of ${\\color{Red}\\text{“frabjous”}}$ numbers, we consider the following conditions:\n  \n\n    The number must have three digits.\n   \n\n    All digits must be odd.\n   \n\n    No two adjacent digits can be the same.\n   \n\n   For the first digit, we have five odd choices: $1, 3, 5, 7,$ and $9.$\n  \n\n   Once we select the first digit, there are four remaining odd digits available for the second digit. We exclude the digit chosen for the first digit and its adjacent digit, as they would violate the condition of no adjacent identical digits.\n  \n\n   For the third digit, we have four remaining odd digits to choose from. We exclude the digit chosen for the second digit and its adjacent digit and include the first digit.\n  \n\n   Hence, the total number of frabjous numbers is found by multiplying the choices for each digit: $5\\; ($choices for the first digit$) \\times\\; 4\\; ($choices for the second digit$)\\; \\times 4\\; ($choices for the third digit$) = 80.$\n  \n\n   $\\textbf{Short Method:}$ We have  total five numbers: $1, 3, 5, 7,$ and $9.$\n  \n\n   $$\\underbrace{\\_\\_\\_\\_{\\color{Red} {\\boxed{1}}}\\_\\_\\_\\_}_{\\underbrace{\\text{Choose anything from 1, 3, 5, 7, 9}}_{\\text{5 choices}}} \\quad \\underbrace{\\_\\_\\_\\_{\\color{Purple} {\\boxed{3}}}\\_\\_\\_\\_}_{\\underbrace{\\text{Choose 3, 5, 7, 9 but not 1}}_\\text{4 choices}} \\quad \\underbrace{\\_\\_\\_\\_{\\color{Red} {\\boxed{1}}}\\_\\_\\_\\_}_{\\underbrace{\\text{Choose 1, 5, 7, 9 but not 3}}_\\text{4 choices}} $$\n  \n\n   Correct Answer: D",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411874/gate-in-2023-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411890",
+  "year": 2023,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In the given figure, PQRS is a parallelogram with $\\mathrm{PS}=7 \\mathrm{~cm}, \\mathrm{PT}=4 \\mathrm{~cm}$ and $\\text{PV}=5 \\mathrm{~cm}$. What is the length of $\\mathrm{RS}$ in $\\mathrm{cm}?$ (The diagram is representative.)\n  \n\n[IMAGE:0]",
+  "options": [
+   "$\\frac{20}{7}$",
+   "$\\frac{28}{5}$",
+   "$\\frac{9}{2}$",
+   "$\\frac{35}{4}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "In the above figure,\n  Area of a parallelogram = base x height\n  Taking QR as base and PT as height\n  Area of parallelogram = QR X PT\n  = 7 x 4  ------- 1\n  Taking RS as base and PV as height\n  Area of a parallelogram = RS X PV\n  = RS x 5  -------- 2\n  Equating 1 and 2,\n  7 x4 = RS x 5\n  28 = RS x 5\n  RS = 28/5\n[IMAGE:100]\n\n   $RS = ?$\n  \n\n   let, $RS = x, \\quad SV = a, \\quad QT = t$\n  \n\n   So, $PQ = x, \\quad QR = 7, \\quad TR = 7-t, \\quad VR = x-a$\n  \n\n   Now, In $\\triangle$PSV,\n  \n\n   $7^{2} = 5^{2} + a^{2}$\n  \n\n   $49 - 25 = a^{2}$\n  \n\n   $24 = a^{2}$\n  \n\n   $a = \\sqrt{24}$\n  \n\n   $\\boxed{SV = a = \\sqrt{24}}$\n  \n\n   $\\boxed{VR = x-a = x-\\sqrt{24}}$\n  \n\n   Again, In $\\triangle$PRV,\n  \n\n   $PR^{2} = 5^{2} + (x-a)^{2}$\n  \n\n   $PR^{2} = 5^{2} + (x- \\sqrt{24})^{2}$         ........................(1)\n  \n\n   Again, In $\\triangle$PRT,\n  \n\n   $PR^{2} = 4^{2} + (7-t)^{2}$         ........................(2)\n  \n\n   Again, In $\\triangle$PTQ,\n  \n\n   $x^{2} = 4^{2} + t^{2}$\n  \n\n   $x^{2} - 16 = t^{2}$\n  \n\n   $\\boxed{t = \\sqrt{x^{2} - 16}}$\n  \n\n   Putting value of $t$ in eqn (2),\n  \n\n   $PR^{2} = 4^{2} + (7-\\sqrt{x^{2} - 16})^{2}$         ........................(3)\n  \n\n   From eqn (1) and (3),\n  \n\n   $5^{2} + (x- \\sqrt{24})^{2} = 4^{2} + (7-\\sqrt{x^{2} - 16})^{2}$\n  \n\n   $25 + x^{2} + 24 - 2 \\sqrt{24} x = 16 + 49 + x^{2} - 16 - 14 \\sqrt{x^{2} - 16}$\n  \n\n   $- 2 \\sqrt{24} x = - 14 \\sqrt{x^{2} - 16}$\n  \n\n   $\\sqrt{24} x = 7 \\sqrt{x^{2} - 16}$\n  \n\n   Squaring both sides,\n  \n\n   $24 x^{2} = 49 (x^{2} - 16)$\n  \n\n   $24 x^{2} = 49x^{2} - 49 \\times 16$\n  \n\n   $49x^{2} - 24x^{2} = 49 \\times 16$\n  \n\n   $25x^{2} = 49 \\times 16$\n  \n\n   $x^{2} = \\dfrac{49 \\times 16}{25}$\n  \n\n   $x = \\dfrac{7 \\times 4}{5}$\n  \n\n   $\\boxed{x = \\dfrac{28}{5}}$\n  \n\n    Alternate:\n   \n\n   Credit:\n   \n\n     @joshika\n    \n    's answer\n   \n\n   $Area(\\triangle PQR) = Area(\\triangle PQR)$\n  \n\n   $\\dfrac{1}{2} \\times QR \\times PT = \\dfrac{1}{2} \\times RS \\times PV$\n  \n\n   $\\dfrac{1}{2} \\times 7 \\times 4 = \\dfrac{1}{2} \\times x \\times 5$\n  \n\n   $28 = x \\times 5$\n  \n\n   $\\boxed{x = \\dfrac{28}{5}}$",
+  "images": [
+   {
+    "src": "https://ch.gateoverflow.in/?qa=blob&qa_blobid=15326519805595031792",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=8551916291047822553",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411890/gate-ch-2023-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411904",
+  "year": 2023,
+  "set": "1",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In the given figure, $\\text{PQRSTV}$ is a regular hexagon with each side of length $5\\mathrm{~cm}.$ A circle is drawn with its centre at $ \\mathrm{V}$ such that it passes through $\\mathrm{P}.$ What is the area $ \\text{( in cm}^{2})$ of the shaded region? (The diagram is representative)\n  \n\n[IMAGE:0]",
+  "options": [
+   "$\\frac{25 \\pi}{3}$",
+   "$\\frac{20 \\pi}{3}$",
+   "$6 \\pi$",
+   "$7\\pi$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Radius of circle = side of the hexagon = 5 cm.\n  Area of circle = 25 pi cm^2\n  Shaded region is 1/3 of the entire circle. Hence, area of shaded region = 25/3  pi cm^2\nSum of interior angles of a polygon = (n−2) × 180°\n  Each angle of a regular polygon = (n−2) × 180° / n\n  Hence, each angle of a regular hexagon will be 720°/6 = 120°\n  Area of the sector(i.e. shaded region) = (120°/360°) × π × 5² cm² = 25π/3 cm²\nArea of sector = (pi * R * R * theta)/360 = (pi * 5 * 5 * 120) / 360 = (25 * pi) / 3\n  Option (a)",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=11065627188034084981",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411904/gate-civil-2023-set-1-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411920",
+  "year": 2023,
+  "set": "2",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In how many ways can cells in a $3 \\times 3 $ grid be shaded, such that each row and each column have exactly one shaded cell? An example of one valid shading is shown.\n  \n\n[IMAGE:0]",
+  "options": [
+   "$2$",
+   "$9$",
+   "$3$",
+   "$6$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "We have a $3 \\times 3$ grid, and we want to fill it in such a way that each row and each column have exactly one shaded cell.\n  \n\n   First, we filled in the red color, second we filled in the blue color, and then, at last, we filled in the green color.\n  \n\n[IMAGE:0]\n\n   We got the total number of ways $ = 6$\n  \n\n   $\\textbf{Short Method:}$\n  \n\n   From the above diagram,\n  \n\n    Red colors have $3$ choices to fill the grid.\n   \n\n    After that blue colors have $2$ choices to fill the grid.\n   \n\n    After that green colors have $1$ choices to fill the grid.\n   \n\n   So, the total number of ways $ = 3 \\times 2 \\times 1 = 6$\n  \n\n   Correct Answer: D\n[IMAGE:100]\n\n    Caption",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=6764656640555009426",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=7216998532486148059",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=158988518774852896",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411920/gate-civil-2023-set-2-ga-question-3",
   "source": "gateoverflow"
  },
  {
@@ -266,6 +848,197 @@
   "source": "gateoverflow"
  },
  {
+  "id": "411819",
+  "year": 2023,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The minute-hand and second-hand of a clock cross each other ___________ times between $09:15:00$ AM and $09:45:00$ AM on a day.",
+  "options": [
+   "$30$",
+   "$15$",
+   "$29$",
+   "$31$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "We can draw the clock diagram and analyze it.\n  \n\n[IMAGE:0]\n\n   As of now, the time is $9:15:00$\n  \n\n    The minute-hand and second-hand of a clock cross each other first time at $9:16$\n   \n\n    The minute-hand and second-hand of a clock cross each other second time at $9:17$\n   \n\n    The minute-hand and second-hand of a clock cross each other third time at $9:18$\n   \n\n    $ \\quad \\vdots \\quad \\vdots$\n   \n\n    The minute-hand and second-hand of a clock cross each other last time at $9:45$\n   \n\n   So, $16, 17,18, \\dots, 45$\n  \n\n   Number of terms $n = ?$\n  \n\n   $l = a + (n-1)d,$ here $a=$ first term, $d = $ common difference, $l=$ last term, $n=$ number of terms\n  \n\n   Now, $45 = 16 + (n-1)1$\n  \n\n   $\\Rightarrow 45 = n + 15$\n  \n\n   $\\Rightarrow n = 30$\n  \n\n   Therefore, the minute-hand and second of a clock cross each other $30$ times between $09:15:00$ AM and $09:45:00$ AM on a day\n  \n\n   Correct Answer: A",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=7337184317146106200",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411819/gate-mechanical-2023-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411837",
+  "year": 2023,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A recent survey shows that  $65 \\%$ of tobacco users were advised to stop consuming tobacco. The survey also shows that $3$ out of $10$ tobacco users attempted to stop using tobacco.\n  \n\n   Based only on the information in the above passage, which one of the following options can be logically inferred with\n   \n    certainty\n   \n   ?",
+  "options": [
+   "majority of tobacco users who were advised to stop consuming tobacco made an attempt to do so.",
+   "majority of tobacco users who were advised to stop consuming tobacco did not attempt to do so.",
+   "Approximately $30 \\%$ of tobacco users successfully stopped consuming tobacco.",
+   "Approximately $65 \\%$ of tobacco users successfully stopped consuming tobacco."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "The passage provides two pieces of information:\n  \n\n    $65\\%$ of tobacco users were advised to stop consuming tobacco.\n   \n\n    $3$ out of $10$ tobacco users attempted to stop using tobacco.\n   \n\n   Now, let's consider these percentages in the context of the question:\n  \n\n   If $65\\%$ of tobacco users were advised to stop, it means that $35\\%$ were not advised to stop because the total percentage adds up to $100\\%.$\n  \n\n   If $3$ out of $10$ tobacco users attempted to stop, it means $7$ out of $10\\;(\\text{or}\\; 70\\%)$ did not attempt to stop.\n  \n\n   Given this information, we can make the following logical inference:\n  \n\n   A majority of tobacco users who were advised to stop consuming tobacco did not attempt to do so.\n  \n\n   This is because $70\\%$ (the percentage who did not attempt to stop) is greater than $50\\%$ which means that the majority did not make an attempt to stop.\n   Correct Answer: B",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411837/gate-electrical-2023-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411857",
+  "year": 2023,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In a class of $100$ students,\n  \n\n   How many students in the class like romantic movies?\n  \n\n    $40$\n   \n\n    $20$\n   \n\n    $60$\n   \n\n    $30$",
+  "options": [
+   "there are $30$ students who neither like romantic movies nor comedy movies,",
+   "the number of students who like romantic movies is twice the number of students who like comedy movies, and",
+   "the number of students who like both romantic movies and comedy movies is $20$."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Given that:\n  \n\n    Total number of students in the class $=100$\n   \n\n    Number of students who neither like romantic movies nor comedy movies $=30$\n   \n\n    Number of students who like both romantic movies and comedy movies $=20$\n   \n\n   Let’s draw the Venn diagram.\n  \n\n[IMAGE:0]\n\n   We can write,\n  \n\n    $n(U) = 100$\n   \n\n    $n\\overline{(RM \\cup CM)} = 30$\n   \n\n    $n(RM \\cap CM) = 20$\n   \n\n    $n(RM) = n(2CM)$\n   \n\n    $n(RM \\cup CM) = n(U) \\;– \\;n\\overline{(RM \\cup CM)}  = 100-30 = 70$\n   \n\n   We know that$,n(RM \\cup CM) = n(RM) + n(CM) – n(RM \\cap CM)$\n  \n\n   $\\Rightarrow  70 = n(RM) + n(CM)-20$\n  \n\n   $\\Rightarrow n(RM) + n(CM) = 90$\n  \n\n   $\\Rightarrow n(2CM)  + n(CM) = 90$\n  \n\n   $\\Rightarrow n(3CM) = 90$\n  \n\n   $\\Rightarrow n(CM) = 30$\n  \n\n   $\\Rightarrow n(RM) = 60$\n  \n\n   Therefore, there are $60$ students in the class who like romantic movies.\n  \n\n   Correct Answer :- Option C)",
+  "images": [
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=419607198243536808",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411857/gate-ece-2023-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411872",
+  "year": 2023,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which one among the following statements must be $\\text{TRUE}$ about the mean and the median of the scores of all candidates appearing for $\\text{GATE }2023?$",
+  "options": [
+   "The median is at least as large as the mean.",
+   "The mean is at least as large as the median.",
+   "At most half the candidates have a score that is larger than the median",
+   "At most half the candidates have a score that is larger than the mean."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Let's analyze each option:\n  \n\n     \"The median is at least as large as the mean.\"\n    \n    This statement does not necessarily have to be true. The median is the middle value when the data is sorted, and the mean is the average of all values. The median can be less than, equal to, or greater than the mean, depending on the distribution of scores.\n   \n\n     \"The mean is at least as large as the median.\"\n    \n    This statement does not necessarily have to be true for the same reasons mentioned in option A. The relationship between the mean and median depends on the distribution of scores.\n   \n\n     \"At most half the candidates have a score that is larger than the median.\"\n    \n    This statement is always true when you have a set of scores. By definition, the median is the middle value when the data is sorted. Since half of the data is below the median and half is above it, at most half the candidates can have scores larger than the median.\n   \n\n     \"At most half the candidates have a score that is larger than the mean.\"\n    \n    This statement is not necessarily true. The mean is the average of all scores, and there can be scenarios where more than half of the candidates have scores larger than the mean, especially if the distribution is skewed with a few very high scores.\n   \n\n   Correct Answer: C",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411872/gate-in-2023-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411888",
+  "year": 2023,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In $2022,$ June Huh was awarded the Fields medal, which is the highest prize in Mathematics.\n  \n\n   When he was younger, he was also a poet. He did not win any medals in the International Mathematics Olympiads. He dropped out of college.\n  \n\n   Based only on the above information, which one of the following statements can be logically inferred with\n   \n    certainty\n   \n   ?",
+  "options": [
+   "Every Fields medalist has won a medal in an International Mathematics Olympiad.",
+   "Everyone who has dropped out of college has won the Fields medal.",
+   "All Fields medalists are part-time poets.",
+   "Some Fields medalists have dropped out of college."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "The passage mentions that June Huh, a Fields medalist, dropped out of college. This means that there is at least one Fields medalist who has dropped out of college. However, the passage does not provide any information about whether every Fields medalist has dropped out of college or not. Therefore, the correct inference is that some Fields medalists have dropped out of college.\n  Correct Answer: D",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411888/gate-ch-2023-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411902",
+  "year": 2023,
+  "set": "1",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A duck named Donald Duck says \"All ducks always lie.\"\n  \n\n   Based only on the information above, which one of the following statements can be logically inferred with\n   \n    certainty\n   \n   ?",
+  "options": [
+   "Donald Duck always lies.",
+   "Donald Duck always tells the truth.",
+   "Donald Duck's statement is true.",
+   "Donald Duck's statement is false."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "If Donald Duck says, \"All ducks always lie,\" and his statement is true, then it means that ducks, including himself, always lie. However, if all ducks always lie, then his statement must also be a lie. This creates a paradox, as his statement cannot be both true and false simultaneously. Therefore, we can conclude that his statement is false.\n  So, the correct statement is: \"Donald Duck's statement is false.\"\n  Correct Answer: D\nThe correct answer is (D) Donald Duck's statement is false.\n  \n\n   Here's why:\n  \n\n    If Donald Duck's statement \"All ducks always lie\" is true, then he himself is lying by making the statement. This creates a paradox.\n   \n\n    If Donald Duck is lying, then his statement isn't true. But because the statement claims that all ducks always lie, then Donald Duck being a duck is lying, making the statement true again. This creates another paradox.\n   \n\n   Therefore, the only way to resolve these paradoxes and maintain logical consistency is to assume that Donald Duck's statement is false. In other words, if he claims all ducks always lie, then at least his own statement must be false, otherwise it creates a contradictory situation.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411902/gate-civil-2023-set-1-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411918",
+  "year": 2023,
+  "set": "2",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "There are $4$ red, $5$ green, and 6 blue balls inside a box. If $N$ number of balls are picked simultaneously, what is the smallest value of $N$ that guarantees there will be at least two balls of the same colour?\n  \n\n   One cannot see the colour of the balls until they are picked.",
+  "options": [
+   "$4$",
+   "$15$",
+   "$5$",
+   "$2$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "The Pigeonhole Principle tells us that if we have more objects to put into boxes than there are boxes, at least one box must contain multiple objects.\n  \n\n   In this case, each color (red, green, and blue) can be considered a \"box,\" and the balls we pick are the objects. We want to find the smallest value of $N$ such that we are guaranteed to have at least two balls of the same color.\n  \n\n   The worst-case scenario for this problem is when we pick one ball of each color $\\text{(1 red, 1 green, 1 blue)}.$ In this case, $N$ would be $3,$ and we still don't have two balls of the same color. However, if we pick just one more ball (regardless of its color), we will have at least two balls of the same color.\n  \n\n   So, the smallest value of $N$ that guarantees there will be at least two balls of the same color is $4.$\n  \n\n   Correct Answer: A\n   References:\n  \n\n     https://www.eecs.yorku.ca/course_archive/2008-09/S/1019/Website_files/19-the-pigeonhole-principle.pdf\n    \n\n     https://math.berkeley.edu/~rhzhao/10BSpring19/Worksheets/Discussion%203%20Solutions.pdf\n    \n\n     https://brilliant.org/wiki/pigeonhole-principle-definition/",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411918/gate-civil-2023-set-2-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
   "id": "399251",
   "year": 2023,
   "set": null,
@@ -331,6 +1104,277 @@
   "source": "gateoverflow"
  },
  {
+  "id": "411816",
+  "year": 2023,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The symbols $\\bigcirc, \\ast , \\bigtriangleup$, and $\\square$ are to be filled, one in each box, as shown below.\n  \n\n   The rules for filling in the four symbols are as follows.\n  \n\n   Which symbol will occupy the box marked with\n   \n    '?'\n   \n   in the partially filled figure?\n  \n\n[IMAGE:0]\n\n    $\\bigcirc$\n   \n\n    $\\ast$\n   \n\n    $\\bigtriangleup$\n   \n\n    $\\square$",
+  "options": [
+   "Every row and every column must contain each of the four symbols.",
+   "Every $2 \\times 2$ square delineated by bold lines must contain each of the four symbols."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Answer: (B) -(*)\n  Last row have one missing i.e Square\n  Then 1x2 will not contain square, circle and triangle (as row already contain triangle)\n  so only * remains\nGiven that, the rules for filling in the four symbols are as follows.\n  \n\n    Every row and every column must contain each of the four symbols.\n   \n\n    Every $2 \\times 2$ square delineated by bold lines must contain each of the four symbols.\n   \n\n   That means each row and each column in the grid must contain different symbols. In other words, no symbol can be repeated within the same row or the same column.\n  \n\n   We have four symbols: $\\bigcirc, \\ast , \\bigtriangleup$, and $\\square$\n  \n\n   We can easily fill it from the bottom.\n  \n\n[IMAGE:100]\n\n   Correct Answer: B",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=2777689895842380642",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=11588079514204654669",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411816/gate-mechanical-2023-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411835",
+  "year": 2023,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Spatial Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "How many triangles are present in the given figure?\n  \n\n[IMAGE:0]",
+  "options": [
+   "$12$",
+   "$16$",
+   "$20$",
+   "$24$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "The number of triangles can be calculated in this way:\n  \n\n[IMAGE:0]\n\n[IMAGE:1]\n\n   Therefore, the total number of triangles $= 8+12 = 20.$\n   $\\textbf{We can calculate rectangles also:}$\n  \n\n[IMAGE:2]\n\n   $\\textbf{PS:}$ The number of square in the given figure $=0.$",
+  "images": [
+   {
+    "src": "https://ee.gateoverflow.in/?qa=blob&qa_blobid=17481161992488633100",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ee.gateoverflow.in/?qa=blob&qa_blobid=3873368698052534927",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ee.gateoverflow.in/?qa=blob&qa_blobid=9284922051706366202",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ee.gateoverflow.in/?qa=blob&qa_blobid=12689871581336519916",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411835/gate-electrical-2023-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411855",
+  "year": 2023,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Spatial Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "How many rectangles are present in the given figure?\n  \n\n[IMAGE:0]",
+  "options": [
+   "$8$",
+   "$9$",
+   "$10$",
+   "$12$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "We know that,\n  \n\n    All squares are rectangles, but not all rectangles are squares because not all rectangles have all sides of equal length.\n   \n\n   Now, we can easily count the number of rectangles.\n  \n\n[IMAGE:0]\n\n   The number of rectangles in the above figure is:\n  \n\n    $\\underbrace{1,2,3,4}_{{\\color{Red} {\\text{squares}}}} \\Rightarrow 4$ rectangles\n   \n\n    $(1+2), (4+3), (1+4), (2+3), \\underbrace{(1+2+3+4)}_{{\\color{Red}{\\text{squares}}}}\\Rightarrow 5$ rectangles\n   \n\n    The big ${\\color{Red}\\text{square}}$ is also a rectangle.\n   \n\n   Therefore, the number of rectangles $=10.$\n  \n\n   Correct Answer: C\n  \n\n   $\\textbf{PS:}$ The number of squares $ = 6$\n  \n\n   Now, we can calculate the number of triangles, in the given figure:\n  \n\n[IMAGE:1]\n\n[IMAGE:2]\n\n   Therefore, the total number of triangles $=8+12=20.$\nanswer - 10 rectangles\n  note : every square is a rectangle , not every rectangle are square .",
+  "images": [
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=1950012521498371808",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=9569204258356714739",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=15596490523971083055",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=7482094268143628742",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411855/gate-ece-2023-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411871",
+  "year": 2023,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In the given diagram, ovals are marked at different heights $(h)$ of a hill. Which one of the following options $\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$, and $\\mathbf{S}$ depicts the top view of the hill?\n  \n\n[IMAGE:0]",
+  "options": [
+   "$\\mathbf{P}$",
+   "$\\mathbf{Q}$",
+   "$\\mathbf{R}$",
+   "$\\mathbf{S}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Option B is correct.\n  Diagram Q depicts the top view correctly because the ovals are dense at the left side.",
+  "images": [
+   {
+    "src": "https://in.gateoverflow.in/?qa=blob&qa_blobid=17727782010315233628",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411871/gate-in-2023-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411887",
+  "year": 2023,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Spatial Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A line of symmetry is defined as a line that divides a figure into two parts in a way such that each part is a mirror image of the other part about that line.\n  \n\n   The given figure consists of $16$ unit squares arranged as shown. In addition to the three black squares, what is the minimum number of squares that must be coloured black, such that both $\\text{PQ}$ and $\\text{MN}$ form lines of symmetry? (The figure is representative)\n  \n\n[IMAGE:0]",
+  "options": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Answer is 5.\n   [IMAGE:0]",
+  "images": [
+   {
+    "src": "https://ch.gateoverflow.in/?qa=blob&qa_blobid=7062100570056126676",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=7450752547212184229",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411887/gate-ch-2023-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411901",
+  "year": 2023,
+  "set": "1",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Spatial Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A line of symmetry is defined as a line that divides a figure into two parts in a way such that each part is a mirror image of the other part about that line.\n  \n\n   The figure below consists of $20$ unit squares arranged as shown. In addition to the given black squares, upto $5$ more may be coloured black. Which one among the following options depicts the minimum number of boxes that must be coloured black to achieve two lines of symmetry? (The figure is representative)\n  \n\n[IMAGE:0]",
+  "options": [
+   "$\\text{d}$",
+   "$\\text{c, d, i}$",
+   "$\\text{c, i}$",
+   "$\\text{c, d, i, f, g}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "[IMAGE:0]\n\n   Correct Answer  – Option B) c, d, i",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=7071183102669220527",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16321685154008759621",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411901/gate-civil-2023-set-1-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411917",
+  "year": 2023,
+  "set": "2",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Spatial Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider a circle with its centre at the origin $(\\mathrm{O})$, as shown. Two operations are allowed on the circle.\n  \n\n    Operation $1:$\n   \n   Scale independently along the $\\mathrm{x}$ and $\\mathrm{y}$ axes.\n   \n    Operation $2:$\n   \n   Rotation in any direction about the origin.\n  \n\n   Which figure among the options can be achieved through a combination of these two operations on the given circle?\n  \n\n[IMAGE:0]",
+  "options": [
+   "[IMAGE:1]",
+   "[IMAGE:2]",
+   "[IMAGE:3]",
+   "[IMAGE:4]"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "[IMAGE:0]\n\n   Ans- A)",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=7680858903678557431",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=4724112686135733976",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=6236300352605749104",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=15455951910290166379",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=11461283613597601367",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=4699430456995827520",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411917/gate-civil-2023-set-2-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
   "id": "399250",
   "year": 2023,
   "set": null,
@@ -383,6 +1427,190 @@
   "source": "gateoverflow"
  },
  {
+  "id": "411814",
+  "year": 2023,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In a recently held parent-teacher meeting, the teachers had very few complaints about Ravi. After all, Ravi was a hardworking and kind student. Incidentally, almost all of Ravi's friends at school were hardworking and kind too. But the teachers drew attention to Ravi's complete lack of interest in sports. The teachers believed that, along with some of his friends who showed similar disinterest in sports, Ravi needed to engage in some sports for his overall development.\n  \n\n   Based only on the information provided above, which one of the following statements can be logically inferred with\n   \n    certainty?",
+  "options": [
+   "All of Ravi's friends are hardworking and kind.",
+   "No one who is not a friend of Ravi is hardworking and kind.",
+   "None of Ravi's friends are interested in sports.",
+   "Some of Ravi's friends are hardworking and kind."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Let’s understand each option one by one.\n  \n\n    All of Ravi's friends are hardworking and kind.\n    \n\n      This statement cannot be inferred with certainty because the information only mentions that ${\\color{Red} \\text{“almost all\"}}$ of Ravi's friends are hardworking and kind, not necessarily every single one.\n     \n\n    No one who is not a friend of Ravi is hardworking and kind.\n    \n\n      This statement cannot be inferred from the given information as we have no data about the characteristics of individuals who are not Ravi's friends.\n     \n\n    None of Ravi's friends are interested in sports.\n    \n\n      This statement cannot be inferred with certainty because the information only mentions that ${\\color{Magenta}\\text{“some\"} }$ of Ravi's friends show disinterest in sports, not necessarily all of them.\n     \n\n    Some of Ravi's friends are hardworking and kind.\n    \n\n      This statement can be logically inferred with certainty. Since it is stated that ${\\color{Red} \\text{“almost all\"}}$ of Ravi's friends at school were hardworking and kind, it is certain that at least ${\\color{Magenta}\\text{“some\"} }$ of his friends possess these qualities.\n     \n\n   Therefore, option D is the correct statement that can be logically inferred with certainty from the information provided.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411814/gate-mechanical-2023-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411833",
+  "year": 2023,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Students of all the departments of a college who have successfully completed the registration process are eligible to vote in the upcoming college elections. However, by the time the due date for registration was over, it was found that suprisingly none of the students from the Department of Human Sciences had completed the registration process.\n  \n\n   Based only on the information provided above, which one of the following sets of statement(s) can be logically inferred with\n   \n    certainty\n   \n   ?\n  \n\n    (i) and (ii)\n   \n\n    (i) and (iii)\n   \n\n    only (i)\n   \n\n    only (iii)",
+  "options": [
+   "All those students who would not be eligible to vote in the college elections would certainly belong to the Department of Human Sciences.",
+   "None of the students from departments other than Human Sciences failed to complete the registration process within the due time.",
+   "All the eligible voters would certainly be students who are not from the Department of Human Sciences."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "The passage mentions two key points:\n  \n\n    Students who have successfully completed the registration process are eligible to vote in the upcoming college elections.\n   \n\n    None of the students from the Department of Human Sciences had completed the registration process.\n   \n\n   Given these points, we can logically infer that none of the students from the Department of Human Sciences are eligible to vote in the college elections because they didn't complete the registration process. This means that all the eligible voters, by necessity, must be students who are not from the Department of Human Sciences.\n  \n\n   In other words, if you didn't complete the registration process, you are not eligible to vote. Since no students from the Department of Human Sciences completed the registration process, they are not eligible to vote. Therefore, all eligible voters must belong to departments other than the Department of Human Sciences.\n  \n\n   Let’s clarify each option.\n  \n\n    \"All those students who would not be eligible to vote in the college elections would certainly belong to the Department of Human Sciences.\"\n   \n\n   This statement is\n   \n    not correct\n   \n   based on the information provided in the passage. While it is true that no students from the Department of Human Sciences completed the registration process, we cannot infer with certainty that all students who would not be eligible to vote belong to this department. There could be other reasons for ineligibility, such as not meeting academic or other criteria, which are not mentioned in the passage.\n  \n\n    \"None of the students from departments other than Human Sciences failed to complete the registration process within the due time.\"\n   \n\n   Based on the information provided in the passage, we\n   \n    cannot definitively\n   \n   conclude whether students from departments other than Human Sciences completed the registration process on time or not. The passage only mentions the status of students from the Department of Human Sciences and does not provide information about other departments.\n  \n\n   Therefore, this statement\n   \n    cannot\n   \n   be logically inferred from the passage.\n  \n\n    “All the eligible voters would certainly be students who are not from the Department of Human Sciences.”\n   \n\n   Based on the information provided in the passage, where it is stated that none of the students from the Department of Human Sciences completed the registration process, we can logically infer that all eligible voters (those who completed the registration process) would certainly be students who are not from the Department of Human Sciences.\n  \n\n   So, the statement \"All the eligible voters would certainly be students who are not from the Department of Human Sciences\" is\n   \n    indeed correct\n   \n   and can be logically inferred from the information given in the passage.\n  \n\n   Correct Answer: D",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411833/gate-electrical-2023-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411852",
+  "year": 2023,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Forestland is a planet inhabited by different kinds of creatures. Among other creatures, it is populated by animals all of whom are ferocious. There are also creatures that have claws and some that do not. All creatures that have claws are ferocious.\n  \n\n   Based only on the information provided above, which one of the following options can be logically inferred with\n   \n    certainty?",
+  "options": [
+   "All creatures with claws are animals.",
+   "Some creatures with claws are non-ferocious.",
+   "Some non-ferocious creatures have claws.",
+   "Some ferocious creatures are creatures with claws."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Based on the given information, we know that:\n  \n\n    Forestland is inhabited by different kinds of creatures, all of whom are ferocious animals.\n   \n\n    There are creatures with claws and some do not have them, and all creatures with claws are ferocious.\n   \n\n     All creatures with claws are animals.\n    \n\n      Not necessarily true, as the information doesn't specify whether all creatures with claws are animals.\n     \n\n     Some creatures with claws are non-ferocious.\n    \n\n      Not true, as the information states that all creatures with claws are ferocious.\n     \n\n     Some non-ferocious creatures have claws.\n    \n\n      Not confirmed, as the information doesn't provide any indication of non-ferocious creatures having claws.\n     \n\n     Some ferocious creatures are creatures with claws.\n    \n\n      ${\\color{DarkGreen} \\text{True}},$ as the information explicitly states that all creatures with claws are ferocious. So, there must be ferocious creatures with claws.\n     \n\n   Correct Answer: D",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411852/gate-ece-2023-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411870",
+  "year": 2023,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Residency is a famous housing complex with many well-established individuals among its residents. A recent survey conducted among the residents of the complex revealed that all of those residents who are well established in their respective fields happen to be academicians. The survey also revealed that most of these academicians are authors of some best-selling books.\n  \n\n   Based only on the information provided above, which one of the following statements can be logically inferred with\n   \n    certainty?",
+  "options": [
+   "Some residents of the complex who are well established in their fields are also authors of some best-selling books.",
+   "All academicians residing in the complex are well established in their fields.",
+   "Some authors of best-selling books are residents of the complex who are well established in their fields.",
+   "Some academicians residing in the complex are well established in their fields."
+  ],
+  "correctAnswer": null,
+  "explanation": "Based on the information provided, we can analyze the statements as follows:\n   We have two key facts:\n   (1) All residents who are well established in their fields are academicians, and\n   (2) Most of these well-established academicians (if any exist) are authors of some best-selling books.\n   We know this complex is a residency (Residency: a famous housing complex with many well-established individuals among its residents.). so, there must exist many well-established individuals among the residents, meaning more than one. so, we can infer some from most with certainty (explained above in my\n   \n    comment\n   \n   ).\n  \n\n   Now, let's examine each option.\n   \n    Option 1 is true\n   \n   . Since there are many well-established residents (all of whom are academicians), and most of these are authors of best-selling books, we can conclude with certainty that some well-established residents are authors of best-selling books.\n   \n    Option 2 is false\n   \n   . While all well-established residents are academicians, we can't conclude that all academicians are well-established.\n   \n    Option 3 is true\n   \n   . If most of the many well-established academicians are authors of best-selling books, then some authors of best-selling books must be well-established residents of the complex.\n   \n    Option 4 is true\n   \n   . We know there are many well-established residents, and all of them are academicians, so some academicians residing in the complex are indeed well-established in their fields.\n   Therefore, based on the given information, we can logically infer with certainty that options 1, 3, and 4 are true, while option 2 is false.\nC is the answer.\n(A) Some residents of the complex who are well established in their fields are also authors of some best-selling books:\n   \n\n   This statement is true because the information mentions that most academicians (who are all well-established residents) are authors of best-selling books. While it doesn't guarantee it applies to all well-established residents (as some might be from other professions), it suggests a connection between field success and authorship that applies to at least some residents.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411870/gate-in-2023-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411885",
+  "year": 2023,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Human beings are one among many creatures that inhabit an imagined world. In this imagined world, some creatures are cruel. If in this imagined world, it is given that the statement \"Some human beings are not cruel creatures\" is $\\text{FALSE,}$ then which of the following set of statement(s) can be logically inferred with\n   \n    certainty\n   \n   ?\n  \n\n    only (i)\n   \n\n    only (iii) and (iv)\n   \n\n    only (i) and (ii)\n   \n\n    (i), (ii) and (iii)",
+  "options": [
+   "All human beings are cruel creatures.",
+   "Some human beings are cruel creatures.",
+   "Some creatures that are cruel are human beings.",
+   "No human beings are cruel creatures."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "we're given that the statement\n   \n    \"Some human beings are not cruel creatures\" is FALSE\n   \n   .\n  \n\n   in logic,\n   \n    if \"Some A are not B\" is false\n   \n   , it means\n   \n    \"All A are B\" must be true\n   \n   .\n  \n\n   therefore, in this imagined world,\n   \n    \"All human beings are cruel creatures\" must be true\n   \n   .    .....................(1)\n  \n\n   now, let's evaluate each of the given statements:\n  \n\n    (i) \"All human beings are cruel creatures\"\n   \n   - this is directly inferred from our conclusion in (1). so, it's\n   \n    TRUE\n   \n   .\n  \n\n    (ii) \"Some human beings are cruel creatures\"\n   \n   - if all human beings are cruel creatures, then it's also true that some human beings are cruel creatures. so, this is also\n   \n    TRUE\n   \n   .\n  \n\n    (iii) \"Some creatures that are cruel are human beings\"\n   \n   - if all human beings are cruel creatures, then it must be true that at least some cruel creatures are human beings. so, this is again\n   \n    TRUE\n   \n   .\n  \n\n    (iv) \"No human beings are cruel creatures\"\n   \n   - this contradicts our conclusion (1) that all human beings are cruel creatures. so, this is\n   \n    FALSE\n   \n   .\n  \n\n   therefore, statements (i), (ii), and (iii) can be logically inferred with certainty.\nStatement $S1$:$-$ \"Some human beings are not cruel creatures\" is FALSE, this means either\n  \n\n   (1)Some human beings are cruel creature(due to these human beings statement S1 is false) $->$ option (iii) too.\n   so\n   \n    opt (ii),(iii) are correct.\n   \n\n   --or---\n   (2)what if not some but ALL human beings are cruel creatures\n   so\n   \n    opt (i) is correct too.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411885/gate-ch-2023-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411899",
+  "year": 2023,
+  "set": "1",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Based only on the truth of the statement 'Some humans are intelligent', which one of the following options can be logically inferred with\n   \n    certainty\n   \n   ?",
+  "options": [
+   "No human is intelligent.",
+   "All humans are intelligent.",
+   "Some non-humans are intelligent.",
+   "Some intelligent beings are humans."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Given that,\n  \n\n    Some humans are intelligent.\n   \n\n[IMAGE:0]\n\n   Now,\n  \n\n    No human is intelligent. We cannot infer this; it's not supported by the statement.\n   \n\n    All humans are intelligent. We cannot infer this either; the statement doesn't provide information about all humans.\n   \n\n    Some non-humans are intelligent. We cannot infer this because the statement specifically mentions humans, not non-humans.\n   \n\n    Some intelligent beings are humans. This can be logically inferred from the statement, as it indicates that there are intelligent humans.\n   \n\n   Correct Answer: D\n(D) Some intelligent beings are humans.\n   \n\n   Here's why the other options are not necessarily true:\n  \n\n     (A) No human is intelligent:\n    \n    This contradicts the original statement by implying that\n    \n     all\n    \n    humans are not intelligent, which is not supported by the statement \"Some humans are intelligent.\"\n   \n\n     (B) All humans are intelligent:\n    \n    This makes a stronger claim than the original statement and cannot be inferred with certainty based on \"Some humans are intelligent.\" It's possible that only some specific subset of humans are intelligent.\n   \n\n     (C) Some non-humans are intelligent:\n    \n    The original statement only focuses on humans and doesn't provide any information about non-humans. Therefore, we cannot draw any conclusions about their intelligence based solely on the information given.",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=8216298154479792275",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411899/gate-civil-2023-set-1-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411915",
+  "year": 2023,
+  "set": "2",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Elvesland is a country that has peculiar beliefs and practices. They express almost all their emotions by gifting flowers. For instance, if anyone gifts a white flower to someone, then it is always taken to be a declaration of one's love for that person. In a similar manner, the gifting of a yellow flower to someone often means that one is angry with that person.\n  \n\n   Based only on the information provided above, which one of the following sets of statement(s) can be logically inferred with\n   \n    certainty\n   \n   ?\n  \n\n    only (ii)\n   \n\n    (i), (ii) and (iii)\n   \n\n    (i), (iii) and (iv)\n   \n\n    only (iv)",
+  "options": [
+   "In Elvesland, one always declares one's love by gifting a white flower.",
+   "In Elvesland, all emotions are declared by gifting flowers.",
+   "In Elvesland, sometimes one expresses one's anger by gifting a flower that is not yellow.",
+   "In Elvesland, sometimes one expresses one's love by gifting a white flower"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Let’s dive into each option.\n  \n\n     In Elvesland, one always declares one's love by gifting a white flower.\n    \n    This statement is not necessarily true. If anyone gifts a white flower to someone, then it is always taken to be a declaration of one's love for that person.\n   \n\n     In Elvesland, all emotions are declared by gifting flowers.\n    \n    This statement is not necessarily true. Elvesland is a country that has peculiar beliefs and practices. They express almost all (not all) their emotions by gifting flowers.\n   \n\n     In Elvesland, sometimes one expresses one's anger by gifting a flower that is not yellow.\n    \n    This statement is not necessarily true. The gifting of a yellow flower to someone often means that one is angry with that person.\n   \n\n     In Elvesland, sometimes one expresses one's love by gifting a white flower.\n    \n    This statement is correct.  If anyone gifts a white flower to someone, then it is always taken to be a declaration of one's love for that person.\n   \n\n   Correct Answer: D\nAns D\n   \n\n      Statement (i)\n     \n     : \"In Elvesland, one always declares one's love by gifting a white flower.\"\n    \n\n      This statement\n      \n       cannot be inferred\n      \n      because the text only mentions that gifting a white flower\n      \n       always\n      \n      means love, but it does not imply that one\n      \n       always\n      \n      has to use a white flower to declare love.\n     \n\n      Statement (ii)\n     \n     : \"In Elvesland, all emotions are declared by gifting flowers.\"\n    \n\n      This statement\n      \n       cannot be inferred\n      \n      because the text only mentions two emotions (love and anger) being expressed through flowers. It does not confirm that\n      \n       all\n      \n      emotions are expressed in this way.\n     \n\n      Statement (iii)\n     \n     : \"In Elvesland, sometimes one expresses one's anger by gifting a flower that is not yellow.\"\n    \n\n      This\n      \n       cannot be inferred\n      \n      from the text, which only states that gifting a yellow flower often means anger. There's no mention of expressing anger with other types of flowers.\n     \n\n      Statement (iv)\n     \n     : \"In Elvesland, sometimes one expresses one's love by gifting a white flower.\"\n    \n\n      This\n      \n       can be inferred\n      \n      , as it is stated that gifting a white flower\n      \n       always\n      \n      indicates love, so it follows that sometimes love is expressed by gifting a white flower.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411915/gate-civil-2023-set-2-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
   "id": "399249",
   "year": 2023,
   "set": null,
@@ -430,6 +1658,180 @@
   "explanation": "Utilisation of Link = Efficiency\n  \n\n   Efficiency of Stop and wait protocol is $\\eta$ = $\\left(\\dfrac{1}{1 + \\left(\\dfrac{2T_{p}}{T_{t\\text{}}}\\right)}\\right)$  = $\\left(\\dfrac{1}{1 +\\left(\\dfrac{2d*B}{v*L}\\right)}\\right)$\n   where $d$ = link length (distance) , $v$= speed , $B$ = bandwidth (Transmission Rate) and $L$ = packet Length\n   As Efficiency $\\eta$  is inversely proportional to distance $d$, So Longer Distance means lower efficiency.\n   As Efficiency $\\eta$  is also inversely proportional to Bandwidth $B$, So Higher Bandwidth means lower efficiency.\n   Hence option $B$ is correct.\n  \n\n   Reference:\n  \n\n    Computer\n   \n\n    Networking: A Top\n   \n\n    Down Approach Book uses Bandwidth and Transmission Rate as same thing\n   \n\n    https://www.sfu.ca/~ljilja/ENSC835/News/Kurose_Ross/Chapter_1_V7.01.pdf\n   \n   (page 19)\n$Tt:$ Transmission Time\n   $Tp:$ Propagation Time\n   $L:$ Length of Packet\n   $BW:$ Bandwidth\n   $D:$ Link length\n   $v:$ speed\n   $T_t= L/ BW$\n   $T_p= D/ v$\n   We know, Link utilization = Efficiency= $T_t/(2T_p+T_t)$\n   = $T_t/ (2(D/v ) + T_t)$\n   =  $\\frac{L}{[ BW (2 ( D/v)+ T_t) ]}$\n  \n\n   We need the lowest utilization, so efficiency must be lowest → denominator must be largest\n  \n\n   Efficiency inversely proportional to Link length $(D)$\n   Option c), d) eliminated as we need longer link length to make denominator larger.\n   Efficiency is inversely proportional to Bandwidth\n   \n    Option b)\n   \n   coming out as answer\n  \n\n    Reference:\n   \n   Computer netwoking: A top down approch by\n   \n\n     Kurose and Ross\n    \n\n   Transmission rate is considered as Bandwidth in this book.\n  \n\n    Full\n   \n   transmission rate = Transmission rate = Bandwidth\n  \n\n    ‘Throughput depends on Transmission rate’\n   \n   is a statement in book.\n  \n\n   In all exercise problems of this book, “Transmission rate” is used as Bandwidth exhaustively.\nLonger link length and lower transmission rate.\n  \n\n    In the Stop-and-Wait protocol, the sender waits for an acknowledgment from the receiver before sending the next packet. This waiting time is equal to the round-trip time (RTT) of the link, which depends on the length of the link. If the transmission rate is lower, the transmission time for each packet is longer. As a result, the link will be idle for a larger fraction of time, waiting for the acknowledgment from the receiver.\n    \n\n      Therefore, in scenario (A), where the link length is longer and the transmission rate is lower, the utilization of the link will be the lowest, because the link will be idle for a larger fraction of time, waiting for the acknowledgment from the receiver.\nGiven that, point to point link (assume data transfer between M and N) with stop and wait protocol for transferring data.\n  \n\n    To reach data to N from M : M should transmit the data speedly, and it should reach N fastly, in that case only utilization of that link is best.\n    \n\n      Therefore Lower transmission rate from M, Longer link length between M and N obviously lead to lower utilization of the link compare to other options.\n      \n\n          What if question asked for best utilization ? Higher transmission rate with Shorter link length will be the answer\nbest option is (b) Longer link length and higher transmission rate because the sender transfers the packet at a higher speed then it will become idle.\n  \n\n    utilization of link = propagation * bandwidth\nIn a stop-and-wait protocol, a sender sends one packet at a time and then waits for an acknowledgement from the receiver before sending the next packet. Therefore, the utilization of the link, or the efficiency of data transfer, is largely determined by how quickly acknowledgements can be received, which in turn is determined by the round-trip time (RTT) - the time it takes for a packet to be sent plus the time it takes for an acknowledgement to be received.\n  \n\n   The RTT consists of two components: the transmission time ($T_t$) and the propagation time ($T_p$).\n  \n\n     Transmission Time ($T_t$): This is the time taken to push all the bits of the packet onto the link. It's calculated as the length of the packet ($L$) divided by the bandwidth (BW).\n    \n\n     Propagation Time ($T_p$): This is the time it takes for a bit to travel from the sender to the receiver. It's calculated as the length of the link ($D$) divided by the speed of signal propagation ($v$).\n    \n\n   Link utilization (or efficiency) in a stop-and-wait protocol can be represented as $T_t/(2T_p+T_t)$, which simplifies to $L/[BW * (2(D/v) + L/BW)]$.\n  \n\n   In order to minimize link utilization (as per the question), we need to maximize the denominator of this expression.\n  \n\n   Observing the denominator, we see that increasing the link length ($D$) and increasing the bandwidth (BW) would make it larger, thus reducing the efficiency or utilization. Therefore, the scenario with the longest link length and the highest transmission rate (bandwidth) results in the lowest link utilization. That's why option 2, \"Longer link length and higher transmission rate,\" is the correct answer",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/399305/gate-cse-2023-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411813",
+  "year": 2023,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the following inequalities\n   $$\n   \\begin{aligned}\n   & p^2-4 q<4 \\\\\n   & 3 p+2 q<6\n   \\end{aligned}\n   $$\n   where $p$ and $q$ are positive integers.\n  \n\n   The value of $(p+q)$ is __________.",
+  "options": [
+   "$2$",
+   "$1$",
+   "$3$",
+   "$4$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "key fact: p and q are\n   \n    positive integers.\n   \n\n   means: $\\boxed{ p \\geq 1, \\quad q \\geq 1 }$         ...............................(1)\n  \n\n   given inequalities:\n  \n\n    $p^{2} - 4q < 4$\n   \n\n    $3p + 2q < 6$\n   \n\n   from the $2$nd inequality, we can see that:\n  \n\n    if $p \\geq 2$ then $2$nd inequality will not hold because $3 \\times 2 + 2q = 6 + 2q \\nless 6$ even if $q=0$ (which itself is not possible)\n   \n\n    if $q \\geq 2$ then $2$nd inequality will not hold because $3p + 2 \\times 2 = 3p + 4 \\nless 6$ (because min. value of $q = 1$ and after putting it $3p+4 = 3 \\times 1 + 4 = 7 \\nless 6$)\n   \n\n   hence: $\\boxed{ p < 2, \\quad q < 2 }$         ....................................(2)\n  \n\n   from (1) and (2),\n  \n\n   $\\boxed{ p = 1, \\quad q = 1 }$\n  \n\n   putting these values in equality (1),\n  \n\n   $(1)^{2} - 4 \\times 1 < 4$\n  \n\n   $1 - 4  < 4$\n  \n\n   $-3  < 4$\n  \n\n   so, $\\boxed{ p = 1, \\quad q = 1 }$ satisfies both inequalities.\n  \n\n   therefore, $p + q = 1 + 1 = 2$\nGiven P and Q are Positive integers.\n  \n\n    Let p , q=1,Then Inequality becomes\n    \n\n      i)1-4<4 is True\n      \n\n        ii)3+2<6 is True\n        \n\n         Then  Ans might be p + q=1+1=2\n         Lets take p=1,q=2;\n         i)1-8<4 is True\n         ii)3+4<6 is False\n         Let take p=2,q=1;\n         i)4-4<4 is True\n         ii}6+2<6 is False\n         Hence p=q=1 is Right Choice to select\n         Therefore, answer is option A.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411813/gate-mechanical-2023-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411832",
+  "year": 2023,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which one of the following options represents the given graph?\n  \n\n[IMAGE:0]",
+  "options": [
+   "$f(x)=x^{2} 2^{-|x|}$",
+   "$f(x)=x 2^{-|x|}$",
+   "$f(x)=|x| 2^{-x}$",
+   "$f(x)=x 2^{-x}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "this graph is nothing but just the concept of odd function..\n  a func is said odd if  on [f(x) ,+x] = +f(x)\n  [f(x), -x] = -f(x)\n  :. also even fucntion form symmetry over the on the origin\n  you can easily eliminate options by putting +x, and -x..",
+  "images": [
+   {
+    "src": "https://ee.gateoverflow.in/?qa=blob&qa_blobid=1313663351706172233",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411832/gate-electrical-2023-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411868",
+  "year": 2023,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Ankita has to climb $5$ stairs starting at the ground, while respecting the following rules:\n  \n\n   Let $F(N)$ denote the number of possible ways in which Ankita can reach the $N^{\\text {th}}$ stair. For example, $F(1)=1, F(2)=2, F(3)=3$.\n  \n\n   The value of $F(5)$ is__________.\n  \n\n    $8$\n   \n\n    $7$\n   \n\n    $6$\n   \n\n    $5$",
+  "options": [
+   "At any stage, Ankita can move either one or two stairs up.",
+   "At any stage, Ankita cannot move to a lower step."
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Let's denote $F(N)$ as the number of ways to reach the $N^{\\text{th}}$ stair.\n  \n\n    For $N = 1,$ there is only one way$: F(1) = 1.$\n   \n\n    For $N = 2,$ there are two ways$: F(2) = 2. \\;($She can either take two $1-$ step moves or one $2-$ step move$.)$\n   \n\n    For $N = 3,$ there are three ways$: F(3) = 3.\\; ($She can either take three $1-$ step moves, one $2-$ step move followed by one $1-$ step move, or one $1-$ step move followed by one $2-$ step move$.)$\n   \n\n    For $N = 4,$ there are five ways$: F(4) = 5. \\;($She can either take four $1-$ step moves, one $2-$ step move followed by two $1-$ step moves, two $1-$ step moves followed by one $2-$ step move, one $1-$ step moves followed by one $2-$ step move followed by one 1-step or one $2-$ step move followed by one $2-$ step move$.)$\n   \n\n   Now, let's calculate $F(5)$ using the previous values:\n  \n\n    $F(5) = F(4) + F(3)$\n   \n\n    $F(5) = 5 + 3$\n   \n\n    $F(5) = 8$\n   \n\n   So, the value of $F(5)$ is $8.$\n  \n\n   Correct Answer: A\n   $\\textbf{PS:}$  Here are the $8$ ways for Ankita to reach the $5^{\\text{th}}$ stair:\n  \n\n    $1 + 1 + 1 + 1 + 1$\n   \n\n    $1 + 1 + 1 + 2$\n   \n\n    $1 + 1 + 2 + 1$\n   \n\n    $1 + 2 + 1 + 1$\n   \n\n    $2 + 1 + 1 + 1$\n   \n\n    $1 + 1 + 2 + 2$\n   \n\n    $1 + 2 + 2$\n   \n\n    $2 + 1 + 2$\n   \n\n   These are the $8$ distinct ways Ankita can reach the $5^{\\text{th}}$ stair.\n   $\\textbf{Short Method:}$ We can calculate $F(5)$ using the Fibonacci sequence:\n  \n\n    $F(1) = 1 (1$ way to reach the $1$st stair$).$\n   \n\n    $F(2) = 2 (2$ ways to reach the $2$nd stair$: 1+1 \\;\\text{or}\\; 2).$\n   \n\n    $F(3) = 3 (3$ ways to reach the $3$rd stair$: 1+1+1, 1+2, \\text{or}\\; 2+1).$\n   \n\n   Now, for each subsequent step, $F(N) = F(N-1) + F(N-2).$\n  \n\n   Calculate $F(4)$ and $F(5)$ using recurrence relation:\n  \n\n    $F(4) = F(3) + F(2) = 3 + 2 = 5$\n   \n\n    $F(5) = F(4) + F(3) = 5 + 3 = 8$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411868/gate-in-2023-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411884",
+  "year": 2023,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "To construct a wall, sand and cement are mixed in the ratio of $3: 1$. The cost of sand and that of cement are in the ratio of $1:2.$\n  \n\n   If the total cost of sand and cement to construct the wall is $1000$ rupees, then what is the cost (in rupees) of cement used?",
+  "options": [
+   "$400$",
+   "$600$",
+   "$800$",
+   "$200$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "A is the answer.\n   [IMAGE:0]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=10171009081037959319",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411884/gate-ch-2023-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411898",
+  "year": 2023,
+  "set": "1",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which one of the options can be inferred about the mean, median, and mode for the given probability distribution (i.e. probability mass function), $P(x)$, of a variable $x?$\n  \n\n[IMAGE:0]",
+  "options": [
+   "mean $=$ median $\\neq$ mode",
+   "mean $=$ median $=\\operatorname{mode}$",
+   "$\\operatorname{mean} \\neq \\operatorname{median}=\\operatorname{mode}$",
+   "mean $\\neq$ mode $=$ median"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "The Correct Answer is Option A)\n  Mean is equal to median . But the mode  is 13 or -13 because both have same Probability Mass Function .\nAnswer: A\n   \n\n     Mean :\n    \n    The average of a set of numbers=0\n   \n\n     Median:\n    \n    the average of the two middle values if there is an even number=0\n   \n\n     Mode:\n    \n    The value of x that has heigest probability hence -13 or 13",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=4772246986654912904",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411898/gate-civil-2023-set-1-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411913",
+  "year": 2023,
+  "set": "2",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Three husband-wife pairs are to be seated at a circular table that has six identical chairs. Seating arrangements are defined only by the relative position of the people.  How many seating arrangements are possible such that every husband sits next to his wife?",
+  "options": [
+   "$16$",
+   "$4$",
+   "$120$",
+   "$720$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Every husband sits next to his wife, so we can say every husband-wife is a one-block.\n  \n\n[IMAGE:0]\n\n   There are $3$ husband-wife pairs, and each pair can sit in $2$ ways (Husband-Wife or Wife-Husband). The total number of seating arrangements is $2^3 = 8$ for each pair.\n  \n\n   Now, consider these $3$ pairs as one unit each and arrange them in a circle, which can be done in $(3-1)!$ ways.\n  \n\n   So, the total seating arrangements $= (3-1)! * 2^3 = 2 * 8 = 16.$\n  \n\n   Correct Answer: A\nANS A.\n   \n\n      Treat each couple as a single unit\n     \n     : Since every husband must sit next to his wife, treat each husband-wife pair as a single \"block.\" So, we now have 3 blocks to arrange.\n    \n\n      Arrange the 3 blocks\n     \n     : In a circular arrangement, fixing one block in one position eliminates rotation. This leaves 2 blocks, which can be arranged in 2!=2 ways.\n    \n\n      Arrange within each block\n     \n     : Within each block (couple), the husband and wife can switch seats. So, for each of the 3 blocks, there are 2 ways to arrange the husband and wife, which gives 2^3=8 ways.\n    \n\n      Total arrangements\n     \n     : Multiply the ways to arrange the blocks and the ways to arrange within blocks:",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=5348333710453468959",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411913/gate-civil-2023-set-2-ga-question-7",
   "source": "gateoverflow"
  },
  {
@@ -487,6 +1889,186 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/399304/gate-cse-2023-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411812",
+  "year": 2023,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which one of the sentence sequences in the given options creates a coherent narrative?\n  \n\n    $\\text{(iv), (i), (iii), (ii)}$\n   \n\n    $\\text{(iii), (i), (ii), (iv)}$\n   \n\n    $\\text{(ii), (i), (iv), (iii)}$\n   \n\n    $\\text{(i), (iii), (ii), (iv)}$",
+  "options": [
+   "I could not bring myself to knock.",
+   "There was a murmur of unfamiliar voices coming from the big drawing room and the door was firmly shut.",
+   "The passage was dark for a bit, but then it suddenly opened into a bright kitchen.",
+   "I decided I would rather wander down the passage."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Answer – C\n  There was a murmur of unfamiliar voices coming from the big drawing room and the door was firmly shut.\n  I could not bring myself to knock.\n  I decided I would rather wander down the passage.\n  The passage was dark for a bit, but then it suddenly opened into a bright kitchen.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411812/gate-mechanical-2023-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411830",
+  "year": 2023,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which one of the options does NOT describe the passage below or follow from it?\n  \n\n   We tend to think of cancer as a 'modern' illness because its metaphors are so modern. It is a disease of overproduction, of sudden growth, a growth that is unstoppable, tipped into the abyss of no control. Modern cell biology encourages us to imagine the cell as a molecular machine. Cancer is that machine unable to quench its initial command (to grow) and thus transform into an indestructible, self-propelled automaton.\n  \n\n   [Adapted from\n   \n    The Emperor of All Maladies\n   \n   by Siddhartha Mukherjee]",
+  "options": [
+   "It is a reflection of why cancer seems so modern to most of us.",
+   "It tells us that modern cell biology uses and promotes metaphors of machinery.",
+   "Modern cell biology encourages metaphors of machinery, and cancer is often imagined as a machine.",
+   "Modern cell biology never uses figurative language, such as metaphors, to describe or explain anything."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "The option that does NOT describe the passage or follow from it is:\n  \n\n    \"Modern cell biology never uses figurative language, such as metaphors, to describe or explain anything.\"\n   \n\n   The passage doesn't make any claim or imply that modern cell biology never uses figurative language or metaphors. In fact, the passage discusses how modern cell biology encourages us to imagine the cell as a molecular machine and how cancer is often described metaphorically as a machine. Therefore, the statement in option (D) is not supported by the passage.\n  \n\n   Correct Answer: D",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411830/gate-electrical-2023-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411849",
+  "year": 2023,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which one of the following options can be inferred from the given passage alone?\n  \n\n   When I was a kid, I was partial to stories about other worlds and interplanetary travel. I used to imagine that I could just gaze off into space and be whisked to another planet.\n  \n\n   [Excerpt from\n   \n    The Truth about Stories\n   \n   by T. King]",
+  "options": [
+   "It is a child's description of what he or she likes.",
+   "It is an adult's memory of what he or she liked as a child.",
+   "The child in the passage read stories about interplanetary travel only in parts.",
+   "It teaches us that stories are good for children."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "The passage mentions \"When I was a kid,\" indicating that it is referring to the author's childhood. Therefore, the correct inference is:\n  \n\n    It is an adult's memory of what he or she liked as a child.\n   \n\n   The passage is the author's recollection of their childhood preferences for stories about other worlds and interplanetary travel.\n  \n\n   Correct Answer: B",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411849/gate-ece-2023-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411867",
+  "year": 2023,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The information contained in DNA is used to synthesize proteins that are necessary for the functioning of life. DNA is composed of four nucleotides: Adenine (A), Thymine (T), Cytosine (C), and Guanine (G). The information contained in DNA can then be thought of as a sequence of these four nucleotides: A, T, C, and G. DNA has coding and non-coding regions. Coding regions-where the sequence of these nucleotides are read in groups of three to produce individual amino acids - constitute only about $2 \\%$ of human DNA. For example, the triplet of nucleotides CCG codes for the amino acid glycine, while the triplet GGA codes for the amino acid proline. Multiple amino acids are then assembled to form a protein.\n  \n\n   Based only on the information provided above, which of the following statements can be logically inferred with certainty?\n  \n\n    only (i)\n   \n\n    only (ii)\n   \n\n    both (i) and (ii)\n   \n\n    neither (i) nor (ii)",
+  "options": [
+   "The majority of human DNA has no role in the synthesis of proteins.",
+   "The function of about $98 \\%$ of human DNA is not understood."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Given facts:\n  \n\n    The information in DNA is utilized for protein synthesis.\n   \n\n    DNA consists of four nucleotides: Adenine (A), Thymine (T), Cytosine (C), and Guanine (G).\n   \n\n    Thus, the information in DNA can be viewed as a sequence of these nucleotides: A, T, C, and G.\n   \n\n    DNA contains coding and non-coding regions.\n   \n\n    Coding regions—where nucleotide sequences are read in triplets to produce amino acids—make up only about 2% of human DNA.\n   \n\n    These amino acids are then linked to form proteins.\n   \n\n   Let's carefully analyze the statements:\n  \n\n   Statement (i): \"The majority of human DNA has no role in the synthesis of proteins.\"\n   Analysis: The information states that coding regions, where nucleotides are read in triplets for amino acid production, make up 2% of human DNA. However, it doesn't specify that the remaining 98% has no role in protein synthesis. Non-coding regions could potentially have indirect roles not mentioned. Therefore, this statement cannot be inferred with certainty.\n  \n\n   Statement (ii): \"The function of about 98% of human DNA is not understood.\"\n   Analysis: While we know that 98% of DNA is non-coding, the passage provides no information about our understanding of this DNA's function. It only states that it's not directly involved in coding for amino acids. The lack of coding function doesn't imply a lack of understanding. Thus, this statement also cannot be inferred.\n  \n\n   Conclusion: Neither statement can be logically inferred with certainty from the given information. The correct answer is option D: neither (i) nor (ii).\n  \n\n    While answering , such reasoning questions , we only need to consider, what is given in the given paragraph and then draw inferences acordingly .\nThe above passage describes the coding region in detail which constitute only 2% of human DNA. But that doesn’t mean that the rest 98% (non-coding region) don’t play any role in the synthesis of proteins. The details are absent here, doesn’t mean that functions are not yet discovered in the medical domain.\nThe majority of human DNA has no role in the synthesis of proteins:\n   \n   This statement is\n   \n    true and can be directly inferred\n   \n   from the passage. It explicitly states that coding regions, responsible for protein synthesis, constitute only 2% of human DNA. Therefore, the remaining 98% must have other functions or no known function at this time.\n  \n\n    (ii) The function of about 98% of human DNA is not understood:\n   \n   This statement is\n   \n    not necessarily true.\n   \n   While the passage mentions that the function of\n   \n    most\n   \n   of human DNA is not yet understood, it doesn't guarantee that it has\n   \n    no function\n   \n   at all. There might be roles for non-coding DNA that are still being discovered and researched. The information only emphasizes the lack of current understanding, not the absence of any potential function",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411867/gate-in-2023-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411883",
+  "year": 2023,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The World Bank has declared that it does not plan to offer new financing to Sri Lanka, which is battling its worst economic crisis in decades, until the country has an adequate macroeconomic policy framework in place. In a statement, the World Bank said Sri Lanka needed to adopt structural reforms that focus on economic stabilisation and tackle the root causes of its crisis. The latter has starved it of foreign exchange and led to shortages of food, fuel, and medicines. The bank is repurposing resources under existing loans to help alleviate shortages of essential items such as medicine, cooking gas, fertiliser, meals for children, and cash for vulnerable households.\n  \n\n   Based only on the above passage, which one of the following statements can be inferred with\n   \n    certainty\n   \n   ?",
+  "options": [
+   "According to the World Bank, the root cause of Sri Lanka's economic crisis is that it does not have enough foreign exchange.",
+   "The World Bank has stated that it will advise the Sri Lankan government about how to tackle the root causes of its economic crisis.",
+   "According to the World Bank, Sri Lanka does not yet have an adequate macroeconomic policy framework.",
+   "The World Bank has stated that it will provide Sri Lanka with additional funds for essentials such as food, fuel, and medicines."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Answer is C, as the World Bank has planned not to offer new financing to Sri Lanka, until the country has an adequate macroeconomic policy framework in place. Which means Sri Lanka does not yet have an adequate macroeconomic policy framework.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411883/gate-ch-2023-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411897",
+  "year": 2023,
+  "set": "1",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The James Webb telescope, recently launched in space, is giving humankind unprecedented access to the depths of time by imaging very old stars formed almost $13$ billion years ago. Astrophysicists and cosmologists believe that this odyssey in space may even shed light on the existence of dark matter. Dark matter is supposed to interact only via the gravitational interaction and not through the electromagnetic-, the weak- or the strong-interaction. This may justify the epithet \"dark\" in dark matter.\n  \n\n   Based on the above paragraph, which one of the following statements is $\\text{FALSE?}$",
+  "options": [
+   "No other telescope has captured images of stars older than those captured by the James Webb telescope.",
+   "People other than astrophysicists and cosmologists may also believe in the existence of dark matter.",
+   "The James Webb telescope could be of use in the research on dark matter.",
+   "If dark matter was known to interact via the strong-interaction, then the epithet \"dark\" would be justified."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "No other telescope has captured images of stars older than those captured by the James Webb telescope.\n    - \"... is giving humankind\n    \n     unprecedented\n    \n    access to the depths of time by imaging very old stars formed almost 13 billion years ago\" that means it is the first time we are getting images of  old almost 13 billion years old stars. that mean no previous telescope was capable of doing that. so, this option is true.\n   \n\n    People other than astrophysicists and cosmologists may also believe in the existence of dark matter.\n    - we have information about astrophysicists and cosmologists but no information about other people. so, neither we can support nor we can deny the statement in this option. because we can't deny it, we can't say it is false. to be false this statement must be false always. so, this option may or may not be false.\n   \n\n    The James Webb telescope could be of use in the research on dark matter.\n    - \"Astrophysicists and cosmologists believe that this odyssey in space may even shed light on the existence of dark matter.\" this statement supports this option. so, this is true.\n   \n\n    If dark matter was known to interact via the strong-interaction, then the epithet \"dark\" would be justified.\n    - \"Dark matter is supposed to interact only via the gravitational interaction and not through the electromagnetic-,\n    \n     the weak- or the strong-interaction\n    \n    . This may justify the epithet \"dark\" in dark matter.\" this statement proves this option false.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411897/gate-civil-2023-set-1-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411912",
+  "year": 2023,
+  "set": "2",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Based only on the following passage, which one of the options can be inferred with\n   \n    certainty\n   \n   ?\n  \n\n   When the congregation sang together, Apenyo would also join, though her little screams were not quite audible because of the group singing. But whenever there was a special number, trouble would begin; Apenyo would try singing along, much to the embarrassment of her mother. After two or three such mortifying Sunday evenings, the mother stopped going to church altogether until Apenyo became older and learnt to behave.\n  \n\n   At home too, Apenyo never kept quiet; she hummed or made up silly songs to sing by herself, which annoyed her mother at times but most often made her become pensive. She was by now convinced that her daughter had inherited her love of singing from her father who had died unexpectedly away from home.\n  \n\n   [Excerpt from\n   \n    These Hills Called Home\n   \n   by Temsula Ao]",
+  "options": [
+   "The mother was embarrassed about her daughter's singing at home.",
+   "The mother's feelings about her daughter's singing at home were only of annoyance.",
+   "The mother was not sure if Apenyo had inherited her love of singing from her father.",
+   "When Apenyo hummed at home, her mother tended to become thoughtful."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Answer should be D as it is clearly written that she would often become pensive (thoughtful).",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411912/gate-civil-2023-set-2-ga-question-8",
   "source": "gateoverflow"
  },
  {
@@ -587,6 +2169,214 @@
   "source": "gateoverflow"
  },
  {
+  "id": "411809",
+  "year": 2023,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "How many pairs of sets $\\text{(S, T)}$ are possible among the subsets of $\\{1,2,3,4,5,6\\}$ that satisfy the condition that $\\mathrm{S}$ is a subset of $\\mathrm{T}?$",
+  "options": [
+   "$729$",
+   "$728$",
+   "$665$",
+   "$664$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "By analyzing the question statement we have a set of $6$ elements each of these elements can have exactly $3$ possible states:\n  \n\n    Present in both the subsets $S$ and $T$\n   \n\n    Absent in both the subsets $S$ and $T$\n   \n\n    Present in $T$ but not present in $S$\n   \n\n   Thus we get in total $3 \\underbrace{\\times} _{(6 \\text{ times})} 3 = 3^6 = 729$ possibilities.\n[IMAGE:100]\n\n   a variation of this question\n   \n    https://math.stackexchange.com/questions/163130/counting-the-ordered-pairs-a-b-where-a-and-b-are-subsets-of-s-and-a\n   \n   better to know the process than mugging up the formula\n  \n\n   Ans is\n   \n    729",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=18068885537926933124",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411809/gate-mechanical-2023-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411828",
+  "year": 2023,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The digit in the unit's place of the product $3^{999} \\times 7^{1000}$ is _________.",
+  "options": [
+   "$7$",
+   "$1$",
+   "$3$",
+   "$9$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "The pattern of the unit's digits of powers of $3:$\n  \n\n    $3^1 = 3$\n   \n\n    $3^2 = 9$\n   \n\n    $3^3 = 7$\n   \n\n    $3^4 = 1$\n   \n\n   The pattern repeats every $4$ powers of $3.$\n  \n\n   The pattern of the unit's digits of powers of $7:$\n  \n\n    $7^1 = 7$\n   \n\n    $7^2 = 9$\n   \n\n    $7^3 = 3$\n   \n\n    $7^4 = 1$\n   \n\n   The pattern repeats every $4$ powers of $7.$\n  \n\n   Now, Unit digit of $3^{999} \\times 7^{1000} = \\underbrace{3^{4{(249)}}}_{\\text{Unit digit = 1}} \\times 3^3 \\times \\underbrace{7^{4(250)}}_{\\text{Unit digit = 1}} = 1 \\times 7 \\times 1 = 7$\n  \n\n   So, the unit's digit of $3^{999} \\times 7^{1000}$ is $7.$\n  \n\n   Correct Answer: A\n$3^{999} * 7^{1000} = 3^{999} * 7^{999} * 7^1 = 21^{999} * 7$\n  The last Digit of 21 is 1. Therefore 21 power anything is 1.\n  1*7 = 7.\n  Therefore last digit is 7.\nAlthough with cyclicity this would be easy. Here is an alternative using binomial theorem only:\n  $3^{999} \\equiv 3 (10 - 1)^{499} \\equiv 3 (10 - 1) \\equiv - 3 \\equiv 7 \\text{ mod } 10$\n  and $7^{1000} \\equiv (10 -3)^{1000} \\equiv (-1)^{1000} (3)^{1000} \\equiv (10 - 1)^{500} \\equiv 1 \\text { mod 10}$\n  Now $(3^{999} \\times 7^{1000}) \\text { mod }  10 \\equiv \\left[(3^{999} \\text{ mod } 10) \\times (7^{1000} \\text{ mod } 10)\\right] \\text { mod 10 } \\equiv 7 \\text { mod } 10 \\equiv 7.$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411828/gate-electrical-2023-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411847",
+  "year": 2023,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Out of $1000$ individuals in a town, $100$ unidentified individuals are covid positive. Due to lack of adequate covid-testing kits, the health authorities of the town devised a strategy to identify these covid-positive individuals. The strategy is to:\n  \n\n   Given this strategy, no more than _______ testing kits will be required to identify all the $100$ covid positive individuals irrespective of how they are grouped.\n  \n\n    $700$\n   \n\n    $600$\n   \n\n    $800$\n   \n\n    $1000$",
+  "options": [
+   "Collect saliva samples from all $1000$ individuals and randomly group them into sets of $5$.",
+   "Mix the samples within each set and test the mixed sample for covid.",
+   "If the test done in (ii) gives a negative result, then declare all the $5$ individuals to be covid negative.",
+   "If the test done in (ii) gives a positive result, then all the $5$ individuals are separately tested for covid."
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "200 groups made =>200 samples(\n   \n    200 testing kit reqd\n   \n   )\n   WORST CASE, each group has atmost 1 covid+ve individual\n   so no of such grps =100\n   Now, people of these grps are tested individually, so 100*5=500 tests(\n   \n    so 500 testing kit reqd\n   \n   )\n   so in total, 200+500=\n   \n    700\n   \n   testing kits are reqd.\n   \n    opt a\nWorst case: patient appears in 100 groups out of 200 (Only 100 patients are there to appear so 100 groups)\n  \n\n    so first\n    \n\n     200 groups will get tested 200*1=200 (multiplied by 1 because we mix all the 5 samples and test only once)\n     \n\n       and 100 groups = 100*5 = 500 (each individual needs to be checked. so all 5)\n       Total = 200+500=700\nTotal individuals =\n    \n     1000\n    \n\n    Covid-positive individuals =\n    \n     100\n    \n\n    Individuals are grouped into sets of\n    \n     5\n    \n    .\n   \n\n    Initial tests are done on\n    \n     1000 / 5 = 200\n    \n    mixed samples.\n   \n\n      First Round of Testing:\n     \n\n       200 mixed samples are tested.\n      \n\n      If a sample tests\n      \n       negative\n      \n      , all 5 members are declared covid-negative.\n     \n\n      If a sample tests\n      \n       positive\n      \n      , all 5 members are tested individually.\n     \n\n      Expected Positive Tests in the First Round:\n     \n\n      There are\n      \n       100 covid-positive individuals\n      \n      .\n     \n\n      Each group has 5 people → If a group contains at least\n      \n       one positive individual\n      \n      , the mixed sample will test\n      \n       positive\n      \n      .\n     \n\n      The number of groups that will test positive depends on how the 100 positive individuals are distributed.\n     \n\n       Worst Case Scenario:\n      \n      Each group has exactly\n      \n       one\n      \n      covid-positive individual →\n      \n       100 groups test positive\n      \n      .\n     \n\n      Second Round of Testing:\n     \n\n      In these\n      \n       100 groups\n      \n      , each person is tested separately.\n     \n\n       Each such group requires 5 individual tests\n      \n      .\n     \n\n      Total individual tests =\n      \n       100 × 5 = 500\n      \n      .\n     \n\n     First round:\n    \n\n     200 tests\n    \n    .\n   \n\n     Second round:\n    \n\n     500 tests\n    \n    .\n   \n\n     Total = 200 + 500 = 700 tests\n    \n    .\n   \n\n    A. 700",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411847/gate-ece-2023-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411866",
+  "year": 2023,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which one of the given figures $\\text{P, Q, R}$ and $\\text{S}$ represents the graph of the following function?\n  \n\n   $$f(x)=|| x+2|-| x-1||$$\n  \n\n[IMAGE:0]\n[IMAGE:1]\n\n[IMAGE:2]\n[IMAGE:3]",
+  "options": [
+   "$\\text{P}$",
+   "$\\text{Q}$",
+   "$\\text{R}$",
+   "$\\text{S}$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "lets first find the graph for $y = |x+2| \\ – \\ |x-1|$ and then we will just take absolute value of y i.e make all the negative y’s positive and get our answer\n   $$y = |x+2| \\ – \\ |x-1|$$ has critical points $-2,1$\n  \n\n   for $$x\\gt1 \\rightarrow (x+2)-(x-1) = +3$$ $$(x\\gt-2) \\ \\ \\& (x \\le 1) \\rightarrow (x+2)-(-(x-1)) = 2x+1$$\n  \n\n   $$x\\le-2 \\rightarrow -(x+2)-(x-1) = -3$$\n  \n\n   now plotting the graph after getting the equations for $y = |x+2| \\ – \\ |x-1|$\n  \n\n[IMAGE:0]\n\n   now just take the mod and negative part will invert to positive\n  \n\n   hence the answer is P\nOr also you can do option elimination by putting different value of X in f(x).\n  \n\n   so option is B can never be answer because f(x) is in\n   \n    mod so value of f(x) can never be negative\n   \n   which is shown in option B.\n  \n\n   now Option A, C, D remaing for them just put value of X = -4 in f(x) and we get answer as 3 which shown only in Option A so that option A is answer other answer become eliminated.\nFigure P depicts the correct graph. The critical points are -2 and 1.  So, we have three cases:\n    \n\n      x < -2 in which both (x+2) and (x-1) are negative. So after solving you will get 3.\n     \n\n      -2 <= x < 1 in which (x+2) is positive but (x-1) is negative. So, after solving you will get |2x+1|.\n     \n\n      x >= 1 in which both are positive and you will get 3 again.",
+  "images": [
+   {
+    "src": "https://in.gateoverflow.in/?qa=blob&qa_blobid=694869875940271578",
+    "kind": "remote"
+   },
+   {
+    "src": "https://in.gateoverflow.in/?qa=blob&qa_blobid=7868899331355846331",
+    "kind": "remote"
+   },
+   {
+    "src": "https://in.gateoverflow.in/?qa=blob&qa_blobid=972537360039101523",
+    "kind": "remote"
+   },
+   {
+    "src": "https://in.gateoverflow.in/?qa=blob&qa_blobid=11024890727513156411",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1516677772919401290",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411866/gate-in-2023-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411881",
+  "year": 2023,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The coefficient of $x^{4}$ in the polynomial $(x-1)^{3}(x-2)^{3}$ is equal to___________.",
+  "options": [
+   "$33$",
+   "$-3$",
+   "$30$",
+   "$21$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "We know that, $(a-b)^3 = a^3 – b^3 -3ab(a-b)$\n  Now,\n  $(x-1)^3 = x^3-1^3-3x(x-1) =  x^3-1-3x^2+3x = x^3-3x^2 + 3x -1$\n  $(x-2)^3 = x^3-2^3-6x(x-2) =  x^3-8-6x^2 + 12x = x^3-6x^2+12x-8$\n  Multiply both the terms and just focus on to make $x^4.$\n  $(x-1)^3 (x-2)^3 = (x^3-3x^2 + 3x -1)( x^3-6x^2+12x-8)$\n  $\\qquad \\qquad  = 12x^4 + 18x^4 + 3x^4 = 33x^4$\n  $\\therefore$ The coefficient of $x^4 = 33.$\n  Correct Answer: A",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411881/gate-ch-2023-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411896",
+  "year": 2023,
+  "set": "1",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Let $a=30 !, b=50!,$ and $c=100!.$ Consider the following numbers:\n  \n\n   $$\\log _a c, \\quad \\log _c a, \\quad \\log _b a, \\quad \\log _a b$$\n  \n\n   Which one of the following inequalities is $\\text{CORRECT?}$",
+  "options": [
+   "$\\log _c a<\\log _b a<\\log _a b<\\log _a c$",
+   "$\\log _c a<\\log _a b<\\log _b a<\\log _b c$",
+   "$\\log _c a<\\log _b a<\\log _a c<\\log _a b$",
+   "$\\log _b a<\\log _c a<\\log _a b<\\log _a c$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer- Option A\n  If we want to compare values of 2 log functions, they need to have the same base.\n  Every given log value contains $a$, either in base or in argument.Hence, we can represent all values such that they have the same base $a$.\n  $log_ac = log_{30!}100!$\n  $log_ca = \\frac{1}{log_ac} = \\frac{1}{log_{30!}100!}$\n  $log_ab = log_{30!}50!$\n  $log_ba = \\frac{1}{log_ab} = \\frac{1}{log_{30!}50!}$\n  If $x_{1} > x_{2}$,  $log_ax_{1} > log_ax_{2}$ where $a > 1$\n  Hence,\n  $ log_{30!}100! > log_{30!}50! > \\frac{1}{log_{30!}50!} > \\frac{1}{log_{30!}100!}$\n  $log_ac > log_ab > log_ba > log_ca$\n  This is same as option A.\nA is the answer. You can approximate the the values like 30! = 30^n and then find log.\nHigher the base of log function, the flatter(less steep) the curve(graph) is, meaning it will take more time to reach the same value of y than lower base. So just by looking at the base given, we can determine the order:\n   c = 100! , b = 50!, a = 30!\n   As c > b > a,\n   logc < log b < log a (as the base decreases, value of log function increases)\n   When we have same base, then higher the input of log function the higher the output i.e if x1 > x2 then\n   log(x1) > log(X2)\n   Here, c > a so log(c) > log(a)\n   So the answer is A.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411896/gate-civil-2023-set-1-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411910",
+  "year": 2023,
+  "set": "2",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If $x$ satisfies the equation $4^{8^{x}}=256$, then $x$ is equal to __________.",
+  "options": [
+   "$\\frac{1}{2}$",
+   "$\\log _{16} 8$",
+   "$\\frac{2}{3}$",
+   "$\\log _{4} 8$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Given that, $4^{8^{x}}=256$\n  $\\Rightarrow 4^{8^{x}}=4^4$\n  $\\Rightarrow 8^{x}=4 \\quad (\\because \\text{In the same base, we can compare the powers})$\n  $\\Rightarrow (2^3)^x = 2^2$\n  $\\Rightarrow 2^{3x} = 2^2$\n  $\\Rightarrow 3x = 2$\n  $\\Rightarrow x = \\dfrac{2}{3}$\n  Correct Answer: C",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411910/gate-civil-2023-set-2-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
   "id": "399246",
   "year": 2023,
   "set": null,
@@ -641,6 +2431,241 @@
   "explanation": "Answer should be using universal hashing as it randomly chooses hashing function from range of function.\n   Reference:\n   CLRS 3\n   \n    rd\n   \n   version:chap:11, page no.265\nUniversal hashing\n   \n   refers to selecting a hash function at random from a family of hash functions with a certain mathematical property. This guarantees a low number of collisions in expectation, even if the data is chosen by an adversary. It implements uniform hashing.\n  \n\n    ANSWER) C\n   \n\n     https://en.wikipedia.org/wiki/Universal_hashing\nHashing can be classified as -\n  \n\n   1.\n   \n    Static hashing\n   \n   - uses singular fixed hash function.\n  \n\n   Division method and multiplication method are examples of static hashing.\n  \n\n   If we use static hashing, the adversary can easily generate keys such that all the keys map to the same slot. (Assuming that the adversary can deduce the parameters of the hash function or atleast find some pattern in the mapping of the keys to the slot to maximize collision.\n  \n\n   2.\n   \n    Random hashing\n   \n   - chooses a random hash function.\n  \n\n   One of the special way of random hashing is called universal hashing. The only important fact that we need to know about universal hashing is that we choose a random hash function from a family of hash functions that satisfy a particular property.\n  \n\n   The property is -\n  \n\n    $H = \\{ h : U \\to [m] \\} \\text{ is called a '''universal family''' if, }  \\forall x, y \\in U, ~ x\\ne y: ~~ |\\{h\\in H: h(x) = h(y)\\}|\\le \\frac{|H|}{m}$\n   \n\n    In other words, any two different keys of the universe collide with probability at most $\\frac{1}{m}$ when the hash function $h$ is drawn uniformly at random from $H$. This is exactly the probability of collision we would expect if the hash function assigned truly random hash codes to every key.\n   \n\n    -Wikipedia\n   \n\n    https://en.wikipedia.org/wiki/Universal_hashing\n   \n\n   In case of universal hashing , it will be difficult for the adversary to choose keys that collide since the hash function itself is chosen randomly and furthermore (by the property of universal hashing) the probability that two different keys collide is less than $1/m$.\n(C.) Universal hashing method ,\n   \n   In universal hashing, at the beginning of the execution, we choose a hash function randomly from a carefully designed family of functions. This guarantees that no single input would result in the worst-case situation. Since the hash functions are random, the behavior would be different for for each execution which would yield average case performance on each input.\nOption is C correct option.\n  \n\n    You can watch this video to understand well all the options.\n    link🔗:-\n    \n     https://youtu.be/8bpjEwT8YY8?si=S7W-1yAc-dCcxo-f\nPlease visit this link to understand this question;\n  \n   https://www.cs.bu.edu/faculty/homer/537/talks/SarahAdelBargal_UniversalHashingnotes.pdf",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/399302/gate-cse-2023-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411807",
+  "year": 2023,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Spatial Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "An opaque pyramid (shown below), with a square base and isosceles faces, is suspended in the path of a parallel beam of light, such that its shadow is cast on a screen oriented perpendicular to the direction of the light beam. The pyramid can be reoriented in any direction within the light beam. Under these conditions, which one of the shadows $\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$, and $\\mathbf{S}$ is NOT possible?\n  \n\n[IMAGE:0]",
+  "options": [
+   "$\\mathbf{P}$",
+   "$\\mathbf{Q}$",
+   "$\\mathbf{R}$",
+   "$\\mathbf{S}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Correct Answer is Option B)\n  Q  is never possible because sides of the triangle must start from the corner.",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=13516582832379509832",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411807/gate-mechanical-2023-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411827",
+  "year": 2023,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A square with sides of length $6 \\mathrm{~cm} $ is given. The boundary of the shaded region is defined by two semi-circles whose diameters are the sides of the square, as shown.\n  \n\n   The area of the shaded region is_______ $\\mathrm{cm}^2.$\n  \n\n[IMAGE:0]",
+  "options": [
+   "$6 \\pi$",
+   "$18$",
+   "$20$",
+   "$9 \\pi$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "[IMAGE:0]\n\n   This is the answer\nImagine replicating the semicircle on remaining sides of the squares.\n  \n\n[IMAGE:100]\n\n   Add all four semicircular area (Each overlapping part is added twice) -\n  \n\n   $= 2*\\pi*r^2 = 18\\pi$  .... (i)\n  \n\n   Removing the area of square from (i), gives us the 4 overlapping areas.\n  \n\n   $18\\pi - 36 = 18(\\pi-2)$ .... (ii)\n  \n\n[IMAGE:101]\n\n   1 overlapping area  $= \\frac{18}{4}(\\pi-2) = \\frac{9}{2}(\\pi-2)$\n  \n\n   Required shaded area $=$ Area of both semicircle $- 2*$Overlapping area $=9\\pi - 9\\pi + 18 = 18$\nThe best way, said by my friend,\n  \n\n[IMAGE:200]",
+  "images": [
+   {
+    "src": "https://ee.gateoverflow.in/?qa=blob&qa_blobid=9950701814150023227",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=17529682660432106035",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15748078537259454702",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=11703487661022881020",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16390743730924370379",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411827/gate-electrical-2023-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411846",
+  "year": 2023,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Spatial Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A $100 \\mathrm{~cm} \\times 32 \\mathrm{~cm}$ rectangular sheet is folded $5$ times. Each time the sheet is folded, the long edge aligns with its opposite side. Eventually, the folded sheet is a rectangle of dimensions $100 \\mathrm{~cm} \\times 1 \\mathrm{~cm}$.\n  \n\n   The total number of creases visible when the sheet is unfolded is ___________.",
+  "options": [
+   "$32$",
+   "$5$",
+   "$31$",
+   "$63$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$1$ fold divides the sheet into to parts $2$ parts with $1$ crease in between.\n  $2$ folds divides the sheet into $4$ parts with $3$ creases.\n  $5$ folds will divides the sheet into $32$ parts with $31$ creases.\n  Hence answer will be Option $C$ $31$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411846/gate-ece-2023-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411865",
+  "year": 2023,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Spatial Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "An opaque cylinder (shown below) is suspended in the path of a parallel beam of light, such that its shadow is cast on a screen oriented perpendicular to the direction of the light beam. The cylinder can be reoriented in any direction within the light beam. Under these conditions, which one of the shadows $\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$, and $\\mathbf{S}$ is NOT possible?\n  \n\n[IMAGE:0]",
+  "options": [
+   "$\\mathrm{P}$",
+   "$\\mathrm{Q}$",
+   "$\\mathrm{R}$",
+   "$\\mathrm{S}$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "[IMAGE:0]\n\n   Correct Answer –Option D)",
+  "images": [
+   {
+    "src": "https://in.gateoverflow.in/?qa=blob&qa_blobid=8755533682241442185",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2073283430107382421",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411865/gate-in-2023-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411880",
+  "year": 2023,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Spatial Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which one of the following shapes can be used to tile (completely cover by repeating) a flat plane, extending to infinity in all directions, without leaving any empty spaces in between them? The copies of the shape used to tile are identical and are not allowed to overlap.",
+  "options": [
+   "circle",
+   "regular octagon",
+   "regular pentagon",
+   "rhombus"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Rhombus\n   \n   will be answer because it plays similar role as square .\n  \n\n   Here  rectangle also work .\n  \n\n   Rhombus can tile (completely cover by repeating) a flat plane, extending to infinity in all directions, without leaving any empty spaces in between them . Remaining options will always some empty spaces between them .\n  \n\n     Correct Answer :- Option D) Rhombus\nAlthough the mathematics behind it comes from a very interesting field called \"tessellation or tiling\" but I can provide some intuition from my little understading.\n  \n\n   1. When we are given a task of tiling then if we can somehow arrange that shape around a point such that the shapes cummulatively complete $360^{\\circ}$ with their internal angles then that shape can fill the plane completely without leaving any empty space.\n  \n\n   2. Let's understand this with the example of Rhombus:\n  \n\n[IMAGE:100]\n\n   A rhombus has the following properties:\n  \n\n    Opposite angles are always equal.\n   \n\n    $\\alpha + \\beta = 180^{\\circ}$ where, $\\alpha$ and $\\beta$ are adjacent angles of rhombus.\n   \n\n   So, if we form a group of rhombuses around a point such that there is always an angle $\\alpha$ if there is an angle $\\beta$ in the group and vice versa then they will cummulatively make $180^{\\circ}$ and after $2$ such pairs we will have $360^{\\circ}$ and that means there will be no empty space left on the plane. (fig. 1 and 2 in img 1 above)\n  \n\n   But there is a catch, if we have a rhombus which has angles $\\alpha$ and $\\beta$ as factors of $360^{\\circ}$ then we can take only one type of angle and achive the same results. (fig. 3 and 4 in img 1 above)\n  \n\n   for example let's assume $\\alpha = 60^{\\circ}$ and $\\beta = 120^{\\circ}$ then $6 \\times 60^{\\circ} = 360^{\\circ}$ and $3 \\times 120^{\\circ} = 360^{\\circ}$.\n  \n\n   3. Now, let's see why other shapes can't make tiling patterns:\n  \n\n[IMAGE:101]\n\n   a) Circles's story is crystal clear from the fig. 1 in img 2 above itself. There is no way we can remove the somewhat triangular looking space in center whenever $3$ circles meet around a point.\n  \n\n   b) Regular pentagon has internal angle $= 108^{\\circ}$ and if we try to find number of pentagons that we need around a point so that no empty space is left:\n  \n\n   $n \\times 108^{\\circ} = 360^{\\circ}$\n  \n\n   $n = \\frac{360^{\\circ}}{108^{\\circ}}$\n  \n\n   $n \\approx 3.33$\n  \n\n   So, if we take $n = 3$ means only $3$ pentagons around a point (like fig. 2 in img 2 above) then $3 \\times 108^{\\circ} = 324^{\\circ}$, which means there will be empty space left and if we take $n = 4$ means $4$ pentagons around a point (like fig. 3 in img 2 above) then $4 \\times 108^{\\circ} = 432^{\\circ}$, which means there will be overlap b/w them.\n  \n\n   c) Regular octagon has internal angle $= 135^{\\circ}$ and if we try to find number of pentagons that we need around a point so that no empty space is left:\n  \n\n   $n \\times 135^{\\circ} = 360^{\\circ}$\n  \n\n   $n = \\frac{360^{\\circ}}{135^{\\circ}}$\n  \n\n   $n \\approx 2.66$\n  \n\n   So, if we take $n = 2$ means only $2$ octagons around a point (like fig. 4 in img 2 above) then $2 \\times 135^{\\circ} = 270^{\\circ}$, which means there will be empty space left and if we take $n = 3$ means $3$ octagons around a point (like fig. 5 in img 2 above) then $3 \\times 135^{\\circ} = 405^{\\circ}$, which means there will be overlap b/w them.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=18414005874464931481",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3492972032600054254",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411880/gate-ch-2023-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411895",
+  "year": 2023,
+  "set": "1",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A square of side length $4 \\mathrm{~cm}$ is given. The boundary of the shaded region is defined by one semi-circle on the top and two circular arcs at the bottom, each of radius $2 \\mathrm{~cm}$, as shown.\n  \n\n   The area of the shaded region is__________$\\text{cm}^{2}.$\n  \n\n[IMAGE:0]",
+  "options": [
+   "$8$",
+   "$4$",
+   "$12$",
+   "$10$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "1. Area of a bottom shaded quarter circle $= \\dfrac{\\pi r^2}{4} \\quad (r=2 \\, cm)$\n  \n\n   2. Area of both shaded quarter circles combined $= 2 \\times \\dfrac{\\pi r^2}{4} = \\boxed{ \\dfrac{\\pi r^2}{2} }$\n  \n\n   3. Area of upper rectangle $= 2 \\times 4 = 8$\n  \n\n   4. Area of upper semi-circle $= \\dfrac{\\pi r^2}{2}$\n  \n\n   5.  Area of upper shaded region $= \\boxed{ 8 - \\dfrac{\\pi r^2}{2} }$\n  \n\n   6. Combined Area of shaded region $= 8 - \\dfrac{\\pi r^2}{2} + \\dfrac{\\pi r^2}{2} = 8 \\, cm^{2}$\n  \n\n    Alternate Method:\n   \n\n[IMAGE:0]\n\n   If we flip the bottom shaded quarter circles and fit them in the top unshaded semicircle then we will have a rectangle of area $= 4 \\times 2 = 8 \\, cm^{2}$\nanswer :  8",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=12395431164690681254",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1672237222361433422",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/411895/gate-civil-2023-set-1-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "411909",
+  "year": 2023,
+  "set": "2",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider a spherical globe rotating about an axis passing through its poles. There are three points $P, Q,$ and $R$ situated respectively on the equator, the north pole, and midway between the equator and the north pole in the northern hemisphere. Let $P, Q$, and $R$ move with speeds $v_P, v_Q$, and $v_R$, respectively.\n  \n\n   Which one of the following options is CORRECT?",
+  "options": [
+   "$v_P<v_R<v_Q$",
+   "$v_P<v_Q<v_R $",
+   "$v_P>v_R>v_Q $",
+   "$v_P=v_R \\neq v_Q$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Speed = Distance / Time. Here distance is diameter (D) of the Earth. Assuming same time unit for for each case for comparison.\n  Vp = D/T\n  Vq = D/(2T)\n  In case of Vr D is tending towards 0, so in same time unit is can cover huge ditance.\n  Hence, answer is C.\nVelocity = ŵ.r\n  \n\n   here , ŵ = angular rotation = constant\n  \n\n   hence, more is the distance away from the axis of rotation, more will be the velocity\n  \n\n   therefore, V\n   \n    P\n   \n   > V\n   \n    R\n   \n   > V\n   \n    Q\n   \n\n    Option (C)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/411909/gate-civil-2023-set-2-ga-question-10",
   "source": "gateoverflow"
  },
  {

@@ -1,36 +1,140 @@
 [
  {
-  "id": "39528",
+  "id": "108061",
   "year": 2016,
-  "set": "2",
-  "number": null,
-  "section": "CS",
+  "set": "1",
+  "number": 1,
+  "section": "GA",
   "type": "mcq",
   "subject": "General Aptitude",
-  "subtopic": "Logical & Analytical Reasoning",
+  "subtopic": "Verbal Aptitude",
   "difficulty": "medium",
   "marks": null,
-  "text": "Pick the odd one from the following options.",
+  "text": "Which of the following is CORRECT with respect to grammar and usage?\n  \n\n   Mount Everest is ________.",
   "options": [
-   "$\\text{CADBE}$",
-   "$\\text{JHKIL}$",
-   "$\\text{XVYWZ}$",
-   "$\\text{ONPMQ}$"
+   "The highest peak in the world",
+   "Highest peak in the world",
+   "One of highest peak in the world",
+   "One of the highest peak in the world"
   ],
   "correctAnswer": [
-   "D"
+   "A"
   ],
-  "explanation": "Option D.\n   \n\n    $\\underbrace{\\text{C A D B E}}_{3\\;\\;1\\;\\;4\\;\\;2\\;\\;5}$\n   \n\n    $\\underbrace{\\text{J H K I L}}_{3\\;\\;1\\;\\;4\\;\\;2\\;\\;5}$\n   \n\n    $\\underbrace{\\text{X V Y W Z}}_{3\\;\\;1\\;\\;4\\;\\;2\\;\\;5}$\n   \n\n   They are all making sequence of $1-2-3-4-5$ and as in alphabetical order\nSimply check,\n  option A. CADBE, here, difference between C and A is 2.\n  option B. JHKIL, here, difference between J and H is 2.\n  option C. XVYWZ, here, difference between X and V is 2.\n  option D. ONPMQ, here, difference between O and N is 1.\n  Answer is option(D).",
+  "explanation": "An adjective can exist in three forms – positive,\n   \n    comparative\n   \n   and\n   \n    superlative\n   \n   . The positive\n   \n    form\n   \n   is the base\n   \n    form\n   \n   of the adjective. The\n   \n    comparative form\n   \n   expresses a higher\n   \n    degree\n   \n   of some quality. The\n   \n    superlative form\n   \n   expresses the highest\n   \n    degree.\n   \n\n   Rules for superlative degree-\n   \n    https://www.englishgrammar.org/positive-comparative-superlative-degrees/\n   \n\n   Here, Mount Everest is\n   \n    the highest\n   \n   peak in the world\n   \n    .\n   \n   Option (A) is correct.\nMount Everest is\n   \n    the highest peak in the world.\n   \n   option A",
   "images": [],
-  "sourceUrl": "https://gateoverflow.in/39528/gate-cse-2016-set-2-question-ga-04",
+  "sourceUrl": "https://gateoverflow.in/108061/gate2016-ec-1-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108240",
+  "year": 2016,
+  "set": "2",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The volume of a sphere of diameter $1$ unit is ______ than the volume of a cube of side $1$ unit.",
+  "options": [
+   "Least",
+   "Less",
+   "Lesser",
+   "Low"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "'Lesser' and 'than' both are comparative words and using them together is grammatical error. Either say 'Sphere is lesser in volume than Cube for same diameter and edge length' or say 'Sphere is less than........'.\nThe volume of a sphere of diameter 11 unit is\n   \n    less\n   \n   than the volume of a cube of side 11 unit.\n   option B..\nNever use lesser than for comparing ,\n  \n\n   With comparative words( adjective with -er as suffix) generally than is used , but it is not true for the case of less\n   Here we will use less than (<)\n   Example -\n   2 is less than 4  OR  2 is lesser than  4\n   Of course the first one (2 is less than 4 ) is right\nAnswer B\n  \n\n   The volume of the sphere is $\\frac{4}{3} * \\pi * r^3$ so if diameter is $1$ unit than Radius is 0.5 unit so\n  \n\n   Volume = $ \\frac{4}{3} * 3.14 * (0.5)^3$ = 0.5233 $unit^3$\n  \n\n   volume of the cube with side 1 unit = $(side)^3 $= $(1)^3 $ = 1 $unit^3$\n  \n\n   so the volume of a sphere of diameter 1 unit is\n   \n    less\n   \n   than the volume of a cube of side 1 unit.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108240/gate2016-me-2-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108474",
+  "year": 2016,
+  "set": "2",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Based on the given statements, select the appropriate option with respect to grammar and usage.\n  \n\n   Statements\n  \n\n   (i) The height of Mr. $X$ is $6$ feet.\n  \n\n   (ii) The height of Mr. $Y$ is $5$ feet.",
+  "options": [
+   "Mr. $X$ is longer than Mr. $Y$.",
+   "Mr. $X$ is more elongated than Mr. $Y$.",
+   "Mr. $X$ is taller than Mr. $Y$.",
+   "Mr. $X$ is lengthier than Mr. $Y$."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "taller\n    \n    . comparative form of tall: more tall.\n   \n\n     Taller\n    \n    definition, having a relatively great height; of more than average stature: a tall woman; tall grass.\n   \n\n   Mr. X is\n   \n    taller\n   \n   than Mr. Y. So option\n   \n    C\n   \n   is correct.\nOption C. That is too obivious and we use it sometime in our vocab too, right ? -_-\n\"Mr. X is longer than Mr. Y.\"  -  This is incorrect. \"Long\" is typically used for horizontal measurements, not for people's height.\n   \n\n    \"Mr. X is more elongated than Mr. Y.\"  -  This is also incorrect. \"Elongated\" means stretched out and is not used to compare people's heights.\n   \n\n    \"Mr. X is taller than Mr. Y.\"  -  This is the correct option. \"Tall\" is the appropriate adjective to describe a person's height, and \"taller\" is its correct comparative form.\n   \n\n    \"Mr. X is lengthier than Mr. Y.\"  -  This is incorrect. \"Lengthy\" usually refers to duration or extent, not to physical height.\n   \n\n   Here, option $C$ is the most appropriate and commonly used way to compare the heights of people in English. It correctly uses the comparative form of the adjective \"tall\", which is specifically used for describing the vertical measurement of people and objects.\n  \n\n   **from the information given by\n   \n    Claude AI\n   \n   as it is or edited.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108474/gate2016-ec-2-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110820",
+  "year": 2016,
+  "set": "3",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "An apple costs Rs. $10$. An onion costs Rs. $8$.\n  \n\n   Select the most suitable sentence with respect to grammar and usage.",
+  "options": [
+   "The price of an apple is greater than an onion.",
+   "The price of an apple is more than onion.",
+   "The price of an apple is greater than that of an onion.",
+   "Apples are more costlier than onions."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "The price of an apple is greater than an onion. -- Wrong as price of apple is compared not with price of onion but with onion\n   \n\n    The price of an apple is more than onion. -- Wrong, same as above\n   \n\n    The price of an apple is greater than that of an onion. -- Correct usage\n   \n\n    Apples are more costlier than onions. -- with \"costlier\" we do not need \"more\".\n   \n\n   Correct Option: C.\nIn option D, due to word MORE. Sentence become superfluous.\n  So option C is correct.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/110820/gate2016-ec-3-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110868",
+  "year": 2016,
+  "set": "2",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If I were you, I ________  that laptop. It’s much too expensive.",
+  "options": [
+   "Won’t buy",
+   "Shan’t buy",
+   "Wouldn’t buy",
+   "Would buy"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "If I were you, I\n   \n    wouldn't buy\n   \n   that laptop. It’s much too expensive .\n  \n\n   you can visit this site for more knowledge about conditional sentence.\n   \n    http://www.myenglishpages.com/site_php_files/grammar-lesson-conditionals.php\nIf I were you, I\n   \n    wouldn't buy\n   \n   that laptop. It’s much too expensive\n   \n    option C.\nwouldn't buy\nIf I were you, I $\\text{wouldn't buy}$ that laptop.\n1.\n   \n\n     Second Conditional\n    \n    :\n   \n   Used for unreal or hypothetical situations in the present or future.\n   \n    Example:\n   \n   If I had a million dollars, I would travel the world.\n  \n\n   2.\n   \n\n     Subjunctive Mood\n    \n    :\n   \n   Expresses a wish, suggestion, or condition that is contrary to fact.\n   \n    Example:\n   \n   If I were you, I would read more.\n  \n\n   The correct answer is: C. Wouldn't buy\n  \n\n   Explanation:\n  \n\n    Structure: The sentence \"If I were you, I ________ that laptop. It's much too expensive.\" is a second conditional statement. This structure is used for hypothetical or unreal situations in the present or future.\n   \n\n    Subjunctive mood: The phrase \"If I were you\" uses the subjunctive mood, which is used to express conditions contrary to fact.\n   \n\n    Options analysis:\n    \n\n      \"Won't buy\" and \"shan't buy\" can be eliminated as they imply a definite future action, which doesn't fit the hypothetical nature of second conditionals.\n     \n\n      This leaves us with \"wouldn't buy\" and \"would buy\" as potential options.\n     \n\n    Context and logic:\n    \n\n      The sentence ends with \"It's much too expensive,\" indicating a negative assessment of the laptop's price.\n     \n\n      This context suggests that the advice being given is against purchasing the laptop.\n     \n\n    Sentence coherence:\n    \n\n      \"If I were you, I would buy that laptop. It's much too expensive.\" This combination is not correct, as it recommends buying despite the high price.\n     \n\n      \"If I were you, I wouldn't buy that laptop. It's much too expensive.\" This combination is logical and coherent, providing sound advice based on the price assessment.\n     \n\n   Therefore, \"wouldn't buy\" is the most appropriate choice:\n   \"If I were you, I wouldn't buy that laptop. It's much too expensive.\"\n  \n\n   **from the information given by\n   \n    Claude AI\n   \n   as it is or edited.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/110868/gate2016-ce-2-ga-1",
   "source": "gateoverflow"
  },
  {
   "id": "39529",
   "year": 2016,
   "set": "2",
-  "number": null,
-  "section": "CS",
+  "number": 1,
+  "section": "GA",
   "type": "mcq",
   "subject": "General Aptitude",
   "subtopic": "Verbal Aptitude",
@@ -49,496 +153,6 @@
   "explanation": "University considered as an organization that’s why article\n   \n    the\n   \n   used before university.\n   And Post of security is a general post, so article\n   \n    a\n   \n   has been used for security guard.\n  \n\n   So, option (B) is true.\nI think the answer should be A. It is not mentioned which university the author is talking about.As the university in question is not referenced beforehand, the definite article \"THE\" cannot be used before \"university\". But \"the\" can be used before security guard,because we know that he was \"the\" security guard at some given university. Though ANSWER B sounds correct, I think the more appropriate answer is A. And there is no logical explanation as to why A should be wrong either .\nThis might be the better explanation\n  \n\n   In the see that there is no particular information about the security guard post, so a security guard.\n   But since the man is Municipal Commissioner, we are certain that in which university he was working, so we know the particular university ---> so the university.\n  \n\n   source:\n   \n    http://gateforum.org/224/the-man-who-is-now-municipal-commissioner-worked-as\nFirst, we can remove options A and D because they use \"the security guard\". This would only be right if he was the only guard or a very special one, which isn't true here.\n  \n\n   Now, let's look at the remaining options:\n  \n\n   B. \"a security guard at the university\"\n   C. \"a security guard at university\"\n  \n\n   Both of these have a small problem. They say \"the university\" or just \"university\", but we don't know which university they're talking about. It could be any university in his city or even in another city.\n  \n\n   The best answer would have been \"a security guard at a university\". But since we don't have this option, we need to choose between B and C.\n  \n\n   Option C, \"a security guard at university\", is not very common in normal English. It's sometimes used in British English to mean \"while attending university\" rather than working there. So people might think he was a student who also worked as a guard, which is not given so we can't be certain about it.\n  \n\n   Option B, \"a security guard at the university\", is better. It shows he was one of many guards at a specific university. Even though we don't know which university but this option is clearer and less confusing than C.\n  \n\n   So, out of these choices, B is the best answer we can pick.\n  \n\n   **from the information given by\n   \n    Claude AI\n   \n   as it is or edited.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/39529/gate-cse-2016-set-2-question-ga-01",
-  "source": "gateoverflow"
- },
- {
-  "id": "39530",
-  "year": 2016,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "easy",
-  "marks": null,
-  "text": "Find the odd one in the following group of words.\n  \n\n   mock, deride, praise, jeer",
-  "options": [
-   "Mock",
-   "Deride",
-   "Praise",
-   "Jeer"
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "Ans C , praise. Rest all have same meaning.\nMock :\n   \n   Make fun of someone in a cruel way\n  \n\n   Deride : express contempt for (Contempt means offense of being disobedient)\n  \n\n   Jeer : make rude and mocking remarks\n  \n\n   So the three options are opposite to the meaning of praise.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/39530/gate-cse-2016-set-2-question-ga-03",
-  "source": "gateoverflow"
- },
- {
-  "id": "39531",
-  "year": 2016,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "Nobody knows how the Indian cricket team is going to cope with the difficult and seamer-friendly wickets in Australia.\n  \n\n   Choose the option which is closest in meaning to the underlined phrase in the above sentence.",
-  "options": [
-   "Put up with.",
-   "Put in with.",
-   "Put down to.",
-   "Put up against."
-  ],
-  "correctAnswer": [
-   "A"
-  ],
-  "explanation": "Answer is (A)\n  The closest meaning to cope with is put up with which means to tolerate. Cope with does not mean to place someone into competition with someone else.\noption d\n  \n\n    put up with: tolerate\n    \n\n     put in with: to partner with\n     \n\n      put down to: attribute\n      \n\n       put up against: to place someone into competition with someone else\nYOU JUST SEE THE LINK AND GET THE IDEA CLEARLY\n  \n\n    http://dictionary.cambridge.org/dictionary/essential-american-english/put-up-with-someone-something",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/39531/gate-cse-2016-set-2-question-ga-02",
-  "source": "gateoverflow"
- },
- {
-  "id": "39532",
-  "year": 2016,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "In a quadratic function, the value of the product of the roots $(\\alpha, \\beta)$ is $4$. Find the value of\n  \n\n   $\\dfrac{\\alpha^{n}+\\beta^{n}}{\\alpha^{-n}+\\beta^{-n}}$",
-  "options": [
-   "$n^{4}$",
-   "$4^{n}$",
-   "$2^{2n-1}$",
-   "$4^{n-1}$"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "$\\dfrac{\\alpha^n+\\beta^n}{\\alpha^{-n}+\\beta^{-n}}$\n  \n\n   $=\\dfrac{\\alpha^n+\\beta^n}{ \\left ( \\dfrac{1}{\\alpha^{n}}+\\frac{1}{\\beta^{n}} \\right ) }$\n  \n\n   $=\\dfrac{\\alpha^n+\\beta^n}{ \\left ( \\dfrac{ \\alpha^n + \\beta^n}{\\alpha^n \\beta^n} \\right )}$\n  \n\n   $=(\\alpha \\beta)^n$\n  \n\n   =$4^n$\n  \n\n    as product of roots, $ \\alpha \\beta = 4 $\n   \n\n   Correct Answer: $B$\nAssume roots (α,β) = (2,2) because Product of roots α*β = 2*2 = 4 is satisfying as per question.\n   \n\n    Let n=3\n   \n\n   (α^n+β^n)/(α^−n+β^−n) = (2^3+2^3)/(2^-3+2^-3) = (8+8)/(1/8)+(1/8) = 16/(1/4) = 16*4 =\n   \n    64\n   \n\n   Now trying option elimination with n=3\n  \n\n    Option B\n   \n   = 4^n = 4^4=\n   \n    64\n   \n\n   Matching with our answer 64 which was calculated above",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/39532/gate-cse-2016-set-2-question-ga-05",
-  "source": "gateoverflow"
- },
- {
-  "id": "39533",
-  "year": 2016,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "Computers were invented for performing only high-end useful computations. However, it is no understatement that they have taken over our world today. The internet, for example, is ubiquitous. Many believe that the internet itself is an unintended consequence of the original invention. With the advent of mobile computing on our phones, a whole new dimension is now enabled. One is left wondering if all these developments are good or, more importantly, required.\n  \n\n   Which of the statement(s) below is/are logically valid and can be inferred from the above paragraph?\n  \n\n   (i) The author believes that computers are not good for us.\n  \n\n   (ii) Mobile computers and the internet are both intended inventions.",
-  "options": [
-   "(i) only",
-   "(ii) only",
-   "Both (i) and (ii)",
-   "Neither (i) nor (ii)"
-  ],
-  "correctAnswer": [
-   "D"
-  ],
-  "explanation": "\"Many believes that the internet itself is unintended consequence of the original invention. So (ii) statement does not follow from the passage.\"\n  The author has no where said that the computers are bad, authoring is talking about the way computers are being used today and the author questions this way. So, (i) statement does not follow.\n  Hence, option (D) is the answer.\ninternet itself is an\n   \n    unintended\n   \n   consequence of the original invention.\n  \n\n   One is left wondering if all these developments\n   \n    are good or, more importantly, required\n   \n   .\n  \n\n   key point:unintended,\n  \n\n   hence D correct answer",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/39533/gate-cse-2016-set-2-question-ga-07",
-  "source": "gateoverflow"
- },
- {
-  "id": "39534",
-  "year": 2016,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Logical & Analytical Reasoning",
-  "difficulty": "easy",
-  "marks": null,
-  "text": "All hill-stations have a lake. Ooty has two lakes.\n  \n\n   Which of the statement(s) below is/are logically valid and can be inferred from the above sentences?\n  \n\n    (i) only.\n   \n\n    (ii) only.\n   \n\n    Both (i) and (ii)\n   \n\n    Neither (i) nor (ii)",
-  "options": [
-   "Ooty is not a hill-station.",
-   "No hill-station can have more than one lake."
-  ],
-  "correctAnswer": [
-   "D"
-  ],
-  "explanation": "All hill stations have a lake  $\\Rightarrow  \\forall x( h(x)\\to (\\exists y, l(y) \\wedge has(x,y)))$\n  \n\n   Ooty has two lakes $\\Rightarrow \\exists x ( o(x) \\wedge \\exists y,z ( has(x,y,z)\\wedge l(y)\\wedge l(z)\\wedge (z\\neq y) )$\n  \n\n   Here,\n  \n\n    $h(x) \\to x \\text{ is hill station}$\n   \n\n    $l(x) \\to x \\text{ is lake }$\n   \n\n    $has(x,y)\\to x \\text{ has }y$\n   \n\n    $has(x,y,z)\\to x\\text{ has } y, z$\n   \n\n    $o(x)\\to x \\text{ is Ooty}$\n   \n\n     Ooty is not a hill station: We can not derive this above arguments, Ooty has two lakes already, if Ooty had $0$ lakes only then this can become true.\n    \n\n     No hill station can have more than one lake.\n    \n\n    All arguments here are saying are if we have hill station, it can have lake. It is nowhere told that how many lakes it has. So, this is false.\n   \n\n     Answer: (D) neither (i) nor (ii)\nEvery hill station has a lake means \"every hill station has at least one lake\". That means a hill station can have more than one lakes. But, a place without any lake cannot be a hill station. So, none can be concluded.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/39534/gate-cse-2016-set-2-question-ga-08",
-  "source": "gateoverflow"
- },
- {
-  "id": "39535",
-  "year": 2016,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "[IMAGE:0]",
-  "options": [
-   "$f(x) = 1 - |x - 1|$",
-   "$f(x) =1 + |x - 1|$",
-   "$f(x) = 2 - |x - 1|$",
-   "$f(x) = 2 + |x - 1|$"
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "Answer is Option C\n   \n\n   The equation of line, from coordinates $(1,2)$ to $(3,0)$, where $|x-1|=(x-1)$\n  \n\n   $(y-2)=\\dfrac{(0-2)}{(3-1)}(x-1)$\n  \n\n   $y=2-(x-1)$\n  \n\n   $y=2-|x-1|$\n  \n\n   The equation of line, from coordinates $(-3,-2)$ to $(1,2)$, where $|x-1|=-(x-1)$\n  \n\n   $(y-(-2)) =\\dfrac{(2-(-2))}{(1-(-3))}(x-(-3))$\n  \n\n   $y=x+1$\n  \n\n   $y=2-(-(x-1))$\n  \n\n   $y=2-|x-1|$\n  \n\n    Note :\n   \n   Equation of line when two coordinates $(x_2,y_2)$ and $(x_1,y_1)$ are given is $(y-y_1)=\\dfrac{(y_2-y_1)}{(x_2-x_1)}(x-x_1)$\nHere we can cancel options easily !\n  \n\n    See that F(0) = 1\n    A) F(0) => 1 - |x-1| = 1-|-1| = 1-1 = 0 != 1. So A is not answer !\n    B) F(0) => 1 + |x-1| = 1 + | -1| = 1 + 1 = 2 != 1 So B is not answer !\n    D) F(0) => 2 + |x-1| = 2 + |-1| = 2 + 1 = 3 != 1 So D is not answer !\n    Remaining option C is answer !\nHere, is another direct method for eliminating the wrong options.\n  In the above graph, it is clearly shown that f(-1) = 0\n  a) f(-1) => 1 - |x-1| = 1-|-1-1| = 1-2 = -1.    So (a) is not answer\n  b) f(-1) => 1 + |x-1| = 1 + | -1-1| = 1+2 = 3 .     So (b) is not answer .\n  d) f(-1) => 2 + |x-1| = 2 + |-1-1| = 2+2 = 4 .    So (d) is not answer .\n  (c)  f(-1) => 2 - |x-1| = 2 - |-1-1| = 2-2 = 0  , satisfied the equation.\n  so,  option (c) is the answer .\nFrom the diagram we get\n  f(x):    1       2      0      0\n  x :    0      1       3      -1\n  So, only option C) matching\nMy answer is C\n  I am doing the shift of origin concept and y=mx+C , the mod x graph goes through origin.\n  then to bring it back to origin. mod x-1\n  and it is inverted than mod x graph , hence negative of mod x-1\n  changing Y from 2 to 0 is required to bring it back to origin\n  hence I think 2 - mod ( x-1 ) is the answer",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5036139318886835359",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/39535/gate-cse-2016-set-2-question-ga-10",
-  "source": "gateoverflow"
- },
- {
-  "id": "39536",
-  "year": 2016,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "easy",
-  "marks": null,
-  "text": "Among $150$ faculty members in an institute, $55$ are connected with each other through Facebook and $85$ are connected through Whatsapp. $30$ faculty members do not have Facebook or Whatsapp accounts. The numbers of faculty members connected only through Facebook accounts is _______.",
-  "options": [
-   "$35$",
-   "$45$",
-   "$65$",
-   "$90$"
-  ],
-  "correctAnswer": [
-   "A"
-  ],
-  "explanation": "Let $F$ denotes Facebook users,\n  $W$ denotes Whatsapp users ,\n  $F'$  denotes those not using Facebook, and\n  $W'$ denotes those not using Whatsapp.\n  $U$ denotes universal set.\n  Total faculties in institute, $n(U)=150$\n  Facebook users, $n(F)=55$\n  Whatsapp users, $n(W)=85$\n  Faculty members not using Facebook or Whatsapp $n(F' \\cap W')=30$\n  Faculty members using either Facebook or Whatsapp\n  $n(F\\cup W)= n(U)-n(F' \\cap W') =150-30=120$\n  Faculty members using both Facebook and Whatsapp\n  $n(F \\cap W) =n(F) +n(W) - n(F\\cup W) = 55+85-120= 20$\n  Faculty members using Facebook only\n  $n(F \\cap W')= n(F)-n(F \\cap W)= 55 -20 =35$\nAlways try to solve GATE aptitude part via common sense or via options. In most of the cases we don't really need any law or formula. And still using them just wastes out time.\n  Here, there are total 150 faculties. Out of them 30 don't have either Facebook or WhatsApp.\n  Therefore, remaining connected faculties are (150-30) = 120. Out of them 85 are connected via WhatsApp (may be they are even connected via Facebook but we don't care.)\n  So, number of faculties connected via ONLY Facebook is (120-85) = 35.\nHere answer is A =>\n  Why ?\n  Total =150\n  FB => 55\n  Whatsapp => 85\n  30 people do not have FB or whatsapp => USE DEMORGANS LAW HERE !\n  now 30 people do (not have FB AND not have whatsapp)\n  ~FB ^ ~Whatsapp = 30\n  People on FB or Whatsapp = 150 - 30 = 120\n  Now Consider option A\n  35 have only FB.\n  Then 55-35 => 20 Have both FB & Whatsapp.\n  Then only whatsapp guys are 85-20 = 65.\n  This sums up nicely\n  Only FB + Only WHatsapp + Both FB & Whatsapp => 35 + 65+ 20 =>120\n  Answer is A !\nsee this the good way to solve such type of problem\n  \n\n[IMAGE:300]\n$|U|-|FUW|=|FUW|'$\n  \n\n   $150-|FUW|=30$\n  \n\n   $|FUW|=120$\n  \n\n   $|FUW|=|F|+|W|-|F\\cap W|$\n  \n\n   $120=55+85-|F\\cap W|$\n  \n\n   $20=|F\\cap W|$\n  \n\n[IMAGE:400]\n\n   $20+x=55$\n  \n\n   $x=35$",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12319842501517291339",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=11728034863814256704",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/39536/gate-cse-2016-set-2-question-ga-06",
-  "source": "gateoverflow"
- },
- {
-  "id": "39537",
-  "year": 2016,
-  "set": "2",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "In a $2 \\times 4$ rectangle grid shown below, each cell is rectangle. How many rectangles can be observed in the grid?\n  \n\n   $$\\begin{array}{|c|c|c|c|c|}\\hline{\\;\\;\\;}&{\\;\\;\\;}&{\\;\\;\\;}&{\\;\\;\\;}\\\\\\hline{}&{}&{}&\\\\\\hline\\end{array}$$",
-  "options": [
-   "$21$",
-   "$27$",
-   "$30$",
-   "$36$"
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "To form a rectangle, we must choose two horizontal sides and two vertical sides. Since there are three horizontal lines,\n  We can choose the horizontal sides in ${^3}C{_2}$ ways.\n  Similarly, to choose $2$ vertical lines out of $5$ vertical lines is ${^5}C{_2}.$\n  So, answer is ${5\\choose 2}\\times {3\\choose 2}.$\n  Correct Answer: $C$\nHere answer is (C)  30.\n  Rectangle of Size 1 => 8\n  Size 2 => 10\n  Size 3 => 4\n  Size 4 => 5\n  Size 5 => 0\n  Size 6 => 2\n  Size 7 => 0\n  Size 8 => 1\n3C2 X 5C2 = 30\n5C2 * 3C2\n5C2*3C2",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/39537/gate-cse-2016-set-2-question-ga-09",
-  "source": "gateoverflow"
- },
- {
-  "id": "39606",
-  "year": 2016,
-  "set": "1",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "Archimedes said, \"Give me a lever long enough and a fulcrum on which to place it, and I will move the world.\"\n  \n\n   The sentence above is an example of a ____________ statement.",
-  "options": [
-   "figurative",
-   "collateral",
-   "literal",
-   "figurine"
-  ],
-  "correctAnswer": [
-   "A"
-  ],
-  "explanation": "Here, we are using metamorphic meaning of words to explain thoughts instead of the literal use of them. So, it is a\n   \n    figurative\n   \n   sentence.\n  \n\n    figurative: metaphorical\n   \n\n    collateral: bond\n   \n\n    literal: taking words in their usual\n   \n\n    figurine: a statuette, typically of a human\n   \n\n   Option A is correct.\nHere, we are talking about the figure of speech. So, figurative is the figure of speech meaning: Use of metamorphic meaning of words to explain your thoughts instead of the literal use of them.\n  figurative(लाक्षणिक), collateral (संपार्श्विक), literal (सचमुच)figurine (मूर्ति)\n  option A is correct.\nA) Figurative\n‘Figurative’ means representing by a figure or resemblance or expressing one thing in terms normally denoting another with which it may be regarded as analogous.\nHere are the meanings of those words in simple Indian English:\n  \n\n   1. Figurative:\n   Not the real or exact meaning, but using words to give an idea or feeling. Like saying \"I'm so hungry I could eat a horse\" when you don't really mean eating a horse.\n  \n\n   2. Collateral:\n   Something given as a guarantee when borrowing money. For example, using your car or house papers as collateral when taking a loan from a bank.\n  \n\n   3. Literal:\n   The exact, real meaning of something. Not changed or exaggerated. If someone says \"It's raining cats and dogs\" and you take it literally, you'd think actual cats and dogs are falling from the sky.\n  \n\n   4. Figurine:\n   A small statue or model, usually of a person or animal. Often used for decoration in homes. Like a small clay or porcelain doll on a shelf.\n  \n\n   **from the information given by\n   \n    Claude AI\n   \n   as it is or edited.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/39606/gate-cse-2016-set-1-question-ga03",
-  "source": "gateoverflow"
- },
- {
-  "id": "39607",
-  "year": 2016,
-  "set": "1",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "A rewording of something written or spoken is a __________.",
-  "options": [
-   "paraphrase",
-   "paradox",
-   "paradigm",
-   "paraffin"
-  ],
-  "correctAnswer": [
-   "A"
-  ],
-  "explanation": "Answer is (A)paraphrase-express something (written or spoken) in a different way.\n  paradox: a statement that apparently contradicts itself and yet might be true\n  paradigm: a typical example or pattern of something\n  paraffin: a white or colorless, tasteless, odorless, water-insoluble, solid substance not easily acted upon by reagents",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/39607/gate-cse-2016-set-1-question-ga02",
-  "source": "gateoverflow"
- },
- {
-  "id": "39608",
-  "year": 2016,
-  "set": "1",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "easy",
-  "marks": null,
-  "text": "Out of the following four sentences, select the most suitable sentence with respect to grammar and usage.",
-  "options": [
-   "I will not leave the place until the minister does not meet me.",
-   "I will not leave the place until the minister doesn't meet me.",
-   "I will not leave the place until the minister meet me.",
-   "I will not leave the place until the minister meets me."
-  ],
-  "correctAnswer": [
-   "D"
-  ],
-  "explanation": "Not is already embedded in until. So, A and B are incorrect.   Also, the minister is a single person, and with a singular subject, singular verb follows(ending in 's').\n   \n\n     Thus, C is incorrect and D is the right answer.\nans will be d\nAnswer is - D",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/39608/gate-cse-2016-set-1-question-ga01",
-  "source": "gateoverflow"
- },
- {
-  "id": "39609",
-  "year": 2016,
-  "set": "1",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Logical & Analytical Reasoning",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "If 'relftaga' means carefree, 'otaga' means careful and 'fertaga' means careless, which of the following could mean 'aftercare'?",
-  "options": [
-   "zentaga",
-   "tagafer.",
-   "tagazen.",
-   "relffer."
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "relf taga = care free\n  \n\n   o taga = care full\n  \n\n   fer taga = care less\n  \n\n   Hence taga means care, and if present in the second part, care comes in the first part in English translation.\n  \n\n   For after care, \"taga-fer\" and \"taga-zen\" are the options. But \"fer\" means less.\n  \n\n   Hence\n   \n    answer is C\n(C). Tagazen\nIn all three words, \"taga\" means \"care\" as they are common in all. Moreover, taga is coming at last & care is coming first. So in answer for \"aftercare\" \"taga\" will come first. So option A & D is out. Now \"fer\" means \"less\" ( from second word). It is also out.\n  Option C is answer.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/39609/gate-cse-2016-set-1-question-ga04",
-  "source": "gateoverflow"
- },
- {
-  "id": "39610",
-  "year": 2016,
-  "set": "1",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "A cube is built using $64$ cubic blocks of side one unit. After it is built, one cubic block is removed from every corner of the cube. The resulting surface area of the body (in square units) after the removal is ________.",
-  "options": [
-   "$56$",
-   "$64$",
-   "$72$",
-   "$96$"
-  ],
-  "correctAnswer": [
-   "D"
-  ],
-  "explanation": "Cube is built using $64$ cubic blocks of side one unit. It means it is a $4\\times 4\\times 4$ Cube.\n  Surface area of each face $ = 4\\times 4$ sq. units\n  And number of faces in a cube $= 6$, Thus total surface area $ = 6\\times 4\\times 4 = 96$ sq. units.\n  A cube contains $8$ corner pieces (containing $3$ visible sides), and if these are removed then inner ones are visible, So, When a corner piece is removed $3$ new faces of $1$ sq. unit are visible and thus removal doesn't change surface area.\n  Hence, Option $(D)$ is correct.\nA cube is built with 64 blocks of 1 unit side. Hence each side will have surface area $4\\times4= 16$ square units.\n  \n\n   if we remove one block from each corner, the resulting surface area will reduce by 4 square units. Hence surface area of each side is 12 square units.\n  \n\n   Total surface area of 6 sides is $12\\times6= 72$. But removal of a block from each corner creates an surface area of 3 square units.\n  \n\n   Since there are 8 corners, the total surface area becomes $72 +3\\times8 =  96$.\n  \n\n   Hence\n   \n    answer is D\n   \n   .\nthe surface area of the body will remain unchanged as when a cube is removed, it exposes three faces, which makes the number of exposed faces same as before removal.\n   \n\n     If 64 cubic blocks are used to make the cube, it must be 4 x 4 x 4 blocks\n    \n\n    So, surface area of the body before removal = surface area of the body after removal = 6 * side * side = 6 * 4 * 4 = 96.\n   \n\n    Thus, D is the correct choice.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/39610/gate-cse-2016-set-1-question-ga05",
-  "source": "gateoverflow"
- },
- {
-  "id": "39611",
-  "year": 2016,
-  "set": "1",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "If $f(x) = 2x^{7}+3x-5$, which of the following is a factor of $f(x)$?",
-  "options": [
-   "$\\left(x^{3}+8\\right)$",
-   "$(x - 1)$",
-   "$(2x - 5)$",
-   "$(x + 1)$"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "for $x=1$,\n  $f(1)=2(1)^7+3(1)-5 =0$ ,\n  so $x=1$ is a root for $f(x)$\n  so $(x-1)$ is factor\n  Correct Answer: $B$\nPut all values of x from options and equating the given equation equal to 0. (X-1) is answer.\nAnswer is easy to find just replace x values in f(x) , but how to check option (A) to be wrong is\n  \n\n[IMAGE:200]",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=14642702083640948438",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/39611/gate-cse-2016-set-1-question-ga09",
-  "source": "gateoverflow"
- },
- {
-  "id": "39612",
-  "year": 2016,
-  "set": "1",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "In a process, the number of cycles to failure decreases exponentially with an increase in load. At a load of $80$ units, it takes $100$ cycles for failure. When the load is halved, it takes $10000 \\ \\text{cycles}$ for failure.The load for which the failure will happen in $5000 \\ \\text{cycles}$ is _____________.",
-  "options": [
-   "$40.00$",
-   "$46.02$",
-   "$60.01$",
-   "$92.02$"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "The number of cycles to failure decrease exponentially with an increase in load.\n  So, we have general equation\n  $y=ae^{-bx}$\n  where $y$ is number of cycles to failure, and $x$ is load.\n  At load of 80 units , it takes 100 cycles for failure.\n  $100=ae^{-80b} \\qquad \\to(1)$\n  when load is halved it takes $10000$ cycles for failure.\n  $10000=ae^{-40b} \\qquad \\to(2)$\n  Divide $(2)$ by $(1)$\n  $\\implies e^{40b}=100$\n  $\\implies b=\\dfrac{\\log_{e}100}{40} \\qquad \\to (3)$\n  At $5000$ cycles to failure\n  $5000=\\large ae^{-xb} \\qquad \\to(4)$\n  divide $(2)$ by $(4)$\n  $\\implies e^{b(x-40)}=2$\n  $\\implies b(x-40)=\\log_{e}2$\n  $\\implies \\dfrac{\\log_{e}100}{40}\\times(x-40)=\\log_{e}2$  $($using $(3))$\n  $\\implies x= 40 \\times\\dfrac{(\\log_{e}2 +\\log_{e}100 )}{\\log_{e}100}$\n  $\\qquad = 40 \\times\\dfrac{\\log_{e}200}{\\log_{e}100}$\n  $\\qquad= 46.02$\n  Correct Answer: $B$\nElimination method\n    \n\n    Given :-\n   \n\n   $\\rightarrow$ for $80$ units it takes $100$ cycles\n  \n\n   $\\rightarrow$ for $40$ units(load is halved) it takes $10000$ cycles.\n  \n\n   $\\rightarrow$ for $5000$ cycles$\\rightarrow$ __ units ?\n  \n\n    My Approach :-\n   \n\n   $\\rightarrow$ Since we have to calculate for $5000$ cycles the answer would lie between $40$ and $80$.\n  \n\n   $\\rightarrow$ so, option a and d are eliminated.\n  \n\n   $\\rightarrow$ now if we see the mid values i.e.\n  \n\n   $\\rightarrow$ for $40$ and $80$ it would be $60$ and for $100$ and $10000$ it would be $1000$.\n  \n\n   $\\rightarrow$ so we can eliminate option c.\n  \n\n   $\\rightarrow$ the only option left is\n   \n    b\n   \n   which is the required answer.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/39612/gate-cse-2016-set-1-question-ga10",
-  "source": "gateoverflow"
- },
- {
-  "id": "39613",
-  "year": 2016,
-  "set": "1",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "Indian currency notes show the denomination indicated in at least seventeen languages. If this is not an indication of the nation's diversity, nothing else is.\n  \n\n   Which of the following can be logically inferred from the above sentences?",
-  "options": [
-   "India is a country of exactly seventeen languages.",
-   "Linguistic pluralism is the only indicator of a nation's diversity.",
-   "Indian currency notes have sufficient space for all the Indian languages.",
-   "Linguistic pluralism is strong evidence of India's diversity."
-  ],
-  "correctAnswer": [
-   "D"
-  ],
-  "explanation": "D. Linguistic pluralism is strong evidence of India’s diversity.\n   \n\n   This option is the most logical inference because the presence of multiple languages on the currency notes reflects the linguistic diversity of the nation. The other options are either too specific, not supported by the statement, or not a logical inference based on the information provided. Remember, the statement highlights the diversity of languages as an indication of the nation’s diversity, not as the only indicator or that it is related to the physical space on the currency notes.\nAnswer is (D) Linguistic pluralism is strong evidence of India's diversity.\nOption D is answer.\n  As from the question, it can be easily figured out that linguistic pluralism is indicating nation's diversity.\nI think in option B word \"nation's\" is mentioned which don't talk about India specifically. Nation can be any country.\n  \n\n   So according to me\n   \n    B is wrong option\n   \n   . then\n   \n    answer is D.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/39613/gate-cse-2016-set-1-question-ga07",
-  "source": "gateoverflow"
- },
- {
-  "id": "39616",
-  "year": 2016,
-  "set": "1",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "easy",
-  "marks": null,
-  "text": "A shaving set company sells $4$ different types of razors- Elegance, Smooth, Soft and Executive.\n  \n\n   Elegance sells at $\\text{Rs.} \\ 48$, Smooth at $\\text{Rs.} \\ 63$, Soft at $\\text{Rs.} \\ 78$ and Executive at $\\text{Rs.} \\ 173$ per piece. The table below shows the numbers of each razor sold in each quarter of a year.\n  \n\n   $$\\begin{array}{|c|r|r|r|r|} \\hline \\textbf{Quarter/Product} & \\textbf{Elegance} &\\textbf{Smooth} &\\textbf{Soft} & \\textbf{Executive}\\\\\\hline \\text{Q1} & \\text{27300} &\\text{20009} &\\text{17602} &\\text{9999}\\\\\\hline \\text{Q2} & \\text{25222} &\\text{19392} & \\text{18445}& \\text{8942}\\\\\\hline \\text{Q3} & \\text{28976} &\\text{22429} & \\text{19544} & \\text{10234}\\\\\\hline \\text{Q4} &\\text{21012} & \\text{18229} & \\text{16595} & \\text{10109}\\\\\\hline \\end{array}$$\n  \n\n   Which product contributes the greatest fraction to the revenue of the company in that year?",
-  "options": [
-   "Elegance",
-   "Executive",
-   "Smooth",
-   "Soft"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "To calculate the revenue generated by each product in a year we need to first calculate total units of each category sold, and then multiply it with the cost per unit.\n  \n\n   $$\\overset{\\textbf{Revenue generated by products}}{\\begin{array}{|l|r|r|r|r|} \\hline \\textbf{} & \\textbf{Total units sold} &\\textbf{Price per unit} &\\textbf{Total revenue} \\\\\\hline \\text{Elegance} & \\text{102,510} &\\text{48} &\\text{4,920,480} \\\\\\hline \\text{Smooth} & \\text{80,059} &\\text{63} & \\text{5,043,717}\\\\\\hline \\text{Soft} & \\text{72,186} &\\text{78} & \\text{5,630,508} \\\\\\hline \\text{Executive} &\\text{39,284} & \\text{173} & \\text{6,796,132} \\\\\\hline \\end{array}}$$\n  \n\n   From the table above we can see that the max revenue is generated by Executive.\n  \n\n   Hence\n   \n    answer is B\n   \n   .\nb executive\n  We have to find the product $x$ which has $\\max \\left(\\sum_{i=1}^4 n_{x_i} \\times P_x \\right)$, where $P_x$ is the selling price of $x$ and $n_{x_i}$ is the number of items of type $x$ sold in quarter $i$.\nLet me give a piece of advice. See this is GATE exam. There's no point they would give these basic questions. Anyone can answer these. The trick here is how quickly we do. There's no point of rushing with the calculators, moreover with a virtual one, which would take even more time. Just apply common sense. Here, Executive ones are 4x, 3x and 2.5x costlier than Elegance, Smooth and Soft ones respectively. Just by looking at the table we can see that the units of Executives ain't that less in that ratio than the others. So it's obvious that Executives would produce maximum revenue.\nRevenue from Elegance = (27300+25222+28976+21012) * Rs. 48 = Rs. 4920480 Revenue from Smooth = (20009+19392+22429+18229) * Rs. 63 = Rs. 5043717 Revenue from Soft = (17602+18445+19544+16595) * Rs. 78 = Rs. 5630508 Revenue from Executive = (9999+8942+10234+10109) * Rs. 173 = Rs. 6796132 Total Revenue = Rs. 22390837   Fraction of Revenue for Elegance = 0.219 Fraction of Revenue for Smooth = 0.225 Fraction of Revenue for Soft = 0.251 Fraction of Revenue for Executive = 0.303   Thus, B (Executive) is the correct answer.\nAnswer: B\n   \n   .\n  \n\n   Let the prices in order be p1, p2, p3 and p4. Likewise, let the numbers sold be n1, n2, n3 and n4.\n  \n\n    p4: p3 > 2 and n3: n4 < 2 (in almost all quarters)\n   \n\n    p4: p2 = 3 (approx.) and n2: n4 = 2 (approx.)\n   \n\n    p4: p1 = 4 (approx.) and n1: n4 = 2.6-2.7\n   \n\n   In all three cases, the ratio (p4*n4): (pi*ni) > 1 (i = 1, 2, 3).\n  \n\n   Of course, this is an observation based approach. The numbers for all quarters of any category are very close which makes this approach suitable.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/39616/gate-cse-2016-set-1-question-ga06",
-  "source": "gateoverflow"
- },
- {
-  "id": "39617",
-  "year": 2016,
-  "set": "1",
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Logical & Analytical Reasoning",
-  "difficulty": "medium",
-  "marks": null,
-  "text": "Consider the following statements relating to the level of poker play of four players $P,Q,R \\ and  \\ S$.\n  \n\n   Which of the following can be logically inferred from the above statements?\n  \n\n    $P$ is likely to beat all the three other players\n   \n\n    $S$ is the absolute worst player in the set\n   \n\n    (i). only\n   \n\n    (ii) only\n   \n\n    (i) and (ii) only'\n   \n\n    neither (i) nor (ii)",
-  "options": [
-   "$P$ always beats $Q$",
-   "$R$ always beats $S$",
-   "$S$ loses to $P$ only sometimes.",
-   "$R$ always loses to $Q$"
-  ],
-  "correctAnswer": [
-   "D"
-  ],
-  "explanation": "Answer is (D) because\n  \n\n    $P$ is not likely to beat $S$ because $S$ only sometimes loses to $P$\n   \n\n    $S$ is not worst player because he is likely to beat $P$\n[IMAGE:100]\n\n   1) P is likely to beat all the three other players : False, there is no reference of P defeating R.\n  \n\n   ` 2) S is the absolute worst player in the set : False, S may be defeated by P.\n  \n\n   Hence, option D.\nFrom Statement 1,2,and 4\n  Level P>Q>R>S\n  But from 3rd statement S loses to P only sometimes.Here note that if S beat P then above statements will not hold true. So,statements are contracting each other and no conclusion can be drawn.\n  So Option D will be answer.\nOption D\n  All three can Beat S, but S loses to P only sometimes. So, (ii) can not be inferred from the given statements.\n  Defeating in Poker is not transitive. P beats Q. Q beats R and R beats S. Yet S loses to P only sometimes, meaning that S mostly wins against P. So we can not logically infer that P is likely to beat R.\nAnswer is D.\n  \n\n   \"S loses to P only sometimes\" is the main point. Since S loses to P only sometimes, it means S mostly wins against P. Therefore-\n  \n\n    P is not likely to beat all players as P is likely to lose to S.\n   \n\n    S is not the worst player as it beats P mostly.\nBoth statements are wrong because data give is insufficient to conclude any of the statements.\n  P can beat Q and S but its not given whether P will beat R or not.\n  S is the worst player. We cant conclude that since all the data required to analyze them are not given like its not given whether S will beat Q or not.",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15055600770784556293",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/39617/gate-cse-2016-set-1-question-ga08",
   "source": "gateoverflow"
  },
  {
@@ -590,6 +204,32 @@
   "source": "gateoverflow"
  },
  {
+  "id": "39608",
+  "year": 2016,
+  "set": "1",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Out of the following four sentences, select the most suitable sentence with respect to grammar and usage.",
+  "options": [
+   "I will not leave the place until the minister does not meet me.",
+   "I will not leave the place until the minister doesn't meet me.",
+   "I will not leave the place until the minister meet me.",
+   "I will not leave the place until the minister meets me."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Not is already embedded in until. So, A and B are incorrect.   Also, the minister is a single person, and with a singular subject, singular verb follows(ending in 's').\n   \n\n     Thus, C is incorrect and D is the right answer.\nans will be d\nAnswer is - D",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39608/gate-cse-2016-set-1-question-ga01",
+  "source": "gateoverflow"
+ },
+ {
   "id": "39663",
   "year": 2016,
   "set": "1",
@@ -620,6 +260,136 @@
   "source": "gateoverflow"
  },
  {
+  "id": "108064",
+  "year": 2016,
+  "set": "1",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The policeman asked the victim of a theft, \"What did you ___ ?\"",
+  "options": [
+   "Loose",
+   "Lose",
+   "Loss",
+   "Louse"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Loose means not firmly or tightly hold .\n   \n\n    Lose means something lost in past .\n   \n\n    Loss is present form of lose.\n   \n\n    Louse means spoil or ruin something.\n   \n\n   so going through the meaning of this sentence only option B is correct , Lose .\nWhat did you\n   \n    lose?\n   \n   option B\noption B is correct\nThe policeman asked the victim of a theft, \"What did you\n   \n    lose\n   \n   ?\" option B is correct.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108064/gate2016-ec-1-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108249",
+  "year": 2016,
+  "set": "2",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The unruly crowd demanded that the accused be _________ without trial.",
+  "options": [
+   "Hanged",
+   "Hanging",
+   "Hankering",
+   "Hung"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "The unruly crowd demanded that the accused be\n   \n    hanged\n   \n   without trial.\n  \n\n   The past and past participle form of the word \"hang\" is \"hung\" except when the word is used to denote a person being tied in a rope around neck until death.\n  \n\n   Correct option A.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108249/gate2016-me-2-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108478",
+  "year": 2016,
+  "set": "2",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The students _________ the teacher on teachers’ day for twenty years of dedicated teaching.",
+  "options": [
+   "Facilitated",
+   "Felicitated",
+   "Fantasized",
+   "Facillitated"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Facilitated:\n    \n    to make easier or less difficult; help forward (an action, a process, etc.)\n   \n\n     Felicitated\n    \n    : to compliment upon a happy event; congratulate.\n   \n\n     Fantasized\n    \n    : to create in one's fancy, daydreams, or the like; imagine\n   \n\n     Facillitated:\n    \n    incorrect word\n   \n\n   So only suitable option is B.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108478/gate2016-ec-2-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110873",
+  "year": 2016,
+  "set": "2",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "He $\\underline{\\text{turned a deaf ear to}}$ my request.\n  \n\n   What does the underlined phrasal verb mean?",
+  "options": [
+   "Ignored",
+   "Appreciated",
+   "Twisted",
+   "Returned"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "$\\underline{\\text{turned a deaf ear to }} \\rightarrow \\text{to ignore what someone says}$\n  ∴ The answer will be $\\textbf{Option A) } \\textit{ignored}$\nHe\n   \n    turned a deaf ear to\n   \n   my request\n   \n    ignored.. option A\nA",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/110873/gate2016-ce-2-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39531",
+  "year": 2016,
+  "set": "2",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Nobody knows how the Indian cricket team is going to cope with the difficult and seamer-friendly wickets in Australia.\n  \n\n   Choose the option which is closest in meaning to the underlined phrase in the above sentence.",
+  "options": [
+   "Put up with.",
+   "Put in with.",
+   "Put down to.",
+   "Put up against."
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer is (A)\n  The closest meaning to cope with is put up with which means to tolerate. Cope with does not mean to place someone into competition with someone else.\noption d\n  \n\n    put up with: tolerate\n    \n\n     put in with: to partner with\n     \n\n      put down to: attribute\n      \n\n       put up against: to place someone into competition with someone else\nYOU JUST SEE THE LINK AND GET THE IDEA CLEARLY\n  \n\n    http://dictionary.cambridge.org/dictionary/essential-american-english/put-up-with-someone-something",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39531/gate-cse-2016-set-2-question-ga-02",
+  "source": "gateoverflow"
+ },
+ {
   "id": "39571",
   "year": 2016,
   "set": "2",
@@ -638,6 +408,32 @@
   "explanation": "Let $f(x)=x^{10}$   Degree$=10.$\n  $f(x)+f(-x) =x^{10}+(-x)^{10}$\n  $\\quad\\quad=x^{10}+x^{10}$\n  $\\quad\\quad=2.x^{10}$\n  $g(x)-g(-x)=10.x^{9} - \\{-10x^{9}\\}$\n  $\\quad\\quad=20.x^{9}$\n  So, answer is $9.$\nWhole question is based on observation.\n  Given that Degree of $f(x)+f(-x)$ is $10$ from here we have to observe what can be possible degree of $f(x)$ , first we can say that as Degree of $f(x)+f(-x)$ is $10$ so degree of $f(x)$ would be at least $10$.\n  Possibility (1) $f(x)=x^{10} +\\ldots$      // for simplicity I'm taking coefficients as $1$\n  Now observe if greater than $10$ degree possible ? if  degree of $f(x)$ is $11$ than still we can see our condition \"Degree of $f(x)+f(-x)$ is $10$\" is yet satisfied\n  Possibility (2) $f(x)=x^{11}+x^{10}+\\ldots$\n  other possibilities $f(x)=x^{19}+x^{15}+x^{13}+x^{10} \\ldots$\n  If we observe bit more we can know that degree of $f(x)$ can be anything but in $f(x)$ the maximum even power of $x$ must be $10$, in that way only the given condition can be satisfied.\n  Now when we calculate $g(x)-g(-x)$ we can observe that all odd powers of $f(x)$ would be canceled out but even power won't be and the largest even power of $f(x)$ which is $x^{10}$ will result into $x^{9}$ when applying the derivative $g(x)-g(-x)$. Hence answer will be $9$.\n9\n  F is some function where the largest even degree term is having degree  10. no restiction on odd degree terms.\n  since f(x)+f(-x)= degree 10\n  even power gets converted to odd in derivative.\n  then the the degrre of required expression =9.\n  the odd powers in F will become even in derivative and G(X)-G(-X) retains only odd powers.\nf(x) can be either an even function or an odd function.\n  If f(x) was an odd function, then f(x) + f(-x) = 0, but here it has been given that it has degree 10. So, it must be an even function.\n  Therefore, f(x) = f(-x) => f'(x) = -f'(-x)\n  Also, it has been mentioned that g(x) is the derivative of f(x).\n  So, g(x) = f'(x) and g(-x) = -f'(-x) => g(x) - g(-x) = f'(x) - (-f'(-x)) => g(x) - g(-x) = f'(x) + f'(x) => g(x) - g(-x) = 2 * f'(x) But, f'(x) will have degree 9.\nIf the degree of a polynomial is ‘n’ then the derivative of that function have (n – 1) degree.\n  \n\n   It is given that\n   \n    f(x) + f(-x)\n   \n   degree is 10.\n  \n\n   Now dwrt x.\n  \n\n    f'(x) - f'(-x)\n   \n   which is\n   \n    g(x)-g(-x)\n   \n\n   Then obviously the degree of\n   \n    g(x)-g(-x)\n   \n   will be\n   \n    10-1=9\n   \n   .",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/39571/gate-cse-2016-set-2-question-02",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39607",
+  "year": 2016,
+  "set": "1",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A rewording of something written or spoken is a __________.",
+  "options": [
+   "paraphrase",
+   "paradox",
+   "paradigm",
+   "paraffin"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer is (A)paraphrase-express something (written or spoken) in a different way.\n  paradox: a statement that apparently contradicts itself and yet might be true\n  paradigm: a typical example or pattern of something\n  paraffin: a white or colorless, tasteless, odorless, water-insoluble, solid substance not easily acted upon by reagents",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39607/gate-cse-2016-set-1-question-ga02",
   "source": "gateoverflow"
  },
  {
@@ -672,6 +468,161 @@
   "source": "gateoverflow"
  },
  {
+  "id": "108069",
+  "year": 2016,
+  "set": "1",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Despite the new medicine's _________ in treating diabetes, it is not _________widely.",
+  "options": [
+   "effectiveness --- prescribed",
+   "availability --- used",
+   "prescription --- available",
+   "acceptance --- proscribed"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Despite the new medicine's\n   \n    effectiveness\n   \n   in treating diabetes, it is not\n   \n    prescribed\n   \n   widely.\n   option A",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108069/gate2016-ec-1-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108259",
+  "year": 2016,
+  "set": "2",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the statement(s) where the underlined word is used correctly:\n  \n\n    (i) and (iii) only\n   \n\n    (iii) only\n   \n\n    (i) and (ii) only\n   \n\n    (ii) and (iii) only",
+  "options": [
+   "prone\n    \n    is a dried plum.",
+   "He was lying\n    \n     prone\n    \n    on the floor.",
+   "People who eat a lot of fat are\n    \n     prone\n    \n    to heart disease."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "prone means :\n  \n\n    likely or liable to suffer from,   which is option (iii)\n   \n\n    lying flat, especially face downwards. which is option (ii)\n   \n\n   And a\n   \n    prune\n   \n   is a dried plum of any cultivar. Prune means a plum preserved by drying and having a black, wrinkled appearance .So statement (i) is wrong.\n  \n\n   Hence correct answer is option D.\nA\n   \n    prone\n   \n   is a dried plum...it will be\n   \n    prune..\n   \n   so false\n   rest 2 statements are right\n   so\n   \n    option D",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108259/gate2016-me-2-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108481",
+  "year": 2016,
+  "set": "2",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "After India’s cricket world cup victory in $1985$, Shrotria who was playing both tennis and cricket till then, decided to concentrate only on cricket. And the\n   \n    rest is history.\n   \n\n   What does the underlined phrase mean in this context?",
+  "options": [
+   "History will rest in peace",
+   "Rest is recorded in history books",
+   "Rest is well known",
+   "Rest is archaic"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Ans: (C) rest is well known\n  The phrasal verb \"rest is history\" means that the later part of the story is well known.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108481/gate2016-ec-2-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110827",
+  "year": 2016,
+  "set": "3",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "M\n   \n   has a son\n   \n    Q\n   \n   and a daughter\n   \n    R\n   \n   . He has no other children.\n   \n    E\n   \n   is the mother of\n   \n    P\n   \n   and daughter-inlaw of\n   \n    M\n   \n   . How is\n   \n    P\n   \n   related to\n   \n    M\n   \n   ?",
+  "options": [
+   "P\n    \n    is the son-in-law of\n    \n     M\n    \n    .",
+   "P\n    \n    is the grandchild of\n    \n     M\n    \n    .",
+   "P\n    \n    is the daughter-in law of\n    \n     M\n    \n    .",
+   "P\n    \n    is the grandfather of\n    \n     M\n    \n    ."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$P's$ mother is $E$ and $E$ is daughter-in-law of $M.$ So, $M$ being a man (use of He) is the grand father of $P.$\n  Not relevant to the given question but $Q$ is the father of $P$ as $Q$ is the only son of $M.$\n  Correct Answer: B\nE is married to Q who is son of M.so P is grand child of M\nP\n    \n    is the grandchild of\n    \n     M\n    \n    . is correct option",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/110827/gate2016-ec-3-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110881",
+  "year": 2016,
+  "set": "2",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Choose the most appropriate set of words from the options given below to complete the following sentence.\n  \n\n   _________,  ___________ is a will, _________ is a way.",
+  "options": [
+   "Wear, there, their",
+   "Were, their, there",
+   "Where, there, there",
+   "Where, their, their"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Options A and B clearly wrong as\n   \n    Wear\n   \n   and\n   \n    Were\n   \n   cannot start the given statement.\n  \n\n   Between options C and D,\n   \n    Their\n   \n   means belongs to some people but meaning of the given sentence says it should be\n   \n    There\n   \n   means to that position.\n  \n\n   That makes option C correct.\n  \n\n   Where there is a will there is a way means If one really wants to do something, he always find a way to do it.\nwhere there is a will there is a way\n  \" jaha chah  hai vaha raah hai\"\nThe most appropriate set of words will be $\\textbf{Where, There, There}$\n  $\\underline{\\textbf{Where}}$ $\\underline{\\textbf{there}}$ is a will, $\\underline{\\textbf{there}}$ is a way.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/110881/gate2016-ce-2-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39530",
+  "year": 2016,
+  "set": "2",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Find the odd one in the following group of words.\n  \n\n   mock, deride, praise, jeer",
+  "options": [
+   "Mock",
+   "Deride",
+   "Praise",
+   "Jeer"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Ans C , praise. Rest all have same meaning.\nMock :\n   \n   Make fun of someone in a cruel way\n  \n\n   Deride : express contempt for (Contempt means offense of being disobedient)\n  \n\n   Jeer : make rude and mocking remarks\n  \n\n   So the three options are opposite to the meaning of praise.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39530/gate-cse-2016-set-2-question-ga-03",
+  "source": "gateoverflow"
+ },
+ {
   "id": "39553",
   "year": 2016,
   "set": "2",
@@ -693,6 +644,32 @@
   "source": "gateoverflow"
  },
  {
+  "id": "39606",
+  "year": 2016,
+  "set": "1",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Archimedes said, \"Give me a lever long enough and a fulcrum on which to place it, and I will move the world.\"\n  \n\n   The sentence above is an example of a ____________ statement.",
+  "options": [
+   "figurative",
+   "collateral",
+   "literal",
+   "figurine"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Here, we are using metamorphic meaning of words to explain thoughts instead of the literal use of them. So, it is a\n   \n    figurative\n   \n   sentence.\n  \n\n    figurative: metaphorical\n   \n\n    collateral: bond\n   \n\n    literal: taking words in their usual\n   \n\n    figurine: a statuette, typically of a human\n   \n\n   Option A is correct.\nHere, we are talking about the figure of speech. So, figurative is the figure of speech meaning: Use of metamorphic meaning of words to explain your thoughts instead of the literal use of them.\n  figurative(लाक्षणिक), collateral (संपार्श्विक), literal (सचमुच)figurine (मूर्ति)\n  option A is correct.\nA) Figurative\n‘Figurative’ means representing by a figure or resemblance or expressing one thing in terms normally denoting another with which it may be regarded as analogous.\nHere are the meanings of those words in simple Indian English:\n  \n\n   1. Figurative:\n   Not the real or exact meaning, but using words to give an idea or feeling. Like saying \"I'm so hungry I could eat a horse\" when you don't really mean eating a horse.\n  \n\n   2. Collateral:\n   Something given as a guarantee when borrowing money. For example, using your car or house papers as collateral when taking a loan from a bank.\n  \n\n   3. Literal:\n   The exact, real meaning of something. Not changed or exaggerated. If someone says \"It's raining cats and dogs\" and you take it literally, you'd think actual cats and dogs are falling from the sky.\n  \n\n   4. Figurine:\n   A small statue or model, usually of a person or animal. Often used for decoration in homes. Like a small clay or porcelain doll on a shelf.\n  \n\n   **from the information given by\n   \n    Claude AI\n   \n   as it is or edited.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39606/gate-cse-2016-set-1-question-ga03",
+  "source": "gateoverflow"
+ },
+ {
   "id": "39630",
   "year": 2016,
   "set": "1",
@@ -711,6 +688,115 @@
   "explanation": "Substitute $h=x-4,$ it becomes $\\displaystyle \\lim_{h\\to 0} \\frac{\\sin h}{h}.$\n  This is a standard limit and answer is $1.$\nIndeterminate form ( 0/0 )\n  When applying L Hospitals rule,\n  Answer is 1\nnow this can be solved using the std property ..or since it is 0/0 form so we can apply L'hospital rule..\n  \n\n   I would go with the second method ..\n  \n\n   Lim\n   \n    x->4\n   \n   Sin(x-4)/x-4)=> differentiate both the numerator and denominator ..we get\n  \n\n   lim\n   \n    x->4\n   \n   Cos(x-4)/1 and now put x=4 and wet .= 1 as the answer\nIt is Indeterminate form ( 0/0 ) When applying L Hospitals rule, Answer is 1\ntake x-4 as h thhen using L hospitals rule the answer will be 1",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/39630/gate-cse-2016-set-1-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108074",
+  "year": 2016,
+  "set": "1",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In a huge pile of apples and oranges, both ripe and unripe mixed together, $15$% are unripe fruits. Of the unripe fruits, $45$% are apples. Of the ripe ones, $66$% are oranges. If the pile contains a total of $5692000$ fruits, how many of them are apples?",
+  "options": [
+   "$2029198$",
+   "$2467482$",
+   "$2789080$",
+   "$3577422$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Total fruits = $5692000 $\n  \n\n   $\\qquad\\qquad = \\begin{Bmatrix} Unripe(15\\%)\\rightarrow 853800 \\\\ Ripe(85\\%)\\rightarrow 4838200\\end{Bmatrix}$\n  \n\n   $= \\begin{Bmatrix} Unripe(15\\%)\\begin{Bmatrix}Apples(45\\%)\\rightarrow 384210\\\\Orange \\rightarrow Don't\\ care \\end{Bmatrix} \\\\ Ripe(85\\%)\\begin{Bmatrix}Apples(34\\%)\\rightarrow 1644988\\\\Orange \\rightarrow Don't\\ care \\end{Bmatrix} \\end{Bmatrix}$\n  \n\n     So, Total Apples = 384210 + 1644988 = 2029198\n    \n\n   Correct Answer: $A$\nLet us consider pile contains 100%\n   [IMAGE:100]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2451527499003843055",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/108074/gate2016-ec-1-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108482",
+  "year": 2016,
+  "set": "2",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Given $(9 \\text{ inches}) ^{\\frac{1}{2}} = (0.25\\text{ yards}) ^{\\frac{1}{2}},$ which one of the following statements is TRUE?",
+  "options": [
+   "$3$ inches = $0.5$ yards",
+   "$9$ inches = $1.5$ yards",
+   "$9$ inches = $0.25$ yards",
+   "$81$ inches = $0.0625$ yards"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "It is so simple 😊, squaring LHS and RHS we get\n  $9 \\text{ inches} = 0.25 \\text{ yards}$\n  Option D is wrong, because when we square once more we get\n  $81\\textbf{ inches}^2 = 0.0625\\textbf{ yards}^2$\n  Correct Option: C.\n$(9\\text{ inches})^{\\frac{1}{2}} = (0.25\\text{ yards})^{\\frac{1}{2}}$\n  squaring both sides,\n  $9\\text{ inches} = 0.25\\text{ yards}$\n  $\\boxed{1\\text{ inches} = \\dfrac{0.25}{9}\\text{ yards}}$\n  a) $3\\text{ inches} = 3 \\times \\dfrac{0.25}{9}\\text{ yards} = \\dfrac{0.25}{3}\\text{ yards} \\approx 0.0833\\text{ yards}$\n  b) $9\\text{ inches} = 9 \\times \\dfrac{0.25}{9}\\text{ yards} = 0.25\\text{ yards}$\n  c) $81\\text{ inches} = 81 \\times \\dfrac{0.25}{9}\\text{ yards} = 9 \\times 0.25\\text{ yards} = 2.25\\text{ yards}$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108482/gate2016-ec-2-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110885",
+  "year": 2016,
+  "set": "2",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "$(x\\% \\text{ of }y)$ + $(y\\% \\text{ of }x)$ is equivalent to ______ .",
+  "options": [
+   "$2\\%$ of $xy$",
+   "$2\\%$ of $(xy/100)$",
+   "$xy\\%$ of $100$",
+   "$100\\%$ of $xy$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "$X \\%$ of $Y =\\dfrac{X}{100}\\times  Y= X\\times \\dfrac{Y}{100}\\quad \\to(1)$\n   and\n   $Y\\%$ of $X =\\dfrac{Y}{100}\\times  X= Y\\times \\dfrac{X}{100}\\quad \\to(2)$\n   From equations $(1)$ and $(2$) it is clear that $X\\%$ of $Y +$ as $Y\\%$ of $X$\n  \n\n   $=2\\times \\dfrac{XY}{100}$ which is equivalent to $2\\%$ of $XY$\n   \n    Hence, Answer is option  A\n(X/100)(Y)+(Y/100)(X)=XY/50\n  \n\n    So option  B 2% of XY is the answer\n$x\\% \\text{ of } y$\n  \n\n    =$\\dfrac{x}{100} \\times y$\n    \n\n      =$\\dfrac{xy}{100}$\n      $y\\% \\text{ of } x$\n      =$\\dfrac{y}{100} \\times x$\n      =$\\dfrac{xy}{100}$\n      ∴ $x\\% \\text{ of } y$ + $y\\% \\text{ of } x$\n      = $\\dfrac{xy}{100}+\\dfrac{xy}{100}$\n      = $\\dfrac{2xy}{100}$\n      =$2\\% \\text{ of }xy$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/110885/gate2016-ce-2-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39528",
+  "year": 2016,
+  "set": "2",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Pick the odd one from the following options.",
+  "options": [
+   "$\\text{CADBE}$",
+   "$\\text{JHKIL}$",
+   "$\\text{XVYWZ}$",
+   "$\\text{ONPMQ}$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Option D.\n   \n\n    $\\underbrace{\\text{C A D B E}}_{3\\;\\;1\\;\\;4\\;\\;2\\;\\;5}$\n   \n\n    $\\underbrace{\\text{J H K I L}}_{3\\;\\;1\\;\\;4\\;\\;2\\;\\;5}$\n   \n\n    $\\underbrace{\\text{X V Y W Z}}_{3\\;\\;1\\;\\;4\\;\\;2\\;\\;5}$\n   \n\n   They are all making sequence of $1-2-3-4-5$ and as in alphabetical order\nSimply check,\n  option A. CADBE, here, difference between C and A is 2.\n  option B. JHKIL, here, difference between J and H is 2.\n  option C. XVYWZ, here, difference between X and V is 2.\n  option D. ONPMQ, here, difference between O and N is 1.\n  Answer is option(D).",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39528/gate-cse-2016-set-2-question-ga-04",
   "source": "gateoverflow"
  },
  {
@@ -736,6 +822,32 @@
   "explanation": "Correct answer => $C)$\n  \n\n   why ?\n   $I)$ This is false. Consider a system with m < n, which are incosistent like\n   $a+b+c = 2$\n   $a+b+c = 3$\n   Here $m < n$ but no solution because of inconsistency !\n   $II)$ $m > n$ but no solution for none of system $=$$>$ What if this system of equations have $2$ equations which are dependent ?\n   ex $=$$>$ $a+b = 2$\n   $2a + 2b = 4$\n   $a-b = 0$\n   Then $a = 1$, $b= 1$ is solutions . II) Is false.\n   $III)$ this is true, $M = 2$, $N = 2$\n   $a+b = 2$\n   $a-b = 0$\n   Then $m= 1$, $n= 1$ Now there exists system which has solution . III) is correct. Answer is $C$ !\nI think here we required rank(A | B) and rank(A) to conclude clearly . Becoz;\n  \n\n    FOR HOMOGENEOUS SYSTEM :-\n   \n\n   1) INCONSISTENT ;- Not possible\n  \n\n   2) Unique solution :- Rank == No of variables\n  \n\n   3) Many Solution :- Rank < No of variables.\n  \n\n    FOR NON - HOMOGENEOUS SYSTEM :-\n   \n\n   1) INCONSISTENT ;- when Rank(A|B) !=Rank (A)\n  \n\n   2) Unique solution :- when Rank(A|B) =Rank (A) and Rank == No of variables\n  \n\n   3) Many Solution :- when Rank(A|B) =Rank (A) and Rank < No of variables.\n  \n\n   So It has m linear eqn so maxm rank can be = \"m\"\n  \n\n   and no of variables are = \"n\"\n  \n\n    and to conclude anything Further we need to assume Rank (A|B)=rank(A).\n   \n\n    After assuming this only Case (III) can be true.\n   \n\n    Becoz m can not be greater than n (Becoz if so , then we can not conclude anything) , hence (II) is false.\n   \n\n    When m<n , then all such system has Many solution, Hence (I) is false..\nNote: This isn't a direct answer to the question. I've covered all the possible cases I could. Don't read this if you want a straight answer to the given question.\n   \n\n   The number of equations is $m$.\n  \n\n   Hence, there can be a $m*m$ matrix.\n  \n\n   Hence the maximum rank can be $m$.\n  \n\n   Hence, $m$ is the upper bound of $r$.\n  \n\n   We conclude that $r \\leq m$ ALWAYS.\n  \n\n   For homogeneous system of equations; if $m < n$, then $r < n$. Because $m$ is the upper bound of $r$. We'll have infinite solutions.\n  \n\n   For non-homogeneous system of equations; maybe $r(A) \\neq r(A|B)$. We'll have no solutions in this case.\n  \n\n   So, all such systems have a solution? No.\n   \n    This statement is false\n   \n   .\n  \n\n   $m > n$. The only thing we know is $r$ lies below $m$. It can be between $m$ and $n$. Or it can be lower than $n$.\n  \n\n   ie\n  \n\n    $m > r > n$ is possible.\n   \n\n    $m > n > r$ is possible.\n   \n\n   For case 2, $r<n$. It's good.\n  \n\n   For case 1, $r > n$. Which is inconsistent and we'll have no solutions in case of non-homogeneous equations.\n  \n\n   We always want $r \\leq n$ be it any system of equations.\n  \n\n   So,\n   \n    this statement is false\n   \n   , because we have a favourable case.\n  \n\n   When $m = n$\n  \n\n   $r$ could be $= m$, and hence, $r = n$.\n  \n\n   $r$ could be $< m$, and hence $r < n$.\n  \n\n   So, yeah, there exists favourable cases.\n   \n    This statement is correct\n   \n   .\n  \n\n   Suppose $r$ is such that $r(A) \\neq r(A|B)$. Then, we'll have no solution. But we need just one favourable case to make this statement True, and we did it.\n  \n\nOption C\nLet's see an intuitive approach to solve this problem i.e. I'll not use the concept of rank here.\n  \n\n   Given, m linear equation with n variables. This means we have a m*n matrix.\n   \n    Case1:\n   \n   m<n: Let we a take a 2*3 matrix. In this case, we can't the fill the whole space as no of rows < no of columns. If it would've been same, then columns should be linearly independent to always have a solution. So, this statement is False.\n  \n\n    Case2:\n   \n   m>n: Let we take a 3*2 matrix. In this case, if b is linear combination of columns of matrix A, then there would be a solution. So, we can't say here none of the system have a solution. So, this statement is False.\n  \n\n    Case3\n   \n   : m=n: Let we take a 3*3 matrix. In this case we have no of columns = no of rows. If we have n LI columns, then there is always a solution. So, this statement is true.\n  \n\n   PS: Working approach in these types of questions is simple. We just need to care of \"Quantifiers.\" Keywords like \"ALL\", \"At least\", \"Always\", \"NEVER\" can be used to interpret the behavior of system and we can solve using the intuition.\nTo solve this question there are 2 methods\n   \n\n    Option-A :  False\n   \n\n    Given m<n let us assume 3X4 matrix\n   \n\n         A11\n        \n\n         A21\n        \n\n         A31\n        \n\n         B12\n        \n\n         B22\n        \n\n         B32\n        \n\n         C13\n        \n\n         C23\n        \n\n         C33\n        \n\n         D14\n        \n\n         D24\n        \n\n         D34\n        \n\n      They did not mentioned weather the column space is filled or not.\n     \n\n      If they mentioned column space is filled then  definitely solution exist.\n     \n\n      They did not mentioned about column space so the column space may or may not be filled.\n     \n\n      So solution may or may not exist\n     \n\n      So all such system have such solution is false.\n     \n\n      Option-B: False\n     \n\n      Given m>n let us assume 4>3\n     \n\n              A11\n             \n\n              A21\n             \n\n              A31\n             \n\n              A41\n             \n\n              B12\n             \n\n              B22\n             \n\n              B32\n             \n\n              B42\n             \n\n              C13\n             \n\n              C23\n             \n\n              C33\n             \n\n              c43\n             \n\n           In this the column space did not filled\n          \n\n           Then solution may or may not exits\n          \n\n             So none of the system has solution is False\n            \n\n             Option-3: True\n            \n\n             Given m=n let us take 3X3\n            \n\n             So the column space is filled or column space did not filled is mentioned\n            \n\n             So the solution may or may not exist\n            \n\n             There exist a solution is correct\n            \n\n               Option - c is correct\n              \n\n             Method-2:\n            \n\n             Option-A :  False\n            \n\n             Given m<n let us assume 3X4 matrix\n            \n\n                  P\n                 \n\n                  -\n                 \n\n                  0\n                 \n\n                  -\n                 \n\n                  P\n                 \n\n                  0\n                 \n\n                  -\n                 \n\n                  -\n                 \n\n                  0\n                 \n\n                  -\n                 \n\n                  -\n                 \n\n                  B\n                 \n\n             In this case there will be no solution .\n            \n\n             So always have solution is Not correct\n            \n\n             Option-B: False\n            \n\n             Given m>n let us take 4X3\n            \n\n                  P\n                 \n\n                  -\n                 \n\n                  -\n                 \n\n                  -\n                 \n\n                  -\n                 \n\n                  -\n                 \n\n                  P\n                 \n\n                  -\n                 \n\n                  -\n                 \n\n                  -\n                 \n\n                  -\n                 \n\n                  -\n                 \n\n                  P\n                 \n\n                  -\n                 \n\n                  -\n                 \n\n               In this case because of a free variable infinite solution is possible\n              \n\n               So none of the system has solution is false\n              \n\n               Option-C : True\n              \n\n               If we consider a 3X3 matrix and each row has pivot then there exist a solution.\n              \n\n                 So this option is correct .\n                \n\n                 If they mentioned always solution exist then it will be wrong\n                \n\n                 So option-C is correct\nWe can convert the system of linear equations in the augmented matrix form to analyse.\n  \n\n    For option 1 : If there is only one linearly independent vector and rest are multiples of this and the vector b is also linearly independent with the  vector in the A matrix then there cant be any solution in other words rank of the augmented matrix is 2 and rank of A matrix is one, there would be no solution thus option 1 is false.\n    \n\n      For option 2 We can always construct a system  where the b (Ax=b) vector is a multiple of one of the vectors of the mXn A matrix and then obtain a  solution in other words we can always take n+1 (m*1) linearly dependent vectors then put those n vectors in the augmented matrix and we can always get a solution thus option 2 is false.\n      For option 3 For m=n which gives a square matrix A we can always have it filled with m linearly independent vectors and any vector in Rm will always be a linear combination of these m linearly independent vectors thus there exists a system which will have solution and that system is the one with m linearly independent vectors.\n      Hence the answer would be C.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/39545/gate-cse-2016-set-2-question-04",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39609",
+  "year": 2016,
+  "set": "1",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If 'relftaga' means carefree, 'otaga' means careful and 'fertaga' means careless, which of the following could mean 'aftercare'?",
+  "options": [
+   "zentaga",
+   "tagafer.",
+   "tagazen.",
+   "relffer."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "relf taga = care free\n  \n\n   o taga = care full\n  \n\n   fer taga = care less\n  \n\n   Hence taga means care, and if present in the second part, care comes in the first part in English translation.\n  \n\n   For after care, \"taga-fer\" and \"taga-zen\" are the options. But \"fer\" means less.\n  \n\n   Hence\n   \n    answer is C\n(C). Tagazen\nIn all three words, \"taga\" means \"care\" as they are common in all. Moreover, taga is coming at last & care is coming first. So in answer for \"aftercare\" \"taga\" will come first. So option A & D is out. Now \"fer\" means \"less\" ( from second word). It is also out.\n  Option C is answer.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39609/gate-cse-2016-set-1-question-ga04",
   "source": "gateoverflow"
  },
  {
@@ -766,6 +878,167 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/39661/gate-cse-2016-set-1-question-04",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108077",
+  "year": 2016,
+  "set": "1",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Michael lives $10$ km away from where I live. Ahmed lives $5$ km away and Susan lives $7$ km away from where I live. Arun is farther away than Ahmed but closer than Susan from where I live. From the information provided here, what is one possible distance (in km) at which I live from Arun’s place?",
+  "options": [
+   "$3.00$",
+   "$4.99$",
+   "$6.02$",
+   "$7.01$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$\\text{Michael } \\quad \\underset{10\\;kms}{----} \\quad I$\n  $\\text{Ahmed }\\quad  \\underset{5\\;kms}{----} \\quad I$\n  $\\text{Susan } \\quad \\underset{7\\;kms}{----} \\quad I$\n  $\\text{Susan } \\quad {----}\\quad \\text{Arun}\\quad {----}\\quad \\text{Ahmed}\\quad {----}\\quad I$\n  So, the distance between Arun and I is between $5\\; kms$ and $7\\;kms.$\n  Answer C. $6.02$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108077/gate2016-ec-1-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108289",
+  "year": 2016,
+  "set": "2",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A window is made up of a square portion and an equilateral triangle portion above it. The base of the triangular portion coincides with the upper side of the square. If the perimeter of the window is $6$ m, the area of the window in $m^{2}$ is ___________.",
+  "options": [
+   "$1.43$",
+   "$2.06$",
+   "$2.68$",
+   "$2.88$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "[IMAGE:0]\n\n   Perimeter(window) $= 6$ m\n  \n\n   $\\implies 5a = 6$ m\n  \n\n   $\\implies a = \\dfrac{6}{5}$ m\n  \n\n   $\\implies a = 1.2$ m\n  \n\n   Area(window) $=$ Area(triangle) $+$ Area(square)\n  \n\n   $\\qquad = \\dfrac{\\sqrt{3}}{4}a^2 + a^2$\n  \n\n   $\\qquad = \\dfrac{\\sqrt{3}}{4}{(1.2)}^2 + {(1.2)}^2$\n  \n\n   $\\qquad = 2.06 \\ \\text{m}^2$\n  \n\n   Correct Answer: $B$\nPerimeter is $6$ so side length is $\\dfrac{6}{5} = 1.2 m$\n  So area of square is $1.2\\times 1.2 = 1.44$\n  Area of equilateral triangle $=\\dfrac{\\sqrt{3}}{4} \\times 1.2\\times 1.2 = 0.62352$\n  So, total area is $0.62352 + 1.44 =2.06352$ so answer is $B$",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3401536981992544173",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/108289/gate2016-me-2-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108483",
+  "year": 2016,
+  "set": "2",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "S, M, E\n   \n   and\n   \n    F\n   \n   are working in shifts in a team to finish a project.\n   \n    M\n   \n   works with twice the efficiency of others but for half as many days as\n   \n    E\n   \n   worked.\n   \n    S\n   \n   and\n   \n    M\n   \n   have $6$ hour shifts in a day, whereas\n   \n    E\n   \n   and\n   \n    F\n   \n   have $12$ hours shifts. What is the ratio of contribution of\n   \n    M\n   \n   to contribution of\n   \n    E\n   \n   in the project?",
+  "options": [
+   "$1:1$",
+   "$1:2$",
+   "$1:4$",
+   "$2:1$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Let the efficiency of $S, E$ and $F$ be $r$ units/hour.\n  So the efficiency of $M = 2r$ units/hour.\n  Let the number of days $E$ works be $d$, so that of $M$ is $d/2$.\n  The amount of work done by $M,$ $W_{m} = 2r \\times (d/2) \\times 6.$\n  (As $M$ is working $6$ hours per day)\n  The amount of work done by $E,$ $W_{e} = r \\times d \\times 12.$\n  $W_{m}$ : $W_{e}$ = $\\frac{2r \\times (d/2) \\times 6}{r \\times d \\times 12} = 1 : 2.$\n  Correct Answer: $B$\nConsider efficiency of M as X , no. of Days E worked as D. $\\therefore$ no. of days M worked= $\\frac{D}{2}$\n  \n\n    $\\therefore$ Efficiency of E=$\\frac{X}{2}$\n    $\\therefore$ Contribution(M)=X $\\times$ $\\frac{D}{2}$ $\\times$ 6 = 3XD [ $\\because$ he has 6 hour shifts ]\n    $\\therefore$ Contribution(E)=$\\frac{X}{2}$ $\\times$ D $\\times$ 12=6XD  [ $\\because$ he has 12 hour shifts ]\n    $\\frac{ Contribution(M)}{Contribution(E)}$=$\\frac{3XD}{6XD}$=$\\frac{1}{2}$\nFor sol. Please check this link\n  \n   https://books.google.co.in/books?id=J4rCCwAAQBAJ&pg=PR98&lpg=PR98&dq=log+tan+1+)%2B+log+tan+2+)+gate+2015&source=bl&ots=y2xZJmm-cm&sig=VSKvumx-kIU_NAzCgCvCa0y6nMQ&hl=en&sa=X&ved=0ahUKEwjN6qCrrJfVAhWEv7wKHTmGCugQ6AEIKDAD#v=onepage&q=S%2C%20M%2C%20E%20and%20F%20are%20working%20in%20shifts%20in%20a%20team%20to%20finish%20a%20proje&f=false\ncontribution of a worker =number of days he/she worked$*$number of hours worked per day$*$work done per hour.\n   \n\n   Now coming to problem,\n  \n\n   Let S,E,F does work of x units/hour.Since M is twice as efficient as others,M does work of 2x units/hour.\n  \n\n   Let E works for y days.Then M works for y$/$2 days.\n  \n\n   M works for 6 hrs in a day while E works for 12 hrs in a day.\n  \n\n   $\\therefore$\n   \n    Contribution of M\n   \n   = (y$/$2)$*$2x$*$6 = 6xy\n  \n\n   and\n   \n    Contribution of E\n   \n   = y$*$x$*$12$ = $12xy\n  \n\n   Contribution of M$/$Contribution of E $=$1$/$2\n  \n\n   The work done can be any thing.It can be eating 2 apples per hour or typing 3 pages per hour...depending on the project.\nOption B\nAns. B = 1:2 efficiency.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108483/gate2016-ec-2-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110832",
+  "year": 2016,
+  "set": "3",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "It takes $10$ s and $15$ s, respectively, for two trains travelling at different constant speeds to completely pass a telegraph post. The length of the first train is $120$ m and that of the second train is $150$ m. The magnitude of the difference in the speeds of the two trains (in $m/s$) is ____________.",
+  "options": [
+   "$2.0$",
+   "$10.0$",
+   "$12.0$",
+   "$22.0$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Let $x$ and $y$ be the speeds of the two trains.\n  \n\n    $x = \\frac{120}{10}=12\\;m/s$\n   \n\n    $y = \\frac{150}{15}=10\\;m/s$\n   \n\n   So, magnitude of their difference in speeds $ = \\mid12-10\\mid = 2 \\;m/s$\n  \n\n   Correct Option: A.\nIt takes 10 s and 15 s, respectively, for two trains travelling at different constant speeds to completely pass a telegraph post. The length of the first train is 120 m and that of the second train is 150 m. The magnitude of the difference in the speeds of the two trains (in m/sm/s) is ____2 m/s________.\n  speed=150/15 - 120/10 =|10 -12|=2 m/s",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/110832/gate2016-ec-3-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110889",
+  "year": 2016,
+  "set": "2",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The sum of the digits of a two digit number is $12$. If the new number formed by reversing the digits is greater than the original number by $54$, find the original number.",
+  "options": [
+   "$39$",
+   "$57$",
+   "$66$",
+   "$93$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Let the two digits be $x$ and $y$.\n  Original number$=xy=10x+y$\n  $ x + y = 12 \\quad \\to(1)$\n  Given that new number formed by reversing the digits is greater than the original number by $54,$\n  $ y * 10 + x = 10 * x + y + 54 $\n  $ 10 y + x = 10 x + y +54 $\n  $ 9y-9x = 54 $\n  $ x - y = -6 \\quad \\to(2)$\n  From $(1)$ and $(2)$\n  $ 2 x = 6 $\n  $ x = 3 $ and $ y = 9$\n  Hence, Original number $=xy=10x+y= 39$\n  Correct Answer: $A$\nOriginal no is 54 less than Reversed no.\n  66 Not possible as reversal of  66 is 66 itself.\n  93 and 57 also not possible because by adding 54  it will become 3 digit no.\n  Only option left is 39, which is correct answer. :-P\n  i.e. 39+54=93\nx+y=12\n  10y+x=54+10x+y\n  solving the above equation we will get 9x-9y=-54\n  solving both equations we will get x=3,y=9\nLet's assume the unit digit of the number is $y$ & $x$ is the digit of ten's place.\n  ∴ The number is $10x+y$\n  Now, given $x+y =12$\n  if the number is $yx$, then $\\{(10y+x)-(10x+y)\\}=54$\n  Now, we know, $x+y =12$\n  ∴ $y=12-x$\n  Now, $\\{(10y+x)-(10x+y)\\}=54$\n  $10y+x-10x-y=54$\n  $10(12-x)+x-10x-(12-x)=54$\n  Or,$120-10x+x-10x-12+x=54$\n  Or, $120-20x+2x-12=54$\n  Or,$108-18x=54$\n  Or,$108-54=18x$\n  Or,$18x=54$\n  Or,$x=3$\n  ∴$ y = 12-x = 12-3 = 9$\n  The original number is $39$ which is option A)\nANSWER IS 39\nOption A\n   \n   too simple just put the given options, you will get your answer.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/110889/gate2016-ce-2-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39532",
+  "year": 2016,
+  "set": "2",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In a quadratic function, the value of the product of the roots $(\\alpha, \\beta)$ is $4$. Find the value of\n  \n\n   $\\dfrac{\\alpha^{n}+\\beta^{n}}{\\alpha^{-n}+\\beta^{-n}}$",
+  "options": [
+   "$n^{4}$",
+   "$4^{n}$",
+   "$2^{2n-1}$",
+   "$4^{n-1}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$\\dfrac{\\alpha^n+\\beta^n}{\\alpha^{-n}+\\beta^{-n}}$\n  \n\n   $=\\dfrac{\\alpha^n+\\beta^n}{ \\left ( \\dfrac{1}{\\alpha^{n}}+\\frac{1}{\\beta^{n}} \\right ) }$\n  \n\n   $=\\dfrac{\\alpha^n+\\beta^n}{ \\left ( \\dfrac{ \\alpha^n + \\beta^n}{\\alpha^n \\beta^n} \\right )}$\n  \n\n   $=(\\alpha \\beta)^n$\n  \n\n   =$4^n$\n  \n\n    as product of roots, $ \\alpha \\beta = 4 $\n   \n\n   Correct Answer: $B$\nAssume roots (α,β) = (2,2) because Product of roots α*β = 2*2 = 4 is satisfying as per question.\n   \n\n    Let n=3\n   \n\n   (α^n+β^n)/(α^−n+β^−n) = (2^3+2^3)/(2^-3+2^-3) = (8+8)/(1/8)+(1/8) = 16/(1/4) = 16*4 =\n   \n    64\n   \n\n   Now trying option elimination with n=3\n  \n\n    Option B\n   \n   = 4^n = 4^4=\n   \n    64\n   \n\n   Matching with our answer 64 which was calculated above",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39532/gate-cse-2016-set-2-question-ga-05",
   "source": "gateoverflow"
  },
  {
@@ -811,6 +1084,32 @@
   "source": "gateoverflow"
  },
  {
+  "id": "39610",
+  "year": 2016,
+  "set": "1",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A cube is built using $64$ cubic blocks of side one unit. After it is built, one cubic block is removed from every corner of the cube. The resulting surface area of the body (in square units) after the removal is ________.",
+  "options": [
+   "$56$",
+   "$64$",
+   "$72$",
+   "$96$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Cube is built using $64$ cubic blocks of side one unit. It means it is a $4\\times 4\\times 4$ Cube.\n  Surface area of each face $ = 4\\times 4$ sq. units\n  And number of faces in a cube $= 6$, Thus total surface area $ = 6\\times 4\\times 4 = 96$ sq. units.\n  A cube contains $8$ corner pieces (containing $3$ visible sides), and if these are removed then inner ones are visible, So, When a corner piece is removed $3$ new faces of $1$ sq. unit are visible and thus removal doesn't change surface area.\n  Hence, Option $(D)$ is correct.\nA cube is built with 64 blocks of 1 unit side. Hence each side will have surface area $4\\times4= 16$ square units.\n  \n\n   if we remove one block from each corner, the resulting surface area will reduce by 4 square units. Hence surface area of each side is 12 square units.\n  \n\n   Total surface area of 6 sides is $12\\times6= 72$. But removal of a block from each corner creates an surface area of 3 square units.\n  \n\n   Since there are 8 corners, the total surface area becomes $72 +3\\times8 =  96$.\n  \n\n   Hence\n   \n    answer is D\n   \n   .\nthe surface area of the body will remain unchanged as when a cube is removed, it exposes three faces, which makes the number of exposed faces same as before removal.\n   \n\n     If 64 cubic blocks are used to make the cube, it must be 4 x 4 x 4 blocks\n    \n\n    So, surface area of the body before removal = surface area of the body after removal = 6 * side * side = 6 * 4 * 4 = 96.\n   \n\n    Thus, D is the correct choice.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39610/gate-cse-2016-set-1-question-ga05",
+  "source": "gateoverflow"
+ },
+ {
   "id": "39634",
   "year": 2016,
   "set": "1",
@@ -832,6 +1131,133 @@
   "source": "gateoverflow"
  },
  {
+  "id": "108086",
+  "year": 2016,
+  "set": "1",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A person moving through a tuberculosis prone zone has a $50$% probability of becoming infected. However, only $30$% of infected people develop the disease. What percentage of people moving through a tuberculosis prone zone remains infected but does not show symptoms of disease?",
+  "options": [
+   "$15$",
+   "$33$",
+   "$35$",
+   "$37$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$\\text{Probability of being infected} = 0.5$\n  $\\text{Probability of developing disease} = 0.3$\n  Only when a person develops disease he will show symptoms of it and whenever a disease is developed we can expect symptoms to be shown.\n  So, $\\text{Probability of not showing symptoms} = 1-0.3 =0.7$\n  $\\text{Probability of being infected and not showing any symptoms} = 0.5 \\times 0.7 = 0.35$\n  Correct Answer: C $35\\%$\nOption c) 35\n   \n   $P\\text{(infected)} = 0.5 ,$\n   $P\\left(\\dfrac{No.of\\; disease}{Infected}\\right) = 0.7 \\times 0.5 = 0.35$\nTuberculosis\n  \n\n    Not infect.                              infected\n    \n\n      50%.                                            50%\n      Devlop dis.       Does not dev\n      30%of 50.        70%of 50%\n      70/100 *50/100. =35/100=35%\nAns. A = 15%\n  Coz 30% of 50% will be infected. So 50% multiplied with 30% equals 15%\n50% probability if a person passes through a tuberculosis zone  and only 30% of infected people shows symptoms\n  so 70% do not show any symptoms  percentage of people moving through a tuberculosis prone zone remains infected but does not show symptoms of disease\n  =50*70/100=35%",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108086/gate2016-ec-1-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110834",
+  "year": 2016,
+  "set": "3",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The velocity $V$ of a vehicle along a straight line is measured in $m/s$ and plotted as shown with respect to time in seconds. At the end of the $7$ seconds, how much will the odometer reading increase by (in m)?\n  \n\n[IMAGE:0]",
+  "options": [
+   "$0$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Odometer is a device used to measure distance traveled by an object.\n  Area under Velocity-Time graph represents the distance traveled.\n  So, answer $= 0.5+1+1.5+1+0.5+0.5= 5 m.$\n  Correct Answer: $D$\nD. 5m\n  \n\n[IMAGE:100]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=8359155336420206115",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=6421704344404000799",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/110834/gate2016-ec-3-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110905",
+  "year": 2016,
+  "set": "2",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Two finance companies, $P$ and $Q$, declared fixed annual rates of interest on the amounts invested with them. The rates of interest offered by these companies may differ from year to year. Year-wise annual rates of interest offered by these companies are shown by the line graph provided below.\n  \n\n[IMAGE:0]\n\n   If the amounts invested in the companies, $P$ and $Q$, in $2006$ are in the ratio $8:9$, then the amounts received after one year as interests from companies $P$ and $Q$ would be in the ratio:",
+  "options": [
+   "$2:3$",
+   "$3:4$",
+   "$6:7$",
+   "$4:3$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "The amounts invested in the companies, $P$ and $Q$, in $2006$ are in the ratio $8:9$\n  The annual rate of interest in the companies $P$ and $Q$ are $6\\%$ and $4\\%$ respectively in the year $2006$\n  ∴ The amounts received after one year as interests from companies $P$ and $Q$ would be in the ratio\n  $\\left(8\\times \\dfrac{6}{100}\\right) : \\left(9\\times \\dfrac{4}{100}\\right)$\n  $= 48:36$\n  $={4:3}$\nSince t=1year, SI = CI.\n  For P :\n  (8x * 6 * 1)/100\n  For Q :\n  (9x * 4 * 1)/100\n  P:Q = 4:3\n  Answer : (d)",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15917616495605242644",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/110905/gate2016-ce-2-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39536",
+  "year": 2016,
+  "set": "2",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Among $150$ faculty members in an institute, $55$ are connected with each other through Facebook and $85$ are connected through Whatsapp. $30$ faculty members do not have Facebook or Whatsapp accounts. The numbers of faculty members connected only through Facebook accounts is _______.",
+  "options": [
+   "$35$",
+   "$45$",
+   "$65$",
+   "$90$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Let $F$ denotes Facebook users,\n  $W$ denotes Whatsapp users ,\n  $F'$  denotes those not using Facebook, and\n  $W'$ denotes those not using Whatsapp.\n  $U$ denotes universal set.\n  Total faculties in institute, $n(U)=150$\n  Facebook users, $n(F)=55$\n  Whatsapp users, $n(W)=85$\n  Faculty members not using Facebook or Whatsapp $n(F' \\cap W')=30$\n  Faculty members using either Facebook or Whatsapp\n  $n(F\\cup W)= n(U)-n(F' \\cap W') =150-30=120$\n  Faculty members using both Facebook and Whatsapp\n  $n(F \\cap W) =n(F) +n(W) - n(F\\cup W) = 55+85-120= 20$\n  Faculty members using Facebook only\n  $n(F \\cap W')= n(F)-n(F \\cap W)= 55 -20 =35$\nAlways try to solve GATE aptitude part via common sense or via options. In most of the cases we don't really need any law or formula. And still using them just wastes out time.\n  Here, there are total 150 faculties. Out of them 30 don't have either Facebook or WhatsApp.\n  Therefore, remaining connected faculties are (150-30) = 120. Out of them 85 are connected via WhatsApp (may be they are even connected via Facebook but we don't care.)\n  So, number of faculties connected via ONLY Facebook is (120-85) = 35.\nHere answer is A =>\n  Why ?\n  Total =150\n  FB => 55\n  Whatsapp => 85\n  30 people do not have FB or whatsapp => USE DEMORGANS LAW HERE !\n  now 30 people do (not have FB AND not have whatsapp)\n  ~FB ^ ~Whatsapp = 30\n  People on FB or Whatsapp = 150 - 30 = 120\n  Now Consider option A\n  35 have only FB.\n  Then 55-35 => 20 Have both FB & Whatsapp.\n  Then only whatsapp guys are 85-20 = 65.\n  This sums up nicely\n  Only FB + Only WHatsapp + Both FB & Whatsapp => 35 + 65+ 20 =>120\n  Answer is A !\nsee this the good way to solve such type of problem\n  \n\n[IMAGE:300]\n$|U|-|FUW|=|FUW|'$\n  \n\n   $150-|FUW|=30$\n  \n\n   $|FUW|=120$\n  \n\n   $|FUW|=|F|+|W|-|F\\cap W|$\n  \n\n   $120=55+85-|F\\cap W|$\n  \n\n   $20=|F\\cap W|$\n  \n\n[IMAGE:400]\n\n   $20+x=55$\n  \n\n   $x=35$",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12319842501517291339",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=11728034863814256704",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/39536/gate-cse-2016-set-2-question-ga-06",
+  "source": "gateoverflow"
+ },
+ {
   "id": "39549",
   "year": 2016,
   "set": "2",
@@ -850,6 +1276,32 @@
   "explanation": "Determinant of Matrix $A =$ product of eigen values $= 1 \\times 2 \\times 4 =8$\n  \n\n    Determinant of Inverse Matrix of $A, \\text{det}(A^{-1}) = \\frac{1}{\\text{det}(A)} =\\frac{1}{8}$\n    \n\n     Determinant remains same after the Transpose operation.\n     So, determinant of $(A^{-1})^T = \\text{det}(A^{-1}) = \\frac{1}{8} = 0.125$\n0.125\n  \n\n    Eigen value of A inverse is 1,1/2,1/4. Product of those eigen values gives determinant value.\n    \n\n      Transposing a matrix doesn't change is eigen value.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/39549/gate-cse-2016-set-2-question-06",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39616",
+  "year": 2016,
+  "set": "1",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "A shaving set company sells $4$ different types of razors- Elegance, Smooth, Soft and Executive.\n  \n\n   Elegance sells at $\\text{Rs.} \\ 48$, Smooth at $\\text{Rs.} \\ 63$, Soft at $\\text{Rs.} \\ 78$ and Executive at $\\text{Rs.} \\ 173$ per piece. The table below shows the numbers of each razor sold in each quarter of a year.\n  \n\n   $$\\begin{array}{|c|r|r|r|r|} \\hline \\textbf{Quarter/Product} & \\textbf{Elegance} &\\textbf{Smooth} &\\textbf{Soft} & \\textbf{Executive}\\\\\\hline \\text{Q1} & \\text{27300} &\\text{20009} &\\text{17602} &\\text{9999}\\\\\\hline \\text{Q2} & \\text{25222} &\\text{19392} & \\text{18445}& \\text{8942}\\\\\\hline \\text{Q3} & \\text{28976} &\\text{22429} & \\text{19544} & \\text{10234}\\\\\\hline \\text{Q4} &\\text{21012} & \\text{18229} & \\text{16595} & \\text{10109}\\\\\\hline \\end{array}$$\n  \n\n   Which product contributes the greatest fraction to the revenue of the company in that year?",
+  "options": [
+   "Elegance",
+   "Executive",
+   "Smooth",
+   "Soft"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "To calculate the revenue generated by each product in a year we need to first calculate total units of each category sold, and then multiply it with the cost per unit.\n  \n\n   $$\\overset{\\textbf{Revenue generated by products}}{\\begin{array}{|l|r|r|r|r|} \\hline \\textbf{} & \\textbf{Total units sold} &\\textbf{Price per unit} &\\textbf{Total revenue} \\\\\\hline \\text{Elegance} & \\text{102,510} &\\text{48} &\\text{4,920,480} \\\\\\hline \\text{Smooth} & \\text{80,059} &\\text{63} & \\text{5,043,717}\\\\\\hline \\text{Soft} & \\text{72,186} &\\text{78} & \\text{5,630,508} \\\\\\hline \\text{Executive} &\\text{39,284} & \\text{173} & \\text{6,796,132} \\\\\\hline \\end{array}}$$\n  \n\n   From the table above we can see that the max revenue is generated by Executive.\n  \n\n   Hence\n   \n    answer is B\n   \n   .\nb executive\n  We have to find the product $x$ which has $\\max \\left(\\sum_{i=1}^4 n_{x_i} \\times P_x \\right)$, where $P_x$ is the selling price of $x$ and $n_{x_i}$ is the number of items of type $x$ sold in quarter $i$.\nLet me give a piece of advice. See this is GATE exam. There's no point they would give these basic questions. Anyone can answer these. The trick here is how quickly we do. There's no point of rushing with the calculators, moreover with a virtual one, which would take even more time. Just apply common sense. Here, Executive ones are 4x, 3x and 2.5x costlier than Elegance, Smooth and Soft ones respectively. Just by looking at the table we can see that the units of Executives ain't that less in that ratio than the others. So it's obvious that Executives would produce maximum revenue.\nRevenue from Elegance = (27300+25222+28976+21012) * Rs. 48 = Rs. 4920480 Revenue from Smooth = (20009+19392+22429+18229) * Rs. 63 = Rs. 5043717 Revenue from Soft = (17602+18445+19544+16595) * Rs. 78 = Rs. 5630508 Revenue from Executive = (9999+8942+10234+10109) * Rs. 173 = Rs. 6796132 Total Revenue = Rs. 22390837   Fraction of Revenue for Elegance = 0.219 Fraction of Revenue for Smooth = 0.225 Fraction of Revenue for Soft = 0.251 Fraction of Revenue for Executive = 0.303   Thus, B (Executive) is the correct answer.\nAnswer: B\n   \n   .\n  \n\n   Let the prices in order be p1, p2, p3 and p4. Likewise, let the numbers sold be n1, n2, n3 and n4.\n  \n\n    p4: p3 > 2 and n3: n4 < 2 (in almost all quarters)\n   \n\n    p4: p2 = 3 (approx.) and n2: n4 = 2 (approx.)\n   \n\n    p4: p1 = 4 (approx.) and n1: n4 = 2.6-2.7\n   \n\n   In all three cases, the ratio (p4*n4): (pi*ni) > 1 (i = 1, 2, 3).\n  \n\n   Of course, this is an observation based approach. The numbers for all quarters of any category are very close which makes this approach suitable.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39616/gate-cse-2016-set-1-question-ga06",
   "source": "gateoverflow"
  },
  {
@@ -884,6 +1336,162 @@
   "source": "gateoverflow"
  },
  {
+  "id": "108087",
+  "year": 2016,
+  "set": "1",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In a world filled with uncertainty, he was glad to have many good friends. He had always assisted them in times of need and was confident that they would reciprocate. However, the events of the last week proved him wrong.\n  \n\n   Which of the following inference(s) is/are logically valid and can be inferred from the above passage?\n  \n\n    (i) and (ii)\n   \n\n    (iii) and (iv)\n   \n\n    (iii) only\n   \n\n    (iv) only",
+  "options": [
+   "His friends were always asking him to help them.",
+   "He felt that when in need of help, his friends would let him down.",
+   "He was sure that his friends would help him when in need.",
+   "His friends did not help him last week."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "(iii) He was sure that his friends would help him when in need.\n  \n\n   (iv) His friends did not help him last week.\n   Only these 2 statements can be inferred. O\n   \n    ption B\n   \n   .\nB  is correct",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108087/gate2016-ec-1-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108299",
+  "year": 2016,
+  "set": "2",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A smart city integrates all modes of transport, uses clean energy and promotes sustainable use of resources. It also uses technology to ensure safety and security of the city, something which critics argue, will lead to a surveillance state. Which of the following can be logically inferred from the above paragraph?\n  \n\n    (i) and (iv) only\n   \n\n    (ii) and (iii) only\n   \n\n    (iv) only\n   \n\n    (i) only",
+  "options": [
+   "All smart cities encourage the formation of surveillance states.",
+   "Surveillance is an integral part of a smart city.",
+   "Sustainability and surveillance go hand in hand in a smart city.",
+   "There is a perception that smart cities promote surveillance."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "\"It also uses technology to ensure safety and security of the city, something which critics argue, will lead to a surveillance state.\"\n  critics argue because of perception that smart city promotes surveillance that makes statement ( iv) correct.\n  There is nothing mention in passage about encouragement about formation of surveillance states so that makes statement (i) false.\n  And, \"will lead to a surveillance state tis makes \" this line makes statement (ii) false.\n  and there is nothing mention about \" both Sustainability and surveillance\" in passage so statement (iii) is wrong too.\n  Hence only statement (iv) is correct which is option C .",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108299/gate2016-me-2-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108717",
+  "year": 2016,
+  "set": "2",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Social science disciplines were in existence in an amorphous form until the colonial period when they were institutionalized. In varying degrees, they were intended to further the colonial interest. In the time of globalization and the economic rise of postcolonial countries like India, conventional ways of Knowledge production have become obsolete.\n  \n\n   Which of the following can be logically inferred from the above statements?\n  \n\n   (i) Social science disciplines have become obsolete.\n  \n\n   (ii) Social science disciplines had a pre-colonial origin.\n  \n\n   (iii) Social science disciplines always promote colonialism.\n  \n\n   (iv) Social science must maintain disciplinary boundaries.",
+  "options": [
+   "(ii) only",
+   "(i) and (iii) only.",
+   "(ii) and (iv) only.",
+   "(iii) and (iv) only."
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Statement III is wrong as their is no mention in passage about promotion of colonialism\n   \n    always\n   \n   , only mention their interest to increase it further.\n   \"conventional ways of Knowledge production have become obsolete.\" this line supports statement (i) . but option B is false due to statement III .\n  \n\n   and Statement IV are false clearly, not related to the passage. That makes option C and D false.\n  \n\n   \"Social science disciplines were in existence in an amorphous form( means  without any clear form ) until the colonial period \" this statement directly say Social science disciplines had a pre-colonial origin. which makes option A correct.\n  \n\n   so answer is option A , statement (ii) .",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108717/gate2016-ec-2-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110844",
+  "year": 2016,
+  "set": "3",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The overwhelming number of people infected with rabies in India has been flagged by the World Health Organization as a source of concern. It is estimated that inoculating $70$% of pets and stray dogs against rabies can lead to a significant reduction in the number of people infected with rabies.\n  \n\n   Which of the following can be logically inferred from the above sentences?",
+  "options": [
+   "The number of people in India infected with rabies is high.",
+   "The number of people in other parts of the world who are infected with rabies is low.",
+   "Rabies can be eradicated in India by vaccinating $70$% of stray dogs.",
+   "Stray dogs are the main source of rabies worldwide."
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "The number of people in India infected with rabies is high\n   \n    option A",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/110844/gate2016-ec-3-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110913",
+  "year": 2016,
+  "set": "2",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Today, we consider Ashoka as a great ruler because of the copious evidence he left behind in the form of stone carved edicts. Historians tend to correlate greatness of a king at his time with the availability of evidence today. Which of the following can be logically inferred from the above sentences?",
+  "options": [
+   "Emperors who do not leave significant sculpted evidence are completely forgotten.",
+   "Ashoka produced stone carved edicts to ensure that later historians will respect him.",
+   "Statues of kings are a reminder of their greatness.",
+   "king’s greatness, as we know him today, is interpreted by historians."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Correct answer is 'D'.\n   \n\n   A and C are completely out of context so we can first eliminate those. Confusion is b/w B and D.\n  \n\n   The given paragraph no where talked about the true intentions of, why the great Ashoka left copious evidences in the form of stone carved edicts. So we can't consider ourselves like He did it so that he can be remembered. So option B is out.\n  \n\n   It's clearly mentioned that historians predict the greatness of a king by the availability of evidences of his time. It also says Ashoka left behind stone carved edicts and today, we consider Ashoka as a great ruler. So in that way D is the correct answer.\n  \n\n    PS\n   \n   :- key point for such kind of questions is, do not just suppose anything. Just like good listener, be here good reader and apply common sense without making any assumption.\nAnyone please confirm :\n  ANS: B or D??",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/110913/gate2016-ce-2-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39533",
+  "year": 2016,
+  "set": "2",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Computers were invented for performing only high-end useful computations. However, it is no understatement that they have taken over our world today. The internet, for example, is ubiquitous. Many believe that the internet itself is an unintended consequence of the original invention. With the advent of mobile computing on our phones, a whole new dimension is now enabled. One is left wondering if all these developments are good or, more importantly, required.\n  \n\n   Which of the statement(s) below is/are logically valid and can be inferred from the above paragraph?\n  \n\n   (i) The author believes that computers are not good for us.\n  \n\n   (ii) Mobile computers and the internet are both intended inventions.",
+  "options": [
+   "(i) only",
+   "(ii) only",
+   "Both (i) and (ii)",
+   "Neither (i) nor (ii)"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "\"Many believes that the internet itself is unintended consequence of the original invention. So (ii) statement does not follow from the passage.\"\n  The author has no where said that the computers are bad, authoring is talking about the way computers are being used today and the author questions this way. So, (i) statement does not follow.\n  Hence, option (D) is the answer.\ninternet itself is an\n   \n    unintended\n   \n   consequence of the original invention.\n  \n\n   One is left wondering if all these developments\n   \n    are good or, more importantly, required\n   \n   .\n  \n\n   key point:unintended,\n  \n\n   hence D correct answer",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39533/gate-cse-2016-set-2-question-ga-07",
+  "source": "gateoverflow"
+ },
+ {
   "id": "39575",
   "year": 2016,
   "set": "2",
@@ -910,6 +1518,32 @@
   "source": "gateoverflow"
  },
  {
+  "id": "39613",
+  "year": 2016,
+  "set": "1",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Indian currency notes show the denomination indicated in at least seventeen languages. If this is not an indication of the nation's diversity, nothing else is.\n  \n\n   Which of the following can be logically inferred from the above sentences?",
+  "options": [
+   "India is a country of exactly seventeen languages.",
+   "Linguistic pluralism is the only indicator of a nation's diversity.",
+   "Indian currency notes have sufficient space for all the Indian languages.",
+   "Linguistic pluralism is strong evidence of India's diversity."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "D. Linguistic pluralism is strong evidence of India’s diversity.\n   \n\n   This option is the most logical inference because the presence of multiple languages on the currency notes reflects the linguistic diversity of the nation. The other options are either too specific, not supported by the statement, or not a logical inference based on the information provided. Remember, the statement highlights the diversity of languages as an indication of the nation’s diversity, not as the only indicator or that it is related to the physical space on the currency notes.\nAnswer is (D) Linguistic pluralism is strong evidence of India's diversity.\nOption D is answer.\n  As from the question, it can be easily figured out that linguistic pluralism is indicating nation's diversity.\nI think in option B word \"nation's\" is mentioned which don't talk about India specifically. Nation can be any country.\n  \n\n   So according to me\n   \n    B is wrong option\n   \n   . then\n   \n    answer is D.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39613/gate-cse-2016-set-1-question-ga07",
+  "source": "gateoverflow"
+ },
+ {
   "id": "39649",
   "year": 2016,
   "set": "1",
@@ -928,6 +1562,147 @@
   "explanation": "$1111 \\; 1111\\; 1111\\; 0101$\n  $2's$ complement of $1111 \\; 1111\\; 1111\\; 0101 = 0000 \\; 0000\\; 0000\\; 1011 =+11$\n  $2's$ complement of $-11 = +11,$ in $2's$ complement representation\n  $2's$ complement of $+11 = -11,$ in $2's$ complement representation\n  So $-11$ it should be.\nAnswer $= -11$.\n  \n\n   for $2's$ complement  1\n   \n    111 1111 1111 0101\n   \n   $→$$2′s$ complement$→$$2′s$ complement  $1$ $000$  $0000$  $0000$  $1011$\n  \n\n   1bit$^{st}$ is same not involved in $2's$ complement same with $1's$ complement. since msb bit for sign.\n  \n\n   Take one's complement and add $1$ we get $11$, and as it is negative number we get answer as $-11$.\n  \n\n   Reference:\n   \n    http://www.electronics-tutorials.ws/binary/signed-binary-numbers.html.\n11111111111\n    \n\n   10101  -> ignore all 1's, except one 1 from left side(because they have no effect on final decimal value)\n  \n\n   =  10101\n  \n\n   =  (-2\n   \n    4\n   \n   )*\n   \n    1\n   \n   + (2\n   \n    3\n   \n   )*\n   \n    0\n   \n   + (2\n   \n    2\n   \n   )*1 + (2\n   \n    1\n   \n   )*\n   \n    0\n   \n   + (2\n   \n    0\n   \n   )*\n   \n    1\n   \n\n   = -16 + 4 + 1\n  \n\n   = -11\nProcedure:\n  \n\n    Consider the power place values ofthe number from right to left is 0,1,2,3,4,5........ so on\n    Calculate the place value of first 1 of the number from left where contineous 1s are there to the left of it till end(Let called the place i).\n    Then do this formula: -(2^i)+(sum of all 2^j)   Here j is from i-1  to 0\n    Here Number is:1111111111110101\n    -(2^4) +2^2+2^0=-16+4+1=-11\nit can also b computed by booth's algorithm ....\n  \n\n   1111 1111 1111 0101\n  \n\n   pad with one zero\n  \n\n   1111 1111 1111 01010\n  \n\n   now booth's recoded code is\n  \n\n   00000000000-11-11-1\n  \n\n   now expand it\n  \n\n   (-1)*2\n   \n    0\n   \n   +1*2\n   \n    1\n   \n   +(-1)*2\n   \n    2\n   \n   +1*2\n   \n    3\n   \n   +(-1)*2\n   \n    4\n   \n\n   =-11\nThere is a difference between 2 complement and 2 complement representation\n  \n\n   In 4 bit system -\n  \n\n   2 complement of 7 is 1001\n  \n\n   but 2 complement representation of 7 is 0111.\n  \n\n   Here in this question we are talking about 2 complement representation .\n  \n\n   Hence -11 is the answer.\n  \n\n   refer : Potential ambiguities of terminology at\n  \n\n    https://en.wikipedia.org/wiki/Two%27s_complement",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/39649/gate-cse-2016-set-1-question-07",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108089",
+  "year": 2016,
+  "set": "1",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Leela is older than her cousin Pavithra. Pavithra’s brother Shiva is older than Leela. When Pavithra and Shiva are visiting Leela, all three like to play chess. Pavithra wins more often than Leela does.\n  \n\n   Which one of the following statements must be TRUE based on the above?",
+  "options": [
+   "When Shiva plays chess with Leela and Pavithra, he often loses.",
+   "Leela is the oldest of the three.",
+   "Shiva is a better chess player than Pavithra.",
+   "Pavithra is the youngest of the three."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "$\\text{Shiva}>\\text{Leela}>\\text{Pavithra}$\n  Pavithra is the youngest. Option D.\nPavithra is the youngest of the three.  as only these conclusion is come out from the given codition",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108089/gate2016-ec-1-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108300",
+  "year": 2016,
+  "set": "2",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Find the missing sequence in the letter series. $B, FH, LNP$, _______.",
+  "options": [
+   "$SUWY$",
+   "$TUVW$",
+   "$TVXZ$",
+   "$TWXZ$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$B \\overset{+4}{\\to}\\underset{+2}F\\;{H}\\overset{+4}{\\to}{\\underset{+2}L\\;\\underset{+2}N\\;P} \\overset{+4}{\\to}{\\underset{+2}T\\;\\underset{+2}V\\;\\underset{+2}X\\;Z}$\n  The additions above refers to the position in the English alphabet set like $B + 4$ gives the fourth letter after $B$ which is $F.$\n  Correct answer: C.\nAnswer is C\nTVXZ is correct leaving one alphbet betwn then and there is gate of 3 alhabet between the next series no.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108300/gate2016-me-2-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110849",
+  "year": 2016,
+  "set": "3",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A flat is shared by four first year undergraduate students. They agreed to allow the oldest of them to enjoy some extra space in the flat. Manu is two months older than Sravan, who is three months younger than Trideep. Pavan is one month older than Sravan. Who should occupy the extra space in the flat?",
+  "options": [
+   "Manu",
+   "Sravan",
+   "Trideep",
+   "Pavan"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Manu is two months older than Sravan\n   $\\implies M=2+S$\n  \n\n   Sravan, is three months younger than Trideep\n   $\\implies T=3+S=M+1$\n  \n\n   Pavan is one month older than Sravan\n   $\\implies P=1+S = M-1 = T - 2$\n  \n\n   So, $S < P < M < T.$\n  \n\n    Option C. Trideep is the oldest.\noption C Trideep is the oldest one\nAssume that Manu is born in July, then Shravan is born in September.\n  \n\n    Since Shravan is three months younger than Trideep, Trideep must be born in June.\n    \n\n     Pawan, being one month older than Shravan, is born in August.\n     The correct order of ages from oldest to youngest is: Trideep > Manu > Pawan > Shravan.\n     Option $(C)$ is correct.\nsuppose M,S,T,P respectivley\n  \n\n   assume Sravan age is 100,\n  \n\n   manu is two months older than Sravan\n  \n\n   M=102 and S=100\n  \n\n   (Sravan), who is 3 month younger than Trideep.\n  \n\n   M=102, S=100, T=97\n  \n\n   Pavan is one month older than Sravan\n  \n\n   M=102  S=100  T=97  P=98\n  \n\n   so you can easily verify which one has less value obiveously he is oldest in the room.\n  \n\n    ANSWER is C-Tradeep.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/110849/gate2016-ec-3-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110918",
+  "year": 2016,
+  "set": "2",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Fact 1: Humans are mammals.\n  \n\n   Fact 2: Some humans are engineers.\n  \n\n   Fact 3: Engineers build houses.\n  \n\n   If the above statements are facts, which of the following can be logically inferred?\n  \n\n   I. All mammals build houses.\n  \n\n   II. Engineers are mammals.\n  \n\n   III. Some humans are not engineers.",
+  "options": [
+   "II only.",
+   "III only.",
+   "I, II and III.",
+   "I only."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "[IMAGE:0]\n\n   We can draw a Venn diagrams for the given facts:\n  \n\n   Fact 1 says \"Humans are mammals\" meaning humans is a subset (may or may not be strict - the diagram shows the not strict version) of mammals.\n  \n\n   Fact 2 says \"Some humans are engineers\" meaning intersection of $H$ and $E$ is non-empty.\n  \n\n   Fact 3 says \"Engineers build houses\" meaning $E$ is a subset (may or may not be strict - the diagram shows the not strict version) of $BH$.\n  \n\n   Now From this diagram we try to get the meaning of given sentences\n  \n\n    All mammals build houses - False, only if the mammal is a human and he is an engineer he is sure to build a house\n   \n\n    Engineers are mammals - False, diagram says some engineers are mammals but does not restrict non mammals to be engineer.\n   \n\n    Some humans are not engineers - actually this also is not True as we can redraw the diagram making $H$ a subset of $E$ and no Facts are violated. But GATE official key says this is True (Clearly wrong answer key).\n   \n\n   No option is correct but official answer key is option B.\n[IMAGE:100]\n\n      Fact 1. All Humans are Mammals\n     \n\n[IMAGE:101]\n\n      Fact 2.Some Humans are Engineers\n     \n\n     Fact 3. Engineer build Houses\n    \n\n     All mammals build houses\n    \n    is $false$ because only some mammals who are engineers as well as humans build houses.\n   \n\n     Engineers are mammals\n    \n    is $false$ since only some engineers (who are humans) are mammals.\n   \n\n     Some humans are not engineers\n    \n    is also $true$ as we can see in fact 2.\n   \n\n   $\\therefore$ Option B. $Only$ $III$ is the correct answer.\n  \n\n   But this answer is not correct.\n  \n\n   As mentioned by\n   \n\n     @Arjun Sir,\n    \n\n   In Fact 2 we can say that\n   \n    some human are Engineers\n   \n   but we can't say anything about the remaining humans whether they are engineers or not as it is not mentioned in the question.\n  \n\n   So we can't infer that\n   \n    some humans are not engineers\n   \n   as we can have multiple cases for the remaining humans.\n  \n\n   Case 1 : The remaining humans are also engineers.\n  \n\n   Case 2: The remaining humans are not engineers.\n  \n\n   Case 3: Some of the remaining humans are engineers.\n  \n\n   Case 4: Some of the remaining humans are not engineers.\n  \n\n   Case 5: Some of the remaining humans are engineers and the rest are not engineers.\n  \n\n   So,\n   \n    None of the above Statements are correct.\nI think 2nd and 3rd are true but no option matches:(",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=11729327005196575755",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5720223965475661874",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2269674331071873234",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/110918/gate2016-ce-2-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39534",
+  "year": 2016,
+  "set": "2",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "All hill-stations have a lake. Ooty has two lakes.\n  \n\n   Which of the statement(s) below is/are logically valid and can be inferred from the above sentences?\n  \n\n    (i) only.\n   \n\n    (ii) only.\n   \n\n    Both (i) and (ii)\n   \n\n    Neither (i) nor (ii)",
+  "options": [
+   "Ooty is not a hill-station.",
+   "No hill-station can have more than one lake."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "All hill stations have a lake  $\\Rightarrow  \\forall x( h(x)\\to (\\exists y, l(y) \\wedge has(x,y)))$\n  \n\n   Ooty has two lakes $\\Rightarrow \\exists x ( o(x) \\wedge \\exists y,z ( has(x,y,z)\\wedge l(y)\\wedge l(z)\\wedge (z\\neq y) )$\n  \n\n   Here,\n  \n\n    $h(x) \\to x \\text{ is hill station}$\n   \n\n    $l(x) \\to x \\text{ is lake }$\n   \n\n    $has(x,y)\\to x \\text{ has }y$\n   \n\n    $has(x,y,z)\\to x\\text{ has } y, z$\n   \n\n    $o(x)\\to x \\text{ is Ooty}$\n   \n\n     Ooty is not a hill station: We can not derive this above arguments, Ooty has two lakes already, if Ooty had $0$ lakes only then this can become true.\n    \n\n     No hill station can have more than one lake.\n    \n\n    All arguments here are saying are if we have hill station, it can have lake. It is nowhere told that how many lakes it has. So, this is false.\n   \n\n     Answer: (D) neither (i) nor (ii)\nEvery hill station has a lake means \"every hill station has at least one lake\". That means a hill station can have more than one lakes. But, a place without any lake cannot be a hill station. So, none can be concluded.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39534/gate-cse-2016-set-2-question-ga-08",
   "source": "gateoverflow"
  },
  {
@@ -954,6 +1729,37 @@
   "explanation": "Let $x_1 =1\\; x_2=1\\;x_3=1\\;\\text{and}\\; x_4=1$\n  \n\n   such that $x_1\\oplus x_2\\oplus x_3 \\oplus x_4= 1\\oplus 1\\oplus 1\\oplus1=0$\n  \n\n    $x_1x_2x_3x_4= 1.1.1.1=1$ ,\n    \n     False\n    \n\n    $x_1x_3+x_2= 1.1+1=1$ ,\n    \n     False\n    \n\n    is always\n    \n     True\n    \n    .\n   \n\n    $x_1+x_2+x_3+x_4= 1+1+1+1=1$ ,\n    \n     False\n    \n\n   Correct Answer: $C$\nWe know $\\mathrm{A}\\oplus \\mathrm{B}=\\mathrm{A}\\mathrm{\\bar{B}}+\\mathrm{\\bar{A}}\\mathrm{B}$ and $\\overline{\\mathrm{A}\\oplus \\mathrm{B}}=\\mathrm{A}\\mathrm{B}+\\mathrm{\\bar{A}}\\mathrm{\\bar{B}}$\n  \n\n   Now let's have some facts from this boolean equation.\n  \n\n    $\\mathrm{A}\\oplus \\mathrm{A}=\\mathrm{A}\\mathrm{\\bar{A}}+\\mathrm{\\bar{A}}\\mathrm{A}=0$\n   \n\n    $\\mathrm{B}\\oplus \\mathrm{A}=\\mathrm{B}\\mathrm{\\bar{A}}+\\mathrm{\\bar{B}}\\mathrm{A}=\\mathrm{\\bar{A}}\\mathrm{B}+\\mathrm{A}\\mathrm{\\bar{B}}=\\mathrm{A}\\mathrm{\\bar{B}}+\\mathrm{\\bar{A}}\\mathrm{B}=\\mathrm{A}\\oplus \\mathrm{B}$\n   \n\n    $\\mathrm{\\bar{A}}\\oplus \\mathrm{\\bar{B}}=\\mathrm{\\bar{A}}\\mathrm{\\bar{\\bar{B}}}+\\mathrm{\\bar{\\bar{A}}}\\mathrm{\\bar{B}}=\\mathrm{\\bar{A}}\\mathrm{B}+\\mathrm{A}\\mathrm{\\bar{B}}=\\mathrm{A}\\oplus \\mathrm{B}$\n   \n\n    $(\\mathrm{A}\\oplus \\mathrm{B})\\oplus \\mathrm{C}=(\\mathrm{A}\\mathrm{\\bar{B}}+\\mathrm{\\bar{A}}\\mathrm{B}) \\mathrm{\\bar{C}}+(\\mathrm{A}\\mathrm{B}+\\mathrm{\\bar{A}}\\mathrm{\\bar{B}})\\mathrm{C}=\\mathrm{A}\\mathrm{\\bar{B}}\\mathrm{\\bar{C}}+\\mathrm{\\bar{A}}\\mathrm{B}\\mathrm{\\bar{C}}+\\mathrm{A}\\mathrm{B}\\mathrm{C}+\\mathrm{\\bar{A}}\\mathrm{\\bar{B}}\\mathrm{C}=\\mathrm{A}(\\mathrm{B}\\mathrm{C}+\\mathrm{\\bar{B}}\\mathrm{\\bar{C}})+\\mathrm{\\bar{A}}(\\mathrm{B}\\mathrm{\\bar{C}}+\\mathrm{\\bar{B}}\\mathrm{C})=\\mathrm{A}(\\overline{\\mathrm{B} \\oplus \\mathrm{C}})+\\mathrm{\\bar{A}}(\\mathrm{B} \\oplus \\mathrm{C})=\\mathrm{A}\\oplus (\\mathrm{B}\\oplus \\mathrm{C})$\n   \n\n   Now\n  \n\n   $\\begin{align} x_1\\oplus x_2\\oplus x_3\\oplus x_4&=0\\\\ \\Rightarrow x_1\\oplus (x_2\\oplus x_3)\\oplus x_4&=0 ~;~[\\mathrm{Using~no(4)}]\\\\ \\Rightarrow x_1 \\oplus (x_3\\oplus x_2)\\oplus x_4&=0 ~;~[\\mathrm{Using~no(2)}] \\\\ \\Rightarrow (x_1 \\oplus x_3)\\oplus (x_2\\oplus x_4)&=0 ~;~[\\mathrm{Using~no(4)}] \\\\ \\Rightarrow x_1 \\oplus x_3&=x_2\\oplus x_4 ~;~[\\mathrm{Using~no(1)}] \\\\ \\Rightarrow \\bar{x_1} \\oplus \\bar{x_3}&=\\bar{x_2}\\oplus \\bar{x_4} ~;~[\\mathrm{Using~no(3)}] \\end{align}$\n  \n\n   So the correct answer is\n   \n    C\n   \n   as it\n   \n    must always\n   \n   be\n   \n    true\n   \n   .\nOption C) x'1⊕x'3=x'2⊕x'4\n  \n\n   It can be easily observed with Truth table method\n  \n\n      x1\n     \n\n      x2\n     \n\n      x3\n     \n\n      x4\n     \n\n      x1⊕x2⊕x3⊕x4\n     \n\n      0\n     \n\n      0\n     \n\n      0\n     \n\n      0\n     \n\n      0\n     \n\n      0\n     \n\n      0\n     \n\n      0\n     \n\n      1\n     \n\n      1\n     \n\n      0\n     \n\n      0\n     \n\n      1\n     \n\n      0\n     \n\n      1\n     \n\n      0\n     \n\n      0\n     \n\n      1\n     \n\n      1\n     \n\n      0\n     \n\n      0\n     \n\n      1\n     \n\n      0\n     \n\n      0\n     \n\n      1\n     \n\n      0\n     \n\n      1\n     \n\n      0\n     \n\n      1\n     \n\n      0\n     \n\n      0\n     \n\n      1\n     \n\n      1\n     \n\n      0\n     \n\n      0\n     \n\n      0\n     \n\n      1\n     \n\n      1\n     \n\n      1\n     \n\n      1\n     \n\n      1\n     \n\n      0\n     \n\n      0\n     \n\n      0\n     \n\n      1\n     \n\n      1\n     \n\n      0\n     \n\n      0\n     \n\n      1\n     \n\n      0\n     \n\n      1\n     \n\n      0\n     \n\n      1\n     \n\n      0\n     \n\n      0\n     \n\n      1\n     \n\n      0\n     \n\n      1\n     \n\n      1\n     \n\n      1\n     \n\n      1\n     \n\n      1\n     \n\n      0\n     \n\n      0\n     \n\n      0\n     \n\n      1\n     \n\n      1\n     \n\n      0\n     \n\n      1\n     \n\n      1\n     \n\n      1\n     \n\n      1\n     \n\n      1\n     \n\n      0\n     \n\n      1\n     \n\n      1\n     \n\n      1\n     \n\n      1\n     \n\n      1\n     \n\n      0\nwe know that XOR gate is odd 1s detector. The output will be 1 only when number of 1's in the input is odd else it is 0\n  \n\n   So lets consider the case when the output can be zero i.e. number of 1s is even\n  \n\n      x1     x2      x3    x4\n     \n\n       0       0        0      0\n      \n\n       0       0        1      1\n      \n\n       0       1        0      1\n      \n\n       0       1        1      0\n      \n\n       1       0        0      1\n      \n\n       1       0        1      0   option B fails here\n      \n\n       1       1        0      0\n      \n\n       1       1        1      1   here option A and D fails\n      \n\n   option C\n  \n\n   $\\overline{x_{1}} \\oplus \\overline{x_{3}}=\\overline{x_{2}} \\oplus \\overline{x_{4} }$\n  \n\n   => $x_{1} \\oplus x_{3}=x_{2} \\oplus x_{4}$\n  \n\n   option C holds for all the combinations\n  \n\n   hence it is correct\nA XOR B is simply the addition of  bits of A and B without carry.\n  \n\n   So, out of 4 variables given here x1, x2, x3, x4 , given their XOR is 0 ,\n  \n\n    they all should be 0  or\n   \n\n    all should be 1 or\n   \n\n    any two of them should be 1.\n   \n\n   The reason why C is possible :\n  \n\n   LHS can have combination of x1 and x3 as\n  \n\n    (1,1), when all of them are 1 and so RHS will also have (1,1) for (x2,x4).\n   \n\n    (0,0),when all of them are 0 and so RHS will also have (0,0) for (x2,x4).\n   \n\n    (1,0) or (1,1), when two them are 1 and so RHS will have (1,0) or (0,0) for (x2,x4).\nEXOR gate gives output as 1 when we have odd number of 1’s in the input.\n  (EXNOR gate gives output as 1 when we have even number of 0’s in the input.)\n  Now, given x1⊕x2⊕x3⊕x4=0 which means number of 1’s in the input is not odd (but even).\n  Possible input values of x1,x2,x3,x4 are: Zero 1’s, two 1’s or all four 1’s.\n  Now let’s check the options:\n  A) x1x2x3x4=0. False when we have all 1’s in the input.\n  B) x1x3+x2=0. False when two 1’s occur for the inputs x1,x3.\n  C) x¯1⊕x¯3=x¯2⊕x¯4. This is same as x1⊕x3=x2⊕x4\n  Now, since the number of 1’s in the input is even,\n  if number of 1’s in x1,x3 is even then number of 1’s in x2,x4 is also even and if number of 1’s in x1,x3 is odd then number of 1’s in x2,x4 is also odd. Hence this is always true.\n  D) x1+x2+x3+x4=0.  False when we have zero 1’s in the input.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/39540/gate-cse-2016-set-2-question-08",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39617",
+  "year": 2016,
+  "set": "1",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the following statements relating to the level of poker play of four players $P,Q,R \\ and  \\ S$.\n  \n\n   Which of the following can be logically inferred from the above statements?\n  \n\n    $P$ is likely to beat all the three other players\n   \n\n    $S$ is the absolute worst player in the set\n   \n\n    (i). only\n   \n\n    (ii) only\n   \n\n    (i) and (ii) only'\n   \n\n    neither (i) nor (ii)",
+  "options": [
+   "$P$ always beats $Q$",
+   "$R$ always beats $S$",
+   "$S$ loses to $P$ only sometimes.",
+   "$R$ always loses to $Q$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Answer is (D) because\n  \n\n    $P$ is not likely to beat $S$ because $S$ only sometimes loses to $P$\n   \n\n    $S$ is not worst player because he is likely to beat $P$\n[IMAGE:100]\n\n   1) P is likely to beat all the three other players : False, there is no reference of P defeating R.\n  \n\n   ` 2) S is the absolute worst player in the set : False, S may be defeated by P.\n  \n\n   Hence, option D.\nFrom Statement 1,2,and 4\n  Level P>Q>R>S\n  But from 3rd statement S loses to P only sometimes.Here note that if S beat P then above statements will not hold true. So,statements are contracting each other and no conclusion can be drawn.\n  So Option D will be answer.\nOption D\n  All three can Beat S, but S loses to P only sometimes. So, (ii) can not be inferred from the given statements.\n  Defeating in Poker is not transitive. P beats Q. Q beats R and R beats S. Yet S loses to P only sometimes, meaning that S mostly wins against P. So we can not logically infer that P is likely to beat R.\nAnswer is D.\n  \n\n   \"S loses to P only sometimes\" is the main point. Since S loses to P only sometimes, it means S mostly wins against P. Therefore-\n  \n\n    P is not likely to beat all players as P is likely to lose to S.\n   \n\n    S is not the worst player as it beats P mostly.\nBoth statements are wrong because data give is insufficient to conclude any of the statements.\n  P can beat Q and S but its not given whether P will beat R or not.\n  S is the worst player. We cant conclude that since all the data required to analyze them are not given like its not given whether S will beat Q or not.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15055600770784556293",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/39617/gate-cse-2016-set-1-question-ga08",
   "source": "gateoverflow"
  },
  {
@@ -987,6 +1793,115 @@
   "source": "gateoverflow"
  },
  {
+  "id": "108093",
+  "year": 2016,
+  "set": "1",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If $\\large q^{-a} = \\dfrac{1}{r}$ and $\\large r^{-b} = \\dfrac{1}{s}$ and $\\large s^{-c} = \\dfrac{1}{q}$, the value of $abc$ is ________.",
+  "options": [
+   "$\\left(rqs\\right)^{-1}$",
+   "$0$",
+   "$1$",
+   "$r+q+s$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Multiply all terms,we will get more faster than above method.\n  $q^{-a}\\times r^{-b}\\times s^{-c}=\\frac{1}{r}\\times\\frac{1}{s}\\times\\frac{1}{q}$\n  $q^{-a}\\times r^{-b}\\times s^{-c}=q^{-1}\\times r^{-1}\\times s^{-1}$\n  Compare the terms\n  $a=1,b=1,c=1$\n  So,$abc=1$\n  ----------------------------------------\n  Suppose they ask $a+b+c=?$\n  We can simply put the values of $a,b$ and $c$ and get the answer\n  $a+b+c=1+1+1=3$\n  Correct Answer: $C$\nGiven that,\n  $\\large q^{-a} = \\dfrac{1}{r},\\;r^{-b}= \\dfrac{1}{s},\\; s^{-c} =\\dfrac{1}{q}$\n  Now, $\\large q^{-a} = \\dfrac{1}{r}$\n  $\\large\\Rightarrow \\dfrac{1}{q^{a}} =\\dfrac{1}{r}$\n  $\\large\\Rightarrow q^{a} = r$\n  Similarly, $\\large r^{b} = s$ and $\\large s^{c} = q$\n  In $\\large q^{a} = r$, we replace $q$ by $\\large s^{c}$ and $r$ by $\\large s^{\\dfrac{1}{b}}$\n  We get, $\\large s^{ca} = s^{\\dfrac{1}{b}}$\n  Since, the bases are equal, we can work with the exponents.\n  So, we get, $ac$ = $\\dfrac{1}{b}$ $\\Rightarrow abc = 1$\n$q^{-a} = \\dfrac{1}{r} , \\quad r^{-b} = \\dfrac{1}{s} , \\quad s^{-c} = \\dfrac{1}{q}$\n  $q^{-a} = \\dfrac{1}{r} \\Rightarrow log(q^{-a}) = log\\Big(\\dfrac{1}{r}\\Big) \\Rightarrow - \\, a \\cdot log(q) = - \\, log(r) \\Rightarrow \\boxed{a = \\dfrac{log(r)}{log(q)}}$\n  $r^{-b} = \\dfrac{1}{s} \\Rightarrow log(r^{-b}) = log\\Big(\\dfrac{1}{s}\\Big) \\Rightarrow - \\, b \\cdot log(r) = - \\, log(s) \\Rightarrow \\boxed{b = \\dfrac{log(s)}{log(r)}}$\n  $s^{-c} = \\dfrac{1}{q} \\Rightarrow log(s^{-c}) = log\\Big(\\dfrac{1}{q}\\Big) \\Rightarrow - \\, c \\cdot log(s) = - \\, log(q) \\Rightarrow \\boxed{c = \\dfrac{log(q)}{log(s)}}$\n  $abc = \\dfrac{log(r)}{log(q)} \\times \\dfrac{log(s)}{log(r)} \\times \\dfrac{log(q)}{log(s)}$\n  $\\boxed{abc = 1}$\n[IMAGE:300]\n\n   Correct Answer: C",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12021342770503678926",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/108093/gate2016-ec-1-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108304",
+  "year": 2016,
+  "set": "2",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "The binary operation $\\square$ is defined as $a\\square b = ab+(a+b),$ where $a$ and $b$ are any two real numbers. The value of the identity element of this operation, defined as the number $x$ such that $a\\square x = a,$ for any $a$, is",
+  "options": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "$10$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "The Correct Answer is Option A) 0.\n  $a\\square 0 = a \\times 0+(a+0)=a.$\n  So, $0$ is the identity element.\nGiven that $:a\\square b=ab+(a+b)$\n  Identity element of this operation, defined as the number $x$ such that $a\\square x = a$\n  $\\implies ax+(a+x) = a$\n  $\\implies ax+x=0$\n  $\\implies x(a+1)=0$\n  $\\implies x =0,a=-1\\in \\mathbb{R}$\n  So, the correct answer is $(A).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108304/gate2016-me-2-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110921",
+  "year": 2016,
+  "set": "2",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A square pyramid has a base perimeter $x$, and the slant height is half of the perimeter. What is the lateral surface area of the pyramid",
+  "options": [
+   "$x^{2}$",
+   "$0.75 x^{2}$",
+   "$0.50 x^{2}$",
+   "$0.25 x^{2}$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Given, perimeter of a pyramid is $x,$ so slant height is $\\dfrac{x}{2}.$\n  \n\n   Lateral Surface Area of a pyramid\n  \n\n   $= \\dfrac{1}{2} \\times \\text{perimeter}\\times \\text{slant height}$\n   $= \\dfrac{1}{2} \\times x \\times \\dfrac{x}{2}$\n   $= 0.25 x^{2}$\n  \n\n    so option D is correct .\nSimple way to solve it is [ without having any formula ]\n   \n\n    We know that pyramid is nothing take a square as base and on top of that put 4 triangles and it is a square\n   \n\n    Total surface area = Area of square +. 4 triangles area\n   \n\n    But question is about lateral surafe area, which means we don't include area of square which is base\n   \n\n    Now what is area of one triangle = 1/2 * base * height  [ to get final answer just multiply by 4 ]\n   \n\n    It is given that base of perimeter is x so single base is x/4 [ because square 4 sides ]\n   \n\n    Now height they said x/2\n   \n\n    So Final answer = 4 * [ 1/2 * x/4 * x/2 ] = x^2 / 4 = 0.25 x^2",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/110921/gate2016-ce-2-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39537",
+  "year": 2016,
+  "set": "2",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In a $2 \\times 4$ rectangle grid shown below, each cell is rectangle. How many rectangles can be observed in the grid?\n  \n\n   $$\\begin{array}{|c|c|c|c|c|}\\hline{\\;\\;\\;}&{\\;\\;\\;}&{\\;\\;\\;}&{\\;\\;\\;}\\\\\\hline{}&{}&{}&\\\\\\hline\\end{array}$$",
+  "options": [
+   "$21$",
+   "$27$",
+   "$30$",
+   "$36$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "To form a rectangle, we must choose two horizontal sides and two vertical sides. Since there are three horizontal lines,\n  We can choose the horizontal sides in ${^3}C{_2}$ ways.\n  Similarly, to choose $2$ vertical lines out of $5$ vertical lines is ${^5}C{_2}.$\n  So, answer is ${5\\choose 2}\\times {3\\choose 2}.$\n  Correct Answer: $C$\nHere answer is (C)  30.\n  Rectangle of Size 1 => 8\n  Size 2 => 10\n  Size 3 => 4\n  Size 4 => 5\n  Size 5 => 0\n  Size 6 => 2\n  Size 7 => 0\n  Size 8 => 1\n3C2 X 5C2 = 30\n5C2 * 3C2\n5C2*3C2",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39537/gate-cse-2016-set-2-question-ga-09",
+  "source": "gateoverflow"
+ },
+ {
   "id": "39546",
   "year": 2016,
   "set": "2",
@@ -1005,6 +1920,37 @@
   "explanation": "2's Complement Representation\n   \n\n   The range of $n\\text{-bit}\\; 2$'s Complement Numbers is $-(2^{n-1})$ to $+(2^{n-1}-1)$\n  \n\n   For example, if $n = 2$, then $-2, -1, 0, 1$ belong to the range(\n   \n    which are distinct\n   \n   )\n  \n\n   In general $2^{n}$ distinct integers are possible with $n\\text{-bit}\\;2's$ Complement Number $\\to X$\n  \n\n    Sign Magnitude Representation\n   \n\n   The range of $n\\text{-bit}$ Sign Magnitude numbers is $- (2^{n-1}-1)$ to $+ (2^{n-1}-1)$\n  \n\n   For example, if $n = 2$, then $-1, -0, +0, +1$ belong to the range in which $-0 = +0$ and both represent zero.\n  \n\n   In general $2^{n}-1$ distinct integers are possible with $n\\text{-bit}$ Sign magnitude representation $\\to Y$\n  \n\n   $X-Y =2^{n} - (2^{n}-1) =1.$\nFor N bits, Distinct values represented in 2's complement is -2\n   \n    n-1\n   \n   to 2\n   \n    n-1\n   \n   -1\n   Distinct values represented in Signed Magnitude is -(2\n   \n    n-1\n   \n   -1) to 2\n   \n    n-1\n   \n   -1\n   Difference is 1.\nFor N bits, Distinct values represented in 2's complement is -2\n   \n    n-1\n   \n   to 2\n   \n    n-1\n   \n   -1\n  \n\n   So the total distinct value is (2\n   \n    n\n   \n   ) => Represented by  X\n   Distinct values represented in Signed Magnitude is -(2\n   \n    n-1\n   \n   -1) to 2\n   \n    n-1\n   \n   -1\n  \n\n   So the total distinct value is (2\n   \n    n\n   \n   -1) => Represented by  Y\n  \n\n   X - Y = (2\n   \n    n\n   \n   ) - (2\n   \n    n\n   \n   -1) = 1\n   \n    ANS\n2's complement has one representation for 0 while signed magnitude has 2 representations for 0.\n  \n\n    So answer is 2-1 = 1.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/39546/gate-cse-2016-set-2-question-09",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39611",
+  "year": 2016,
+  "set": "1",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If $f(x) = 2x^{7}+3x-5$, which of the following is a factor of $f(x)$?",
+  "options": [
+   "$\\left(x^{3}+8\\right)$",
+   "$(x - 1)$",
+   "$(2x - 5)$",
+   "$(x + 1)$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "for $x=1$,\n  $f(1)=2(1)^7+3(1)-5 =0$ ,\n  so $x=1$ is a root for $f(x)$\n  so $(x-1)$ is factor\n  Correct Answer: $B$\nPut all values of x from options and equating the given equation equal to 0. (X-1) is answer.\nAnswer is easy to find just replace x values in f(x) , but how to check option (A) to be wrong is\n  \n\n[IMAGE:200]",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=14642702083640948438",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/39611/gate-cse-2016-set-1-question-ga09",
   "source": "gateoverflow"
  },
  {
@@ -1034,6 +1980,184 @@
   "source": "gateoverflow"
  },
  {
+  "id": "108094",
+  "year": 2016,
+  "set": "1",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "P, Q, R\n   \n   and\n   \n    S\n   \n   are working on a project.\n   \n    Q\n   \n   can finish the task in $25$ days, working alone for $12$ hours a day.\n   \n    R\n   \n   can finish the task in $50$ days, working alone for $12$ hours per day.\n   \n    Q\n   \n   worked $12$ hours a day but took sick leave in the beginning for two days.\n   \n    R\n   \n   worked $18$ hours a day on all days. What is the ratio of work done by\n   \n    Q\n   \n   and\n   \n    R\n   \n   after $7$ days from the start of the project?",
+  "options": [
+   "$10:11$",
+   "$11:10$",
+   "$20:21$",
+   "$21:20$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Correct answer is C.\n  \n\n    Q\n   \n   can finish the task in $25$ days, working alone for $12$ hours a day.\n  \n\n   What can we learn from this line??\n  \n\n   That Q, in $25\\times 12$ hours can complete the work alone.\n  \n\n   That is, his rate of doing work per hour is $\\frac{1}{25\\times 12}=\\frac{1}{300}.$\n  \n\n    R\n   \n   can finish the task in $50$ days, working alone for $12$ hours per day.\n  \n\n   Now, similarly,\n   \n    R'\n   \n   s per hour work is $\\frac{1}{600}.$\n  \n\n   Now,\n   \n    Q\n   \n   has worked for $5$ days of $12$ hours ($60$ hours) and\n   \n    R\n   \n   for $7$ days of $18$ hours ($126$ hours).\n  \n\n   We finally know, how many hours both worked, and their capacity for an hour.\n  \n\n   Ratio of work done by\n   \n    Q\n   \n   and\n   \n    R\n   \n   after $7$ days from the start of the project\n  \n\n   $\\qquad\\qquad=\\frac{\\text{Work done by Q}}{\\text{Work done by R}} = \\frac{60\\times \\frac{1}{300}}{126\\times  \\frac{1}{600}}=\\frac{20}{21}.$\nWhen both working 12 Hours a day\n  \n\n   Q’s 1 day work→ x /25\n  \n\n   R’s 1 day work→ x/50\n  \n\n   After 7 Days\n  \n\n   Q could only work for 5 days as he took 2 days leave  hence = 5x/25..\n  \n\n   R worked 18Hours per day in that week...18*7 = 126 = which is for him Working 10 days and 1 half day.\n  \n\n   So 10x/50 + x/(50*2) = 21x/100\n   In short Q worked for 5x/25 in a week\n  \n\n   R worked for 21x/100\n   Ratio is\n   \n    20:21...C is the answer",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108094/gate2016-ec-1-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108309",
+  "year": 2016,
+  "set": "2",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which of the following curves represents the function $y=\\ln \\left( \\mid e^{\\left[\\mid \\sin \\left( \\mid x \\mid \\right) \\mid \\right]} \\right)$ for $\\mid x \\mid < 2\\pi$? Here, $x$ represents the abscissa and $y$ represents the ordinate.",
+  "options": [
+   "[IMAGE:0]",
+   "[IMAGE:1]",
+   "[IMAGE:2]",
+   "[IMAGE:3]"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$f(x) = \\large \\ln \\left( |e^{\\left [ \\;\\; |{\\color{blue}{\\sin}} \\left ( {\\color{red}{|x|}} \\right ) | \\;\\; \\right ]}| \\right )$\n  $1. \\qquad {\\color{red}{\\bf |x|}}\\rightarrow \\;\\; f(x)\\;\\;\\; \\text{is Even }\\rightarrow \\quad \\text{option b not possible}$\n  $2. \\qquad m = |\\;{\\color{blue}{\\sin}} \\left ( {\\color{red}{\\bf |x|}} \\right ) | \\;\\; \\geq \\;\\; 0 \\quad \\rightarrow {\\color{blue}{e^{\\bf m} \\;\\; \\geq \\;\\; 1}}$\n  $3.\\Rightarrow f(x) = \\ln\\left ( | \\color{blue}{e^{\\bf m}}| \\right ) = \\ln\\left ( \\color{blue}{e^{\\bf m}}\\right ) \\geq 0 \\quad \\left \\{ \\text{from 2} \\right\\} \\;\\; \\rightarrow \\text{option a not possible}$\n  $4. \\text{ and } f(x)_{x=0} = 0 \\;\\; \\rightarrow \\text{option d not possible}$\n  $\\Rightarrow \\text{answer C}$\nFunction Y value will be positive only as Mod is given , A B eliminated now sinPi=0 D eliminated so C is answer",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2751683043275160464",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=7644745242049617926",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15938881480379291513",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=14173866610292569504",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/108309/gate2016-me-2-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "108729",
+  "year": 2016,
+  "set": "2",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A wire of length $340$ mm is to be cut into two parts. One of the parts is to be made into a square and the other into a rectangle where sides are in the ratio of $1:2$. What is the length of the side of the square (in mm) such that the combined area of the square and the rectangle is a\n   \n    MINIMUM\n   \n   ?",
+  "options": [
+   "$30$",
+   "$40$",
+   "$120$",
+   "$180$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Let two parts be $x$ and $y$ and part $x$ is used to make square and part $y$ is used to make rectangle.\n  $\\large x + y = 340$\n  If $x$ part is used to make square, means it is the parameter of square and each side of square is $\\frac{x}{4}$\n  Similarly, for rectangle $2*(l+b) = y$ and $l = 2b$\n  $2*3b = y \\Rightarrow b = \\frac{y}{6}$ and $l = \\frac{y}{3}$ (we know $y = 340-x$)\n  Question says the combined area of the square and the rectangle is a MINIMUM\n  $\\color{green}{A = (\\frac{x}{4})^2 + \\frac{340-x}{6}*\\frac{340-x}{3}}$\n  For combined area to be minimum $\\frac{\\text{d}A}{\\text{d}y} = 0$\n  $\\Rightarrow \\frac{2x}{16} - \\frac{2(340-x)}{18} = 0$\n  $\\large \\Rightarrow x = 160$\n  But question asks for MINIMUM length of side of square that is $\\color{maroon}{\\frac{x}{4} = 40mm}$\n  Correct Answer: $B$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/108729/gate2016-ec-2-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110855",
+  "year": 2016,
+  "set": "3",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A straight line is fit to a data set (ln $x, y$). This line intercepts the abscissa at ln $x = 0.1$ and has a slope of $-0.02$. What is the value of y at $x = 5$ from the fit?",
+  "options": [
+   "$-0.030$",
+   "$-0.014$",
+   "$0.014$",
+   "$0.030$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Interception at $x-$axis is $\\ln \\  x=0.1$ and slope $=-0.02$\n  Equation fo straight line is given by,\n  $y=mx+C$\n  According to the question,\n  $y=m(\\ln \\ x)+C$ where $m=-0.02$\n  $y=-0.02(\\ln \\ x)+C\\quad \\rightarrow(1)$\n  Abscissa is known as intercept in $x-$axis i.e. for $y=0,\\ln \\ x =0.1$\n  From equation $(1),$\n  $0=-0.02\\times 0.1+C$\n  $C=0.002\\quad \\rightarrow(2)$\n  From equations $(1)$ and $(2),$\n  $y=-0.02(\\ln \\ x)+0.002$\n  At $x=5,$\n  $y=-0.02(\\ln \\ 5)+0.002$\n  $y=-0.030$\n  So, the correct answer is $(A).$\nThe equation of straight line with slope and the coordinates (x,y) is\n   \n    Y=mX+C\n   \n   where “C” is constant. Since the graph is plotted in Y against Ln x   so the above equation modifies as\n   \n    Y=m LnX + C.\n   \n   All points are given and we can find the constant “C’. H\n   \n    ence option A is correct.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/110855/gate2016-ec-3-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "110924",
+  "year": 2016,
+  "set": "2",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Ananth takes $6$ hours and Bharath takes $4$ hours to read a book. Both started reading copies of the book at the same time. After how many hours is the number of pages to be read by Ananth, twice that to be read by Bharath? Assume Ananth and Bharath read all the pages with constant pace.",
+  "options": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Assume the book is of $240$ pages.\n  Ananth reads $40$ pages per hour and Bharath reads $60$ pages per hour.\n  Number of pages Ananth will complete at the end of each hour $- 40, 80, 120, 160, 200, 240.$\n  Number of pages Bharath will complete at the end of each hour $- 60, 120, 180, 240.$\n  At the end of $3^{rd}$ hour, Bharath is left with $60$ pages and Ananth is left with $120$ pages.\n  So, $3$ is the answer.\n  Correct Answer: $C$\nAfter 3 hrs,\n  Ananth reads 3/6 of the book = 50% of the book --> Ananth is yet to read remaining 50% of the book.\n  Bharath reads 3/4 of the book = 75% of the book --> Bharath is yet to read remaining 25% of the book.\n  So after 3 hrs, Ananth has to read twice of what Bharath needs to read to complete the book.\nLet there be $24$(multiple of (6,4)) pages in the book.\n  \n\n   Ananth takes $6$ hours to read $24$ pages  $\\Rightarrow$ Ananth takes $1$ hour to read $4$ pages.i.e. $20$ pages still left to read\n  \n\n   Bharath takes $4$ hours to read $24$ pages $\\Rightarrow$ Bharath takes $1$ hour to read $6$ pages i.e.$18$ pages still left to read\n  \n\n     After how many hours number of pages to be read by Ananth, twice that to be read by Bharath.\n    \n\n    Option $A.$ $1$ hour\n   \n\n   It is not the answer since $20 \\neq 2*18$\n  \n\n    Option $B.$ $2$ hour\n   \n\n   In $2$ hour Ananth will read $8$ page so $16$ pages will be left\n  \n\n   In $2$ hours Bharath will read $12$ pages and $12$ pages will be left.\n  \n\n   $\\because$ $16 \\neq 2*12$\n  \n\n   $\\therefore$ Option $B$ is not the answer\n  \n\n    Option $C.$ $3$ hour\n   \n\n   In $3$ hours Ananth will read $12$ page so $12$ pages will be left\n  \n\n   In $3$ hours Bharath will read $18$ pages and $6$ pages will be left.\n  \n\n   $\\because$ $12 =2*6$\n  \n\n   $\\therefore$ Option $C$ is the correct answer\n  \n\n   $\\therefore$ Option $C.$ $3$ is the correct answer\nAns: Option C\n  Let the book have x pages. In 1 hour, Ananth reads $\\frac{x}{6}$ pages and Bharath reads $\\frac{x}{4}$ pages. In h hours, Ananth and Bharath read $\\frac{hx}{6}$ and $\\frac{hx}{4}$ pages respectively. Also they are left with x – $\\frac{hx}{6}$ and x – $\\frac{hx}{4}$ pages yet to read after h hours. We want to find value of h for which\n  x – $\\frac{hx}{6}$ = 2(x – $\\frac{hx}{4}$)\n  Solving for h, we get h = 3.\nfollowing the approach of @Pascua but using LCM instead of fractions\n  \n\n    Ananth takes 6 hours and Bharath takes 4 hours to read a book\n   \n\n   the total work = lcm(6,4) = $24$ pages\n  \n\n   In 1 hr A reads $4$ pages\n  \n\n   In 1 hr B reads $6$ pages\n  \n\n   In h hours A reads $4*h$ pages and  remaining pages he has to read is $24-(4*h)$\n  \n\n   In h hours B reads $6*h$ pages and  remaining pages he has to read is $24-(6*h)$\n  \n\n    the number of pages to be read by Ananth, twice that to be read by Bharath\n   \n\n   $24-(4*h) = 2 * (24 - (6 * h))$\n  \n\n   $\\therefore h=3$\n  \n\n   Answer is Option $C$\nA-6hrs\n  B-4 hrs\n  so ration is 3:2\n  so 1.5:1(15*2:1*2)\n  so 3 is the answer",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/110924/gate2016-ce-2-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39535",
+  "year": 2016,
+  "set": "2",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "[IMAGE:0]",
+  "options": [
+   "$f(x) = 1 - |x - 1|$",
+   "$f(x) =1 + |x - 1|$",
+   "$f(x) = 2 - |x - 1|$",
+   "$f(x) = 2 + |x - 1|$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Answer is Option C\n   \n\n   The equation of line, from coordinates $(1,2)$ to $(3,0)$, where $|x-1|=(x-1)$\n  \n\n   $(y-2)=\\dfrac{(0-2)}{(3-1)}(x-1)$\n  \n\n   $y=2-(x-1)$\n  \n\n   $y=2-|x-1|$\n  \n\n   The equation of line, from coordinates $(-3,-2)$ to $(1,2)$, where $|x-1|=-(x-1)$\n  \n\n   $(y-(-2)) =\\dfrac{(2-(-2))}{(1-(-3))}(x-(-3))$\n  \n\n   $y=x+1$\n  \n\n   $y=2-(-(x-1))$\n  \n\n   $y=2-|x-1|$\n  \n\n    Note :\n   \n   Equation of line when two coordinates $(x_2,y_2)$ and $(x_1,y_1)$ are given is $(y-y_1)=\\dfrac{(y_2-y_1)}{(x_2-x_1)}(x-x_1)$\nHere we can cancel options easily !\n  \n\n    See that F(0) = 1\n    A) F(0) => 1 - |x-1| = 1-|-1| = 1-1 = 0 != 1. So A is not answer !\n    B) F(0) => 1 + |x-1| = 1 + | -1| = 1 + 1 = 2 != 1 So B is not answer !\n    D) F(0) => 2 + |x-1| = 2 + |-1| = 2 + 1 = 3 != 1 So D is not answer !\n    Remaining option C is answer !\nHere, is another direct method for eliminating the wrong options.\n  In the above graph, it is clearly shown that f(-1) = 0\n  a) f(-1) => 1 - |x-1| = 1-|-1-1| = 1-2 = -1.    So (a) is not answer\n  b) f(-1) => 1 + |x-1| = 1 + | -1-1| = 1+2 = 3 .     So (b) is not answer .\n  d) f(-1) => 2 + |x-1| = 2 + |-1-1| = 2+2 = 4 .    So (d) is not answer .\n  (c)  f(-1) => 2 - |x-1| = 2 - |-1-1| = 2-2 = 0  , satisfied the equation.\n  so,  option (c) is the answer .\nFrom the diagram we get\n  f(x):    1       2      0      0\n  x :    0      1       3      -1\n  So, only option C) matching\nMy answer is C\n  I am doing the shift of origin concept and y=mx+C , the mod x graph goes through origin.\n  then to bring it back to origin. mod x-1\n  and it is inverted than mod x graph , hence negative of mod x-1\n  changing Y from 2 to 0 is required to bring it back to origin\n  hence I think 2 - mod ( x-1 ) is the answer",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5036139318886835359",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/39535/gate-cse-2016-set-2-question-ga-10",
+  "source": "gateoverflow"
+ },
+ {
   "id": "39547",
   "year": 2016,
   "set": "2",
@@ -1057,6 +2181,32 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/39547/gate-cse-2016-set-2-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "39612",
+  "year": 2016,
+  "set": "1",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In a process, the number of cycles to failure decreases exponentially with an increase in load. At a load of $80$ units, it takes $100$ cycles for failure. When the load is halved, it takes $10000 \\ \\text{cycles}$ for failure.The load for which the failure will happen in $5000 \\ \\text{cycles}$ is _____________.",
+  "options": [
+   "$40.00$",
+   "$46.02$",
+   "$60.01$",
+   "$92.02$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "The number of cycles to failure decrease exponentially with an increase in load.\n  So, we have general equation\n  $y=ae^{-bx}$\n  where $y$ is number of cycles to failure, and $x$ is load.\n  At load of 80 units , it takes 100 cycles for failure.\n  $100=ae^{-80b} \\qquad \\to(1)$\n  when load is halved it takes $10000$ cycles for failure.\n  $10000=ae^{-40b} \\qquad \\to(2)$\n  Divide $(2)$ by $(1)$\n  $\\implies e^{40b}=100$\n  $\\implies b=\\dfrac{\\log_{e}100}{40} \\qquad \\to (3)$\n  At $5000$ cycles to failure\n  $5000=\\large ae^{-xb} \\qquad \\to(4)$\n  divide $(2)$ by $(4)$\n  $\\implies e^{b(x-40)}=2$\n  $\\implies b(x-40)=\\log_{e}2$\n  $\\implies \\dfrac{\\log_{e}100}{40}\\times(x-40)=\\log_{e}2$  $($using $(3))$\n  $\\implies x= 40 \\times\\dfrac{(\\log_{e}2 +\\log_{e}100 )}{\\log_{e}100}$\n  $\\qquad = 40 \\times\\dfrac{\\log_{e}200}{\\log_{e}100}$\n  $\\qquad= 46.02$\n  Correct Answer: $B$\nElimination method\n    \n\n    Given :-\n   \n\n   $\\rightarrow$ for $80$ units it takes $100$ cycles\n  \n\n   $\\rightarrow$ for $40$ units(load is halved) it takes $10000$ cycles.\n  \n\n   $\\rightarrow$ for $5000$ cycles$\\rightarrow$ __ units ?\n  \n\n    My Approach :-\n   \n\n   $\\rightarrow$ Since we have to calculate for $5000$ cycles the answer would lie between $40$ and $80$.\n  \n\n   $\\rightarrow$ so, option a and d are eliminated.\n  \n\n   $\\rightarrow$ now if we see the mid values i.e.\n  \n\n   $\\rightarrow$ for $40$ and $80$ it would be $60$ and for $100$ and $10000$ it would be $1000$.\n  \n\n   $\\rightarrow$ so we can eliminate option c.\n  \n\n   $\\rightarrow$ the only option left is\n   \n    b\n   \n   which is the required answer.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/39612/gate-cse-2016-set-1-question-ga10",
   "source": "gateoverflow"
  },
  {

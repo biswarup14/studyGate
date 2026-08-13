@@ -1,300 +1,5 @@
 [
  {
-  "id": "302863",
-  "year": 2019,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Logical & Analytical Reasoning",
-  "difficulty": "medium",
-  "marks": 2,
-  "text": "Three of the five students are allocated to a hostel put in special requests to the warden, Given the floor plan of the vacant rooms, select the allocation plan that will accommodate all their requests.\n  \n\n   Request by X: Due to pollen allergy, I want to avoid a wing next to the garden.\n  \n\n   Request by Y: I want to live as far from the washrooms as possible, since I am very much sensitive to smell.\n  \n\n   Request by Z: I believe in Vaastu and so I want to stay in South-West wing.\n  \n\n   The shaded rooms are already occupied. WR is washroom",
-  "options": [
-   "[IMAGE:0]",
-   "[IMAGE:1]",
-   "[IMAGE:2]",
-   "[IMAGE:3]"
-  ],
-  "correctAnswer": [
-   "D"
-  ],
-  "explanation": "Only in option D, we see that that Z has been assigned in S-W zone. Hence no scope of confusion with other options.\n  Moreover X and Y's requests have also been satisfied : X has not been assigned close to the garden.\n  Y has not been assigned close to the washroom.\nX want not live nearby garden  due to pollen allergy\n  Y want not live nearby wash room(WR)\n  Z want  to live in the South West wing\n  Clear it is option D\n  Because x is far from garden   Y is far from wash room  and Z is staying in South West wing",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15581162300337455988",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=8675745539438484370",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3474797724573726653",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=7021519328996997072",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/302863/gate-cse-2019-question-ga-10",
-  "source": "gateoverflow"
- },
- {
-  "id": "302864",
-  "year": 2019,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": 2,
-  "text": "In a college, there are three student clubs, $60$ students are only in the Drama club, $80$ students are only in the Dance club, $30$ students are only in Maths club, $40$ students are in both Drama and Dance clubs, $12$ students are in both Dance and Maths clubs, $7$ students are in both Drama and Maths clubs, and $2$ students are in all clubs. If $75 \\%$ of the students in the college are not in any of these clubs, then the total number of students in the college is _____.",
-  "options": [
-   "$1000$",
-   "$975$",
-   "$900$",
-   "$225$"
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "[IMAGE:0]\n\n   Read question carefully. We cannot directly use the formula\n  \n\n   $P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - P(A \\cap B)  - P(B \\cap C)  - P(C \\cap A)  + P(A\\cap B\\cap C)$\n  \n\n   because of the\n   \n    only\n   \n   keyword which means we do not directly know what is $P(A), P(B)$ or $P(C)$\n  \n\n   Here, according to question statement, we can calculate total number of students belonging to at least one club :\n   $P(A \\cup B \\cup C) = 60 + 80 + 30 + (40-2) + (12-2) + (7-2) + 2 =  225$\n  \n\n   This is just $25\\%$ of the total no of students since $75\\%$ do not belong to any club.\n  \n\n   So, total number of students$ = 225 \\div 25\\% = 225 \\times 4 =  900.$\nLet us solve it using the conventional formula :\n  \n\n    (A U B U C) = A + B + C - (A ∩ B) - (B ∩ C) - (C ∩ A) + (A ∩ B ∩ C)\n   \n\n   Notice that in this formula,\n  \n\n   A means students in Drama club (but not Drama club only).\n  \n\n   B means students in Dance club (but not Dance club only).\n  \n\n   C means students in Maths club (but not Maths club only).\n  \n\n   So, A = students in Drama club ONLY + students in Drama and Dance clubs + students in Drama and Maths clubs - students in all clubs.\n  \n\n   A= 60 + 40 + 7 - 2 =\n   \n    105.\n   \n\n   Similarly,\n  \n\n   B = 80 + 12 + 40 - 2 =\n   \n    130.\n   \n\n   C = 30 + 7 + 12 - 2 =\n   \n    47.\n   \n\n   Also, Given that (A ∩ B) =\n   \n    40\n   \n   , (B ∩ C) =\n   \n    12\n   \n   , (C ∩ A) =\n   \n    7\n   \n   &  (A ∩ B ∩ C) =\n   \n    2\n   \n\n   Now just substitute these values in the above formula.\n  \n\n    (A U B U C) = 105 + 130 + 47 - 40 - 12 - 7 + 2 = 282 - 57 = 225.\n   \n\n   But given that 75% of the students are not in any of these clubs ,i.e, 25% of the students are in at least one of these clubs.\n  \n\n   0.25 * x = 225 ==> x = 900.\n  \n\n   So, Total number of students in the college =\n   \n    900.\n$900$, Hence option C is the answer.\nSource: NPTEL\n  \n\n    https://www.youtube.com/watch?v=7AjA2RqDou8\n   \n\n   Watch from 38 minutes.\n  \n\n   Everything in GATE comes directly from NPTEL video lectures.\n  \n\n   They have stopped making the NPTEL references for GATE but its alright.\n  \n\n[IMAGE:300]\n\n[IMAGE:301]\n60 + (40-2) + 80 + (7-2) + 30 + (12-2) + 2 = 225 present in the clubs.\n  \n\n   75 % are not in any of the clubs i.e. 25% are in clubs.\n   Therefore ,  x/4 = 225 => x =900\n   Ans is C\nOnly Drama =\n   \n    60\n   \n\n   Only Dance =\n   \n    80\n   \n\n   Only Maths =\n   \n    30\n   \n\n   All of those =\n   \n    2\n   \n\n   40 are both Drama and Dance [ contain Maths or not contain Maths] , So Only drama and Drama and Dance = 40-2 =\n   \n    38\n   \n\n   7 both drama and Maths , so Only Drama and Maths = 7-2 =\n   \n    5\n   \n\n   12 both Dance and Maths , so Only Dance and Maths = 12-2 =\n   \n    10\n   \n\n   Total students who participate in at least in one club = add all 7 regions students = 60+80+30+2+38+5+10 = 225\n  \n\n   Given that 75% does not participate any of the club\n  \n\n   which means 25% will participate in at least one club, hence 25% is equal to 225\n  \n\n   so 75% will be 675\n  \n\n   total students = participate + not participate = 225+675 =\n   \n    900 [ Answer ]\n   \n\n    Note :- Never Apply any formula in such type of questions",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=10445158820588335650",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=14339416233527777398",
-    "kind": "remote"
-   },
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=11041003270181205853",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/302864/gate-cse-2019-question-ga-9",
-  "source": "gateoverflow"
- },
- {
-  "id": "302865",
-  "year": 2019,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": 2,
-  "text": "“A recent High Court judgement has sought to dispel the idea of begging as a disease – which leads to its stigmatization and criminalization  – and to regard it as a symptom. The underlying disease is the failure of the state to protect citizens who fall through the social security net.”\n  \n\n   Which one of the following statements can be inferred from the given passage?",
-  "options": [
-   "Beggars are lazy people who beg because they are unwilling to work",
-   "Beggars are created because of the lack of social welfare schemes",
-   "Begging is an offence that has to be dealt with firmly",
-   "Begging has to be banned because it adversely affects the welfare of the state"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "Option $B$ is the correct answer.\n  \n\n   The last sentence of the text mentions\n  \n\n    the underlying disease(cause) is the failure of state to protect citizens who fall through the social security net.\n   \n\n   which means beggars are created due to lack of social welfare schemes by the state.\n  \n\n    Beggars are lazy people who beg because they are unwilling to work - may or may not be true but cannot be inferred from the passage.\n   \n\n    Beggars are created because of the lack of social welfare schemes - Can be inferred from the last sentence.\n   \n\n    Begging is an offense that has to be dealt with firmly - It is given that High Court dispelled the idea of treating begging as an offense.\n   \n\n    Begging has to be banned because it adversely affects the welfare of the state - may or may not be true but cannot be inferred from the passage.\nOption B .\n   The court observed that people beg on streets not because they wish to, but because they need to. Begging is their last resort to subsistence as they ...\n   ........\n   \n    currentaffairs.gktoday.in/delhi-high-court-decriminalises-begging-national-capital-08201859837.html\n   \n   © GKToday\nB. Beggars are created because of lack of social welfare schemes\n  \n\n   The tone of the statement says it all. The court order is not in favour of penalizing the beggars but questions the government's ability to provide for social welfare schemes.\nOption B is correct. AS its mentioned in passage, that begging is the symptom which leads to stigmatization and criminalization.\n  \n\n   So since its a symptom, it has to be dealt firmly and begging leads to crimes so it has to be an offense.\n   \n    So option B is correct.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/302865/gate-cse-2019-question-ga-8",
-  "source": "gateoverflow"
- },
- {
-  "id": "302866",
-  "year": 2019,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": 2,
-  "text": "In the given diagram, teachers are represented in the triangle, researchers in the circle and administrators in the rectangle. Out of the total number of the people, the percentage of administrators shall be in the range of _______\n  \n\n[IMAGE:0]",
-  "options": [
-   "$0$ to $15$",
-   "$16$ to $30$",
-   "$31$ to $45$",
-   "$46$ to $60$"
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "No of administrator $=10+20+20=50$\n   \n\n    Total no of person $=80+20+20+40=160$\n   \n\n    Required $\\%=(50/160)*100=31.25\\%$\n   \n\n   $\\therefore$ Option $C$. $31$ to $45$ is the correct answer.\nThis one was the stupidest question. Why can't you ask clearly if you want \"just administrator\" or \"atleast an administrator\" . How would not adding or adding those details make it a difference in judging of the capability of a student. This should be removed from scoring, I will appeal if no one does.\n  \n\n   Edit: I have contested, got this email -- \"Dear Candidate You have contested for the question(s). The same is under process. Please login at GOAPS website to check the updated status. -- GATE Admin, 2019 \" . At the moment I do not see the contest on the GOAPS website though, they are still building it I guess.\nIsn't the no of administrators = 20\n  Since 20 and 10 are not completely administrators.",
-  "images": [
-   {
-    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=13828085220946770329",
-    "kind": "remote"
-   }
-  ],
-  "sourceUrl": "https://gateoverflow.in/302866/gate-cse-2019-question-ga-7",
-  "source": "gateoverflow"
- },
- {
-  "id": "302867",
-  "year": 2019,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": 2,
-  "text": "The police arrested four criminals – $P, Q, R$ and $S.$ The criminals knew each other. They made the following statements:\n  \n\n    $P$ says “Q committed the crime.”\n   \n\n    $Q$ says “S committed the crime.”\n   \n\n    $R$ says “ I did not do it.”\n   \n\n    $S$ says “What Q said about me is false”.\n   \n\n   Assume only one of the arrested four committed the crime and only one of the statements made above is true. Who committed the crime?",
-  "options": [
-   "$P$",
-   "$R$",
-   "$S$",
-   "$Q$"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "Option B. R\n  Assuming S is saying the truth.\n  P says Q committed the crime (FALSE) means Q has not\n  Q says S committed the crime(FALSE) means S has not\n  R says I did not (FALSE) means R has committed the crime.\nConsider Subscript C as criminal, NC as not criminal.\n  \n\n    Case I: Consider P as True\n   \n\n       Criminals\n      \n\n      P\n     \n\n      Q\n     \n\n      R\n     \n\n      S\n     \n\n       Assumption\n      \n\n      T\n     \n\n      F\n     \n\n      F\n     \n\n      F\n     \n\n       Result\n      \n\n      $Q_C$\n     \n\n      $S_{NC}$\n     \n\n      $R_C$\n     \n\n      $S_C$\n     \n\n   Q and R are criminal in the result is impossible because only one person committed the crime also $S_{NC}$ and $S_C $ in the result which is a contradiction. [S committed the crime and same time not committed crime which is contradiction]\n  \n\n    Case II: Consider Q as True\n   \n\n       Criminals\n      \n\n      P\n     \n\n      Q\n     \n\n      R\n     \n\n      S\n     \n\n       Assumption\n      \n\n      F\n     \n\n      T\n     \n\n      F\n     \n\n      F\n     \n\n       Result\n      \n\n      $Q_{NC}$\n     \n\n      $S_C$\n     \n\n      $R_C$\n     \n\n      $S_C$\n     \n\n   S and R are criminal in the result is impossible because only one person committed the crime.\n  \n\n    Case III: Consider R as True\n   \n\n       Criminals\n      \n\n      P\n     \n\n      Q\n     \n\n      R\n     \n\n      S\n     \n\n       Assumption\n      \n\n      F\n     \n\n      F\n     \n\n      T\n     \n\n      F\n     \n\n       Result\n      \n\n      $Q_{NC}$\n     \n\n      $S_{NC}$\n     \n\n      $R_{NC}$\n     \n\n      $S_C$\n     \n\n   $S_{NC}$ and $S_C$ in the result which is a contradiction. [S committed a crime and same time not committed crime which is contradiction]\n  \n\n    Case III: Consider S as True\n   \n\n       Criminals\n      \n\n      P\n     \n\n      Q\n     \n\n      R\n     \n\n      S\n     \n\n       Assumption\n      \n\n      F\n     \n\n      F\n     \n\n      F\n     \n\n      T\n     \n\n       Result\n      \n\n      $Q_{NC}$\n     \n\n      $S_{NC}$\n     \n\n      $R_C$\n     \n\n      $S_{NC}$\n     \n\n   R is a criminal in the result. Hence this case satisfies only one person committed the crime.\n  \n\n   Therefore R Committed the crime which is option\n   \n    B in Question\nS says: “What Q said about me is false”.\n  \n\n   We can paraphrase this as\n  \n\n   S says: I did not do it,\n  \n\n   So, one of S and Q is telling the truth, the other is lying. And it is given that exactly one of P,Q,R,S is telling the truth.\n   =>\n   \n\n     Either S or Q is the only person telling the truth\n    \n\n   .\n  \n\n   Suppose S is telling the truth => R is lying (so are others) => R did it.\n  \n\n   Suppose Q is telling the truth => R is lying => R did it.\n  \n\n     Option B\nR committed the crime.\n  \n\n   If we take S's statement as true and the remaining 3 statements as false. If what S says is true, then :\n   i. Q said that S committed crime which turns out to be false.\n   ii. R said that he didn't do it (if false) then it means R committed the crime.\n   iii. And the last statement said by P also becomes false.\n   In considering any of the other statements as true the remaining of the three will contradict with each other.\nOption B-R\n  ⇒ I true: 'Q' is Criminal\n  II, III, IV are false.\n  II is false: 'S' is not criminal.\n  IV is also false: 'S' committed crime.\n  There is conflict among I, IV now as P, S both should be criminals.\n  ⇒ II true: 'S' is criminal.\n  I, III, IV are false.\n  IV is false. So, 'S' is not criminal.\n  III is false. So. 'R' is criminal.\n  There is conflict among II, III as S, R both should be criminal.\n  III is true: Criminal ≠ R.\n  I, II, IV are false.\n  I is false. So, 'Q' is also not criminal.\n  II is false. So, 'S' is not criminal.\n  IV is false. So, 'S' is not criminal.\n  Q, R, S are not criminals. So, 'P' is criminal.\n  IV is true: I, II, III are false.\n  II is false. So, 'S' is not criminal.\n  IV is true. So, 'S' is criminal.\n  I is false. So, 'Q' is not criminal.\n  III is false. So, 'R' is criminal.\n  There is conflict, as R, S both should be criminals.\nOption A :  Suppose P committed crime\n   \n   . In that case\n  \n\n   P says “Q committed the crime.” {incorrect as P committed crime}\n  \n\n   Q says “S committed the crime.” {incorrect as P committed crime}   -------line1\n  \n\n   R says “ I did not do it.”               { correct as P committed crime}\n  \n\n   S says “What Q said about me is false”. {we already seen at line1 that  whatever Q  said is incorrect, hence this statement is correct}\n  \n\n   Hence as can be seen there are two correct statement. Hence A is not correct option.\n  \n\n    Option B :  Suppose R committed crime\n   \n   . In that case\n  \n\n   P says “Q committed the crime.” {incorrect as R committed crime.}\n  \n\n   Q says “S committed the crime.”{incorrect as R committed crime.} ---------line2\n  \n\n   R says “ I did not do it.”              {incorrect as R committed crime.}\n  \n\n   S says “What Q said about me is false”. {we already seen at line2 that  whatever Q  said is incorrect, hence this statement is correct }\n  \n\n   Hence as can be seen there is only correct statement. Hence B is not correct option.\n  \n\n    Option C :  Suppose S committed crime\n   \n   . In that case\n  \n\n   P says “Q committed the crime.”{ incorrect as S committed crime}\n  \n\n   Q says “S committed the crime.”  {correct as S committed crime}  ------line3\n  \n\n   R says “ I did not do it.”                 {correct as S committed crime}\n  \n\n   S says “What Q said about me is false”. {as can be seen on line3 whatever Q said is actually true, hence this statement is false/incorrect}\n  \n\n   Hence as can be seen there are two correct statement. Hence C is not correct option.\n  \n\n    Option C :  Suppose Q committed crime\n   \n   . In that case\n  \n\n   P says “Q committed the crime.” {correct as Q committed crime}\n  \n\n   Q says “S committed the crime.” {incorrect as Q committed crime} ------line4\n  \n\n   R says “ I did not do it.”                {correct as Q committed crime}\n  \n\n   S says “What Q said about me is false”.{correct as seen at line 4 whatever Q said is incorrect , hence this statement is correct}\n  \n\n   Hence as can be seen there are two correct statement. Hence D is not correct option.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/302867/gate-cse-2019-question-ga-6",
-  "source": "gateoverflow"
- },
- {
-  "id": "302868",
-  "year": 2019,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": 1,
-  "text": "A court is to a judge as _________ is to a teacher",
-  "options": [
-   "a student",
-   "a punishment",
-   "a syllabus",
-   "a school"
-  ],
-  "correctAnswer": [
-   "D"
-  ],
-  "explanation": "D. School\n   \n\n   A court is a place where the judge works, school is a place where a teacher works.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/302868/gate-cse-2019-question-ga-5",
-  "source": "gateoverflow"
- },
- {
-  "id": "302869",
-  "year": 2019,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": 1,
-  "text": "Ten friends planned to share equally the cost of buying a gift for their teacher. When two of them decided not to contribute, each of the other friends had to pay Rs. $150$ more. The cost of the gift was Rs. ____",
-  "options": [
-   "$666$",
-   "$3000$",
-   "$6000$",
-   "$12000$"
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "Let us suppose each of the $10$ friends were supposed to contribute Rs $x$.\n  Hence total cost for gift $= \\text{Rs } 10 x$.\n  Now since $2$ friends won't contribute , hence $8$ friends would have to contribute $(x+150)$ each.\n  By the sum,\n  $10x = 8x+1200$\n  $\\implies 2x= 1200$\n  $\\implies x= 600$\n  Hence total cost of the gift $= 10x = \\text{Rs. }6000$\nFriend Name\n      \n\n      $A$\n     \n\n      $B$\n     \n\n      $C$\n     \n\n      $D$\n     \n\n      $E$\n     \n\n      $F$\n     \n\n      $G$\n     \n\n      $H$\n     \n\n      $I$\n     \n\n      $J$\n     \n\n       ${\\color{Blue} {TOTAL\\ MONEY}}$\n      \n\n       Money Contributed\n      \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $10x$\n     \n\n    I\n   \n   and\n   \n    J\n   \n   didn't gave the money\n  \n\n       Friend Name\n      \n\n      $A$\n     \n\n      $B$\n     \n\n      $C$\n     \n\n      $D$\n     \n\n      $E$\n     \n\n      $F$\n     \n\n      $G$\n     \n\n      $H$\n     \n\n       ${\\color{red} {TOTAL\\ MONEY}}$\n      \n\n       Money Contributed\n      \n\n      $x+150$\n     \n\n      $x+150$\n     \n\n      $x+150$\n     \n\n      $x+150$\n     \n\n      $x+150$\n     \n\n      $x+150$\n     \n\n      $x+150$\n     \n\n      $x+150$\n     \n\n      $8(x+150)$\n     \n\n    ${\\color{Blue} {TOTAL\\ MONEY}}$\n   \n   =\n   \n    ${\\color{red} {TOTAL\\ MONEY}}$\n   \n\n   $\\Rightarrow\\ 10x\\ =\\ 8(x+150)$\n  \n\n   $\\Rightarrow\\  10x\\ =\\ 8x + 1200$\n  \n\n   $\\Rightarrow\\ 2x\\ =\\ 1200$\n  \n\n   $\\Rightarrow\\  x\\ =\\ 600$\n  \n\n   so ,\n   \n    TOTAL MONEY\n   \n   $=10x=6000$\nSuppose each friend share equally cost= x\n  There are 10 friend so total cost =10x\n  Two not to decide contribute so  8 friends had to pay 150 more each\n  8x+150×8=10x\n  1200=2x\n  X=600 hence total cost of gift=10×600=6000\n  Answer C\nLet the gift net worth is \"x\".\n  Therefore, $\\frac{x}{10} = \\frac{x-(150*8)}{8}$\n  x = 6000\nLet x be the amount 1 person is contributing and y be the total amount\n  Now,\n  10(x) = y _________(1)\n  2(0) + 8(x+150) = y ___________(2)\n  8(x) + 1200 = 10(x)\n  => 2(x) =1200\n  x = 600\n  therefore total amount, y = 10(x) = 6000\nsuppose that  total cost of price is x   ( lets suppose amount is 80)\n  total number os students are 10 then each have to pay of  x/10 ( each have to pay 8)\n  now two students does not want to contribute so remaining students are 8 (new amount 10 so rs 2 rupees extra)\n  x/8=x/10+150 ( 80/8=80/10+2 )\n  5x-4x=150*40\n  x=600.",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/302869/gate-cse-2019-question-ga-4",
-  "source": "gateoverflow"
- },
- {
-  "id": "302870",
-  "year": 2019,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Quantitative Aptitude",
-  "difficulty": "medium",
-  "marks": 1,
-  "text": "Two cars at the same time from the same location and go in the same direction. The speed of the first car is $50$ km/h and the speed of the second car is $60$ km/h. The number of hours it takes for the distance between the two cars to be $20$ km is _____.",
-  "options": [
-   "$1$",
-   "$2$",
-   "$3$",
-   "$6$"
-  ],
-  "correctAnswer": [
-   "B"
-  ],
-  "explanation": "Let the required distance be reached at time $T$. Let Speed be ($S1=60 ,S2=50$)\n  According to the Question $\\rightarrow D1- D2=20$\n  $\\therefore (60*T)-(50*T)=20$\n  $T=2$\nGiven Distance =20km/hr\n  First find the Relative speed\n  Relative speed=60km/h-5 km/h=10km/h\n  Speed=Distance/time\n  Time=20/10= 2hrs\nElimination method\n    \n    :-\n   \n\n     Given\n    \n\n   :-\n  \n\n   car $1$ speed = $50\\ km/h$\n  \n\n   car $2$ speed = $60\\ km/h$\n  \n\n   car $1$ travels $50$ km in $1$ hr\n  \n\n   car $2$ travels $60$ km in $1$ hr\n  \n\n   So distance between them is\n   \n    $10$ km in $1$ hr.\n   \n\n     so option A eliminated.\n    \n\n   car $1$ travels $100$ km in $2$ hr\n  \n\n   car $2$ travels $120$ km in $2$ hr\n  \n\n   so distance between them is\n   \n    $20$ km in $2$ hr.\n   \n\n     $\\therefore$ option B is correct answer.\nRelative speed 10km/hr so separation increases at the rate of 10 per hour so requires 2 hours",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/302870/gate-cse-2019-question-ga-3",
-  "source": "gateoverflow"
- },
- {
-  "id": "302871",
-  "year": 2019,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": 1,
-  "text": "The search engine’s business model ____ around the fulcrum of trust.",
-  "options": [
-   "revolves",
-   "plays",
-   "sinks",
-   "bursts"
-  ],
-  "correctAnswer": [
-   "A"
-  ],
-  "explanation": "The answer for the above question is\n  option A. Revolves\n  the actual meaning of Revolves in this context is to 'treat as the most important element'.\n  So the above meaning of the sentence goes:\n  The business model of any search engine is entirely dependent on trust.\n  OR\n  Trust is the most important factor of the business model of any search engine.\nA. revolves  (to be a central part or most important )\nThe correct option is C.\n  \"Revolves\" here denotes as \"based on\".\nA. Revolves around .\n   \n    https://dictionary.cambridge.org/dictionary/english/revolve-around-sb-sth\nplay\n   \n\n    around\n   \n\n    somebody\n   \n   /\n   \n    something\n   \n   --to behave in a casual, foolish, or irresponsible way.\n  \n\n    revolve\n   \n\n    around\n   \n\n    sb\n   \n   /\n   \n    sth\n   \n   : to have someone or something as the main or most important interest or subject.\n  \n\n   There are no phrasal verbs like burst around and sink around.\n  \n\n   So clearly the option which satisfies the sentence is revolves around.\nOption(A) revolves...treated as the most important element",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/302871/gate-cse-2019-question-ga-2",
-  "source": "gateoverflow"
- },
- {
-  "id": "302872",
-  "year": 2019,
-  "set": null,
-  "number": null,
-  "section": "CS",
-  "type": "mcq",
-  "subject": "General Aptitude",
-  "subtopic": "Verbal Aptitude",
-  "difficulty": "medium",
-  "marks": 1,
-  "text": "The expenditure on the project _____ as follows: equipment Rs.$20$ lakhs, salaries Rs.$12$ lakhs, and contingency Rs.$3$ lakhs.",
-  "options": [
-   "break down",
-   "break",
-   "breaks down",
-   "breaks"
-  ],
-  "correctAnswer": [
-   "C"
-  ],
-  "explanation": "$\\rightarrow$\n   \n    Break down\n   \n   means to separate something into smaller parts.\n  \n\n   $\\rightarrow$ The\n   \n    subject-word agreement\n   \n   states that\n  \n\n    Singular nouns go with singular verbs while plural nouns go with plural verbs.\n   \n\n   $\\rightarrow$\n   \n    Expenditure\n   \n   is singular noun and its plural form is\n   \n    expenditures\n   \n   .\n  \n\n    The expenditure (\n    \n     singular\n    \n\n     noun\n    \n    ) in the project breaks (\n    \n     singular\n    \n\n     verb\n    \n\n     used\n    \n\n     in\n    \n\n     the\n    \n\n     phrase\n    \n    ) down as follows\n   \n\n   $\\rightarrow$ The above statement satisfies the subject verb agreement and hence, the correct option is $C$\nBreaks down since it means classification into parts\nC breaks down.\n  \n\n    https://www.oxfordlearnersdictionaries.com/definition/english/break-down\nBreaks down means separated\n  or\n  classify the thing into smaller parts.\nThe answer is \"c\" because of present tense\n  Breaks down will be the answer.\nc) Breaks Down",
-  "images": [],
-  "sourceUrl": "https://gateoverflow.in/302872/gate-cse-2019-question-ga-1",
-  "source": "gateoverflow"
- },
- {
   "id": "302847",
   "year": 2019,
   "set": null,
@@ -323,6 +28,214 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/302847/gate-cse-2019-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "302872",
+  "year": 2019,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": 1,
+  "text": "The expenditure on the project _____ as follows: equipment Rs.$20$ lakhs, salaries Rs.$12$ lakhs, and contingency Rs.$3$ lakhs.",
+  "options": [
+   "break down",
+   "break",
+   "breaks down",
+   "breaks"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$\\rightarrow$\n   \n    Break down\n   \n   means to separate something into smaller parts.\n  \n\n   $\\rightarrow$ The\n   \n    subject-word agreement\n   \n   states that\n  \n\n    Singular nouns go with singular verbs while plural nouns go with plural verbs.\n   \n\n   $\\rightarrow$\n   \n    Expenditure\n   \n   is singular noun and its plural form is\n   \n    expenditures\n   \n   .\n  \n\n    The expenditure (\n    \n     singular\n    \n\n     noun\n    \n    ) in the project breaks (\n    \n     singular\n    \n\n     verb\n    \n\n     used\n    \n\n     in\n    \n\n     the\n    \n\n     phrase\n    \n    ) down as follows\n   \n\n   $\\rightarrow$ The above statement satisfies the subject verb agreement and hence, the correct option is $C$\nBreaks down since it means classification into parts\nC breaks down.\n  \n\n    https://www.oxfordlearnersdictionaries.com/definition/english/break-down\nBreaks down means separated\n  or\n  classify the thing into smaller parts.\nThe answer is \"c\" because of present tense\n  Breaks down will be the answer.\nc) Breaks Down",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/302872/gate-cse-2019-question-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313377",
+  "year": 2019,
+  "set": "2",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Daytime temperature in Delhi can ______ $40^{\\circ}C.$",
+  "options": [
+   "get",
+   "stand",
+   "reach",
+   "peak"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Ans C. reach\n   Other words can be used as follows:\n  \n\n    Daytime temperature in Delhi can\n    \n     get to\n    \n    $40^{\\circ}C$\n   \n\n    Daytime temperature in Delhi can\n    \n     stand at\n    \n    $40^{\\circ}C$\n   \n\n    Daytime temperature in Delhi can\n    \n     peak to\n    \n    $40^{\\circ}C$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313377/gate2019-ce-2-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313442",
+  "year": 2019,
+  "set": "1",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The lecture was attended by quite _______ students, so the hall was not very _______.",
+  "options": [
+   "a few, quite",
+   "few, quiet",
+   "a few, quiet",
+   "few, quite"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "\"by quite a few students, so the hall was not very quiet.\"\n  \n\n    \"a few\" -- small number\n   \n\n    \"few\" -- almost zero\n   \n\n    \"quite\" -- fairly\n   \n\n    \"quiet\" -- silent\n   \n\n   Correct Option: C",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313442/gate2019-ce-1-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313543",
+  "year": 2019,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The strategies that the company ________ to sell its products _______ house-to-house marketing.",
+  "options": [
+   "use, includes",
+   "uses, include",
+   "used, includes",
+   "uses, including"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Answer B\n   \n\n   “the company” is singular, hence “uses”\n  \n\n   “The strategies” is plural, hence “include”\n‘Company’ is a singular noun, hence it will take singular verb ‘uses’ while for “strategies”, ‘include’ is correct.\n  Hence, the correct option is $(B).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313543/gate2019-ec-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313550",
+  "year": 2019,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The fisherman, ________ the flood victims owed their lives, were rewarded by the government.",
+  "options": [
+   "whom",
+   "to which",
+   "to whom",
+   "that"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Correct Answer: C\n   \n    \"to whom\"\n   \n\n   While talking about living beings \"which\" and \"that\" are inappropriate.\n  \n\n   \"whom\" makes the sentence incorrect while \"to whom\" makes it correct.\n  \n\n    More reading for who and whom\nCorrect Answer: C\n  \n\n   option A could be correct if the sentence would have been:\n   \"The fisherman, ________ the flood victims owed their lives\n   \n    to\n   \n   , were rewarded by the government\"\n   the\n   \n    to\n   \n   has to be there because people are owing\n   \n    to\n   \n   someone",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313550/gate2019-in-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313568",
+  "year": 2019,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "I am not sure if the bus that has been booked will be able to ______ all the students.",
+  "options": [
+   "sit",
+   "deteriorate",
+   "fill",
+   "accommodate"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "'sit'\n   \n   is inappropriate as bus is not sitting the students and this is different from saying if the bus will have enough seats for all the students.\n  \n\n    'deteriorate'\n   \n   means becoming progressively worse and is clearly unsuitable here.\n  \n\n    'fill'\n   \n   is also inappropriate here as the bus is not filling the students but rather students are filling the bus.\n  \n\n    'accommodate'\n   \n   means to provide sufficient space and is the apt word here.\n  \n\n   Correct Answer: D.\nAnswer D\n   \n\n    Accommodate is the correct word for this sentence.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313568/gate2019-ee-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313583",
+  "year": 2019,
+  "set": "2",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Once the team of analysis identify the problem, we ____ in a better position to comment on the issue.\n  \n\n   Which of the following choices CANNOT fill the given blank?",
+  "options": [
+   "will be",
+   "were to be",
+   "are going to be",
+   "might be"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Option B. were to be\n  The first part is in future tense, so the next half cannot be in past tense. All other three choices can work.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313583/gate2019-me-2-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313602",
+  "year": 2019,
+  "set": "1",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "John Thomas, an _____ writer, passed away in 2018.",
+  "options": [
+   "imminent",
+   "prominent",
+   "eminent",
+   "dominant"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "imminent means about to happen\n   \n\n    prominent means important\n   \n\n    eminent means one who is famous and respected within a particular sphere; distinguished or renowned.\n   \n\n    dominant means having power and influence\n   \n\n   So, $(C)$ is the correct choice.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313602/gate2019-me-1-ga-1",
   "source": "gateoverflow"
  },
  {
@@ -357,6 +270,214 @@
   "source": "gateoverflow"
  },
  {
+  "id": "302871",
+  "year": 2019,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": 1,
+  "text": "The search engine’s business model ____ around the fulcrum of trust.",
+  "options": [
+   "revolves",
+   "plays",
+   "sinks",
+   "bursts"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "The answer for the above question is\n  option A. Revolves\n  the actual meaning of Revolves in this context is to 'treat as the most important element'.\n  So the above meaning of the sentence goes:\n  The business model of any search engine is entirely dependent on trust.\n  OR\n  Trust is the most important factor of the business model of any search engine.\nA. revolves  (to be a central part or most important )\nThe correct option is C.\n  \"Revolves\" here denotes as \"based on\".\nA. Revolves around .\n   \n    https://dictionary.cambridge.org/dictionary/english/revolve-around-sb-sth\nplay\n   \n\n    around\n   \n\n    somebody\n   \n   /\n   \n    something\n   \n   --to behave in a casual, foolish, or irresponsible way.\n  \n\n    revolve\n   \n\n    around\n   \n\n    sb\n   \n   /\n   \n    sth\n   \n   : to have someone or something as the main or most important interest or subject.\n  \n\n   There are no phrasal verbs like burst around and sink around.\n  \n\n   So clearly the option which satisfies the sentence is revolves around.\nOption(A) revolves...treated as the most important element",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/302871/gate-cse-2019-question-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313378",
+  "year": 2019,
+  "set": "2",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The growth rate of ABC Motors in $2017$ was the same ________ XYZ Motors in $2016.$",
+  "options": [
+   "as off",
+   "as those of",
+   "as that off",
+   "as that of"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Ans D. As that of - compare two inanimate things",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313378/gate2019-ce-2-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313443",
+  "year": 2019,
+  "set": "1",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "They have come a long way in ________ trust among the users.",
+  "options": [
+   "creating",
+   "created",
+   "creation",
+   "create"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "\"in creating\" is the correct usage.\n  Correct Option: A.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313443/gate2019-ce-1-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313542",
+  "year": 2019,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The boat arrived ______ dawn.",
+  "options": [
+   "in",
+   "at",
+   "on",
+   "under"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "As the sentence is intended to specify a particular time instance of the arrival of the boat, ‘at’ is the most appropriate option. We also use ‘at’ to specify places like ‘at the market’.\n  Correct option is $(B).$\nAns B.\n   \n   The correct answer is\n   \n    \"at dawn\"\n   \n   because\n   \n    \"at\"\n   \n   is used to refer to specific times, like\n   \n    \"at 6 PM\" or \"at midnight.\"\n   \n   Dawn is a specific time, so we say\n   \n    \"at dawn.\" \"In\"\n   \n   is used for longer periods like\n   \n    \"in the morning.\"",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313542/gate2019-ec-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313551",
+  "year": 2019,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Some students were not involved in the strike.\n  \n\n   If the above statement is true, which of the following conclusions is/are logically necessary?\n  \n\n    $1$ and $2$\n   \n\n    $3$\n   \n\n    $4$\n   \n\n    $2$ and $3$",
+  "options": [
+   "Some who were involved in the strike were students.",
+   "No student was involved in the strike.",
+   "At least one student was involved in the strike.",
+   "Some who were not involved in the strike were students."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Some students were not involved in the strike.\n  \n\n    Some who were involved in the strike were students - cannot be inferred from the given statement.\n   \n\n    No student was involved in the strike - same as above, cannot be inferred.\n   \n\n    At least one student was involved in the strike - same as above, cannot be inferred.\n   \n\n    Some who were not involved in the strike were students -- same meaning as the given statement.\n   \n\n   So, if the given statement is TRUE statement 4 must be TRUE whereas the other three may or may not be TRUE (not necessary).\n  \n\n   Correct Answer: C.\nAnswer B\n  \n\n   3. At least one student was involved in the strike.\n  \n\n    Because some students were not involved in the strike.\n   \n\n    It means some were take part in it.\n   \n\n   Other statements 1. It makes sense but not given in any option\n  \n\n   2.it definitely false so option A and D false\n  \n\n   4. It definitely false  out of scope\n(C) 4\n   \n   . Some who were not involved in the strike were students.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313551/gate2019-in-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313571",
+  "year": 2019,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The passengers were angry ______ the airline staff about the delay.",
+  "options": [
+   "on",
+   "about",
+   "with",
+   "towards"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "\"Angry with\" is used if anger is aimed at someone.\n  \n\n   \"Angry at\" is used if anger is aimed at some situation.\n  \n\n   Ref:\n   \n    https://english.stackexchange.com/questions/43671/angry-with-vs-angry-at-vs-angry-on\n   \n\n   Correct Answer: C\nAnswer C\n   \n\n    The correct preposition is ‘with’.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313571/gate2019-ee-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313586",
+  "year": 2019,
+  "set": "2",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A final examination is the ____ of a series of evaluations that a student has to go through",
+  "options": [
+   "culmination",
+   "consultation",
+   "desperation",
+   "insinuation"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Culmination\n     \n     :\n     \n      the point at which an event or series of events ends, having developed until it reaches this point\n     \n\n     Consultation: a discussion between people before a decision is taken\n    \n\n     Desperation:  loss of hope and surrender to despair.\n    \n\n     Insinuation: an indirect or covert suggestion or hint, especially of a derogatory nature\n    \n\n   And Hence the answer is A- Culmination\nA. Culmination\n  Culmination is defined by a concluding action.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313586/gate2019-me-2-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313603",
+  "year": 2019,
+  "set": "1",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "____I permitted him to leave, I wouldn’t have had any problem with him being absent, ____ I?",
+  "options": [
+   "Had, wouldn’t",
+   "Have, would",
+   "Had, would",
+   "Have, wouldn’t"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "To denote something that happened before in past tense, we have to use past perfect. So, we have to start with \"Had\".\n  Since wouldn't have is used in the sentence, and we are forming a question, it must be \"would I\"?\n  Correct Option: C.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313603/gate2019-me-1-ga-2",
+  "source": "gateoverflow"
+ },
+ {
   "id": "302845",
   "year": 2019,
   "set": null,
@@ -383,6 +504,224 @@
   "source": "gateoverflow"
  },
  {
+  "id": "302870",
+  "year": 2019,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": 1,
+  "text": "Two cars at the same time from the same location and go in the same direction. The speed of the first car is $50$ km/h and the speed of the second car is $60$ km/h. The number of hours it takes for the distance between the two cars to be $20$ km is _____.",
+  "options": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$6$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Let the required distance be reached at time $T$. Let Speed be ($S1=60 ,S2=50$)\n  According to the Question $\\rightarrow D1- D2=20$\n  $\\therefore (60*T)-(50*T)=20$\n  $T=2$\nGiven Distance =20km/hr\n  First find the Relative speed\n  Relative speed=60km/h-5 km/h=10km/h\n  Speed=Distance/time\n  Time=20/10= 2hrs\nElimination method\n    \n    :-\n   \n\n     Given\n    \n\n   :-\n  \n\n   car $1$ speed = $50\\ km/h$\n  \n\n   car $2$ speed = $60\\ km/h$\n  \n\n   car $1$ travels $50$ km in $1$ hr\n  \n\n   car $2$ travels $60$ km in $1$ hr\n  \n\n   So distance between them is\n   \n    $10$ km in $1$ hr.\n   \n\n     so option A eliminated.\n    \n\n   car $1$ travels $100$ km in $2$ hr\n  \n\n   car $2$ travels $120$ km in $2$ hr\n  \n\n   so distance between them is\n   \n    $20$ km in $2$ hr.\n   \n\n     $\\therefore$ option B is correct answer.\nRelative speed 10km/hr so separation increases at the rate of 10 per hour so requires 2 hours",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/302870/gate-cse-2019-question-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313370",
+  "year": 2019,
+  "set": "2",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Suresh wanted to lay a new carpet in his new mansion with an area of $70\\times 55$ sq.mts. However an area of $550$ sq. mts. had to be left out for flower pots. If the cost carpet is Rs.$50$  sq. mts. how much money (in Rs.) will be spent by Suresh for the carpet now?",
+  "options": [
+   "$Rs.1,65,000$",
+   "$Rs.1,92,500$",
+   "$Rs.2,75,000$",
+   "$Rs.1,27,500$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Ans A.\n  Total floor area $= 3850$ sq.mts\n  Total area to be carpeted $= 3850-550 = 3300$ sq.mts\n  Carpet cost $=$ Rs $50/$sq.mts\n  Total cost to carpet $3300$ sq.mts $= 50 \\times 3300 = \\text{Rs. } 1,65,000$\nArea=70*55sq.mts=3850sq.mts\n  Total area to be carpeted(leaving the area for flower pots)=3850-550=3300 sq.mts.\n  Total cost= 3300*50=Rs.165000.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313370/gate2019-ce-2-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313438",
+  "year": 2019,
+  "set": "1",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "On a horizontal ground, the base of a straight ladder is $6$ m away from the base of a vertical pole. The ladder makes an angle of $45^{\\circ}$ to the horizontal. If the ladder is resting at a point located at one-fifth of the height of the pole from the bottom, the height of the pole is ______ meters.",
+  "options": [
+   "$15$",
+   "$25$",
+   "$30$",
+   "$35$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "[IMAGE:0]\n\n   Let, height of the vertical pole is $h$ meters.\n  \n\n   Now, according to above figure,\n  \n\n   $\\tan 45^{\\circ} = \\frac{h/5}{6}$\n  \n\n   $\\Rightarrow 1 = \\frac{h}{30}$\n  \n\n   $\\Rightarrow h = 30$\n  \n\n   So, height of the pole is $30\\; meters.$\n  \n\n    Answer is (C)",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=17914280597762118733",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/313438/gate2019-ce-1-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313531",
+  "year": 2019,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "It would take one machine $4$ hours to complete a production order and another machine $2$ hours to complete the same order. If both machines work simultaneously at their respective constant rates, the time taken to complete the same order is ________ hours.",
+  "options": [
+   "$2/3$",
+   "$3/4$",
+   "$4/3$",
+   "$7/3$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Machine $A$ takes $4$ hours and machine $B$ takes $2$ hours to complete the work.\n  $\\text{Efficiency}=\\dfrac{\\text{Work}}{\\text{Time}}$\n  Let the amount of work be $X.$\n  Efficiency of $A=\\frac{X}{4}$\n  Efficiency of $B=\\frac{X}{2}$\n  If both machines work simultaneously at their respective constant rates, then\n  Effective Efficiency $=$ Efficiency of $A$ $+$ Efficiency of $B=\\frac{X}{4}+\\frac{X}{2} = \\frac{3X}{4}$\n  Effective Time$=\\dfrac{X}{\\frac{3X}{4}}=\\dfrac{4}{3}$ hours.\n  So, the correct answer is $(C).$\n$Let\\ W=4\\ unit$\n  \n\n   $M1\\rightarrow4H-\\ \\ 1unit/H$\n  \n\n   $M2\\rightarrow2H-\\ \\ \\underline{2unit/H}$\n  \n\n   $3unit/H$\n  \n\n   $1H\\rightarrow 3unit$\n  \n\n   $?\\rightarrow 4unit$\n  \n\n    $?=\\dfrac{4}{3}H$\nLet the production order be 8 items(any multiple of L.c.m(2,4) like 4,8,12,16... would work).\n   \n\n    Since 1 st machine completes the order in 4 hours, it is producing at a rate of 2 units per hour.\n   \n\n    Similarly 2 nd machine produces at a rate of 4 units per hour.\n   \n\n    If both machines are working simultaneously, together they produce 6 units per hour.\n   \n\n    $\\therefore$ 8 units are produced in $8/6$ hours.\n   \n\n    option c is the answer",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313531/gate2019-ec-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313546",
+  "year": 2019,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The radius as well as the height of a circular cone increases by $10\\%.$ The percentage increase in its  volume is ________.",
+  "options": [
+   "$17.1$",
+   "$21.0$",
+   "$33.1$",
+   "$72.8$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Volume of a cone, $V = \\frac{\\pi}{3} r^2h$\n  $r \\to 1.1r, h \\to 1.1h \\implies V \\to 1.1^2 \\times 1.1 V = 1.331 V$\n  So, percentage increase in volume $ = 33.1\\%$\n  Correct Option: C",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313546/gate2019-in-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313558",
+  "year": 2019,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The missing number in the given sequence $343,1331,$_____$,4913$ is",
+  "options": [
+   "$3375$",
+   "$2744$",
+   "$2197$",
+   "$4096$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$343, 1331, \\_\\_\\_\\_\\_,4913$\n  $=7^{3},11^{3},\\_\\_\\_\\_ ,17^{3},$\n  $\\because 7,11,17$ are prime numbers\n  $\\Rightarrow 13^{3} = 2197$ should be the answer. ($\\because$ 13 is also a prime number and is the only prime between $11$ and $17)$\n  Correct Answer: Option C\nAnswer will be\n  C: 2197",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313558/gate2019-ee-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313588",
+  "year": 2019,
+  "set": "2",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "If IMHO=JNIP; IDK=JEL; and SO=TP, then IDC=______",
+  "options": [
+   "JDE",
+   "JED",
+   "JDC",
+   "JCD"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "B. JED\n  From the examples, it's clear that the code is using next alphabet.\nTHE ANSWER WILL BE  (B):  JED\n  since,IMHO=JNIP=3000(generating code)\n  IDK=JEL=000(generating code)\n  SO=TP=00(generating code)\n  SO,   IDC=JED=000(generating code)\n  because the code is generating the next alphabet as shown in the IDK=JEL which is like to this and generating 000 code.\nAns B.\n   \n\n   The pattern in the given transformations involves shifting each letter to the next in the alphabet:\n  \n\n     I → J\n    \n    ,\n    \n     M → N\n    \n    ,\n    \n     H → I\n    \n    ,\n    \n     O → P\n    \n    (IMHO = JNIP)\n   \n\n     I → J\n    \n    ,\n    \n     D → E\n    \n    ,\n    \n     K → L\n    \n    (IDK = JEL)\n   \n\n     S → T\n    \n    ,\n    \n     O → P\n    \n    (SO = TP)\n   \n\n   Following this pattern for\n   \n    IDC\n   \n   :\n  \n\n     I → J\n    \n\n     D → E\n    \n\n     C → D\n    \n\n   So,\n   \n    IDC = JED\n   \n   .\n  \n\n   The correct answer is\n   \n    JED\n   \n   .",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313588/gate2019-me-2-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313597",
+  "year": 2019,
+  "set": "1",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A worker noticed that the hour hand on the factory clock had moved by $225$ degrees during her stay at the factory. For how long did she stay in the factory?",
+  "options": [
+   "$3.75$ hours",
+   "$4$ hours and $15$ mins",
+   "$8.5$ hours",
+   "$7.5$ hours"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Hour hand of a clock covers $360^{\\circ}$ in $12$ hours.\n  \n\n   Since, $360^{\\circ}$ is covered in $12$ hours. So, $225^{\\circ}$ will be covered in $\\frac{225^{\\circ}}{360^{\\circ}}\\times12 = 7.5$ hours.\n  \n\n   So,\n   \n    Answer is (D)\nNumber of hours in a clock $= 12$ hours\n   One rotation hour hand covers $360^{\\circ} $\n   $360$ degrees $= 12$ hours\n   $1$ degree $=\\dfrac{12}{360}$ hours\n   $225$ degrees $=\\dfrac{12}{360}\\times 225$ hours $=7.5$ hours\n  \n\n[IMAGE:100]\n\n   $(OR)$\n  \n\n   The worker stays in the factory $=3\\ hours \\ ({0^{\\circ} \\ to \\ \\ 90^{\\circ}}) +3 \\ hours  \\ ({90^{\\circ} \\ to \\ \\ 180^{\\circ}}) +\\dfrac{3}{2}\\ hours \\ ({180^{\\circ} \\ to \\ \\ 225^{\\circ}}) = 7.5 \\ hours$\n  \n\n   So, option $(D)$ is the correct choice.\nFor 1 hour the hour hand takes 30 deg.\n  \n\n    Therefore 225 deg / 30 deg = 7.5 hours.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=12870963585964118048",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/313597/gate2019-me-1-ga-3",
+  "source": "gateoverflow"
+ },
+ {
   "id": "302844",
   "year": 2019,
   "set": null,
@@ -406,6 +745,211 @@
   "explanation": "$(+28)_{10} = (0000$ $0000$ $0001 1100)_2$\n   $-28$ is nothing but $2s$ complement of $+28$.\n   So, $2s$ complement of $(0000$ $0000$ $0001$ $1100)_2$ is $(1111$ $1111$ $1110$ $0100)_2$\n   $(-28)_{10} = (1111$ $1111$ $1110$ $0100)_2$.\n   \n    Answer is (C)\n   \n   .\n2's complement and 2's complement representation are different.\n  \n\n   In 2's complement representation, positive no is represented as they are and neg no is represented in 2's complement form.\n  \n\n   28 in binary = 11100, expanded to 16 bits = 0000 0000 0001 1100\n  \n\n   1's complement of this binary no = 1111 1111 1110 0011\n  \n\n   Add 1 to get 2's complement =       1111 1111 1110 0100\n  \n\n   Ans should be option C.\n  \n\n    https://www.cs.cornell.edu/~tomf/notes/cps104/twoscomp.html\nClearly option $C$.\n  \n\n    Ignoring the sign bit extension option $C$ reduces to $100100$\n    \n\n      Now calculate the weighted sum to convert it into decimal $= (-2^{5} + 2^{2}) = (-32 + 4) = -28$\n(+28) = 0000 0000 00011100\n   \n\n    (-28) is nothing its just 2’s of (+28)\n   \n\n    (-28) = ( 1111 1111 11100100 )\n   \n\n    OPTION C IS CORRECT",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/302844/gate-cse-2019-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "302869",
+  "year": 2019,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": 1,
+  "text": "Ten friends planned to share equally the cost of buying a gift for their teacher. When two of them decided not to contribute, each of the other friends had to pay Rs. $150$ more. The cost of the gift was Rs. ____",
+  "options": [
+   "$666$",
+   "$3000$",
+   "$6000$",
+   "$12000$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Let us suppose each of the $10$ friends were supposed to contribute Rs $x$.\n  Hence total cost for gift $= \\text{Rs } 10 x$.\n  Now since $2$ friends won't contribute , hence $8$ friends would have to contribute $(x+150)$ each.\n  By the sum,\n  $10x = 8x+1200$\n  $\\implies 2x= 1200$\n  $\\implies x= 600$\n  Hence total cost of the gift $= 10x = \\text{Rs. }6000$\nFriend Name\n      \n\n      $A$\n     \n\n      $B$\n     \n\n      $C$\n     \n\n      $D$\n     \n\n      $E$\n     \n\n      $F$\n     \n\n      $G$\n     \n\n      $H$\n     \n\n      $I$\n     \n\n      $J$\n     \n\n       ${\\color{Blue} {TOTAL\\ MONEY}}$\n      \n\n       Money Contributed\n      \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $x$\n     \n\n      $10x$\n     \n\n    I\n   \n   and\n   \n    J\n   \n   didn't gave the money\n  \n\n       Friend Name\n      \n\n      $A$\n     \n\n      $B$\n     \n\n      $C$\n     \n\n      $D$\n     \n\n      $E$\n     \n\n      $F$\n     \n\n      $G$\n     \n\n      $H$\n     \n\n       ${\\color{red} {TOTAL\\ MONEY}}$\n      \n\n       Money Contributed\n      \n\n      $x+150$\n     \n\n      $x+150$\n     \n\n      $x+150$\n     \n\n      $x+150$\n     \n\n      $x+150$\n     \n\n      $x+150$\n     \n\n      $x+150$\n     \n\n      $x+150$\n     \n\n      $8(x+150)$\n     \n\n    ${\\color{Blue} {TOTAL\\ MONEY}}$\n   \n   =\n   \n    ${\\color{red} {TOTAL\\ MONEY}}$\n   \n\n   $\\Rightarrow\\ 10x\\ =\\ 8(x+150)$\n  \n\n   $\\Rightarrow\\  10x\\ =\\ 8x + 1200$\n  \n\n   $\\Rightarrow\\ 2x\\ =\\ 1200$\n  \n\n   $\\Rightarrow\\  x\\ =\\ 600$\n  \n\n   so ,\n   \n    TOTAL MONEY\n   \n   $=10x=6000$\nSuppose each friend share equally cost= x\n  There are 10 friend so total cost =10x\n  Two not to decide contribute so  8 friends had to pay 150 more each\n  8x+150×8=10x\n  1200=2x\n  X=600 hence total cost of gift=10×600=6000\n  Answer C\nLet the gift net worth is \"x\".\n  Therefore, $\\frac{x}{10} = \\frac{x-(150*8)}{8}$\n  x = 6000\nLet x be the amount 1 person is contributing and y be the total amount\n  Now,\n  10(x) = y _________(1)\n  2(0) + 8(x+150) = y ___________(2)\n  8(x) + 1200 = 10(x)\n  => 2(x) =1200\n  x = 600\n  therefore total amount, y = 10(x) = 6000\nsuppose that  total cost of price is x   ( lets suppose amount is 80)\n  total number os students are 10 then each have to pay of  x/10 ( each have to pay 8)\n  now two students does not want to contribute so remaining students are 8 (new amount 10 so rs 2 rupees extra)\n  x/8=x/10+150 ( 80/8=80/10+2 )\n  5x-4x=150*40\n  x=600.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/302869/gate-cse-2019-question-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313371",
+  "year": 2019,
+  "set": "2",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A retaining wall with measurements $30$ m $\\times12$ m $ \\times 6$ m was constructed with bricks of dimensions  $8$ cm $\\times6$ cm $ \\times 6$ cm. If $60\\%$ of the wall consists of bricks, the number of bricks used for the construction is _______ lakhs.",
+  "options": [
+   "$30$",
+   "$40$",
+   "$45$",
+   "$75$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Number of bricks $= \\dfrac{0.6 \\times3000 \\times 1200 \\times 600}{8 \\times 6 \\times 6} = 300 \\times150 \\times 100= 45 \\text{ lakhs.}$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313371/gate2019-ce-2-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313439",
+  "year": 2019,
+  "set": "1",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If $E=10,J=20,O=30,$ and $T=40,$ what will be $P+E+S+T?$",
+  "options": [
+   "$51$",
+   "$82$",
+   "$120$",
+   "$164$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$A-2,B-4,C-6,D-8,{\\color{Magenta}{E-10} },F-12,G-14,H-16,$\n  $I-18,{\\color{Magenta}{J-20} },K-22,L-24,M-26,N-28,{\\color{Magenta}{O-30} },$\n  ${\\color{Red}{P-32} },Q-34,R-36,{\\color{Red}{S-38} },{\\color{Magenta}{T-40} },U-42,V-44,$\n  $W-46,X-48,Y-50,Z-52$\n  So, $P+E+S+T=32+10+38+40=120$\n  Correct answer is $(C).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313439/gate2019-ce-1-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313530",
+  "year": 2019,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Five different books $(P, Q, R, S, T)$ are to be arranged on a shelf. The books $R$ and $S$ are to be arranged first and second, respectively from the right side of the shelf. The number of different orders in which $P, Q$ and $T$ may be arranged is ______.",
+  "options": [
+   "$2$",
+   "$6$",
+   "$12$",
+   "$120$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$$\\underbrace{\\underline{}\\;\\underline{}\\;\\underline{}}_{3!\\text{ ways}}\\;\\boxed{\\underline{S}\\;\\underline{R}}$$\n  As positions of $R$ and $S$ are fixed at first and second from right, so $ P, Q,$ and $T$ can be arranged in three possible places.\n  Hence, the total possible arrangements $={3!}=6$\n  Correct option is $(B).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313530/gate2019-ec-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313547",
+  "year": 2019,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Five numbers $10,7,5,4$ and $2$ are to be arranged in a sequence from left to right following the directions given below:\n  \n\n   Which is the second number from the right?\n  \n\n    $2$\n   \n\n    $4$\n   \n\n    $7$\n   \n\n    $10$",
+  "options": [
+   "No two odd or even numbers are next to each other.",
+   "The second number from the left is exactly half of the left-most number.",
+   "The middle number is exactly twice the right-most number."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "No two odd or even numbers are next to each other.\n   \n\n    The second number from the left is exactly half of the left-most number.\n    So, the left most number must be even and its half must be odd which comes next. Only options are $10,5$\n   \n\n    The middle number is exactly twice the right-most number.\n    Middle number must be even and only options left are $2$ and $4$. Since $1$ is not there, $4$ must be the middle and $2$ the right most.\n   \n\n   Thus we get $$10\\quad 5 \\quad 4 \\quad 7 \\quad 2$$\n  \n\n   Required answer is $7.$\n  \n\n   Option C.\nFrom the above possible instructions, the sequence possible is:- 10,5,4,7,2.\n  \n\n    So, the answer is:- 7",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313547/gate2019-in-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313560",
+  "year": 2019,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "It takes two hours for a person $X$ to mow the lawn. $Y$ can mow the same lawn in four hours. How long (in minutes) will it take $X$ and $Y,$ if they work together to mow the lawn$?$",
+  "options": [
+   "$60$",
+   "$80$",
+   "$90$",
+   "$120$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Speed of $X = \\frac{1}{2},$ where the unit is number of times lawn is mowed in an hour.\n  Speed of $Y = \\frac{1}{4}$\n  Effective speed of $X+Y = \\frac{1}{2}+\\frac{1}{4} = \\frac{3}{4}.$\n  So, time for both $X$ and $Y$ to mow the lawn $ = \\frac{1}{\\frac{3}{4}} = \\frac{4}{3} \\text{ hours} = 80 \\text{ minutes}$\n  Correct Answer: Option B.\nX takes $2$ hours to mow the lawn\n  \n\n   $\\Rightarrow$ In $1$ hour he can mow $\\frac{1}{2}$ of the lawn.\n  \n\n   Y takes $4$ hours to mow the lawn\n  \n\n   $\\Rightarrow$ In $1$ hour he can mow $\\frac{1}{4}$ of the lawn.\n  \n\n   So in $1$ hr X and Y together can mow $\\frac{1}{2}$+$\\frac{1}{4}$ = $\\frac{2+1}{4}$=$\\frac{3}{4}$ of the lawn.\n  \n\n   X and Y together can mow $\\frac{3}{4}$ of the lawn in $1$ hour\n  \n\n   $\\Rightarrow$ X and Y together can mow $1$ lawn in $1* \\frac{4}{3}$ hour = $60* \\frac{4}{3}$ = $80$ minutes.\n  \n\n   So Option B $80$ is the right answer.\n$Let\\ W=4\\ unit$\n  \n\n   $X\\rightarrow2H-\\ \\ 2unit/H$\n  \n\n   $Y\\rightarrow4H-\\ \\ \\underline{1unit/H}$\n  \n\n   $3unit/H$\n  \n\n   $1H\\rightarrow 3unit$\n  \n\n   $?\\rightarrow 4unit$\n  \n\n    $?=\\dfrac{4}{3}H=\\dfrac{4}{3}\\times 60\\ min=80\\ min$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313560/gate2019-ee-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313573",
+  "year": 2019,
+  "set": "2",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The product of three integers $X$, $Y$ and $Z$ is $192$. $Z$ is equal to $4$ and $P$ is equal to the average of $X$ and $Y$. What is the minimum possible value of $P$?",
+  "options": [
+   "$6$",
+   "$7$",
+   "$8$",
+   "$9.5$"
+  ],
+  "correctAnswer": null,
+  "explanation": "Given\n    \n\n   $X*Y*Z = 192$,\n  \n\n   $Z=4,$\n  \n\n   $P = \\left ( \\frac{X+Y}{2} \\right )$\n  \n\n    Solution\n   \n\n   $X*Y*Z = 192$\n  \n\n   $\\Rightarrow$ $X*Y*4 = 192$\n  \n\n   $\\Rightarrow$ $X*Y = 48$\n  \n\n   Now $48$ should be broken into product of 2 numbers such that they are close to each other because if numbers are close to each other then their average will be minimum..\n  \n\n   For eg:- $48$ can be $4*12$, $1*48$, $6*8$, $16*3$ but here we will select $6*8$ because $6$ and $8$ are closest to each other with a difference of $2$.\n  \n\n   $\\Rightarrow$ $X*Y = 6*8$\n  \n\n   $X=6, Y=8$\n  \n\n   $P = \\left ( \\frac{X+Y}{2} \\right ) = \\left ( \\frac{8+6}{2} \\right )= 7$\n  \n\n   $\\therefore$ Option B. $7$ is the correct answer.\nIt is given that :- $X*Y*Z= 192$ , $Z=4$. So, $X*Y=48$\n  \n\n   Now, $P=\\frac{X+Y}{2}=\\frac{X+\\frac{48}{X}}{2}=\\frac{1}{2}\\left ( X+\\frac{48}{X} \\right )$\n  \n\n   Now, to find the minimum value of $P,$ Differentiate $P$ with respect to $X$\n  \n\n   $\\frac{\\mathrm{d} P}{\\mathrm{d} X} = \\frac{1}{2}\\left ( 1 -\\frac{48}{X^{2}} \\right )$\n  \n\n   Now, $\\frac{\\mathrm{d} P}{\\mathrm{d} X} = 0$\n  \n\n   So, $X= \\pm 4\\sqrt{3}$\n  \n\n   Now, at $X= +4\\sqrt{3}$,  $\\frac{\\mathrm{d}^{2}P }{\\mathrm{d} X^{2}} > 0$\n  \n\n   So, $P$ will be minimum at $X= +4\\sqrt{3}$\n  \n\n   So, Minimum value of $P$ will be $\\frac{1}{2}\\left ( 4\\sqrt{3} + \\frac{48}{4\\sqrt{3}} \\right ) = 2\\sqrt{3} + \\frac{6}{\\sqrt{3}} = \\frac{12}{\\sqrt{3}} = 4\\sqrt{3} =6.928….$(An Irrational value)\n  \n\n   No options are matching.\n  \n\n    For this question, Marks were given to all.\nxyz=192\n  z=4\n  xy=192/4\n  xy=48\n  p=x+y/2\n  we all know that least sum of x and y is 14 (x=8 , y=6)\n  which means p=7\n  but there comes the problem(p!=7)\n  in question it is said that x and y are integers\n  so we can take -1 and -48 whose product is 48 and average is -24.5\n  and -24.5<7",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313573/gate2019-me-2-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313598",
+  "year": 2019,
+  "set": "1",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The sum and product of two integers are $26$ and $165$ respectively. The difference between these two integers is ______",
+  "options": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$6$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Let the two integers be $x$ and $y.$\n   Given that:\n  \n\n    $x+y=26\\qquad \\to (1)$\n   \n\n    $xy=165\\qquad \\to(2)$\n   \n\n   To be find$:x-y=?$\n   We know that $(x-y)^{2}=x^{2}+y^{2}-2xy$\n   $\\implies(x-y)^{2}=x^{2}+y^{2}+2xy-4xy$\n   $\\implies(x-y)^{2}=(x+y)^{2}-4xy$\n   Put the values from equation $(1)$ and $(2)$ and we get\n   $\\implies(x-y)^{2}=(26)^{2}-4\\times165$\n   $\\implies(x-y)^{2}=676-660$\n   $\\implies(x-y)^{2}=16$\n   $\\implies(x-y)=\\sqrt{16}$\n   $\\implies x-y=\\pm4$\n   $\\implies x-y=4$  $(or)$  $x-y=-4$\n  \n\n   $-4$ is ruled out as both the sum and product of the numbers are positive meaning both the numbers must be positive.\n  \n\n   So, $(C)$ is the correct choice.\nwe know (x-y)^2=(x+y)^2-4xy\n  \n\n    x+y=26,xy=165\n    \n\n      so (x-y)^2=26^2-4*165=16\n      \n\n        so x-y=4\nfactors of 165 = 5*3*11\n  \n\n    X = 5*3 = 15\n    \n\n      Y = 11\n      \n\n        (X+Y = 15 + 11 = 26 ; XY = 15*11= 165)\n        \n\n          Ans: 15-11 = 4",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313598/gate2019-me-1-ga-4",
   "source": "gateoverflow"
  },
  {
@@ -438,6 +982,214 @@
   "source": "gateoverflow"
  },
  {
+  "id": "302868",
+  "year": 2019,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": 1,
+  "text": "A court is to a judge as _________ is to a teacher",
+  "options": [
+   "a student",
+   "a punishment",
+   "a syllabus",
+   "a school"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "D. School\n   \n\n   A court is a place where the judge works, school is a place where a teacher works.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/302868/gate-cse-2019-question-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313379",
+  "year": 2019,
+  "set": "2",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Hema Das was_____ only Indian athlete to win _______ gold for India.",
+  "options": [
+   "the , many",
+   "the, a",
+   "an, a",
+   "an , the"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Ans B. The - to provide emphasis. A - since the next word is gold ('a' gold means one gold out of many possible).",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313379/gate2019-ce-2-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313444",
+  "year": 2019,
+  "set": "1",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The CEO’s decision to quit was as shocking to the Board as it was to ______.",
+  "options": [
+   "I",
+   "me",
+   "my",
+   "myself"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "\"me\" - the\n   \n    object form of \"I\"\n   \n   .\n  \n\n   Correct option: B",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313444/gate2019-ce-1-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313541",
+  "year": 2019,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "When he did not come home, she _______ him lying dead on the roadside somewhere.",
+  "options": [
+   "concluded",
+   "looked",
+   "notice",
+   "pictured"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "The given sentence is pointing to some kind of imagination, hence the most appropriate word is ‘pictured’.\n  Hence, the correct option is (D).",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313541/gate2019-ec-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313552",
+  "year": 2019,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Until Iran came along, India had never been ___________ in Kabaddi.",
+  "options": [
+   "defeated",
+   "defeating",
+   "defeat",
+   "defeatist"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "\"Until Iran came\" means we have to use past perfect tense.\n  \n\n    had never been defeated\n   \n\n   Correct option: A\nAnswer will be defeated , because it is asking , what was not done before Iran came along in Kabaddi , India had never been defeated.\nA) defeated\n  Because simple past tense-> complete past tense.\n  Complete past tense=had+been+pastor\nHad never\n   \n\n    been\n   \n   is used when in the past it was done but now it can be changed,\n  \n\n   like in the above sentence India has never been defeated but Iran came and then defeated India.\n  \n\n   As it happened in the past so it will be\n   \n    defeated.\n   \n   In B & C option neither it is happening nor it is in the present tense .",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313552/gate2019-in-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313590",
+  "year": 2019,
+  "set": "2",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Are there enough seats here? There are ____ people here than I expected",
+  "options": [
+   "many",
+   "most",
+   "least",
+   "more"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Answer (D)\n  \n\n   There are\n   \n    more\n   \n   people here than I expected.\n  \n\n   most and least are clearly inappropriate. \"There are\n   \n    many\n   \n   people here\" is correct but \"than I expected\" cannot go with it.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313590/gate2019-me-2-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313604",
+  "year": 2019,
+  "set": "1",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The minister avoided any mention of the issue of women’s reservation in the private sector. He was accused of ______ the issue.",
+  "options": [
+   "collaring",
+   "skirting",
+   "tying",
+   "belting"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "He was accused of skirting. Skirt as a verb means to avoid discussing a subject or problem, usually because there are difficulties that you do not want to deal with.\n   \n\n    Skirting means to avoid (something) especially because it is difficult or will cause problems.\n   \n\n   So, the correct answer is $(B).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313604/gate2019-me-1-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313744",
+  "year": 2019,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Newspapers are a constant source of delight and recreation for me. The ________ trouble is that I read _______ many of them.",
+  "options": [
+   "even, quite",
+   "even, too",
+   "only, quite",
+   "only, too"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Answer D\n   \n\n   \"even\" does not fill the first gap. \"quite many\" is wrong construction and it should be \"quite a lot\". So, here, the correct grammatical construction will be:\n  \n\n   The only trouble is that I read too many of them.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313744/gate2019-ee-ga-5",
+  "source": "gateoverflow"
+ },
+ {
   "id": "302842",
   "year": 2019,
   "set": null,
@@ -461,6 +1213,220 @@
   "explanation": "$XOR$ is associative so $(x \\oplus y) \\oplus z = x \\oplus (y \\oplus z)$\n   \n\n    For $2$ input, XOR and XNOR are complement to each other\n    i.e. $x \\oplus y = (xy + x^{'}y^{'})^{'} $\n   \n\n    $x \\oplus y = x+y \\text{ if }xy = 0$\n   \n\n   Only false statement is option B.\n$A. \\:(x \\oplus y) \\oplus z = x \\oplus (y \\oplus z)$\n  \n\n   $\\Longrightarrow EX-OR$ and $EX-NOR$  $GATE$ are Commutative and associative.\n  \n\n   $\\Longrightarrow NAND$ and $NOR$  $GATE$ are commutative but not associative.\n  \n\n   $B.\\:(x + y) \\oplus z = x \\oplus (y+z)$\n  \n\n   $LHS:(x + y) \\oplus z=(x+y)z'+(x+y)'z=xz'+yz'+x'.y'.z$\n  \n\n   $RHS:x \\oplus (y+z)=x(y+z)'+x'(y+z)=x.y'.z'+x'y+x'z$\n  \n\n   Clearly $LHS\\neq RHS$\n  \n\n   So, this is not valid.\n  \n\n   $C.\\:x \\oplus y = x+y, \\text{if}\\: xy=0$\n  \n\n   It is like $Q\\:\\text{if}\\:P$ means $\\text{if}\\: P\\:\\text{then}\\:Q$\n  \n\n   We can write in ${\\color{Magenta}{P\\rightarrow Q} }$\n  \n\n   Now     if ${\\color{Red} {xy=0}},$ then ${\\color{Green} {x \\oplus y = x+y}}$\n  \n\n      $x$\n     \n\n      $y$\n     \n\n      $xy$\n     \n\n      $x\\oplus y$\n     \n\n      $x+y$\n     \n\n      $0$\n     \n\n      $0$\n     \n\n      ${\\color{Red} 0}$\n     \n\n      ${\\color{Green} 0}$\n     \n\n      ${\\color{Green} 0}$\n     \n\n      $0$\n     \n\n      $1$\n     \n\n      ${\\color{Red} 0}$\n     \n\n      ${\\color{Green} 1}$\n     \n\n      ${\\color{Green} 1}$\n     \n\n      $1$\n     \n\n      $0$\n     \n\n      ${\\color{Red} 0}$\n     \n\n      ${\\color{Green} 1}$\n     \n\n      ${\\color{Green} 1}$\n     \n\n      $1$\n     \n\n      $1$\n     \n\n      $1$\n     \n\n      $0$\n     \n\n      $1$\n     \n\n   ${\\color{Orange}{(OR)}}$\n  \n\n   if ${\\color{Red} {xy=0}},$ then ${\\color{Green} {x \\oplus y = x+y}}$\n  \n\n   We know that ${\\color{DarkBlue}{x\\oplus y=xy'+x'y}}={\\color{Orange}{(x\\odot y)'}}={\\color{Green}{(xy+x'y')'}}={\\color{Green} {(0+x'y')'}}={\\color{Magenta}{x+y}}$\n  \n\n   $D.\\:{\\color{Purple}{x \\oplus y = (xy+x’y’)’}}$\n  \n\n   So, the correct answer is $(B).$\nChecking option A = XOR is associative so this is valid.\n  Checking option C =\n  xy=0 means x=y' .\n  so x XOR y = x'y +xy' = (y')' y + x x = x+y\n  so option c is valid.\n  Checking option D = (xy + x'y')' = (xy)' (x'y')' = (x'+y')(x+y) = x'x + x'y +y'x +y'y = x XOR y so option D is valid.\n  Checking option B = Remaining only option B is the ans and by expanding we can check it's not valid.\noption C is true by truth table\n  \n\n      X\n     \n\n      Y\n     \n\n      X ex-or Y\n     \n\n      x+y\n     \n\n      xy\n     \n\n      0\n     \n\n      0\n     \n\n      0\n     \n\n      0\n     \n\n      0\n     \n\n      0\n     \n\n      1\n     \n\n      1\n     \n\n      1\n     \n\n      0\n     \n\n      1\n     \n\n      0\n     \n\n      1\n     \n\n      1\n     \n\n      0\n     \n\n      1\n     \n\n      1\n     \n\n      0\n     \n\n      1\n     \n\n      1\n     \n\n   option A says associativity of ex-or,(so true),\n  \n\n   option D is true because complement of ex-nor is ex-or(for even variables),\n  \n\n   so answer is option B.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/302842/gate-cse-2019-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "302867",
+  "year": 2019,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": 2,
+  "text": "The police arrested four criminals – $P, Q, R$ and $S.$ The criminals knew each other. They made the following statements:\n  \n\n    $P$ says “Q committed the crime.”\n   \n\n    $Q$ says “S committed the crime.”\n   \n\n    $R$ says “ I did not do it.”\n   \n\n    $S$ says “What Q said about me is false”.\n   \n\n   Assume only one of the arrested four committed the crime and only one of the statements made above is true. Who committed the crime?",
+  "options": [
+   "$P$",
+   "$R$",
+   "$S$",
+   "$Q$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Option B. R\n  Assuming S is saying the truth.\n  P says Q committed the crime (FALSE) means Q has not\n  Q says S committed the crime(FALSE) means S has not\n  R says I did not (FALSE) means R has committed the crime.\nConsider Subscript C as criminal, NC as not criminal.\n  \n\n    Case I: Consider P as True\n   \n\n       Criminals\n      \n\n      P\n     \n\n      Q\n     \n\n      R\n     \n\n      S\n     \n\n       Assumption\n      \n\n      T\n     \n\n      F\n     \n\n      F\n     \n\n      F\n     \n\n       Result\n      \n\n      $Q_C$\n     \n\n      $S_{NC}$\n     \n\n      $R_C$\n     \n\n      $S_C$\n     \n\n   Q and R are criminal in the result is impossible because only one person committed the crime also $S_{NC}$ and $S_C $ in the result which is a contradiction. [S committed the crime and same time not committed crime which is contradiction]\n  \n\n    Case II: Consider Q as True\n   \n\n       Criminals\n      \n\n      P\n     \n\n      Q\n     \n\n      R\n     \n\n      S\n     \n\n       Assumption\n      \n\n      F\n     \n\n      T\n     \n\n      F\n     \n\n      F\n     \n\n       Result\n      \n\n      $Q_{NC}$\n     \n\n      $S_C$\n     \n\n      $R_C$\n     \n\n      $S_C$\n     \n\n   S and R are criminal in the result is impossible because only one person committed the crime.\n  \n\n    Case III: Consider R as True\n   \n\n       Criminals\n      \n\n      P\n     \n\n      Q\n     \n\n      R\n     \n\n      S\n     \n\n       Assumption\n      \n\n      F\n     \n\n      F\n     \n\n      T\n     \n\n      F\n     \n\n       Result\n      \n\n      $Q_{NC}$\n     \n\n      $S_{NC}$\n     \n\n      $R_{NC}$\n     \n\n      $S_C$\n     \n\n   $S_{NC}$ and $S_C$ in the result which is a contradiction. [S committed a crime and same time not committed crime which is contradiction]\n  \n\n    Case III: Consider S as True\n   \n\n       Criminals\n      \n\n      P\n     \n\n      Q\n     \n\n      R\n     \n\n      S\n     \n\n       Assumption\n      \n\n      F\n     \n\n      F\n     \n\n      F\n     \n\n      T\n     \n\n       Result\n      \n\n      $Q_{NC}$\n     \n\n      $S_{NC}$\n     \n\n      $R_C$\n     \n\n      $S_{NC}$\n     \n\n   R is a criminal in the result. Hence this case satisfies only one person committed the crime.\n  \n\n   Therefore R Committed the crime which is option\n   \n    B in Question\nS says: “What Q said about me is false”.\n  \n\n   We can paraphrase this as\n  \n\n   S says: I did not do it,\n  \n\n   So, one of S and Q is telling the truth, the other is lying. And it is given that exactly one of P,Q,R,S is telling the truth.\n   =>\n   \n\n     Either S or Q is the only person telling the truth\n    \n\n   .\n  \n\n   Suppose S is telling the truth => R is lying (so are others) => R did it.\n  \n\n   Suppose Q is telling the truth => R is lying => R did it.\n  \n\n     Option B\nR committed the crime.\n  \n\n   If we take S's statement as true and the remaining 3 statements as false. If what S says is true, then :\n   i. Q said that S committed crime which turns out to be false.\n   ii. R said that he didn't do it (if false) then it means R committed the crime.\n   iii. And the last statement said by P also becomes false.\n   In considering any of the other statements as true the remaining of the three will contradict with each other.\nOption B-R\n  ⇒ I true: 'Q' is Criminal\n  II, III, IV are false.\n  II is false: 'S' is not criminal.\n  IV is also false: 'S' committed crime.\n  There is conflict among I, IV now as P, S both should be criminals.\n  ⇒ II true: 'S' is criminal.\n  I, III, IV are false.\n  IV is false. So, 'S' is not criminal.\n  III is false. So. 'R' is criminal.\n  There is conflict among II, III as S, R both should be criminal.\n  III is true: Criminal ≠ R.\n  I, II, IV are false.\n  I is false. So, 'Q' is also not criminal.\n  II is false. So, 'S' is not criminal.\n  IV is false. So, 'S' is not criminal.\n  Q, R, S are not criminals. So, 'P' is criminal.\n  IV is true: I, II, III are false.\n  II is false. So, 'S' is not criminal.\n  IV is true. So, 'S' is criminal.\n  I is false. So, 'Q' is not criminal.\n  III is false. So, 'R' is criminal.\n  There is conflict, as R, S both should be criminals.\nOption A :  Suppose P committed crime\n   \n   . In that case\n  \n\n   P says “Q committed the crime.” {incorrect as P committed crime}\n  \n\n   Q says “S committed the crime.” {incorrect as P committed crime}   -------line1\n  \n\n   R says “ I did not do it.”               { correct as P committed crime}\n  \n\n   S says “What Q said about me is false”. {we already seen at line1 that  whatever Q  said is incorrect, hence this statement is correct}\n  \n\n   Hence as can be seen there are two correct statement. Hence A is not correct option.\n  \n\n    Option B :  Suppose R committed crime\n   \n   . In that case\n  \n\n   P says “Q committed the crime.” {incorrect as R committed crime.}\n  \n\n   Q says “S committed the crime.”{incorrect as R committed crime.} ---------line2\n  \n\n   R says “ I did not do it.”              {incorrect as R committed crime.}\n  \n\n   S says “What Q said about me is false”. {we already seen at line2 that  whatever Q  said is incorrect, hence this statement is correct }\n  \n\n   Hence as can be seen there is only correct statement. Hence B is not correct option.\n  \n\n    Option C :  Suppose S committed crime\n   \n   . In that case\n  \n\n   P says “Q committed the crime.”{ incorrect as S committed crime}\n  \n\n   Q says “S committed the crime.”  {correct as S committed crime}  ------line3\n  \n\n   R says “ I did not do it.”                 {correct as S committed crime}\n  \n\n   S says “What Q said about me is false”. {as can be seen on line3 whatever Q said is actually true, hence this statement is false/incorrect}\n  \n\n   Hence as can be seen there are two correct statement. Hence C is not correct option.\n  \n\n    Option C :  Suppose Q committed crime\n   \n   . In that case\n  \n\n   P says “Q committed the crime.” {correct as Q committed crime}\n  \n\n   Q says “S committed the crime.” {incorrect as Q committed crime} ------line4\n  \n\n   R says “ I did not do it.”                {correct as Q committed crime}\n  \n\n   S says “What Q said about me is false”.{correct as seen at line 4 whatever Q said is incorrect , hence this statement is correct}\n  \n\n   Hence as can be seen there are two correct statement. Hence D is not correct option.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/302867/gate-cse-2019-question-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313380",
+  "year": 2019,
+  "set": "2",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Mohan, the manager, wants his four workers to work in pairs. No pair should work for more than $5$ hours. Ram and John have worked together for $5$ hours. Krishna and Amir have worked as a team for $2$ hours. Krishna does not want to work with Ram. Whom should Mohan allot to work with John, if he wants all the workers to continue working?",
+  "options": [
+   "Amir",
+   "Krishna",
+   "Ram",
+   "None of three"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Correct Answer is B.\n  Ram and John worked together for 5 hours so they need to change their partner. Since Ram cannot work together with Krishna he can only partner with Amir. So the remaining two people, John and Krishna will form a pair.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313380/gate2019-ce-2-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313445",
+  "year": 2019,
+  "set": "1",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The new cotton technology, Bollgard_II, with herbicide-tolerant traits has developed into a thriving business in India. However, the commercial use of this technology is not legal in India. Notwithstanding that, reports indicate that the herbicide tolerant Bt cotton had been purchased by farmers at an average of Rs $200$ more than the control price of ordinary cotton, and planted in  $15\\%$ of the cotton growing area in the $2017$ Kharif season.\n  \n\n   Which one of the following statements can be inferred from the given passage?",
+  "options": [
+   "Farmers want to access the new technology if India benefits from it",
+   "Farmers want to access the new technology even if it is not legal",
+   "Farmers want to access the new technology for experimental purposes",
+   "Farmers want to access the new technology by paying high price"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Farmers want to access the new technology if India benefits from it -- there is nothing in the passage that says that farmers are doing anything specifically for India's benefit.\n   \n\n    Farmers want to access the new technology even if it is not legal -- this is true as the passage says that the new technology is not legal and that the farmers are using it.\n   \n\n    Farmers want to access the new technology for experimental purposes -- it is not clear whether the farmers are using the new technology for experimental purposes. Tt can also be inferred that some of the farmers are using the new technology while others are not.\n   \n\n    Farmers want to access the new technology by paying high price -- this also cannot be inferred. The passage only says that the price of new technology is higher and it can be that the farmers are \"forced to\" buy them at high price.\n   \n\n   Correct Option: B.\nAnswer is B\n   \n\n    Farmers want to access the new technology even if it is not legal.\n   \n\n   The argument emphasizes on the widespread use of the new cotton technology despite it being illegal. Detail about price is just an additional detail.\nAns; C\n  Reason is, that they only grew in 15% of the cotton growing area for experimenting purpose.Special mention of 15% is given for the same. If they had to grow then they would have grown in their entire area of cotton growing field.\nAccording to me the answer should be option C because if all the new technologies are not legal then their commercial usage is prohibited by the government. And as per the report, only during 2017 kharif season the farmers purchased the herbicide-tolerant cotton at higher price and covering 15% of the total growing area. This infers that although the technology was illegal still they purchased to check its usability. Impling that it was just experimental.\n   \n\n     Hence option C",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313445/gate2019-ce-1-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313529",
+  "year": 2019,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Four people are standing in a line facing you. They are Rahul, Mathew, Seema and Lohit. One is an engineer, one is a doctor, one a teacher and another a dancer. You are told that:\n  \n\n   Who among them is an engineer?\n  \n\n    Seema\n   \n\n    Lohit\n   \n\n    Rahul\n   \n\n    Mathew",
+  "options": [
+   "Mathew is not standing next to Seema",
+   "There are two people standing between Lohit and the engineer",
+   "Rahul is not a doctor",
+   "The teacher and the dancer are standing next to each other",
+   "Seema is turning to her right to speak to the doctor standing next to her"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "[IMAGE:0]\n\n   According to the given statements, the positions with the profession of different peoples are shown above. Only Mathew can be the engineer and Lohit the doctor, Seema and Rahul are either teacher or dancer but we cannot identify their exact profession.\n  \n\n   So, the correct option is $(D).$",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2366384240107979129",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/313529/gate2019-ec-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313553",
+  "year": 2019,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Since the last one year after a $125$ basis point reduction in repo rate by the Reserve Bank of India, banking institutions have been making a demand to reduce interest rates on small saving schemes. Finally, the government announced yesterday a reduction in interest rates on small saving schemes to bring them on par with fixed deposit interest rates.\n  \n\n   Which one of the following statements can be inferred from the given passage?",
+  "options": [
+   "Whenever the Reserve Bank of India reduces the repo rate, the interest rates on small saving schemes are also reduced",
+   "Interest rates on small saving schemes are always maintained on par with fixed deposit interest rates",
+   "The government sometimes takes into consideration the demands of banking institutions before reducing the interest rates on small saving scheme",
+   "reduction in interest rates  on small savings scheme follow only after a reduction in  repo rate by the Reserve Bank Of India"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "\"banking institutions have been making a demand to reduce interest rates on small saving schemes. Finally, the government announced yesterday a reduction in interest rates on small saving schemes\"\n  This means that government after considering the demand reduced the interest rates. So, option C can be inferred from the given passage.\n  Options A, B and D cannot be inferred from the given passage.\n  Correct option: C\nOption B\n  Interest rates on small saving schemes are always maintained on per with fixed deposit interest.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313553/gate2019-in-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313562",
+  "year": 2019,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "How many integers are there between $100$ and $1000$ all of whose digits are even?",
+  "options": [
+   "$60$",
+   "$80$",
+   "$100$",
+   "$90$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Let the 3 digit even number be ${\\color{Red} \\bigstar}\\;{\\color{Green} \\bigstar}\\;{\\color{Blue} \\bigstar}$\n  We can fill ${\\color{Red} \\bigstar}\\;$ with $4$ values ($2,4,6,8$)\n  We can fill ${\\color{Green} \\bigstar}\\;$ with $5$ values ($0,2,4,6,8$)\n  We can fill ${\\color{Blue} \\bigstar}\\;$ with $5$ values ($0,2,4,6,8$).\n  So total $3$ digit even number possible = $4*5*5$ = $100$\n  $\\therefore$ Option C $100$ is the correct answer.\nFrom 100 to 199 there is no number exist whose all digits are even (0,2,4,6,8)\n  \n\n   From 200 to 208,220 to 228,240 to 248,260 to 268,280 to 288   = 5+5+5+5+5= 25\n  \n\n   Same as 400 to 488 have 25 total numbers\n  \n\n   600 to 688 have 25 total numbers\n  \n\n   800 to 888 have 25 total numbers\n  \n\n    Hence integers\n    \n     between 100 and 1000 whose digits are even =25+25+25=100\n    \n\n     answer C.\nHundreds digit\n     \n     : The hundreds place must be an even digit. The even digits are 0, 2, 4, 6, and 8, but since the number must be between 100 and 1000, the hundreds digit cannot be 0. Therefore, the possible digits for the hundreds place are 2, 4, 6, and 8. This gives us 4 options.\n    \n\n      Tens digit\n     \n     : The tens place can be any even digit, including 0, 2, 4, 6, and 8. So, there are 5 options for the tens digit.\n    \n\n      Ones digit\n     \n     : Similarly, the ones place can be any even digit, so there are 5 options for the ones digit.\n    \n\n   Now, to find the total number of integers, multiply the number of options for each place: 100",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313562/gate2019-ee-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313578",
+  "year": 2019,
+  "set": "2",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Fiscal deficit was $4 \\%$ of the GDP in $2015$ and that increased to $5 \\%$ in $2016$. If the GDP increased by $10 \\%$ from $2015$ to $2016$, the percentage increase in the actual fiscal deficit is ____",
+  "options": [
+   "$37.50$",
+   "$35.70$",
+   "$25.00$",
+   "$10.00$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Fiscal deficit in 2015 $ = 4\\%$ of GDP in 2015\n  Fiscal deficit in 2016 $ = 5\\%$ of GDP in 2016\n  GDP in 2016 $= 1.1 \\times $ GDP in 2015\n  So, Fiscal deficit in 2016 $ = 5\\%$ of $1.1 \\times$ GDP in 2015 $=5.5\\%$ of GDP in 2015.\n  So, Fiscal deficit increased from $4\\%$ to $5.5\\%$ of the GDP in 2015.\n  Percentage increase $ = \\dfrac{5.5-4}{4} \\times 100\\%= \\dfrac{300}{8}\\% = 37.5\\%$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313578/gate2019-me-2-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313605",
+  "year": 2019,
+  "set": "1",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Under a certain legal system, prisoners are allowed to make one statement. If their statements turns out to be true then they are hanged. If the statements turns to be false then they are shot. One prisoner made a statement and the judge had no option but to set him free. Which one of the following could be that statement?",
+  "options": [
+   "I did not commit the crime",
+   "I committed the crime",
+   "I will be shot",
+   "You committed the crime"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "\"I'll be shot\"\n  If this is true he must be hanged but for the statement to be true he must be shot. So, not possible.\n  Correct Option: C.\nOption C\n   \n\n   Neither True nor False.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313605/gate2019-me-1-ga-6",
   "source": "gateoverflow"
  },
  {
@@ -490,6 +1456,238 @@
   "source": "gateoverflow"
  },
  {
+  "id": "302866",
+  "year": 2019,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": 2,
+  "text": "In the given diagram, teachers are represented in the triangle, researchers in the circle and administrators in the rectangle. Out of the total number of the people, the percentage of administrators shall be in the range of _______\n  \n\n[IMAGE:0]",
+  "options": [
+   "$0$ to $15$",
+   "$16$ to $30$",
+   "$31$ to $45$",
+   "$46$ to $60$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "No of administrator $=10+20+20=50$\n   \n\n    Total no of person $=80+20+20+40=160$\n   \n\n    Required $\\%=(50/160)*100=31.25\\%$\n   \n\n   $\\therefore$ Option $C$. $31$ to $45$ is the correct answer.\nThis one was the stupidest question. Why can't you ask clearly if you want \"just administrator\" or \"atleast an administrator\" . How would not adding or adding those details make it a difference in judging of the capability of a student. This should be removed from scoring, I will appeal if no one does.\n  \n\n   Edit: I have contested, got this email -- \"Dear Candidate You have contested for the question(s). The same is under process. Please login at GOAPS website to check the updated status. -- GATE Admin, 2019 \" . At the moment I do not see the contest on the GOAPS website though, they are still building it I guess.\nIsn't the no of administrators = 20\n  Since 20 and 10 are not completely administrators.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=13828085220946770329",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/302866/gate-cse-2019-question-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313372",
+  "year": 2019,
+  "set": "2",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Population of state $X$ increased by x$\\%$  and the population of state $Y$ increased by y$\\%$ from $2001$ to $2011.$ Assume that $x$ is greater than $y$. Let $P$ be the ratio of the population of state $X$ to state $Y$ in a given year. The percentage increase in $P$ from $2001$ to $2011$ is ________",
+  "options": [
+   "$\\frac{x}{y}$",
+   "$x-y$",
+   "$\\frac{100(x-y)}{100+x}$",
+   "$\\frac{100(x-y)}{100+y}$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "$P_{2001}= \\frac{a}{b}$ where $a$ is the population of $X$ and $b$ that of $Y.$\n  $P_{2011}=\\frac{a+\\frac{x}{100}a}{b+\\frac{y}{100}b}=\\frac{(1+0.01x)a}{(1+0.01y)b}$\n  Percentage Increase in $P = \\frac{{P_{2011}} – {P_{2001}}}{P_{2001}} \\times 100$\n  $\\qquad =\\frac{\\frac{(1+0.01x)a}{(1+0.01y)b} – \\frac{a}{b}}{\\frac{a}{b}}\\times 100= \\left[\\frac{1+0.01x}{1+0.01y}-1\\right] \\times 100 = \\frac{x-y}{100+y}\\times 100= \\frac{100(x-y)}{100+y}$\n  Correct Answer: D",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313372/gate2019-ce-2-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313440",
+  "year": 2019,
+  "set": "1",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "In a sports academy of $300$ peoples, $105$ play only cricket, $70$ play only hockey, $50$ play only football, $25$ play both cricket and hockey, $15$ play both hockey and football and $30$ play both cricket and football. The rest of them play all three sports. What is the percentage of people who play at least two sports?",
+  "options": [
+   "$23.30$",
+   "$25.00$",
+   "$28.00$",
+   "$50.00$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Since everyone plays at least one sports, to get the number of people who plays at least two sports we can do\n  $\\text{Total} - \\text{No. of people playing only one game}$\n  $\\qquad=300 - (105+70+50)$\n  $ \\qquad= 75.$\n  So, percentage of people who play at least $2$ sports $ = \\frac{75}{300} \\times 100\\% = 25\\%.$\n  Correct Answer: Option B.\nIn the sports academy, the total number of people $n(U)=300$\n  Number of people who play only cricket $n(C)=105$\n  Number of people who play only hockey $n(H)=70$\n  Number of people who play only football $n(F)=50$\n  Number of people, who play both cricket and hockey $n(C\\cap H)=25$\n  Number of people, who play both hockey and football $n(H\\cap F)=15$\n  Number of people, who play both cricket and football $n(C\\cap F)=30$\n  The number of people who play only one sport $n(C)+n(H)+n(F)=105+70+50=225$\n  The number of people, who pay at least two sport $($it mean the total number of people $-$ the number of people who play only one sport$)=300-225=75$  $($at least two sports means two or more sports$)$\n  Percentage $=\\dfrac{75}{300}\\times 100=25\\%$\n  So,correct answer is $(B).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313440/gate2019-ce-1-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313528",
+  "year": 2019,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The bar graph in panel (a) shows the proportion of male and female illiterates in $2001$ and $2011.$ The proportions of males and females in $2001$ and $2011$ are given in Panel (b) and (c), respectively. The total population did not change during this period. The percentage increase in the total number of literates from $2001$ to $2011$ is ______.\n  \n\n[IMAGE:0]\n\n[IMAGE:1]",
+  "options": [
+   "$30.43$",
+   "$33.43$",
+   "$34.43$",
+   "$35.43$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "The graph is for illiterates.\n  \n\n    Percentage of male literates in $2011 =100-40=60$\n   \n\n    Percentage of male literates in $2001 =100- 50=50$\n   \n\n    Percentage of female literates in $2011 =100-40=60$\n   \n\n    Percentage of female literates in $2001 =100- 60=40$\n   \n\n   Let $X$ be the total population (This remains same in $2001$ and $2011$ as per question)\n  \n\n   Number of literates in $2011 = 0.5 \\times 0.6 \\times X + 0.5 \\times 0.6 \\times X = 0.6 X$\n  \n\n   Number of literates in $2001 = 0.6 \\times 0.5 \\times X + 0.4 \\times 0.4 \\times X = 0.46 X$\n  \n\n   So, percentage increase in the literates $ = \\dfrac{0.6X - 0.46X}{0.46X} \\times {100\\%} = \\dfrac{700}{23}=30.43$\n  \n\n   Option A.\nLet us consider total no of population is 100.\n  \n\n    It is given total population doesn't change remain same both years.\n   \n\n    in 2001\n   \n\n   no of male=60\n  \n\n   Literate male= 50%of 60=30\n  \n\n   No of females= 40\n  \n\n   Literate females= 40% of 40=16\n  \n\n   So total literate in 2001=30+16=46\n  \n\n    in 2011\n   \n\n   no of male are 50% so 50\n  \n\n   Literate male= 60% of 50= 30\n  \n\n   No of females= 50\n  \n\n   Literate females= 60%of 50=30\n  \n\n   So total literate in 2011= 30+30=60\n  \n\n    percentage change in literate population from 2001 to 2011\n   \n\n    =( Total literate in 2011-total literate in 2001)*100/total literate in 2001\n   \n\n   =( 60-46)*100/46= 1400/46= 30.43%\n  \n\n   Answer\n   \n    A",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1564717100169247308",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=8432787404604288543",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/313528/gate2019-ec-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313548",
+  "year": 2019,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In a country of $1400$ million population, $70\\%$ own mobile phones. Among the mobile phone owners, only $294$ million access the Internet. Among these Internet users, only half buy goods from e-commerce portals. What is the percentage of these buyers in the country?",
+  "options": [
+   "$10.50$",
+   "$14.70$",
+   "$15.00$",
+   "$50.00$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Percentage of e-commerce buyers $= \\frac{294}{1400} \\times 0.5 \\times 100 =\\frac{42}{4}\\%=10.5\\%$\n  Correct Option: A",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313548/gate2019-in-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313564",
+  "year": 2019,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The ratio of the number of boys and girls who participated in an examination is $4:3.$ The total percentage of candidates who passed the examination is $80$ and the percentage of girls who passed the exam is $90.$ The percentage of boys who passed is _______.",
+  "options": [
+   "$55.50$",
+   "$72.50$",
+   "$80.50$",
+   "$90.00$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$\\text{Percentage of passed students} = \\frac{\\text{Percentage of boys passed} \\times \\text{#boys}+ \\text{Percentage of girls passed}\\times\\text{#girls}}{\\text{Total number of students}}$\n  Taking total number of students as $x$ and from the given statements,\n  $80 =  \\frac{\\text{Percentage of boys passed} \\times \\frac{4}{4+3}x + 90 \\times \\frac{3}{4+3}x}{x}$\n  $\\implies80 \\times 7 = 4 \\times \\text{Percentage of boys passed} + 3 \\times 90 $\n  $\\implies  \\text{Percentage of boys passed} = \\frac{560-270}{4} = \\frac{290}{4} = 72.5$\n  Correct Answer: B\nLet total candidates attempting the exam be $70$.\n  In these Boys:Girls are in ratio $4:3$\n  $\\Rightarrow$ There are $40$ boys and $30$ girls.\n  $80$% of the total candidates passed the exam = $\\frac{80}{100}*70$ = $56$\n  $90$% of the girls passed the exam = $\\frac{90}{100}*30$ = $27$\n  So Number of boys who passed the exam\n  = total candidates who passed the exam – total girls who passed the exam\n  = $56-27$\n  =$29$\n  $\\therefore$ Percentage of boys who passed the exam = $\\frac{29}{40}*100$ = $72.50$\n  So Option B $72.50$ is the correct answer.\n$\\text{Let no of boys B  = 4k ,G = 3k and total students = 7k }$\n  $\\text{total passed students} =  0.8 * 7k$\n  $\\implies \\text{0.9 * 3k + X * 4k } = \\text{0.8 * 7k}$\n  $\\implies X =  0.725$\n  $\\therefore \\text{pass percentage of boys }  X = 72.5$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313564/gate2019-ee-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313579",
+  "year": 2019,
+  "set": "2",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Two pipes $P$ and $Q$ can fill a tank in $6$ hours and $9$ hours respectively, while a third pipe $R$ can empty the tank in $12$ hours.  Initially, $P$ and $R$ are open for $4$ hours, Then $P$ is closed and $Q$ is opened. After $6$ more hours $R$ is closed. The total time taken to fill the tank (in hours) is  ____",
+  "options": [
+   "$13.50$",
+   "$14.50$",
+   "$15.50$",
+   "$16.50$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "P can fill the tank in $6$ hours\n  \n\n   $\\Rightarrow$ In $1$ hr P can fill $\\frac{1}{6}$ of the tank.\n  \n\n   Q can fill the tank in $9$ hours\n  \n\n   $\\Rightarrow$ In $1$ hr Q can fill $\\frac{1}{9}$ of the tank.\n  \n\n   R can empty the tank in $12$ hours\n  \n\n   $\\Rightarrow$ In $1$ hr R can empty $\\frac{1}{12}$ of the tank.\n  \n\n   P and R are opened for $4$ hours\n  \n\n   $\\Rightarrow$ They fill $4*\\left ( \\frac{1}{6}-\\frac{1}{12} \\right ) = 4*\\frac{1}{12}=\\frac{1}{3}$ of the tank.\n  \n\n   $\\Rightarrow$ $1-\\frac{1}{3}=\\frac{2}{3}$ of the tank is still empty.\n  \n\n   Then P is closed and Q is opened. After $6$ more hours R is closed.\n  \n\n   $\\Rightarrow$ Q and R are opened together for $6$ hours.\n  \n\n   $\\Rightarrow$ They fill $6*\\left ( \\frac{1}{9}-\\frac{1}{12} \\right ) = 6*\\frac{1}{36}=\\frac{1}{6}$ of the tank.\n  \n\n   $\\Rightarrow$ $\\frac{2}{3}-\\frac{1}{6}=\\frac{4-1}{6}=\\frac{1}{2}$ of the tank is still empty.\n  \n\n   Now only Q is opened\n  \n\n   $\\because$ Q can fill a tank in $9$ hr\n  \n\n   $\\Rightarrow$ Q can fill $\\frac{1}{2}$ of the tank in $9*\\frac{1}{2}$ hours $=4.5$ hours.\n  \n\n   $\\therefore$ Total Time to fill the tank $=4$ hours $+6$ hours $+ 4.5$ hours $=14.5$ hours\n  \n\n   So, Option B. $14.50$  is the correct answer.\nThis method can be helpful..\n   [IMAGE:100]\n$Let\\ Capacity=36L$\n  \n\n   $P\\rightarrow 6H-\\ 6L/H$\n  \n\n   $Q\\rightarrow 9H-\\ 4L/H$\n  \n\n   $R\\rightarrow 12H-3L/H$\n  \n\n   $|\\underbrace{4H:P+R=3L/H}||\\underbrace{6H:Q+R=1L/H}||\\underbrace{?H:Q=4L/H}|$\n  \n\n   $12L$                              $6L$                        $18L$\n  \n\n   $1H\\leftarrow4L$\n  \n\n   $?\\leftarrow18L$\n  \n\n   $?=4.5H$\n  \n\n    $ans:4+6+4.5=14.5H$",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=18214243660548892729",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/313579/gate2019-me-2-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313599",
+  "year": 2019,
+  "set": "1",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A person divided an amount of Rs. $100,000$ into two parts and invested in two different schemes. In one he got $10 \\%$ profit and in the other he got $12 \\%$. If the profit percentages are interchanged with these investments he would have got Rs. $120$ less. Find the ratio between his investments in the two schemes.",
+  "options": [
+   "$9:16$",
+   "$11:14$",
+   "$37:63$",
+   "$47:53$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Let $X$ be his investment in the first scheme and $Y$ be in the second scheme.\n  We have,\n  $1.1X + 1.12 Y = 1.12X + 1.1 Y+120$\n  $\\implies 0.02Y = 0.02X + 120$\n  $\\implies 2Y = 2X + 12000$\n  $\\implies Y = X +6000$\n  Since $X + Y = 100,000, 2X  = 94,000 \\implies X = 47,000$\n  $\\implies Y = 47,000 + 6000 = 53,000$\n  So, $X : Y = 47:53.$\n  Correct Option: D.\n$\\dfrac{SP_{1}-x}{x}\\times 100=10\\ \\ \\ ..........(1)$\n  \n\n   $\\dfrac{SP_{2}-(100,000-x)}{100,000-x}\\times 100=12\\ \\ \\ ..........(2)$\n  \n\n   $SP_{1}=\\dfrac{110x}{100}$          $SP_{2}=\\dfrac{11200000-112x}{100}$\n  \n\n   $SP_{1}+SP_{2}=\\dfrac{11200000-2x}{100}$\n  \n\n   $\\dfrac{SP_{1new}-x}{x}\\times 100=12\\ \\ \\ ..........(3)$\n  \n\n   $\\dfrac{SP_{2new}-(100,000-x)}{100,000-x}\\times 100=10\\ \\ \\ ..........(4)$\n  \n\n   $SP_{1new}=\\dfrac{112x}{100}$          $SP_{2new}=\\dfrac{11000000-110x}{100}$\n  \n\n   $SP_{1new}+SP_{2new}=\\dfrac{11200000+2x}{100}$\n  \n\n   $SP_{1}+SP_{2}-SP_{1new}+SP_{2new}=120$\n  \n\n   $\\dfrac{11200000-2x}{100}-\\dfrac{11200000+2x}{100}=120$\n  \n\n   $200000-4x=12000$\n  \n\n   $x=47,000$\n  \n\n   $100,000-x=53,000$\n  \n\n     $Ratio= 47:53$\nlet the two amounts in the schemes be x,100000-x\n  \n\n   10/100x,12/100(100000-x) are profits\n  \n\n   when we interchange the amounts the values are\n  \n\n   10/100(100000-x),12/100(x)\n  \n\n   we can write\n   \n    10/100*(100000-x)+12/100*(x)+120=10/100*(x)+12/100*(100000-x)\n   \n\n    (loss 120)\n   \n\n   we will get x=470000,100000-x=530000\n  \n\n   so the ratio is 47/53\n[IMAGE:300]\n\n   ans.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=9075408336888653968",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/313599/gate2019-me-1-ga-7",
+  "source": "gateoverflow"
+ },
+ {
   "id": "302840",
   "year": 2019,
   "set": null,
@@ -513,6 +1711,214 @@
   "explanation": "Let $X$ and $Y$ represents $31$ and $- 31$ respectively in binary sign magnitude form. $X$ and $Y$ will take $6$ bits as range of sign magnitude form is $-\\left(2^{(n-1)}-1\\right)$ to $2^{(n-1)}-1$; where $n$ is the number of bits.\n  Now in question $Z= X-Y$,\n  $Z = 31 - (-31) = 62$\n  To represent $62$ in sign magnitude form we need $7\\;( 6+1)$ bits.\n  Hence, $n+1$ bits needed.\n  Answer is $C$.\nNo overflow if two number with opposite sign are added.\n  Here $(X+(-Y))$ wont give any overflow if sign of $X$ and $-Y$ are opposite else it may cause overflow.\n  Nothing mentioned in question so in worst case it will give overflow.\n  Additional bit needed to handle overflow.\n  Total $n+1$ bits needed.\nOverflow can occur when two same sign numbers are added or two opposite sign numbers are subtracted.\n   \n    For example:\n   \n\nlet n = 4 bit, X = +6 and Y = -5 (1 bit for sign and 3 bit for magnitude)\nTherefore, Z = X - Y = 6 - (-5) = 6+5 = 11\nBut result (Z) 11 needs 5 (= 4 + 1) bits to store, \nSin integer 11 needs 1 bit for sign and 4 bit for magnitude. \n\n   Therefore, to avoid overflow, the representation of Z would require a minimum of\n   \n    (n + 1)\n   \n   bits. Option (C) is correct.\n  \n\n    https://www.geeksforgeeks.org/gate-cs-2019/\nn+1\n  ans (C)\nN bits..\n  Who feel they will challenge please message me the email so that I can send links\n  Actually in sign magnitude addition and subtraction are different.in 1 and 2's we can do subtraction using adder.but here we have different.so 31-(-31) will get changed to problem of adder",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/302840/gate-cse-2019-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "302865",
+  "year": 2019,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": 2,
+  "text": "“A recent High Court judgement has sought to dispel the idea of begging as a disease – which leads to its stigmatization and criminalization  – and to regard it as a symptom. The underlying disease is the failure of the state to protect citizens who fall through the social security net.”\n  \n\n   Which one of the following statements can be inferred from the given passage?",
+  "options": [
+   "Beggars are lazy people who beg because they are unwilling to work",
+   "Beggars are created because of the lack of social welfare schemes",
+   "Begging is an offence that has to be dealt with firmly",
+   "Begging has to be banned because it adversely affects the welfare of the state"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Option $B$ is the correct answer.\n  \n\n   The last sentence of the text mentions\n  \n\n    the underlying disease(cause) is the failure of state to protect citizens who fall through the social security net.\n   \n\n   which means beggars are created due to lack of social welfare schemes by the state.\n  \n\n    Beggars are lazy people who beg because they are unwilling to work - may or may not be true but cannot be inferred from the passage.\n   \n\n    Beggars are created because of the lack of social welfare schemes - Can be inferred from the last sentence.\n   \n\n    Begging is an offense that has to be dealt with firmly - It is given that High Court dispelled the idea of treating begging as an offense.\n   \n\n    Begging has to be banned because it adversely affects the welfare of the state - may or may not be true but cannot be inferred from the passage.\nOption B .\n   The court observed that people beg on streets not because they wish to, but because they need to. Begging is their last resort to subsistence as they ...\n   ........\n   \n    currentaffairs.gktoday.in/delhi-high-court-decriminalises-begging-national-capital-08201859837.html\n   \n   © GKToday\nB. Beggars are created because of lack of social welfare schemes\n  \n\n   The tone of the statement says it all. The court order is not in favour of penalizing the beggars but questions the government's ability to provide for social welfare schemes.\nOption B is correct. AS its mentioned in passage, that begging is the symptom which leads to stigmatization and criminalization.\n  \n\n   So since its a symptom, it has to be dealt firmly and begging leads to crimes so it has to be an offense.\n   \n    So option B is correct.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/302865/gate-cse-2019-question-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313381",
+  "year": 2019,
+  "set": "2",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The Newspaper\n   \n   reports that over $500$ hectares of tribal land spread across $28$ tribal settlements in Mohinitampuram forest division have already been “alienated”. A top forest official said, “First the tribals are duped out of their land holdings. Second, the families thus rendered landless are often forced to encroach further into the forests”.\n  \n\n   On the basis of the information available in the paragraph,______ is /are responsible for duping the tribals.",
+  "options": [
+   "forest officials",
+   "landless families",
+   "The Newspaper",
+   "it can not be inferred who"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Ans D. The paragraph only says that tribals are duped but does not mention who duped them.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313381/gate2019-ce-2-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313447",
+  "year": 2019,
+  "set": "1",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "\"The increasing interest in tribal characters might be a mere coincidence, but the timing is of interest. None of this, though, is to say that the tribal hero has arrived in Hindi cinema, or that the new crop of characters represents the acceptance of the tribal character in the industry. The films and characters are too few to be described as a pattern.\"\n  \n\n   What does the word 'arrived' mean in the paragraph above?",
+  "options": [
+   "reached a terminus",
+   "came to a conclusion",
+   "attained a status",
+   "went to a place"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "\"None of this, though, is to say that the tribal hero has\n   \n    arrived\n   \n   in Hindi cinema\"\n  \n\n   \"attained a status\" is the best meaning for \"arrived\" here.\n  \n\n   Correct option: C.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313447/gate2019-ce-1-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313540",
+  "year": 2019,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "\"Indian history was written by British historians-extremely well documented and researched, but not always impartial. History had to serve its purpose: Everything was made subservient to the glory of the Union Jack. Latter-day Indian scholars presented a contrary picture.\"\n  \n\n   From the text above, we can infer that:\n   India history written by British historians________",
+  "options": [
+   "was well documented and not researched but was always biased",
+   "was not well documented and researched and was always biased",
+   "was well documented and researched but was sometimes biased",
+   "was not well documented and researched and was sometimes biased"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "It is given at the starting of the paragraph that the Indian history written by British historians was extremely well documented and researched and later it is intended to say that it was sometimes biased. The sentence ‘but not always impartial’ implies that it was sometimes biased.\n  \n\n   So, the correct answer is $(C).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313540/gate2019-ec-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313554",
+  "year": 2019,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The nomenclature of Hindustani music has changed over the countries. Since the medieval period,\n   \n    dhrupad\n   \n   styles were identified as\n   \n    baanis\n   \n   . Terms like\n   \n    gayaki\n   \n   and\n   \n    baaj\n   \n   were used to refer to vocal and instrumental styles, respectively. With the institutionalization of music education, the term\n   \n    gharana\n   \n   became acceptable.\n   \n    Gharana\n   \n   originally referred to hereditary musicians from a particular lineage, including disciples and grand disciples.\n  \n\n   Which one of the following pairings is NOT correct?",
+  "options": [
+   "dhrupad, baani",
+   "gayaki, vocal",
+   "baaj, institution",
+   "gharana, lineage"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "dhrupad\n    \n    styles\n   \n   were identified as\n   \n\n     baanis -\n    \n\n   Option A is correct\n  \n\n     gayaki\n    \n\n   and\n   \n    baaj\n   \n   were used to refer to\n   \n    vocal\n   \n   - Option B is correct\n  \n\n     Gharana\n    \n\n   originally referred to hereditary musicians from a\n   \n    particular lineage\n   \n   Option D is correct.\n  \n\n   So, only Option C is not correct.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313554/gate2019-in-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313592",
+  "year": 2019,
+  "set": "2",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "While teaching a creative writing class in India, I was surprised at receiving stories from the students that were all set in distant places: in the American West with cowboys and in Manhattan penthouses with clinking ice cubes. This was, till an eminent Caribbean writer gave the writers in the once-colonised countries the confidence to see the shabby lives around them as worthy being “told”.\n  \n\n   The writer of this passage is surprised by the creative writing assignments of his students, because _____",
+  "options": [
+   "Some of the students had written stories set in foreign places",
+   "None of the students had written stories set in India",
+   "None of the students had written about ice cubes and cowboys",
+   "Some of the students had written about ice cubes and cowboys"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "\"While teaching a creative writing class\n   \n    in India\n   \n   , I was\n   \n    surprised\n   \n   at receiving stories from the students that\n   \n    were all\n   \n   set in distant places\"\n  \n\n   This means the teacher got no story set in India.\n  \n\n   Correct Answer: Option B.\nAnswer B\n  The teacher was surprised ( evident from the last sentence of the passage )none of the students had written stories set in India",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313592/gate2019-me-2-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313606",
+  "year": 2019,
+  "set": "1",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Congo was named by Europeans, Congo’s dictator Mobuto later changed the name of the county and the river to Zaire with the objective of Africanising names of persons and spaces. However, the name Zaire was a Portuguese alteration of\n   \n    Nzadi o Nzere\n   \n   , a local African term meaning ‘River that swallows Rivers’. Zaire was the Portuguese name for the Congo river in the $16$th and $17$th centuries.\n  \n\n   Which one of the following statements can be inferred from the paragraph above?",
+  "options": [
+   "Mobuto was not entirely successful in Africanising the name of his country",
+   "The term\n    \n     Nzadi o Nzere\n    \n    was of Portuguese origin",
+   "Mobuto’s desire to Africanise names was prevented by the Portuguese",
+   "As a dictator Mobuto ordered the Portuguese to alter the name of the river to Zaire"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "As the paragraph states, dictator Mobuto wanted to Africanise the name of Congo but could not succeed as the new name given to the country was a Portuguese alteration. So, option (A) is correct.\n  \n\n   Option (B) is wrong as the term\n   \n    Nzadi o Nzere\n   \n   is a local African term as per the passage.\n  \n\n   There is no detail about any confrontation between Mobuto and Portuguese in the passage. So, options C and D are wrong.\n   Correct answer is $(A).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313606/gate2019-me-1-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313747",
+  "year": 2019,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "An award-winning study by a  group of researchers suggests that men are as prone to buying on impulse as women but women feel more guilty about shopping.\n  \n\n   Which one of the following statements can be inferred from the given text?",
+  "options": [
+   "Some men and women indulge in buying on impulse",
+   "All men and women indulge in buying on impulse",
+   "Few men and women indulge in buying on impulse",
+   "Many men and women indulge in buying on impulse"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "\"men are as prone to buying on impulse as women\"\n  This means there are \"Some men\" and \"some women\" who buy on impulse.\n  So, option A is true.\n  Option B is false as the passage does not say all men and women buy on impulse.\n  Option C is false as \"Few\" means almost none and \"prone to buying\" means the number is not so insignificant.\n  Option D can be debated as correct as the meaning of \"many\" can be ambiguous. Still option A is a safer pick.\n  Correct Answer: Option A.\nAnswer C\n   \n\n    Because it is the correct grammatical construction.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313747/gate2019-ee-ga-8",
   "source": "gateoverflow"
  },
  {
@@ -569,6 +1975,240 @@
   "source": "gateoverflow"
  },
  {
+  "id": "302864",
+  "year": 2019,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": 2,
+  "text": "In a college, there are three student clubs, $60$ students are only in the Drama club, $80$ students are only in the Dance club, $30$ students are only in Maths club, $40$ students are in both Drama and Dance clubs, $12$ students are in both Dance and Maths clubs, $7$ students are in both Drama and Maths clubs, and $2$ students are in all clubs. If $75 \\%$ of the students in the college are not in any of these clubs, then the total number of students in the college is _____.",
+  "options": [
+   "$1000$",
+   "$975$",
+   "$900$",
+   "$225$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "[IMAGE:0]\n\n   Read question carefully. We cannot directly use the formula\n  \n\n   $P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - P(A \\cap B)  - P(B \\cap C)  - P(C \\cap A)  + P(A\\cap B\\cap C)$\n  \n\n   because of the\n   \n    only\n   \n   keyword which means we do not directly know what is $P(A), P(B)$ or $P(C)$\n  \n\n   Here, according to question statement, we can calculate total number of students belonging to at least one club :\n   $P(A \\cup B \\cup C) = 60 + 80 + 30 + (40-2) + (12-2) + (7-2) + 2 =  225$\n  \n\n   This is just $25\\%$ of the total no of students since $75\\%$ do not belong to any club.\n  \n\n   So, total number of students$ = 225 \\div 25\\% = 225 \\times 4 =  900.$\nLet us solve it using the conventional formula :\n  \n\n    (A U B U C) = A + B + C - (A ∩ B) - (B ∩ C) - (C ∩ A) + (A ∩ B ∩ C)\n   \n\n   Notice that in this formula,\n  \n\n   A means students in Drama club (but not Drama club only).\n  \n\n   B means students in Dance club (but not Dance club only).\n  \n\n   C means students in Maths club (but not Maths club only).\n  \n\n   So, A = students in Drama club ONLY + students in Drama and Dance clubs + students in Drama and Maths clubs - students in all clubs.\n  \n\n   A= 60 + 40 + 7 - 2 =\n   \n    105.\n   \n\n   Similarly,\n  \n\n   B = 80 + 12 + 40 - 2 =\n   \n    130.\n   \n\n   C = 30 + 7 + 12 - 2 =\n   \n    47.\n   \n\n   Also, Given that (A ∩ B) =\n   \n    40\n   \n   , (B ∩ C) =\n   \n    12\n   \n   , (C ∩ A) =\n   \n    7\n   \n   &  (A ∩ B ∩ C) =\n   \n    2\n   \n\n   Now just substitute these values in the above formula.\n  \n\n    (A U B U C) = 105 + 130 + 47 - 40 - 12 - 7 + 2 = 282 - 57 = 225.\n   \n\n   But given that 75% of the students are not in any of these clubs ,i.e, 25% of the students are in at least one of these clubs.\n  \n\n   0.25 * x = 225 ==> x = 900.\n  \n\n   So, Total number of students in the college =\n   \n    900.\n$900$, Hence option C is the answer.\nSource: NPTEL\n  \n\n    https://www.youtube.com/watch?v=7AjA2RqDou8\n   \n\n   Watch from 38 minutes.\n  \n\n   Everything in GATE comes directly from NPTEL video lectures.\n  \n\n   They have stopped making the NPTEL references for GATE but its alright.\n  \n\n[IMAGE:300]\n\n[IMAGE:301]\n60 + (40-2) + 80 + (7-2) + 30 + (12-2) + 2 = 225 present in the clubs.\n  \n\n   75 % are not in any of the clubs i.e. 25% are in clubs.\n   Therefore ,  x/4 = 225 => x =900\n   Ans is C\nOnly Drama =\n   \n    60\n   \n\n   Only Dance =\n   \n    80\n   \n\n   Only Maths =\n   \n    30\n   \n\n   All of those =\n   \n    2\n   \n\n   40 are both Drama and Dance [ contain Maths or not contain Maths] , So Only drama and Drama and Dance = 40-2 =\n   \n    38\n   \n\n   7 both drama and Maths , so Only Drama and Maths = 7-2 =\n   \n    5\n   \n\n   12 both Dance and Maths , so Only Dance and Maths = 12-2 =\n   \n    10\n   \n\n   Total students who participate in at least in one club = add all 7 regions students = 60+80+30+2+38+5+10 = 225\n  \n\n   Given that 75% does not participate any of the club\n  \n\n   which means 25% will participate in at least one club, hence 25% is equal to 225\n  \n\n   so 75% will be 675\n  \n\n   total students = participate + not participate = 225+675 =\n   \n    900 [ Answer ]\n   \n\n    Note :- Never Apply any formula in such type of questions",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=10445158820588335650",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=14339416233527777398",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=11041003270181205853",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/302864/gate-cse-2019-question-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313374",
+  "year": 2019,
+  "set": "2",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "An oil tank can be filled by pipe $X$ in $5$ hours and pipe $Y$ in $4$ hours, each pump working on its own. When the oil tank is full and the drainage hole is open, the oil is drained in $20$ hours. If initially the tank was empty and someone started the two pipes together but left the drainage hole open, how many hours will it take for the tank to be filled? (Assume that the rate of drainage is independent of the Head)",
+  "options": [
+   "$1.50$",
+   "$2.00$",
+   "$2.50$",
+   "$4.00$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Part filled by pipe $X$ in $1$ hour $= \\frac{1}{5}$\n  Part filled by pipe $Y$ in $1$ hour $= \\frac{1}{4}$\n  Part emptied by drainage hole in $1$ hour $= \\frac{1}{20}$\n  Net part filled by pipes $X$ & $Y$ and when drainage hole is left open in $1$ hour $= \\frac{1}{5} +\\frac{1}{4} -\\frac{1}{20} = \\frac{2}{5}$\n  So, the oil tank can be filled in $\\dfrac{1}{\\frac{2}{5}} = 2.5 \\;\\text{hours}$\n  Correct Answer: $C$\nLet the tank capacity be 20 ltrs.(Any multiple of 4,1,5 like 20,40,60.... will work) .\n   \n\n    Since the tank can be filled by X in 5 hrs,X is filling the tank at a rate of 4 ltrs per hour.\n   \n\n    Similarly Y is filling the tank at a rate of 5 ltrs per hour.\n   \n\n    Similarly drainage hole is emptying the tank at a rate of 1 litre per hour.\n   \n\n    If X,Y,Z are open for 1 hr,then at the end of hour,tank is increased by $4+5-1=8$ litres.\n   \n\n    Therefore if you start with empty tank in $20/8=2.5hrs$, you can fill the tank completely\n$Let\\ capacity=20L$\n  \n\n   $X\\rightarrow5H-\\ \\ 4L/H$\n  \n\n   $Y\\rightarrow4H-\\ \\ 5L/H$\n  \n\n   $Z\\rightarrow 20H-\\underline{1L/H}$\n  \n\n   $8L/H$\n  \n\n   $1H\\rightarrow 8L$\n  \n\n   $?\\rightarrow 20L$\n  \n\n    $?=2.5H$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313374/gate2019-ce-2-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313441",
+  "year": 2019,
+  "set": "1",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A square has side $5$ cm smaller than the sides of a second square. The area of the larger square is four times the area of the smaller square. The side of the larger square is _______ cm.",
+  "options": [
+   "$18.50$",
+   "$15.10$",
+   "$10.00$",
+   "$8.50$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Let $x$ be the side of the larger square and $y$ be the side of the smaller square.\n   According to the question$:$\n  \n\n    $y=x-5\\quad \\rightarrow(1)$\n   \n\n    $x^2 =4y^2\\rightarrow(2)$\n   \n\n   Putting $(1)$ in $(2)$ we get\n   $x^2 = 4(x-5)^2$\n   $\\implies x^{2}=4(x^{2}+25-10x)$\n   $\\implies 3x^{2}-40x+100=0$\n   $\\implies 3x^{2}-30x-10x+100=0$\n   $\\implies 3x(x-10)-10(x-10)=0$\n   $\\implies (x-10)(3x-10)=0$\n   $\\implies x=10 \\ cm \\ \\ (or) \\ x = \\dfrac{10}{3} \\ cm$\n   So, the correct answer is $(C).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313441/gate2019-ce-1-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313527",
+  "year": 2019,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Two design consultants, $P$ and $Q,$ started working from $8$ AM for a client. The client budgeted a total of USD $3000$ for the consultants. $P$ stopped working when the hour hand moved by $210$ degrees on the clock. $Q$ stopped working when the hour hand moved by $240$ degrees. $P$ took two tea breaks of $15$ minutes each during her shift, but took no lunch break. $Q$ took only one lunch break for $20$ minutes, but no tea breaks. The market rate for consultants is USD $200$ per hour and breaks are not paid. After paying the consultants, the client shall have USD _______ remaining in the budget.",
+  "options": [
+   "$000.00$",
+   "$166.67$",
+   "$300.00$",
+   "$433.33$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$360^{\\circ}$ is covered in $12$ hours by a hour hand of a clock.\n  \n\n   \"\n   \n    P\n   \n   stopped working when the hour hand moved by $210$ degrees on the clock.\n   \n    Q\n   \n   stopped working when the hour hand moved by $240$ degrees.\"\n  \n\n   It means $P$ stopped working after $\\frac{210^{\\circ}}{360^{\\circ}}*12 = 7$ hours and $Q$ stopped working after $\\frac{240^{\\circ}}{360^{\\circ}}*12 = 8$ hours.\n  \n\n   -- Since, $P$ has taken $2$ tea breaks of total $30$ minutes, $P$ has worked for total $(7 -0.5) = 6.5$ hours\n  \n\n   -- Since, $Q$ has taken one lunch break of total $20$ minutes, $Q$ has worked for total $7\\;hours\\; and\\; 40\\; minute=(7+\\frac{40}{60})= (7 + 0.6667)\\; hours = 7.6667$ hours\n  \n\n   So, $P$ and $Q$ are paid total USD $(6.5+7.6667)*200 =2834.33$\n  \n\n   So, after paying the consultants, the client shall have USD $(3000 - 2834.33) =166.67$ remaining in the budget.\n  \n\n   Correct Answer: B.\n$P\\&Q\\ Started:8AM$\n  \n\n   $P:210^{\\circ}\\Rightarrow3PM \\Rightarrow7hours$\n  \n\n     P\n    \n    took two tea breaks of 15 minutes each during her shift\n   \n\n   Working hours$=6:30$\n  \n\n   $(6h\\times 200)\\$+100\\$=1300\\$$\n  \n\n   $Q:240^{\\circ}\\Rightarrow4PM \\Rightarrow8hours$\n  \n\n     Q\n    \n    took only one lunch break for 20 minutes\n   \n\n   Working hours$=7:40$\n   $(7h\\times 200)\\$+133.\\bar3\\$=1533.\\bar3\\$$\n  \n\n    After paying the consultants, the client shall have USD _______ remaining in the budget.\n   \n\n   $3000\\$-2833.\\bar3\\$=166.67\\$$\n  \n\n    Correct Answer\n   \n   $:B$\n1. Calculate the total hours worked by consultants P and Q.\n  \n\n   2. Calculate the total amount paid to each consultant.\n  \n\n   3. Deduct the total amount paid to both consultants from the client's budget to find the remaining amount.\n  \n\n   Let's start with the first step:\n  \n\n   1. Total hours worked by consultant P:\n  \n\n   The hour hand of a clock completes 360 degrees in 12 hours, so 210 degrees correspond to (210/360) * 12 hours = 7 hours.\n  \n\n   However, consultant P took two tea breaks of 15 minutes each, totaling 30 minutes or 0.5 hours.\n  \n\n   So, the actual hours worked by consultant P = 7 hours - 0.5 hours = 6.5 hours.\n  \n\n   Total hours worked by consultant Q:\n  \n\n   Similar to P, 240 degrees correspond to (240/360) * 12 hours = 8 hours.\n  \n\n   But Q took a lunch break of 20 minutes or 1/3 hours.\n  \n\n   So, the actual hours worked by consultant Q = 8 hours - 1/3 hours = 7.67 hours (rounded to two decimal places)\n  \n\n   2. Calculate the total amount paid to each consultant:\n  \n\n   Consultant P: 6.5 hours * $200/hour = $1300\n  \n\n   Consultant Q: 7.67 hours * $200/hour = $1534\n  \n\n   3. Deduct the total amount paid to both consultants from the client's budget:\n  \n\n   Total amount paid to consultants = $1300 + $1534 = $2834\n  \n\n   Remaining amount for the client = $3000 - $2834 = $166\n  \n\n    So, after paying the consultants, the client shall have USD 166 remaining.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313527/gate2019-ec-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313549",
+  "year": 2019,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Two trains started at $7$AM from the same point. The first train travelled north at a speed of $80$km/h and the second train travelled south at a speed of $100$km/h. The time at which they were $540$ km apart is ________ AM.",
+  "options": [
+   "$9$",
+   "$10$",
+   "$11$",
+   "$11.30$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "The trains are traveling in opposite directions and so their relative speed is the sum of their individual speeds.\n  Relative speed $ = $ Speed of Train 1 + Speed of Train 2 $= 80 + 100 = 180 \\; kmph$\n  Distance $ = 540$\n  Time taken $ = \\frac{\\text{Distnace}}{\\text{Speed}} = \\frac{540}{180} = 3$\n  So, at $7am + 3 = 10am$ the trains will be seperated by $540$ kms.\n  Correct Answer: B\nSince, both trains start from a point and goes in opposite directions, first train covers 80 kms in one hour and other train covers 180 kms in an hour. So, they goes 180 kms apart in one hour. So, in 3 hours they go 540 kms apart. So, after 3 hours time will be 10am.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313549/gate2019-in-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313566",
+  "year": 2019,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Given two sets $X=\\{1,2,3\\}$ and $Y=\\{2,3,4\\},$ we construct a set $Z$ of all possible fractions where the numerators belong to set $X$ and the denominators belong to set $Y.$ The product of elements having minimum and maximum values in the set $Z$ is _____.",
+  "options": [
+   "$1/12$",
+   "$1/8$",
+   "$1/6$",
+   "$3/8$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Answer D.\n   \n\n   For minimum value pick the smallest value from $X$ as numerator and largest value from $Y$ as denominator\n   $\\implies $Minimum value $=\\frac{1}{4}$\n  \n\n   For maximum value pick the largest value from $X$ as numerator and smallest value from $Y$ as denominator\n   $\\implies$ Maximum value $=\\frac{3}{2}$\n  \n\n   Their product = $\\frac{1}{4}\\times \\frac{3}{2}=\\frac{3}{8}$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313566/gate2019-ee-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313581",
+  "year": 2019,
+  "set": "2",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Mola is a digital platform for taxis in a city. It offers three types of rides – Pool, Mini and Prime. The table below presents the number of rides for the past four months. The platform earns one US dollar per ride. What is the percentage share of the revenue contributed by Prime to the total revenues of Mola, for the entire duration?\n  \n\n   $$\\begin{array}{|l|llll|}\\hline \\textbf{Type}  &  \\textbf{Month}\\\\ & \\textbf{January} & \\textbf{February}  & \\textbf{March} & \\textbf{April}\\\\\\hline \\textbf{Pool} & \\text{170}& \\text{320} & \\text{215} & \\text{190} \\\\\\hline \\textbf{Mini} & \\text{110}& \\text{220} & \\text{180} & \\text{70} \\\\\\hline \\textbf{Prime} & \\text{75}& \\text{180} & \\text{120} & \\text{90} \\\\\\hline  \\end{array}$$",
+  "options": [
+   "$16.24$",
+   "$23.97$",
+   "$25.86$",
+   "$38.74$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Percentage share of the revenue contributed by Prime to the total revenues of Mola for the entire duration of 4 months\n  $=\\left ( \\frac{1 \\times\\textrm{Rides given by Prime in 4 months duration}}{1 \\times \\textrm{Total number of rides in the 4 month duration}} \\right ) \\times100\\%$\n  $=\\left ( \\frac{75+180+120+90}{170+320+215+190+110+220+180+70+75+180+120+90} \\right )\\times 100\\%$\n  $=\\left ( \\frac{465}{1940} \\right )\\times 100\\%$\n  $=23.97\\%$\n  $\\therefore$ Option B $23.97$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313581/gate2019-me-2-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313600",
+  "year": 2019,
+  "set": "1",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A firm hires employees at five different skill levels P, Q, R, S, T. The shares of employment at these skills levels of total employment in $2010$ is given in the pie chart as shown. There were a total of $600$ employees in $2010$ and the total employment increased by $15\\%$ from $2010$ to $2016$. The total employment at skill levels P, Q and R remained unchanged during this period. If the employment at skill level S increased by $40 \\%$ from $2010$ to $2016$, how many employees were there at skill level T in $2016$?\n  \n\n[IMAGE:0]",
+  "options": [
+   "$30$",
+   "$35$",
+   "$60$",
+   "$72$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Number of employees in $2010 = 600.$\n  Number of employees in $2016 = 1.15 \\times 600 = 690.$\n  So, increase in $90$ employments is by $S$ and $T$ as other $3$ remained constant.\n  Original $S$ value $ = 0.25 \\times 600 = 150.$\n  New $S$ value $ = 1.4 \\times 150 = 210.$\n  So, increase in $S$ is $60$ and so increase in $T = 90-60=30.$\n  Original $T$ value $ = 0.05 \\times 600 = 30.$\n  So, new $T$ value $ = 30 + 30 = 60.$\n  Correct Option: C.\n[IMAGE:100]\n\n    $In\\  2010: $\n   \n\n   Total number of employees $ = 600$\n  \n\n   Number of employees of skills $Q=R=S=25\\%   \\ \\ of  \\ \\ 600 =\\dfrac{25}{100}\\times 600=150$\n  \n\n   Number of employees of skill $P = 20\\%  \\ \\ of \\ \\ 600 =\\dfrac{20}{100}\\times 600= 120$\n  \n\n   Number of employees of skill $T= 5\\%  \\ \\ of \\ \\  600 =\\dfrac{5}{100}\\times 600 =30$\n  \n\n    $In \\  2016:$\n   \n\n   Total number of employees increased by $15\\%$ Total number of employees $=1.15 \\times 600 =690$\n  \n\n   As there is no change in skill level of $P, Q, $ and $R$\n  \n\n   Number of employees of skill level $P = 120$\n  \n\n   Number of employees of skill level $Q = 150$\n  \n\n   Number of employees of skill level $R=150$\n  \n\n   Number of employees at skill level $S  \\ 40\\%$ increases $ = 1.4\\times 150 = 210$\n  \n\n   Number of employees at skill level $T  = 690-(120 +150+ 150 +210)= 60.$\n  \n\n[IMAGE:101]\n\n   So,the correct answer is $(C).$",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=14627419388668282358",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1825529034378186154",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=4130498883055423940",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/313600/gate2019-me-1-ga-9",
+  "source": "gateoverflow"
+ },
+ {
   "id": "302838",
   "year": 2019,
   "set": null,
@@ -592,6 +2232,233 @@
   "explanation": "$R_1 : \\forall a,b \\in G, aR_1b$ iff $\\exists g \\in G $ such that $a = g^{-1}bg$\n  \n\n   let g and h are inverse for each other.\n  \n\n    Reflexive:\n   \n   $aR_1a$\n  \n\n   $a = g^{−1}ag $\n  \n\n   $ga = gg^{-1}ag$ //Left multiplication by $g$\n  \n\n   $gag^{-1} = agg^{-1}$ //Right multiplication by $g^{-1}$\n  \n\n   $gag^{-1} = a$\n  \n\n   $a = gag^{-1}$\n  \n\n   $a = h^{-1}ah$  ( $∃h∈G$ )\n  \n\n   we have $aR_1a$. So the relation is reflexive.\n  \n\n   Alternative :- in the group, there should exist identity element, So we can take it as some g.\n   \n    Symmetric:\n   \n\n   let (a,b) exist, then\n  \n\n   $a = g^{−1}bg $\n  \n\n   $gag^{-1} = b $\n  \n\n   $h^{-1}ah = b $  ( $∃h∈G$ )\n  \n\n   ∴ (b,a) should be in the relation.\n  \n\n   Hence the relation is symmetric.\n   \n    Transitive:\n   \n\n   If (a,b) and (b,c) present, then\n  \n\n   $a = x^{−1} b x $ and $b = y^{−1} c y $\n  \n\n   $a = \\underline{x^{−1} \\;y^{−1}} \\;\\;c \\;\\;\\underline{y\\; x} $\n  \n\n   What is the inverse of $ x^{−1} y^{−1} $ ?\n  \n\n   $ x^{−1} y^{−1} $ . _________ = Identity.\n  \n\n   to cancel the term $ y^{−1} $, we must multiply with it's inverse.\n  \n\n   to cancel the term $ x^{−1} $, we must multiply with it's inverse.\n  \n\n   So, inverse of $ x^{−1} y^{−1} $ is $ y . x $\n  \n\n   ∴$a = p^{−1}\\; c \\;p \\; \\text{, where p is y.x} $\n  \n\n   ∴ (a,c) should be in the relation.\n  \n\n   Hence the relation is transitive.\n   $R_1$ is equivalence relation.\n  \n\n   $R_2 : \\forall a,b \\in G, aR_2b$ iff $a =b^{-1} $\n  \n\n    Reflexive:\n   \n\n   for including a pair of (a,a), we need to $a=a^{−1}$ .\n  \n\n   For an arbitrary group this may not be true. So the relation is not reflexive.\n  \n\n   $R_2$ is not equivalence relation.\n  \n\n    Correct Answer (B).\nR2 is not Reflexive.\n  \n\n    -R1 is Reflexive.means\n    \n\n      we have to prove a= g^-1 .a .g for some g belonging to group\n      Since , identity element belong to every group.\n      For g=identity element(e).\n      [e^-1=e\n      e.a=a.e=a]\n      So, g^-1 .a . g = e^-1 .a . e = e . a = a\n      Hence, for all a there exist g( an identity element) such that a= g^-1 . a .g\n      - R1 is symmetric\n      Given: a= g^-1 .b . g and g belongs to the group.\n      To Prove: b = k^-1 . a . k for k belonging to group.\n      Premultiplying with g\n      g.a = g.g^-1.b.g= b.g\n      Postmultiplying with g^-1\n      g .a. g^-1= b.g.g^-1= b\n      implies\n      b= g.a.g^-1\n      g can be written as (g^-1)^-1\n      b=(g^-1)^-1 . a . g^-1\n      for k= g^-1\n      Since, g belongs to group g^-1 also belongs to group and hence k belongs to group\n      b= k^-1 . a . k\n      Hence, if there exist g such that a=g^-1.b.g\n      then there also exist g'(which is g^-1) such that b= g'^-1.a.g'\n      -Dont know about transitive\nFor\n   \n   $R_1$:\n  \n\n   As it’s given that $G$ be any arbitrary group , then it’s a must that every element has an inverse .\n  \n\n   So , as given that $\\forall a , b \\in G, \\: a R_1 b \\text{ if and only if } \\exists g \\in G \\text{ such that } a = g^{-1}bg$\n  \n\n   Let the inverse of $g$ be $\\alpha$ , So we can say $g^{-1}$ = $\\alpha$ and $\\alpha ^{-1} = g $\n  \n\n   Therefore, our equation looks like this : $a = \\alpha bg$\n  \n\n   And also there exists an identity element $’e’$ , as it’s a group.\n  \n\n   Now,\n  \n\n     Reflexivity :\n    \n\n   We have to just prove that every element is related to itself , and also $a.e = e.a = a$ , here $e$ is an identity element\n  \n\n   Now we can say if $(a,a)$ has to belong to the relation then it must satisfy :\n  \n\n   $a = g^{-1}ag$ , and we can assume that element $’g’$ to be equivalent to our identity element $’e’$.\n  \n\n   Then it becomes $a = e^{-1}ae$\n  \n\n   $a = eae$  ($e^{-1}=e$)\n  \n\n   $a = ae$\n  \n\n   $a = a$\n  \n\n   Hence , our relation is reflexive\n  \n\n     Symmetric :\n    \n\n   For relation to be symmetric $aRb$ and $bRa$ for all $a,b \\in G$\n  \n\n   So we just have to prove $b = k^{-1}ak  $ such that there $\\exists k$ and $k \\in G$\n  \n\n   $a = g^{-1}bg$\n  \n\n   (Left multiplication with g)\n  \n\n   $ga = gg^{-1} b g$\n  \n\n   $ga = ebg$ (As $ gg^{-1} = e$)\n  \n\n   (Right multiplication with $g^{-1}$)\n  \n\n   $gag^{-1} = bgg^{-1}$\n  \n\n   $gag^{-1} = be$\n  \n\n   $gag^{-1} = b$\n  \n\n   $b = gag^{-1}$\n  \n\n   And from our assumption we know $g^{-1}=\\alpha$ and $\\alpha^{-1}=g$\n  \n\n   Therefore , we can write it as :\n  \n\n   $b = \\alpha^{-1}a\\alpha$\n  \n\n   And this satisfies the above equation as $\\alpha$ do exists and belong to G. And , hence our relation is symmetric\n  \n\n     Transitivity:\n    \n\n   We have to prove $aRb$ and $bRa$ , then $aRc$\n  \n\n   Let there be to element $g$ and $k$ such that :\n  \n\n   $a = g^{-1}bg$ and $b = k^{-1}ck$\n  \n\n   From above we can say : $b = \\alpha^{-1}a\\alpha$\n  \n\n   So\n  \n\n   $\\alpha^{-1}a\\alpha = k^{-1}ck$\n  \n\n   (Left multiplication with $\\alpha$)\n  \n\n   $a\\alpha = \\alpha k^{-1}ck$\n  \n\n   $a\\alpha =  g^{-1}k^{-1}ck$ (As $\\alpha = g^{-1}$ )\n  \n\n   (Right Multiplication with $\\alpha^{-1}$)\n  \n\n   $a =g^{-1}k^{-1}ck\\alpha $\n  \n\n   $a =g^{-1}k^{-1}ckg $  (As $\\alpha^{-1}=g$)\n  \n\n   Now what’s the inverse of $g^{-1}k^{-1}$ ? it would be $kg$\n  \n\n   Because :\n  \n\n   $g^{-1}k^{-1}*$ ____= $e$\n  \n\n   So we’ve to operate it with $kg$ in order to get e\n  \n\n   $g^{-1}k^{-1}kg = e$\n  \n\n   $g^{-1}eg = e$ (As, $k^{-1}k = e$)\n  \n\n   $g^{-1}eg = e$\n  \n\n   $g^{-1}g = e$\n  \n\n   $e = e$\n  \n\n    (Credits to Sir Shaik Masthan for this)\n   \n\n   And, let $h = kg$\n  \n\n   So $h^{-1} = g^{-1}k^{-1}$\n  \n\n   Therefore our equation would look like this :\n  \n\n   $a =h^{-1}ch $\n  \n\n   Hence , relation is also transitive .\n  \n\n    Therefore,\n   \n   $R_1$\n   \n    is an equivalence relation.\n   \n\n    For\n   \n   $R_2$:\n  \n\n   $a = b^{-1}$ , doesn’t tells us anything.\n  \n\n   $b^{-1}$ might be equal to $a^{-1}$ or not.\n  \n\n   Hence it’s not a reflexive relation, therefore not an equivalence relation\nC option\n  R1 reflexive  symmetric and transitive\n  R1is reflexive:\n  aRa because e −1ae = a.\n  R1 is symmetric:\n  if aRb, i.e. if b = g −1ag for some g, then a = gbg−1 = (g −1 ) −1 bg−1 and bRa.\n  R1 is transitive: if aRb, i.e. b = g −1ag, and bRc, i.e. c = h −1 bh, then c = h −1 g −1agh = (gh) −1a(gh)\nb as r2 need not be reflexive.\n  And r1 is reflexive symmetric and transitive.\nAnswer:\n   \n\n    (B)\n   \n\n    Explanation:\n   \n   Given\n   \n    R1\n   \n   is a equivalence relation, because it satisfied reflexive, symmetric, and transitive conditions:\n  \n\n     Reflexive:\n    \n    a = g–1ag can be satisfied by putting g = e, identity “e” always exists in a group.\n   \n\n     Symmetric:\n    \n\naRb ⇒ a = g–1bg for some g\n⇒ b = gag–1 = (g–1)–1ag–1\ng–1 always exists for every g ∈ G. \n\n     Transitive:\n    \n\naRb and bRc ⇒ a = g1–1bg1 \nand b = g2–1 cg2 for some g1g2 ∈ G.\nNow a = g1–1 g2–1 cg2g1 = (g2g1)–1 cg2g1\ng1 ∈ G and g2 ∈ G ⇒ g2g1 ∈ G \nsince group is closed so aRb and aRb ⇒ aRc\n\n    R2\n   \n   is not equivalence because it does not satisfied reflexive condition of equivalence relation:\n  \n\naR2a ⇒ a = a–1 ∀a which not be true in a",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/302838/gate-cse-2019-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "302863",
+  "year": 2019,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": 2,
+  "text": "Three of the five students are allocated to a hostel put in special requests to the warden, Given the floor plan of the vacant rooms, select the allocation plan that will accommodate all their requests.\n  \n\n   Request by X: Due to pollen allergy, I want to avoid a wing next to the garden.\n  \n\n   Request by Y: I want to live as far from the washrooms as possible, since I am very much sensitive to smell.\n  \n\n   Request by Z: I believe in Vaastu and so I want to stay in South-West wing.\n  \n\n   The shaded rooms are already occupied. WR is washroom",
+  "options": [
+   "[IMAGE:0]",
+   "[IMAGE:1]",
+   "[IMAGE:2]",
+   "[IMAGE:3]"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Only in option D, we see that that Z has been assigned in S-W zone. Hence no scope of confusion with other options.\n  Moreover X and Y's requests have also been satisfied : X has not been assigned close to the garden.\n  Y has not been assigned close to the washroom.\nX want not live nearby garden  due to pollen allergy\n  Y want not live nearby wash room(WR)\n  Z want  to live in the South West wing\n  Clear it is option D\n  Because x is far from garden   Y is far from wash room  and Z is staying in South West wing",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=15581162300337455988",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=8675745539438484370",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=3474797724573726653",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=7021519328996997072",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/302863/gate-cse-2019-question-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313375",
+  "year": 2019,
+  "set": "2",
+  "number": 10,
+  "section": "GA",
+  "type": "msq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "\"Popular Hindi fiction, despite - or perhaps because of - its wide reach, often does not appear in our cinema. As ideals that viewers are meant to look up to rather identify with, Hindi film protagonists usually read books of aspirational value: textbook, English books, or high-value literature.\"\n  \n\n   Which one of the following CANNOT be inferred from the paragraph above?",
+  "options": [
+   "Though popular Hindi fiction has wide reach, it often does not appear in the movies",
+   "Protagonists in Hindi movies, being ideals for viewers, read only books of aspirational value",
+   "Textbooks, English books or high literature have  aspirational value, but not popular Hindi fiction",
+   "People do not look up to writers of textbook, English books or high-value literature"
+  ],
+  "correctAnswer": [
+   "B",
+   "D"
+  ],
+  "explanation": "Popular Hindi fiction, despite – or perhaps because of – its wide reach, often does not appear in our cinema. -- makes option A true\n   \n\n    As ideals that viewers are meant to look up to rather identify with, Hindi film protagonists usually read books of aspirational value: -- can infer option B but \"usually\" does not imply \"only\".\n   \n\n    Hindi film protagonists usually read books of aspirational value: textbook, English books, or high-value literature -- makes option C true\n   \n\n    As ideals that viewers are meant to\n    \n     look up to\n    \n    rather identify with, Hindi film protagonists usually read books of aspirational value: textbook, English books, or high-value literature -- this is contradictory to option D.\n   \n\n   So, options D and B cannot be inferred.\n  \n\n   Official answer: D, B",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313375/gate2019-ce-2-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313448",
+  "year": 2019,
+  "set": "1",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "$P, Q, R, S,$ and $T$ are related and belong to the same family. $P$ is the brother of $S, Q$ is the wife of $P$. $R$ and $T$ are the children of the siblings $P$ and $S$ respectively. Which one of the following statement is necessarily FALSE?",
+  "options": [
+   "$S$ is the aunt of $R$",
+   "$S$ is the aunt of $T$",
+   "$S$ is the sister-in-law of $Q$",
+   "$S$ is the brother of $P$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "[IMAGE:0]\n\n    $S$ is the aunt of $R-$ It may be false as $S$ can also be the uncle.\n   \n\n    $S$ is the aunt of $T-$ It ${\\color{Red} {\\text{must }}}$be false, because $S$ either father of $T$ or mother of $T.$\n   \n\n    $S$ is the sister-in-law of $Q-$ It may be false as $S$ can be brother-in-law too.\n   \n\n    $S$ is the brother of $P-$ It may be false as $S$ can be sister too.\n   \n\n   So, the correct answer is $(B).$",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=479546354393103971",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/313448/gate2019-ce-1-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313539",
+  "year": 2019,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Five people $P,Q,R,S$ and $T$ work in a bank. $P$ and $Q$ don't like each other but have to share an office till $T$ gets a promotion and moves to the big office next to the garden. $R,$ who is currently sharing an office with $T$ wants to move to the adjacent office with $S,$ the handsome new intern. Given the floor plan, what is the current location of $Q, R$ and $T?$\n   (O=Office, WR=Washroom)",
+  "options": [
+   "[IMAGE:0]",
+   "[IMAGE:1]",
+   "[IMAGE:2]",
+   "[IMAGE:3]"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "\"$R,$ who is currently sharing an office with $T$\"\n  \n\n   This is happening only in option C.\n   Correct option C.",
+  "images": [
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=1591000135360214686",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=15589300767823774956",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=2963769201026993451",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=11221581529214692461",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/313539/gate2019-ec-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313555",
+  "year": 2019,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "“I read somewhere that in ancient times the prestige of a kingdom depended upon the number of taxes that it was able to levy on its people. It was very much like the prestige of a head-hunter in his own community.”\n  \n\n   Based on the paragraph above, the prestige of a head-hunter depended upon ______________",
+  "options": [
+   "the prestige of the kingdom",
+   "the prestige of the heads",
+   "the number of taxes he could levy",
+   "the number of heads he could gather"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "The analogy is between kingdom and head-hunter. Like kingdom collects taxes, head-hunter gather heads.\n  So, Option D.\nMore the taxes more is the prestige i.e respect and admiration.\n  Similarly, if a person is the head-hunter so if there is more number of head more will be prestige.\n  Option D.\nOption D. The numbers of heads he could gather\n  Prestige of kingdom depend upon the no of taxes = prestige of head Hunter depend upon how many head gather by hunting .\noption D is correct\n   \n\n   i also think option C i correct here bcoz of below line\n   the prestige of a kingdom depended upon the number of taxes that it was able to levy on its people.\n   but we should think that how the prestige should define i mean they want to tell what is the definition of prestige here by writing above line in the passage\n   so that if some one do its work in more intensity they are more prestige on their work so that here\n  \n\n     the prestige of a head-hunter depended upon the number of heads he could gather\n    \n\n   AND\n  \n\n     the prestige of a kingdom depended upon the number of taxes he could levy\nOption C- prestige  directly dependent  to the number of texes he could levy.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313555/gate2019-in-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313594",
+  "year": 2019,
+  "set": "2",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "$X$ is an online media provider. By offering unlimited and exclusive online content at attractive prices for a loyalty membership, $X$ is almost forcing its customers towards its loyalty membership. If its royalty membership continues to grow at its current rate, within the next eight years more households will be watching $X$ than cable television.\n  \n\n   Which one of the following statements can be inferred from the above paragraph?",
+  "options": [
+   "Most households that subscribe to $X’s$ loyalty membership discontinue watching cable television",
+   "Non-members prefer to watch cable television",
+   "Cable television operators don’t subscribe to $X’s$ loyalty members",
+   "The $X$ is cancelling accounts of non-members"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Answer (A)\n  Implied by the last sentence that states that more households will be watching X than cable television. This means more households that subscribe to X’s loyalty membership will discontinue watching cable television.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/313594/gate2019-me-2-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "313749",
+  "year": 2019,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider five people- Mita, Ganga, Rekha, Lakshmi, and Sana. Ganga is taller than both Rekha and Lakshmi. Lakshmi is taller than Sana. Mita is taller than Ganga.\n  \n\n   Which of the following conclusions are true?\n  \n\n    $1$ and $3$\n   \n\n    $3$ only\n   \n\n    $2$ and $4$\n   \n\n    $1$ only",
+  "options": [
+   "Lakshmi is taller than Rekha",
+   "Rekha is shorter than Mita",
+   "Rekha is taller than Sana",
+   "Sana is shorter than Ganga"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Answer C.\n   \n\n   It is confirmed that Mita is the tallest girl and Ganga is the 2\n   \n    nd\n   \n   tallest girl. No height relationship between Rekha and Lakshmi, so we won’t assume anything. Also, Lakshmi is taller than Sana.\n  \n\n    False because no height relationship given between the two girls.\n   \n\n    True because Rekha is shorter than Ganga, who in turn is shorter than Mita. Thus, Rekha is shorter than Mita (Transitive relation).\n   \n\n    False. No height relationship given between the two girls\n   \n\n    True because Ganga is taller than Lakshmi, who is again taller than Sana. Thus, Ganga is taller than Sana.\nFrom the given statements (using first letter for respective names)\n  \n\n   $R < G,  S < L < G <M$\n  \n\n   So, Mita is the tallest followed by Ganga.\n  \n\n    Lakshmi is taller than Rekha -- may or may not be true\n   \n\n    Rekha is shorter than Mita -- TRUE\n   \n\n    Rekha is taller than Sana -- may or may not be true\n   \n\n    Sana is shorter than Ganga -- TRUE\n   \n\n   Correct answer: C\nLet m,g,r,l,s represent mita,ganga,rekha,lakshmi,sana respectively..\n  If x is taller than y , i will indicate that by x>y.\n  It is given that:\n  g>r,g>l,l>s,m>g.\n  From above equations,we can infer:\n  g>s,m>r,m>l,m>s\n  There fore, rekha is shorter than mita and sana is shorter than ganga.\n  The relationship between heights of lakshmi ,rekha and rekha,sana can be anything (i.e, can be equal to, less than or greater than)\n[IMAGE:300]\n\n   There is no relationship between the height of Rekha and Lakshmi so Statement 1 is eliminated\n  \n\n   and also there is no relationship between the height of Rekha and Sana so Statement 3 is eliminated\n  \n\n   and\n  \n\n   from the graph, it is clear that\n   \n    Mita>Gita>Lakshmi>sana\n   \n\n   so\n   \n    statement 2 and 4 are correct\n   \n\n   so\n   \n    option C\n   \n   .\nGanga is taller than both Rekha and Lakshmi -\n   R < G\n   L < G\n   Lakshmi is taller than Sana -\n   R < G\n   S < L < G\n   Mita is taller than Ganga -\n   R < G < M\n   S < L < G < M\n   Hence,\n   \n    option (C)\nBased on the given information, it is evident that Rekha and Lakshmi are shorter than Ganga, and Sana is shorter than Lakshmi. Consequently, the correct inference leads to the conclusion that option 4 is accurate, and the only option containing option 4 is option C. Therefore, option C is the correct answer.",
+  "images": [
+   {
+    "src": "data:image/png;base64,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cA8Jw/VSzDWXYq45AACWJZ3TTi0Zw+45ofaSMJw6Lgz3mDBcL8VccynmmgMAYFnSOe3UkvHK3hBrm3vOU0nHP7/5ERTp+PX19berksJwDwnD9VLMNZdirjkAAJYlndNObcrwOsDNCByv+D09nsJwMN52DMrx65vHh0j88uXLwzFhuIeE4Xop5ppLMdccAAC8xFTsDdI7k/JjwjDEXHMp5NpLMddcirnmAADgJcZ3DU1heHZ2Jgx/gjAMMddcCrn2Usw1l2KuOQAAeInxdX9Tryec+hgKpgnDEHPNpZBrL8VccynmmgMAgJfafC3guHQVkR8ThiHmmksh116KueZSzDUHAAC8LmEYYq65FHLtpZhrLsVccwAAwOsShiHmmksh116KueZSzDUHAAC8LmEYYq65FHLtpZhrLsVccwAAwOsShiHmmksh116KueZSzDUHAAC8LmEYYq65FHLtpZhrLsVccwAAwOsShiHmmksh116KueZSzDUHAAC8LmEYYq65FHLtpZhrLsVccwAAwOsShiHmmksh116KueZSzDUHAAC8LmEYYq65FHLtpZhrLsVccwAAwOsShiHmmksh116KueZSzDUHAAC8LmEYYq65FHLtpZhrLsVccwAAwOsShiHmmksh116KueZSzDUHAAC8LmEYYq65FHLtpZhrLsVccwAAwOsShiHmmksh116KueZSzDUHAAC8LmEYYq65FHLtpZhrLsVccwAAwOsShiHmmksh116KueZSzDUHAAC8LmEYYq65FHLtpZhrLsVccwAAwOsShiHmmksh116KueZSzDUHAAC8LmEYYq65FHLtpZhrLsVccwAAwOsShiHmmksh116KueZSzDUHAACv5fLycnVwcLC6urp6PPK9i4uLH97mrROGIeaaSyHXXoq55lLMNQcAAK9FGP5GGIaYay6FXHsp5ppLMdccAADLks45p7ZrwvA3wjDEXHMp5NpLv0DNpZhrDgCAZUnnnFPbNWH4G2EYYq65FHLtpV+g5lLMNQcAwLKkc86pTRli7eTkZPXly5fV0dHRQ7h9+PBh9fXr14ev397efjs+LoVdCsPx2Hh/T8Nw/Odhw/e/v79//FNr458fd3x8vLq5uXn86n4ShiHmmksh1176BWouxVxzAAAsSzrnnNqUIdCG4PqXf/mX1adPnx6P/ub6+np1eHi4Oj8/fzwy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LsVccynmmgMAAOYJwxBzzaWQay/FXHMp5ppLMdccAAAwTxiGmGsuhVx7KeaaSzHXXIq55gAAgHnCMMRccynk2ksx11yKueZSzDUHAADME4Yh5ppLIddeirnmUsw1l2KuOQAAYJ4wDDHXXAq59lLMNZdirrkUc80BAADzhGGIueZSyLWXYq65FHPNpZhrDgAAmCcMQ8w1l0KuvRRzzaWYay7FXHMAAMA8YRhirrkUcu2lmGsuxVxzKeaaAwAA5gnDEHPNpZBrL8Vccynmmksx1xwAADBPGIaYay6FXHsp5ppLMddcirnmAACAecIwxFxzKeTaSzHXXIq55lLMNQcAAMwThiHmmksh116KueZSzDWXYq45AABgnjAMMddcCrn2Usw1l2KuuRRzzQEAAPOEYYi55lLItZdirrkUc82lmGsOAACYJwxDzDWXQq69FHPNpZhrLsVccwAAwDxhGGKuuRRy7aWYay7FXHMp5poDAADmCcMQc82lkGsvxVxzKeaaSzHXHAAAME8YhphrLoVceynmmksx11yKueYAAIB5wjDEXHMp5NpLMddcirnmUsw1BwAAzBOGIeaaSyHXXoq55lLMNZdirjkAAGCeMAwx11wKufZSzDWXYq65FHPNAQAA8+pheHZ2tjo4OPi2k5OT1f39/eNXe4Theinmmksx11yKueYAAIB5tTC8vb1dHR0d/S4E7+7uVqenp6vj4+PVzc3Nw7EWYbheirnmUsw1l2KuOQAAYF4tDC8uLmIAXl9frw4PD1fn5+ePRzqE4Xop5ppLMddcirnmAACAeZUwHK8MfvjwYfX169fHo78Zv9Z+SqkwXC/FXHMp5ppLMdccAAAwrxKGP7oqOLzusP10UmG4Xoq55lLMNZdirjkAAGCeMAwx11wKufZSzDWXYq65FHPNAQAA86ph+OnTp8cjv/ezYfj58+dvP+DmPn78GI+bmZmZmVneX//618czbfi98TGy2CuGsA88nnlPPJ55bzymeU88npkyPDaG7TwM9/XNZ2AfeDzznng88954TPOeeDwzZXhsDNsqDMfPMJx7V9L0tW14UPOeeDzznng88954TPOeeDwzZXhsDNsqDAdTTxf90esPf5YHNe+JxzPviccz743HNO+JxzNThsfGsK3DcAzAp1cG564kbsuDmvfE45n3xOOZ98ZjmvfE45kpw2Nj2NZhOBhD8ODg4NumXne4LQ9q3hOPZ94Tj2feG49p3hOPZ6YMj41hlTD8lf793//98Z/g7fN45j3xeOa98ZjmPfF4ZsqbDUMAAAA6hCEAAMDCCUMAAICFE4YAAAALJwwBAAAWThgCAAAsnDAEAABYOGEIAACwcMIQAABg4YQhAADAwglDAACAhROGAAAACycM+c7FxcXq4OBg9enTp8cjzzf+2aurq8cjAADAvhOGb9Tl5eVsvG0TaL8qDG9vb1dHR0er8/PzxyMAAMBrEIZv1C7DcBvCEAAA3h5h+EYJQwAAoEUYvlE/G4ZjjA1fG7d5m/G+p46njbd9+n3Hfx52cnKyur+/f7jN4Ozs7NvXnu5nnr4KAABsRxi+UT8ThtfX16vDw8PfXaFLt0thuPn9xsDcDL6nMTje9u7ubnV6evrdbV0xBACA/SAM36ifCcPhKt2HDx9WX79+fTyyjranxzfDMN1mMHyP4+Pj1c3NzeOR9ffd/LlSbApDAADYD8LwjRpD60cbQ2wuwoZgfHo177lhmGIvBelgvFr5NBiFIQAA7Adh+EaNUfbcK4ZjmA3H0n4mDOeuGApDAAB4O4ThG/WzYficCEtXAjePjVGXYlEYAgDA2yIM36iXhuFLImzqiuEf//jH3111TPclDAEA4O0Rhm/US8NwjLvNdwZNpq4OTn2vp4QhAAC8PcLwjXppGA7GOEtP/3waZ1NXDIdjm9vmqaQviVUAAGB3hOEb9TNhOBiv0o1hN2zzit1mGA6G+9uMwPG+nh5/SRgONn+ezT8HAADsnjDkh1IojoYQ3HxnUgAA4G0RhvzQ1FXAwfAZiMIQAADeNmHID029NnG8kujNYwAA4G0ThjxLem3i1FVEAADgbRGGAAAACycMAQAAFk4YAgAALJwwBAAAWDhhCAAAsHDCEAAAYOGEIQAAwMIJQwAAgIUThgAAAAsnDAEAABZOGAIAACycMAQAAFg4YQgAALBwwhAAAGDhvgtDMzMzMzMzW+aGMPy/mwfNzMzMzMxsGfvLX/7y//4/0RdA+oQNnGAAAAAASUVORK5CYII=",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/313749/gate2019-ee-ga-10",
   "source": "gateoverflow"
  },
  {

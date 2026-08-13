@@ -22,10 +22,29 @@ from subtopic_map import subtopic_for
 
 YEAR_TAG = re.compile(r"^gatecse(?:-(\d{4})|-set\d|-(\d{4})-set\d)?|^gatecse(\d{4})-set\d")
 OLD_YEAR_TAG = re.compile(r"^gate(\d{4})$")
+BRANCH_YEAR_TAG = re.compile(r"^gate([a-z]{2,5})-(\d{4})(?:-set\d+)?$")
+BRANCH_YEAR_SET_TAG = re.compile(r"^gate([a-z]{2,5})(\d{4})-set\d+$")
+YEAR_BRANCH_TAG = re.compile(r"^gate(\d{4})-([a-z]{2,5})(?:-\d+)?$")
+DS_AI_TAG = re.compile(r"^gate-ds-ai-(\d{4})$")
+
+GA_TAGS = {
+    "general-aptitude",
+    "verbal-aptitude",
+    "verbal-reasoning",
+    "quantitative-aptitude",
+    "logical-reasoning",
+    "spatial-aptitude",
+}
+
+
+def is_ga(tags, title=""):
+    if any(t in GA_TAGS or t.startswith("ga-") for t in tags):
+        return True
+    return "GA Question" in title
 
 
 def gate_year(tags):
-    """Return the GATE CS year for a question, or None if not GATE CSE."""
+    """Return the GATE CS year for a question, or None if not GATE."""
     for t in tags:
         m = re.match(r"^gatecse-(\d{4})(?:-set\d)?$", t)
         if m:
@@ -35,6 +54,18 @@ def gate_year(tags):
             return int(m.group(1))
         m = OLD_YEAR_TAG.match(t)
         if m and int(m.group(1)) >= 1987:
+            return int(m.group(1))
+        m = BRANCH_YEAR_TAG.match(t)
+        if m:
+            return int(m.group(2))
+        m = BRANCH_YEAR_SET_TAG.match(t)
+        if m:
+            return int(m.group(2))
+        m = YEAR_BRANCH_TAG.match(t)
+        if m:
+            return int(m.group(1))
+        m = DS_AI_TAG.match(t)
+        if m:
             return int(m.group(1))
     return None
 
@@ -47,6 +78,15 @@ def gate_set(tags):
         m = re.match(r"^gatecse(\d{4})-set(\d)$", t)
         if m:
             return m.group(2)
+        m = re.match(r"^gate[a-z]{2,5}-\d{4}-set(\d)$", t)
+        if m:
+            return m.group(1)
+        m = re.match(r"^gate[a-z]{2,5}\d{4}-set(\d)$", t)
+        if m:
+            return m.group(2)
+        m = re.match(r"^gate\d{4}-[a-z]{2,5}-(\d)$", t)
+        if m:
+            return m.group(1)
     return None
 
 
@@ -66,11 +106,22 @@ def difficulty_from_tags(tags):
 
 
 def parse_title(title):
-    """Extract (number, section) from a title like 'GATE CSE 2017 Set 2 | Question: 04'."""
+    """Extract (number, section) from a title like 'GATE CSE 2017 Set 2 | Question: 04'
+    or 'GATE2016 EC-1: GA-5'."""
     t = re.sub(r"\s+", " ", title or "")
     section = "GA" if "GA Question" in t else "CS"
     m = re.search(r"Question:\s*([0-9]+)", t)
     number = int(m.group(1)) if m else None
+    if number is None:
+        m = re.search(r"Question:\s*GA([0-9]+)", t, re.IGNORECASE)
+        if m:
+            number = int(m.group(1))
+            section = "GA"
+    if number is None:
+        m = re.search(r":\s*GA-([0-9]+)$", t, re.IGNORECASE)
+        if m:
+            number = int(m.group(1))
+            section = "GA"
     return number, section
 
 
@@ -149,8 +200,9 @@ def main():
     print(f"legacy records: {len(legacy)}")
 
     by_year = {}
-    stats = {"kept": 0, "dropped_non_cse": 0, "dropped_pre2000": 0, "no_answer": 0}
+    stats = {"kept": 0, "dropped_non_cse": 0, "dropped_pre2000": 0, "no_answer": 0, "branch_ga": 0, "branch_dup": 0}
     image_manifest = []
+    text_keys = set()
 
     for q in legacy:
         tags = q.get("tags", [])
@@ -162,11 +214,28 @@ def main():
             stats["dropped_pre2000"] += 1
             continue
 
+        # From other GATE branches we only include General Aptitude (GA) questions,
+        # which are shared across all branches.
+        is_cse = any(re.match(r"^gatecse", t) for t in tags)
+        if not is_cse and not is_ga(tags, q.get("title", "")):
+            stats["dropped_non_cse"] += 1
+            continue
+
         number, section = parse_title(q.get("title", ""))
         setno = gate_set(tags)
         text, options, qimages = extract_question(q.get("question_html", ""))
         expl = extract_explanation(q.get("answers_html"))
         explanation, eimages = (expl if expl else (None, []))
+
+        # Skip branch GA records that duplicate an already-kept question
+        # (the same GA question is often tagged on several branch pages).
+        text_key = re.sub(r"[^a-z0-9]", "", text.lower())
+        if not is_cse:
+            if text_key in text_keys:
+                stats["branch_dup"] += 1
+                continue
+            stats["branch_ga"] += 1
+        text_keys.add(text_key)
 
         qid = re.search(r"/\d+", q.get("link", "")).group(0).lstrip("/")
         images = [{"src": u, "kind": "remote"} for u in qimages + eimages]

@@ -1,42 +1,42 @@
 {
- "total": 2455,
+ "total": 3233,
  "years": {
-  "2004": 87,
-  "2003": 86,
-  "2010": 60,
-  "2005": 87,
-  "2017": 128,
-  "2007": 81,
-  "2006": 81,
-  "2009": 54,
-  "2013": 59,
-  "2012": 63,
-  "2014": 183,
-  "2008": 82,
-  "2001": 68,
-  "2018": 65,
-  "2002": 66,
-  "2011": 59,
-  "2019": 64,
-  "2020": 65,
-  "2021": 130,
-  "2022": 65,
-  "2016": 127,
-  "2023": 65,
   "2000": 61,
-  "2024": 130,
-  "2025": 130,
-  "2015": 179,
+  "2001": 68,
+  "2002": 66,
+  "2003": 86,
+  "2004": 87,
+  "2005": 87,
+  "2006": 81,
+  "2007": 81,
+  "2008": 82,
+  "2009": 54,
+  "2010": 80,
+  "2011": 89,
+  "2012": 92,
+  "2013": 87,
+  "2014": 236,
+  "2015": 222,
+  "2016": 169,
+  "2017": 186,
+  "2018": 135,
+  "2019": 133,
+  "2020": 134,
+  "2021": 188,
+  "2022": 135,
+  "2023": 134,
+  "2024": 190,
+  "2025": 140,
   "2026": 130
  },
  "subjects": [
   {
    "name": "General Aptitude",
-   "count": 324
+   "count": 1102
   },
   {
    "name": "Discrete Mathematics",
-   "count": 233
+   "count": 235
   },
   {
    "name": "Theory of Computation",
@@ -52,18 +52,18 @@
   },
   {
    "name": "Digital Logic",
-   "count": 185
+   "count": 189
   },
   {
    "name": "Computer Organization",
    "count": 179
   },
   {
-   "name": "Databases (DBMS)",
-   "count": 172
+   "name": "Engineering Mathematics",
+   "count": 174
   },
   {
-   "name": "Engineering Mathematics",
+   "name": "Databases (DBMS)",
    "count": 172
   },
   {
@@ -72,38 +72,34 @@
   },
   {
    "name": "Computer Networks",
-   "count": 165
+   "count": 166
   },
   {
    "name": "Programming in C",
-   "count": 108
+   "count": 109
   },
   {
    "name": "Compiler Design",
-   "count": 107
-  },
-  {
-   "name": "Unclassified",
-   "count": 11
+   "count": 108
   }
  ],
  "subtopics": {
   "General Aptitude": [
    {
     "name": "Quantitative Aptitude",
-    "count": 120
+    "count": 497
    },
    {
     "name": "Verbal Aptitude",
-    "count": 102
+    "count": 375
    },
    {
     "name": "Logical & Analytical Reasoning",
-    "count": 78
+    "count": 173
    },
    {
     "name": "Spatial Aptitude",
-    "count": 22
+    "count": 54
    }
   ],
   "Theory of Computation": [
@@ -139,7 +135,7 @@
    },
    {
     "name": "Combinatorics",
-    "count": 36
+    "count": 38
    },
    {
     "name": "Group Theory & Algebra",
@@ -217,7 +213,7 @@
    },
    {
     "name": "Calculus",
-    "count": 36
+    "count": 38
    }
   ],
   "Programming in C": [
@@ -243,7 +239,7 @@
    },
    {
     "name": "Strings",
-    "count": 3
+    "count": 4
    }
   ],
   "Computer Organization": [
@@ -272,14 +268,36 @@
     "count": 1
    }
   ],
+  "Digital Logic": [
+   {
+    "name": "Number Systems & Representation",
+    "count": 59
+   },
+   {
+    "name": "Boolean Algebra",
+    "count": 45
+   },
+   {
+    "name": "Logic Gates & Circuit Output",
+    "count": 24
+   },
+   {
+    "name": "Sequential Circuits",
+    "count": 22
+   },
+   {
+    "name": "Combinational Circuits",
+    "count": 22
+   },
+   {
+    "name": "K-Map & Minimization",
+    "count": 13
+   }
+  ],
   "Operating Systems": [
    {
     "name": "Memory Management",
     "count": 59
-   },
-   {
-    "name": "CPU Scheduling",
-    "count": 34
    },
    {
     "name": "Synchronization & Concurrency",
@@ -287,6 +305,10 @@
    },
    {
     "name": "File Systems & Storage",
+    "count": 34
+   },
+   {
+    "name": "CPU Scheduling",
     "count": 34
    },
    {
@@ -306,32 +328,6 @@
     "count": 1
    }
   ],
-  "Digital Logic": [
-   {
-    "name": "Number Systems & Representation",
-    "count": 55
-   },
-   {
-    "name": "Boolean Algebra",
-    "count": 45
-   },
-   {
-    "name": "Logic Gates & Circuit Output",
-    "count": 24
-   },
-   {
-    "name": "Combinational Circuits",
-    "count": 22
-   },
-   {
-    "name": "Sequential Circuits",
-    "count": 22
-   },
-   {
-    "name": "K-Map & Minimization",
-    "count": 13
-   }
-  ],
   "Computer Networks": [
    {
     "name": "Network Layer",
@@ -343,7 +339,7 @@
    },
    {
     "name": "Data Link Layer",
-    "count": 28
+    "count": 29
    },
    {
     "name": "Application Layer",
@@ -354,40 +350,10 @@
     "count": 13
    }
   ],
-  "Databases (DBMS)": [
-   {
-    "name": "SQL",
-    "count": 42
-   },
-   {
-    "name": "Normalization",
-    "count": 42
-   },
-   {
-    "name": "Transactions & Concurrency",
-    "count": 33
-   },
-   {
-    "name": "Relational Algebra & Calculus",
-    "count": 30
-   },
-   {
-    "name": "ER & Relational Model",
-    "count": 12
-   },
-   {
-    "name": "Indexing",
-    "count": 7
-   },
-   {
-    "name": "Integrity & Constraints",
-    "count": 3
-   }
-  ],
   "Compiler Design": [
    {
     "name": "Parsing",
-    "count": 42
+    "count": 43
    },
    {
     "name": "Code Optimization",
@@ -417,12 +383,42 @@
     "name": "Assemblers, Linkers & Tools",
     "count": 2
    }
+  ],
+  "Databases (DBMS)": [
+   {
+    "name": "Normalization",
+    "count": 42
+   },
+   {
+    "name": "SQL",
+    "count": 42
+   },
+   {
+    "name": "Transactions & Concurrency",
+    "count": 33
+   },
+   {
+    "name": "Relational Algebra & Calculus",
+    "count": 30
+   },
+   {
+    "name": "ER & Relational Model",
+    "count": 12
+   },
+   {
+    "name": "Indexing",
+    "count": 7
+   },
+   {
+    "name": "Integrity & Constraints",
+    "count": 3
+   }
   ]
  },
  "types": {
-  "mcq": 1836,
-  "nat": 456,
-  "msq": 163
+  "mcq": 2594,
+  "nat": 474,
+  "msq": 165
  },
  "updatedAt": "2026-08-13"
 }

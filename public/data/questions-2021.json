@@ -117,6 +117,162 @@
   "source": "gateoverflow"
  },
  {
+  "id": "359488",
+  "year": 2021,
+  "set": "1",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the following sentences:\n  \n\n   Which of the above sentences are grammatically $\\text{CORRECT}$?\n  \n\n    $\\text{(i) and (ii)}$\n   \n\n    $\\text{(i) and (iii)}$\n   \n\n    $\\text{(iii) and (iv)}$\n   \n\n    $\\text{(ii) and (iv)}$",
+  "options": [
+   "After his surgery, Raja hardly could walk.",
+   "After his surgery, Raja could barely walk.",
+   "After his surgery, Raja barely could walk.",
+   "After his surgery, Raja could hardly walk."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Hardly/barely\n   \n   is an adverb and means “almost not true”.\n  \n\n   Hardly/barely comes before the main verb of a sentence, but when there is a modal or auxiliary verb, hardly usually comes after it:\n  \n\n    After his surgery, Raja\n    \n     could\n    \n    hardly\n    \n     walk\n    \n    .\n    \n\n      Here, could is the auxiliary verb and hardly/barely should follow it.\n     \n\n   Correct option: D\n  \n\n    https://www.macmillandictionary.com/dictionary/british/hardly\nOption D – (ii) and (iv)\n  \n\n    https://www.ef.com/wwen/english-resources/english-grammar/adverbs-time/\n   \n\n     Adverbs\n    \n    that tell us how often express the frequency of an action. They are usually placed\n    \n     before\n    \n    the main\n    \n     verb\n    \n    but\n    \n     after\n    \n    auxiliary\n    \n     verbs\n    \n    (such as be, have, may, & must). The only exception is when the main\n    \n     verb\n    \n    is \"to be\", in which case the\n    \n     adverb\n    \n    goes\n    \n     after\n    \n    the main\n    \n     verb\n    \n    .",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359488/gate-mechanical-2021-set-1-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359511",
+  "year": 2021,
+  "set": "2",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Five persons $\\text{P, Q, R, S}$ and $\\text{T}$ are to be seated in a row, all facing the same direction, but not necessarily in the same order. $\\text{P}$ and $\\text{T}$ cannot be seated at either end of the row. $\\text{P}$ should not be seated adjacent to $\\text{S. R}$ is to be seated at the second position from the left end of the row. The number of distinct seating arrangements possible is:",
+  "options": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Given that, five persons $P, Q, R, S$ and $T$ are to be seated in a row.\n  \n\n    $P$ and $T$ cannot be seated at either end of the row.\n   \n\n    $P$ should not be seated adjacent to $S.$\n   \n\n    $R$ is to be seated at the second position from the left end of the row.\n   \n\n   Now, the five persons can be seated in the below arrangements:\n  \n\n    First we fix the position of $R,$ and now we have two choices for $P$ and $T,$ then place the $S$ and $Q$ in the remaining positions.\n    \n\n      $\\begin{array}{|c|c|c|}\\hline S & {\\color{Red} {R}} & {\\color{Green}{P}}  & {\\color{Blue}{T}}  & Q  \\\\\\hline\\end{array}$\n     \n\n      $\\begin{array}{|c|c|c|}\\hline Q & {\\color{Red} {R}} & {\\color{Green}{P}}  & {\\color{Blue}{T}}  & S  \\\\\\hline\\end{array}$\n     \n\n      $\\begin{array}{|c|c|c|}\\hline S & {\\color{Red} {R}} & {\\color{Blue}{T}} & {\\color{Green}{P}}  & Q  \\\\\\hline\\end{array}$\n     \n\n   The number of distinct seating arrangements possible is $ = 3.$\n  \n\n   So, the correct answer is $(B).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359511/gate-mechanical-2021-set-2-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359757",
+  "year": 2021,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "The people _______________ were at the demonstration were from all sections of society.",
+  "options": [
+   "whose",
+   "which",
+   "who",
+   "whom"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "To refer to “people” which is plural we must use “who” and not “whom”.\n  \n\n   “whose” is used to refer to some object or property being associated with a person which is not applicable here.\n  \n\n    “which” and “that”\n   \n   are the relative pronouns for animals and objects (not humans).\n  \n\n   Correct option: C",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359757/gate-electrical-2021-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359806",
+  "year": 2021,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The current population of a city is $11,02,500$ . If it has been increasing at the rate of $5\\%$ per annum, what was its population $2$ years ago?",
+  "options": [
+   "$9,92,500$",
+   "$9,95,006$",
+   "$10,00,000$",
+   "$12,51,506$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Given that, the current population of a city is $11,02,500, $ rate $ = 5\\%,$ and time $ = 2$ years.\n  We know that, $A = P\\left(1+\\dfrac{r}{100}\\right)^{t}$\n  Here, $A = 11,02,500,r = 5\\%,t = 2$ years.\n  Now, $1102500 = P\\left(1 + \\dfrac{5}{100}\\right)^{2}$\n  $\\implies 1102500 = P\\left(\\dfrac{105}{100}\\right)^{2}$\n  $\\implies 1102500 = P\\left(\\dfrac{21}{20}\\right)^{2}$\n  $\\implies 1102500 = P\\left(\\dfrac{441}{400}\\right)$\n  $\\implies P = \\dfrac{1102500 \\times 400}{441} = 10,00,000$\n  $\\textbf{Short Method:}$ Let’s assume, the two years ago the population was $x.$\n  Now$,x \\times \\dfrac{105}{100} \\times \\dfrac{105}{100} = 1102500$\n  $\\implies x = 10,00,000$\n  So, the correct answer is $(C).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359806/gate-ece-2021-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359889",
+  "year": 2021,
+  "set": "1",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Getting to the top is ______________ than staying on top.",
+  "options": [
+   "more easy",
+   "much easy",
+   "easiest",
+   "easier"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Since “than” is followed we need the comparative form of “easy” which is easier.\n  Correct option: D",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359889/gate-civil-2021-set-1-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359909",
+  "year": 2021,
+  "set": "2",
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Which of the above sentences are grammatically $\\text{CORRECT}$?\n  \n\n    $\\text{(i) and (ii)}$\n   \n\n    $\\text{(i) and (iv)}$\n   \n\n    $\\text{(ii) and (iv)}$\n   \n\n    $\\text{(iii) and (iv)}$",
+  "options": [
+   "Arun and Aparna are here.",
+   "Arun and Aparna is here.",
+   "Arun’s families is here.",
+   "Arun’s family is here."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "As opposed to “as well as” which considers only the first subject, “and” considers both the subjects before and after it ans so the verb usage must be “plural”. So, (i) is correct and (ii) is wrong.\n  Arun’s “family” is correct as one can have only one family. So, (iv) is correct.\n  Correct option: B\noption 1 – 2 entities so are will be used as it is plural.\n  option 2 – contrast of option A so wrong\n  option 3 – families, s suffix i.e plural so we can't use is, so wrong\n  option 4 – family is a singular word, even it is a group of people the word is a singular so is will be used so option 4 is right.\n  So option 1 and 4",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359909/gate-civil-2021-set-2-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
   "id": "357450",
   "year": 2021,
   "set": "1",
@@ -259,6 +415,183 @@
   "source": "gateoverflow"
  },
  {
+  "id": "359486",
+  "year": 2021,
+  "set": "1",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Ms. $X$ came out of a building through its front door to find her shadow due to the morning sun failing to her right side with the building to her back. From this, it can be inferred that building is facing _________",
+  "options": [
+   "North",
+   "East",
+   "West",
+   "South"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "[IMAGE:0]\n\n   from the above diagram, we can conclude that the building is facing south.\n  \n\n   So, the correct answer is $(D).$",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=17456328823863420292",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359486/gate-mechanical-2021-set-1-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359509",
+  "year": 2021,
+  "set": "2",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the following sentences:\n  \n\n   Which of the above sentences are grammatically $\\text{CORRECT}$?\n  \n\n    $\\text{(i) and (ii)}$\n   \n\n    $\\text{(i) and (iii)}$\n   \n\n    $\\text{(ii) and (iii)}$\n   \n\n    $\\text{(ii) and (iv)}$",
+  "options": [
+   "The number of candidates who appear for the $\\text{GATE}$ examination is staggering.",
+   "number of candidates from my class are appearing for the $\\text{GATE}$ examination.",
+   "The number of candidates who appear for the $\\text{GATE}$ examination are staggering.",
+   "number of candidates from my class is appearing for the $\\text{GATE}$ examination."
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "“The number of candidates” is singular and refers to the actual number. So, “\n   \n    is\n   \n   staggering” is correct.\n  \n\n   “A number of candidates” is plural as here the number refers to a group of possibilities (from $\\{1,2,3,4,\\dots n\\})$ and is hence plural. So, “\n   \n    are\n   \n   appearing” is correct.\n  \n\n   Correct option: A.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359509/gate-mechanical-2021-set-2-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359803",
+  "year": 2021,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "$p$ and $q$ are positive integers and $\\dfrac{p}{q}+\\dfrac{q}{p}=3,$ then, $\\dfrac{p^{2}}{q^{2}}+\\dfrac{q^{2}}{p^{2}}=$",
+  "options": [
+   "$3$",
+   "$7$",
+   "$9$",
+   "$11$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Given that $,\\dfrac{p}{q} + \\dfrac{q}{p} = 3$\n  Now, $\\left(\\dfrac{p}{q} + \\dfrac{q}{p}  \\right)^{2} = 3^{3}$\n  $\\implies \\dfrac{p^{2}}{q^{2}} + \\dfrac{q^{2}}{p^{2}}  + 2 \\dfrac{p}{q} \\cdot \\dfrac{q}{p}= 9 \\quad [\\because (a+b)^{2} = a^{2} + b^{2} + 2ab]$\n  $\\implies \\dfrac{p^{2}}{q^{2}} + \\dfrac{q^{2}}{p^{2}}  + 2 = 9$\n  $\\implies \\dfrac{p^{2}}{q^{2}} + \\dfrac{q^{2}}{p^{2}}  = 7$\n  So, the correct answer is $(B).$\n$\\frac{p}{q}+\\frac{q}{p}=3$\n  $(\\frac{p}{q}+\\frac{q}{p})^{2}=3^{2}$\n  $\\frac{p^{2}}{q^{2}}+\\frac{q^{2}}{p^{2}}+2(\\frac{p}{q})(\\frac{q}{p})=9$\n  $\\frac{p^{2}}{q^{2}}+\\frac{q^{2}}{p^{2}}+2=9$\n  $\\frac{p^{2}}{q^{2}}+\\frac{q^{2}}{p^{2}}=7$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359803/gate-ece-2021-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359887",
+  "year": 2021,
+  "set": "1",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Spatial Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "[IMAGE:0]\n\n   The mirror image of the above text about the $\\text{X}$-axis is",
+  "options": [
+   "[IMAGE:1]",
+   "[IMAGE:2]",
+   "[IMAGE:3]",
+   "[IMAGE:4]"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "The image of an object as seen in a mirror is its mirror reflection or mirror image. In such an image, the right side of the object appears on the left side and vice versa. Any object that has bilateral symmetry will have its mirror image the same as that of the object.\n  So, the correct answer is $(B).$",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=13183062339322360788",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=8452791398989606564",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=7322440487673235564",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=17167566247296190720",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=15697530803313712139",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359887/gate-civil-2021-set-1-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359907",
+  "year": 2021,
+  "set": "2",
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Spatial Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "[IMAGE:0]\n\n   The mirror image of the above text about the $x$-axis is",
+  "options": [
+   "[IMAGE:1]",
+   "[IMAGE:2]",
+   "[IMAGE:3]",
+   "[IMAGE:4]"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "The image of an object as seen in a mirror is its mirror reflection or mirror image. In such an image, the right side of the object appears on the left side and vice versa. Any object that has bilateral symmetry will have its mirror image the same as that of the object.\n  So, the correct answer is $(B).$",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=13954770279419289797",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=16885939233811482088",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=7433138549361109959",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=18101736394042030625",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=1182303289257561603",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359907/gate-civil-2021-set-2-ga-question-2",
+  "source": "gateoverflow"
+ },
+ {
   "id": "357449",
   "year": 2021,
   "set": "1",
@@ -373,6 +706,176 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/357547/gate-cse-2021-set-2-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359484",
+  "year": 2021,
+  "set": "1",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "[IMAGE:0]\n\n   In the above figure, $\\textsf{O}$ is the center of the circle and, $\\textsf{M}$ and $\\textsf{N}$ lie on the circle. The area of the right triangle $\\textsf{MON}$ is $50\\;\\text{cm}^{2}$. What is the area of the circle in $\\text{cm}^{2}?$",
+  "options": [
+   "$2\\pi$",
+   "$50\\pi$",
+   "$75\\pi$",
+   "$100\\pi$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Let the radius of the circle be $r\\;\\text{cm}.$\n  The area of triangle $ = \\dfrac{1}{2} \\times \\text{base} \\times \\text{height}$\n  The area of the right triangle $\\text{MON} = \\dfrac{1}{2} \\times r \\times r = 50$\n  $\\implies r^{2} = 100$\n  $\\implies r = 10\\;\\text{cm}$\n  Now, the area of circle $ = \\pi r^{2} = \\pi (10)^{2} = 100\\pi\\;\\text{cm}^{2}.$\n  So, the correct answer is $(D).$",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=15091135348697368889",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359484/gate-mechanical-2021-set-1-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359507",
+  "year": 2021,
+  "set": "2",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A digital watch $\\text{X}$ beeps every $30$ seconds while watch $\\text{Y}$ beeps every $32$ seconds. They beeped together at $\\text{10 AM}$.\n  \n\n   The immediate next time that they will beep together is ____",
+  "options": [
+   "$\\text{10.08 AM}$",
+   "$\\text{10.42 AM}$",
+   "$\\text{11.00 AM}$",
+   "$\\text{10.00 PM}$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Given that, a digital watch $\\text{X}$ beeps every $30$ seconds while watch $\\text{Y}$ beeps every $32$ seconds.\n  Now, digital watch $X$ and $Y$ beep together every $ = \\text{LCM}(30,32) = 480$ seconds $ = 8$ minutes.\n  First, they beeped together at $10\\; \\text{AM}$. Then the immediate next time that they will beep together is $ = 10\\; \\text{AM} + 8$ minutes $ = 10:08\\; \\text{AM}.$\n  So, the correct answer is $(A).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359507/gate-mechanical-2021-set-2-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359752",
+  "year": 2021,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Spatial Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "For a regular polygon having $10$ sides, the interior angle between the sides of the polygon, in degrees, is:",
+  "options": [
+   "$396$",
+   "$324$",
+   "$216$",
+   "$144$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "The interior angle between the sides of the polygon $ = \\frac{(n-2) \\times 180^{\\circ}}{n},$ where $n = $ number of sides of the polygon.\n  Here, $n = 10,$  therefore the interior angle between the sides of the polygon $ = \\frac{(10-2) \\times 180^{\\circ}}{10}$\n  $\\qquad = 8 \\times 18^{\\circ} = 144^{\\circ}.$\n  So, the correct answer is $(D).$\nanswer 144\n  solution- (n-2)*180=(10-2)*180=1440\n  where n=10 which are side decagon.\n  so interior angle\n  1440/10=144",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359752/gate-electrical-2021-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359801",
+  "year": 2021,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Spatial Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "[IMAGE:0]\n\n   The least number of squares that must be added so that the line $P-Q$ becomes the line of symmetry is ____________",
+  "options": [
+   "$4$",
+   "$3$",
+   "$6$",
+   "$7$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "A line of symmetry is a line that cuts a shape exactly in half. This means that if you were to fold the shape along the line, both halves would match exactly.\n  \n\n[IMAGE:0]\n\n   The least number of squares that must be added $ = 6.$\n  \n\n   So, the correct answer is $(C).$",
+  "images": [
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=7637175454559707217",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=8931717303352192056",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359801/gate-ece-2021-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359885",
+  "year": 2021,
+  "set": "1",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In a company, $35\\%$ of the employees drink coffee, $40\\%$ of the employees drink tea and $10\\%$ of the employees drink both tea and coffee. What $\\%$ of employees drink neither tea nor coffee?",
+  "options": [
+   "$15$",
+   "$25$",
+   "$35$",
+   "$40$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Given that, the percentage of  employees who drinks coffee $n(C) = 35\\%,$ the percentage of  employees  who drinks tea $n(T) = 40\\%,$ and the percentage of  employees who drink both tea and coffee $n(C \\cap T) = 10\\%.$\n  Total employee $n(U) = 100\\%.$\n  The percentage of employees who drink either tea or coffee $n(C \\cup T) = n(C) + n(T) – n(C \\cap T)$\n  $\\implies n(C \\cup T) = 35 + 40 – 10 = 65\\%.$\n  Now, the percentage of employees who drink neither tea nor coffee $\\overline{n(C \\cup T)} = n(U) – n(C \\cup T)$\n  $\\implies \\overline{n(C \\cup T)}  = 100 – 65 = 35\\%.$\n  So, the correct answer is  $(C).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359885/gate-civil-2021-set-1-ga-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359905",
+  "year": 2021,
+  "set": "2",
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Two identical cube shaped dice each with faces numbered $1$ to $6$ are rolled simultaneously. The probability that an even number is rolled out on each dice is:",
+  "options": [
+   "$\\frac{1}{36}$",
+   "$\\frac{1}{12}$",
+   "$\\frac{1}{8}$",
+   "$\\frac{1}{4}$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Two identical cube-shaped dice each with faces numbered $1$ to $6$ are rolled simultaneously. Then all possible outcomes.\n  \n\n    $(1,1), (1,2),(1,3),(1,4),(1,5),(1,6)$\n   \n\n    $(2,1), {\\color{Red} {(2,2)}},(2,3),{\\color{Red} {(2,4)}},(2,5),{\\color{Red} {(2,4)}}$\n   \n\n    $(3,1), (3,2),(3,3),(3,4),(3,5),(3,6)$\n   \n\n    $(4,1), {\\color{Blue} {(4,2)}},(4,3),{\\color{Blue} {(4,4)}},(4,5),{\\color{Blue} {(4,6)}}$\n   \n\n    $(5,1), (5,2),(5,3),(5,4),(5,5),(5,6)$\n   \n\n    $(6,1), {\\color{Green} {(6,2)}},(6,3),{\\color{Green} {(6,4)}},(6,5),{\\color{Green} {(6,6)}}$\n   \n\n   The probability that an even number is rolled out on each dice is $ = \\dfrac{9}{36} = \\dfrac{1}{4}.$\n  \n\n   $\\textbf{Short Method:}$ Two identical cube-shaped dice each with faces numbered $1$ to $6$ are rolled simultaneously.\n  \n\n   Dice $1: 1,{\\color{Magenta} {2}},3,{\\color{Magenta} {4}},5,{\\color{Magenta} {6}}$\n  \n\n   Dice $2: 1,{\\color{Teal} {2}},3,{\\color{Teal} {4}},5,{\\color{Teal} {6}}$\n  \n\n    $P(\\text{Even number on first dice)}  = P(E_{1}) = \\dfrac{3}{6} = \\dfrac{1}{2}$\n   \n\n    $P(\\text{Even number on second dice)}  = P(E_{2}) = \\dfrac{3}{6} = \\dfrac{1}{2}$\n   \n\n   Now, $P(\\text{Even number on both dice}) = P(E_{1} \\cap E_{2}) = P(E_{1}) \\cdot P(E_{2}) = \\dfrac{1}{2} \\cdot \\dfrac{1}{2} = \\dfrac{1}{4}. $\n  \n\n   $\\textbf{PS:}$ These two events are independent events.\n  \n\n   So, the correct answer is $(D).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359905/gate-civil-2021-set-2-ga-question-3",
   "source": "gateoverflow"
  },
  {
@@ -502,6 +1005,162 @@
   "explanation": "Given that, $\\left(x – \\dfrac{1}{2}\\right)^{2} –  \\left(x – \\dfrac{3}{2}\\right)^{2} = x + 2$\n  $\\implies \\left(x – \\dfrac{1}{2} – x + \\dfrac{3}{2}\\right) \\left(x – \\dfrac{1}{2} + x - \\dfrac{3}{2}\\right) = x + 2 \\quad [\\because a^{2} – b^{2} = (a – b)(a + b) ]$\n  $\\implies  2x - 2 = x + 2$\n  $\\implies x = 4$\n  So, the correct answer is $(B).$\nOption B\n   \n\n   $$(x – \\frac{1}{2})^2 – (x – \\frac{3}{2})^2 = x + 2$$\n  \n\n   $$(\\frac{2x-1}{2})^2 – (\\frac{2x-3}{2})^2 = x+2$$\n  \n\n   $$\\frac{(2x-1)^2 – (2x – 3)^2}{4} = x + 2$$\n  \n\n   $$(2x – 1 + 2x – 3)(2x – 1 – (2x – 3)) = 4(x + 2)$$\n  \n\n   $$(4x – 4)(2) = 4(x + 2)$$\n  \n\n   $$4(x – 1)(2) = 4(x + 2)$$\n  \n\n   $$2x – 2 = x + 2$$\n  \n\n   $$x = 4$$\n  \n\n   Of course simple substitution would be faster.\non expanding the given equation,we get:\n  $(x^2+1/4-2*x*1/2)-(x^2+9/4-2*x*3/2)=x+2$\n  $x^2+1/4-x-x^2-9/4+3x=x+2$\n  $3x-x+1/4-9/4=x+2$\n  $2x-2=x+2$\n  $x=4$",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/357546/gate-cse-2021-set-2-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359482",
+  "year": 2021,
+  "set": "1",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If $\\left\\{\\begin{matrix} \\text{“} \\oplus\\text{”} \\; \\text{means}\\; \\text{“}-\\text{”} \\\\  \\text{“} \\otimes\\text{”} \\; \\text{means}\\; \\text{“}\\div\\text{”}  \\\\  \\text{“} \\triangle\\text{”} \\; \\text{means}\\; \\text{“}+\\text{”}  \\\\  \\text{“} \\triangledown\\text{”} \\; \\text{means}\\; \\text{“}\\times\\text{”}  \\end{matrix}\\right.$\n  \n\n   then, the value of the expression $\\triangle 2 \\oplus 3 \\triangle \\left((4 \\otimes 2) \\triangledown 4) \\right) = $",
+  "options": [
+   "$-1$",
+   "$-0.5$",
+   "$6$",
+   "$7$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "The value of the expression $\\triangle 2 \\oplus 3 \\triangle \\left((4 \\otimes 2) \\triangledown 4) \\right) = +2 -3+((4\\div 2) \\times 4)  = -1 + 8 = 7.\\quad$\n  So, the correct answer is $(D).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359482/gate-mechanical-2021-set-1-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359505",
+  "year": 2021,
+  "set": "2",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If $\\bigoplus \\div \\bigodot =2;\\: \\bigoplus \\div\\Delta =3;\\:\\bigodot +\\Delta =5; \\:\\Delta \\times \\bigotimes =10$,\n  \n\n   Then, the value of $\\left ( \\bigotimes - \\bigoplus \\right )^{2}$, is :",
+  "options": [
+   "$0$",
+   "$1$",
+   "$4$",
+   "$16$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Let’s suppose $\\bigoplus  = a,\\bigodot = b,\\Delta = c,$ and $\\bigotimes = d.$\n  Then,  $a \\div b =2;\\: a \\div c =3;\\: b  + c =5; \\:c \\times d =10$\n  Now, $a = 2b = 3c,$ and  $b + c = 5 \\implies c = 2,d = 5,a = 6$\n  $\\therefore$ The value of $\\left(\\bigotimes \\;– \\;\\bigoplus\\right)^{2} = (d-a)^{2} = (5 – 6)^{2} = (-1)^{2} = 1.$\n  So, the correct answer is $(B).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359505/gate-mechanical-2021-set-2-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359749",
+  "year": 2021,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Which one of the following numbers is exactly divisible by $\\left ( 11^{13} +1\\right )$?",
+  "options": [
+   "$11^{26} +1$",
+   "$11^{33} +1$",
+   "$11^{39} -1$",
+   "$11^{52} -1$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "We know that,\n  \n\n    $x^{n} – y^{n}$ is divisible by $x+y,$ if $n$ is even.\n   \n\n    $x^{n} – y^{n}$ is divisible by $x-y,$ if $n$ is odd.\n   \n\n    $x^{n} + y^{n}$ is divisible by $x+y,$ if $n$ is odd.\n   \n\n   Now, we can check each option.\n  \n\n    $11^{26} + 1 = (11^{13})^{2} + 1^{2}$ is divisible by $11^{13}  + 1,$ if $2$ is odd.\n   \n\n    $11^{33} + 1 = (11^{11})^{3} + 1^{3},$ here $11^{11} + 1 \\neq 11^{13} + 1.$\n   \n\n    $11^{39} - 1 = (11^{13})^{3} - 1^{3},$ here $11^{13} - 1 \\neq 11^{13} + 1.$\n   \n\n    $11^{52} - 1 = (11^{13})^{4} - 1^{4}$ is divisible by $11^{13}  + 1,$ if $4$ is even.\n   \n\n   So, the correct answer is $(D).$\nI hope this helps you !",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359749/gate-electrical-2021-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359799",
+  "year": 2021,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Nostalgia\n   \n   is to\n   \n    anticipation\n   \n   as ____________ is to _____________\n  \n\n   Which one of the following options maintains a similar logical relation in the above sentence?",
+  "options": [
+   "Present, past",
+   "Future, past",
+   "Past, future",
+   "Future, present"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "C. Past, Future\n  As Nostalgia: recalling memories (of past) and Anticipate: Foresee ( see the future)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359799/gate-ece-2021-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359883",
+  "year": 2021,
+  "set": "1",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "​​​​​​$\\bigoplus$ and $\\bigodot$ are two operators on numbers $\\text{p}$ and $\\text{q}$ such that $p \\bigoplus q=\\dfrac{p^{2}+q^{2}}{pq}$ and $p \\bigodot q=\\dfrac{p^{2}}{q}$;\n  \n\n   If $x\\bigoplus y=2\\bigodot 2$, then $x=$",
+  "options": [
+   "$\\frac{y}{2}$",
+   "$y$",
+   "$\\frac{3y}{2}$",
+   "$2y$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Given that, $p \\bigoplus q=\\dfrac{p^{2}+q^{2}}{pq},p \\bigodot q=\\dfrac{p^{2}}{q}$\n  Performing these operations we get,\n  $x \\bigoplus y = 2 \\bigodot 2$\n  $\\implies \\dfrac{x^{2} + y^{2}}{xy} = \\dfrac{2^{2}}{2}$\n  $\\implies \\dfrac{x^{2} + y^{2}}{xy} = 2$\n  $\\implies x^{2} + y^{2} = 2xy$\n  $\\implies x^{2} + y^{2} – 2xy = 0$\n  $\\implies (x-y)^{2}= 0$\n  $\\implies x = y$\n  So, the correct answer is $(B).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359883/gate-civil-2021-set-1-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359903",
+  "year": 2021,
+  "set": "2",
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "$\\oplus$ and $\\odot$ are two operators on numbers $p$ and $q$ such that $p \\odot q = p-q,$ and $p \\oplus q = p\\times q$\n  \n\n   Then, $\\left ( 9\\odot \\left ( 6\\oplus 7 \\right ) \\right )\\odot \\left ( 7\\oplus \\left ( 6 \\odot 5 \\right ) \\right )=$",
+  "options": [
+   "$40$",
+   "$-26$",
+   "$-33$",
+   "$-40$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Given that, $p \\odot q = p-q,$ and $p \\oplus q = p\\times q$\n  \n\n   Then, $\\left ( 9\\odot \\left ( 6\\oplus 7 \\right ) \\right )\\odot \\left ( 7\\oplus \\left ( 6 \\odot 5 \\right ) \\right )= (9 \\odot 42) \\odot (7 \\oplus 1) = -33 \\odot 7 = -33-7  = -40.$\n  \n\n   So, the correct answer is  $(D).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359903/gate-civil-2021-set-2-ga-question-4",
   "source": "gateoverflow"
  },
  {
@@ -655,6 +1314,171 @@
   "source": "gateoverflow"
  },
  {
+  "id": "359480",
+  "year": 2021,
+  "set": "1",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "“The increased consumption of leafy vegetables in the recent months is a clear indication that the people in the state have begun to lead a healthy lifestyle”\n  \n\n   Which of the following can be logically inferred from the information presented in the above statement?",
+  "options": [
+   "The people in the state did not consume leafy vegetables earlier",
+   "Consumption of leafy vegetables may not be the only indicator of healthy lifestyle",
+   "Leading a healthy lifestyle is related to a diet with leafy vegetables",
+   "The people in the state have increased awareness of healthy hazards causing by consumption of junk foods"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "The people in the state did not consume leafy vegetables earlier\n    No. “The\n    \n     increased consumption\n    \n    of leafy vegetables in the recent months”. Talk is about increased consumption and this cannot imply “no consumption” earlier.\n   \n\n    Consumption of leafy vegetables may not be the only indicator of healthy lifestyle\n    May be true but nothing conclusive in the given passage.\n   \n\n    Leading a healthy lifestyle is related to a diet with leafy vegetables\n    \n     True\n    \n    . “The increased consumption of\n    \n     leafy vegetables\n    \n    in the recent months\n    \n     is a clear indication\n    \n    that the people in the state have begun to\n    \n     lead a healthy lifestyle\n    \n    ”\n   \n\n    The people in the state have increased awareness of healthy hazards causing by consumption of junk foods\n    May be true. But nothing conclusive in the given passage.\n   \n\n   Correct option: C.\nOption C –  Leading a healthy lifestyle is related to a diet with leafy vegetables.\n   \n\n   Option A –  increased consumption of leafy vegetables. This part tells us that previously people in state used to consume leafy vegetables but it increased now.\n  \n\n   Option B – Maybe or maybe not. Inconclusive\n  \n\n   Option C –  The\n   \n\n     increased consumption of leafy vegetables\n    \n\n   in recent months is a clear indication that the people in the state have begun to\n   \n\n     lead a healthy lifestyle\n    \n\n   Option D – Inconclusive",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359480/gate-mechanical-2021-set-1-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359503",
+  "year": 2021,
+  "set": "2",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The front door of $\\text{Mr. X's}$ house faces East. $\\text{Mr. X}$ leaves the house, walking $\\text{50 m}$ straight from the back door that is situated directly opposite to the front door. He then turns to his right, walks for another $\\text{50 m}$ and stops. The direction of the point $\\text{Mr. X}$ is now located at with respect to the starting point is ____",
+  "options": [
+   "South-East",
+   "North-East",
+   "West",
+   "North-West"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "The front door of Mr. X's house faces East. Then the back door of Mr. X's house faces West (the back door that is situated directly opposite to the front door).\n  \n\n[IMAGE:0]\n\n[IMAGE:1]\n\n   $\\therefore$ The direction of the point $\\text{Mr. X}$ is now located at with respect to the starting point is North-West.\n  \n\n   So, the correct answer is $(D).$",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=5153193946872250333",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=5827381344393908989",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359503/gate-mechanical-2021-set-2-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359747",
+  "year": 2021,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "$\\textit{Oasis}$ is to $\\textit{sand}$ as $\\textit{island}$ is to _____________\n  \n\n   Which one of the following options maintains a similar logical relation in the above sentence?",
+  "options": [
+   "Stone",
+   "Land",
+   "Water",
+   "Mountain"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Oasis:\n   \n   a fertile spot in a desert, where water is found\n  \n\n   So, we find oasis\n   \n    surrounded by\n   \n   sand.\n  \n\n   Similarly,\n   \n    island\n   \n   is surrounded by\n   \n    water\n   \n   .\n  \n\n   Correct option: C.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359747/gate-electrical-2021-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359797",
+  "year": 2021,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider the following sentences:\n  \n\n   Which of the above sentences are grammatically $\\text{CORRECT}$?\n  \n\n    $\\text{(i) and (ii)}$\n   \n\n    $\\text{(i) and (iii)}$\n   \n\n    $\\text{(ii) and (iii)}$\n   \n\n    $\\text{(i) and (iv)}$",
+  "options": [
+   "I woke up from sleep.",
+   "I woked up from sleep.",
+   "I was woken up from sleep.",
+   "I was wokened up from sleep."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "wake, woke, woken is the correct sequence for present, past and past participle forms of the word “wake”. So, only $(i)$ and $(iii)$ are correct.\n  Correct option: B.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359797/gate-ece-2021-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359881",
+  "year": 2021,
+  "set": "1",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Four persons $\\text{P, Q, R}$ and $\\text{S}$ are to be seated in a row, all facing the same direction, but not necessarily in the same order. $\\text{P}$ and $\\text{R}$ cannot sit adjacent to each other. $\\text{S}$ should be seated to the right of $\\text{Q}$. The number of distinct seating arrangements possible is:",
+  "options": [
+   "$2$",
+   "$4$",
+   "$6$",
+   "$8$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Given that, four persons $\\text{P, Q, R}$ and $\\text{S}$ are to be seated in a row.\n  \n\n    $\\text{P}$ and $\\text{R}$ cannot sit adjacent to each other.\n   \n\n    $\\text{S}$ should be seated to the right of $\\text{Q}$.\n   \n\n   Now, the four persons can be seated in the below arrangements:\n  \n\n    $\\begin{array}{|c|c|c|}\\hline  {\\color{Red}{Q}} & P & {\\color{Blue}{S}} & R \\\\\\hline\\end{array}$\n   \n\n    $\\begin{array}{|c|c|c|}\\hline  {\\color{Red}{Q}} & R & {\\color{Blue}{S}} & P \\\\\\hline\\end{array}$\n   \n\n    $\\begin{array}{|c|c|c|}\\hline  P & {\\color{Red}{Q}} & {\\color{Blue}{S}} & R \\\\\\hline\\end{array}$\n   \n\n    $\\begin{array}{|c|c|c|}\\hline  R & {\\color{Red}{Q}} & {\\color{Blue}{S}} & P \\\\\\hline\\end{array}$\n   \n\n    $\\begin{array}{|c|c|c|}\\hline P & {\\color{Red}{Q}} & R & {\\color{Blue}{S}}  \\\\\\hline\\end{array}$\n   \n\n    $\\begin{array}{|c|c|c|}\\hline R & {\\color{Red}{Q}} & P & {\\color{Blue}{S}}  \\\\\\hline\\end{array}$\n   \n\n   $\\therefore$ The number of distinct seating arrangements possible $ = 6.$\n  \n\n   So, the correct answer is $(C).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359881/gate-civil-2021-set-1-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359901",
+  "year": 2021,
+  "set": "2",
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Four persons $P, Q, R$ and $S$ are to be seated in a row. $R$ should not be seated at the second position from the left end of the row. The number of distinct seating arrangements possible is:",
+  "options": [
+   "$6$",
+   "$9$",
+   "$18$",
+   "$24$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "It is given that, four persons $P, Q, R$, and $S$ are to be seated in a row. $R$ should not be seated at the second position from the left end of the row.\n  \n\n   Now, we can make the possible arrangements.\n  \n\n    From the left end, the second position can be filled in $3$ ways.\n   \n\n    From the left end, the first position can be filled in $3$ ways.\n   \n\n    From the right end, the second position can be filled in $2$ ways.\n   \n\n    From the right end, the first position can be filled in $1$ way.\n   \n\n   $$\\boxed{\\underset{1}{3}\\quad \\underset{2} 3 \\quad\\underset{3} 2 \\quad \\underset{4}1}$$\n  \n\n   $\\therefore$ The number of distinct seating arrangements possible $ = 3 \\times  3 \\times 2 \\times 1 = 18.$\n  \n\n   So, the correct answer is $(C).$\nHere we have 4 people and also 4 places .\n  \n\n   Total possible ways are 4!\n  \n\n   Now R shouldn’t be at the 2\n   \n    nd\n   \n   Position from Left Side.\n  \n\n   Now, _, R ,_,_\n  \n\n   Three places and three people still left to be assign\n  \n\n   Those three people can be placed in this Three places in 3P3 = 3! ways\n  \n\n   There fore required answer = 4!-3!",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359901/gate-civil-2021-set-2-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
   "id": "357446",
   "year": 2021,
   "set": "1",
@@ -774,6 +1598,201 @@
   "explanation": "Listening to music during exercise improves performance and reduces discomfort\n   \n\n    listening to music while studying can help students learn better and the results were inconclusive.\n   \n\n   These two statements suggests that Music listening helps\n   \n    everyone\n   \n   during exercise but we cannot conclude anything on its effect on studying as results were\n   \n    inconclusive\n   \n   . For some students it works, and for some it does not.\n  \n\n   Personally for me, it does. :)\n  \n\n    Option C i\n   \n   s the correct one.\nOption C\n  Listening to music has a clear positive effect on physical exercise (as it improves performance  and reduces discomfort)\n  but  Listening to music can only benefit some (students who  does  not need  any external stimulation)\nOption C)\n   Listening to music during exercise improves exercise performance ….. this is written in 1st line of paragraph which means\n   \n    Listening to music has clear positive effect on physical exercise\n   \n   Now while studying\n   \n    NOT ALL\n   \n\n   but some of the students are benefited from music\n   \n    which means Music has positive effect on learning only in some students\n   \n   hence option C should be the answer\nOption C – Listening to music has a clear positive effect on physical exercise. Music has a positive effect on learning only in some students\n  \n\n   The question implies that listening to music is beneficial while exercising but while studying, listening to music may or may not bring good results.\nOption C\n   \n   is correct because listening music helps few students only in their studies and not all.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/357544/gate-cse-2021-set-2-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359478",
+  "year": 2021,
+  "set": "1",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Oxpeckers and rhinos manifest a symbiotic relationship in the wild. The oxpeckers warn the rhinos about approaching poachers, thus possibly saving the lives of the rhinos. Oxpeckers also feed on the parasitic ticks found on rhinos.\n  \n\n   In the symbiotic relationship described above, the primary benefits for oxpeckers and rhinos respectively are,",
+  "options": [
+   "Oxpeckers get a food source, rhinos have no benefit",
+   "Oxpeckers save their habitat from poachers while the rhinos have no benefit",
+   "Oxpeckers get a food source, rhinos may be saved from the poachers",
+   "Oxpeckers save the lives of poachers, rhinos save their own lives"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Oxpeckers and rhinos manifest a symbiotic relationship in the wild. The oxpeckers $\\underbrace{\\text{warn the rhinos about approaching poachers}}_{\\text{rhinos may be saved from the poachers}}$, thus possibly saving the lives of the rhinos. $\\underbrace{\\text{Oxpeckers also feed on the parasitic ticks}}_{\\text{Oxpeckers get a food source}}$ found on rhinos.\n  Correct option: C.\nOption C – Oxpeckers get a food source, rhinos may be saved from the poachers\n  \n\n   The oxpeckers\n   \n    warn the rhinos about approaching poachers, thus possibly saving the lives of the rhinos\n   \n   . Oxpeckers also\n   \n    feed on the parasitic ticks found on rhinos.\n   \n\n   The above underlined lines imply Option C",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359478/gate-mechanical-2021-set-1-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359499",
+  "year": 2021,
+  "set": "2",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Given below are two statements $1$ and $2$, and two conclusions $\\text{I}$ and $\\text{II}$.\n  \n\n    $\\text{Statement 1}:$ All entrepreneurs are wealthy.\n   \n\n    $\\text{Statement 2}:$ All wealthy are risk seekers.\n   \n\n    $\\text{Conclusion I}:$ All risk seekers are wealthy.\n   \n\n    $\\text{Conclusion II}:$ Only some entrepreneurs are risk seekers.\n   \n\n   Based on the above statements and conclusions, which one of the following options is $\\text{CORRECT}$?",
+  "options": [
+   "Only conclusion $\\text{I}$ is correct",
+   "Only conclusion $\\text{II}$ is correct",
+   "Neither conclusion $\\text{I}$ nor $\\text{II}$ is correct",
+   "Both conclusions $\\text{I}$ and $\\text{II}$ are correct"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Given statements are,\n  \n\n    $\\text{Statement 1}:$ All entrepreneurs are wealthy.\n   \n\n[IMAGE:0]\n\n    $\\text{Statement 2}:$ All wealthy are risk seekers.\n   \n\n[IMAGE:1]\n\n    $\\text{Conclusion I}:$ All risk seekers are wealthy.\n   \n\n[IMAGE:2]\n\n   From the above Venn diagram, not all risk seekers are wealthy. So, $\\text{conclusion I}$ is false.\n  \n\n    $\\text{Conclusion II}:$ Only some entrepreneurs are risk seekers.\n   \n\n   From the above Venn diagram, all entrepreneurs are risk seekers. So, $\\text{conclusion II}$ is also false.\n  \n\n   So, the correct answer is $(C).$",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=763278997993433810",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=5925626843973476717",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=2734895951860677042",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359499/gate-mechanical-2021-set-2-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359745",
+  "year": 2021,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The importance of sleep is often overlooked by students when they are preparing for exams. Research has consistently shown that sleep deprivation greatly reduces the ability to recall the material learnt. Hence, cutting down on sleep to study longer hours can be counterproductive.\n  \n\n   Which one of the following statements is the $\\text{CORRECT}$ inference from the above passage?",
+  "options": [
+   "Sleeping well alone is enough to prepare for an exam. Studying has lesser benefit.",
+   "Students are efficient and are not wrong in thinking that sleep is a waste of time.",
+   "If a student is extremely well prepared for an exam, he needs little or no sleep.",
+   "To do well in an exam, adequate sleep must be part of the preparation."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Sleeping well alone is enough to prepare for an exam. Studying has lesser benefit.\n    No where in the passage this is implied. The given passage only says that “sleeping well” is a necessity. It doesn’t say sleeping well is “sufficient” to prepare for an exam.\n   \n\n    Students are efficient and are not wrong in thinking that sleep is a waste of time.\n    This is contradictory to the given passage.\n   \n\n    If a student is extremely well prepared for an exam, he needs little or no sleep.\n    False. “sleep deprivation greatly reduces the ability\n    \n     to recall\n    \n    the material learnt.”\n   \n\n    To do well in an exam, adequate sleep must be part of the preparation.\n    True. “cutting down on sleep to study longer hours can be\n    \n     counterproductive\n    \n    ”\n   \n\n   Correct option: D.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359745/gate-electrical-2021-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359795",
+  "year": 2021,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Given below are two statements and two conclusions.\n  \n\n    $\\text{Statement 1}$: All purple are green.\n   \n\n    $\\text{Statement 2}$: All black are green.\n   \n\n    $\\text{Conclusion I}$: Some black are purple.\n   \n\n    $\\text{Conclusion II}$: No black is purple.\n   \n\n   Based on the above statements and conclusions, which one of the following options is logically $\\text{CORRECT}$?",
+  "options": [
+   "Only conclusion $\\text{I}$ is correct",
+   "Only conclusion $\\text{II}$ is correct",
+   "Either conclusion $\\text{I}$ or $\\text{II}$ is correct",
+   "Both conclusion $\\text{I}$ and $\\text{II}$ are correct"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Given statements are:\n  \n\n    $\\text{Statement 1}$: All purple are green.\n   \n\n[IMAGE:0]\n\n    $\\text{Statement 2}$: All black are green.\n   \n\n[IMAGE:1]\n\n   A conclusion “should\n   \n    always\n   \n   be true”. We can try to make the complement of the conclusion satisfiable (by drawing a Venn diagram) and if we can’t then the conclusion is VALID or else NOT Valid.\n  \n\n   For the first conclusion “Some black are purple” – the\n   \n    complement\n   \n   is “No black is purple”. It is possible as shown below. So the given conclusion is\n   \n    NOT\n   \n   valid.\n  \n\n[IMAGE:2]\n\n   For the second conclusion “No black is purple” – the\n   \n    complement\n   \n   is “Some black is purple”. It is possible as shown below. So the given conclusion is\n   \n    NOT\n   \n   valid.\n  \n\n[IMAGE:3]\n\n   So, options A, B, and D are false. Option C is correct because we cannot make a Venn diagram making both the conclusions false. If we make conclusion $1$ false, the Venn diagram will satisfy conclusion $2$ and vice versa.\n  \n\n   So, the correct answer is $(C).$",
+  "images": [
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=7808342557865484755",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=16580156706645965324",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=12878514452679305951",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=12470120023147121571",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359795/gate-ece-2021-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359879",
+  "year": 2021,
+  "set": "1",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "$\\text{Statement:}$ Either $\\text{P}$ marries $\\text{Q}$ or $\\text{X}$ marries $\\text{Y}$\n  \n\n   Among the options below, the logical $\\text{NEGATION}$ of the above statement is :",
+  "options": [
+   "$\\text{P}$ does not marry $\\text{Q}$ and $\\text{X}$ marries $\\text{Y}$",
+   "Neither $\\text{P}$ marries $\\text{Q}$ nor $\\text{X}$ marries $\\text{Y}$",
+   "$\\text{X}$ does not marry $\\text{Y}$ and $\\text{P}$ marries $\\text{Q}$",
+   "$\\text{P}$ marries $\\text{Q}$ and $\\text{X}$ marries $\\text{Y}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "The given statement is: Either $\\text{P}$ marries $\\text{Q}$ or $\\text{X}$ marries $\\text{Y}.$\n  The  logical NEGATION of the above statement is : Neither $\\text{P}$ marries $\\text{Q}$ nor $\\text{X}$ marries $\\text{Y}.$\n  We can also write the above statement as $P$ does not marry $Q$ and $X$ does not marries $Y.$\n  So, the correct answer is $(B).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359879/gate-civil-2021-set-1-ga-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359899",
+  "year": 2021,
+  "set": "2",
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "On a planar field, you travelled $3$ units East from a point $O$. Next you travelled $4$ units South to arrive at point $P$. Then you travelled from $P$ in the North-East direction such that you arrive at a point that is $6$ units East of point $O$. Next, you travelled in the North-West direction, so that you arrive at point $Q$ that is $8$ units North of point $P$.\n   The distance of point $Q$ to point $O$, in the same units, should be ______________",
+  "options": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "First, we can draw the diagram using the given description.\n  \n\n[IMAGE:0]\n\n[IMAGE:1]\n\n   $\\triangle ODQ$ is right angle triangle, so here we can apply Pythagoras's theorem, then we get\n  \n\n   $OQ^{2} = OD^{2} + DQ^{2}$\n  \n\n   $\\implies OQ^{2} = 4^{2} + 3^{2} = 16 + 9 = 25$\n  \n\n   $\\implies OQ= 5$ units.\n  \n\n   $\\therefore$ The distance of point $Q$ to point $O,$ in the same units, should be $5.$\n  \n\n   So, the correct answer is $(C).$",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=10602846704945884",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=6305915375603662160",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359899/gate-civil-2021-set-2-ga-question-6",
   "source": "gateoverflow"
  },
  {
@@ -937,6 +1956,143 @@
   "source": "gateoverflow"
  },
  {
+  "id": "359497",
+  "year": 2021,
+  "set": "2",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A box contains $15$ blue balls and $45$ black balls. If $2$ balls are selected randomly, without replacement, the probability of an outcome in which the first selected is a blue ball and the second selected is a black ball, is _____\n  \n\n    $\\frac{45}{236}$\n   \n\n    $\\frac{1}{4}$\n   \n\n    $\\frac{3}{4}$",
+  "options": [
+   "$\\frac{3}{16}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "It is given that from a box containing $15$ blue balls and $45$ black balls, $2$ balls are selected randomly without replacement.\n  Probability that, the first selected is a blue ball and the second selected is a black ball\n  $\\qquad = \\dfrac{^{15}C_{1}}{60} \\times \\dfrac{^{45}C_{1}}{59}$\n  $\\qquad = \\dfrac{15}{60} \\times \\dfrac{45}{59} = \\dfrac{45}{236}.$\n  So, the correct answer is $(B).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359497/gate-mechanical-2021-set-2-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359743",
+  "year": 2021,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "[IMAGE:0]\n\n   In the figure shown above, each inside square is formed by joining the midpoints of the sides of the next larger square. The area of the smallest square (shaded) as shown, in $\\text{cm}^{2}$ is:",
+  "options": [
+   "$12.50$",
+   "$6.25$",
+   "$3.125$",
+   "$1.5625$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "It is given that the side of the outer square  $ = 10\\;\\text{cm} = \\frac{10}{(\\sqrt{2})^{0}}\\;\\text{cm}.$\n   The side of the second outer square $ = \\sqrt{5^{2} + 5^{2}} = \\sqrt{25+25} = \\sqrt{50} = 5 \\sqrt{2}\\;\\text{cm} = \\frac{10}{\\left(\\sqrt{2}\\right)^{1}}\\;\\text{cm}$\n   The side of the third outer square $ = \\sqrt{\\left(\\frac{5\\sqrt{2}}{2}\\right)^{2} + \\left(\\frac{5\\sqrt{2}}{2}\\right)^{2}} = \\sqrt{\\frac{50}{4}+\\frac{50}{4}} = \\sqrt{\\frac{100}{4}} =  \\sqrt{25} = 5 \\;\\text{cm} = \\frac{10}{\\left(\\sqrt{2}\\right)^{2}}\\;\\text{cm}$\n   The side of the fourth outer square $ = \\sqrt{\\left(\\frac{5}{2}\\right)^{2} + \\left(\\frac{5}{2}\\right)^{2}} = \\sqrt{\\frac{25}{4}+\\frac{25}{4}} = \\sqrt{\\frac{50}{4}} =  \\sqrt{\\frac{25}{2}}   = \\frac{5}{\\sqrt{2}} \\;\\text{cm} = \\frac{10}{\\left(\\sqrt{2}\\right)^{3}}\\;\\text{cm}$\n   The side of the fifth outer square $ = \\sqrt{\\left(\\frac{5}{2\\;\\sqrt{2}}\\right)^{2} + \\left(\\frac{5}{2\\;\\sqrt{2}}\\right)^{2}}  = \\sqrt{\\frac{25}{8} + \\frac{25}{8}} = \\sqrt{\\frac{50}{8}}= \\sqrt{\\frac{25}{4}} = \\frac{5}{2} \\;\\text{cm} = \\frac{10}{\\left(\\sqrt{2}\\right)^{4}}\\;\\text{cm}$\n  \n\n   The side of the inner (shaded) square $ = \\sqrt{\\left(\\frac{5}{4}\\right)^{2} + \\left(\\frac{5}{4}\\right)^{2}} = \\sqrt{\\frac{25}{16} + \\frac{25}{16}} = \\sqrt{\\frac{50}{16}}= \\sqrt{\\frac{25}{8}} = \\frac{5}{2\\;\\sqrt{2}} \\;\\text{cm} = \\frac{10}{\\left(\\sqrt{2}\\right)^{5}}\\;\\text{cm}$\n  \n\n   $\\therefore$ The area of the smallest square (shaded) $ = \\left(\\frac{5}{2\\;\\sqrt{2}}\\right)^{2} = \\frac{25}{8} = 3.125\\;\\text{cm}^{2}.$\n  \n\n   $\\textbf{PS:}$  The Pythagorean theorem states that if a triangle has one right angle, then the square of the longest side, called the hypotenuse, is equal to the sum of the squares of the lengths of the two shorter sides, called the legs. So if $a$ and $b$ are the lengths of the legs and $c$ is the length of the hypotenuse, then $a^{2}+b^{2}=c^{2}.$\n  \n\n   $\\textbf{Short Method:}$\n  \n\n   It is given that the side of the outer square  $ = 10\\;\\text{cm}.$\n  \n\n   Now, we can create some patterns, and find the area of inner (shaded) square.\n  \n\n    The area of outer square $ = 10^{2} = 100\\;\\text{cm}^{2}$\n   \n\n    The area of second outer square $  = \\frac{100}{2} = 50\\;\\text{cm}^{2}$\n   \n\n    The area of third outer square $ = \\frac{50}{2} = 25\\;\\text{cm}^{2}$\n   \n\n    The area of fourth outer square $ = \\frac{25}{2} = 12.50\\;\\text{cm}^{2}$\n   \n\n    The area of fifth outer square $ = \\frac{12.50}{2} = 6.25\\;\\text{cm}^{2}$\n   \n\n    The area of inner (shaded) square $ = \\frac{6.25}{2} = 3.125\\;\\text{cm}^{2}.$\n   \n\n   So, the correct answer is $(C).$",
+  "images": [
+   {
+    "src": "https://ee.gateoverflow.in/?qa=blob&qa_blobid=10814921074340562564",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359743/gate-electrical-2021-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359793",
+  "year": 2021,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Computers are ubiquitous. They are used to improve efficiency in almost all fields from agriculture to space exploration. Artificial intelligence $\\text{(AI)}$ is currently a hot topic. $\\text{Al}$ enables computers to learn, given enough training data. For humans, sitting in front of a computer for long hours can lead to health issues.\n  \n\n   Which of the following can be deduced from the above passage?\n  \n\n    $\\text{(ii) and (iii)}$\n   \n\n    $\\text{(ii) and (iv)}$\n   \n\n    $\\text{(i), (iii) and (iv)}$\n   \n\n    $\\text{(i) and (iii)}$",
+  "options": [
+   "Nowadays, computers are present in almost all places.",
+   "Computers cannot be used for solving problems in engineering",
+   "For humans, there are both positive and negative effects of using computers.",
+   "Artificial intelligence can be done without data."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Nowadays, computers are present in almost all places.\n    True. “efficiency in\n    \n     almost all fields\n    \n    from agriculture to space exploration”\n   \n\n    Computers cannot be used for solving problems in engineering\n    False. This is contradictory to the given passage. “from agriculture\n    \n     to space exploration\n    \n    ”\n   \n\n    For humans, there are both positive and negative effects of using computers.\n    True. “\n    \n     can lead to health issues\n    \n    ” shows the negative effect and positive effect is shown by “\n    \n     improve efficiency\n    \n    in almost all fields”\n   \n\n    Artificial intelligence can be done without data.\n    False. This is contradictory to the given passage. “\n    \n     given enough training data\n    \n    ”\n   \n\n   So, correct option: D.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359793/gate-ece-2021-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359877",
+  "year": 2021,
+  "set": "1",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Spatial Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider two rectangular sheets, Sheet $\\text{M}$ and Sheet $\\text{N}$ of dimensions $6\\:\\text{cm} \\times 4\\: \\text{cm}$ each.\n  \n\n    Folding operation $1:$ The sheet is folded into half by joining the short edges of the current shape.\n   \n\n    Folding operation $2:$ The sheet is folded into half by joining the long edges of the current shape.\n   \n\n   Folding operation $1$ is carried out on Sheet $\\text{M}$ three times.\n  \n\n   Folding operation $2$ is carried out on Sheet $\\text{N}$ three times.\n  \n\n   The ratio of perimeters of the final folded shape of Sheet $\\text{N}$ to the final folded shape of Sheet $\\text{M}$ is _____________.",
+  "options": [
+   "$13:7$",
+   "$3:2$",
+   "$7:5$",
+   "$5:13$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Sheet $\\text{M}$ and sheet $\\text{N}$ are of dimensions $6\\:\\text{cm} \\times 4\\: \\text{cm}$ each.\n  \n\n   On Sheets $M$ and $N$, if we perform the given operations, we get as follows.\n  \n\n[IMAGE:0]\n\n   Now, the perimeter of the final folded shape of sheet $M = 2(1.5+2) = 7\\;\\text{cm},$ and the perimeter of the final folded shape of sheet $N = 2(0.5+6) = 13\\;\\text{cm}.$\n  \n\n   $\\therefore$ The ratio of perimeters of the final folded shape of sheet $N$ to the final folded shape of sheet $M$ is $ = 13:7.$\n  \n\n   So, the correct answer is $(A).$",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=12530873607171968214",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359877/gate-civil-2021-set-1-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359897",
+  "year": 2021,
+  "set": "2",
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The author said, \"Musicians rehearse before their concerts. Actors rehearse their roles before the opening of a new play. On the other hand, I find it strange that many public speakers think they can just walk onto the stage and start speaking. In my opinion, it is no less important for public speaker to rehearse their talks.\"\n  \n\n   Based on the above passage, which one of the following is $\\text{TRUE}$?",
+  "options": [
+   "The author is of the opinion that rehearsing is important for musicians, actors and public speakers",
+   "The author is of the opinion that rehearsing is less important for public speakers than for musicians and actors",
+   "The author is of the opinion that rehearsing is more important only for musicians than public speakers",
+   "The author is of the opinion that rehearsal is more important for actors than musicians"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "In my opinion, it is\n    \n     no less important\n    \n    for public speaker to rehearse their talks.\n   \n\n   This means that the author considers rehearsal either equally or more important for public speakers than for musicians and actors. So, options B and C are clearly false. Option D is not true as the author is not comparing musicians and actors.\n  \n\n   Correct option: A",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359897/gate-civil-2021-set-2-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
   "id": "357444",
   "year": 2021,
   "set": "1",
@@ -1048,6 +2204,209 @@
   "explanation": "Let the three classes have $3x$, $13x$ and $6x$ students respectively. $18$ students are added in each class.\n  \n\n   After that $3x+18,13x+18$ and $6x+18$ are the number of students in each class.\n  \n\n   Given, $3x+18: 13x+18 : 6x+18 = 15:35:21$\n  \n\n   $\\implies \\frac{3x+18}{6x+18}=\\frac{15}{21}$\n  \n\n   $\\implies \\frac{x + 6}{2x + 6} = \\frac{5}{7}$\n  \n\n   $\\implies 7x + 42  = 10x + 30$\n  \n\n   $\\implies 3x = 12$\n  \n\n   $\\implies x = 4$\n  \n\n   So, the total number of students in all the three classes, in the beginning, $=3*4+13*4+6*4=88.$\n  \n\n    Option (C) is the correct answer.\nInitial number of students must be multiple of 22k (since 3k+13k+6k)\n  Unfortunately all options are in a multiple of 22.\n  So lets move to the next condition that is when 18 students are added to each class.\n  The final number of students must be a multiple of 71m (since 15m+35m+21m)\n  As 18 students are added to each class, therefore add 54 in each option and verify whether the result is multiple of 71.\n  If yes, thats your answer!\n  A) 22 + 54 = 76 _ not a multiple of 71\n  B) 66 + 54 = 120 _ not a multiple of  71\n  C) 88 + 54 = 142 = 71*2 _ that's it, this is the answer!\n  D) 110 + 54 = 164 _ not a multiple of 71\nLet number of students in each classes be 3k,13k,6k so that their ratio is 3:13:6.\n  if we add 18 students to each class we have 3k+18,13k+18,6k+18 students in each class.\n  But it’s ratio is given as 15:35:21.\n  So ,3k+18:13k+18:6k+18=15:35:21.\n  This implies,(3k+18)/(13k+18)=15/35\n  =>(3k+18)*7=(13k+18)*3\n  =>21k+18*7=39k+18*3\n  =>18*4=18k\n  =>k=4.\n  So total number of students are 3k+13k+6k=22*k=22*4=88",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/357542/gate-cse-2021-set-2-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359474",
+  "year": 2021,
+  "set": "1",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The number of hens, ducks and goats in farm $P$ are $65,91$ and $169,$ respectively. The total number of hens, ducks and goats in a nearby farm $Q$ is $416.$ The ratio of hens : ducks : goats in farm $Q$ is $5:14:13.$ All the hens, ducks and goats are sent from farm $Q$ to farm $P.$\n  \n\n   The new ratio of hens : ducks : goats in farm $P$ is ________",
+  "options": [
+   "$5:7:13$",
+   "$5:14:13$",
+   "$10:21:26$",
+   "$21:10:26$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "First we can calculate the number of hens, ducks and goats in farm $Q.$\n  \n\n    Number of hens in farm $Q = \\dfrac{5}{32} \\times 416 = 65$\n   \n\n    Number of ducks in farm $Q = \\dfrac{14}{32} \\times 416 = 182$\n   \n\n    Number of goats in farm $Q = \\dfrac{13}{32} \\times 416 = 169$\n   \n\n   Initially, the number of hens, ducks and goats in farm $P$ are $65,91$ and $169$ respectively.\n  \n\n   All the hens, ducks, and goats are sent from farm $Q$ to farm $P.$\n  \n\n   Therefore, in farm $P,$\n  \n\n    Number of hens $ = 65 + 65 = 130$\n   \n\n    Number of ducks $ = 91 + 182 = 273$\n   \n\n    Number of goats $ = 169 + 169 = 338$\n   \n\n   $\\therefore$ The required ratio $ = 130:273:338 = 10:21:26$\n  \n\n   So, the correct answer is $(C).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359474/gate-mechanical-2021-set-1-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359494",
+  "year": 2021,
+  "set": "2",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "[IMAGE:0]\n\n   The ratio of the area of the inscribed circle to the area of the circumscribed circle of an equilateral triangle is ___________\n  \n\n    $\\dfrac{1}{6}$\n   \n\n    $\\dfrac{1}{4}$\n   \n\n    $\\dfrac{1}{2}$",
+  "options": [
+   "$\\dfrac{1}{8}$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "[IMAGE:0]\n\n   Given that, the  $\\triangle ABC$ is an equilateral triangle.\n  \n\n   Let the radius of the inscribed circle be $r\\;\\text{cm},$ and radius of the circumscribed circle be $R\\;\\text{cm}.$\n  \n\n   In $\\triangle OBD,\\angle OBD = 30^{\\circ},\\angle ODB = 90^{\\circ}$\n  \n\n   $\\implies \\sin 30^{\\circ} = \\dfrac{r}{R} $\n  \n\n   $\\implies\\dfrac{1}{2}= \\dfrac{r}{R}$\n  \n\n   $\\implies R = 2r$\n  \n\n   Let the area of the inscribed circle be $A_{I}\\;\\text{cm}^{2}$ and the area of the circumscribed circle  be $A_{C}\\;\\text{cm}^{2}.$\n  \n\n   $\\implies \\dfrac{A_{I}}{A_{C}} = \\dfrac{\\pi r^{2}}{\\pi R^{2}} = \\dfrac{r^{2}}{(2r)^{2}} = \\dfrac{1}{4}.$\n  \n\n   So, the correct answer is $(C).$\nLet the radius of the inscribed circle be $r\\;\\text{cm}$, the radius of the circumscribed circle be $R\\;\\text{cm},$ and the side of an equilateral triangle be $a  \\;\\text{cm}.$\n  \n\n[IMAGE:100]\n\n   Area of the circumscribed circle $ = \\dfrac{abc}{4R} = \\dfrac{a^{3}}{4R}\\;\\text{cm}^{2}.\\;[\\because \\text{here}, a = b = c]$\n  \n\n   Area of the inscribed circle $A= rS\\;\\text{cm}^{2}$, where $S = \\frac{a+b+c}{2} = \\frac{3a}{2}.$\n  \n\n   Now, the required ratio $ = \\dfrac{A_{IC}}{A_{CC}} = \\dfrac{\\pi r^{2}}{\\pi R^{2}} = \\left(\\dfrac{r}{R}\\right)^{2} \\rightarrow (1)$\n  \n\n   Now, we have area of the equilateral triangle is equal to the area of inscribed circle $:\\dfrac{a^{2}\\sqrt{3}}{4} = \\dfrac{3ar}{2}$\n  \n\n   $\\implies r = \\dfrac{\\sqrt{3}\\;a}{6}$\n  \n\n   And, area of the equilateral triangle is equal to the area of circumscribed circle $:\\dfrac{a^{2}\\sqrt{3}}{4} = \\dfrac{a^{3}}{4R}$\n  \n\n   $\\implies R = \\dfrac{a}{\\sqrt{3}}$\n  \n\n   From the equation $(1),$ we get.\n  \n\n   $\\dfrac{A_{IC}}{A_{CC}} = \\left(\\dfrac{r}{R}\\right)^{2}$\n  \n\n   $\\implies \\dfrac{A_{IC}}{A_{CC}}  = \\left( \\dfrac{\\frac{\\sqrt{3}\\;a}{6}}{\\frac{a}{\\sqrt{3}}}\\right)^{2} = \\left[\\left(\\frac{\\sqrt{3}\\;a}{6}\\right)\\left(\\frac{\\sqrt{3}}{a}\\right)\\right]^{2} = \\left(\\dfrac{1}{2}\\right)^{2} = \\dfrac{1}{4}.$\n  \n\n   References:\n  \n\n     https://opencurriculum.org/5492/circumscribed-and-inscribed-circles/\n    \n\n     https://en.wikipedia.org/wiki/Equilateral_triangle",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=879249833211985214",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=673817354983044685",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=13507092622672578151",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359494/gate-mechanical-2021-set-2-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359741",
+  "year": 2021,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Let $X$ be a continuous random variable denoting the temperature measured. The range of temperature is $[0, 100]$ degree Celsius and let the probability density function of $X$ be $f\\left ( x \\right )=0.01$ for $0\\leq X\\leq 100$.\n  \n\n   The mean of $X$ is __________",
+  "options": [
+   "$2.5$",
+   "$5.0$",
+   "$25.0$",
+   "$50.0$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Given that the probability density function of $X$ is $f\\left ( x \\right )=0.01;\\;0\\leq X\\leq 100$.\n   The mean or expectation $E(X) = \\displaystyle{} \\int_{a}^{b} x f(x) dx$\n   $\\implies E(X) = \\displaystyle{} \\int_{0}^{100} 0.01x\\; dx$\n   $\\implies E(X) = \\displaystyle{}0.01 \\int_{0}^{100} x\\; dx$\n   $\\implies E(X) = \\displaystyle{}0.01 \\left[ \\dfrac{x^{2}}{2}\\right]_{0}^{100}$\n   $\\implies E(X) = 0.01 \\left[ \\dfrac{100^{2}}{2} – \\dfrac{0^{2}}{2}\\right]$\n   $\\implies E(X) = 0.01 \\left[ \\dfrac{100^{2}}{2}\\right] = \\dfrac{1}{100} \\times \\dfrac{100^{2}}{2} = \\dfrac{100}{2} = 50.$\n  \n\n   We can also find the mean using the continuous uniform distribution.\n  \n\n   A continuous random variable $X$ is said to have a uniform distribution on the interval $[a, b]$ if the probability density function (pdf) of $X$ is:\n  \n\n   $f(x;a,b) = \\left\\{\\begin{matrix} \\dfrac{1}{b-a}\\;; & a \\leq x \\leq b \\\\ 0\\;;&\\text{otherwise} \\end{matrix}\\right.$\n  \n\n   $\\implies f(x;0,100) = \\left\\{\\begin{matrix} \\dfrac{1}{100-0}\\;; & 0 \\leq x \\leq 100 \\\\ 0\\;;&\\text{otherwise} \\end{matrix}\\right.$\n  \n\n   $ \\implies f(x;0,100) = \\left\\{\\begin{matrix} \\dfrac{1}{100}\\;; & 0 \\leq x \\leq 100 \\\\ 0\\;;&\\text{otherwise} \\end{matrix}\\right.$\n  \n\n   $ \\implies f(x;0,100) = \\left\\{\\begin{matrix} 0.01\\;; & 0 \\leq x \\leq 100 \\\\ 0\\;;&\\text{otherwise} \\end{matrix}\\right.$\n  \n\n   For continuous uniform distribution, the mean or expectation $ \\mu _{X} = E(X) = \\dfrac{a + b}{2} = \\dfrac{0+100}{2} = \\dfrac{100}{2} = 50. $\n  \n\n   So, the correct answer is $(D).$\n  \n\n   References:\n  \n\n     https://www.colorado.edu/amath/sites/default/files/attached-files/ch4.pdf\n    \n\n     https://www.probabilitycourse.com/chapter4/4_2_1_uniform.php",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359741/gate-electrical-2021-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359791",
+  "year": 2021,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider a square sheet of side $1$ unit. In the first step, it is cut along the main diagonal to get two triangles. In the next step. one of the cut triangles is revolved about its short edge to form a solid cone. The volume of the resulting cone, in cubic units, is ____________",
+  "options": [
+   "$\\frac{\\pi }{3}$",
+   "$\\frac{2\\pi }{3}$",
+   "$\\frac{3\\pi }{2}$",
+   "$3\\pi$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Given that:\n  \n\n[IMAGE:0]\n\n[IMAGE:1]\n\n   The volume of a cone is $ \\dfrac {1} {3} \\pi r ^{ 2 } h,$ where $r$ denotes the radius of the base of the cone, and $h$ denotes the height of the cone.\n  \n\n   Here, $h = r = 1.$\n  \n\n   $\\therefore$ The volume of cone $ =  \\dfrac {1} {3} \\pi r ^{ 2 } h = \\dfrac{1}{3} \\pi (1)^{2} (1) = \\dfrac{\\pi}{3}$ cubic units.\n  \n\n   So, the correct answer is $(A).$",
+  "images": [
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=6411072703372715891",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=6235537377598156697",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359791/gate-ece-2021-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359875",
+  "year": 2021,
+  "set": "1",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "[IMAGE:0]\n\n   Five line segments of equal lengths, $\\text{PR, PS, QS, QT}$ and $\\text{RT}$ are used to form a star as shown in the figure above.\n  \n\n   The value of $\\theta$, in degrees, is _______________",
+  "options": [
+   "$36$",
+   "$45$",
+   "$72$",
+   "$108$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "$\\textbf{Central Angle Theorem:}$  The Central Angle Theorem states that the central angle from two chosen points $A$ and $B$ on the circle is always twice the inscribed angle from those two points. The inscribed angle can be defined by any point along the outer arc $AB$ and the two points $A$ and $B.$\n  \n\n[IMAGE:0]\n\n   Now, we can use the above theorem, and get the below diagram,\n  \n\n[IMAGE:1]\n\n   Now, $10\\theta = 360^{\\circ}$\n  \n\n   $\\implies \\theta = 36^{\\circ}.$\n  \n\n   So, the correct answer is $(A).$\n  \n\n   Reference:\n   \n    http://jwilson.coe.uga.edu/EMAT6680Su09/Park/As8dspark/As8dspark.html\nHere if we get that its a regular pentagon then it becomes easy\n  \n\n[IMAGE:100]",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=2423319028637464565",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=13533695657332503618",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=5086008580543918424",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=11315285146810255956",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359875/gate-civil-2021-set-1-ga-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359895",
+  "year": 2021,
+  "set": "2",
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Among the options given below, the statement that logically follows from the two statements $1$ and $2$ above, is :\n  \n\n    No football player plays hockey\n   \n\n    Some football players play hockey\n   \n\n    All football players play hockey\n   \n\n    All hockey players play football",
+  "options": [
+   "Some football players play cricket.",
+   "All cricket players play hockey."
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Given statements are:\n  \n\n    Some football players play cricket.\n    \n[IMAGE:0]\n\n    All cricket players play hockey.\n    \n[IMAGE:1]\n\n    No football player plays hockey – It is not correct. No way we can combine diagrams 1 and 2 to get a diagram for this statement.\n   \n\n    Some football players play hockey – It is correct from the above reasoning. In whichever way we combine the Venn diagrams of the given two statements we’ll get an intersection for Football and Hockey.\n   \n\n    All football players play hockey – It can be true but not always and the counterexample is shown in the below Venn diagram which can be obtained by combining the Venn diagrams for the given statements.\n    \n[IMAGE:2]\n\n    All hockey players play football – It also can be correct but not always. The counterexample shown in the above Venn diagram for option C works here as well.\n   \n\n   So, the correct answer is $(B).$",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=10685568393607908706",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=12813226067404635958",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=1478990822016812736",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359895/gate-civil-2021-set-2-ga-question-8",
   "source": "gateoverflow"
  },
  {
@@ -1191,6 +2550,227 @@
   "source": "gateoverflow"
  },
  {
+  "id": "359469",
+  "year": 2021,
+  "set": "1",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "[IMAGE:0]\n\n   $$\\begin{array}{|c|c|} \\hline \\textbf{Company} & \\textbf{Ratio} \\\\\\hline C1 & 3:2 \\\\\\hline C2 & 1:4 \\\\\\hline C3 & 5:3 \\\\\\hline C4 & 2:3 \\\\\\hline C5 & 9:1 \\\\\\hline C6 & 3:4 \\\\\\hline\\end{array}$$\n  \n\n   The distribution of employees at the rank of executives, across different companies $\\textsf{C1, C2,} \\ldots, \\textsf{C6}$ is presented in the chart given above. The ratio of executives with a management degree to those without a management degree in each of these companies is provided in the table above. The total number of executives across all companies is $10,000.$\n  \n\n   The total number of management degree holders among the executives in companies $\\textsf{C2}$ and $\\textsf{C5}$ together is ________.",
+  "options": [
+   "$225$",
+   "$600$",
+   "$1900$",
+   "$2500$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Given that the total number of employees at the rank of executives across all companies is $10,000.$\n  \n\n    The number of employees in the company $C2 = \\dfrac{5}{100} \\times 10000 = 500$\n   \n\n    The number of employees in company $C2$, who has management degree $ = \\dfrac{1}{5} \\times 500 = 100$\n   \n\n    The number of employees in the company $C5 = \\dfrac{20}{100} \\times 10000 = 2000$\n   \n\n    The number of employees in company $C2$, who has management degree $ = \\dfrac{9}{10} \\times 2000 = 1800$\n   \n\n   $\\therefore$ The total number of management degree holders among the executives in companies $C2$ and $C5$ together $ = 100 + 1800 = 1900.$\n  \n\n   So, the correct answer is $(C).$",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2551353977150112862",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359469/gate-mechanical-2021-set-1-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359492",
+  "year": 2021,
+  "set": "2",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Consider a square sheet of side $1$ unit. The sheet is first folded along the main diagonal. This is followed by a fold along its line of symmetry. The resulting folded shape is again folded along its line of symmetry. The area of each face of the final folded shape, in square units, equal to _________",
+  "options": [
+   "$\\frac{1}{4}$",
+   "$\\frac{1}{8}$",
+   "$\\frac{1}{16}$",
+   "$\\frac{1}{32}$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Given that a square sheet has a side length of $1$ unit.\n  \n\n[IMAGE:0]\n\n   Now, the sheet is first folded along the main diagonal.\n  \n\n[IMAGE:1]\n\n   Again, this is followed by a fold along its line of symmetry. And this operation is performed two times.\n  \n\n[IMAGE:2]\n\n   We get the final folded sheet.\n  \n\n[IMAGE:3]\n\n   Let the height of the triangle be $h$ units.\n  \n\n   Using the Pythagorean theorem, we get.\n  \n\n   $\\left(\\frac{1}{\\sqrt{2}}\\right)^{2} = h^{2} + \\left(\\frac{1}{2}\\right)^{2}$\n  \n\n   $\\implies \\frac{1}{2} = h^{2} + \\frac{1}{4}$\n  \n\n   $\\implies h^{2} = \\frac{1}{2} – \\frac{1}{4}$\n  \n\n   $\\implies h^{2} = \\frac{2 – 1 }{4} = \\frac{1}{4}$\n  \n\n   $\\implies h = \\frac{1}{2}$\n  \n\n   Now, the area of triangle $\\Delta = \\frac{1}{2} \\times \\text{Base} \\times \\text{Height}$\n  \n\n   $\\implies \\Delta = \\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{8}\\;\\text{unit}^{2}.$\n  \n\n   $\\textbf{Short Method:}$ Area follows the symmetry.\n  \n\n    Initially the area of square $ = 1$\n   \n\n    Folded first time, then the area of square $ = \\frac{1}{2}$\n   \n\n    Folded second time, then the area of square $ = \\frac{1}{4}$\n   \n\n    Folded third time, then the area of square $ = \\frac{1}{8}$\n   \n\n   So, the correct answer is $(B).$\n[IMAGE:100]\n\n   Ans- B ) 1/8",
+  "images": [
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=2377402978911371563",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=2873143177142413571",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=2119720260008948655",
+    "kind": "remote"
+   },
+   {
+    "src": "https://me.gateoverflow.in/?qa=blob&qa_blobid=6156460061949430228",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=13112736258596721310",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359492/gate-mechanical-2021-set-2-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359739",
+  "year": 2021,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "[IMAGE:0]\n\n   The number of students passing or failing in an exam for a particular subject is presented in the bar chart above. Students who pass the exam cannot appear for the exam again. Students who fail the exam in the first attempt must appear for the exam in the following year. Students always pass the exam in their second attempt.\n  \n\n   The number of students who took the exam for the first time in the year $2$ and the year $3$ respectively, are ______________.",
+  "options": [
+   "$65$ and $53$",
+   "$60$ and $50$",
+   "$55$ and $53$",
+   "$55$ and $48$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "The total number of students in $\\text{Year 2}  =  60 \\text{(pass)} + 5 \\text{(fail)} = 65$\n  The number of students, who failed in the exam in $\\text{Year 1}$, and appeared in $\\text{Year 2} = 10$\n  $\\therefore$ The total number of students in $\\text{Year 2}$ who appeared for the first time $ = 65 – 10 = 55$\n  Similarly, the total number of students in $\\text{Year 3}  =  50 \\text{(pass)} + 3 \\text{(fail)} = 53$\n  The number of students, who failed in the exam in $\\text{Year 2}$, and appeared in $\\text{Year 3} = 5$\n  $\\therefore$ The total number of students in $\\text{Year 3}$ who appeared for the first time $ = 53-5 = 48$\n  So, the correct answer is $(D).$",
+  "images": [
+   {
+    "src": "https://ee.gateoverflow.in/?qa=blob&qa_blobid=10675712482980043460",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359739/gate-electrical-2021-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359789",
+  "year": 2021,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "[IMAGE:0]\n\n   The number of minutes spent by two students, $X$ and $Y$, exercising every day in a given week are shown in the bar chart above.\n  \n\n   The number of days in the given week in which one of the students spent a minimum of $10\\%$ more than the other student, on a given day, is",
+  "options": [
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "We can calculate the number of days in the given week in which one of the students spent more time than the other.\n  \n\n   If $X$ is more than $10\\%$ of $Y$ then $Y$ should be minimum and vice-versa.\n  \n\n    On Monday, the required percentage $ = \\left(\\dfrac{70-45}{45}\\right) \\times 100\\% = 55.55\\%$\n   \n\n    On Tuesday, the required percentage $ = \\left(\\dfrac{65-55}{55}\\right) \\times 100\\% = 18.18\\%$\n   \n\n    On Wednesday, the required percentage $ = \\left(\\dfrac{60-50}{50}\\right) \\times 100\\% = 20\\%$\n   \n\n    On Thursday, the required percentage $ = \\left(\\dfrac{60-55}{55}\\right) \\times 100\\% =  9.09%$\n   \n\n    On Friday, the required percentage $ = \\left(\\dfrac{35-20}{20}\\right) \\times 100\\% =  75\\%$\n   \n\n    On Saturday, the required percentage $ = \\left(\\dfrac{60-50}{50}\\right) \\times 100\\% = 20\\%$\n   \n\n    On Sunday, the required percentage $ = \\left(\\dfrac{65-55}{55}\\right) \\times 100\\% = 18.18\\%$\n   \n\n   $\\therefore$ Total $6$ days are there, when one of the students spent a minimum of $10\\%$ more than the other student.\n  \n\n   So, the correct answer is $(C).$\nAnswer: C\n  On Sunday 10% *55= 5.5  Now 65 >=55+5.5   True\n  On Saturday 10%*50=5  Now 60>=55+5 True\n  On Friday 10%*20=2 Now 35>=20+2 True\n  On Thursday 10%*55=5.5 Now 60 >= 55+5.5 False\n  On Wednesday 10%*50=5 Now 60>= 50+5 True\n  On Tuesday 10%*55=5.5 Now 65>=55+5.5 True\n  On Monday 10%*45=4.5 Now 75>=45+4.5 True\n  Total 6 Days are True\n  Hence C is the Answer",
+  "images": [
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=15403225645300563608",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359789/gate-ece-2021-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359873",
+  "year": 2021,
+  "set": "1",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "A function, $\\lambda$, is defined by\n  \n\n   $\\lambda \\left ( p,q \\right )=\\left\\{\\begin{matrix} \\left ( p-q \\right )^{2}, & \\text{if} \\:p\\geq q, \\\\ p+q, &\\text{if} \\: p< q.\\end{matrix}\\right.$\n  \n\n   The value of the expression $\\dfrac{\\lambda \\left ( -\\left (- 3+2 \\right ),\\left ( -2+3 \\right ) \\right )}{\\left ( -\\left ( -2+1 \\right ) \\right )}$ is:",
+  "options": [
+   "$-1$",
+   "$0$",
+   "$\\frac{16}{3}$",
+   "$16$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "The value of the expression $\\dfrac{\\lambda \\left ( -\\left (- 3+2 \\right ),\\left ( -2+3 \\right ) \\right )}{\\left ( -\\left ( -2+1 \\right ) \\right )} =  \\dfrac{\\lambda(-(-1),1)}{-(-1)} = \\dfrac{\\lambda(1,1)}{1} = \\dfrac{(1-1)^{2}}{1} = \\dfrac{0}{1} = 0.$\n  So, the correct answer is $(B).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359873/gate-civil-2021-set-1-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359893",
+  "year": 2021,
+  "set": "2",
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "[IMAGE:0]\n\n   In the figure shown above, $\\text{PQRS}$ is a square. The shaded portion is formed by the intersection of sectors of circles with radius equal to the side of the square and centers at $S$ and $Q$.\n  \n\n   The probability that any point picked randomly within the square falls in the shaded area is ____________",
+  "options": [
+   "$4-\\frac{\\pi }{2}$",
+   "$\\frac{1}{2}$",
+   "$\\frac{\\pi }{2}-1$",
+   "$\\frac{\\pi }{4}$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Let the side of the square be $1\\;\\text{cm},$ then $r = 1\\;\\text{cm}.$\n  \n\n   From the center $S,$ we can draw the circle, and only the quarter part is shown in the figure.\n  \n\n[IMAGE:0]\n\n   The shaded area $A_{1}  = A_{\\text{square}} – A_{\\text{quarter circle}} = 1 – \\dfrac{\\pi}{4}$\n  \n\n   From the center $Q,$ we can draw the circle, and only the quarter part is shown in the figure.\n  \n\n[IMAGE:1]\n\n   The shaded area $A_{2}  = A_{\\text{square}} – A_{\\text{quarter circle}} = 1 – \\dfrac{\\pi}{4}$\n  \n\n   Now, we can combine the above two figures, we get,\n  \n\n[IMAGE:2]\n\n   Now, the shaded area $ = A_{\\text{square}} – A_{1} – A_{2}$\n  \n\n   $\\quad = 1 – \\left(1-\\dfrac{\\pi}{4}\\right) – \\left(1-\\dfrac{\\pi}{4}\\right)$\n  \n\n   $\\quad = – 1 + \\dfrac{2\\pi}{4} = \\dfrac{\\pi}{2} – 1$\n  \n\n   Now, the required probability $  = \\dfrac{\\text{Favorable shaded area}}{\\text{Total area}} = \\dfrac{\\frac{\\pi}{2} – 1}{1} = \\dfrac{\\pi}{2} – 1.$\n  \n\n   $\\therefore$ The probability that any point picked randomly within the square falls in the shaded area $ = \\dfrac{\\pi}{2} – 1.$\n  \n\n   So, the correct answer is $(C).$\n[IMAGE:100]\n\n[IMAGE:101]\n\n[IMAGE:102]\n\n   Similarly, do for another side\n  \n\n   Therefore, Area of shaded area = $2 * (\\frac{ r^{2}}{4}(\\pi – 2))  = \\frac{ r^{2}}{2}(\\pi – 2)$\n  \n\n   Now, total area = $r^{2}$\n  \n\n   Therefore,\n   \n    Probability\n   \n\n    =\n   \n   $ \\frac{ \\frac{ r^{2}}{2}(\\pi – 2)}{r^{2}}$\n  \n\n   = $ \\frac{ 1}{2}(\\pi – 2)$\n  \n\n   = $\\frac{ \\pi}{2} – 1$\n  \n\n    So, Ans is $C$",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=6068397965504314056",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=17009101157794256106",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=6268406304051964779",
+    "kind": "remote"
+   },
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=5531797186808393852",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1098826746666095594",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=7048008231733743023",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1325376887873488610",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359893/gate-civil-2021-set-2-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
   "id": "357442",
   "year": 2021,
   "set": "1",
@@ -1307,6 +2887,180 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/357540/gate-cse-2021-set-2-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359471",
+  "year": 2021,
+  "set": "1",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Five persons $\\text{P, Q, R, S and T}$ are sitting in a row not necessarily in the same order. $Q$ and $R$ are separated by one person, and $S$ should not be seated adjacent to $Q.$\n  \n\n   The number of distinct seating arrangements possible is:",
+  "options": [
+   "$4$",
+   "$8$",
+   "$10$",
+   "$16$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Given that, five persons $\\text{P, Q, R, S, and T}$ are sitting in a row.\n  \n\n    $Q$ and $R$ are separated by one person.\n   \n\n    $S$ should not be seated adjacent to $Q.$\n   \n\n   We can follow the above two conditions, we get the following sitting orders:\n  \n\n    First fix the position of $Q,$ and $R,$ we get,\n    \n\n      ${\\color{Red}{Q} } \\;{\\color{Green}{P} }\\; {\\color{Blue}{R} }\\; S\\; T$\n     \n\n      ${\\color{Red}{Q} }\\; {\\color{Green}{P} }\\; {\\color{Blue}{R} }\\; T\\; S$\n     \n\n      ${\\color{Red}{Q} }\\; {\\color{Green}{T} }\\; {\\color{Blue}{R} }\\; S\\; P$\n     \n\n      ${\\color{Red}{Q} }\\; {\\color{Green}{T} }\\; {\\color{Blue}{R} }\\; P\\; S$\n     \n\n    Again fix the position of $Q,$ and $R,$ we get,\n    \n\n      $ {\\color{Green}{P} }\\;{\\color{Red}{Q} }\\; T \\;{\\color{Blue}{R} }\\; S$\n     \n\n      $ {\\color{Green}{T} }\\;{\\color{Red}{Q} }\\; P \\;{\\color{Blue}{R} }\\; S$\n     \n\n    Again fix the position of $Q,$ and $R,$ we get,\n    \n\n      ${\\color{Green}{S} }\\; P\\; {\\color{Red}{Q} }\\;T\\;{\\color{Blue}{R} }$\n     \n\n      ${\\color{Green}{S} }\\; T\\; {\\color{Red}{Q} }\\;P\\;{\\color{Blue}{R} }$\n     \n\n   Now, we can fix the positions interchangeably, and get the following siting orders:\n  \n\n    First fix the position of $R,$ and $Q,$ we get,\n    \n\n      $ {\\color{Blue}{R} }\\; {\\color{Green}{P} }\\; {\\color{Red}{Q} }\\; T\\; S$\n     \n\n      ${\\color{Blue}{R} }\\; {\\color{Green}{T} }\\; {\\color{Red}{Q} }\\; P\\; S$\n     \n\n    Again fix the position of $R,$ and $Q,$ we get,\n    \n\n      ${\\color{Green}{S}}\\;  {\\color{Blue}{R} }\\; P\\; {\\color{Red}{Q} }\\; T$\n     \n\n      ${\\color{Green}{S}}\\;  {\\color{Blue}{R} }\\; T\\; {\\color{Red}{Q} }\\; P$\n     \n\n    Again fix the position of $R,$ and $Q,$ we get,\n    \n\n      ${\\color{Green}{S}}\\; P\\; {\\color{Blue}{R} }\\; T\\; {\\color{Red}{Q} }$\n     \n\n      ${\\color{Green}{S}}\\; T\\; {\\color{Blue}{R} }\\; P\\; {\\color{Red}{Q} }$\n     \n\n      $P\\;{\\color{Green}{S}}\\; {\\color{Blue}{R} }\\; T\\; {\\color{Red}{Q} }$\n     \n\n      $T\\;{\\color{Green}{S}}\\; {\\color{Blue}{R} }\\; P\\; {\\color{Red}{Q} }$\n     \n\n   $\\therefore$ The number of distinct seating arrangements possible $ = 16.$\n  \n\n   So, the correct answer is $(D).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359471/gate-mechanical-2021-set-1-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359490",
+  "year": 2021,
+  "set": "2",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The world is going through the worst pandemic in the past hundred years. The air travel industry is facing a crisis, as the resulting quarantine requirement for travelers led to weak demand.\n  \n\n   In relation to the first sentence above, what does the second sentence do?",
+  "options": [
+   "Restates an idea from the first sentence",
+   "Second sentence entirely contradicts the first sentence",
+   "The two statements are unrelated",
+   "States an effect of the first sentence"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "The air travel industry is facing a crisis, as the\n    \n     resulting\n    \n    quarantine requirement\n   \n\n   The usage of “resulting” shows that the second statement is a result/effect of the first one.\n  \n\n   Correct option: D\nOption D –  States an effect of the first sentence",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359490/gate-mechanical-2021-set-2-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359737",
+  "year": 2021,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Seven cars $\\text{P, Q, R, S, T, U and V}$ are parked in a row not necessarily in that order. The cars $T$ and $U$ should be parked next to each other. The cars $S$ and $V$ also should be parked next to each other, whereas $P$ and $Q$ cannot be parked next to each other. $Q$ and $S$ must be parked next to each other. $R$ is parked to the immediate right of $V$. $T$ is parked to the left of $U$.\n  \n\n   Based on the above statements, the only $\\text{INCORRECT}$ option given below is:",
+  "options": [
+   "There are two cars parked in between $Q$ and $V$.",
+   "$Q$ and $R$ are not parked together.",
+   "$V$ is the only car parked in between $S$ and $R$.",
+   "Car $P$ is parked at the extreme end."
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "The cars $T$ and $U$ should be parked next to each other.\n    This means we can park these two cars in two ways, either $TU$ or $UT.$\n   \n\n    The cars $S$ and $V$ also should be parked next to each other.\n    This means we can park these cars also in two ways, either $SV$ or $VS.$\n   \n\n    The cars $P$ and $Q$ cannot be parked next to each other.\n    This means we can not park the cars as $PQ$ or $QP.$\n   \n\n    The cars $Q$ and $S$ must be parked next to each other.\n    This means we can park these two cars in two ways, either $QS$ or $SQ.$\n   \n\n    $R$ is parked to the immediate right of $V$.\n    This means we can park these two cars in only one way $VR.$\n   \n\n    $T$ is parked to the left of $U$.\n    This is not “immediately left” but combining with statement $1,$ “immediately left” follows. So, we can park these two cars in only one way $TU.$\n   \n\n   Now we can combine the statements $(2)\\;\\& (4)$ and get two possible ways for cars $Q,S$ and $V.$\n  \n\n    $QSV$\n   \n\n    $VSQ$\n   \n\n   But $VSQ$ is not possible because it violates statement $5.$\n  \n\n   Now, using statement $5,$ we get the possible car parking sequence $QSVR.$\n  \n\n   Now, we can check each and every option.\n  \n\n    There are two cars parked in between $Q$ and $V$, it is incorrect because only $S$ is in between $Q$ and $V.$\n   \n\n    $Q$ and $R$ are not parked together, it is correct.\n   \n\n    $V$ is the only car parked in between $S$ and $R,$ it is correct.\n   \n\n    Car $P$ is parked at the extreme end.\n    For this option, we can consider all possible combinations of car parking which are only four as given below. $(P$ cannot come near $Q$ due to statement $3)$\n    \n\n      $QSVR\\; {\\color{DarkBlue} {\\color{Red} {P}}\\;  {TU}}$\n     \n\n      $QSVR\\; {\\color{DarkBlue} \\;  {TU}}\\;{\\color{Red} {P}}$\n     \n\n      ${\\color{DarkBlue} {TU}}\\; QSVR\\; {\\color{Red} {P}}$\n     \n\n      ${\\color{Red} {P}}\\;{\\color{DarkBlue} {TU}}\\; QSVR\\; $\n     \n\n    Here, we can see that car $P$ can be parked at the extreme (either left of right) end in three out of the four possible combinations. That is, though this is not a guarantee, it is still a possibility.\n   \n\n   So, the correct answer is $(A).$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359737/gate-electrical-2021-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359785",
+  "year": 2021,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "​​\n  \n\n[IMAGE:0]\n\n   Corners are cut from an equilateral triangle to produce a regular convex hexagon as shown in the figure above.\n  \n\n   The ratio of the area of the regular convex hexagon to the area of the original equilateral triangle is",
+  "options": [
+   "$2:3$",
+   "$3:4$",
+   "$4:5$",
+   "$5:6$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Given that, corners are cut from an equilateral triangle to produce a regular convex hexagon. The smaller triangles cut are equilateral triangles (If we cut off corners to create a regular hexagon, then each angle of the hexagon is $120^{\\circ}$, and so each angle of every removed triangle is $60^{\\circ}$ making these triangles equilateral)\n  \n\n   Let the original triangle side be $3a.$\n  \n\n[IMAGE:0]\n\n   The area of regular convex hexagon $H_{1} = \\frac{3\\sqrt{3}}{2}s^{2},$ the area of equilateral triangle $ T_{1}= \\frac{\\sqrt{3}}{4}s^{2},$ where $s$ is the side length.\n  \n\n   Now, $H_{1} = \\frac{3\\sqrt{3}}{2}a^{2},A_{1} = \\frac{\\sqrt{3}}{4}(3a)^{2} = \\frac{9\\sqrt{3}}{4}a^{2}$\n  \n\n   The required ratio $ = \\dfrac{H_{1}}{A_{1}} = \\dfrac{\\frac{3\\sqrt{3}}{2}a^{2}}{\\frac{9\\sqrt{3}}{4}a^{2}} = \\frac{2}{3}.$\n  \n\n   $\\therefore$ The ratio of the area of the regular convex hexagon to the area of the original equilateral triangle is $2:3.$\n  \n\n   So, the correct answer is $(A).$\ni have very nice answer for this qeustion if there is regular hexagon then it's diagonals will create six equlateral traingles by joining them we can see the remaining three traingles are also the same as other six traingle so the ratio will be 2:3\n   [IMAGE:100]",
+  "images": [
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=18368191107519404811",
+    "kind": "remote"
+   },
+   {
+    "src": "https://ec.gateoverflow.in/?qa=blob&qa_blobid=2484210939047332079",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=6776433790902040970",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359785/gate-ece-2021-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359871",
+  "year": 2021,
+  "set": "1",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Humans have the ability to construct worlds entirely in their minds, which don't exist in the physical world. So far as we know, no other species possesses this ability. This skill is so important that we have different words to refer to its different flavors, such as imagination, invention and innovation.\n  \n\n   Based on the above passage, which one of the following is $\\text{TRUE}$?",
+  "options": [
+   "No species possess the ability to construct worlds in their minds",
+   "The terms imagination, invention and innovation refer to unrelated skills",
+   "We do not know of any species other than humans who possess the ability to construct mental worlds",
+   "Imagination, invention and innovation are unrelated to the ability to construct mental worlds"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "No species possess the ability to construct worlds in their minds\n    False. “\n    \n     Humans have\n    \n    the ability to construct worlds entirely in their minds” and humans is a species.\n   \n\n    The terms imagination, invention and innovation refer to unrelated skills\n    False. “\n    \n     This skill\n    \n    is so important that we have different words to refer to its different flavors, such as imagination, invention and innovation” meaning the three terms are related to the same skill.\n   \n\n    We do not know of any species other than humans who possess the ability to construct mental worlds\n    \n     True.\n    \n    “So far as we know,\n    \n     no other species possesses\n    \n    this ability.”\n   \n\n    Imagination, invention and innovation are unrelated to the ability to construct mental worlds\n    False. “This skill is so important that we have different\n    \n     words to refer to its different flavors\n    \n    , such as imagination, invention and innovation.”\n   \n\n   Correct option: C.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/359871/gate-civil-2021-set-1-ga-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "359891",
+  "year": 2021,
+  "set": "2",
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In an equilateral triangle $\\text{PQR}$, side $\\text{PQ}$ is divided into four equal parts, side $\\text{QR}$ is divided into six equal parts and side $\\text{PR}$ is divided into eight equals parts. The length of each subdivided part in $\\text{cm}$ is an integer. The minimum area of the triangle $\\text{PQR}$ possible, in $\\text{cm}^{2}$, is",
+  "options": [
+   "$18$",
+   "$24$",
+   "$48\\sqrt{3}$",
+   "$144 \\sqrt{3}$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Let the side length of an equilateral triangle be $’x’\\;\\text{cm}.$\n  \n\n[IMAGE:0]\n\n   As mentioned in the question, the length of each subdivided part in $\\text{cm}$ is an integer. So, the side length must be the LCM of $(4,6,8) \\implies x = 24\\;\\text{cm}.$\n  \n\n   Now, the area of an equilateral triangle of side $x\\;\\text{cm} = \\dfrac{\\sqrt{3}}{4}\\; x^{2} = \\dfrac{\\sqrt{3}}{4} \\;24^{2} = 144\\;\\sqrt{3}\\;\\text{cm}^{2}.$\n  \n\n   So, the correct answer is $(D).$",
+  "images": [
+   {
+    "src": "https://civil.gateoverflow.in/?qa=blob&qa_blobid=17104410341418262252",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/359891/gate-civil-2021-set-2-ga-question-10",
   "source": "gateoverflow"
  },
  {

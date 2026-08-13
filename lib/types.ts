@@ -81,7 +81,6 @@ export const SUBJECT_COLORS: Record<string, string> = {
   "Operating Systems": "from-emerald-500 to-emerald-600",
   "Databases (DBMS)": "from-amber-500 to-amber-600",
   "Computer Networks": "from-rose-500 to-rose-600",
-  "Unclassified": "from-gray-500 to-gray-600",
 };
 
 export const SUBJECT_ICONS: Record<string, string> = {

@@ -108,6 +108,32 @@
   "source": "gateoverflow"
  },
  {
+  "id": "461032",
+  "year": 2025,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": 1,
+  "text": "​​​​Courage : Bravery :: Yearning : _________.\n  \n\n   Select the most appropriate option to complete the analogy.",
+  "options": [
+   "Longing",
+   "Yelling",
+   "Yawning",
+   "Glaring"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Longing:\n    \n    A strong desire or yearning for something.\n   \n\n    Yelling:\n   \n   Shouting loudly, usually in anger or excitement.\n  \n\n    Yawning:\n   \n   Opening one's mouth wide due to tiredness or boredom.\n  \n\n    Glaring:\n   \n   Staring angrily or intensely at someone.\nAnswer:\n   \n   A\n  \n\n   Here are the meaning of the given words\n  \n\n    yearning\n   \n   : a feeling of intense longing for something\n  \n\n    Option-B:\n   \n   yelling: shout in a loud, sharp way\n   \n    Option-C:\n   \n   yawning is the opening of your airway and mouth to take a long, deep breath of air.\n   \n    Option-D:\n   \n   glaring: giving out or reflecting a strong or dazzling light\n  \n\n   Out of the given options, the word longing acts as a synonym for yearning. So, the correct option is\n   \n    A(longing)\n   \n   .\nA Longing\nOption A\n  \n\n     Courage:Bravery , it shows that the implication of Courage is Bravery\n     implication of Yearning is Longing",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/461032/gate-da-2025-ga-question-1",
+  "source": "gateoverflow"
+ },
+ {
   "id": "460079",
   "year": 2025,
   "set": "1",
@@ -214,6 +240,32 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/460833/gate-cse-2025-set-2-question-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "461031",
+  "year": 2025,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": 1,
+  "text": "We _________ tennis in the lawn when it suddenly started to rain.\n   Select the most appropriate option to complete the above sentence.",
+  "options": [
+   "have been playing",
+   "had been playing",
+   "would have been playing",
+   "could be playing"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "had been playing - past perfect tense\nhad been playing\nB\n  \n\n    had been playing\noption B\n   we\n   \n\n     had been playing\n    \n\n   tennis in the lawn when it suddenly started to rain\n  \n\n   no need to use much brains, just feel the options with the question",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/461031/gate-da-2025-ga-question-2",
   "source": "gateoverflow"
  },
  {
@@ -327,6 +379,37 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/460832/gate-cse-2025-set-2-question-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "461030",
+  "year": 2025,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "easy",
+  "marks": 1,
+  "text": "​​​​A $4 \\times 4$ digital image has pixel intensities $(U)$ as shown in the figure. The number of pixels with $U \\leq 4$ is:\n  \n\n   \\begin{array}{|l|l|l|l|}\n   \\hline 0 & 1 & 0 & 2 \\\\\n   \\hline 4 & 7 & 3 & 3 \\\\\n   \\hline 5 & 5 & 4 & 4 \\\\\n   \\hline 6 & 7 & 3 & 2 \\\\\n   \\hline\n   \\end{array}",
+  "options": [
+   "$3$",
+   "$8$",
+   "$11$",
+   "$9$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "11\n   \n\n      0\n     \n\n      1\n     \n\n      0\n     \n\n      2\n     \n\n      4\n     \n\n      3\n     \n\n      3\n     \n\n      4\n     \n\n      4\n     \n\n      3\n     \n\n      2\n[IMAGE:100]\n\n   All the red circles show the places where pixel intensity is $\\leq 4$, so the correct answer is $11.$\nAns : C)\n  \n\n    Just count all No. Which are <= 4",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1929116725441561154",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/461030/gate-da-2025-ga-question-3",
   "source": "gateoverflow"
  },
  {
@@ -490,6 +573,37 @@
   "source": "gateoverflow"
  },
  {
+  "id": "461029",
+  "year": 2025,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": 1,
+  "text": "​​​​In the given figure, the numbers associated with the rectangle, triangle, and ellipse are $1,2$ , and $3$, respectively. Which one among the given options is the most appropriate combination of $\\mathrm{P}, \\mathrm{Q}$, and $\\mathrm{R}$ ?\n  \n\n[IMAGE:0]",
+  "options": [
+   "$P=6 ; Q=5 ; R=3$",
+   "$P=5 ; Q=6 ; R=3$",
+   "$P=3 ; Q=6 ; R=6$",
+   "$P=5 ; Q=3 ; R=6$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "The answer should be A.\n  Because the number of a region is the sum of numbers associated with the shapes which contain that region.\n  So we get:\n  P = triangle + circle + rectangle = 2 + 3 + 1 = 6\n  R = rectangle + triangle = 1 + 2 = 3\n  Q = circle + triangle = 3 + 2 = 5",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=8646374944300047245",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/461029/gate-da-2025-ga-question-4",
+  "source": "gateoverflow"
+ },
+ {
   "id": "460075",
   "year": 2025,
   "set": "1",
@@ -604,6 +718,32 @@
   "source": "gateoverflow"
  },
  {
+  "id": "461028",
+  "year": 2025,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": 1,
+  "text": "​​​A rectangle has a length $L$ and a width $W,$  where $\\mathrm{L}>\\mathrm{W}$. If the width, $W,$ is increased by $10 \\%$, which one of the following statements is correct for all values of $L$ and $W?$",
+  "options": [
+   "Perimeter increases by $10 \\%$.",
+   "Length of the diagonals increases by $10 \\%$.",
+   "Area increases by $10 \\%$.",
+   "The rectangle becomes a square."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Let $length = l$ units, and $width=w$ units,\n  $Area = length \\times width = l\\times w = lw \\ units^2$.\n  $Perimeter = 2\\times(length + width) = 2l+2w \\ units$.\n  $diagonal = \\sqrt{(l^2 + w^2)} \\ units$.\n  if width is increased by $10\\% $, then new width $(w_{new}) = (1+0.1)w = 1.1w$\n  A) new perimeter $= 2(l + 1.1w) = 2l + 2.2w$,  change in perimeter = $1.2w$, inconclusive evidence to say whether it is $10\\%$ of original perimeter or not.\n  B) new diagonal length $= \\sqrt{(l^2 + (1.1w)^2)} $. inconclusive evidence to conclude this as all.\n  C) new area $= l\\times 1.1w= 1.1lw = (1 + 0.1)$ original area, We can conclude option C is correct.\n  D) we can not say this unless we know the relation between $l$ and $w$.\n  Ans. (C).",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/461028/gate-da-2025-ga-question-5",
+  "source": "gateoverflow"
+ },
+ {
   "id": "460074",
   "year": 2025,
   "set": "1",
@@ -712,6 +852,32 @@
    }
   ],
   "sourceUrl": "https://gateoverflow.in/460829/gate-cse-2025-set-2-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "461027",
+  "year": 2025,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": 2,
+  "text": "Column-I has statements made by Shanthala; and, Column-II has responses given by Kanishk.\n  \n\n   \\(\n   \\begin{array}{|c|l|c|l|}\n   \\hline\n   & \\textbf{Column-I} &  & \\textbf{Column-II} \\\\\n   \\hline\n   \\textbf{P.} &\\text{This house is in a mess.} & \\textbf{1.} & \\text{Alright, I won’t bring it up during} \\\\&&& \\text{our conversations.} \\\\\n   \\hline\n   \\textbf{Q.} &\\text{I am not happy with the marks} \\\\& \\text{given to me.} & \\textbf{2.} &\\text{Well, you can easily look it up.} \\\\\n   \\hline\n   \\textbf{R.} &\\text{Politics is a subject I avoid talking}\\\\& \\text{about.} & \\textbf{3.} &\\text{No problem, let me clear it up for}\\\\&&& \\text{you.} \\\\\n   \\hline\n   \\textbf{S.} &\\text{I don’t know what this word}\\\\& \\text{means.} & \\textbf{4.} &\\text{Don’t worry, I will take it up with}\\\\&&& \\text{your teacher.} \\\\\n   \\hline\n   \\end{array}\n   \\)\n  \n\n   Identify the option that has the correct match between Column-I and Column-II.",
+  "options": [
+   "$\\mathrm{P}-2 ; \\mathrm{Q}-3 ; \\mathrm{R}-1 ; \\mathrm{S}-4$",
+   "$\\mathrm{P}-3 ; \\mathrm{Q}-4 ; \\mathrm{R}-1 ; \\mathrm{S}-2$",
+   "$\\mathrm{P}-4 ; \\mathrm{Q}-1 ; \\mathrm{R}-2 ; \\mathrm{S}-3$",
+   "$\\mathrm{P}-1 ; \\mathrm{Q}-2 ; \\mathrm{R}-4 ; \\mathrm{S}-3$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "ans :--- option B\n  \n\n    for P mess related to cleaning so 3\n    \n\n      for Q marks related to teacher so 4 like this we can conclude option B is the ans",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/461027/gate-da-2025-ga-question-6",
   "source": "gateoverflow"
  },
  {
@@ -833,6 +999,32 @@
   "source": "gateoverflow"
  },
  {
+  "id": "461026",
+  "year": 2025,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": 2,
+  "text": "Weight of a person can be expressed as a function of their age. The function usually varies from person to person. Suppose this function is identical for two brothers, and it monotonically increases till the age of 50 years and then it monotonically decreases. Let $a_{1}$ and $a_{2}$ (in years) denote the ages of the brothers and $a_{1} < a_{2}$.\n  \n\n   Which one of the following statements is correct about their age on the day when they attain the same weight?",
+  "options": [
+   "$a_{1} < a_{2} < 50$",
+   "$a_{1} < 50 < a_{2}$",
+   "$50 < a_{1} < a_{2}$",
+   "Either $a_{1}=50$ or $a_{2}=50$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Given that $a_1 < a_2$, and they have identical age to weight function, i.e it is monotonically increasing till age 50, and monotonically decreasing after age 50.\n  so if $a_1, a_2 \\leq 50$ then  $w_1 < w_2 \\implies w1< w2$.\n  and if $a_1, a_2 \\geq 50$ then  $a_1 < a_2 \\implies w1 > w2$.  (why? it is monotonically decreasing)\n  The only possibility where they can have the same weight is when one of them is on an increasing pattern $(<50)$ and the other on a decreasing pattern $( > 50)$.\n  So Option (B). $a_1<50<a_2$ is correct.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/461026/gate-da-2025-ga-question-7",
+  "source": "gateoverflow"
+ },
+ {
   "id": "460072",
   "year": 2025,
   "set": "1",
@@ -951,6 +1143,41 @@
   "explanation": "RIP (Routing Information Protocol) does not have a direct protocol number in the IPv4 header because it operates over\n   \n    UDP (User Datagram Protocol)\n   \n   . Specifically:\n  \n\n     RIP uses UDP as its transport layer protocol.\n    \n\n     UDP Protocol Number in IPv4 Header:\n    \n\n     17\n    \n\n     RIP Well-Known Port Number:\n    \n\n     520\n    \n\n   So, in an IPv4 datagram carrying a RIP message:\n  \n\n    The\n    \n     Protocol field\n    \n    in the IP header is set to\n    \n     17\n    \n    (UDP).\n   \n\n    The\n    \n     Destination Port\n    \n    in the UDP header is\n    \n     520\n    \n    (indicating RIP).\n   \n\n   This means that RIP is not directly defined in the IPv4 Protocol field but is encapsulated within UDP, which is.\n   Hence answer is (D)\nRIP is a routing protocol but does NOT have a direct protocol number in the IPv4 header.\n  \n\n    Instead, RIP uses UDP as its transport layer protocol (UDP port 520).\n    Since RIP is encapsulated inside UDP, it does NOT appear directly in the Protocol field of an IPv4 header.\n    IPv4 Protocol field value = 1 → ICMP\n    IPv4 Protocol field value = 2 → IGMP\n    IPv4 Protocol field value = 89 → OSPF\n    Hence, option - d",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/460827/gate-cse-2025-set-2-question-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "461025",
+  "year": 2025,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": 2,
+  "text": "​​​​​A regular dodecagon ($12$-sided regular polygon) is inscribed in a circle of radius $r$ cm as shown in the figure. The side of the dodecagon is $d \\mathrm{~cm}$. All the triangles (numbered $1$ to $12$) in the figure are used to form squares of side $r \\mathrm{~cm}$ and each numbered triangle is used only once to form a square.\n  \n\n   The number of squares that can be formed and the number of triangles required to form each square, respectively, are:\n   Note: The figure shown is representative.\n  \n\n[IMAGE:0]",
+  "options": [
+   "$3 ; 4$",
+   "$4 ; 3$",
+   "$3 ; 3$",
+   "$3 ; 2$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "[IMAGE:0]\n   In the same way,  we can club triangles $(1,2,3,10),  (4,5,6,11)$ and $(7,8,9,12)$.\n   Option A) $3$ squares using $4$ triangles each.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=6272770085508902081",
+    "kind": "remote"
+   },
+   {
+    "src": "data:image/png;base64,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",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/461025/gate-da-2025-ga-question-8",
   "source": "gateoverflow"
  },
  {
@@ -1102,6 +1329,32 @@
   "source": "gateoverflow"
  },
  {
+  "id": "461024",
+  "year": 2025,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": 2,
+  "text": "If a real variable $x$ satisfies $3^{x^{2}}=27 \\times 9^{x}$, then the value of $\\frac{2^{x^{2}}}{\\left(2^{x}\\right)^{2}}$ is:",
+  "options": [
+   "$2^{-1}$",
+   "$2^{0}$",
+   "$2^{3}$",
+   "$2^{15}$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "\\begin{equation}\n  3^{x^2} = 27 \\times 9^x\n  \\end{equation}\n  \\begin{equation}\n  3^{x^2} = 3^3 \\times (3^2)^x\n  \\end{equation}\n  \\begin{equation}\n  3^{x^2} = 3^{3 + 2x}\n  \\end{equation}\n  \\begin{equation}\n  x^2 = 3 + 2x\n  \\end{equation}\n  \\begin{equation}\n  x^2 - 2x - 3 = 0\n  \\end{equation}\n  \\begin{equation}\n  (x - 3)(x + 1) = 0\n  \\end{equation}\n  \\begin{equation}\n  x = 3, \\quad x = -1\n  \\end{equation}\n  \\begin{equation}\n  \\frac{2^{x^2}}{(2^x)^2} = 2^{x^2 - 2x}\n  \\end{equation}\n  \\begin{equation}\n  \\frac{2^{x^2}}{2^{2x}} = 2^{x^2 - 2x}\n  \\end{equation}\n  \\( x = -1 \\),\n  \\begin{equation}\n  2^{(-1)^2 - 2(-1)}\n  \\end{equation}\n  \\begin{equation}\n  2^{1 + 2} = 2^3\n  \\end{equation}\n  \\( x = 3 \\),\n  \\begin{equation}\n  2^{(3)^2 - 2(3)}\n  \\end{equation}\n  \\begin{equation}\n  2^{9 - 6} = 2^3\n  \\end{equation}",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/461024/gate-da-2025-ga-question-9",
+  "source": "gateoverflow"
+ },
+ {
   "id": "460070",
   "year": 2025,
   "set": "1",
@@ -1217,6 +1470,37 @@
   "explanation": "Pick any two numbers from a set of distinct numbers, one of them must be smaller than the other. The smaller of the two is guaranteed not to be the largest in the entire list. One comparison is enough find an element that is not the largest.\nIn any list, by comparing L[0] with L[1] we get an element which is the largest and another which is not the largest. So it takes only one comparision.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/460825/gate-cse-2025-set-2-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "461023",
+  "year": 2025,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": 2,
+  "text": "​​​The number of patients per shift $(X)$ consulting Dr. Gita in her past $100$ shifts is shown in the figure. If the amount she earns is ₹ $1000(X-0.2)$, what is the average amount (in ₹) she has earned per shift in the past $100$ shifts?\n   Note: The figure shown is representative.\n  \n\n[IMAGE:0]",
+  "options": [
+   "$6,100$",
+   "$6,300$",
+   "$6,000$",
+   "$6,500$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "E(X) = [ (5 x 20) + (6 x 40) + (7 x 30) + (8 x 10) ] / 100 = 630 / 100 = 6.3\n  \n\n    X = 6.3\n    Amount she earns = 1000(X - 0.2)\n    = 1000(6.3 - 0.2)\n    = 1000(6.1)\n    Answer = 6100\nTotal number of patients in last $100$ shifts is (X) =$\\frac{(20*5)+(40*6)+(30*7)+(10*8)}{100}=\\frac{630}{100}\\implies X=6.3$\n  Now she earn: $1000*(X-0.2)\\implies1000(6.3-0.2)=1000*6.1=6100$\n  Option $(A)$ is correct.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=4530457112745970154",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/461023/gate-da-2025-ga-question-10",
   "source": "gateoverflow"
  },
  {

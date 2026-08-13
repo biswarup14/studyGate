@@ -1,5 +1,88 @@
 [
  {
+  "id": "40242",
+  "year": 2013,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If $3 \\leq X \\leq 5$ and $8 \\leq Y \\leq 11$ then which of the following options is TRUE?",
+  "options": [
+   "$\\left(\\dfrac{3}{5} \\leq \\dfrac{X}{Y} \\leq \\dfrac{8}{5}\\right)$",
+   "$\\left(\\dfrac{3}{11} \\leq \\dfrac{X}{Y} \\leq \\dfrac{5}{8}\\right)$",
+   "$\\left(\\dfrac{3}{11} \\leq \\dfrac{X}{Y} \\leq \\dfrac{8}{5}\\right)$",
+   "$\\left(\\dfrac{3}{5} \\leq \\dfrac{X}{Y} \\leq \\dfrac{8}{11}\\right)$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$\\frac{X}{Y}$ is minimum for the given range when $X$ is minimum possible and $Y$ is maximum possible i.e., $3/11$\n  $\\frac{X}{Y}$ is maximum for the given range when $X$ is maximum possible and $Y$ is minimum possible i.e., $5/8$\n  So, answer is (B)\n$3\\leq X\\leq 5 ----- eqn. 1$\n  \n\n   Now using multiplicative inverse property on Y\n  \n\n   When a and b are both positive or both negative: (Direction of inequality changes)\n  \n\n   If a < b then 1/a > 1/b\n  \n\n   If a > b then 1/a < 1/b\n  \n\n   But when either\n   \n    a or b is negative\n   \n   (not both) the direction stays the same:\n  \n\n   If a < b then 1/a < 1/b\n  \n\n   If a > b then 1/a > 1/b\n  \n\n   $\\therefore Y becomes \\frac{1}{11}\\leq \\frac{1}{Y}\\leq \\frac{1}{8} ------ eqn. 2$\n  \n\n   Now multiplying eqn.1 and eqn. 2 we get\n  \n\n   $\\frac{3}{11}\\leq \\frac{X}{Y}\\leq \\frac{5}{8}$\n  \n\n   Hence option B is correct.\nThis can be solved by taking the particular cases.\n  \n\n    case 1\n   \n   : take X=4 and Y=8 --------------> by solving you can eliminate option a) and option (d)\n  \n\n   Now calculate the ratio of left options then you will be find option (b) is answer .\n  \n\n   You can also take others as example or actually for option (c)   .27 <=  X/Y   <=   1..6  -----------> this is never possible because ratio exceeds 1 but Y values is always greater than X values.\n   \n    So (c ) is wrong\n   \n   ,\n  \n\n    Hence option (B )  is right\nHere we saw X does not change but Y is inverse so it value will always inverse.\n  if   P=(2:3) then its inverse is 1/P=(3:2)\n  so 8≤Y≤11 then 11≤1/Y≤8.\n  now X/Y become  (3/11≤X/Y≤5/8)\n  so option B is right.\n[IMAGE:400]\n\n   B,",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=16239099153245205742",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/40242/gate2013-ae-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40268",
+  "year": 2013,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A number is as much greater than $75$ as it is smaller than $117$. The number is:",
+  "options": [
+   "$91$",
+   "$93$",
+   "$89$",
+   "$96$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "$D$. 96\n  Let the number be $x$. Writing equation,\n  $x - 75 = 117-x$.\n  $2 \\times x = 192$\n  $x=\\frac{192}{2}=96$\n75 <= X <=117\n  MEAN = (75+117) / 2 = 96",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40268/gate2013-ce-ga-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40288",
+  "year": 2013,
+  "set": null,
+  "number": 1,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "They were requested not to $\\textbf{quarrel}$\n   with others.\n  \n\n   Which one of the following options is the closest in meaning to the word $\\textbf{quarrel}$?",
+  "options": [
+   "make out",
+   "call out",
+   "dig out",
+   "fall out"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "$\\text{quarrel}$\n   means having an argument.\n   option (D)\n   \n    fall out\n   \n   means the same.\n  \n\n    make out - make progress\n   \n\n    call out - to shout something\n   \n\n    dig out - to get something out of a place\n   \n\n   Correct option: D.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40288/gate2013-ee-ga-1",
+  "source": "gateoverflow"
+ },
+ {
   "id": "59",
   "year": 2013,
   "set": null,
@@ -23,6 +106,84 @@
   "explanation": "Answer is (A) Commutative but not associative.\n  $y \\oplus x = y^2 + x^2 = x \\oplus y$. Hence, commutative.\n  $ (x \\oplus y) \\oplus z = (x^2 + y^2) \\oplus z = (x^2 + y^2)^2 + z^2$\n  $ x \\oplus (y \\oplus z) = x \\oplus (y^2 + z^2) = x^2 + (y^2 + z^2)^2$\n  So, $( (x \\oplus y) \\oplus z) \\neq (x \\oplus (y \\oplus z))$, hence not associative.\nit is commutativa but not associative",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/59/gate-cse-2013-question-1",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40243",
+  "year": 2013,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The Headmaster ___________ to speak to you. Which of the following options is incorrect to complete the above sentence?",
+  "options": [
+   "is wanting",
+   "wants",
+   "want",
+   "was wanting"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "option C is correct.\n   \n\n    Rule:\n   \n   Subjects and verbs must AGREE with one another in number (singular or plural). Thus, if a subject is singular, its verb must also be singular; if a subject\n   \n    i\n   \n\n    s\n   \n\n    plural\n   \n   , its verb must also be plural.\n  \n\n   Here\n   \n    headmaste\n   \n   r is singular subject so we don't use\n   \n    plural\n   \n\n    verb 'want'\n   \n   with Headmaster.\nAnswer B: The headmaster WANTS to speak to you.\n  \n\n   Best explanation I found...\n  \n\n    I look at this from an old English point of view. I dismiss that time dictates what is proper or not. As in old English, if you were found \"wanting\" it was used in a negative context, meaning you lacked a skill to do something you attempted. You would not say \"I am wanting to learn to ....\" whatever. You would say \"I want to learn to ....\". Yet you could be found wanting if you failed an attempt at something you did not have the skill for. Also for consideration is the premise of saying the most with the least. What takes less to say but conveys the most? \"I want ...\" or \"I am wanting ...\"? The use of “want” reduces confusion without using more than is needed to convey the message. Unfortunately as mentioned about the McDonald's ad, we've taught our children via marketing that incorrect use of English is ok. Most people have lost the skill or were never taught to speak English efficiently.\nAnswer is C\n   \n\n   \"want\" is a plural verb. So it cannot follow a singular noun \"Headmaster\".\noption B",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40243/gate2013-ae-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40269",
+  "year": 2013,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "$\\underset{\\text{I}}{\\underline{\\text{The professor}}}$ $\\underset{\\text{II}}{\\underline{\\text{ordered to}}}$ $\\underset{\\text{III}}{\\underline{\\text{the students to go}}}$ $\\underset{\\text{IV}}{\\underline{\\text{out of the class.}}}$\n  \n\n   Which of the above underlined parts of the sentence is grammatically incorrect?",
+  "options": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "According to the question, in given sentence part  II  is a grammatical error. it should be '\n   \n    ordered'\n   \n   instead of '\n   \n\n     ordered to'\n    \n\n   .\n  \n\n   The professor\n   \n    ordered\n   \n   the students to go out of the class.\n  \n\n   Explanation:\n  \n\n   Use of '\n   \n    ordered'\n   \n\n    http://sentence.yourdictionary.com/ordered\n   \n\n   You should use '\n   \n\n     ordered to'\n    \n\n   when someone is issuing a command. For example,\n   \n    I was ordered to order a pizza\n   \n   . This means that someone instructed you to order a pizza.\n  \n\n   Correct Answer: $B$\nB) II\n  \n\n   The correct phrase is\n   \n    ordered\n   \n   .\n  \n\n   This\n   \n    link\n   \n   explains the correct use of the verb\n   \n    order\n   \n   .\n\"to\" is implied in the word \"ordered\". So, correct sentence will be\n  The professor ordered the students to go out of the class.\n\"The professor ordered to the students to go out of the class.\"\n   \n\n   The verb \"order\" follows a specific pattern when used to give commands.\n  \n\n   The correct structure is: order + someone + to do something\n  \n\n   This pattern is important because it reflects how the verb \"order\" functions in English:\n  \n\n    \"Order\" is a transitive verb, meaning it requires a direct object. In this case, the direct object is the person or group being ordered (the \"someone\" in the pattern).\n   \n\n    The action being ordered is expressed as an infinitive phrase (\"to do something\"). This infinitive phrase acts as the complement of the direct object.\n   \n\n    There's no preposition between \"order\" and the direct object. The person being ordered is directly affected by the verb.\n   \n\n   Examples of this pattern in use:\n  \n\n    The general ordered the soldiers to retreat.\n   \n\n    The teacher ordered the class to be quiet.\n   \n\n    The manager ordered her team to work overtime.\n   \n\n   In each case, we see:\n  \n\n    The person giving the order\n   \n\n    The verb \"order\"\n   \n\n    The person(s) being ordered (direct object)\n   \n\n    The infinitive phrase describing what is ordered\n   \n\n   This pattern helps distinguish \"order\" from some other verbs that might use different structures. For instance, \"command\" can sometimes use the same structure as \"order,\" but it can also be used with \"that\" clauses:\n  \n\n    The king commanded that all citizens pay taxes.\n   \n\n   Correct sentence:\n   \n    The professor ordered the students to go out of the class.\n   \n\n   **from the information given by\n   \n    Claude AI\n   \n   as it is or edited.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40269/gate2013-ce-ga-2",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40289",
+  "year": 2013,
+  "set": null,
+  "number": 2,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In the summer of $2012$, in New Delhi, the mean temperature of Monday to Wednesday was $41°C$ and of Tuesday to Thursday was $43°C$. If the temperature on Thursday was $15\\%$ higher than that of Monday, then the temperature in $°C$ on Thursday was",
+  "options": [
+   "$40$",
+   "$43$",
+   "$46$",
+   "$49$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Let the temperatures on Monday, Tuesday, Wednesday, and Thursday be $x^∘,  y^∘,  z^∘,$ and $w^∘C$ respectively.\n  \n\n   Given that,\n  \n\n    $x+y+z = 3 \\times 41$\n   \n\n    $y+z+w = 3\\times 43$\n   \n\n   Thursday temperature is $15\\%$ higher than Monday temperature. So,\n  \n\n    $w = 1.15x$\n   \n\n   After solving above equations, we get $w=46$\n  \n\n   Therefore, correct answer is (C).\n$\\dfrac{M+T+W}{3}=41$\n  \n\n   $\\dfrac{T+W+Th}{3}=43$\n  \n\n   $M+T+W=123\\ \\ ....(1)$\n  \n\n   $T+W+Th=129\\ \\ ....(2)$\n  \n\n   $Subtract\\ (1)\\ from\\ (2) $\n  \n\n   $Th-M=6\\ \\ ....(3)$\n  \n\n    If the temperature on Thursday was 15% higher than that of Monday.\n   \n\n   $Th=\\dfrac{115}{100}M$\n  \n\n   $Substitute\\ the\\ value\\ of\\ 'Th'\\ in\\ (3)$\n  \n\n   $\\dfrac{115}{100}M-M=6$\n  \n\n   $15M=600$\n  \n\n   $M=40$\n  \n\n   $\\therefore Th=46$\nMON+TUES+WED=41*3=123-----------(1)\n  TUE+WED +THURS=43*3=129--------(2)\n  Substracting (1) from (2) we get THURS - MON= 6\n  Also it is said that Temperature of THURS is 15 % higher than Monday.\n  hence 15%=6\n  hENCE 100%=6/15*100= 40 WHICH IS THE TEMPERATURE of Monday.\n  The temperature of Thursday is 46  and the option  C is correct.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40289/gate2013-ee-ga-2",
   "source": "gateoverflow"
  },
  {
@@ -91,6 +252,58 @@
   "source": "gateoverflow"
  },
  {
+  "id": "40244",
+  "year": 2013,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Mahatama Gandhi was known for his humility as",
+  "options": [
+   "he played an important role in humiliating exit of British from India.",
+   "he worked for humanitarian causes.",
+   "he displayed modesty in his interactions.",
+   "he was a fine human being"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Answer C:  He displayed modesty in his interactions.\n  \n\n    hu·mil·i·ty\n   \n\n    (h)yo͞oˈmilədē/\n   \n\n      noun\n     \n\n      a modest or low view of one's own importance; humbleness.\n      \n       synonyms\n      \n      : modesty, humbleness, meekness, diffidence,unassertiveness;\n      \n       More",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40244/gate2013-ae-ga-3",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40290",
+  "year": 2013,
+  "set": null,
+  "number": 3,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "easy",
+  "marks": null,
+  "text": "Complete the sentence:\n   Dare _______________ mistakes.",
+  "options": [
+   "commit",
+   "to commit",
+   "committed",
+   "committing"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Dare means \"have the courage to\" and \"to\" is implied here.\n  \n\n    Option A commit.\nAnswer : [B]\n  \n\n   Dare\n   \n    to commit\n   \n   mistakes.\nDare with the meaning of “rude enough to do it “ does not take ‘to’.\nI think it is (D) committing as it is an affirmative sentence.\noption A is correct",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40290/gate2013-ee-ga-3",
+  "source": "gateoverflow"
+ },
+ {
   "id": "1413",
   "year": 2013,
   "set": null,
@@ -114,6 +327,58 @@
   "explanation": "Range of $2$'s compliment no $\\Rightarrow (- 2^{n-1} )\\;\\text{to}\\; + (2^{n-1} - 1)$\n  Here $n = $ No of bits $= 8$.\n  So minimum no $= -2^7 = -128$\nLets take the biggest number possible with 8 bits i.e., 1111 1111\n  Now since the question asked for 2's complement then MSB is reserved for sign bit therefore considering sign bit, biggest number possible with 8 bits is:\n  (+/-bit) 111 1111\n  Smallest number possible will be the reverse of this number:\n  (+/-bit) 000 0000\n  Now as per convention 1 is for -ve and 0 is for +ve therefore smallest number will be:\n  1 000 0000\n  Which comes out to be -128.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/1413/gate-cse-2013-question-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40245",
+  "year": 2013,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "All engineering students should learn mechanics, mathematics and how to do computation.\n  \n\n   I                            II                                            III                           IV\n  \n\n   Which of the above underlined parts of the sentence is not appropriate?",
+  "options": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Answer is (\n   \n    D)\n   \n\n   All engineering students should learn mechanics, mathematics and computation.\n  \n\n   or possibly\n  \n\n   All engineering students should learn how to do mechanics, mathematics and computation.\nAll engineering students should learn mechanics, mathematics and how to do computation.\n  \n\n   I                            II                                            III                           IV\n  \n\n   To analyze this sentence, let's look at each underlined part:\n  \n\n   I. \"All engineering students\" - This is correct.\n   II. \"should learn\" - This is correct.\n   III. \"mechanics, mathematics\" - This is correct.\n   IV. \"how to do computation\" - This is the part that is not appropriate.\n  \n\n   The issue is in part IV, \"how to do computation.\" This phrase doesn't match the parallel structure of the list in the sentence.\n  \n\n   To maintain parallel structure, all items in a list should be in the same grammatical form. In this case, \"mechanics\" and \"mathematics\" are nouns, but \"how to do computation\" is a phrase starting with \"how to.\"\n  \n\n   To correct this, we should change \"how to do computation\" to simply \"computation\" to match the other items in the list.\n  \n\n   The corrected sentence would read:\n   \"All engineering students should learn mechanics, mathematics, and computation.\"\n  \n\n   Therefore, the answer is option 4: IV is the part of the sentence that is not appropriate.\n  \n\n   **from the information given by\n   \n    Claude AI\n   \n   as it is or edited.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40245/gate2013-ae-ga-4",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40271",
+  "year": 2013,
+  "set": null,
+  "number": 4,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Friendship, no matter how _________ it is, has its limitations.",
+  "options": [
+   "cordial",
+   "intimate",
+   "secret",
+   "pleasant"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "B. Intimate\n  Statement says about limitations of friendship and our required word follows \"no matter how\" meaning it should be something which increases the friendship bond.\ncordial\n   \n   –  pleasant and friendly\n  \n\n    Intimate\n   \n   – having a very close relationship\n  \n\n   cordial is weaker than intimate.\n  \n\n    ANS – B",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40271/gate2013-ce-ga-4",
   "source": "gateoverflow"
  },
  {
@@ -143,6 +408,84 @@
   "source": "gateoverflow"
  },
  {
+  "id": "40246",
+  "year": 2013,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Select the pair that best expresses a relationship similar to that expressed in the pair:\n  \n\n    water: pipe::",
+  "options": [
+   "cart: road",
+   "electricity: wire",
+   "sea: beach",
+   "music: instrument"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Answer B: Water runs through a pipe like electricity runs through a wire.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40246/gate2013-ae-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40272",
+  "year": 2013,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Select the pair that best expresses a relationship similar to that expressed in the pair:\n  \n\n    Medicine: Health",
+  "options": [
+   "Science: Experiment",
+   "Wealth: Peace",
+   "Education: Knowledge",
+   "Money: Happiness"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "C.\n  Medicine improves health; education improves knowledge\nMedicines are needed for health.\n  a) Science is NOT needed for experiment rather the reverse.\n  b) Wealth is NOT needed for peace.\n  c) Education is needed for knowledge.\n  d) Money is NOT needed for happiness.\noption C",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40272/gate2013-ce-ga-5",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40292",
+  "year": 2013,
+  "set": null,
+  "number": 5,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Statement:\n   \n   You can always give me a ring whenever you need.\n  \n\n   Which one of the following is the best inference from the above statement?",
+  "options": [
+   "Because I have a nice caller tune.",
+   "Because I have a better telephone facility.",
+   "Because a friend in need is a friend indeed.",
+   "Because you need not pay towards the telephone bills when you give me a ring."
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "\"You can always give me a ring whenever you need.\"\n  This means that I'm always available if you need any help.\n  (C) is the most appropriate option.\noption C  is correct I guess",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40292/gate2013-ee-ga-5",
+  "source": "gateoverflow"
+ },
+ {
   "id": "1415",
   "year": 2013,
   "set": null,
@@ -166,6 +509,84 @@
   "explanation": "In selection max you can do is $n$ swaps..selecting the smallest element from all the elements and replacing it correct position so $O(n)$\n  Correct Answer: $B$\nBest, Average and worst case will take maximum O(n) swaps.\n  Selection sort time complexity O(n2) in terms of number of comparisons. Each of these scans requires one swap for n-1 elements (the final element is already in place).\nSure, let's go through an example to demonstrate the number of swaps in selection sort.\n  Consider the array \\( A = [64, 25, 12, 22, 11] \\).\n  Step-by-Step Selection Sort with Swaps:\n  1. Initial array:\\([64, 25, 12, 22, 11]\\)\n  - Find the minimum element (11).\n  - Swap it with the first element (64).\n  - Array after 1st swap:** \\([11, 25, 12, 22, 64]\\)\n  2.Second iteration \\([11, 25, 12, 22, 64]\\)\n  - Find the minimum element from the remaining unsorted portion (12).\n  - Swap it with the second element (25).\n  - Array after 2nd swap: \\([11, 12, 25, 22, 64]\\)\n  3. Third iteration:\\([11, 12, 25, 22, 64]\\)\n  - Find the minimum element from the remaining unsorted portion (22).\n  - Swap it with the third element (25).\n  - Array after 3rd swap:\\([11, 12, 22, 25, 64]\\)\n  4. Fourth iteration:\\([11, 12, 22, 25, 64]\\)\n  - The minimum element from the remaining unsorted portion is already in its place (25).\n  - No swap needed, but if we were to count this as a swap, it would be with itself.\n  After sorting, the array is \\([11, 12, 22, 25, 64]\\). The total number of swaps is 3.\n  General Case:\n  In a general case, for an array of \\( n \\) elements, the selection sort makes exactly \\( n - 1 \\) swaps. This is because each iteration, except the last one, performs one swap to place the minimum element in its correct position.\n  So, for \\( n \\) elements, the mathematical expression for the number of swaps is:\n  \\[ S(n) = n - 1 \\]\n  where \\( S(n) \\) is the number of swaps required to sort the array.",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/1415/gate-cse-2013-question-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40247",
+  "year": 2013,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Velocity of an object fired directly in upward direction is given by ܸ$V\\mathit{}=80-32 t\\mathit{}$, where $t\\mathit{}$ (time) is in seconds. When will the velocity be between $32 \\;m/sec$ and $64 \\;m/sec$?",
+  "options": [
+   "$\\left(1, \\dfrac{3}{2}\\right)$",
+   "$\\left(\\dfrac{1}{2}, 1\\right)$",
+   "$\\left(\\dfrac{1}{2},\\dfrac{3}{2}\\right)$",
+   "$\\left(1, 3\\right)$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Given\n  \n\n   $32< 80 - 32 t\\mathit{} < 64$\n  \n\n   $-48 < - 32 t\\mathit{} < - 16$\n  \n\n   $48  >   32 t\\mathit{} > 16$\n  \n\n   $\\dfrac{3}{2} > t\\mathit{} > \\dfrac{1}{2}$\n  \n\n    so ans is option c)\n   \n   $\\left(\\dfrac{1}{2} ,\\dfrac{3}{2}\\right)$\n$\\text{given relation is  } v=80-32t ~$\n  $\\implies 32t=80-v$\n  $\\implies t=\\frac{80-v}{32}$\n  $\\text{now substituting v=32 we get } t=\\frac32 $\n  $\\text{and substituting v=64 we get } t=\\frac12 $\n  $the~range~is~\\left(\\frac12,\\frac32\\right)$\nSpeed of object gets slower when it moves upwards so first object attain speed 64 then 32\n  now, 80-32t=64\n  t=1/2\n  then 80-32t=32\n  t=3/2\n  Answer is C (1/2,3/2)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40247/gate2013-ae-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40274",
+  "year": 2013,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "$X$ and $Y$ are two positive real numbers such that $2X+Y \\leq 6$ and $X + 2Y \\leq 8.$For which of the following values of\n  \n\n   $(X,Y)$ the function $f(X,Y)=3X + 6Y$ will give maximum value ?",
+  "options": [
+   "$\\left(\\dfrac{4}{3} , \\dfrac{10}{3}\\right)$",
+   "$\\left(\\dfrac{8}{3} , \\dfrac{20}{3}\\right)$",
+   "$\\left(\\dfrac{8}{3} , \\dfrac{10}{3}\\right)$",
+   "$\\left(\\dfrac{4}{3} , \\dfrac{20}{3}\\right)$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "$f(x,y)=3x+6y=3(x+2y)$\n  maximum value of $x+2y$ is given by equation $2$ which is $8$ $(x+2y<=8)$\n  i.e maximum value of $f(x,y)=3*(8)=24$\n  $f(x,y)=24$ can be obtained by putting $x=4/3$ & $y=10/3$\n  So, answer is $(A)$.\nI think ans is A as only A satisfy both conditions(i.e 2x+y<=6 and x+2y<=8).",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40274/gate2013-ce-ga-6",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40293",
+  "year": 2013,
+  "set": null,
+  "number": 6,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "What is the chance that a leap year, selected at random, will contain $53$ Saturdays?",
+  "options": [
+   "$2/7$",
+   "$3/7$",
+   "$1/7$",
+   "$5/7$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Sample space is $S :\\{\\text{Monday-Tuesday, Tuesday-Wednesday, Wednesday-Thursday}\\ldots \\text{Sunday-Monday}\\}$\n  Number of elements in $S = n(S) = 7$\n  What we want is a set $A$ (say) that comprises of the elements $\\text{Saturday-Sunday and Friday-Saturday}$\n  Number of elements in set $A = n(A) = 2$\n  By definition, probability of occurrence of $A =\\dfrac{n(A)}{n(S)} = {2}/{7}$\n  Therefore, probability that a leap year has $53$ Saturdays is $\\dfrac{2}{7}.$\n  Correct Answer: $A$\nI think there is  another way .\n  Since it is leap year .. number of days  = 366\n  we have 52 weeks in a year .. 52 x 7 = 364\n  therefore we have already had 52 Saturdays  in these 364 days .. now probability For 53 Saturdays ,\n  =number of remaining days / number of days in a week = 2/7\n  the same can be applied to any day of the week .",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40293/gate2013-ee-ga-6",
   "source": "gateoverflow"
  },
  {
@@ -200,6 +621,84 @@
   "source": "gateoverflow"
  },
  {
+  "id": "40248",
+  "year": 2013,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Following table gives data on tourist from different countries visiting India in the year $2011$\n  \n\n   $$\\begin{array}{|l|c|} \\hline \\textbf{Country} & \\textbf{Number of tourists}\\\\\\hline \\text{USA} & \\text{2000}\\\\\\hline \\text{England} & \\text{3500}\\\\\\hline \\text{Germany} & \\text{1200}\\\\\\hline \\text{Italy} & \\text{1100} \\\\\\hline \\text{Japan} & \\text{2400}\\\\\\hline \\text{Australia} & \\text{2300}\\\\\\hline \\text{France} & \\text{1000}\\\\\\hline \\end{array}$$\n  \n\n   Which two countries contributed to the one third of the total number of tourists who visited India in $2011$?",
+  "options": [
+   "USA and Japan",
+   "USA and Australia",
+   "England and France",
+   "Japan and Australia"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Total number of tourists who visited India in $2011= 13500$\n  \n\n   One third of total tourists $=13500 \\div 3= 4500$\n  \n\n   OPTION A: USA and Japan $=4400$\n  \n\n   OPTION B: USA and Australia $=4300$\n  \n\n   OPTION D: Japan and Australia $=4700$\n  \n\n   OPTION C: England and France $ =4500$ which is one third of total tourists.\n   \n    Hence C is the\n   \n\n    answer.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40248/gate2013-ae-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40275",
+  "year": 2013,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If  $\\mid 4X-7 \\mid =5$ then the values of $2\\mid X\\mid -\\mid -X\\mid$ is:",
+  "options": [
+   "$\\quad 2,\\left(\\dfrac{1}{3}\\right)$",
+   "$\\left(\\dfrac{1}{2}\\right),3$",
+   "$\\left(\\dfrac{3}{2}\\right),9$",
+   "$\\left(\\dfrac{2}{3}\\right),9$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$\\mid 4X-7\\mid = 5$  ,since it is in absolute form the regular form of this equation is given as\n  $(4X-7)= 5$\n  $(4X-7)=-5$\n  By solving the above equations we get the following answer\n  $X=\\frac{1}{2}, X = 3$\n  Now $2\\mid X\\mid -\\mid -X\\mid = 2\\mid X \\mid  - \\mid X| = \\mid X \\mid$.\n  So, our answer will be $B.$\n4x-7=5  gives x=3\n  -4x=-2 gives x=1/2\n  then on substitution,we'll get 3,1/2",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40275/gate2013-ce-ga-7",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40294",
+  "year": 2013,
+  "set": null,
+  "number": 7,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Verbal Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Statement:\n   \n   There were different streams of freedom movements in colonial India carried out by the moderates, liberals, radicals, socialists, and so on.\n  \n\n   Which one of the following is the best inference from the above statement?",
+  "options": [
+   "The emergence of nationalism in colonial India led to our Independence.",
+   "Nationalism in India emerged in the context of colonialism.",
+   "Nationalism in India is homogeneous.",
+   "Nationalism in India is heterogeneous"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Option D.  Hetero means different.\n  It is clearly mentioned that  the movement comprised of moderates, liberals, radicals, socialists and so on.\n(C) Nationalism in India is homogeneous.\nIndia was called as British colony\n  So, freedom movement of colonial India made it free from British\n  So correct option is (A)",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40294/gate2013-ee-ga-7",
+  "source": "gateoverflow"
+ },
+ {
   "id": "1417",
   "year": 2013,
   "set": null,
@@ -231,6 +730,84 @@
   "source": "gateoverflow"
  },
  {
+  "id": "40249",
+  "year": 2013,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "If $\\mid -2X+9\\mid =3$ then the possible value of $\\mid -X\\mid -X^2$ would be:",
+  "options": [
+   "$30$",
+   "$-30$",
+   "$-42$",
+   "$42$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "$\\text{Given }\\left | -2X +9 \\right | = 3,$\n  $\\Rightarrow -2X +9 = 3 \\text{ or } -\\left (-2X +9 \\right ) = 3,$\n  $\\Rightarrow X = 3 \\text{ or } X = 6,$\n  $\\Rightarrow \\left | -X \\right |-X^{2} = \\left | -3 \\right |-3^{2} = -6 \\text{ or } \\left | -X \\right |-X^{2} = \\left | -6 \\right |-6^{2} = -30,$\n  $\\text{ Thus B is the correct option. }$\nAnswer : -30\n   \n\n   Given :   |-2X + 9|=3\n  \n\n   there will be\n   \n    2 cases\n   \n   :\n  \n\n    1.\n   \n   if (-2X+9) >= 0 ,\n   \n    2.\n   \n   if (-2X + 9) < 0\n  \n\n   -2X+9 = 3                               -(-2X+9) = 3\n  \n\n   -2X = -6                                      2X-9=3\n  \n\n   X = 3                                        X=12/2 = 6\n  \n\n   Now, put these values in |-$X$| - $X^{2}$\n  \n\n    1.\n   \n   |-$3$|-$3^{2}$\n   \n    2.\n   \n   |-$6$|-$6^{2}$\n  \n\n   -(-3)-9                                              -(-6)-36\n  \n\n   3-9                                                  6-36\n  \n\n   -6                                                     -30\n  \n\n   so, -30 matches here.\nGiven  is |−2X+9|=3\n  \n\n   removing mod operator with both sign\n   \n    case 1\n   \n   : if |−2X+9|>=0 mod will open with positive sign  i.e. (-2x+9)>=0\n  \n\n   hence x<4.5\n  \n\n   ⇒ (−2X+9)=3\n  \n\n   ⇒  x=3   (accepted)\n  \n\n   |-X|-X^2 = |3|-9= -6\n  \n\n    case 2\n   \n   : if |−2X+9|<0 mod will open with negative sign  i.e. (-2x+9)<0\n  \n\n   hence x>4.5\n  \n\n   ⇒     (−2X+9)=-3\n  \n\n   ⇒     x=6 (accepted)\n  \n\n   now put value x=6 in\n  \n\n   |-X|-X^2 = |-6|-36= -30\n  \n\n   option that matches is B\n  \n\n    Thus B is the correct option\n   \n   .",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40249/gate2013-ae-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40276",
+  "year": 2013,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Following table provides figures(in rupees) on annual expenditure of a firm for two years -$2010$ and $2011$.\n  \n\n   $$\\begin{array}{|l|r|r|} \\hline \\textbf{Category} & \\textbf{2010} &\\textbf{2011 }\\\\\\hline \\text{Raw material} & \\text{5200} &\\text{6240}\\\\\\hline \\text{Power & fuel} & \\text{7000} &\\text{9450}\\\\\\hline \\text{Salary & wages} & \\text{9000} &\\text{12600}\\\\\\hline \\text{Plant & machinery} & \\text{20000} &\\text{25000}\\\\\\hline \\text{Advertising} & \\text{15000} &\\text{19500}\\\\\\hline \\text{Research & Development} & \\text{22000} &\\text{26400}\\\\\\hline \\end{array}$$\n  \n\n   In $2011$, which of the two categories have registered increase by same percentage?",
+  "options": [
+   "Raw material and Salary & wages.",
+   "Salary & wages and Advertising.",
+   "Power & fuel and Advertising.",
+   "Raw material and research & Development."
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Answer is D.\n   \n\n   $\\%$ increase in  Raw material =$\\dfrac{ 6240-5200}{5200}=20 \\%$\n  \n\n   $\\%$ increase in  Power & fuel =$\\dfrac{9450-7000}{7000}=35 \\%$\n  \n\n   $\\%$ increase in Salary & wages =$\\dfrac{9000-12600}{9000}=40 \\%$\n  \n\n   $\\%$ increase in Plant & machinery =$\\dfrac{20000-25000}{20000}=25 \\%$\n  \n\n   $\\%$ increase in Advertising =$\\dfrac{19500-15000}{15000}=30 \\%$\n  \n\n   $\\%$ increase in Research & Developement =$\\dfrac{26400-22000}{22000}=20 \\%$",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40276/gate2013-ce-ga-8",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40295",
+  "year": 2013,
+  "set": null,
+  "number": 8,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "The set of values of $p$ for which the roots of the equation $3x^2+2x+p(p–1) = 0$ are of opposite sign is",
+  "options": [
+   "$(–∞, 0)$",
+   "$(0, 1)$",
+   "$(1, ∞)$",
+   "$(0, ∞)$"
+  ],
+  "correctAnswer": [
+   "B"
+  ],
+  "explanation": "Roots of equation are of opposite sign then for the equation, $ax^2+bx+c =0$,\n  \n\n   product of roots, $\\dfrac{c}{a}$, should be (negative number) less than $0$\n  \n\n   $\\dfrac{p(p-1)}{3}< 0$\n  \n\n   $p(p-1)<0$\n  \n\n   so $p$ must be less than $1$ and greater than $0$\n  \n\n    Option B\nLet the roots are C and -D.\n  \n\n   So we get C-D=2/3\n   and C*D=P(P-1)/3 should be <0 as the product of Cand D is negative as they are opposite signs.\n   P(P-1)/3<0\n   p(P-1)<0 WHICH INDICATE S THE VALUE SHOULD LIE  between 0 and 1 and the option B is correct.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40295/gate2013-ee-ga-8",
+  "source": "gateoverflow"
+ },
+ {
   "id": "1418",
   "year": 2013,
   "set": null,
@@ -257,6 +834,93 @@
   "source": "gateoverflow"
  },
  {
+  "id": "40250",
+  "year": 2013,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "All professors are researchers\n   \n\n    Some scientists are professors\n   \n\n   Which of the given conclusions is logically valid and is inferred from the above arguments?",
+  "options": [
+   "All scientists are researchers",
+   "All professors are scientists",
+   "Some researchers are scientists",
+   "No conclusion follows"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "Answer is (C)Some researchers are scientists.For these type of questions we can always follow the Venn diagram approach.\n  \n\n   All professors are Researchers.So,we draw a circle inside researchers and name it professors.Some scientists are professors.So,we draw something like below:-\n  \n\n[IMAGE:0]\n\n   Clearly we can see some researchers are scientists which is option(C)\n  \n\n   Below are some useful Venn diagrams for questions of this type:-\n  \n\n[IMAGE:1]\nAnswer C:  If some scientists are professors and all professors are researchers, then that means that some scientists are researchers.",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=5334165528660132813",
+    "kind": "remote"
+   },
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=2313231842722099641",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/40250/gate2013-ae-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40278",
+  "year": 2013,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A firm is selling its product at Rs. $60$ per unit. The total cost of production is Rs. $100$ and firm is earning total profit of Rs. $500$. Later, the total cost increased by $30\\%.$ By what percentage the price should be increased to maintained the same profit level.",
+  "options": [
+   "$5$",
+   "$10$",
+   "$15$",
+   "$30$"
+  ],
+  "correctAnswer": [
+   "A"
+  ],
+  "explanation": "Let $N$ units be made.\n  Selling price per item $=Rs. 60$\n  Let $X$ be the cost per unit\n  We are given\n  $500 (\\text{as profit}) =\\underbrace{60-X +60-X+60-X +60-X + \\dots 60-X}_{N\\; times}$\n  $N(60-X)=500\\implies 60N-NX=500$\n  Total cost is $Rs. 100 \\implies  (60N-100)=500\\implies N=10$\n  Now the cost has increased by $30\\%$\n  New cost is $Rs.130$ and the extra $30$ has to be equally divided among $10$ units to maintain same profit level.\n  So, selling price should increase by $3$ from $60$ $\\implies$ $\\frac{3}{60} \\times{100} = 5\\%$ increase.\n  Correct Answer: $A$\nSelling price per unit = Rs. 60\n  \n\n   Total Cost Price of production = Rs. 100\n  \n\n   Total profit  = Rs. 500\n  \n\n   Total Selling Price  = Total CP + Total profit = Rs. ( 500 + 100 )  = Rs. 600\n  \n\n   Now, Number of units sold = Total SP / (SP of one unit )  = 600 / 60  = 10 units\n  \n\n   Now total cost increased by 30%\n  \n\n   So, the new Total CP becomes    100 + 30% of 100  = Rs. 130\n  \n\n   Now, I considered  profit level as two possible meanings -  same profit %  or same total profit amount\n  \n\n   Case (i) - Same profit percentage -\n  \n\n   Old profit percent  =    $\\frac{500}{ 100}$  * 100   = 500 %\n  \n\n   ​                New  Total CP  = Rs. 130\n  \n\n   profit   = 500 % of 130  =Rs.  650\n  \n\n   Total price (SP) = Rs. (130 + 650) = Rs. 780\n  \n\n   percentage increase in price =   $\\frac{New SP - Old SP}{ Old SP} * 100$\n  \n\n   =     $\\frac{780 - 600}{ 600} * 100$\n  \n\n   =     30 %\n  \n\n   Case(ii)  - If I consider same profit amount -\n  \n\n   Total CP(new) = Rs. 130\n  \n\n   Total profit  = Rs. 500\n  \n\n   New Total SP = Rs.  630\n  \n\n   %age  increase in price(SP) = $\\frac{New SP - Old SP}{ Old SP} * 100$\n  \n\n   =   $\\frac{630 - 600}{ 600 } * 100$\n  \n\n   =  5 %\nNo. of items sold initially=600/60\n   \n    =10\n   \n\n   with 30% increase in total cost, selling price for each product=630/10=63\n  \n\n   increase in selling price=63-60=3\n  \n\n   i.e 5% of initial selling price\n$SP-CP=Profit$\n  \n\n   $SP-100=500$\n  \n\n   $SP=600$\n  \n\n   $Cost\\ of\\ Product=60/unit$\n  \n\n   $\\#\\ of\\ Products=10$\n  \n\n   $Cost\\ of\\ Production\\ increased\\ by\\ 30\\%$\n  \n\n   $CP_{new}=100+\\dfrac{30}{100}\\times100=130$\n  \n\n   $But\\ Profit\\ remains\\ same$\n  \n\n   $\\therefore SP_{new}-CP_{new}=500$\n  \n\n   $\\#\\ of\\ Products\\times cost\\ of\\ Product-130=500$\n  \n\n   $10\\times x-130=500$\n  \n\n   $x=63$\n  \n\n   $\\%\\ increase=\\dfrac{63-60}{60}\\times 100=5$\n  \n\n     $Ans\\ is\\ 5$\n$500=\\#\\ of\\ items\\times 60\\ (S.P\\ of\\ item)-100\\ (C.P)$\n  $\\#\\ of\\ items=10$\n  $500=10 \\times S.P\\ of\\ item-130\\ (30\\% \\uparrow)$\n  $S.P\\ of\\ item=63$\n  $\\%\\ increase=\\dfrac{63-60}{60}\\times 100=5\\%$\nprice should increase by 5%",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40278/gate2013-ce-ga-9",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40296",
+  "year": 2013,
+  "set": null,
+  "number": 9,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "A car travels $8$ $km$ in the first quarter of an hour, $6$ $km$ in the second quarter and $16$ $km$ in the third quarter. The average speed of the car in km per hour over the entire journey is",
+  "options": [
+   "$30$",
+   "$36$",
+   "$40$",
+   "$24$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$8$ km in the first quarter of an hour, $6$ km in the second quarter and $16$ km in the third quarter.\n  Total distance $= 30$ km and total time $= 3/4$. $(1/4+1/4+1/4 = 3/4)$\n  $\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}$\n  $\\quad \\quad \\quad = \\frac{30}{3/4}=30\\times (4/3)=40\\; km/hr$\n  Correct Answer: $C$\n(8+6+16+0)/4 =30/4 KM =7.25 km per quarter is the average.\n  so average speed per hour is 7.25*4 quater=30 kmps which is the option A",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40296/gate2013-ee-ga-9",
+  "source": "gateoverflow"
+ },
+ {
   "id": "1419",
   "year": 2013,
   "set": null,
@@ -280,6 +944,89 @@
   "explanation": "(B)\n   \n   Because here the quanta for round robin is $T$ units, after a process is scheduled it gets executed for $T$ time units and waiting time becomes least and it again gets chance when every other process has completed $T$ time units.\nConsider three processes $P_1,P_2,P_3$ all arriving at time 0, having same priority 0 initially and they arrive in order $P_1,P_2,P_3$\n  \n\n   Now my ready queue looks like\n  \n\n      $P_1$\n     \n\n      $P_2$\n     \n\n      $P_3$\n     \n\n   After $T$ time units,\n  \n\n   Waiting times of P1,P2,P3 are 0,T,T respectively. Clearly, since priority is assigned proportional to the waiting time, P2 and P3 would be given priority over P1 and P1 is sure to get preempted.\n  \n\n   Ready queue says P2 will be executed next. Cool!\n  \n\n   So, P1 put at the tail of the ready queue and the ready queue is now\n  \n\n      $P_2$\n     \n\n      $P_3$\n     \n\n      $P_1$\n     \n\n   After another $T$ units of time\n  \n\n   Waiting times of P1,P2,P3=T,T,2T\n  \n\n   Clearly, P2 will be preempted now and P3 would get a chance\n  \n\n   Ready queue becomes\n  \n\n      $P_3$\n     \n\n      $P_1$\n     \n\n      $P_2$\n     \n\n   After another T units of time\n  \n\n   Waiting times of P1,P2,P3=2T,2T,2T. All have same priorities, so P3 can be allowed to execute next.\n  \n\n   After another T units of time\n  \n\n   Waiting times of P1,P2,P3=3T,3T,2T. Now surely P3 would be preempted and now ready queue becomes\n  \n\n      $P_1$\n     \n\n      $P_2$\n     \n\n      $P_3$\n     \n\n   P1 executed next for T units of time.\n  \n\n   Waiting times of P1,P2,P3=3T,4T,3T\n  \n\n   P2 would get chance now and the ready queue will be\n  \n\n      $P_2$\n     \n\n      $P_3$\n     \n\n      $P_1$\n     \n\n   Clearly this scheme is not one of SRTF or SJF or FCFS because otherwise after T time units, in case of SRTF atleast one job would have been computed in it's entirety at some point of time and same with the SJF, and with FCFS, arrival time would have mattered and not priority based on waiting time!!\n  \n\n   So basically this algorithm is ensuring that the waiting time of each job is bounded by some constant in terms of time quanta T units and ensure every job gets a  chance.That is the job of RR scheduling.!!\n  \n\n    Answer-(B)\nAnswer is option B.Why?\n  \n\n   Given algorithm is : After every 'T' time units, processes are given priority w.r.t. waiting time.\n  \n\n   lets analyse each option :\n  \n\n   (a) not possible. as in FCFS there is no time quantum.\n  \n\n   (C) not possible.. SJF is different. It is not preemptive.\n  \n\n   (D) In SRTF although a process with shortest burst time is picked. But here\n   \n    priority is assigned based on Burst Time of a process.\n   \n\n   The requirement of scheduling algorithm is priority should be assigned based on\n   \n    WaitingTime\n   \n   of a process.   Hence this is not the answer.\n  \n\n   So the remaining option (B) RR is the answer.\n\" The scheduler re-evaluates the process priorities every T time units and decides the next process to schedule. \"\n   \n\n   ~ This means there must be a time quantum T exists , without time quantum scheduler can not re evaluates the process priorities .\n   So now option A , FCFS gone wrong, as in FCFS there is no time quantum.\n   And option C , SJF also gone wrong as it is also not pre emptive scheduling algorithm.\n   so we left with option B and option D .\n  \n\n   -------------\n   Now option D is wrong because it says \"\n   \n    assigns priority proportional to the waiting time of a process\n   \n   . \" .\n  \n\n    \" A scheduling algorithm assigns priority proportional to the waiting time of a process. \"\n   \n\n   ~ This makes Option C and D wrong , because in  SJF ( shortest JOB First ) and SRTF( it is just the preemptive version of SJF, those who have less BURST time after first process executed, executed before large burst time process   )  , priority is assigned based on Burst Time of a process.\n   FCFS and Round Robin scheduling , priority is assigned based on waiting time of process. ( when arrival time is not same )\n   so we are left with only option B , which is RR scheduling .\n   That's why only option B is correct.\nIt is same content as Bikram Sir written in comment above (It should be chosen as best answer)\n   \n   .\n  \n\n   \" The scheduler re-evaluates the process priorities every T time units and decides the next process to schedule. \"\n   ~ This means there must be a time quantum T exists , without time quantum scheduler can not re evaluates the process priorities .\n   So now option A , FCFS gone wrong, as in FCFS there is no time quantum.\n   And option C , SJF gone wrong as it is also not pre emptive scheduling algorithm.\n   so we left with option B and option D .\n   Now option D is wrong because it says \"  assigns priority proportional to the waiting time of a process. \" .\n   \" A scheduling algorithm assigns priority proportional to the waiting time of a process. \"\n   ~ This makes Option C and D wrong , because in  SJF ( shortest JOB First ) and SRTF( it is just the preemptive version of SJF, those who have less BURST time after first process executed, executed before large burst time process   )  , priority is assigned based on Burst Time of a process.\n   FCFS and Round Robin scheduling , priority is assigned based on waiting time of process. ( when arrival time is not same )\n   so we are left with only option B , which is RR scheduling .\n   That's why only option B is correct.\nA scheduling algorithm assigns priority proportional to the waiting time of a process.\n   \n\n   This makes C,D false.Since SJF,SRTF are associated with Burst Times.\n  \n\n    The scheduler re-evaluates the process priorities every T time units and decides the next process to schedule.\n   \n\n   This statement tells that process of re evaluation takes place after every T sec, i.e.., after time quantum T .Only Round Robin is associated with Time Quanta.\n  \n\n   Hence Option B",
   "images": [],
   "sourceUrl": "https://gateoverflow.in/1419/gate-cse-2013-question-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40251",
+  "year": 2013,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "In a factory, two machines $M1$ and $M2$ manufacture $60\\%$ and $40\\%$ of the autocomponents respectively. Out of the total production, $2\\%$ of $M1$ and $3\\%$ of $M2$ are found to be defective. If a randomly drawn autocomponent from the combined lot is found defective, what is the probability that it was manufactured by $M2$?",
+  "options": [
+   "$0.35$",
+   "$0.45$",
+   "$0.5$",
+   "$0.4$"
+  ],
+  "correctAnswer": [
+   "C"
+  ],
+  "explanation": "$(C)$ $0.5$\n  \n\n   Let $P(M_i)$ denote the probability that the component is manufactured by machine $M_i$, and $P(def)$ denote the probability that the component is\n   \n    defective\n   \n   .\n  \n\n   We have to find $P(M_2|def)$.\n  \n\n   $P(M_2\\mid def) = P(M_2 \\cap def) / P(def) = \\dfrac{0.4\\times0.03}{(0.4\\times 0.03) + (0.6\\times0.02)} = 0.5$\n  \n\n   Drawing probability tree diagram for such questions makes them easier to solve. Please refer\n   \n    link1\n   \n   and\n   \n    link2\n   \n   for more details.\nLet there be 100 auto components. 60 of them are manufactured by M1 and 40 by M2. Total defective components will be 2.4 in total, 1.2 from each of M1 and M2 respectively. Then . .\n  \n\n[IMAGE:100]\n\n   The Red Crossed Out Arrow are none of our concern. Our concern is on defective components (2.4). Out of all defective components, probability that it was manufactured by M2 is = (1.2/2.4) = 0.5\nBased on Bayes theorem ->\n  \n\n   prob for manufacturing\n  \n\n   M1     M2\n  \n\n    .6        .4\n   \n\n    prob for defective autocomponents\n   \n\n    M1      M2\n   \n\n    .02       .03\n   \n\n    prob that a randomly chosen autocomponet is found defective is:\n   \n\n    .6*.02+.03*.4\n   \n\n    prob that it was produced by M2=> .03*.4/.6*.02+.03*.4   =>.5\n   \n\n    so C is the answer",
+  "images": [
+   {
+    "src": "https://gateoverflow.in/?qa=blob&qa_blobid=1709495190478831354",
+    "kind": "remote"
+   }
+  ],
+  "sourceUrl": "https://gateoverflow.in/40251/gate2013-ae-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40280",
+  "year": 2013,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Logical & Analytical Reasoning",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Abhishek is elder to Savar. Savar is younger to Anshul. Which of the given conclusions is logically valid and is inferred from the above statements?",
+  "options": [
+   "Abhishek is elder to Anshul",
+   "Anshul is elder to Abhishek",
+   "Abhishek and Anshul are of the same age",
+   "No conclusion follows"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "$D)$ No conclusion follows as we can not derive any relationship between Abhishek and Anshul with the given data.\nabhishek > sawar  for example  ( 10     >   5 )\n  anshul >sawar      for example    (8  >   5)\n  no relation b/w 10 and 8\n  #option_d\nAbishek is eldered to ansul\nd .. no conclusion follows\noption D as more information need to be provided to knoe about ansul and abhisek\nIn this, we can interpret it as Savar is younger to Abhishek and Anshul\n  as we don't have any information about the relation in between Abhishek and Anshul so Answer is D.",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40280/gate2013-ce-ga-10",
+  "source": "gateoverflow"
+ },
+ {
+  "id": "40297",
+  "year": 2013,
+  "set": null,
+  "number": 10,
+  "section": "GA",
+  "type": "mcq",
+  "subject": "General Aptitude",
+  "subtopic": "Quantitative Aptitude",
+  "difficulty": "medium",
+  "marks": null,
+  "text": "Find the sum to $'n'$ terms of the series $10+84+734+\\dots$",
+  "options": [
+   "$\\frac{9(9^n+1)}{10} +1$",
+   "$\\frac{9(9^n-1)}{8} +1$",
+   "$\\frac{9(9^n-1)}{8} +n$",
+   "$\\frac{9(9^n-1)}{8} +n^2$"
+  ],
+  "correctAnswer": [
+   "D"
+  ],
+  "explanation": "Ans).\n   \n   This is a arithmetico -geometric series . and the break down of each number in the sequence is as follows\n   $9{^1}+1, 9{^2}+3,9{^3}+5,......$\n   Now if we use substitution method we can find the right summation formula for the above sequence.\n   Take for example the first two terms of the sequence and add them we will get the sum as $10+84=94$\n   Now consider the option $D$ ,here we have $n=2,$ So ,we are trying to find the sum for first two numbers of the sequence.\n   $\\dfrac{9(9^2-1)}{8}+2^2=94$. Same procedure can used to find the sum of first three numbers in the sequence\n   The answer is option $D$\n10 + 84 + 734 +...= (9\n   \n    1\n   \n   + 1) + (9\n   \n    2\n   \n   + 3) + (9\n   \n    3\n   \n   + 5) +...\n  \n\n   Such a series is called AGP (Arithmetic Geometric Progression) . For solving such progressions we need to find\n  \n\n   $\\sum (GP+AP)$\n  \n\n   =a(r\n   \n    n\n   \n   -1)/(r-1) + n(2*a+(n-1)*d)/2\n  \n\n   =9(9\n   \n    n\n   \n   -1)/8 + n(2+2n-2)/2\n  \n\n   =\n   \n    9(9\n   \n\n    n\n   \n\n    -1\n   \n\n    )/8 + n\n    \n     2\n    \n\n     So, answer is (D)\noption D\n   we need to find sum of series up to 'n' terms..\n   for n=1 sum =10\n   for n=2 sum =10+84=94\n   for n=3 sum =10+84+734= 828\n   now put value of n in each formula find compare. like for n=2\n   option A:-  9(9\n   \n    2\n   \n   +1)/10 +1 = 74.8 (rejected)\n  \n\n   option B:-  9(9\n   \n    2\n   \n   -1)/8 +1 = 90+1=91  (rejected)\n  \n\n   option C :- 9(9\n   \n    2\n   \n   -1)/8 +n = 90+2=92 (rejected)\n  \n\n   option D :- 9(9\n   \n    2\n   \n   - 1)/8 +n\n   \n    2\n   \n   = 90+4= 94 (Accepted Answer)\nThe given expression is 10+84+734+----\n  \n\n    = (9+1)+(9^2+3)+(9^3+5)+........\n    \n\n      =(9+9^2+9^3+-------nterms) + (1+3+5+------- netrms)\n      \n\n        =9(9^n-1)/(9-1) + n{ 2+(n-1)2}/2\n        \n\n          =9(9^n-1)/8+n^2\n          \n\n            which is the option D.\noption D is correct by verification",
+  "images": [],
+  "sourceUrl": "https://gateoverflow.in/40297/gate2013-ee-ga-10",
   "source": "gateoverflow"
  },
  {
