@@ -6,6 +6,8 @@ import { MathBlock } from "./MathBlock";
 import { Timer } from "./Timer";
 import { ProgressRing } from "./ProgressRing";
 import { TypeBadge } from "./TypeBadge";
+import { QuestionImages } from "./QuestionImages";
+import { placeholderCount } from "@/lib/images";
 
 interface QuizState {
   currentIndex: number;
@@ -27,6 +29,17 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
   const current = questions[state.currentIndex];
   const selected = state.answers[state.currentIndex] || [];
   const progress = ((state.currentIndex + 1) / questions.length) * 100;
+
+  const textImageCount = placeholderCount(current.text);
+  const optionImageOffsets: number[] = [];
+  let running = textImageCount;
+  current.options.forEach((opt) => {
+    optionImageOffsets.push(running);
+    running += placeholderCount(opt);
+  });
+  const totalPlaceholders =
+    running + placeholderCount(current.explanation || "");
+  const leftoverImages = current.images.slice(totalPlaceholders);
 
   const toggleOption = useCallback(
     (letter: string) => {
@@ -114,7 +127,8 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
         </div>
 
         <div className="text-base mb-6">
-          <MathBlock text={current.text} />
+          <MathBlock text={current.text} images={current.images} />
+          {leftoverImages.length > 0 && <QuestionImages images={leftoverImages} />}
         </div>
 
         {current.options.length > 0 && (
@@ -136,7 +150,7 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
                     isSelected ? "bg-primary text-white" : "bg-muted text-muted-foreground"
                   }`}>{letter}</span>
                   <span className="flex-1 leading-relaxed">
-                    <MathBlock text={opt} />
+                    <MathBlock text={opt} images={current.images} imageOffset={optionImageOffsets[i]} />
                   </span>
                 </button>
               );
@@ -305,7 +319,7 @@ function QuizResults({
                   Q{i + 1} · {q.year} · {q.subject}
                 </span>
               </div>
-              <MathBlock text={q.text} className="text-sm mb-2" />
+              <MathBlock text={q.text} className="text-sm mb-2" images={q.images} />
               {!isCorrect && q.correctAnswer && (
                 <p className="text-xs text-error">
                   Correct: {q.correctAnswer.join(", ")} · Your answer: {ans.join(", ") || "—"}

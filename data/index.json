@@ -32,11 +32,11 @@
  "subjects": [
   {
    "name": "General Aptitude",
-   "count": 1102
+   "count": 1101
   },
   {
    "name": "Discrete Mathematics",
-   "count": 235
+   "count": 234
   },
   {
    "name": "Theory of Computation",
@@ -48,7 +48,7 @@
   },
   {
    "name": "Algorithms",
-   "count": 198
+   "count": 199
   },
   {
    "name": "Digital Logic",
@@ -56,15 +56,15 @@
   },
   {
    "name": "Computer Organization",
-   "count": 179
-  },
-  {
-   "name": "Engineering Mathematics",
-   "count": 174
+   "count": 181
   },
   {
    "name": "Databases (DBMS)",
-   "count": 172
+   "count": 174
+  },
+  {
+   "name": "Engineering Mathematics",
+   "count": 173
   },
   {
    "name": "Data Structures",
@@ -72,7 +72,7 @@
   },
   {
    "name": "Computer Networks",
-   "count": 166
+   "count": 164
   },
   {
    "name": "Programming in C",
@@ -87,7 +87,7 @@
   "General Aptitude": [
    {
     "name": "Quantitative Aptitude",
-    "count": 497
+    "count": 501
    },
    {
     "name": "Verbal Aptitude",
@@ -95,11 +95,11 @@
    },
    {
     "name": "Logical & Analytical Reasoning",
-    "count": 173
+    "count": 172
    },
    {
     "name": "Spatial Aptitude",
-    "count": 54
+    "count": 52
    }
   ],
   "Theory of Computation": [
@@ -135,7 +135,7 @@
    },
    {
     "name": "Combinatorics",
-    "count": 38
+    "count": 37
    },
    {
     "name": "Group Theory & Algebra",
@@ -179,7 +179,7 @@
    },
    {
     "name": "Complexity Analysis",
-    "count": 52
+    "count": 53
    },
    {
     "name": "Sorting & Searching",
@@ -205,7 +205,7 @@
   "Engineering Mathematics": [
    {
     "name": "Probability & Statistics",
-    "count": 72
+    "count": 71
    },
    {
     "name": "Linear Algebra",
@@ -214,6 +214,32 @@
    {
     "name": "Calculus",
     "count": 38
+   }
+  ],
+  "Computer Organization": [
+   {
+    "name": "Memory Hierarchy & Cache",
+    "count": 68
+   },
+   {
+    "name": "Pipelining",
+    "count": 42
+   },
+   {
+    "name": "Instruction Set & Addressing",
+    "count": 37
+   },
+   {
+    "name": "I/O & Interrupts",
+    "count": 22
+   },
+   {
+    "name": "Data Path & Control Unit",
+    "count": 8
+   },
+   {
+    "name": "Architecture",
+    "count": 1
    }
   ],
   "Programming in C": [
@@ -240,32 +266,6 @@
    {
     "name": "Strings",
     "count": 4
-   }
-  ],
-  "Computer Organization": [
-   {
-    "name": "Memory Hierarchy & Cache",
-    "count": 66
-   },
-   {
-    "name": "Pipelining",
-    "count": 42
-   },
-   {
-    "name": "Instruction Set & Addressing",
-    "count": 37
-   },
-   {
-    "name": "I/O & Interrupts",
-    "count": 22
-   },
-   {
-    "name": "Data Path & Control Unit",
-    "count": 8
-   },
-   {
-    "name": "Architecture",
-    "count": 1
    }
   ],
   "Digital Logic": [
@@ -347,7 +347,7 @@
    },
    {
     "name": "Network Architecture",
-    "count": 13
+    "count": 11
    }
   ],
   "Compiler Design": [
@@ -386,11 +386,11 @@
   ],
   "Databases (DBMS)": [
    {
-    "name": "Normalization",
-    "count": 42
+    "name": "SQL",
+    "count": 43
    },
    {
-    "name": "SQL",
+    "name": "Normalization",
     "count": 42
    },
    {
@@ -407,7 +407,7 @@
    },
    {
     "name": "Indexing",
-    "count": 7
+    "count": 8
    },
    {
     "name": "Integrity & Constraints",

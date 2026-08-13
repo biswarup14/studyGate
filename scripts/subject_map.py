@@ -542,9 +542,11 @@ def subject_from_tags(tags):
     return "Unclassified"
 
 
-def subject_from_keywords(text):
+def subject_from_keywords(text, exclude=None):
     low = " " + text.lower() + " "
     for subj, kws in SUBJECT_KEYWORDS:
+        if exclude and subj in exclude:
+            continue
         for kw in kws:
             if kw in low:
                 return subj

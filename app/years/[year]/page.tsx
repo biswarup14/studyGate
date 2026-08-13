@@ -1,6 +1,6 @@
 "use client";
-import { useState, useEffect, useMemo } from "react";
-import { useParams } from "next/navigation";
+import { useState, useEffect, useMemo, Suspense } from "react";
+import { useParams, useSearchParams, useRouter } from "next/navigation";
 import { Question, SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/types";
 import { QuestionCard } from "@/components/QuestionCard";
 import { PageHeader } from "@/components/PageHeader";
@@ -9,10 +9,43 @@ import { sortNewestFirst } from "@/lib/sort";
 const PAGE_SIZE = 20;
 
 export default function YearDetailPage() {
+  return (
+    <Suspense fallback={<YearDetailSkeleton />}>
+      <YearDetailContent />
+    </Suspense>
+  );
+}
+
+function YearDetailSkeleton() {
+  return (
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
+      <div className="skeleton h-9 w-48 mb-6" />
+      <div className="skeleton h-20 mb-6" />
+      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {Array.from({ length: 6 }, (_, i) => (
+          <div key={i} className="skeleton h-44" />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function YearDetailContent() {
   const { year } = useParams<{ year: string }>();
+  const searchParams = useSearchParams();
+  const router = useRouter();
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(parseInt(searchParams.get("page") || "1"));
+
+  // Keep page in sync with the URL so back/forward restores the exact page
+  useEffect(() => {
+    const target = page > 1 ? `page=${page}` : "";
+    const current = window.location.search.replace(/^\?/, "");
+    if (target !== current) {
+      router.replace(`/years/${year}${target ? `?${target}` : ""}`, { scroll: false });
+    }
+  }, [router, year, page]);
 
   useEffect(() => {
     fetch(`/data/questions-${year}.json`)
@@ -34,17 +67,7 @@ export default function YearDetailPage() {
   }, [allQuestions]);
 
   if (loading) {
-    return (
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
-        <div className="skeleton h-9 w-48 mb-6" />
-        <div className="skeleton h-20 mb-6" />
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {Array.from({ length: 6 }, (_, i) => (
-            <div key={i} className="skeleton h-44" />
-          ))}
-        </div>
-      </div>
-    );
+    return <YearDetailSkeleton />;
   }
 
   return (

@@ -1,10 +1,12 @@
 "use client";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import { Question, SUBJECT_COLORS, SUBJECT_ICONS, SUBTOPIC_COLORS } from "@/lib/types";
 import { MathBlock } from "@/components/MathBlock";
 import { TypeBadge } from "@/components/TypeBadge";
+import { QuestionImages } from "@/components/QuestionImages";
+import { placeholderCount } from "@/lib/images";
 import { useProgress } from "@/components/useProgress";
 import { useSession } from "next-auth/react";
 
@@ -46,6 +48,29 @@ export default function QuestionDetailPage() {
       recordAttempt(question.id, !!isCorrect);
     }
   }, [question, selected, mounted, session, recordAttempt]);
+
+  const textImageCount = placeholderCount(question?.text || "");
+
+  const optionOffsets = useMemo(() => {
+    const offsets: number[] = [];
+    let running = textImageCount;
+    (question?.options || []).forEach((o) => {
+      offsets.push(running);
+      running += placeholderCount(o);
+    });
+    return offsets;
+  }, [question, textImageCount]);
+
+  const explanationOffset = useMemo(
+    () =>
+      textImageCount +
+      (question?.options || []).reduce((n, o) => n + placeholderCount(o), 0),
+    [question, textImageCount]
+  );
+
+  const totalPlaceholders =
+    explanationOffset + placeholderCount(question?.explanation || "");
+  const leftoverImages = (question?.images || []).slice(totalPlaceholders);
 
   if (loading) {
     return (
@@ -127,7 +152,8 @@ export default function QuestionDetailPage() {
       {/* Question text */}
       <div className="rounded-xl border border-border bg-card p-6 mb-6 card-surface animate-slide-up">
         <div className="text-base leading-relaxed">
-          <MathBlock text={question.text} />
+          <MathBlock text={question.text} images={question.images} />
+          {leftoverImages.length > 0 && <QuestionImages images={leftoverImages} />}
         </div>
       </div>
 
@@ -168,7 +194,7 @@ export default function QuestionDetailPage() {
                   "bg-muted text-muted-foreground"
                 }`}>{letter}</span>
                 <span className="flex-1 leading-relaxed">
-                  <MathBlock text={opt} />
+                  <MathBlock text={opt} images={question.images} imageOffset={optionOffsets[i]} />
                 </span>
               </button>
             );
@@ -235,7 +261,7 @@ export default function QuestionDetailPage() {
             Explanation
           </h3>
           <div className="text-sm text-foreground/80">
-            <MathBlock text={question.explanation} />
+            <MathBlock text={question.explanation} images={question.images} imageOffset={explanationOffset} />
           </div>
         </div>
       )}

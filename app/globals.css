@@ -188,3 +188,14 @@ body {
 .dark .card-surface:hover {
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
+
+/* Inline question images (injected via innerHTML) */
+.q-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0.75rem 0;
+  border: 1px solid var(--border);
+  border-radius: 0.625rem;
+  background: var(--muted);
+}

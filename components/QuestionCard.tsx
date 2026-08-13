@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { Question, SUBJECT_COLORS, SUBJECT_ICONS, SUBTOPIC_COLORS } from "@/lib/types";
 import { MathBlock } from "./MathBlock";
+import { stripImagePlaceholders } from "@/lib/images";
 import { TypeBadge } from "./TypeBadge";
 
 export function QuestionCard({ question }: { question: Question }) {
@@ -47,7 +48,7 @@ export function QuestionCard({ question }: { question: Question }) {
       </div>
 
       <div className="text-sm text-foreground/90 line-clamp-3 mb-2">
-        <MathBlock text={question.text} />
+        <MathBlock text={stripImagePlaceholders(question.text)} />
       </div>
 
       {question.options.length > 0 && (

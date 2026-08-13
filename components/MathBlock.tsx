@@ -1,9 +1,13 @@
 "use client";
 import { useEffect, useRef } from "react";
+import type { QuestionImage } from "@/lib/types";
+import { resolveImagePlaceholders } from "@/lib/images";
 
 interface MathBlockProps {
   text: string;
   className?: string;
+  images?: QuestionImage[];
+  imageOffset?: number;
 }
 
 function splitLatex(text: string): Array<{ type: "text" | "math" | "displaymath"; content: string }> {
@@ -39,7 +43,7 @@ function splitLatex(text: string): Array<{ type: "text" | "math" | "displaymath"
   return parts;
 }
 
-export function MathBlock({ text, className }: MathBlockProps) {
+export function MathBlock({ text, className, images, imageOffset = 0 }: MathBlockProps) {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -51,11 +55,12 @@ export function MathBlock({ text, className }: MathBlockProps) {
       const html = parts
         .map((part) => {
           if (part.type === "text") {
-            return part.content
+            const decoded = part.content
               .replace(/&amp;/g, "&")
               .replace(/&lt;/g, "<")
               .replace(/&gt;/g, ">")
               .replace(/\n/g, "<br/>");
+            return resolveImagePlaceholders(decoded, images, imageOffset);
           }
           try {
             const displayMode = part.type === "displaymath";
@@ -70,7 +75,7 @@ export function MathBlock({ text, className }: MathBlockProps) {
         .join("");
       ref.current.innerHTML = html;
     });
-  }, [text]);
+  }, [text, images, imageOffset]);
 
   return <div ref={ref} className={className} />;
 }

@@ -22,7 +22,6 @@ from subtopic_map import subtopic_from_keywords
 # Curated (subject, subtopic) for questions keyword rules cannot classify
 # reliably (math-heavy texts, or subject only visible in the options).
 SUBJECT_OVERRIDES = {
-    "2026-cs1-3": ("Discrete Mathematics", "Combinatorics"),
     "2026-cs1-12": ("Discrete Mathematics", "Combinatorics"),
     "2026-cs1-22": ("Digital Logic", "Number Systems & Representation"),
     "2026-cs1-27": ("Programming in C", "Strings"),
@@ -70,13 +69,22 @@ def merge(paper, key_path, parsed_path):
         qtype = key.get("type", q.get("type", "mcq"))
         marks = key.get("marks", q.get("marks", 1))
         answer = key.get("answer", q.get("answer"))
-
-        subject = subject_from_keywords(q.get("text", ""))
-        subtopic = subtopic_from_keywords(subject, q.get("text", ""))
+        section = q.get("section", "CS")
+        text = q.get("text", "")
 
         qid = f"2026-{paper.lower()}-{qno}"
-        if qid in SUBJECT_OVERRIDES:
+
+        # The key-PDF section is authoritative: GA stays in General Aptitude,
+        # CS questions must never be classified as General Aptitude (the GA
+        # keyword rules are too generic and fire on math/CS texts).
+        if section.startswith("GA"):
+            subject = "General Aptitude"
+            subtopic = subtopic_from_keywords(subject, text)
+        elif qid in SUBJECT_OVERRIDES:
             subject, subtopic = SUBJECT_OVERRIDES[qid]
+        else:
+            subject = subject_from_keywords(text, exclude={"General Aptitude"})
+            subtopic = subtopic_from_keywords(subject, text)
 
         correct_answer = None
         if qtype == "mcq":
@@ -96,7 +104,7 @@ def merge(paper, key_path, parsed_path):
             "year": 2026,
             "set": q.get("set", paper[2]),
             "number": qno,
-            "section": q.get("section", "CS"),
+            "section": section,
             "type": qtype,
             "subject": subject,
             "subtopic": subtopic,

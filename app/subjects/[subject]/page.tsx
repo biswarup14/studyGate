@@ -1,23 +1,69 @@
 "use client";
-import { useState, useEffect, useMemo } from "react";
-import { useParams } from "next/navigation";
+import { useState, useEffect, useMemo, Suspense } from "react";
+import { useParams, useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { Question, SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/types";
 import { QuestionCard } from "@/components/QuestionCard";
+import { FilterDropdown } from "@/components/FilterDropdown";
 import { PageHeader } from "@/components/PageHeader";
 import { sortNewestFirst } from "@/lib/sort";
 
 const PAGE_SIZE = 20;
 
 export default function SubjectDetailPage() {
+  return (
+    <Suspense fallback={<SubjectDetailSkeleton />}>
+      <SubjectDetailContent />
+    </Suspense>
+  );
+}
+
+function SubjectDetailSkeleton() {
+  return (
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
+      <div className="flex items-center gap-3 mb-6">
+        <div className="skeleton h-9 w-40" />
+        <div className="skeleton h-5 w-24" />
+      </div>
+      <div className="flex flex-wrap gap-2 mb-6">
+        {Array.from({ length: 8 }, (_, i) => (
+          <div key={i} className="skeleton h-8 w-24" />
+        ))}
+      </div>
+      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {Array.from({ length: 6 }, (_, i) => (
+          <div key={i} className="skeleton h-44" />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function SubjectDetailContent() {
   const { subject } = useParams<{ subject: string }>();
+  const searchParams = useSearchParams();
+  const router = useRouter();
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
-  const [page, setPage] = useState(1);
-  const [subtopic, setSubtopic] = useState("");
-  const [difficulty, setDifficulty] = useState("");
-  const [branch, setBranch] = useState("");
+  const [page, setPage] = useState(parseInt(searchParams.get("page") || "1"));
+  const [subtopic, setSubtopic] = useState(searchParams.get("subtopic") || "");
+  const [difficulty, setDifficulty] = useState(searchParams.get("difficulty") || "");
+  const [branch, setBranch] = useState(searchParams.get("branch") || "");
   const DIFFICULTIES = ["easy", "medium", "hard"] as const;
+
+  // Keep filters + page in sync with the URL so back/forward restores the exact view
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (subtopic) params.set("subtopic", subtopic);
+    if (difficulty) params.set("difficulty", difficulty);
+    if (branch) params.set("branch", branch);
+    if (page > 1) params.set("page", String(page));
+    const target = params.toString();
+    const current = window.location.search.replace(/^\?/, "");
+    if (target !== current) {
+      router.replace(`/subjects/${subject}${target ? `?${target}` : ""}`, { scroll: false });
+    }
+  }, [router, subject, subtopic, difficulty, branch, page]);
 
   // decode slug back to subject name
   const subjectName = subject
@@ -96,24 +142,7 @@ export default function SubjectDetailPage() {
   };
 
   if (loading) {
-    return (
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
-        <div className="flex items-center gap-3 mb-6">
-          <div className="skeleton h-9 w-40" />
-          <div className="skeleton h-5 w-24" />
-        </div>
-        <div className="flex flex-wrap gap-2 mb-6">
-          {Array.from({ length: 8 }, (_, i) => (
-            <div key={i} className="skeleton h-8 w-24" />
-          ))}
-        </div>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {Array.from({ length: 6 }, (_, i) => (
-            <div key={i} className="skeleton h-44" />
-          ))}
-        </div>
-      </div>
-    );
+    return <SubjectDetailSkeleton />;
   }
 
   return (
@@ -138,88 +167,67 @@ export default function SubjectDetailPage() {
         }
       />
 
-      {/* Subtopic chips */}
-      {subtopics.length > 0 && (
-        <div className="flex flex-wrap gap-2 mb-5">
-          <button
-            onClick={() => selectSubtopic("")}
-            className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all hover-lift ${
-              subtopic === "" ? "bg-primary text-primary-foreground border-primary shadow-sm" : "border-border hover:bg-muted hover:border-primary/30"
-            }`}
-          >
-            All
-          </button>
-          {subtopics.map(([name, count]) => (
-            <button
-              key={name}
-              onClick={() => selectSubtopic(name)}
-              className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all hover-lift ${
-                subtopic === name ? "bg-primary text-primary-foreground border-primary shadow-sm" : "border-border hover:bg-muted hover:border-primary/30"
-              }`}
-            >
-              {name}
-              <span className={`ml-1 text-xs ${subtopic === name ? "text-primary-foreground/70" : "text-muted-foreground"}`}>
-                {count}
-              </span>
-            </button>
-          ))}
-        </div>
-      )}
+      {/* Filters row: dropdowns left, difficulty chips right */}
+      <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
+        {/* Left: dropdown filters + reset */}
+        <div className="flex flex-wrap items-center gap-2.5">
+          {subtopics.length > 0 && (
+            <FilterDropdown
+              label="Topic"
+              value={subtopic}
+              placeholder="All Topics"
+              onChange={selectSubtopic}
+              options={subtopics.map(([name, count]) => ({ value: name, label: name, count }))}
+            />
+          )}
 
-      {/* Branch chips */}
-      {branches.length > 1 && (
-        <div className="flex flex-wrap gap-2 mb-5">
-          <button
-            onClick={() => selectBranch("")}
-            className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all hover-lift ${
-              branch === "" ? "bg-primary text-primary-foreground border-primary shadow-sm" : "border-border hover:bg-muted hover:border-primary/30"
-            }`}
-          >
-            All Branches
-            <span className={`ml-1 text-xs ${branch === "" ? "text-primary-foreground/70" : "text-muted-foreground"}`}>
-              {filtered.length}
-            </span>
-          </button>
-          {branches.map(([name, count]) => (
-            <button
-              key={name}
-              onClick={() => selectBranch(name)}
-              className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all hover-lift ${
-                branch === name ? "bg-primary text-primary-foreground border-primary shadow-sm" : "border-border hover:bg-muted hover:border-primary/30"
-              }`}
-            >
-              {name}
-              <span className={`ml-1 text-xs ${branch === name ? "text-primary-foreground/70" : "text-muted-foreground"}`}>
-                {count}
-              </span>
-            </button>
-          ))}
-        </div>
-      )}
+          {branches.length > 1 && (
+            <FilterDropdown
+              label="Branch"
+              value={branch}
+              placeholder="All Branches"
+              onChange={selectBranch}
+              options={branches.map(([name, count]) => ({ value: name, label: name, count }))}
+            />
+          )}
 
-      {/* Difficulty chips */}
-      <div className="flex flex-wrap gap-2 mb-6">
-        {(["", ...DIFFICULTIES] as const).map((d) => {
-          const label = d === "" ? "All" : d[0].toUpperCase() + d.slice(1);
-          const count =
-            d === ""
-              ? difficultyCounts.easy + difficultyCounts.medium + difficultyCounts.hard
-              : difficultyCounts[d];
-          return (
+          {(subtopic || branch) && (
             <button
-              key={d}
-              onClick={() => selectDifficulty(d)}
-              className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all hover-lift ${
-                difficulty === d ? "bg-primary text-primary-foreground border-primary shadow-sm" : "border-border hover:bg-muted hover:border-primary/30"
-              }`}
+              onClick={() => { selectSubtopic(""); selectBranch(""); }}
+              className="flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl border border-border text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted hover:border-primary/30 transition-all hover-lift"
             >
-              {label}
-              <span className={`ml-1 text-xs ${difficulty === d ? "text-primary-foreground/70" : "text-muted-foreground"}`}>
-                {count}
-              </span>
+              <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+              Reset
             </button>
-          );
-        })}
+          )}
+        </div>
+
+        {/* Right: difficulty chips */}
+        <div className="flex flex-wrap items-center gap-2">
+          {(["", ...DIFFICULTIES] as const).map((d) => {
+            const label = d === "" ? "All" : d[0].toUpperCase() + d.slice(1);
+            const count =
+              d === ""
+                ? difficultyCounts.easy + difficultyCounts.medium + difficultyCounts.hard
+                : difficultyCounts[d];
+            return (
+              <button
+                key={d}
+                onClick={() => selectDifficulty(d)}
+                className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all hover-lift ${
+                  difficulty === d ? "bg-primary text-primary-foreground border-primary shadow-sm" : "border-border hover:bg-muted hover:border-primary/30"
+                }`}
+              >
+                {label}
+                <span className={`ml-1 text-xs ${difficulty === d ? "text-primary-foreground/70" : "text-muted-foreground"}`}>
+                  {count}
+                </span>
+              </button>
+            );
+          })}
+        </div>
       </div>
 
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
