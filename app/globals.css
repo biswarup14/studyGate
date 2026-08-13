@@ -4,16 +4,16 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #fafafa;
+  --background: #faf6ef;
   --foreground: #0f0f0f;
-  --muted: #f0f0f0;
+  --muted: #f3eee4;
   --muted-foreground: #6b6b6b;
-  --border: #e2e2e2;
+  --border: #e8e1d3;
   --primary: #2563eb;
   --primary-foreground: #ffffff;
-  --card: #ffffff;
+  --card: #fffefb;
   --card-foreground: #0f0f0f;
-  --accent: #f0f0f0;
+  --accent: #f3eee4;
   --accent-foreground: #0f0f0f;
   --success: #16a34a;
   --error: #dc2626;
