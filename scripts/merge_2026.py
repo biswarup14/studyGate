@@ -17,7 +17,7 @@ IMG_DIR = os.path.join(ROOT, "public", "images", "2026")
 
 sys.path.insert(0, HERE)
 from subject_map import subject_from_keywords
-from subtopic_map import em_subtopic_from_keywords
+from subtopic_map import subtopic_from_keywords
 
 
 def build_answer_map(key_pdf_path):
@@ -56,7 +56,7 @@ def merge(paper, key_path, parsed_path):
         answer = key.get("answer", q.get("answer"))
 
         subject = subject_from_keywords(q.get("text", ""))
-        subtopic = em_subtopic_from_keywords(q.get("text", "")) if subject == "Engineering Mathematics" else None
+        subtopic = subtopic_from_keywords(subject, q.get("text", ""))
 
         correct_answer = None
         if qtype == "mcq":

@@ -18,7 +18,7 @@ DATA = os.path.join(ROOT, "data")
 IMG_DIR = os.path.join(ROOT, "public", "images", "legacy")
 
 from subject_map import subject_from_tags as _subject_from_tags, subject_from_keywords
-from subtopic_map import em_subtopic_from_tags, em_subtopic_from_keywords
+from subtopic_map import subtopic_for
 
 YEAR_TAG = re.compile(r"^gatecse(?:-(\d{4})|-set\d|-(\d{4})-set\d)?|^gatecse(\d{4})-set\d")
 OLD_YEAR_TAG = re.compile(r"^gate(\d{4})$")
@@ -55,15 +55,6 @@ def subject_from_tags_with_fallback(tags, text=""):
     if subj == "Unclassified" and text:
         subj = subject_from_keywords(text)
     return subj
-
-
-def subtopic_for(subject, tags, text=""):
-    if subject != "Engineering Mathematics":
-        return None
-    sub = em_subtopic_from_tags(tags)
-    if sub is None:
-        sub = em_subtopic_from_keywords(text)
-    return sub
 
 
 def difficulty_from_tags(tags):

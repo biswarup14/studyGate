@@ -88,6 +88,124 @@
   }
  ],
  "subtopics": {
+  "General Aptitude": [
+   {
+    "name": "Quantitative Aptitude",
+    "count": 120
+   },
+   {
+    "name": "Verbal Aptitude",
+    "count": 102
+   },
+   {
+    "name": "Logical & Analytical Reasoning",
+    "count": 78
+   },
+   {
+    "name": "Spatial Aptitude",
+    "count": 22
+   }
+  ],
+  "Theory of Computation": [
+   {
+    "name": "Regular Languages & Automata",
+    "count": 97
+   },
+   {
+    "name": "Context-Free Languages & PDA",
+    "count": 92
+   },
+   {
+    "name": "Turing Machines & Recursive Languages",
+    "count": 20
+   },
+   {
+    "name": "Decidability & Reductions",
+    "count": 16
+   }
+  ],
+  "Discrete Mathematics": [
+   {
+    "name": "Set Theory & Relations",
+    "count": 93
+   },
+   {
+    "name": "Graph Theory",
+    "count": 53
+   },
+   {
+    "name": "Mathematical Logic",
+    "count": 48
+   },
+   {
+    "name": "Combinatorics",
+    "count": 36
+   },
+   {
+    "name": "Group Theory & Algebra",
+    "count": 2
+   },
+   {
+    "name": "Number Theory",
+    "count": 1
+   }
+  ],
+  "Data Structures": [
+   {
+    "name": "Trees",
+    "count": 87
+   },
+   {
+    "name": "Heaps",
+    "count": 23
+   },
+   {
+    "name": "Stacks & Queues",
+    "count": 21
+   },
+   {
+    "name": "Hashing",
+    "count": 13
+   },
+   {
+    "name": "Linked Lists",
+    "count": 12
+   },
+   {
+    "name": "Arrays",
+    "count": 9
+   }
+  ],
+  "Algorithms": [
+   {
+    "name": "Graph Algorithms",
+    "count": 74
+   },
+   {
+    "name": "Complexity Analysis",
+    "count": 52
+   },
+   {
+    "name": "Sorting & Searching",
+    "count": 31
+   },
+   {
+    "name": "Recurrences & Divide & Conquer",
+    "count": 14
+   },
+   {
+    "name": "Dynamic Programming",
+    "count": 11
+   },
+   {
+    "name": "Greedy Algorithms",
+    "count": 8
+   },
+   {
+    "name": "Algorithm Design",
+    "count": 5
+   }
+  ],
   "Engineering Mathematics": [
    {
     "name": "Probability & Statistics",
@@ -100,6 +218,204 @@
    {
     "name": "Calculus",
     "count": 36
+   }
+  ],
+  "Programming in C": [
+   {
+    "name": "Functions & Recursion",
+    "count": 66
+   },
+   {
+    "name": "Pointers & Memory",
+    "count": 17
+   },
+   {
+    "name": "Control Flow",
+    "count": 7
+   },
+   {
+    "name": "Expressions & Evaluation",
+    "count": 5
+   },
+   {
+    "name": "Structures",
+    "count": 4
+   },
+   {
+    "name": "Strings",
+    "count": 3
+   }
+  ],
+  "Computer Organization": [
+   {
+    "name": "Memory Hierarchy & Cache",
+    "count": 66
+   },
+   {
+    "name": "Pipelining",
+    "count": 42
+   },
+   {
+    "name": "Instruction Set & Addressing",
+    "count": 37
+   },
+   {
+    "name": "I/O & Interrupts",
+    "count": 22
+   },
+   {
+    "name": "Data Path & Control Unit",
+    "count": 8
+   },
+   {
+    "name": "Architecture",
+    "count": 1
+   }
+  ],
+  "Operating Systems": [
+   {
+    "name": "Memory Management",
+    "count": 59
+   },
+   {
+    "name": "CPU Scheduling",
+    "count": 34
+   },
+   {
+    "name": "Synchronization & Concurrency",
+    "count": 34
+   },
+   {
+    "name": "File Systems & Storage",
+    "count": 34
+   },
+   {
+    "name": "Processes & Threads",
+    "count": 25
+   },
+   {
+    "name": "Deadlock",
+    "count": 22
+   },
+   {
+    "name": "Security & Protection",
+    "count": 1
+   },
+   {
+    "name": "System Calls",
+    "count": 1
+   }
+  ],
+  "Digital Logic": [
+   {
+    "name": "Number Systems & Representation",
+    "count": 55
+   },
+   {
+    "name": "Boolean Algebra",
+    "count": 45
+   },
+   {
+    "name": "Logic Gates & Circuit Output",
+    "count": 24
+   },
+   {
+    "name": "Combinational Circuits",
+    "count": 22
+   },
+   {
+    "name": "Sequential Circuits",
+    "count": 22
+   },
+   {
+    "name": "K-Map & Minimization",
+    "count": 13
+   }
+  ],
+  "Computer Networks": [
+   {
+    "name": "Network Layer",
+    "count": 55
+   },
+   {
+    "name": "Transport Layer",
+    "count": 53
+   },
+   {
+    "name": "Data Link Layer",
+    "count": 28
+   },
+   {
+    "name": "Application Layer",
+    "count": 15
+   },
+   {
+    "name": "Network Architecture",
+    "count": 13
+   }
+  ],
+  "Databases (DBMS)": [
+   {
+    "name": "SQL",
+    "count": 42
+   },
+   {
+    "name": "Normalization",
+    "count": 42
+   },
+   {
+    "name": "Transactions & Concurrency",
+    "count": 33
+   },
+   {
+    "name": "Relational Algebra & Calculus",
+    "count": 30
+   },
+   {
+    "name": "ER & Relational Model",
+    "count": 12
+   },
+   {
+    "name": "Indexing",
+    "count": 7
+   },
+   {
+    "name": "Integrity & Constraints",
+    "count": 3
+   }
+  ],
+  "Compiler Design": [
+   {
+    "name": "Parsing",
+    "count": 42
+   },
+   {
+    "name": "Code Optimization",
+    "count": 18
+   },
+   {
+    "name": "Syntax-Directed Translation",
+    "count": 13
+   },
+   {
+    "name": "Runtime Environments",
+    "count": 11
+   },
+   {
+    "name": "Intermediate Code",
+    "count": 11
+   },
+   {
+    "name": "Lexical Analysis",
+    "count": 5
+   },
+   {
+    "name": "Compilation Phases",
+    "count": 4
+   },
+   {
+    "name": "Assemblers, Linkers & Tools",
+    "count": 2
    }
   ]
  },
