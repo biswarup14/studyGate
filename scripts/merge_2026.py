@@ -100,6 +100,7 @@ def merge(paper, key_path, parsed_path):
             "type": qtype,
             "subject": subject,
             "subtopic": subtopic,
+            "branch": "CSE",
             "difficulty": "medium",
             "marks": marks,
             "text": q.get("text", ""),

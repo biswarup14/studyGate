@@ -36,6 +36,46 @@ GA_TAGS = {
     "spatial-aptitude",
 }
 
+BRANCH_NAMES = {
+    "cse": "CSE",
+    "me": "Mechanical",
+    "ce": "Civil",
+    "civil": "Civil",
+    "ee": "Electrical",
+    "ec": "Electronics & Comm.",
+    "ece": "Electronics & Comm.",
+    "ch": "Chemical",
+    "ae": "Aerospace",
+    "mn": "Mining",
+    "ag": "Agriculture",
+    "in": "Instrumentation",
+    "tf": "Textile & Fibre",
+    "gg": "Geology & Geophysics",
+    "ar": "Architecture & Planning",
+    "cy": "Chemistry",
+    "ds-ai": "Data Science & AI",
+    "da": "Data Science & AI",
+}
+
+
+def branch_from_tags(tags):
+    for t in tags:
+        if re.match(r"^gatecse", t):
+            return "CSE"
+        m = re.match(r"^gate-ds-ai-(\d{4})$", t)
+        if m:
+            return "Data Science & AI"
+        m = re.match(r"^gate([a-z]{2,5})-(\d{4})(?:-set\d+)?$", t)
+        if m:
+            return BRANCH_NAMES.get(m.group(1), m.group(1).upper())
+        m = re.match(r"^gate([a-z]{2,5})(\d{4})-set\d+$", t)
+        if m:
+            return BRANCH_NAMES.get(m.group(1), m.group(1).upper())
+        m = re.match(r"^gate(\d{4})-([a-z]{2,5})(?:-\d+)?$", t)
+        if m:
+            return BRANCH_NAMES.get(m.group(2), m.group(2).upper())
+    return None
+
 
 def is_ga(tags, title=""):
     if any(t in GA_TAGS or t.startswith("ga-") for t in tags):
@@ -257,6 +297,7 @@ def main():
             "type": qtype,
             "subject": subject,
             "subtopic": subtopic_for(subject, tags, text),
+            "branch": branch_from_tags(tags),
             "difficulty": difficulty_from_tags(tags),
             "marks": marks,
             "text": text,
