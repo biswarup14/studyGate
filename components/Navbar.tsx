@@ -3,6 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { useTheme } from "./ThemeProvider";
+import { useSession, signOut } from "next-auth/react";
 
 const NAV_LINKS = [
   { href: "/", label: "Home" },
@@ -15,6 +16,7 @@ export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const { theme, toggle } = useTheme();
   const pathname = usePathname();
+  const { data: session } = useSession();
 
   return (
     <nav className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl">
@@ -64,6 +66,28 @@ export function Navbar() {
               )}
             </button>
 
+            {/* Auth */}
+            {session?.user ? (
+              <div className="hidden sm:flex items-center gap-2">
+                <span className="text-sm text-muted-foreground">
+                  {session.user.name || session.user.email}
+                </span>
+                <button
+                  onClick={() => signOut()}
+                  className="px-3 py-1.5 rounded-lg text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+                >
+                  Sign out
+                </button>
+              </div>
+            ) : (
+              <Link
+                href="/login"
+                className="hidden sm:inline-flex px-3 py-1.5 rounded-lg text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+              >
+                Sign in
+              </Link>
+            )}
+
             {/* Mobile menu button */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
@@ -100,6 +124,27 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
+            {session?.user ? (
+              <>
+                <div className="px-3 py-2 text-sm text-muted-foreground">
+                  Signed in as {session.user.name || session.user.email}
+                </div>
+                <button
+                  onClick={() => { signOut(); setMobileOpen(false); }}
+                  className="block w-full text-left px-3 py-2 rounded-lg text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted"
+                >
+                  Sign out
+                </button>
+              </>
+            ) : (
+              <Link
+                href="/login"
+                onClick={() => setMobileOpen(false)}
+                className="block px-3 py-2 rounded-lg text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted"
+              >
+                Sign in
+              </Link>
+            )}
           </div>
         )}
       </div>

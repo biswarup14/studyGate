@@ -1,11 +1,15 @@
 "use client";
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { useSession } from "next-auth/react";
 import { Question, IndexData } from "@/lib/types";
 import { QuizRunner } from "@/components/QuizRunner";
 
 const QUIZ_SIZES = [10, 20, 30, 50];
 
 export default function QuizPage() {
+  const router = useRouter();
+  const { data: session } = useSession();
   const [index, setIndex] = useState<IndexData | null>(null);
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
@@ -34,6 +38,10 @@ export default function QuizPage() {
   }, []);
 
   const startQuiz = () => {
+    if (!session?.user) {
+      router.push("/login?callbackUrl=/quiz");
+      return;
+    }
     let pool = allQuestions.filter((q) => q.correctAnswer && q.correctAnswer.length > 0);
     if (subject) pool = pool.filter((q) => q.subject === subject);
     if (subtopic) pool = pool.filter((q) => q.subtopic === subtopic);

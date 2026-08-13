@@ -1,45 +1,101 @@
 "use client";
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
+import { useSession } from "next-auth/react";
 import { ProgressData } from "@/lib/types";
 
-const STORAGE_KEY = "gate_cs_progress";
+const GUEST_KEY = "gate_cs_progress";
 
-function loadProgress(): ProgressData {
+function loadGuestProgress(): ProgressData {
   if (typeof window === "undefined") return {};
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+    return JSON.parse(localStorage.getItem(GUEST_KEY) || "{}");
   } catch {
     return {};
   }
 }
 
-function saveProgress(data: ProgressData) {
+function saveGuestProgress(data: ProgressData) {
   if (typeof window === "undefined") return;
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    localStorage.setItem(GUEST_KEY, JSON.stringify(data));
   } catch {}
 }
 
 export function useProgress() {
-  const [progress, setProgress] = useState<ProgressData>(() => loadProgress());
+  const { data: session } = useSession();
+  const isLoggedIn = !!session?.user?.id;
+
+  const [progress, setProgress] = useState<ProgressData>(() => loadGuestProgress());
+  const [loaded, setLoaded] = useState(false);
+  const prevLoggedIn = useRef(isLoggedIn);
+
+  useEffect(() => {
+    const justLoggedOut = prevLoggedIn.current && !isLoggedIn;
+    prevLoggedIn.current = isLoggedIn;
+
+    if (!isLoggedIn) {
+      if (justLoggedOut) {
+        setProgress(loadGuestProgress());
+      }
+      // Defer setLoaded to avoid synchronous setState in effect
+      queueMicrotask(() => setLoaded(true));
+      return;
+    }
+
+    let cancelled = false;
+    fetch("/api/progress")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((data: ProgressData) => {
+        if (!cancelled) {
+          setProgress(data);
+          setLoaded(true);
+        }
+      })
+      .catch(() => {
+        if (!cancelled) setLoaded(true);
+      });
+
+    return () => { cancelled = true; };
+  }, [isLoggedIn]);
 
   const recordAttempt = useCallback(
-    (questionId: string, correct: boolean) => {
-      setProgress((prev) => {
-        const existing = prev[questionId] || { attempts: 0, correct: 0, lastSeen: "" };
-        const updated = {
-          ...prev,
-          [questionId]: {
-            attempts: existing.attempts + 1,
-            correct: existing.correct + (correct ? 1 : 0),
-            lastSeen: new Date().toISOString(),
-          },
-        };
-        saveProgress(updated);
-        return updated;
-      });
+    async (questionId: string, correct: boolean) => {
+      if (isLoggedIn) {
+        try {
+          const res = await fetch("/api/progress", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ questionId, correct }),
+          });
+          if (res.ok) {
+            const updated = await res.json();
+            setProgress((prev) => ({
+              ...prev,
+              [questionId]: {
+                attempts: updated.attempts,
+                correct: updated.correct,
+                lastSeen: updated.lastSeen,
+              },
+            }));
+          }
+        } catch {}
+      } else {
+        setProgress((prev) => {
+          const existing = prev[questionId] || { attempts: 0, correct: 0, lastSeen: "" };
+          const updated = {
+            ...prev,
+            [questionId]: {
+              attempts: existing.attempts + 1,
+              correct: existing.correct + (correct ? 1 : 0),
+              lastSeen: new Date().toISOString(),
+            },
+          };
+          saveGuestProgress(updated);
+          return updated;
+        });
+      }
     },
-    []
+    [isLoggedIn]
   );
 
   const getStats = useCallback(
@@ -61,7 +117,7 @@ export function useProgress() {
     [progress]
   );
 
-  const mounted = typeof window !== "undefined";
+  const mounted = typeof window !== "undefined" && loaded;
 
-  return { progress, recordAttempt, getStats, isAttempted, mounted };
+  return { progress, recordAttempt, getStats, isAttempted, mounted, isLoggedIn };
 }

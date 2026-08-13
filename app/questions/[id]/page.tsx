@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Question, SUBJECT_COLORS, SUBJECT_ICONS, SUBTOPIC_COLORS } from "@/lib/types";
 import { MathBlock } from "@/components/MathBlock";
 import { useProgress } from "@/components/useProgress";
+import { useSession } from "next-auth/react";
 
 export default function QuestionDetailPage() {
   const { id } = useParams<{ id: string }>();
@@ -13,6 +14,7 @@ export default function QuestionDetailPage() {
   const [showAnswer, setShowAnswer] = useState(false);
   const [selected, setSelected] = useState<string[]>([]);
   const { recordAttempt, mounted } = useProgress();
+  const { data: session } = useSession();
 
   useEffect(() => {
     Promise.all(
@@ -32,7 +34,7 @@ export default function QuestionDetailPage() {
   const checkAnswer = useCallback(() => {
     if (!question) return;
     setShowAnswer(true);
-    if (mounted) {
+    if (mounted && session?.user) {
       const isCorrect =
         question.correctAnswer &&
         question.type === "mcq"
@@ -42,7 +44,7 @@ export default function QuestionDetailPage() {
             question.correctAnswer.every((a) => selected.includes(a));
       recordAttempt(question.id, !!isCorrect);
     }
-  }, [question, selected, mounted, recordAttempt]);
+  }, [question, selected, mounted, session, recordAttempt]);
 
   if (loading) {
     return (
