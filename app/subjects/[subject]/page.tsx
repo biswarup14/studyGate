@@ -15,6 +15,7 @@ export default function SubjectDetailPage() {
   const [page, setPage] = useState(1);
   const [subtopic, setSubtopic] = useState("");
   const [difficulty, setDifficulty] = useState("");
+  const [branch, setBranch] = useState("");
   const DIFFICULTIES = ["easy", "medium", "hard"] as const;
 
   // decode slug back to subject name
@@ -49,12 +50,21 @@ export default function SubjectDetailPage() {
     return [...counts.entries()].sort((a, b) => b[1] - a[1]);
   }, [filtered]);
 
+  const branches = useMemo(() => {
+    const counts = new Map<string, number>();
+    filtered.forEach((q) => {
+      if (q.branch) counts.set(q.branch, (counts.get(q.branch) || 0) + 1);
+    });
+    return [...counts.entries()].sort((a, b) => b[1] - a[1]);
+  }, [filtered]);
+
   const shown = useMemo(() => {
     let qs = filtered;
     if (subtopic) qs = qs.filter((q) => q.subtopic === subtopic);
     if (difficulty) qs = qs.filter((q) => q.difficulty === difficulty);
+    if (branch) qs = qs.filter((q) => q.branch === branch);
     return qs;
-  }, [filtered, subtopic, difficulty]);
+  }, [filtered, subtopic, difficulty, branch]);
 
   const totalPages = Math.ceil(shown.length / PAGE_SIZE);
   const paginated = shown.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
@@ -76,6 +86,11 @@ export default function SubjectDetailPage() {
 
   const selectDifficulty = (value: string) => {
     setDifficulty(value);
+    setPage(1);
+  };
+
+  const selectBranch = (value: string) => {
+    setBranch(value);
     setPage(1);
   };
 
@@ -137,6 +152,37 @@ export default function SubjectDetailPage() {
             >
               {name}
               <span className={`ml-1 text-xs ${subtopic === name ? "text-primary-foreground/70" : "text-muted-foreground"}`}>
+                {count}
+              </span>
+            </button>
+          ))}
+        </div>
+      )}
+
+      {/* Branch chips */}
+      {branches.length > 1 && (
+        <div className="flex flex-wrap gap-2 mb-6">
+          <button
+            onClick={() => selectBranch("")}
+            className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-all hover-lift ${
+              branch === "" ? "bg-primary text-primary-foreground border-primary shadow-sm" : "border-border hover:bg-muted hover:border-primary/30"
+            }`}
+          >
+            All Branches
+            <span className={`ml-1 text-xs ${branch === "" ? "text-primary-foreground/70" : "text-muted-foreground"}`}>
+              {filtered.length}
+            </span>
+          </button>
+          {branches.map(([name, count]) => (
+            <button
+              key={name}
+              onClick={() => selectBranch(name)}
+              className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-all hover-lift ${
+                branch === name ? "bg-primary text-primary-foreground border-primary shadow-sm" : "border-border hover:bg-muted hover:border-primary/30"
+              }`}
+            >
+              {name}
+              <span className={`ml-1 text-xs ${branch === name ? "text-primary-foreground/70" : "text-muted-foreground"}`}>
                 {count}
               </span>
             </button>

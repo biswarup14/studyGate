@@ -15,6 +15,7 @@ export interface Question {
   type: QuestionType;
   subject: string;
   subtopic: string | null;
+  branch: string | null;
   difficulty: Difficulty;
   marks: number | null;
   text: string;
