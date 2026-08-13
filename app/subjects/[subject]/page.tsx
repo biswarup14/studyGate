@@ -49,6 +49,7 @@ function SubjectDetailContent() {
   const [subtopic, setSubtopic] = useState(searchParams.get("subtopic") || "");
   const [difficulty, setDifficulty] = useState(searchParams.get("difficulty") || "");
   const [branch, setBranch] = useState(searchParams.get("branch") || "");
+  const [year, setYear] = useState(searchParams.get("year") || "");
   const DIFFICULTIES = ["easy", "medium", "hard"] as const;
 
   // Keep filters + page in sync with the URL so back/forward restores the exact view
@@ -57,13 +58,14 @@ function SubjectDetailContent() {
     if (subtopic) params.set("subtopic", subtopic);
     if (difficulty) params.set("difficulty", difficulty);
     if (branch) params.set("branch", branch);
+    if (year) params.set("year", year);
     if (page > 1) params.set("page", String(page));
     const target = params.toString();
     const current = window.location.search.replace(/^\?/, "");
     if (target !== current) {
       router.replace(`/subjects/${subject}${target ? `?${target}` : ""}`, { scroll: false });
     }
-  }, [router, subject, subtopic, difficulty, branch, page]);
+  }, [router, subject, subtopic, difficulty, branch, year, page]);
 
   // decode slug back to subject name
   const subjectName = subject
@@ -105,13 +107,22 @@ function SubjectDetailContent() {
     return [...counts.entries()].sort((a, b) => b[1] - a[1]);
   }, [filtered]);
 
+  const years = useMemo(() => {
+    const counts = new Map<string, number>();
+    filtered.forEach((q) => {
+      counts.set(String(q.year), (counts.get(String(q.year)) || 0) + 1);
+    });
+    return [...counts.entries()].sort((a, b) => Number(b[0]) - Number(a[0]));
+  }, [filtered]);
+
   const shown = useMemo(() => {
     let qs = filtered;
     if (subtopic) qs = qs.filter((q) => q.subtopic === subtopic);
     if (difficulty) qs = qs.filter((q) => q.difficulty === difficulty);
     if (branch) qs = qs.filter((q) => q.branch === branch);
+    if (year) qs = qs.filter((q) => q.year === parseInt(year));
     return qs;
-  }, [filtered, subtopic, difficulty, branch]);
+  }, [filtered, subtopic, difficulty, branch, year]);
 
   const totalPages = Math.ceil(shown.length / PAGE_SIZE);
   const paginated = shown.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
@@ -138,6 +149,11 @@ function SubjectDetailContent() {
 
   const selectBranch = (value: string) => {
     setBranch(value);
+    setPage(1);
+  };
+
+  const selectYear = (value: string) => {
+    setYear(value);
     setPage(1);
   };
 
@@ -191,9 +207,17 @@ function SubjectDetailContent() {
             />
           )}
 
-          {(subtopic || branch) && (
+          <FilterDropdown
+            label="Year"
+            value={year}
+            placeholder="All Years"
+            onChange={selectYear}
+            options={years.map(([name, count]) => ({ value: name, label: name, count }))}
+          />
+
+          {(subtopic || branch || year) && (
             <button
-              onClick={() => { selectSubtopic(""); selectBranch(""); }}
+              onClick={() => { selectSubtopic(""); selectBranch(""); selectYear(""); }}
               className="flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl border border-border text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted hover:border-primary/30 transition-all hover-lift"
             >
               <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
