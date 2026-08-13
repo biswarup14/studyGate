@@ -84,17 +84,17 @@ export function RecentActivity() {
 
       {/* Stats row */}
       <div className="grid grid-cols-3 gap-3 mb-6">
-        <div className="rounded-xl border border-border bg-card p-4 text-center">
+        <div className="rounded-xl border border-border bg-card p-4 text-center card-surface hover-lift">
           <div className="text-2xl font-bold text-primary">{stats.attempted}</div>
           <div className="text-xs text-muted-foreground mt-1">Questions Attempted</div>
         </div>
-        <div className="rounded-xl border border-border bg-card p-4 text-center">
+        <div className="rounded-xl border border-border bg-card p-4 text-center card-surface hover-lift">
           <div className="text-2xl font-bold text-success">
             {stats.attempted > 0 ? Math.round((stats.correct / stats.attempted) * 100) : 0}%
           </div>
           <div className="text-xs text-muted-foreground mt-1">Accuracy</div>
         </div>
-        <div className="rounded-xl border border-border bg-card p-4 text-center">
+        <div className="rounded-xl border border-border bg-card p-4 text-center card-surface hover-lift">
           <div className="text-2xl font-bold text-amber-500">{stats.streak}</div>
           <div className="text-xs text-muted-foreground mt-1">Correct Streak</div>
         </div>
@@ -104,8 +104,10 @@ export function RecentActivity() {
       {recentIds.length > 0 && (
         <div className="space-y-2">
           {loading ? (
-            <div className="flex justify-center py-4">
-              <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-primary" />
+            <div className="space-y-2">
+              {Array.from({ length: 3 }, (_, i) => (
+                <div key={i} className="skeleton h-16" />
+              ))}
             </div>
           ) : (
             recentIds.map((id) => {
@@ -120,10 +122,10 @@ export function RecentActivity() {
                 <Link
                   key={id}
                   href={`/questions/${id}`}
-                  className="flex items-center gap-4 p-3 rounded-xl border border-border hover:border-primary/30 hover:bg-muted/50 transition-all"
+                  className="flex items-center gap-4 p-3 rounded-xl border border-border hover:border-primary/30 hover:bg-muted/50 hover-lift transition-all group"
                 >
                   <span
-                    className={`inline-flex items-center justify-center w-8 h-8 rounded-lg bg-gradient-to-br ${SUBJECT_COLORS[q.subject] || "from-gray-500 to-gray-600"} text-white text-xs font-bold flex-shrink-0`}
+                    className={`inline-flex items-center justify-center w-9 h-9 rounded-lg bg-gradient-to-br ${SUBJECT_COLORS[q.subject] || "from-gray-500 to-gray-600"} text-white text-xs font-bold flex-shrink-0 shadow-sm`}
                   >
                     {SUBJECT_ICONS[q.subject] || q.subject.slice(0, 3)}
                   </span>
@@ -146,7 +148,7 @@ export function RecentActivity() {
                         {accuracy}% acc
                       </div>
                     </div>
-                    <svg className="h-4 w-4 text-muted-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </div>

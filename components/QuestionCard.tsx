@@ -17,21 +17,27 @@ export function QuestionCard({ question }: { question: Question }) {
     nat: "bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300",
   }[question.type];
 
+  const diffColor = {
+    easy: "bg-success",
+    medium: "bg-warning",
+    hard: "bg-error",
+  }[question.difficulty || "medium"];
+
   return (
     <Link
       href={`/questions/${question.id}`}
-      className="block p-4 rounded-xl border border-border hover:border-primary/30 hover:shadow-md transition-all bg-card group"
+      className="block p-4 rounded-xl border border-border hover:border-primary/30 hover:shadow-md transition-all bg-card group hover-lift"
     >
       <div className="flex items-start justify-between gap-2 mb-2">
-        <div className="flex items-center gap-2 flex-wrap">
-          <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gradient-to-r ${SUBJECT_COLORS[question.subject] || "from-gray-500 to-gray-600"} text-white`}>
+        <div className="flex items-center gap-1.5 flex-wrap">
+          <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-gradient-to-r ${SUBJECT_COLORS[question.subject] || "from-gray-500 to-gray-600"} text-white`}>
             {SUBJECT_ICONS[question.subject] || question.subject.slice(0, 3)}
           </span>
-          <span className={`text-xs px-1.5 py-0.5 rounded font-medium ${typeColor}`}>
+          <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${typeColor}`}>
             {typeBadge}
           </span>
           {question.subtopic && (
-            <span className={`text-xs px-1.5 py-0.5 rounded font-medium ${SUBTOPIC_COLORS[question.subtopic] || "bg-muted text-muted-foreground"}`}>
+            <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${SUBTOPIC_COLORS[question.subtopic] || "bg-muted text-muted-foreground"}`}>
               {question.subtopic}
             </span>
           )}
@@ -68,10 +74,8 @@ export function QuestionCard({ question }: { question: Question }) {
         <span className={`w-2 h-2 rounded-full ${hasAnswer ? "bg-success" : "bg-warning"}`} />
         <span>{hasAnswer ? "Answer available" : "Answer pending"}</span>
         {question.difficulty && (
-          <span className={`ml-auto ${
-            question.difficulty === "easy" ? "text-success" :
-            question.difficulty === "hard" ? "text-error" : "text-muted-foreground"
-          }`}>
+          <span className="ml-auto inline-flex items-center gap-1.5 capitalize">
+            <span className={`w-1.5 h-1.5 rounded-full ${diffColor}`} />
             {question.difficulty}
           </span>
         )}

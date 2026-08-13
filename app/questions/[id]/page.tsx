@@ -48,8 +48,19 @@ export default function QuestionDetailPage() {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center min-h-[60vh]">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary" />
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 py-8">
+        <div className="skeleton h-5 w-48 mb-6" />
+        <div className="flex flex-wrap gap-2 mb-5">
+          {Array.from({ length: 4 }, (_, i) => (
+            <div key={i} className="skeleton h-6 w-20" />
+          ))}
+        </div>
+        <div className="skeleton h-40 mb-6" />
+        <div className="space-y-2.5">
+          {Array.from({ length: 4 }, (_, i) => (
+            <div key={i} className="skeleton h-14" />
+          ))}
+        </div>
       </div>
     );
   }
@@ -77,19 +88,19 @@ export default function QuestionDetailPage() {
       </div>
 
       {/* Meta */}
-      <div className="flex items-center gap-3 mb-4 flex-wrap">
-        <span className={`inline-flex items-center px-2.5 py-1 rounded-lg bg-gradient-to-r ${SUBJECT_COLORS[question.subject] || "from-gray-500 to-gray-600"} text-white text-xs font-bold`}>
+      <div className="flex items-center gap-2.5 mb-5 flex-wrap">
+        <span className={`inline-flex items-center px-3 py-1 rounded-full bg-gradient-to-r ${SUBJECT_COLORS[question.subject] || "from-gray-500 to-gray-600"} text-white text-xs font-bold shadow-sm`}>
           {SUBJECT_ICONS[question.subject]} {question.subject}
         </span>
         {question.subtopic && (
-          <span className={`text-xs px-2 py-0.5 rounded-lg font-medium ${SUBTOPIC_COLORS[question.subtopic] || "bg-muted text-muted-foreground"}`}>
+          <span className={`text-xs px-2.5 py-1 rounded-full font-medium ${SUBTOPIC_COLORS[question.subtopic] || "bg-muted text-muted-foreground"}`}>
             {question.subtopic}
           </span>
         )}
         <span className="text-sm text-muted-foreground">
           {question.year}{question.set ? ` Set ${question.set}` : ""}
         </span>
-        <span className={`text-xs px-2 py-0.5 rounded font-medium ${
+        <span className={`text-xs px-2.5 py-1 rounded-full font-medium ${
           question.type === "mcq" ? "bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300" :
           question.type === "msq" ? "bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300" :
           "bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300"
@@ -100,17 +111,21 @@ export default function QuestionDetailPage() {
           <span className="text-xs text-muted-foreground">{question.marks} mark{question.marks > 1 ? "s" : ""}</span>
         )}
         {question.difficulty && (
-          <span className={`text-xs ${
+          <span className={`text-xs inline-flex items-center gap-1.5 capitalize ${
             question.difficulty === "easy" ? "text-success" :
             question.difficulty === "hard" ? "text-error" : "text-muted-foreground"
           }`}>
+            <span className={`w-1.5 h-1.5 rounded-full ${
+              question.difficulty === "easy" ? "bg-success" :
+              question.difficulty === "hard" ? "bg-error" : "bg-warning"
+            }`} />
             {question.difficulty}
           </span>
         )}
       </div>
 
       {/* Question text */}
-      <div className="rounded-xl border border-border bg-card p-6 mb-6">
+      <div className="rounded-xl border border-border bg-card p-6 mb-6 card-surface animate-slide-up">
         <div className="text-base leading-relaxed">
           <MathBlock text={question.text} />
         </div>
@@ -118,7 +133,7 @@ export default function QuestionDetailPage() {
 
       {/* Options */}
       {question.options.length > 0 && (
-        <div className="space-y-2 mb-6">
+        <div className="space-y-2.5 mb-6">
           {question.options.map((opt, i) => {
             const letter = letterOf(i);
             const isSelected = selected.includes(letter);
@@ -136,17 +151,22 @@ export default function QuestionDetailPage() {
                       : [letter]
                   );
                 }}
-                className={`w-full text-left p-4 rounded-xl border transition-all text-sm ${
+                className={`w-full text-left p-4 sm:p-5 rounded-xl border transition-all text-sm hover-lift ${
                   correct
                     ? "border-success bg-success/10 ring-2 ring-success/30"
                     : wrong
                     ? "border-error bg-error/10 ring-2 ring-error/30"
                     : isSelected
-                    ? "border-primary bg-primary/10 ring-2 ring-primary/20"
+                    ? "border-primary bg-primary/10 ring-2 ring-primary/20 shadow-sm"
                     : "border-border hover:border-primary/30 hover:bg-muted"
                 }`}
               >
-                <span className="font-medium mr-3">{letter}.</span>
+                <span className={`inline-flex items-center justify-center w-7 h-7 rounded-lg font-bold mr-3 ${
+                  correct ? "bg-success text-white" :
+                  wrong ? "bg-error text-white" :
+                  isSelected ? "bg-primary text-white" :
+                  "bg-muted text-muted-foreground"
+                }`}>{letter}</span>
                 <MathBlock text={opt} />
               </button>
             );
@@ -173,14 +193,14 @@ export default function QuestionDetailPage() {
           <button
             onClick={checkAnswer}
             disabled={selected.length === 0}
-            className="px-6 py-2.5 rounded-xl bg-primary text-primary-foreground text-sm font-medium disabled:opacity-40 hover:bg-primary/90"
+            className="px-6 py-3 rounded-xl bg-primary text-primary-foreground text-sm font-medium disabled:opacity-40 hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/20 transition-all"
           >
             Check Answer
           </button>
         ) : (
           <button
             onClick={() => { setShowAnswer(false); setSelected([]); }}
-            className="px-6 py-2.5 rounded-xl border border-border text-sm font-medium hover:bg-muted"
+            className="px-6 py-3 rounded-xl border border-border text-sm font-medium hover:bg-muted hover:border-primary/30 transition-all"
           >
             Try Again
           </button>
@@ -189,19 +209,29 @@ export default function QuestionDetailPage() {
 
       {/* Answer reveal */}
       {showAnswer && question.correctAnswer && (
-        <div className="rounded-xl border border-success/30 bg-success/5 p-6 mb-6">
-          <h3 className="font-bold text-success mb-2">Correct Answer</h3>
-          <div className="space-y-1">
+        <div className="rounded-xl border border-success/30 bg-success/5 p-6 mb-6 animate-slide-up">
+          <h3 className="font-bold text-success mb-3 flex items-center gap-2">
+            <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Correct Answer
+          </h3>
+          <div className="space-y-1.5">
             {question.correctAnswer.map((a) => (
-              <p key={a} className="text-sm font-medium">{a}</p>
+              <p key={a} className="text-sm font-semibold">{a}</p>
             ))}
           </div>
         </div>
       )}
 
       {showAnswer && question.explanation && (
-        <div className="rounded-xl border border-border bg-card p-6 mb-6">
-          <h3 className="font-bold mb-2">Explanation</h3>
+        <div className="rounded-xl border border-border bg-card p-6 mb-6 card-surface animate-slide-up">
+          <h3 className="font-bold mb-2 flex items-center gap-2">
+            <svg className="h-5 w-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Explanation
+          </h3>
           <div className="text-sm text-foreground/80">
             <MathBlock text={question.explanation} />
           </div>

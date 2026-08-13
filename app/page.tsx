@@ -3,11 +3,13 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { SubjectCard } from "@/components/SubjectCard";
 import { RecentActivity } from "@/components/RecentActivity";
+import { useSubjectProgress } from "@/components/useSubjectProgress";
 import { IndexData } from "@/lib/types";
 
 export default function HomePage() {
   const [index, setIndex] = useState<IndexData | null>(null);
   const [loading, setLoading] = useState(true);
+  const { subjectProgress, mounted } = useSubjectProgress();
 
   useEffect(() => {
     fetch("/data/index.json")
@@ -18,8 +20,25 @@ export default function HomePage() {
 
   if (loading || !index) {
     return (
-      <div className="flex items-center justify-center min-h-[60vh]">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary" />
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+        <div className="text-center mb-12">
+          <div className="skeleton h-12 w-3/4 mx-auto mb-4" />
+          <div className="skeleton h-5 w-1/2 mx-auto mb-8" />
+          <div className="flex justify-center gap-3">
+            <div className="skeleton h-12 w-40" />
+            <div className="skeleton h-12 w-32" />
+          </div>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12">
+          {Array.from({ length: 4 }, (_, i) => (
+            <div key={i} className="skeleton h-28" />
+          ))}
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+          {Array.from({ length: 8 }, (_, i) => (
+            <div key={i} className="skeleton h-32" />
+          ))}
+        </div>
       </div>
     );
   }
@@ -31,9 +50,9 @@ export default function HomePage() {
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
       {/* Hero */}
-      <section className="text-center mb-12">
+      <section className="text-center mb-12 animate-fade-in">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight mb-4">
-          GATE CS <span className="text-primary">Previous Year Questions</span>
+          GATE CS <span className="bg-gradient-to-r from-primary via-blue-400 to-primary bg-clip-text text-transparent">Previous Year Questions</span>
         </h1>
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
           Master GATE Computer Science with {index.total.toLocaleString()} questions from 2000–2026, complete with solutions, interactive quizzes, and progress tracking.
@@ -41,13 +60,13 @@ export default function HomePage() {
         <div className="flex flex-wrap justify-center gap-3">
           <Link
             href="/questions"
-            className="px-6 py-3 rounded-xl bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary/90 transition-colors"
+            className="px-6 py-3 rounded-xl bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/20 transition-all"
           >
             Browse Questions →
           </Link>
           <Link
             href="/quiz"
-            className="px-6 py-3 rounded-xl border border-border font-semibold text-sm hover:bg-muted transition-colors"
+            className="px-6 py-3 rounded-xl border border-border font-semibold text-sm hover:bg-muted hover:border-primary/30 transition-all"
           >
             Start Quiz
           </Link>
@@ -57,13 +76,13 @@ export default function HomePage() {
       {/* Stats */}
       <section className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12">
         {[
-          { label: "Total Questions", value: index.total.toLocaleString(), icon: "📝" },
-          { label: "Subjects", value: index.subjects.length.toString(), icon: "📚" },
-          { label: "Years Covered", value: `${Math.min(...Object.keys(index.years).map(Number))}–${Math.max(...Object.keys(index.years).map(Number))}`, icon: "📅" },
-          { label: "With Solutions", value: `${Math.round(((index.total - 71) / index.total) * 100)}%`, icon: "✅" },
+          { label: "Total Questions", value: index.total.toLocaleString(), icon: "📝", bg: "bg-primary/10" },
+          { label: "Subjects", value: index.subjects.length.toString(), icon: "📚", bg: "bg-purple-500/10" },
+          { label: "Years Covered", value: `${Math.min(...Object.keys(index.years).map(Number))}–${Math.max(...Object.keys(index.years).map(Number))}`, icon: "📅", bg: "bg-emerald-500/10" },
+          { label: "With Solutions", value: `${Math.round(((index.total - 71) / index.total) * 100)}%`, icon: "✅", bg: "bg-amber-500/10" },
         ].map((stat) => (
-          <div key={stat.label} className="rounded-xl border border-border p-4 bg-card text-center">
-            <div className="text-2xl mb-1">{stat.icon}</div>
+          <div key={stat.label} className="rounded-xl border border-border p-4 bg-card text-center card-surface hover-lift">
+            <div className={`text-2xl mb-1 ${stat.bg} w-10 h-10 mx-auto rounded-lg flex items-center justify-center`}>{stat.icon}</div>
             <div className="text-2xl font-bold">{stat.value}</div>
             <div className="text-xs text-muted-foreground mt-1">{stat.label}</div>
           </div>
@@ -83,7 +102,12 @@ export default function HomePage() {
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
           {index.subjects.map((s) => (
-            <SubjectCard key={s.name} name={s.name} count={s.count} />
+            <SubjectCard
+              key={s.name}
+              name={s.name}
+              count={s.count}
+              attempted={mounted ? subjectProgress[s.name]?.attempted : undefined}
+            />
           ))}
         </div>
       </section>
@@ -99,7 +123,7 @@ export default function HomePage() {
             <Link
               key={year}
               href={`/years/${year}`}
-              className="flex flex-col items-center justify-center p-3 rounded-xl border border-border hover:border-primary/30 hover:bg-muted transition-all text-center"
+              className="flex flex-col items-center justify-center p-3 rounded-xl border border-border hover:border-primary/30 hover:bg-muted hover-lift transition-all text-center"
             >
               <span className="font-bold text-lg">{year}</span>
               <span className="text-xs text-muted-foreground">{count} Qs</span>
@@ -109,7 +133,7 @@ export default function HomePage() {
       </section>
 
       {/* Quick quiz */}
-      <section className="rounded-2xl border border-border bg-gradient-to-br from-primary/5 to-primary/10 p-6 sm:p-8">
+      <section className="rounded-2xl border border-border bg-gradient-to-br from-primary/5 via-primary/10 to-transparent p-6 sm:p-8">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
             <h2 className="text-xl font-bold mb-1">Ready to Practice?</h2>
@@ -119,7 +143,7 @@ export default function HomePage() {
           </div>
           <Link
             href="/quiz"
-            className="px-6 py-3 rounded-xl bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary/90 whitespace-nowrap"
+            className="px-6 py-3 rounded-xl bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/20 transition-all whitespace-nowrap"
           >
             Start Quiz →
           </Link>

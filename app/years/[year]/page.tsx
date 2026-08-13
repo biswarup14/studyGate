@@ -4,6 +4,7 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import { Question } from "@/lib/types";
 import { QuestionCard } from "@/components/QuestionCard";
+import { sortNewestFirst } from "@/lib/sort";
 
 const PAGE_SIZE = 20;
 
@@ -17,7 +18,7 @@ export default function YearDetailPage() {
     fetch(`/data/questions-${year}.json`)
       .then((r) => (r.ok ? r.json() : []))
       .catch(() => [])
-      .then((data) => { setAllQuestions(data); setLoading(false); });
+      .then((data) => { setAllQuestions([...data].sort(sortNewestFirst)); setLoading(false); });
   }, [year]);
 
   const totalPages = Math.ceil(allQuestions.length / PAGE_SIZE);
@@ -34,8 +35,14 @@ export default function YearDetailPage() {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center min-h-[60vh]">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary" />
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
+        <div className="skeleton h-9 w-48 mb-6" />
+        <div className="skeleton h-20 mb-6" />
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {Array.from({ length: 6 }, (_, i) => (
+            <div key={i} className="skeleton h-44" />
+          ))}
+        </div>
       </div>
     );
   }

@@ -58,8 +58,12 @@ export default function QuizPage() {
 
   if (loading || !index) {
     return (
-      <div className="flex items-center justify-center min-h-[60vh]">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary" />
+      <div className="mx-auto max-w-2xl px-4 sm:px-6 py-12">
+        <div className="text-center mb-8">
+          <div className="skeleton h-10 w-56 mx-auto mb-3" />
+          <div className="skeleton h-5 w-72 mx-auto" />
+        </div>
+        <div className="skeleton h-96" />
       </div>
     );
   }
@@ -81,14 +85,14 @@ export default function QuizPage() {
         </p>
       </div>
 
-      <div className="rounded-2xl border border-border bg-card p-6 space-y-6">
+      <div className="rounded-2xl border border-border bg-card p-6 sm:p-8 space-y-6 card-surface">
         {/* Subject */}
         <div>
           <label className="block text-sm font-medium mb-2">Subject</label>
           <select
             value={subject}
             onChange={(e) => { setSubject(e.target.value); setSubtopic(""); }}
-            className="w-full px-3 py-2 rounded-lg border border-border bg-background text-sm"
+            className="w-full px-3 py-2.5 rounded-lg border border-border bg-background text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary/50"
           >
             <option value="">All Subjects</option>
             {index.subjects.map((s) => (
@@ -145,10 +149,10 @@ export default function QuizPage() {
               <button
                 key={s}
                 onClick={() => setCount(s)}
-                className={`flex-1 py-2 rounded-lg text-sm font-medium border transition-colors ${
+                className={`flex-1 py-2 rounded-lg text-sm font-medium border transition-all hover-lift ${
                   count === s
-                    ? "bg-primary text-primary-foreground border-primary"
-                    : "border-border hover:bg-muted"
+                    ? "bg-primary text-primary-foreground border-primary shadow-sm"
+                    : "border-border hover:bg-muted hover:border-primary/30"
                 }`}
               >
                 {s}
@@ -160,7 +164,7 @@ export default function QuizPage() {
         {/* Start */}
         <button
           onClick={startQuiz}
-          className="w-full py-3 rounded-xl bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary/90 transition-colors"
+          className="w-full py-3 rounded-xl bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/20 transition-all"
         >
           Start Quiz
         </button>

@@ -4,6 +4,7 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import { Question, SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/types";
 import { QuestionCard } from "@/components/QuestionCard";
+import { sortNewestFirst } from "@/lib/sort";
 
 const PAGE_SIZE = 20;
 
@@ -13,6 +14,8 @@ export default function SubjectDetailPage() {
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(1);
   const [subtopic, setSubtopic] = useState("");
+  const [difficulty, setDifficulty] = useState("");
+  const DIFFICULTIES = ["easy", "medium", "hard"] as const;
 
   // decode slug back to subject name
   const subjectName = subject
@@ -27,7 +30,7 @@ export default function SubjectDetailPage() {
           .catch(() => [])
       )
     ).then((results) => {
-      setAllQuestions(results.flat());
+      setAllQuestions(results.flat().sort(sortNewestFirst));
       setLoading(false);
     });
   }, []);
@@ -47,22 +50,52 @@ export default function SubjectDetailPage() {
   }, [filtered]);
 
   const shown = useMemo(() => {
-    return subtopic ? filtered.filter((q) => q.subtopic === subtopic) : filtered;
-  }, [filtered, subtopic]);
+    let qs = filtered;
+    if (subtopic) qs = qs.filter((q) => q.subtopic === subtopic);
+    if (difficulty) qs = qs.filter((q) => q.difficulty === difficulty);
+    return qs;
+  }, [filtered, subtopic, difficulty]);
 
   const totalPages = Math.ceil(shown.length / PAGE_SIZE);
   const paginated = shown.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
   const actualSubject = filtered[0]?.subject || subjectName;
+
+  const difficultyCounts = useMemo(() => {
+    const counts = { easy: 0, medium: 0, hard: 0 };
+    const base = subtopic ? filtered.filter((q) => q.subtopic === subtopic) : filtered;
+    base.forEach((q) => {
+      if (q.difficulty in counts) counts[q.difficulty as keyof typeof counts] += 1;
+    });
+    return counts;
+  }, [filtered, subtopic]);
 
   const selectSubtopic = (value: string) => {
     setSubtopic(value);
     setPage(1);
   };
 
+  const selectDifficulty = (value: string) => {
+    setDifficulty(value);
+    setPage(1);
+  };
+
   if (loading) {
     return (
-      <div className="flex items-center justify-center min-h-[60vh]">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary" />
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
+        <div className="flex items-center gap-3 mb-6">
+          <div className="skeleton h-9 w-40" />
+          <div className="skeleton h-5 w-24" />
+        </div>
+        <div className="flex flex-wrap gap-2 mb-6">
+          {Array.from({ length: 8 }, (_, i) => (
+            <div key={i} className="skeleton h-8 w-24" />
+          ))}
+        </div>
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {Array.from({ length: 6 }, (_, i) => (
+            <div key={i} className="skeleton h-44" />
+          ))}
+        </div>
       </div>
     );
   }
@@ -110,6 +143,31 @@ export default function SubjectDetailPage() {
           ))}
         </div>
       )}
+
+      {/* Difficulty chips */}
+      <div className="flex flex-wrap gap-2 mb-6">
+        {(["", ...DIFFICULTIES] as const).map((d) => {
+          const label = d === "" ? "All" : d[0].toUpperCase() + d.slice(1);
+          const count =
+            d === ""
+              ? difficultyCounts.easy + difficultyCounts.medium + difficultyCounts.hard
+              : difficultyCounts[d];
+          return (
+            <button
+              key={d}
+              onClick={() => selectDifficulty(d)}
+              className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-colors ${
+                difficulty === d ? "bg-primary text-primary-foreground border-primary" : "border-border hover:bg-muted"
+              }`}
+            >
+              {label}
+              <span className={`ml-1 text-xs ${difficulty === d ? "text-primary-foreground/70" : "text-muted-foreground"}`}>
+                {count}
+              </span>
+            </button>
+          );
+        })}
+      </div>
 
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {paginated.map((q) => (

@@ -4,18 +4,21 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --muted: #f5f5f5;
-  --muted-foreground: #737373;
-  --border: #e5e5e5;
+  --background: #fafafa;
+  --foreground: #0f0f0f;
+  --muted: #f0f0f0;
+  --muted-foreground: #6b6b6b;
+  --border: #e2e2e2;
   --primary: #2563eb;
   --primary-foreground: #ffffff;
+  --card: #ffffff;
+  --card-foreground: #0f0f0f;
   --accent: #f0f0f0;
-  --accent-foreground: #171717;
-  --success: #22c55e;
-  --error: #ef4444;
-  --warning: #f59e0b;
+  --accent-foreground: #0f0f0f;
+  --success: #16a34a;
+  --error: #dc2626;
+  --warning: #d97706;
+  --ring: #2563eb;
 }
 
 @theme inline {
@@ -26,34 +29,46 @@
   --color-border: var(--border);
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
   --color-success: var(--success);
   --color-error: var(--error);
   --color-warning: var(--warning);
+  --color-ring: var(--ring);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 .dark {
-  --background: #0a0a0a;
+  --background: #0f0f0f;
   --foreground: #ededed;
   --muted: #1a1a1a;
-  --muted-foreground: #a3a3a3;
-  --border: #262626;
+  --muted-foreground: #8a8a8a;
+  --border: #2a2a2a;
   --primary: #3b82f6;
   --primary-foreground: #ffffff;
-  --accent: #1a1a1a;
+  --card: #141414;
+  --card-foreground: #ededed;
+  --accent: #1f1f1f;
   --accent-foreground: #ededed;
   --success: #22c55e;
   --error: #ef4444;
   --warning: #f59e0b;
+  --ring: #3b82f6;
+}
+
+* {
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s, box-shadow 0.15s;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* KaTeX display math */
@@ -64,9 +79,101 @@ body {
 
 /* Scrollbar */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
-::-webkit-scrollbar-track { background: var(--muted); }
+::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--muted-foreground); }
 
-/* Smooth transitions */
-* { transition: background-color 0.2s, border-color 0.2s, color 0.2s; }
+/* Animations */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-down {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes shimmer {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(100%); }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+
+.animate-slide-down {
+  animation: slide-down 0.2s ease-out;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 1.5s ease-in-out infinite;
+}
+
+/* Skeleton loading */
+.skeleton {
+  background: var(--muted);
+  border-radius: 0.75rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.05), transparent);
+  animation: shimmer 1.5s infinite;
+}
+
+.dark .skeleton::after {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.03), transparent);
+}
+
+/* Utility classes */
+.hover-lift {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.dark .hover-lift:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+
+.card-surface {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+
+.dark .card-surface {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.card-surface:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.dark .card-surface:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}

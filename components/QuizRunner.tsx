@@ -77,7 +77,7 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
   return (
     <div className="max-w-2xl mx-auto">
       {/* Header */}
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-4">
           <span className="text-sm text-muted-foreground">
             Question {state.currentIndex + 1} / {questions.length}
@@ -86,28 +86,33 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
         </div>
         <button
           onClick={handleSubmit}
-          className="px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90"
+          className="px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/20 transition-all"
         >
           Submit
         </button>
       </div>
 
       {/* Progress bar */}
-      <div className="w-full h-1.5 bg-muted rounded-full mb-6 overflow-hidden">
-        <div
-          className="h-full bg-primary transition-all duration-300"
-          style={{ width: `${progress}%` }}
-        />
+      <div className="flex items-center gap-3 mb-6">
+        <div className="w-full h-2 bg-muted rounded-full overflow-hidden">
+          <div
+            className="h-full bg-gradient-to-r from-primary to-blue-400 transition-all duration-300"
+            style={{ width: `${progress}%` }}
+          />
+        </div>
+        <span className="text-xs text-muted-foreground font-medium whitespace-nowrap">
+          {Math.round(progress)}%
+        </span>
       </div>
 
       {/* Question */}
-      <div className="rounded-xl border border-border p-6 bg-card mb-6">
+      <div className="rounded-xl border border-border p-6 bg-card mb-6 card-surface animate-fade-in">
         <div className="flex items-center gap-2 mb-4 text-xs text-muted-foreground">
           <span>{current.year}</span>
           <span>·</span>
           <span>{current.subject}</span>
           <span>·</span>
-          <span className={`px-1.5 py-0.5 rounded font-medium ${
+          <span className={`px-1.5 py-0.5 rounded-full font-medium ${
             current.type === "mcq" ? "bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300" :
             current.type === "msq" ? "bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300" :
             "bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300"
@@ -122,7 +127,7 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
         </div>
 
         {current.options.length > 0 && (
-          <div className="space-y-2">
+          <div className="space-y-2.5">
             {current.options.map((opt, i) => {
               const letter = String.fromCharCode(65 + i);
               const isSelected = selected.includes(letter);
@@ -130,13 +135,15 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
                 <button
                   key={letter}
                   onClick={() => toggleOption(letter)}
-                  className={`w-full text-left p-3 rounded-lg border transition-all text-sm ${
+                  className={`w-full text-left p-3.5 rounded-xl border transition-all text-sm hover-lift ${
                     isSelected
-                      ? "border-primary bg-primary/10 ring-2 ring-primary/20"
+                      ? "border-primary bg-primary/10 ring-2 ring-primary/20 shadow-sm"
                       : "border-border hover:border-primary/30 hover:bg-muted"
                   }`}
                 >
-                  <span className="font-medium mr-2">{letter}.</span>
+                  <span className={`inline-flex items-center justify-center w-6 h-6 rounded-lg font-bold mr-2 text-xs ${
+                    isSelected ? "bg-primary text-white" : "bg-muted text-muted-foreground"
+                  }`}>{letter}</span>
                   <MathBlock text={opt} />
                 </button>
               );
@@ -146,46 +153,56 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
       </div>
 
       {/* Navigation */}
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between mb-6">
         <button
           onClick={goPrev}
           disabled={state.currentIndex === 0}
-          className="px-4 py-2 rounded-lg border border-border text-sm font-medium disabled:opacity-40 hover:bg-muted"
+          className="px-4 py-2 rounded-lg border border-border text-sm font-medium disabled:opacity-40 hover:bg-muted hover:border-primary/30 transition-all"
         >
           ← Previous
         </button>
 
-        <div className="flex gap-1">
-          {questions.map((_, i) => (
-            <button
-              key={i}
-              onClick={() => setState((prev) => ({ ...prev, currentIndex: i }))}
-              className={`w-2 h-2 rounded-full transition-colors ${
-                i === state.currentIndex
-                  ? "bg-primary"
-                  : state.answers[i]
-                  ? "bg-primary/40"
-                  : "bg-border"
-              }`}
-            />
-          ))}
-        </div>
-
         {state.currentIndex === questions.length - 1 ? (
           <button
             onClick={handleSubmit}
-            className="px-4 py-2 rounded-lg bg-success text-white text-sm font-medium hover:bg-success/90"
+            className="px-4 py-2 rounded-lg bg-success text-white text-sm font-medium hover:bg-success/90 hover:shadow-lg hover:shadow-success/20 transition-all"
           >
             Submit Quiz
           </button>
         ) : (
           <button
             onClick={goNext}
-            className="px-4 py-2 rounded-lg border border-border text-sm font-medium hover:bg-muted"
+            className="px-4 py-2 rounded-lg border border-border text-sm font-medium hover:bg-muted hover:border-primary/30 transition-all"
           >
             Next →
           </button>
         )}
+      </div>
+
+      {/* Question navigator grid */}
+      <div className="rounded-xl border border-border bg-card p-4 card-surface">
+        <p className="text-xs text-muted-foreground mb-2">Questions</p>
+        <div className="flex flex-wrap gap-1.5">
+          {questions.map((_, i) => {
+            const answered = !!state.answers[i];
+            const isCurrent = i === state.currentIndex;
+            return (
+              <button
+                key={i}
+                onClick={() => setState((prev) => ({ ...prev, currentIndex: i }))}
+                className={`w-8 h-8 rounded-lg text-xs font-medium border transition-all ${
+                  isCurrent
+                    ? "bg-primary text-primary-foreground border-primary shadow-sm"
+                    : answered
+                    ? "bg-primary/10 text-primary border-primary/30"
+                    : "border-border text-muted-foreground hover:bg-muted hover:border-primary/30"
+                }`}
+              >
+                {i + 1}
+              </button>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
@@ -225,7 +242,7 @@ function QuizResults({
   });
 
   return (
-    <div className="max-w-2xl mx-auto text-center py-8">
+    <div className="max-w-2xl mx-auto text-center py-8 animate-fade-in">
       <ProgressRing correct={correct} total={questions.length} size={120} />
 
       <h2 className="text-2xl font-bold mt-6 mb-2">Quiz Complete!</h2>
@@ -233,22 +250,40 @@ function QuizResults({
         {correct}/{questions.length} correct · {totalScore}/{maxScore} marks · {mins}m {secs}s
       </p>
 
+      {/* Stat cards */}
+      <div className="grid grid-cols-3 gap-3 mb-8">
+        <div className="rounded-xl border border-border bg-card p-4 card-surface">
+          <div className="text-xl font-bold text-primary">{correct}/{questions.length}</div>
+          <div className="text-xs text-muted-foreground mt-1">Correct</div>
+        </div>
+        <div className="rounded-xl border border-border bg-card p-4 card-surface">
+          <div className="text-xl font-bold text-success">
+            {questions.length > 0 ? Math.round((correct / questions.length) * 100) : 0}%
+          </div>
+          <div className="text-xs text-muted-foreground mt-1">Accuracy</div>
+        </div>
+        <div className="rounded-xl border border-border bg-card p-4 card-surface">
+          <div className="text-xl font-bold text-amber-500">{mins}m {secs}s</div>
+          <div className="text-xs text-muted-foreground mt-1">Time</div>
+        </div>
+      </div>
+
       <div className="flex justify-center gap-4 mb-8">
         <Link
           href="/quiz"
-          className="px-6 py-2.5 rounded-lg border border-border text-sm font-medium hover:bg-muted"
+          className="px-6 py-2.5 rounded-lg border border-border text-sm font-medium hover:bg-muted hover:border-primary/30 transition-all"
         >
           New Quiz
         </Link>
         <button
           onClick={() => window.location.reload()}
-          className="px-6 py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90"
+          className="px-6 py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/20 transition-all"
         >
           Retry
         </button>
       </div>
 
-      <div className="text-left space-y-4">
+      <div className="text-left space-y-3">
         <h3 className="font-semibold text-lg">Review</h3>
         {questions.map((q, i) => {
           const ans = answers[i] || [];
@@ -263,7 +298,7 @@ function QuizResults({
           return (
             <div
               key={i}
-              className={`p-4 rounded-xl border ${
+              className={`p-4 rounded-xl border transition-all ${
                 isCorrect ? "border-success/30 bg-success/5" : "border-error/30 bg-error/5"
               }`}
             >
