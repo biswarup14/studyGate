@@ -1,14 +1,28 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import { SubjectCard } from "@/components/SubjectCard";
 import { CountdownTimer } from "@/components/CountdownTimer";
 import { useSubjectProgress } from "@/components/useSubjectProgress";
-import { IndexData } from "@/lib/types";
+import { IndexData, Question } from "@/lib/types";
+
+const LAST_10_YEARS = Array.from({ length: 10 }, (_, i) => 2026 - i); // 2017–2026
+
+interface TopicStat {
+  subject: string;
+  topic: string;
+  count: number;
+}
+
+interface SubjectStat {
+  subject: string;
+  count: number;
+}
 
 export default function HomePage() {
   const [index, setIndex] = useState<IndexData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [recentQuestions, setRecentQuestions] = useState<Question[]>([]);
   const { subjectProgress, mounted } = useSubjectProgress();
 
   useEffect(() => {
@@ -17,6 +31,39 @@ export default function HomePage() {
       .then((d) => { setIndex(d); setLoading(false); })
       .catch(() => setLoading(false));
   }, []);
+
+  useEffect(() => {
+    Promise.all(
+      LAST_10_YEARS.map((y) =>
+        fetch(`/data/questions-${y}.json`)
+          .then((r) => (r.ok ? r.json() : []))
+          .catch(() => [])
+      )
+    ).then((results) => setRecentQuestions(results.flat()));
+  }, []);
+
+  const hotTopics = useMemo<TopicStat[]>(() => {
+    const counts = new Map<string, TopicStat>();
+    recentQuestions.forEach((q) => {
+      if (q.subject === "General Aptitude" || !q.subtopic) return;
+      const key = `${q.subject}\u0000${q.subtopic}`;
+      const cur = counts.get(key) || { subject: q.subject, topic: q.subtopic, count: 0 };
+      cur.count += 1;
+      counts.set(key, cur);
+    });
+    return [...counts.values()].sort((a, b) => b.count - a.count).slice(0, 10);
+  }, [recentQuestions]);
+
+  const hotSubjects = useMemo<SubjectStat[]>(() => {
+    const counts = new Map<string, number>();
+    recentQuestions.forEach((q) => {
+      if (q.subject === "General Aptitude") return;
+      counts.set(q.subject, (counts.get(q.subject) || 0) + 1);
+    });
+    return [...counts.entries()]
+      .map(([subject, count]) => ({ subject, count }))
+      .sort((a, b) => b.count - a.count);
+  }, [recentQuestions]);
 
   if (loading || !index) {
     return (
@@ -229,6 +276,100 @@ export default function HomePage() {
                   </Link>
                 );
               })}
+            </div>
+          </div>
+
+          {/* Detailed statistics: last 10 years */}
+          <div className="mt-7 grid gap-6 lg:grid-cols-2">
+            {/* Hot topics to study */}
+            <div>
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
+                  Hot Topics to Study
+                </h3>
+                <span className="text-[11px] text-muted-foreground">2017–2026</span>
+              </div>
+              {recentQuestions.length === 0 ? (
+                <div className="space-y-2">
+                  {Array.from({ length: 6 }, (_, i) => (
+                    <div key={i} className="skeleton h-7" />
+                  ))}
+                </div>
+              ) : (
+                <ul className="space-y-2">
+                  {hotTopics.map((t, i) => {
+                    const pct = (t.count / hotTopics[0].count) * 100;
+                    return (
+                      <li key={`${t.subject}-${t.topic}`} className="group relative">
+                        <Link
+                          href={`/subjects/${t.subject.toLowerCase().replace(/[^a-z0-9]+/g, "-")}?subtopic=${encodeURIComponent(t.topic)}`}
+                          className="block"
+                        >
+                          <div className="flex items-center justify-between gap-2 text-xs mb-1">
+                            <span className="flex items-center gap-2 min-w-0">
+                              <span className="w-4 text-right shrink-0 tabular-nums text-muted-foreground/70">{i + 1}</span>
+                              <span className="truncate font-medium">{t.topic}</span>
+                              <span className="hidden sm:inline text-muted-foreground truncate">· {t.subject}</span>
+                            </span>
+                            <span className="shrink-0 tabular-nums font-semibold">{t.count}</span>
+                          </div>
+                          <div className="h-1.5 rounded-full bg-muted overflow-hidden">
+                            <div
+                              className="h-full rounded-full bg-gradient-to-r from-primary to-blue-400 animate-grow-bar"
+                              style={{ width: `${pct}%`, animationDelay: `${i * 40}ms` }}
+                            />
+                          </div>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              )}
+            </div>
+
+            {/* Most asked subjects (excl. GA) */}
+            <div>
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
+                  Most Asked Subjects
+                </h3>
+                <span className="text-[11px] text-muted-foreground">excl. General Aptitude</span>
+              </div>
+              {recentQuestions.length === 0 ? (
+                <div className="space-y-2">
+                  {Array.from({ length: 6 }, (_, i) => (
+                    <div key={i} className="skeleton h-7" />
+                  ))}
+                </div>
+              ) : (
+                <ul className="space-y-2">
+                  {hotSubjects.slice(0, 10).map((s, i) => {
+                    const pct = (s.count / hotSubjects[0].count) * 100;
+                    return (
+                      <li key={s.subject} className="group relative">
+                        <Link
+                          href={`/subjects/${s.subject.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
+                          className="block"
+                        >
+                          <div className="flex items-center justify-between gap-2 text-xs mb-1">
+                            <span className="flex items-center gap-2 min-w-0">
+                              <span className="w-4 text-right shrink-0 tabular-nums text-muted-foreground/70">{i + 1}</span>
+                              <span className="truncate font-medium">{s.subject}</span>
+                            </span>
+                            <span className="shrink-0 tabular-nums font-semibold">{s.count} q</span>
+                          </div>
+                          <div className="h-1.5 rounded-full bg-muted overflow-hidden">
+                            <div
+                              className="h-full rounded-full bg-gradient-to-r from-purple-500 to-fuchsia-400 animate-grow-bar"
+                              style={{ width: `${pct}%`, animationDelay: `${i * 40}ms` }}
+                            />
+                          </div>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              )}
             </div>
           </div>
         </div>
