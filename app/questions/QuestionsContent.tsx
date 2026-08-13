@@ -20,7 +20,6 @@ const SUBJECTS = [
   "Operating Systems",
   "Databases (DBMS)",
   "Computer Networks",
-  "Unclassified",
 ];
 const YEARS = Array.from({ length: 27 }, (_, i) => 2000 + i).reverse();
 const TYPES = ["mcq", "msq", "nat"] as const;

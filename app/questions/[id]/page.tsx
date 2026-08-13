@@ -151,7 +151,7 @@ export default function QuestionDetailPage() {
                       : [letter]
                   );
                 }}
-                className={`w-full text-left p-4 sm:p-5 rounded-xl border transition-all text-sm hover-lift ${
+                className={`w-full text-left p-4 sm:p-5 rounded-xl border transition-all text-sm hover-lift flex items-start gap-3 ${
                   correct
                     ? "border-success bg-success/10 ring-2 ring-success/30"
                     : wrong
@@ -161,13 +161,15 @@ export default function QuestionDetailPage() {
                     : "border-border hover:border-primary/30 hover:bg-muted"
                 }`}
               >
-                <span className={`inline-flex items-center justify-center w-7 h-7 rounded-lg font-bold mr-3 ${
+                <span className={`inline-flex items-center justify-center w-7 h-7 rounded-lg font-bold shrink-0 mt-0.5 ${
                   correct ? "bg-success text-white" :
                   wrong ? "bg-error text-white" :
                   isSelected ? "bg-primary text-white" :
                   "bg-muted text-muted-foreground"
                 }`}>{letter}</span>
-                <MathBlock text={opt} />
+                <span className="flex-1 leading-relaxed">
+                  <MathBlock text={opt} />
+                </span>
               </button>
             );
           })}

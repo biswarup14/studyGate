@@ -135,16 +135,18 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
                 <button
                   key={letter}
                   onClick={() => toggleOption(letter)}
-                  className={`w-full text-left p-3.5 rounded-xl border transition-all text-sm hover-lift ${
+                  className={`w-full text-left p-3.5 rounded-xl border transition-all text-sm hover-lift flex items-start gap-3 ${
                     isSelected
                       ? "border-primary bg-primary/10 ring-2 ring-primary/20 shadow-sm"
                       : "border-border hover:border-primary/30 hover:bg-muted"
                   }`}
                 >
-                  <span className={`inline-flex items-center justify-center w-6 h-6 rounded-lg font-bold mr-2 text-xs ${
+                  <span className={`inline-flex items-center justify-center w-6 h-6 rounded-lg font-bold shrink-0 mt-0.5 text-xs ${
                     isSelected ? "bg-primary text-white" : "bg-muted text-muted-foreground"
                   }`}>{letter}</span>
-                  <MathBlock text={opt} />
+                  <span className="flex-1 leading-relaxed">
+                    <MathBlock text={opt} />
+                  </span>
                 </button>
               );
             })}
