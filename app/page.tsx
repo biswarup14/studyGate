@@ -1,13 +1,20 @@
 "use client";
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
-import { SubjectCard } from "@/components/SubjectCard";
-import { CountdownTimer } from "@/components/CountdownTimer";
+import dynamic from "next/dynamic";
 import { Reveal } from "@/components/Reveal";
 import { useSubjectProgress } from "@/components/useSubjectProgress";
-import { IndexData, Question } from "@/lib/types";
+import { IndexData, SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/types";
 
-const LAST_10_YEARS = Array.from({ length: 10 }, (_, i) => 2026 - i); // 2017–2026
+const CountdownTimer = dynamic(
+  () => import("@/components/CountdownTimer").then((m) => m.CountdownTimer),
+  { ssr: false }
+);
+
+interface HotTopicsData {
+  hotTopics: TopicStat[];
+  hotSubjects: SubjectStat[];
+}
 
 interface TopicStat {
   subject: string;
@@ -23,48 +30,22 @@ interface SubjectStat {
 export default function HomePage() {
   const [index, setIndex] = useState<IndexData | null>(null);
   const [loading, setLoading] = useState(true);
-  const [recentQuestions, setRecentQuestions] = useState<Question[]>([]);
+  const [hotData, setHotData] = useState<HotTopicsData | null>(null);
   const { subjectProgress, mounted } = useSubjectProgress();
 
   useEffect(() => {
-    fetch("/data/index.json")
-      .then((r) => r.json())
-      .then((d) => { setIndex(d); setLoading(false); })
-      .catch(() => setLoading(false));
+    Promise.all([
+      fetch("/data/index.json").then((r) => r.json()),
+      fetch("/data/hot-topics.json").then((r) => r.json()).catch(() => null),
+    ]).then(([idx, hot]) => {
+      setIndex(idx);
+      setHotData(hot);
+      setLoading(false);
+    }).catch(() => setLoading(false));
   }, []);
 
-  useEffect(() => {
-    Promise.all(
-      LAST_10_YEARS.map((y) =>
-        fetch(`/data/questions-${y}.json`)
-          .then((r) => (r.ok ? r.json() : []))
-          .catch(() => [])
-      )
-    ).then((results) => setRecentQuestions(results.flat()));
-  }, []);
-
-  const hotTopics = useMemo<TopicStat[]>(() => {
-    const counts = new Map<string, TopicStat>();
-    recentQuestions.forEach((q) => {
-      if (q.subject === "General Aptitude" || !q.subtopic) return;
-      const key = `${q.subject}\u0000${q.subtopic}`;
-      const cur = counts.get(key) || { subject: q.subject, topic: q.subtopic, count: 0 };
-      cur.count += 1;
-      counts.set(key, cur);
-    });
-    return [...counts.values()].sort((a, b) => b.count - a.count).slice(0, 10);
-  }, [recentQuestions]);
-
-  const hotSubjects = useMemo<SubjectStat[]>(() => {
-    const counts = new Map<string, number>();
-    recentQuestions.forEach((q) => {
-      if (q.subject === "General Aptitude") return;
-      counts.set(q.subject, (counts.get(q.subject) || 0) + 1);
-    });
-    return [...counts.entries()]
-      .map(([subject, count]) => ({ subject, count }))
-      .sort((a, b) => b.count - a.count);
-  }, [recentQuestions]);
+  const hotTopics = hotData?.hotTopics ?? [];
+  const hotSubjects = hotData?.hotSubjects ?? [];
 
   if (loading || !index) {
     return (
@@ -195,16 +176,65 @@ export default function HomePage() {
           <h2 className="text-xl font-bold">Subjects</h2>
           <Link href="/subjects" className="text-sm text-primary hover:underline">View all →</Link>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-          {index.subjects.map((s, i) => (
-            <Reveal key={s.name} delay={((i % 6) + 1) as 1 | 2 | 3 | 4 | 5 | 6}>
-              <SubjectCard
-                name={s.name}
-                count={s.count}
-                attempted={mounted ? subjectProgress[s.name]?.attempted : undefined}
-              />
-            </Reveal>
-          ))}
+        <div className="card-surface overflow-hidden divide-y divide-border">
+          {index.subjects.map((s, i) => {
+            const attempted = mounted ? subjectProgress[s.name]?.attempted : undefined;
+            const pct = s.count > 0 && attempted ? Math.min(100, Math.round((attempted / s.count) * 100)) : 0;
+            return (
+              <Reveal key={s.name} delay={((i % 6) + 1) as 1 | 2 | 3 | 4 | 5 | 6}>
+                <Link
+                  href={`/subjects/${s.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`}
+                  className="group flex items-center gap-4 px-5 py-3.5 hover:bg-muted/60 transition-colors duration-150 relative overflow-hidden"
+                >
+                  {/* Accent bar on hover */}
+                  <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[3px] h-0 group-hover:h-8 bg-primary rounded-r-full transition-all duration-300" />
+
+                  {/* Icon */}
+                  <div
+                    className={`flex-shrink-0 w-10 h-10 rounded-xl bg-gradient-to-br ${SUBJECT_COLORS[s.name] || "from-gray-500 to-gray-600"} flex items-center justify-center text-white text-xs font-bold shadow-sm`}
+                  >
+                    {SUBJECT_ICONS[s.name] || s.name.slice(0, 2)}
+                  </div>
+
+                  {/* Name + count */}
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-baseline justify-between gap-3">
+                      <span className="font-semibold text-sm group-hover:text-primary transition-colors truncate">
+                        {s.name}
+                      </span>
+                      <span className="text-xs text-muted-foreground tabular-nums flex-shrink-0">
+                        {s.count.toLocaleString()} q
+                      </span>
+                    </div>
+                    {/* Progress bar */}
+                    {attempted != null && attempted > 0 && (
+                      <div className="mt-1.5 flex items-center gap-2">
+                        <div className="h-1.5 flex-1 rounded-full bg-muted overflow-hidden">
+                          <div
+                            className={`h-full rounded-full bg-gradient-to-r ${SUBJECT_COLORS[s.name] || "from-gray-500 to-gray-600"} transition-all duration-700 ease-out`}
+                            style={{ width: `${pct}%` }}
+                          />
+                        </div>
+                        <span className="text-[11px] tabular-nums text-muted-foreground flex-shrink-0">
+                          {attempted}/{s.count}
+                        </span>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Chevron */}
+                  <svg
+                    className="h-4 w-4 text-muted-foreground/40 group-hover:text-primary group-hover:translate-x-0.5 transition-all flex-shrink-0"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              </Reveal>
+            );
+          })}
         </div>
       </Reveal>
 
@@ -293,7 +323,7 @@ export default function HomePage() {
                 </h3>
                 <span className="text-[11px] text-muted-foreground">2017–2026</span>
               </div>
-              {recentQuestions.length === 0 ? (
+              {hotTopics.length === 0 ? (
                 <div className="space-y-2">
                   {Array.from({ length: 6 }, (_, i) => (
                     <div key={i} className="skeleton h-7" />
@@ -339,7 +369,7 @@ export default function HomePage() {
                 </h3>
                 <span className="text-[11px] text-muted-foreground">excl. General Aptitude</span>
               </div>
-              {recentQuestions.length === 0 ? (
+              {hotSubjects.length === 0 ? (
                 <div className="space-y-2">
                   {Array.from({ length: 6 }, (_, i) => (
                     <div key={i} className="skeleton h-7" />

@@ -74,17 +74,41 @@ function SubjectDetailContent() {
     .replace(/\b\w/g, (c) => c.toUpperCase());
 
   useEffect(() => {
-    Promise.all(
-      Array.from({ length: 27 }, (_, i) =>
-        fetch(`/data/questions-${2000 + i}.json`)
-          .then((r) => (r.ok ? r.json() : []))
-          .catch(() => [])
-      )
-    ).then((results) => {
-      setAllQuestions(results.flat().sort(sortNewestFirst));
-      setLoading(false);
-    });
-  }, []);
+    fetch("/data/subject-index.json")
+      .then((r) => (r.ok ? r.json() : {}))
+      .then((idx: Record<string, string[]>) => {
+        const subjectName = Object.keys(idx).find(
+          (k) => k.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") === subject
+        );
+        const ids = subjectName ? idx[subjectName] : [];
+        if (!ids || ids.length === 0) {
+          setAllQuestions([]);
+          setLoading(false);
+          return;
+        }
+        const yearsToFetch = ids.some((id) => !/^\d{4}-/.test(id))
+          ? Array.from({ length: 27 }, (_, i) => 2000 + i)
+          : [...new Set(ids.map((id) => parseInt(id.split("-")[0], 10)))];
+        return Promise.all(
+          yearsToFetch.map((y) =>
+            fetch(`/data/questions-${y}.json`)
+              .then((r) => (r.ok ? r.json() : []))
+              .catch(() => [])
+          )
+        ).then((results) => {
+          const all = results.flat();
+          const relevant = all.filter((q: Question) =>
+            ids.includes(q.id)
+          );
+          setAllQuestions(relevant.sort(sortNewestFirst));
+          setLoading(false);
+        });
+      })
+      .catch(() => {
+        setAllQuestions([]);
+        setLoading(false);
+      });
+  }, [subject]);
 
   const filtered = useMemo(() => {
     return allQuestions.filter(

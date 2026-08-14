@@ -1,31 +1,30 @@
 "use client";
 import { useState, useEffect, useMemo } from "react";
-import { Question } from "@/lib/types";
 import { PageHeader } from "@/components/PageHeader";
 import { Select } from "@/components/Select";
 import { SetMarksCard } from "@/components/SetMarksCard";
 import { Reveal } from "@/components/Reveal";
-import { aggregateByYearAndSet, getAllYears, SUBJECT_BAR_COLORS } from "@/lib/marks";
+import { SUBJECT_BAR_COLORS } from "@/lib/marks";
+import type { YearMarks } from "@/lib/marks";
 
 export default function MarksPage() {
-  const [questions, setQuestions] = useState<Question[]>([]);
+  const [yearMarks, setYearMarks] = useState<YearMarks[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    Promise.all(
-      Array.from({ length: 27 }, (_, i) =>
-        fetch(`/data/questions-${2000 + i}.json`)
-          .then((r) => (r.ok ? r.json() : []))
-          .catch(() => [])
-      )
-    ).then((results) => {
-      setQuestions(results.flat());
-      setLoading(false);
-    });
+    fetch("/data/marks-distribution.json")
+      .then((r) => r.json())
+      .then((data) => {
+        const parsed: YearMarks[] = Object.entries(data.years)
+          .map(([y, sets]) => ({ year: parseInt(y), sets: sets as YearMarks["sets"] }))
+          .sort((a, b) => a.year - b.year);
+        setYearMarks(parsed);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
   }, []);
 
-  const yearMarks = useMemo(() => aggregateByYearAndSet(questions), [questions]);
-  const years = useMemo(() => getAllYears(questions), [questions]).reverse();
+  const years = useMemo(() => yearMarks.map((y) => y.year), [yearMarks]);
 
   const [selectedYear, setSelectedYear] = useState<number>(2026);
   const active = yearMarks.find((ym) => ym.year === selectedYear);
@@ -62,7 +61,7 @@ export default function MarksPage() {
         }
       />
 
-      {loading || questions.length === 0 ? (
+      {loading || yearMarks.length === 0 ? (
         <div className="space-y-4">
           <div className="skeleton h-14 mb-6" />
           {Array.from({ length: 3 }, (_, i) => (
