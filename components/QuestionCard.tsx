@@ -47,7 +47,7 @@ export function QuestionCard({ question }: { question: Question }) {
         </div>
       </div>
 
-      <div className="text-sm text-foreground/90 line-clamp-3 mb-2">
+      <div className="text-[15px] text-foreground leading-relaxed line-clamp-3 mb-2">
         <MathBlock text={stripImagePlaceholders(question.text)} />
       </div>
 
@@ -56,7 +56,7 @@ export function QuestionCard({ question }: { question: Question }) {
           {question.options.slice(0, 4).map((opt, i) => (
             <span
               key={i}
-              className="text-xs px-2 py-1 rounded-md bg-muted text-muted-foreground"
+              className="text-[13px] px-2 py-1 rounded-md bg-muted text-foreground/70"
             >
               {String.fromCharCode(65 + i)}. {opt.length > 30 ? opt.slice(0, 30) + "…" : opt}
             </span>

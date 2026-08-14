@@ -54,7 +54,7 @@ export function FilterDropdown({
             : "border-border bg-card hover:border-primary/30 hover:bg-muted"
         }`}
       >
-        <span className="text-muted-foreground text-[11px] font-bold uppercase tracking-wider">{label}</span>
+        <span className="text-muted-foreground text-xs font-bold uppercase tracking-wider">{label}</span>
         <span className={value ? "text-foreground font-medium" : "text-muted-foreground"}>{selected?.label || placeholder}</span>
         <svg
           className={`h-3.5 w-3.5 text-muted-foreground transition-transform ${open ? "rotate-180" : ""}`}

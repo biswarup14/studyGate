@@ -23,7 +23,7 @@ export function SubjectCard({ name, count, attempted = 0 }: SubjectCardProps) {
       </div>
 
       <h3 className="font-semibold text-sm mb-1 group-hover:text-primary transition-colors">{name}</h3>
-      <p className="text-xs text-muted-foreground">
+      <p className="text-[13px] text-muted-foreground">
         {count} question{count !== 1 ? "s" : ""}
       </p>
 

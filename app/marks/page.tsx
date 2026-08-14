@@ -112,7 +112,7 @@ export default function MarksPage() {
           )}
 
           {detail && !detail.sets.every((s) => s.marksAvailable) && (
-            <p className="text-xs text-muted-foreground mt-8">
+            <p className="text-sm text-muted-foreground mt-8">
               Marks are not recorded in the source for papers before 2018; those sets show question-count distribution instead.
             </p>
           )}

@@ -72,7 +72,7 @@ export function CountdownTimer() {
                       {display}
                     </span>
                   </div>
-                  <span className="mt-1.5 text-[11px] font-medium text-muted-foreground uppercase tracking-wide">
+                  <span className="mt-1.5 text-xs font-medium text-muted-foreground uppercase tracking-wide">
                     {label}
                   </span>
                 </div>

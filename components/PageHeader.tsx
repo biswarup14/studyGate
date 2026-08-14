@@ -42,7 +42,7 @@ export function PageHeader({
           )}
           <div className="min-w-0">
             <h1 className="text-2xl font-bold tracking-tight">{title}</h1>
-            {subtitle && <p className="text-sm text-muted-foreground mt-1">{subtitle}</p>}
+            {subtitle && <p className="text-[15px] text-muted-foreground mt-1">{subtitle}</p>}
           </div>
         </div>
         {right && <div className="flex items-center gap-2 flex-wrap shrink-0">{right}</div>}

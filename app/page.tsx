@@ -164,7 +164,7 @@ export default function HomePage() {
             <div className="rounded-xl border border-border p-4 bg-card text-center card-surface hover-lift btn-press">
               <div className={`w-10 h-10 mx-auto rounded-lg flex items-center justify-center mb-2.5 ${stat.bg}`}>{stat.icon}</div>
               <div className="text-2xl font-bold leading-tight">{stat.value}</div>
-              <div className="text-xs text-muted-foreground mt-1">{stat.label}</div>
+              <div className="text-[13px] text-muted-foreground mt-1">{stat.label}</div>
             </div>
           </Reveal>
         ))}
@@ -179,7 +179,6 @@ export default function HomePage() {
         <div className="card-surface overflow-hidden divide-y divide-border">
           {index.subjects.map((s, i) => {
             const attempted = mounted ? subjectProgress[s.name]?.attempted : undefined;
-            const pct = s.count > 0 && attempted ? Math.min(100, Math.round((attempted / s.count) * 100)) : 0;
             return (
               <Reveal key={s.name} delay={((i % 6) + 1) as 1 | 2 | 3 | 4 | 5 | 6}>
                 <Link
@@ -206,19 +205,11 @@ export default function HomePage() {
                         {s.count.toLocaleString()} q
                       </span>
                     </div>
-                    {/* Progress bar */}
+                    {/* Progress */}
                     {attempted != null && attempted > 0 && (
-                      <div className="mt-1.5 flex items-center gap-2">
-                        <div className="h-1.5 flex-1 rounded-full bg-muted overflow-hidden">
-                          <div
-                            className={`h-full rounded-full bg-gradient-to-r ${SUBJECT_COLORS[s.name] || "from-gray-500 to-gray-600"} transition-all duration-700 ease-out`}
-                            style={{ width: `${pct}%` }}
-                          />
-                        </div>
-                        <span className="text-[11px] tabular-nums text-muted-foreground flex-shrink-0">
-                          {attempted}/{s.count}
-                        </span>
-                      </div>
+                      <span className="text-xs tabular-nums text-muted-foreground flex-shrink-0">
+                        {attempted}/{s.count}
+                      </span>
                     )}
                   </div>
 
@@ -299,12 +290,12 @@ export default function HomePage() {
                         }}
                       />
                       <div className="pointer-events-none absolute inset-x-0 -top-8 z-10 flex justify-center opacity-0 transition-opacity duration-150 group-hover:opacity-100">
-                        <span className="rounded-md bg-foreground px-2 py-1 text-[11px] font-semibold text-background shadow-lg whitespace-nowrap">
+                        <span className="rounded-md bg-foreground px-2 py-1 text-xs font-semibold text-background shadow-lg whitespace-nowrap">
                           {year} · {count} Qs
                         </span>
                       </div>
                     </div>
-                    <span className="mt-1.5 text-center text-[11px] tabular-nums text-muted-foreground transition-colors group-hover:text-primary">
+                    <span className="mt-1.5 text-center text-xs tabular-nums text-muted-foreground transition-colors group-hover:text-primary">
                       {year}
                     </span>
                   </Link>
@@ -321,7 +312,7 @@ export default function HomePage() {
                 <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
                   Hot Topics to Study
                 </h3>
-                <span className="text-[11px] text-muted-foreground">2017–2026</span>
+                <span className="text-xs text-muted-foreground">2017–2026</span>
               </div>
               {hotTopics.length === 0 ? (
                 <div className="space-y-2">
@@ -339,9 +330,9 @@ export default function HomePage() {
                           href={`/subjects/${t.subject.toLowerCase().replace(/[^a-z0-9]+/g, "-")}?subtopic=${encodeURIComponent(t.topic)}`}
                           className="block"
                         >
-                          <div className="flex items-center justify-between gap-2 text-xs mb-1">
+                          <div className="flex items-center justify-between gap-2 text-[13px] mb-1">
                             <span className="flex items-center gap-2 min-w-0">
-                              <span className="w-4 text-right shrink-0 tabular-nums text-muted-foreground/70">{i + 1}</span>
+                              <span className="w-4 text-right shrink-0 tabular-nums text-muted-foreground">{i + 1}</span>
                               <span className="truncate font-medium">{t.topic}</span>
                               <span className="hidden sm:inline text-muted-foreground truncate">· {t.subject}</span>
                             </span>
@@ -367,7 +358,7 @@ export default function HomePage() {
                 <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
                   Most Asked Subjects
                 </h3>
-                <span className="text-[11px] text-muted-foreground">excl. General Aptitude</span>
+                <span className="text-xs text-muted-foreground">excl. General Aptitude</span>
               </div>
               {hotSubjects.length === 0 ? (
                 <div className="space-y-2">
@@ -385,9 +376,9 @@ export default function HomePage() {
                           href={`/subjects/${s.subject.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
                           className="block"
                         >
-                          <div className="flex items-center justify-between gap-2 text-xs mb-1">
+                          <div className="flex items-center justify-between gap-2 text-[13px] mb-1">
                             <span className="flex items-center gap-2 min-w-0">
-                              <span className="w-4 text-right shrink-0 tabular-nums text-muted-foreground/70">{i + 1}</span>
+                              <span className="w-4 text-right shrink-0 tabular-nums text-muted-foreground">{i + 1}</span>
                               <span className="truncate font-medium">{s.subject}</span>
                             </span>
                             <span className="shrink-0 tabular-nums font-semibold">{s.count} q</span>
