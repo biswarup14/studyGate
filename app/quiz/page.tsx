@@ -48,17 +48,24 @@ function QuizConfig() {
 
   useEffect(() => {
     Promise.all([
-      fetch("/data/index.json").then((r) => r.json()),
-      ...Array.from({ length: 27 }, (_, i) =>
-        fetch(`/data/questions-${2000 + i}.json`)
-          .then((r) => (r.ok ? r.json() : []))
-          .catch(() => [])
-      ),
-    ]).then(([idx, ...results]) => {
-      setIndex(idx);
-      setAllQuestions(results.flat());
-      setLoading(false);
-    });
+      fetch("/data/index.json").then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      }),
+      fetch("/data/questions-all.json").then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      }),
+    ])
+      .then(([idx, questions]) => {
+        setIndex(idx);
+        setAllQuestions(questions);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error("Failed to load quiz data:", err);
+        setLoading(false);
+      });
   }, []);
 
   const availableSubtopics = index?.subtopics[subject] || [];

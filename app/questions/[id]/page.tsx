@@ -20,18 +20,20 @@ export default function QuestionDetailPage() {
   const { data: session } = useSession();
 
   useEffect(() => {
-    Promise.all(
-      Array.from({ length: 27 }, (_, i) =>
-        fetch(`/data/questions-${2000 + i}.json`)
-          .then((r) => (r.ok ? r.json() : []))
-          .catch(() => [])
-      )
-    ).then((results) => {
-      const all = results.flat();
-      const q = all.find((item: Question) => item.id === id);
-      setQuestion(q || null);
-      setLoading(false);
-    });
+    fetch("/data/questions-all.json")
+      .then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      })
+      .then((data: Question[]) => {
+        const q = data.find((item) => item.id === id);
+        setQuestion(q || null);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error("Failed to load question:", err);
+        setLoading(false);
+      });
   }, [id]);
 
   const checkAnswer = useCallback(() => {

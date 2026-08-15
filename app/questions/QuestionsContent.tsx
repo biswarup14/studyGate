@@ -61,16 +61,19 @@ export function QuestionsContent() {
   }, [router, search, subject, subtopic, branch, year, type, hasAnswer, page]);
 
   useEffect(() => {
-    Promise.all(
-      Array.from({ length: 27 }, (_, i) =>
-        fetch(`/data/questions-${2000 + i}.json`)
-          .then((r) => (r.ok ? r.json() : []))
-          .catch(() => [])
-      )
-    ).then((results) => {
-      setAllQuestions(results.flat().sort(sortNewestFirst));
-      setLoading(false);
-    });
+    fetch("/data/questions-all.json")
+      .then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      })
+      .then((data: Question[]) => {
+        setAllQuestions(data.sort(sortNewestFirst));
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error("Failed to load questions:", err);
+        setLoading(false);
+      });
   }, []);
 
   const filtered = useMemo(() => {

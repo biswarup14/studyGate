@@ -1,8 +1,7 @@
 import { Question, IndexData } from "./types";
 
 let _index: IndexData | null = null;
-const _yearCache: Map<number, Question[]> = new Map();
-const _allQuestions: Question[] = [];
+let _allQuestions: Question[] = [];
 
 export async function getIndex(): Promise<IndexData> {
   if (_index) return _index;
@@ -11,23 +10,11 @@ export async function getIndex(): Promise<IndexData> {
   return _index!;
 }
 
-export async function getYearQuestions(year: number): Promise<Question[]> {
-  if (_yearCache.has(year)) return _yearCache.get(year)!;
-  const res = await fetch(`/data/questions-${year}.json`);
-  if (!res.ok) return [];
-  const data: Question[] = await res.json();
-  _yearCache.set(year, data);
-  return data;
-}
-
 export async function getAllQuestions(): Promise<Question[]> {
   if (_allQuestions.length > 0) return _allQuestions;
-  const idx = await getIndex();
-  const years = Object.keys(idx.years).map(Number).sort((a, b) => a - b);
-  for (const y of years) {
-    const qs = await getYearQuestions(y);
-    _allQuestions.push(...qs);
-  }
+  const res = await fetch("/data/questions-all.json");
+  if (!res.ok) return [];
+  _allQuestions = (await res.json()) as Question[];
   return _allQuestions;
 }
 
@@ -39,10 +26,6 @@ export async function getQuestionById(id: string): Promise<Question | undefined>
 export async function getQuestionsBySubject(subject: string): Promise<Question[]> {
   const all = await getAllQuestions();
   return all.filter((q) => q.subject === subject);
-}
-
-export async function getQuestionsByYear(year: number): Promise<Question[]> {
-  return getYearQuestions(year);
 }
 
 export async function searchQuestions(query: string): Promise<Question[]> {
@@ -81,7 +64,6 @@ export async function getRandomQuestions(
     pool = pool.filter((q) => q.type === filters.type);
   }
 
-  // Filter out questions without answers for quiz
   pool = pool.filter((q) => q.correctAnswer && q.correctAnswer.length > 0 && (q.type === "mcq" || q.type === "msq"));
 
   const shuffled = [...pool].sort(() => Math.random() - 0.5);
