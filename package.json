@@ -13,6 +13,7 @@
     "@auth/prisma-adapter": "^2.11.3",
     "@prisma/client": "^5.22.0",
     "@types/katex": "^0.16.8",
+    "@vercel/og": "^1.0.1",
     "bcryptjs": "^3.0.3",
     "katex": "^0.18.4",
     "next": "16.3.0",
