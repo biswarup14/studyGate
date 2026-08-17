@@ -14,10 +14,16 @@ model User {
   emailVerified DateTime?
   image         String?
   passwordHash  String?
+  role          Role      @default(USER)
   accounts      Account[]
   sessions      Session[]
   progress      Progress[]
   createdAt     DateTime  @default(now())
+}
+
+enum Role {
+  USER
+  ADMIN
 }
 
 model Account {
