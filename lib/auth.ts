@@ -3,7 +3,7 @@ import Google from "next-auth/providers/google";
 import GitHub from "next-auth/providers/github";
 import Credentials from "next-auth/providers/credentials";
 import bcrypt from "bcryptjs";
-import { prisma } from "./prisma";
+import { getDb } from "./prisma";
 
 const providers = [];
 
@@ -35,7 +35,7 @@ providers.push(
     async authorize(credentials) {
       if (!credentials?.email || !credentials?.password) return null;
 
-      const user = await prisma.user.findUnique({
+      const user = await getDb().user.findUnique({
         where: { email: credentials.email as string },
       });
 
@@ -70,7 +70,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
     async jwt({ token, user }) {
       if (user) {
         token.id = user.id;
-        const dbUser = await prisma.user.findUnique({
+        const dbUser = await getDb().user.findUnique({
           where: { id: user.id },
           select: { role: true },
         });
