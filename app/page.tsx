@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { HomeContent } from "./HomeContent";
 import { SeoContent } from "./SeoContent";
+import { FaqSection } from "./FaqSection";
 
 export const metadata: Metadata = {
   title: "StudyGate – GATE CS Previous Year Questions | Free PYQ with Solutions",
@@ -59,6 +60,7 @@ export default function HomePage() {
     <>
       <HomeContent />
       <SeoContent />
+      <FaqSection />
     </>
   );
 }

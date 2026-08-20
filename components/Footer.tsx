@@ -1,9 +1,40 @@
 import Link from "next/link";
+import { FAQ_DATA } from "@/app/FaqSection";
 
 export function Footer() {
   return (
     <footer className="border-t border-border bg-muted/50 mt-auto">
       <div className="h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
+
+      {/* FAQ Section */}
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10 pb-8">
+        <h2 className="text-lg font-bold mb-5">Frequently Asked Questions</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          {FAQ_DATA.map((faq) => (
+            <details
+              key={faq.question}
+              className="group rounded-xl border border-border bg-card overflow-hidden"
+            >
+              <summary className="flex items-center justify-between gap-3 px-5 py-3.5 cursor-pointer text-sm font-semibold select-none hover:bg-muted/60 transition-colors list-none [&::-webkit-details-marker]:hidden">
+                <span>{faq.question}</span>
+                <svg
+                  className="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200 group-open:rotate-180"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="px-5 pb-4 text-sm text-muted-foreground leading-relaxed border-t border-border/50">
+                <p className="pt-3">{faq.answer}</p>
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+
+      <div className="border-t border-border" />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
           <div>
