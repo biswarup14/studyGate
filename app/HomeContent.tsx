@@ -277,7 +277,7 @@ export function HomeContent() {
                   <span className="font-semibold text-foreground">{years.length} papers</span> ·{" "}
                   <span className="font-semibold text-foreground">{total.toLocaleString()}</span> questions total
                 </p>
-                <div className="flex items-center gap-4 text-xs text-muted-foreground tabular-nums">
+                <div className="flex flex-wrap items-center gap-2 sm:gap-4 text-xs text-muted-foreground tabular-nums">
                   <span className="inline-flex items-center gap-1.5">
                     <span className="h-2.5 w-2.5 rounded-sm bg-primary" />
                     {max.year} · {max.count.toLocaleString()} max

@@ -57,7 +57,7 @@ export function CountdownTimer() {
         {timeLeft.passed ? (
           <p className="text-2xl font-bold text-primary">The exam has begun — good luck!</p>
         ) : (
-          <div className="flex items-start gap-2 sm:gap-3">
+          <div className="flex items-start gap-1.5 sm:gap-3">
             {UNITS.map(({ key, label }) => {
               const display = String(timeLeft[key]).padStart(2, "0");
               return (

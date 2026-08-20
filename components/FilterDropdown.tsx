@@ -67,7 +67,7 @@ export function FilterDropdown({
       </button>
 
       {open && (
-        <div className="absolute z-30 left-0 mt-2 w-64 max-h-80 overflow-y-auto rounded-xl border border-border bg-card p-1.5 shadow-xl animate-menu-in">
+        <div className="absolute z-30 left-0 mt-2 w-56 sm:w-64 min-w-[200px] max-h-80 overflow-y-auto rounded-xl border border-border bg-card p-1.5 shadow-xl animate-menu-in">
           <button
             onClick={() => select("")}
             className={`flex w-full items-center justify-between gap-3 rounded-lg px-3 py-2 text-left text-sm transition-colors ${

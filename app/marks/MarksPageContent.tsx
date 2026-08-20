@@ -88,7 +88,7 @@ export function MarksPageContent() {
       ) : (
         <>
           {/* Legend */}
-          <div className="flex flex-wrap gap-x-4 gap-y-1.5 mb-8">
+          <div className="flex flex-wrap gap-x-3 gap-y-1 sm:gap-x-4 sm:gap-y-1.5 mb-8">
             {Object.entries(SUBJECT_BAR_COLORS).map(([name, color]) => (
               <span key={name} className="inline-flex items-center gap-1.5 text-xs text-muted-foreground">
                 <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: color }} />

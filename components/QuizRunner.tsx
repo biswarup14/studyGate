@@ -87,16 +87,16 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
   return (
     <div className="max-w-2xl mx-auto">
       {/* Header */}
-      <div className="flex items-center justify-between mb-4">
-        <div className="flex items-center gap-4">
+      <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
+        <div className="flex items-center gap-2 sm:gap-4">
           <span className="text-sm text-muted-foreground">
-            Question {state.currentIndex + 1} / {questions.length}
+            {state.currentIndex + 1}/{questions.length}
           </span>
           <Timer initialMinutes={Math.ceil(questions.length * 1.5)} onTimeUp={handleTimeUp} />
         </div>
         <button
           onClick={handleSubmit}
-          className="px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/20 transition-all"
+          className="px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg bg-primary text-primary-foreground text-xs sm:text-sm font-medium hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/20 transition-all"
         >
           Submit
         </button>
@@ -164,22 +164,22 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
         <button
           onClick={goPrev}
           disabled={state.currentIndex === 0}
-          className="px-4 py-2 rounded-lg border border-border text-sm font-medium disabled:opacity-40 hover:bg-muted hover:border-primary/30 transition-all"
+          className="px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg border border-border text-xs sm:text-sm font-medium disabled:opacity-40 hover:bg-muted hover:border-primary/30 transition-all"
         >
-          ← Previous
+          ← Prev
         </button>
 
         {state.currentIndex === questions.length - 1 ? (
           <button
             onClick={handleSubmit}
-            className="px-4 py-2 rounded-lg bg-success text-white text-sm font-medium hover:bg-success/90 hover:shadow-lg hover:shadow-success/20 transition-all"
+            className="px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg bg-success text-white text-xs sm:text-sm font-medium hover:bg-success/90 hover:shadow-lg hover:shadow-success/20 transition-all"
           >
             Submit Quiz
           </button>
         ) : (
           <button
             onClick={goNext}
-            className="px-4 py-2 rounded-lg border border-border text-sm font-medium hover:bg-muted hover:border-primary/30 transition-all"
+            className="px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg border border-border text-xs sm:text-sm font-medium hover:bg-muted hover:border-primary/30 transition-all"
           >
             Next →
           </button>

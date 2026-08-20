@@ -121,21 +121,23 @@ export function SetMarksCard({ setMarks }: { setMarks: SetMarks }) {
       </div>
 
       {/* Subject table */}
-      <table className="w-full text-sm">
-        <thead>
-          <tr className="text-xs text-muted-foreground border-b border-border">
-            <th className="py-1.5 pl-3 text-left font-medium">Subject</th>
-            <th className="py-1.5 text-right font-medium">Q</th>
-            <th className="py-1.5 text-right font-medium">Marks</th>
-            <th className="py-1.5 pr-3 text-right font-medium">{setMarks.marksAvailable ? "% marks" : "% q"}</th>
-          </tr>
-        </thead>
-        <tbody className="divide-y divide-border/50">
-          {setMarks.subjects.map((s) => (
-            <SubjectRow key={s.name} sub={s} setMarks={setMarks} />
-          ))}
-        </tbody>
-      </table>
+      <div className="overflow-x-auto -mx-5 px-5">
+        <table className="w-full text-sm min-w-[420px]">
+          <thead>
+            <tr className="text-xs text-muted-foreground border-b border-border">
+              <th className="py-1.5 pl-3 text-left font-medium">Subject</th>
+              <th className="py-1.5 text-right font-medium">Q</th>
+              <th className="py-1.5 text-right font-medium">Marks</th>
+              <th className="py-1.5 pr-3 text-right font-medium">{setMarks.marksAvailable ? "% marks" : "% q"}</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-border/50">
+            {setMarks.subjects.map((s) => (
+              <SubjectRow key={s.name} sub={s} setMarks={setMarks} />
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
