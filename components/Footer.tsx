@@ -36,7 +36,7 @@ export function Footer() {
 
       <div className="border-t border-border" />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
           <div>
             <h3 className="font-semibold text-sm mb-3 flex items-center gap-2">
               <span className="flex h-6 w-6 items-center justify-center rounded-md bg-gradient-to-br from-primary to-blue-600 text-primary-foreground text-xs font-black">
@@ -54,6 +54,15 @@ export function Footer() {
               <Link href="/questions" className="block text-sm text-muted-foreground hover:text-primary transition-colors">Browse Questions</Link>
               <Link href="/subjects" className="block text-sm text-muted-foreground hover:text-primary transition-colors">Subjects</Link>
               <Link href="/quiz" className="block text-sm text-muted-foreground hover:text-primary transition-colors">Practice Quiz</Link>
+            </div>
+          </div>
+          <div>
+            <h3 className="font-semibold text-sm mb-3">Legal</h3>
+            <div className="space-y-2">
+              <Link href="/about" className="block text-sm text-muted-foreground hover:text-primary transition-colors">About Us</Link>
+              <Link href="/privacy-policy" className="block text-sm text-muted-foreground hover:text-primary transition-colors">Privacy Policy</Link>
+              <Link href="/terms" className="block text-sm text-muted-foreground hover:text-primary transition-colors">Terms &amp; Conditions</Link>
+              <Link href="/contact" className="block text-sm text-muted-foreground hover:text-primary transition-colors">Contact Us</Link>
             </div>
           </div>
           <div>
