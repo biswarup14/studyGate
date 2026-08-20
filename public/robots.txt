@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /login
+
+Sitemap: https://gate-cs-prep.vercel.app/sitemap.xml
