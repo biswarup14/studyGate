@@ -9,14 +9,35 @@ import { useSubjectProgress } from "@/components/useSubjectProgress";
 export function SubjectsPageContent() {
   const [index, setIndex] = useState<IndexData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
   const { subjectProgress, mounted } = useSubjectProgress();
 
   useEffect(() => {
     fetch("/data/index.json")
-      .then((r) => r.json())
+      .then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      })
       .then((d) => { setIndex(d); setLoading(false); })
-      .catch(() => setLoading(false));
+      .catch(() => { setError(true); setLoading(false); });
   }, []);
+
+  if (error) {
+    return (
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 text-center">
+        <div className="rounded-2xl border border-error/30 bg-error/5 p-8 max-w-md mx-auto">
+          <h2 className="text-lg font-bold mb-2">Failed to load subjects</h2>
+          <p className="text-muted-foreground text-sm mb-4">Please check your connection and try again.</p>
+          <button
+            onClick={() => window.location.reload()}
+            className="px-5 py-2.5 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
+          >
+            Retry
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   if (loading || !index) {
     return (

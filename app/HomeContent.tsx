@@ -4,7 +4,7 @@ import Link from "next/link";
 import dynamic from "next/dynamic";
 import { Reveal } from "@/components/Reveal";
 import { useSubjectProgress } from "@/components/useSubjectProgress";
-import { IndexData, SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/types";
+import { IndexData, SUBJECT_COLORS, SUBJECT_ICONS, subjectSlug } from "@/lib/types";
 
 const CountdownTimer = dynamic(
   () => import("@/components/CountdownTimer").then((m) => m.CountdownTimer),
@@ -30,22 +30,49 @@ interface SubjectStat {
 export function HomeContent() {
   const [index, setIndex] = useState<IndexData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [hotData, setHotData] = useState<HotTopicsData | null>(null);
   const { subjectProgress, mounted } = useSubjectProgress();
 
   useEffect(() => {
     Promise.all([
-      fetch("/data/index.json").then((r) => r.json()),
+      fetch("/data/index.json").then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      }),
       fetch("/data/hot-topics.json").then((r) => r.json()).catch(() => null),
     ]).then(([idx, hot]) => {
       setIndex(idx);
       setHotData(hot);
       setLoading(false);
-    }).catch(() => setLoading(false));
+    }).catch(() => {
+      setError("Failed to load data. Please refresh the page.");
+      setLoading(false);
+    });
   }, []);
 
   const hotTopics = hotData?.hotTopics ?? [];
   const hotSubjects = hotData?.hotSubjects ?? [];
+
+  if (error) {
+    return (
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 text-center">
+        <div className="rounded-2xl border border-error/30 bg-error/5 p-8 max-w-md mx-auto">
+          <svg className="h-10 w-10 text-error mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z" />
+          </svg>
+          <h2 className="text-lg font-bold mb-2">Something went wrong</h2>
+          <p className="text-muted-foreground text-sm mb-4">{error}</p>
+          <button
+            onClick={() => window.location.reload()}
+            className="px-5 py-2.5 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
+          >
+            Try Again
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   if (loading || !index) {
     return (
@@ -182,7 +209,7 @@ export function HomeContent() {
             return (
               <Reveal key={s.name} delay={((i % 6) + 1) as 1 | 2 | 3 | 4 | 5 | 6}>
                 <Link
-                  href={`/subjects/${s.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`}
+                  href={`/subjects/${subjectSlug(s.name)}`}
                   className="group flex items-center gap-4 px-5 py-3.5 hover:bg-muted/60 transition-colors duration-150 relative overflow-hidden"
                 >
                   {/* Accent bar on hover */}
@@ -327,7 +354,7 @@ export function HomeContent() {
                     return (
                       <li key={`${t.subject}-${t.topic}`} className="group relative">
                         <Link
-                          href={`/subjects/${t.subject.toLowerCase().replace(/[^a-z0-9]+/g, "-")}?subtopic=${encodeURIComponent(t.topic)}`}
+                          href={`/subjects/${subjectSlug(t.subject)}?subtopic=${encodeURIComponent(t.topic)}`}
                           className="block"
                         >
                           <div className="flex items-center justify-between gap-2 text-[13px] mb-1">
@@ -373,7 +400,7 @@ export function HomeContent() {
                     return (
                       <li key={s.subject} className="group relative">
                         <Link
-                          href={`/subjects/${s.subject.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
+                          href={`/subjects/${subjectSlug(s.subject)}`}
                           className="block"
                         >
                           <div className="flex items-center justify-between gap-2 text-[13px] mb-1">

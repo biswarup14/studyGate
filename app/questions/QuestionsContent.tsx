@@ -5,8 +5,10 @@ import { Question } from "@/lib/types";
 import { QuestionCard } from "@/components/QuestionCard";
 import { FilterDropdown } from "@/components/FilterDropdown";
 import { PageHeader } from "@/components/PageHeader";
+import { Pagination } from "@/components/Pagination";
 import { Reveal } from "@/components/Reveal";
 import { sortNewestFirst } from "@/lib/sort";
+import { cachedFetch } from "@/lib/cache";
 
 const PAGE_SIZE = 20;
 const SUBJECTS = [
@@ -61,12 +63,8 @@ export function QuestionsContent() {
   }, [router, search, subject, subtopic, branch, year, type, hasAnswer, page]);
 
   useEffect(() => {
-    fetch("/data/questions-all.json")
-      .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.json();
-      })
-      .then((data: Question[]) => {
+    cachedFetch<Question[]>("/data/questions-all.json")
+      .then((data) => {
         setAllQuestions(data.sort(sortNewestFirst));
         setLoading(false);
       })
@@ -316,25 +314,7 @@ export function QuestionsContent() {
       )}
 
       {totalPages > 1 && (
-        <div className="flex items-center justify-center gap-2 mt-8">
-          <button
-            onClick={() => setPage(Math.max(1, page - 1))}
-            disabled={page === 1}
-            className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-40 hover:bg-muted hover:border-primary/30 transition-all"
-          >
-            ← Prev
-          </button>
-          <span className="text-sm text-muted-foreground">
-            Page {page} of {totalPages}
-          </span>
-          <button
-            onClick={() => setPage(Math.min(totalPages, page + 1))}
-            disabled={page === totalPages}
-            className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-40 hover:bg-muted hover:border-primary/30 transition-all"
-          >
-            Next →
-          </button>
-        </div>
+        <Pagination page={page} totalPages={totalPages} onPageChange={setPage} />
       )}
     </div>
   );

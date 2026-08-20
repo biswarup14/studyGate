@@ -10,10 +10,14 @@ import type { YearMarks } from "@/lib/marks";
 export function MarksPageContent() {
   const [yearMarks, setYearMarks] = useState<YearMarks[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     fetch("/data/marks-distribution.json")
-      .then((r) => r.json())
+      .then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      })
       .then((data) => {
         const parsed: YearMarks[] = Object.entries(data.years)
           .map(([y, sets]) => ({ year: parseInt(y), sets: sets as YearMarks["sets"] }))
@@ -21,7 +25,7 @@ export function MarksPageContent() {
         setYearMarks(parsed);
         setLoading(false);
       })
-      .catch(() => setLoading(false));
+      .catch(() => { setError(true); setLoading(false); });
   }, []);
 
   const years = useMemo(() => yearMarks.map((y) => y.year), [yearMarks]);
@@ -61,7 +65,20 @@ export function MarksPageContent() {
         }
       />
 
-      {loading || yearMarks.length === 0 ? (
+      {error ? (
+        <div className="text-center py-12">
+          <div className="rounded-2xl border border-error/30 bg-error/5 p-8 max-w-md mx-auto">
+            <h2 className="text-lg font-bold mb-2">Failed to load marks data</h2>
+            <p className="text-muted-foreground text-sm mb-4">Please check your connection and try again.</p>
+            <button
+              onClick={() => window.location.reload()}
+              className="px-5 py-2.5 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
+            >
+              Retry
+            </button>
+          </div>
+        </div>
+      ) : loading || yearMarks.length === 0 ? (
         <div className="space-y-4">
           <div className="skeleton h-14 mb-6" />
           {Array.from({ length: 3 }, (_, i) => (

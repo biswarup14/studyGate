@@ -2,10 +2,12 @@
 import { useState, useEffect, useMemo, Suspense } from "react";
 import { useParams, useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
-import { Question, SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/types";
+import { Question, SUBJECT_COLORS, SUBJECT_ICONS, subjectFromSlug } from "@/lib/types";
 import { QuestionCard } from "@/components/QuestionCard";
 import { FilterDropdown } from "@/components/FilterDropdown";
 import { PageHeader } from "@/components/PageHeader";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { Pagination } from "@/components/Pagination";
 import { Reveal } from "@/components/Reveal";
 import { sortNewestFirst } from "@/lib/sort";
 
@@ -69,9 +71,7 @@ function SubjectDetailInner() {
   }, [router, subject, subtopic, difficulty, branch, year, page]);
 
   // decode slug back to subject name
-  const subjectName = subject
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (c) => c.toUpperCase());
+  const subjectName = subjectFromSlug(subject);
 
   useEffect(() => {
     fetch("/data/subject-index.json")
@@ -188,6 +188,10 @@ function SubjectDetailInner() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
+      <Breadcrumbs items={[
+        { label: "Subjects", href: "/subjects" },
+        { label: actualSubject },
+      ]} />
       <PageHeader
         back={{ href: "/subjects", label: "All Subjects" }}
         icon={<span>{SUBJECT_ICONS[actualSubject] || actualSubject.slice(0, 2)}</span>}
@@ -294,25 +298,7 @@ function SubjectDetailInner() {
       )}
 
       {totalPages > 1 && (
-        <div className="flex items-center justify-center gap-2 mt-8">
-          <button
-            onClick={() => setPage(Math.max(1, page - 1))}
-            disabled={page === 1}
-            className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-40 hover:bg-muted"
-          >
-            ← Prev
-          </button>
-          <span className="text-sm text-muted-foreground">
-            Page {page} of {totalPages}
-          </span>
-          <button
-            onClick={() => setPage(Math.min(totalPages, page + 1))}
-            disabled={page === totalPages}
-            className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-40 hover:bg-muted"
-          >
-            Next →
-          </button>
-        </div>
+        <Pagination page={page} totalPages={totalPages} onPageChange={setPage} />
       )}
     </div>
   );

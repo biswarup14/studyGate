@@ -4,6 +4,8 @@ import { useParams, useSearchParams, useRouter } from "next/navigation";
 import { Question, SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/types";
 import { QuestionCard } from "@/components/QuestionCard";
 import { PageHeader } from "@/components/PageHeader";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { Pagination } from "@/components/Pagination";
 import { Reveal } from "@/components/Reveal";
 import { sortNewestFirst } from "@/lib/sort";
 
@@ -73,6 +75,10 @@ function YearDetailInner() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
+      <Breadcrumbs items={[
+        { label: "Questions", href: "/questions" },
+        { label: `GATE ${year}` },
+      ]} />
       <PageHeader
         back={{ href: "/questions", label: "All Questions" }}
         icon={<span className="text-sm font-black">{year}</span>}
@@ -121,25 +127,7 @@ function YearDetailInner() {
       )}
 
       {totalPages > 1 && (
-        <div className="flex items-center justify-center gap-2 mt-8">
-          <button
-            onClick={() => setPage(Math.max(1, page - 1))}
-            disabled={page === 1}
-            className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-40 hover:bg-muted"
-          >
-            ← Prev
-          </button>
-          <span className="text-sm text-muted-foreground">
-            Page {page} of {totalPages}
-          </span>
-          <button
-            onClick={() => setPage(Math.min(totalPages, page + 1))}
-            disabled={page === totalPages}
-            className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-40 hover:bg-muted"
-          >
-            Next →
-          </button>
-        </div>
+        <Pagination page={page} totalPages={totalPages} onPageChange={setPage} />
       )}
     </div>
   );

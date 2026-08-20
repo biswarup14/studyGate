@@ -59,8 +59,11 @@
   --ring: #3b82f6;
 }
 
+/* Smooth dark-mode color switching. box-shadow is excluded because
+   transitioning it on every element causes severe repaint thrashing
+   and makes the site feel irresponsive. */
 * {
-  transition: background-color 0.15s, border-color 0.15s, color 0.15s, box-shadow 0.15s;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
 }
 
 ::selection {
@@ -296,4 +299,9 @@ body {
   border: 1px solid var(--border);
   border-radius: 0.625rem;
   background: var(--muted);
+}
+
+/* iOS safe area for bottom nav */
+.safe-area-inset-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0);
 }

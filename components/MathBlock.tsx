@@ -49,32 +49,41 @@ export function MathBlock({ text, className, images, imageOffset = 0 }: MathBloc
   useEffect(() => {
     if (!ref.current || typeof window === "undefined") return;
 
-    import("katex").then((katex) => {
-      if (!ref.current) return;
-      const parts = splitLatex(text);
-      const html = parts
-        .map((part) => {
-          if (part.type === "text") {
-            const decoded = part.content
-              .replace(/&amp;/g, "&")
-              .replace(/&lt;/g, "<")
-              .replace(/&gt;/g, ">")
-              .replace(/\n/g, "<br/>");
-            return resolveImagePlaceholders(decoded, images, imageOffset);
-          }
-          try {
-            const displayMode = part.type === "displaymath";
-            return katex.default.renderToString(part.content, {
-              throwOnError: false,
-              displayMode,
-            });
-          } catch {
-            return `<span class="text-error">${part.content}</span>`;
-          }
-        })
-        .join("");
-      ref.current.innerHTML = html;
-    });
+    import("katex")
+      .then((katex) => {
+        if (!ref.current) return;
+        const parts = splitLatex(text);
+        const html = parts
+          .map((part) => {
+            if (part.type === "text") {
+              const decoded = part.content
+                .replace(/&amp;/g, "&")
+                .replace(/&lt;/g, "<")
+                .replace(/&gt;/g, ">")
+                .replace(/\n/g, "<br/>");
+              return resolveImagePlaceholders(decoded, images, imageOffset);
+            }
+            try {
+              const displayMode = part.type === "displaymath";
+              return katex.default.renderToString(part.content, {
+                throwOnError: false,
+                displayMode,
+              });
+            } catch {
+              return `<span class="text-error">${part.content}</span>`;
+            }
+          })
+          .join("");
+        ref.current.innerHTML = html;
+      })
+      .catch(() => {
+        if (!ref.current) return;
+        const textContent = text
+          .replace(/\$\$[\s\S]*?\$\$/g, "")
+          .replace(/\$[^$]*\$/g, "")
+          .replace(/\n/g, "<br/>");
+        ref.current.innerHTML = textContent;
+      });
   }, [text, images, imageOffset]);
 
   return <div ref={ref} className={className} />;

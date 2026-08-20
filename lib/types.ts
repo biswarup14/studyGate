@@ -100,6 +100,20 @@ export const SUBJECT_ICONS: Record<string, string> = {
   "Computer Networks": "CN",
 };
 
+/** Generate a URL-safe slug from a subject name. */
+export function subjectSlug(name: string): string {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+/** Reverse lookup: slug → subject name. Returns the original slug if no match. */
+export function subjectFromSlug(slug: string): string {
+  return SUBJECT_SLUG_MAP[slug] || slug;
+}
+
+const SUBJECT_SLUG_MAP: Record<string, string> = Object.fromEntries(
+  Object.keys(SUBJECT_COLORS).map((name) => [subjectSlug(name), name])
+);
+
 export const SUBTOPIC_COLORS: Record<string, string> = {
   // Engineering Mathematics
   "Linear Algebra": "bg-sky-500/15 text-sky-700 dark:text-sky-300",

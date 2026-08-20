@@ -1,11 +1,13 @@
 "use client";
 import { useState, useEffect, useMemo, Suspense } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useSession } from "next-auth/react";
 import { Question, IndexData } from "@/lib/types";
 import { QuizRunner } from "@/components/QuizRunner";
 import { PageHeader } from "@/components/PageHeader";
 import { Select } from "@/components/Select";
+import { cachedFetch } from "@/lib/cache";
 
 const QUIZ_SIZES = [10, 20, 30, 50];
 
@@ -28,12 +30,12 @@ export function QuizPageContent() {
 }
 
 function QuizConfig() {
-  const router = useRouter();
   const searchParams = useSearchParams();
   const { data: session } = useSession();
   const [index, setIndex] = useState<IndexData | null>(null);
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
 
   // config
   const [subject, setSubject] = useState(searchParams.get("subject") || "");
@@ -48,14 +50,8 @@ function QuizConfig() {
 
   useEffect(() => {
     Promise.all([
-      fetch("/data/index.json").then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.json();
-      }),
-      fetch("/data/questions-all.json").then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.json();
-      }),
+      cachedFetch<IndexData>("/data/index.json"),
+      cachedFetch<Question[]>("/data/questions-all.json"),
     ])
       .then(([idx, questions]) => {
         setIndex(idx);
@@ -64,6 +60,7 @@ function QuizConfig() {
       })
       .catch((err) => {
         console.error("Failed to load quiz data:", err);
+        setError(true);
         setLoading(false);
       });
   }, []);
@@ -81,10 +78,6 @@ function QuizConfig() {
   const effectiveCount = Math.min(count, poolSize || count);
 
   const startQuiz = () => {
-    if (!session?.user) {
-      router.push(`/login?callbackUrl=${encodeURIComponent("/quiz")}`);
-      return;
-    }
     let pool = allQuestions.filter((q) => q.correctAnswer && q.correctAnswer.length > 0);
     if (subject) pool = pool.filter((q) => q.subject === subject);
     if (subtopic) pool = pool.filter((q) => q.subtopic === subtopic);
@@ -96,6 +89,23 @@ function QuizConfig() {
       setStarted(true);
     }
   };
+
+  if (error) {
+    return (
+      <div className="mx-auto max-w-2xl px-4 sm:px-6 py-12 text-center">
+        <div className="rounded-2xl border border-error/30 bg-error/5 p-8">
+          <h2 className="text-lg font-bold mb-2">Failed to load quiz data</h2>
+          <p className="text-muted-foreground text-sm mb-4">Please check your connection and try again.</p>
+          <button
+            onClick={() => window.location.reload()}
+            className="px-5 py-2.5 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
+          >
+            Retry
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   if (loading || !index) {
     return (
@@ -218,6 +228,9 @@ function QuizConfig() {
 
         <p className="text-xs text-muted-foreground text-center">
           Only questions with available answers are included. Randomized order.
+          {!session?.user && (
+            <> <Link href="/login" className="text-primary hover:underline">Sign in</Link> to save your progress.</>
+          )}
         </p>
       </div>
     </div>

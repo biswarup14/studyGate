@@ -6,7 +6,9 @@ import { Question, SUBJECT_COLORS, SUBJECT_ICONS, SUBTOPIC_COLORS } from "@/lib/
 import { MathBlock } from "@/components/MathBlock";
 import { TypeBadge } from "@/components/TypeBadge";
 import { QuestionImages } from "@/components/QuestionImages";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { placeholderCount } from "@/lib/images";
+import { cachedFetch } from "@/lib/cache";
 import { useProgress } from "@/components/useProgress";
 import { useSession } from "next-auth/react";
 
@@ -20,20 +22,34 @@ export function QuestionDetailContent() {
   const { data: session } = useSession();
 
   useEffect(() => {
-    fetch("/data/questions-all.json")
-      .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.json();
-      })
-      .then((data: Question[]) => {
-        const q = data.find((item) => item.id === id);
-        setQuestion(q || null);
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error("Failed to load question:", err);
-        setLoading(false);
-      });
+    if (!id) return;
+
+    const yearMatch = id.match(/^(\d{4})/);
+    const year = yearMatch ? parseInt(yearMatch[1]) : null;
+
+    if (year) {
+      cachedFetch<Question[]>(`/data/questions-${year}.json`)
+        .then((data) => {
+          const q = data.find((item) => item.id === id);
+          setQuestion(q || null);
+          setLoading(false);
+        })
+        .catch((err) => {
+          console.error("Failed to load question:", err);
+          setLoading(false);
+        });
+    } else {
+      cachedFetch<Question[]>("/data/questions-all.json")
+        .then((data) => {
+          const q = data.find((item) => item.id === id);
+          setQuestion(q || null);
+          setLoading(false);
+        })
+        .catch((err) => {
+          console.error("Failed to load question:", err);
+          setLoading(false);
+        });
+    }
   }, [id]);
 
   const checkAnswer = useCallback(() => {
@@ -109,11 +125,10 @@ export function QuestionDetailContent() {
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 py-8">
       {/* Breadcrumb */}
-      <div className="flex items-center gap-2 text-sm text-muted-foreground mb-6">
-        <Link href="/questions" className="hover:text-primary">Questions</Link>
-        <span>/</span>
-        <span className="text-foreground">Question {question.id}</span>
-      </div>
+      <Breadcrumbs items={[
+        { label: "Questions", href: "/questions" },
+        { label: `Question ${question.id}` },
+      ]} />
 
       {/* Meta */}
       <div className="flex items-center gap-2.5 mb-5 flex-wrap">

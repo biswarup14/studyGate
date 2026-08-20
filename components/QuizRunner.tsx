@@ -70,15 +70,15 @@ export function QuizRunner({ questions }: { questions: Question[] }) {
     }));
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = useCallback(() => {
     setElapsed(Math.round((Date.now() - startTime) / 1000));
     setState((prev) => ({ ...prev, submitted: true }));
-  };
+  }, [startTime]);
 
-  const handleTimeUp = () => {
+  const handleTimeUp = useCallback(() => {
     setElapsed(Math.round((Date.now() - startTime) / 1000));
     setState((prev) => ({ ...prev, submitted: true }));
-  };
+  }, [startTime]);
 
   if (state.submitted) {
     return <QuizResults questions={questions} answers={state.answers} elapsed={elapsed} />;
